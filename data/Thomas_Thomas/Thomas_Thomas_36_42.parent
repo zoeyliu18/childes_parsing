@@ -78,10 +78,12 @@
 2	no	no	co	1	discourse	1	discourse	Mother MOT Mother	Thomas 36.06644900305961 male Thomas declarative 2 2 Eng-UK=null
 
 # text = not Bob_the_Builder 's Wendy
-1	not	not	neg	4	advmod	4	advmod	Mother MOT Mother	Thomas 36.06644900305961 male Thomas declarative 5 3 Eng-UK=null
-2	Bob_the_Builder	Bob_the_Builder	n	4	nmod:poss	4	nmod:poss	Mother MOT Mother	Thomas 36.06644900305961 male Thomas declarative 5 3 Eng-UK=null
-3	's	's	poss	2	case	2	case	Mother MOT Mother	Thomas 36.06644900305961 male Thomas declarative 5 3 Eng-UK=null
-4	Wendy	Wendy	n:prop	0	root	0	root	Mother MOT Mother	Thomas 36.06644900305961 male Thomas declarative 5 3 Eng-UK=null
+1	not	not	neg	6	advmod	6	advmod	Mother MOT Mother	Thomas 36.06644900305961 male Thomas declarative 5 3 Eng-UK=null
+2	Bob	Bob_the_Builder	n	6	nmod:poss	6	nmod:poss	Mother MOT Mother	Thomas 36.06644900305961 male Thomas declarative 5 3 Eng-UK=null
+3	the	Bob_the_Builder	n	4	det	4	det	Mother MOT Mother	Thomas 36.06644900305961 male Thomas declarative 5 3 Eng-UK=null
+4	Builder	Bob_the_Builder	n	2	appos	2	appos	Mother MOT Mother	Thomas 36.06644900305961 male Thomas declarative 5 3 Eng-UK=null
+5	's	's	poss	2	case	2	case	Mother MOT Mother	Thomas 36.06644900305961 male Thomas declarative 5 3 Eng-UK=null
+6	Wendy	Wendy	n:prop	0	root	0	root	Mother MOT Mother	Thomas 36.06644900305961 male Thomas declarative 5 3 Eng-UK=null
 
 # text = we mean Daddy 's friend Wendy
 1	we	we	pro:sub	2	nsubj	2	nsubj	Mother MOT Mother	Thomas 36.06644900305961 male Thomas declarative 7 5 Eng-UK=null
@@ -234,7 +236,7 @@
 7	no	no	co	10	discourse	10	discourse	Mother MOT Mother	Thomas 36.06644900305961 male Thomas declarative 12 8 Eng-UK=null
 8	it	it	pro	10	nsubj	10	nsubj	Mother MOT Mother	Thomas 36.06644900305961 male Thomas declarative 12 8 Eng-UK=null
 9	's	be	cop	10	cop	10	cop	Mother MOT Mother	Thomas 36.06644900305961 male Thomas declarative 12 8 Eng-UK=null
-10	beautiful	beautiful	adj	5	parataxis	5	parataxis	Mother MOT Mother	Thomas 36.06644900305961 male Thomas declarative 12 8 Eng-UK=null
+10	beautiful	beautiful	adj	5	parataxis	5	ccomp	Mother MOT Mother	Thomas 36.06644900305961 male Thomas declarative 12 8 Eng-UK=null
 11	Mummy	Mummy	n:prop	10	vocative	10	vocative	Mother MOT Mother	Thomas 36.06644900305961 male Thomas declarative 12 8 Eng-UK=null
 
 # text = but it is big is n't it
@@ -2619,4 +2621,3 @@
 21	poorly	_	_	_	_	23	amod	Mother MOT Mother	Thomas 36.06644900305961 male Thomas question 30 21 Eng-UK
 22	teddy	_	_	_	_	23	compound	Mother MOT Mother	Thomas 36.06644900305961 male Thomas question 30 21 Eng-UK
 23	bears	_	_	_	_	18	nsubj	Mother MOT Mother	Thomas 36.06644900305961 male Thomas question 30 21 Eng-UK
-
