@@ -12,17 +12,17 @@
 2	did	do	v	0	root	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 3 2 Eng-UK=null
 
 # text = hey diddle diddle the cat and the fiddle the cow jumped over the moon
-1	hey	hey	co	0	root	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
-2	diddle	diddle	v	1	vocative	1	vocative	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
-3	diddle	diddle	v	2	flat	2	flat	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
+1	hey	hey	co	0	root	11	discourse	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
+2	diddle	diddle	v	1	vocative	11	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
+3	diddle	diddle	v	2	flat	2	conj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
 4	the	the	det:art	5	det	5	det	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
-5	cat	cat	n	1	parataxis	1	parataxis	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
+5	cat	cat	n	1	parataxis	2	appos	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
 6	and	and	coord	8	cc	8	cc	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
-7	the	the	det:art	8	det	8	det	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
+7	the	the	det:art	8	det	8	reparandum	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
 8	fiddle	fiddle	n	5	conj	5	conj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
 9	the	the	det:art	10	det	10	det	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
-10	cow	cow	n	11	nsubj	11	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
-11	jumped	jump	v	1	parataxis	1	parataxis	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
+10	cow	cow	n	11	nsubj	8	appos	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
+11	jumped	jump	v	1	parataxis	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
 12	over	over	prep	14	case	14	case	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
 13	the	the	det:art	14	det	14	det	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
 14	moon	moon	n	11	obl	11	obl	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 15 14 Eng-UK=null
@@ -56,7 +56,7 @@
 
 # text = come and
 1	come	come	v	0	root	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 2 4 Eng-UK=null
-2	and	and	coord	1	cc	1	cc	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 2 4 Eng-UK=null
+2	and	and	coord	1	cc	1	conj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 2 4 Eng-UK=null
 
 # text = I 'm not squeaking
 1	I	I	pro:sub	4	nsubj	4	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 5 3 Eng-UK=null
@@ -199,8 +199,8 @@
 1	that	that	comp	4	nsubj	4	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 5 Eng-UK=null
 2	my	my	det:poss	4	nmod:poss	4	nmod:poss	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 5 Eng-UK=null
 3	favorite	favorite	n	4	amod	4	amod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 5 Eng-UK=null
-4	toy	toy	n	0	root	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 5 Eng-UK=null
-5	actually	actual	adv	4	advmod	4	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 5 Eng-UK=null
+4	toy	toy	n	0	root	1	appos	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 5 Eng-UK=null
+5	actually	actual	adv	4	advmod	1	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 5 Eng-UK=null
 
 # text = no no
 1	no	no	co	0	root	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 1 2 Eng-UK=null
@@ -294,8 +294,8 @@
 11	look	look	co	3	discourse	3	discourse	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 14 9 Eng-UK=null
 
 # text = because look
-1	because	because	conj	_	_	2	mark	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 2 2 Eng-UK=null
-2	look	look	co	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 2 2 Eng-UK=null
+1	because	because	conj	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 2 2 Eng-UK=null
+2	look	look	co	_	_	1	discourse	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 2 2 Eng-UK=null
 
 # text = it 's go slow
 1	it	it	pro	_	_	3	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 4 3 Eng-UK=null
@@ -383,7 +383,7 @@
 4	off	_	_	_	_	3	compound:prt	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 9 7 Eng-UK=null
 5	these	_	_	_	_	6	det	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 9 7 Eng-UK=null
 6	socks	_	_	_	_	3	obj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 9 7 Eng-UK=null
-7	it	_	_	_	_	3	obl:tmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 9 7 Eng-UK=null
+7	it	_	_	_	_	3	parataxis	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 9 7 Eng-UK=null
 
 # text = uh oops
 1	uh	oops	co	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 1 2 Eng-UK=null
@@ -514,7 +514,7 @@
 
 # text = she be before be never hungry
 1	she	she	pro:sub	_	_	6	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
-2	be	be	aux	_	_	3	cop	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
+2	be	be	aux	_	_	3	reparandum	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
 3	before	before	adv	_	_	6	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
 4	be	be	cop	_	_	6	cop	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
 5	never	never	adv	_	_	6	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
@@ -527,7 +527,7 @@
 
 # text = because a having a picnic today
 1	because	because	conj	_	_	3	mark	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 6 Eng-UK=null
-2	a	a	phon	_	_	3	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 6 Eng-UK=null
+2	a	a	phon	_	_	3	discourse	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 6 Eng-UK=null
 3	having	have	part	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 6 Eng-UK=null
 4	a	a	det:art	_	_	5	det	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 6 Eng-UK=null
 5	picnic	picnic	n	_	_	3	obj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 6 Eng-UK=null
@@ -571,15 +571,15 @@
 5	crisp	crisp	adj	_	_	3	obj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 5 5 Eng-UK=null
 
 # text = I do n't do n't does that not taste nice
-1	I	I	pro:sub	_	_	4	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 7 8 Eng-UK=null
-2	do	do	mod	_	_	4	aux	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 7 8 Eng-UK=null
-3	n't	not	neg	_	_	4	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 7 8 Eng-UK=null
-4	do	that	pro:dem	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 7 8 Eng-UK=null
+1	I	I	pro:sub	_	_	2	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 7 8 Eng-UK=null
+2	do	do	mod	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 7 8 Eng-UK=null
+3	n't	not	neg	_	_	2	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 7 8 Eng-UK=null
+4	do	that	pro:dem	_	_	2	parataxis	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 7 8 Eng-UK=null
 5	n't	not	neg	_	_	4	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 7 8 Eng-UK=null
-6	does	not	neg	_	_	4	aux	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 7 8 Eng-UK=null
+6	does	not	neg	_	_	9	aux	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 7 8 Eng-UK=null
 7	that	taste	v	_	_	9	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 7 8 Eng-UK=null
 8	not	nice	adj	_	_	9	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 7 8 Eng-UK=null
-9	taste	_	_	_	_	4	parataxis	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 7 8 Eng-UK=null
+9	taste	_	_	_	_	2	parataxis	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 7 8 Eng-UK=null
 10	nice	_	_	_	_	9	xcomp	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 7 8 Eng-UK=null
 
 # text = the hula went ranned away
@@ -645,21 +645,21 @@
 2	I	I	pro:sub	_	_	3	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 5 5 Eng-UK=null
 3	do	do	v	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 5 5 Eng-UK=null
 4	this	this	det:dem	_	_	5	det	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 5 5 Eng-UK=null
-5	Mum	Mum	n:prop	_	_	3	obj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 5 5 Eng-UK=null
+5	Mum	Mum	n:prop	_	_	3	vocative	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 5 5 Eng-UK=null
 
 # text = is it recording that
 1	is	be	aux	_	_	3	cop	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 6 4 Eng-UK=null
 2	it	it	pro:per	_	_	3	expl	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 6 4 Eng-UK=null
 3	recording	record	part	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 6 4 Eng-UK=null
-4	that	that	comp	_	_	3	mark	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 6 4 Eng-UK=null
+4	that	that	comp	_	_	3	obj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 6 4 Eng-UK=null
 
 # text = that does n't matter does it
 1	that	that	pro:dem	_	_	4	nsubj	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas question 8 5 Eng-UK=null
 2	does	do	mod	_	_	4	aux	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas question 8 5 Eng-UK=null
 3	n't	not	neg	_	_	4	advmod	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas question 8 5 Eng-UK=null
 4	matter	matter	n	_	_	0	root	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas question 8 5 Eng-UK=null
-5	does	do	mod	_	_	4	aux	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas question 8 5 Eng-UK=null
-6	it	it	pro:per	_	_	4	nsubj	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas question 8 5 Eng-UK=null
+5	does	do	mod	_	_	4	parataxis	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas question 8 5 Eng-UK=null
+6	it	it	pro:per	_	_	5	nsubj	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas question 8 5 Eng-UK=null
 
 # text = Mum I do burps
 1	Mum	Mum	n:prop	_	_	3	vocative	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 5 4 Eng-UK=null
@@ -701,8 +701,8 @@
 
 # text = it 's there
 1	it	it	pro	_	_	3	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 3 2 Eng-UK=null
-2	's	be	cop	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 3 2 Eng-UK=null
-3	there	there	adv	_	_	2	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 3 2 Eng-UK=null
+2	's	be	cop	_	_	3	cop	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 3 2 Eng-UK=null
+3	there	there	adv	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 3 2 Eng-UK=null
 
 # text = it will be Sylvia 's
 1	it	it	pro:per	_	_	4	expl	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 6 4 Eng-UK=null
@@ -716,14 +716,14 @@
 2	face	face	n	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 2 2 Eng-UK=null
 
 # text = hello Mummy
-1	hello	hello	co	_	_	2	amod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 2 2 Eng-UK=null
-2	Mummy	Mummy	n:prop	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 2 2 Eng-UK=null
+1	hello	hello	co	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 2 2 Eng-UK=null
+2	Mummy	Mummy	n:prop	_	_	1	vocative	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 2 2 Eng-UK=null
 
 # text = you 're lovely lovely Jeannies
 1	you	you	pro:per	_	_	5	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 6 4 Eng-UK=null
 2	're	be	cop	_	_	5	cop	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 6 4 Eng-UK=null
 3	lovely	love	adj	_	_	5	amod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 6 4 Eng-UK=null
-4	lovely	Jeannies	n:prop	_	_	5	amod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 6 4 Eng-UK=null
+4	lovely	Jeannies	n:prop	_	_	3	conj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 6 4 Eng-UK=null
 5	Jeannies	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 6 4 Eng-UK=null
 
 # text = I can
@@ -736,16 +736,16 @@
 
 # text = yes yes yes yes yes
 1	yes	yes	co	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 5 Eng-UK=null
-2	yes	_	_	_	_	1	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 5 Eng-UK=null
-3	yes	_	_	_	_	1	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 5 Eng-UK=null
-4	yes	_	_	_	_	1	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 5 Eng-UK=null
-5	yes	_	_	_	_	1	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 5 Eng-UK=null
+2	yes	_	_	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 5 Eng-UK=null
+3	yes	_	_	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 5 Eng-UK=null
+4	yes	_	_	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 5 Eng-UK=null
+5	yes	_	_	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 5 Eng-UK=null
 
 # text = but special ones do
 1	but	but	conj	_	_	3	cc	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 5 4 Eng-UK=null
 2	special	special	n	_	_	3	amod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 5 4 Eng-UK=null
-3	ones	one	det:num	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 5 4 Eng-UK=null
-4	do	do	v	_	_	3	aux	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 5 4 Eng-UK=null
+3	ones	one	det:num	_	_	4	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 5 4 Eng-UK=null
+4	do	do	v	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 5 4 Eng-UK=null
 
 # text = that one 's a special one
 1	that	that	comp	_	_	2	det	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 6 5 Eng-UK=null
@@ -763,7 +763,7 @@
 
 # text = but Mummy please leave it on because it has two films
 1	but	but	conj	_	_	4	cc	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 13 11 Eng-UK=null
-2	Mummy	Mummy	n:prop	_	_	4	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 13 11 Eng-UK=null
+2	Mummy	Mummy	n:prop	_	_	4	vocative	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 13 11 Eng-UK=null
 3	please	please	co	_	_	4	discourse	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 13 11 Eng-UK=null
 4	leave	leave	v	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 13 11 Eng-UK=null
 5	it	it	pro:per	_	_	4	obj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 13 11 Eng-UK=null
@@ -775,18 +775,18 @@
 11	films	film	n	_	_	9	obj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 13 11 Eng-UK=null
 
 # text = somewhere else is blowing
-1	somewhere	somewhere	n	_	_	4	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 4 Eng-UK=null
+1	somewhere	somewhere	n	_	_	4	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 4 Eng-UK=null
 2	else	else	post	_	_	1	amod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 4 Eng-UK=null
 3	is	be	aux	_	_	4	aux	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 4 Eng-UK=null
 4	blowing	blow	part	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 4 Eng-UK=null
 
 # text = why does Macdonald xxx with a d
-1	why	_	_	_	_	6	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 7 7 Eng-UK=null
-2	does	_	_	_	_	6	aux	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 7 7 Eng-UK=null
-3	Macdonald	_	_	_	_	6	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 7 7 Eng-UK=null
+1	why	_	_	_	_	2	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 7 7 Eng-UK=null
+2	does	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 7 7 Eng-UK=null
+3	Macdonald	_	_	_	_	2	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 7 7 Eng-UK=null
 4	with	_	_	_	_	6	case	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 7 7 Eng-UK=null
 5	a	_	_	_	_	6	det	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 7 7 Eng-UK=null
-6	d	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 7 7 Eng-UK=null
+6	d	_	_	_	_	2	obl	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 7 7 Eng-UK=null
 
 # text = why did the chicken cross the road
 1	why	why	pro:rel	_	_	5	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 8 7 Eng-UK=null
@@ -815,13 +815,13 @@
 4	first	first	adv	_	_	2	advmod	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 4 4 Eng-UK=null
 
 # text = Purdie xxx are not you are not crunching xxx
-1	Purdie	_	_	_	_	2	vocative	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 9 9 Eng-UK=null
+1	Purdie	_	_	_	_	2	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 9 9 Eng-UK=null
 2	are	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 9 9 Eng-UK=null
 3	not	_	_	_	_	2	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 9 9 Eng-UK=null
 4	you	_	_	_	_	7	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 9 9 Eng-UK=null
 5	are	_	_	_	_	7	aux	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 9 9 Eng-UK=null
 6	not	_	_	_	_	7	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 9 9 Eng-UK=null
-7	crunching	_	_	_	_	2	ccomp	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 9 9 Eng-UK=null
+7	crunching	_	_	_	_	2	parataxis	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 9 9 Eng-UK=null
 
 # text = do you like scary things
 1	do	do	mod	_	_	3	aux	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas question 8 5 Eng-UK=null
@@ -852,14 +852,14 @@
 
 # text = think I'll have um cereal first then a xxx
 1	think	think	v	_	_	0	root	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 8 9 Eng-UK=null
-2	I'll	I	pro:sub	_	_	3	nsubj	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 8 9 Eng-UK=null
-3	have	have	v	_	_	1	ccomp	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 8 9 Eng-UK=null
-4	um	cereal	n	_	_	5	compound	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 8 9 Eng-UK=null
-5	cereal	first	adv	_	_	3	obj	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 8 9 Eng-UK=null
-6	first	then	adv:tem	_	_	3	advmod	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 8 9 Eng-UK=null
-7	then	a	det:art	_	_	9	advmod	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 8 9 Eng-UK=null
-8	a	_	_	_	_	9	det	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 8 9 Eng-UK=null
-9	xxx	xxx	xxx	_	_	3	parataxis	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 8 9 Eng-UK=null
+2	I	I	pro:sub	_	_	4	nsubj	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 8 9 Eng-UK=null
+3	'll	I	pro:sub	_	_	4	aux	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 8 9 Eng-UK=null
+4	have	have	v	_	_	1	ccomp	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 8 9 Eng-UK=null
+5	um	cereal	n	_	_	5	compound	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 8 9 Eng-UK=null
+6	cereal	first	adv	_	_	3	obj	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 8 9 Eng-UK=null
+7	first	then	adv:tem	_	_	3	advmod	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 8 9 Eng-UK=null
+8	then	a	det:art	_	_	9	advmod	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 8 9 Eng-UK=null
+9	a	_	_	_	_	4	conj	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 8 9 Eng-UK=null
 
 # text = wanted a tea
 1	wanted	want	v	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 4 3 Eng-UK=null
@@ -876,9 +876,9 @@
 1	because	because	conj	_	_	3	mark	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 7 8 Eng-UK=null
 2	she	she	pro:sub	_	_	3	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 7 8 Eng-UK=null
 3	turns	turn	v	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 7 8 Eng-UK=null
-4	into	into	prep	_	_	5	case	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 7 8 Eng-UK=null
-5	um	a	det:art	_	_	3	obl	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 7 8 Eng-UK=null
-6	um	witch	n	_	_	5	advmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 7 8 Eng-UK=null
+4	into	into	prep	_	_	8	case	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 7 8 Eng-UK=null
+5	um	a	det:art	_	_	8	discourse	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 7 8 Eng-UK=null
+6	um	witch	n	_	_	5	conj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 7 8 Eng-UK=null
 7	a	_	_	_	_	8	det	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 7 8 Eng-UK=null
 8	witch	_	_	_	_	3	obl	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 7 8 Eng-UK=null
 
@@ -913,9 +913,9 @@
 # text = just gonna phone police
 1	just	_	_	_	_	2	advmod	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 6 4 Eng-UK=null
 2	gon	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 6 4 Eng-UK=null
-3	na	_	_	_	_	4	case	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 6 4 Eng-UK=null
-4	phone	_	_	_	_	5	compound	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 6 4 Eng-UK=null
-5	police	_	_	_	_	2	obj	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 6 4 Eng-UK=null
+3	na	_	_	_	_	4	mark	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 6 4 Eng-UK=null
+4	phone	_	_	_	_	2	xcomp	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 6 4 Eng-UK=null
+5	police	_	_	_	_	4	obj	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 6 4 Eng-UK=null
 
 # text = the police
 1	the	the	det:art	_	_	2	det	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 2 2 Eng-UK=null
@@ -939,18 +939,18 @@
 7	me	me	pro:obj	_	_	2	obl	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 7 Eng-UK=null
 
 # text = she did n't she does n't die but um she just she does n't be poorly xxx
-1	she	_	_	_	_	7	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
-2	did	_	_	_	_	7	aux	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
-3	n't	_	_	_	_	7	advmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
+1	she	_	_	_	_	2	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
+2	did	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
+3	n't	_	_	_	_	2	advmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
 4	she	_	_	_	_	7	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
 5	does	_	_	_	_	7	aux	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
 6	n't	_	_	_	_	7	advmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
-7	die	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
+7	die	_	_	_	_	2	parataxis	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
 8	but	_	_	_	_	16	cc	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
 9	um	_	_	_	_	16	discourse	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
 10	she	_	_	_	_	16	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
-11	just	_	_	_	_	16	advmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
-12	she	_	_	_	_	16	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
+11	just	_	_	_	_	11	advmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
+12	she	_	_	_	_	10	conj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
 13	does	_	_	_	_	16	aux	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
 14	n't	_	_	_	_	16	advmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
 15	be	_	_	_	_	16	cop	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 14 Eng-UK=null
@@ -958,7 +958,7 @@
 
 # text = arrest Jean
 1	arrest	arrest	n	_	_	0	root	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 2 2 Eng-UK=null
-2	Jean	Jean	n:prop	_	_	1	flat	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 2 2 Eng-UK=null
+2	Jean	Jean	n:prop	_	_	1	obj	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 2 2 Eng-UK=null
 
 # text = she 's very bad
 1	she	she	pro	_	_	4	nsubj	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 4 3 Eng-UK=null
@@ -977,7 +977,7 @@
 
 # text = will will Mrs Thomas tell her
 1	will	will	mod	_	_	5	aux	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 4 5 Eng-UK=null
-2	will	Mrs_Thomas	n:prop	_	_	5	aux	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 4 5 Eng-UK=null
+2	will	Mrs_Thomas	n:prop	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 4 5 Eng-UK=null
 3	Mrs	tell	v	_	_	5	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 4 5 Eng-UK=null
 4	Thomas	Thomas	combined	_	_	3	flat	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 4 5 Eng-UK=null
 5	tell	her	pro:obj	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 4 5 Eng-UK=null
@@ -995,7 +995,7 @@
 3	this	this	pro:dem	_	_	1	obl	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 3 3 Eng-UK=null
 
 # text = Mum xxx pull down his Sanjid 's pants
-1	Mum	_	_	_	_	2	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 8 7 Eng-UK=null
+1	Mum	_	_	_	_	2	vocative	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 8 7 Eng-UK=null
 2	pull	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 8 7 Eng-UK=null
 3	down	_	_	_	_	2	compound:prt	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 8 7 Eng-UK=null
 4	his	_	_	_	_	5	nmod:poss	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 8 7 Eng-UK=null
@@ -1022,8 +1022,8 @@
 2	's	be	cop	_	_	4	cop	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 4 3 Eng-UK=null
 3	a	a	det:art	_	_	4	det	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 4 3 Eng-UK=null
 4	d	d_v_d	n	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 4 3 Eng-UK=null
-5	v	v	combined	_	_	6	case	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 4 3 Eng-UK=null
-6	d	d	combined	_	_	4	nmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 4 3 Eng-UK=null
+5	v	v	combined	_	_	4	goeswith	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 4 3 Eng-UK=null
+6	d	d	combined	_	_	4	goeswith	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 4 3 Eng-UK=null
 
 # text = she was not
 1	she	she	pro:sub	_	_	2	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 5 3 Eng-UK=null
@@ -1056,8 +1056,8 @@
 3	nips	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 4 4 Eng-UK=null
 
 # text = dear dear
-1	dear	dear	co	_	_	2	amod	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 1 2 Eng-UK=null
-2	dear	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 1 2 Eng-UK=null
+1	dear	dear	co	_	_	0	root	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 1 2 Eng-UK=null
+2	dear	_	_	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 1 2 Eng-UK=null
 
 # text = even at my party
 1	even	even	adv	_	_	4	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 4 4 Eng-UK=null
@@ -1105,7 +1105,7 @@
 # text = xxx mine do that
 1	mine	_	_	_	_	2	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 3 4 Eng-UK=null
 2	do	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 3 4 Eng-UK=null
-3	that	_	_	_	_	2	iobj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 3 4 Eng-UK=null
+3	that	_	_	_	_	2	obj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 3 4 Eng-UK=null
 
 # text = think I'll put the lid on
 1	think	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 8 6 Eng-UK=null
@@ -1148,7 +1148,7 @@
 6	dum	dum	combined	_	_	3	nmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 4 3 Eng-UK=null
 
 # text = Mummy knickers
-1	Mummy	Mummy	n:prop	_	_	2	compound	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 2 2 Eng-UK=null
+1	Mummy	Mummy	n:prop	_	_	2	vocative	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 2 2 Eng-UK=null
 2	knickers	knickers	n	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 2 2 Eng-UK=null
 
 # text = um no way
@@ -1255,9 +1255,9 @@
 4	please	please	co	_	_	1	discourse	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 4 4 Eng-UK=null
 
 # text = I ca n't
-1	I	I	pro:sub	_	_	3	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 3 2 Eng-UK=null
-2	ca	can	mod	_	_	3	aux	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 3 2 Eng-UK=null
-3	n't	not	neg	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 3 2 Eng-UK=null
+1	I	I	pro:sub	_	_	2	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 3 2 Eng-UK=null
+2	ca	can	mod	_	_	2	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 3 2 Eng-UK=null
+3	n't	not	neg	_	_	2	advmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 3 2 Eng-UK=null
 
 # text = I love you little Thomas
 1	I	I	pro:sub	_	_	2	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 5 Eng-UK=null
@@ -1294,15 +1294,15 @@
 1	to	to	inf	_	_	2	mark	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
 2	give	give	v	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
 3	me	of	prep	_	_	2	iobj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
-4	some	the	det:art	_	_	5	det	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
-5	you	tune	n	_	_	2	obj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
+4	some	the	det:art	_	_	2	obj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
+5	you	tune	n	_	_	6	reparandum	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
 6	of	off	adv	_	_	9	case	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
 7	the	some	qn	_	_	9	det	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
-8	um	of	prep	_	_	9	compound	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
-9	tunes	the	det:art	_	_	5	nmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
-10	off	bird	n	_	_	9	case	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
+8	um	of	prep	_	_	9	discourse	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
+9	tunes	the	det:art	_	_	4	nmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
+10	off	bird	n	_	_	2	advmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
 11	um	_	_	_	_	12	discourse	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
-12	some	_	_	_	_	5	appos	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
+12	some	_	_	_	_	2	obj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
 13	of	_	_	_	_	15	case	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
 14	the	_	_	_	_	15	det	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
 15	birds	_	_	_	_	12	nmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 12 15 Eng-UK=null
@@ -1334,16 +1334,16 @@
 6	one	one	pro:indef	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 6 5 Eng-UK=null
 
 # text = Mum my crisps
-1	Mum	Mum	n:prop	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 4 3 Eng-UK=null
+1	Mum	Mum	n:prop	_	_	3	vocative	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 4 3 Eng-UK=null
 2	my	my	det:poss	_	_	3	nmod:poss	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 4 3 Eng-UK=null
-3	crisps	crisp	n	_	_	1	obj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 4 3 Eng-UK=null
+3	crisps	crisp	n	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 4 3 Eng-UK=null
 
 # text = and there 's music on at the end
 1	and	and	coord	_	_	3	cc	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 8 7 Eng-UK=null
 2	there	there	n	_	_	3	expl	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 8 7 Eng-UK=null
 3	's	be	cop	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 8 7 Eng-UK=null
 4	music	music	n	_	_	3	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 8 7 Eng-UK=null
-5	on	on	adv	_	_	4	advmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 8 7 Eng-UK=null
+5	on	on	adv	_	_	3	advmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 8 7 Eng-UK=null
 6	at	at	prep	_	_	8	case	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 8 7 Eng-UK=null
 7	the	the	det:art	_	_	8	det	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 8 7 Eng-UK=null
 8	end	end	n	_	_	3	obl	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 8 7 Eng-UK=null
@@ -1366,8 +1366,8 @@
 3	pants	pants	n:pt	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas imperative_emphatic 3 3 Eng-UK=null
 
 # text = because because he know they did
-1	because	because	conj	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
-2	because	he	pro:sub	_	_	4	mark	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
+1	because	because	conj	_	_	4	mark	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
+2	because	he	pro:sub	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
 3	he	know	v	_	_	4	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
 4	know	they	pro:sub	_	_	1	advcl	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
 5	they	do	v	_	_	6	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
@@ -1461,7 +1461,7 @@
 3	has	have	v	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 6 Eng-UK=null
 4	no	no	qn	_	_	5	det	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 6 Eng-UK=null
 5	pants	pants	n:pt	_	_	3	obj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 6 Eng-UK=null
-6	on	on	adv	_	_	5	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 6 Eng-UK=null
+6	on	on	adv	_	_	2	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 6 Eng-UK=null
 
 # text = xxx this slipper now
 1	this	_	_	_	_	2	det	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 3 4 Eng-UK=null
@@ -1478,8 +1478,8 @@
 7	time	time	n	_	_	4	obj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 11 7 Eng-UK=null
 
 # text = the the timer 's nearly run out
-1	the	the	det:art	_	_	6	cc	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 10 6 Eng-UK=null
-2	the	time	adj	_	_	3	det	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 10 6 Eng-UK=null
+1	the	the	det:art	_	_	3	det	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 10 6 Eng-UK=null
+2	the	time	adj	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 10 6 Eng-UK=null
 3	timer	near	n	_	_	6	nsubj	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 10 6 Eng-UK=null
 4	's	be	cop	_	_	6	aux	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 10 6 Eng-UK=null
 5	nearly	run	v	_	_	6	advmod	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 10 6 Eng-UK=null
@@ -1495,8 +1495,8 @@
 6	up	up	adv	_	_	4	compound:prt	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 6 Eng-UK=null
 
 # text = Mum look
-1	Mum	Mum	n:prop	_	_	2	nsubj	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 2 2 Eng-UK=null
-2	look	look	v	_	_	0	root	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 2 2 Eng-UK=null
+1	Mum	Mum	n:prop	_	_	0	root	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 2 2 Eng-UK=null
+2	look	look	v	_	_	1	discourse	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 2 2 Eng-UK=null
 
 # text = it 's that one
 1	it	it	pro	_	_	4	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 4 3 Eng-UK=null
@@ -1576,7 +1576,7 @@
 # text = they have p fish on them
 1	they	they	pro:sub	_	_	2	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 6 Eng-UK=null
 2	have	have	v	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 6 Eng-UK=null
-3	p	fish	n	_	_	4	compound	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 6 Eng-UK=null
+3	p	fish	n	_	_	4	reparandum	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 6 Eng-UK=null
 4	fish	on	prep	_	_	2	obj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 6 Eng-UK=null
 5	on	them	pro:obj	_	_	6	case	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 6 Eng-UK=null
 6	them	_	_	_	_	2	obl	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 6 Eng-UK=null
@@ -1657,24 +1657,24 @@
 
 # text = okay okay okay
 1	okay	okay	co	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 3 Eng-UK=null
-2	okay	_	_	_	_	1	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 3 Eng-UK=null
-3	okay	_	_	_	_	1	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 3 Eng-UK=null
+2	okay	_	_	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 3 Eng-UK=null
+3	okay	_	_	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 3 Eng-UK=null
 
 # text = what if
 1	what	what	pro:int	_	_	2	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 2 2 Eng-UK=null
-2	if	if	conj	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 2 2 Eng-UK=null
+2	if	if	conj	_	_	1	fixed	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas trail off 2 2 Eng-UK=null
 
 # text = go go go go go go
 1	go	go	v	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 4 6 Eng-UK=null
-2	go	go	v	_	_	1	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 4 6 Eng-UK=null
-3	go	go	v	_	_	1	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 4 6 Eng-UK=null
-4	go	go	v	_	_	1	parataxis	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 4 6 Eng-UK=null
-5	go	_	_	_	_	4	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 4 6 Eng-UK=null
-6	go	_	_	_	_	1	parataxis	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 4 6 Eng-UK=null
+2	go	go	v	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 4 6 Eng-UK=null
+3	go	go	v	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 4 6 Eng-UK=null
+4	go	go	v	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 4 6 Eng-UK=null
+5	go	_	_	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 4 6 Eng-UK=null
+6	go	_	_	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 4 6 Eng-UK=null
 
 # text = um them
-1	um	them	pro:obj	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 2 Eng-UK=null
-2	them	_	_	_	_	1	obj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 2 Eng-UK=null
+1	um	them	pro:obj	_	_	2	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 2 Eng-UK=null
+2	them	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 2 Eng-UK=null
 
 # text = what are you having
 1	what	what	pro:int	_	_	4	obj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 6 4 Eng-UK=null
@@ -1691,15 +1691,15 @@
 6	go	go	v	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 12 13 Eng-UK=null
 7	to	to	prep	_	_	12	case	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 12 13 Eng-UK=null
 8	the	the	det:art	_	_	12	det	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 12 13 Eng-UK=null
-9	race	station	n	_	_	10	compound	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 12 13 Eng-UK=null
-10	rail	today	adv:tem	_	_	12	compound	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 12 13 Eng-UK=null
+9	race	station	n	_	_	12	compound	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 12 13 Eng-UK=null
+10	rail	today	adv:tem	_	_	11	reparandum	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 12 13 Eng-UK=null
 11	railway	_	_	_	_	12	compound	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 12 13 Eng-UK=null
 12	station	_	_	_	_	6	obl	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 12 13 Eng-UK=null
 13	today	_	_	_	_	6	obl:tmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 12 13 Eng-UK=null
 
 # text = play hm
 1	play	play	n	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 2 2 Eng-UK=null
-2	hm	hm	co	_	_	1	obj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 2 2 Eng-UK=null
+2	hm	hm	co	_	_	1	discourse	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 2 2 Eng-UK=null
 
 # text = orange lights on the machine
 1	orange	orange	adj	_	_	2	amod	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 6 5 Eng-UK=null
@@ -1713,26 +1713,26 @@
 2	was	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 8 6 Eng-UK=null
 3	I	_	_	_	_	5	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 8 6 Eng-UK=null
 4	was	_	_	_	_	5	cop	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 8 6 Eng-UK=null
-5	gon	_	_	_	_	2	ccomp	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 8 6 Eng-UK=null
+5	gon	_	_	_	_	2	parataxis	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 8 6 Eng-UK=null
 6	na	_	_	_	_	7	mark	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 8 6 Eng-UK=null
 7	say	_	_	_	_	5	xcomp	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 8 6 Eng-UK=null
 
 # text = I wanted um
 1	I	I	pro:sub	_	_	2	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 3 3 Eng-UK=null
 2	wanted	want	v	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 3 3 Eng-UK=null
-3	um	_	_	_	_	2	obj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 3 3 Eng-UK=null
+3	um	_	_	_	_	2	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 3 3 Eng-UK=null
 
 # text = hula um
-1	hula	hula	n	_	_	2	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 1 2 Eng-UK=null
-2	um	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 1 2 Eng-UK=null
+1	hula	hula	n	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 1 2 Eng-UK=null
+2	um	_	_	_	_	1	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 1 2 Eng-UK=null
 
 # text = some some of those round um cereal
-1	some	some	pro:indef	_	_	2	det	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 7 Eng-UK=null
-2	some	of	prep	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 7 Eng-UK=null
+1	some	some	pro:indef	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 7 Eng-UK=null
+2	some	of	prep	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 7 Eng-UK=null
 3	of	those	det:dem	_	_	7	case	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 7 Eng-UK=null
 4	those	round	adj	_	_	7	det	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 7 Eng-UK=null
 5	round	cereal	n	_	_	6	amod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 7 Eng-UK=null
-6	um	_	_	_	_	7	compound	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 7 Eng-UK=null
+6	um	_	_	_	_	7	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 7 Eng-UK=null
 7	cereal	_	_	_	_	2	nmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 7 Eng-UK=null
 
 # text = gonna see the boops
@@ -1757,25 +1757,25 @@
 4	down	down	n	_	_	3	compound:prt	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 5 3 Eng-UK=null
 
 # text = t guess what I saw when I was at um my h when at school
-1	t	guess	v	_	_	2	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
+1	t	guess	v	_	_	2	reparandum	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
 2	guess	what	pro:int	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
 3	what	I	pro:sub	_	_	5	obj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
 4	I	see	v	_	_	5	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
 5	saw	when	conj	_	_	2	ccomp	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
-6	when	I	pro:sub	_	_	10	mark	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
-7	I	be	cop	_	_	10	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
-8	was	at	prep	_	_	10	cop	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
-9	at	my	det:poss	_	_	10	case	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
-10	um	when	conj	_	_	5	advcl	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
+6	when	I	pro:sub	_	_	12	mark	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
+7	I	be	cop	_	_	12	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
+8	was	at	prep	_	_	12	cop	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
+9	at	my	det:poss	_	_	12	case	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
+10	um	when	conj	_	_	12	discourse	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
 11	my	at	prep	_	_	12	nmod:poss	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
-12	h	school	n	_	_	10	parataxis	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
+12	h	school	n	_	_	15	reparandum	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
 13	when	_	_	_	_	15	mark	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
 14	at	_	_	_	_	15	case	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
-15	school	_	_	_	_	10	obl	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
+15	school	_	_	_	_	2	advcl	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 15 15 Eng-UK=null
 
 # text = far far in the distance
 1	far	far	adv	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 4 5 Eng-UK=null
-2	far	in	prep	_	_	1	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 4 5 Eng-UK=null
+2	far	in	prep	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 4 5 Eng-UK=null
 3	in	the	det:art	_	_	5	case	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 4 5 Eng-UK=null
 4	the	distance	n	_	_	5	det	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 4 5 Eng-UK=null
 5	distance	_	_	_	_	1	obl	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas question 4 5 Eng-UK=null
@@ -1802,16 +1802,16 @@
 2	jam	jam	n	_	_	0	root	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 2 2 Eng-UK=null
 
 # text = oh yeah
-1	oh	oh	co	_	_	2	discourse	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 2 2 Eng-UK=null
-2	yeah	yeah	co	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 2 2 Eng-UK=null
+1	oh	oh	co	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 2 2 Eng-UK=null
+2	yeah	yeah	co	_	_	1	discourse	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 2 2 Eng-UK=null
 
 # text = I wan na I wan na sit in the conservatory
 1	I	I	pro:sub	_	_	2	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 8 Eng-UK=null
 2	wan	want	v	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 8 Eng-UK=null
-3	na	to	inf	_	_	2	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 8 Eng-UK=null
+3	na	to	inf	_	_	2	xcomp	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 8 Eng-UK=null
 4	I	sit	v	_	_	5	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 8 Eng-UK=null
 5	wan	want	v	_	_	2	parataxis	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 8 Eng-UK=null
-6	na	to	inf	_	_	5	obj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 8 Eng-UK=null
+6	na	to	inf	_	_	7	mark	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 8 Eng-UK=null
 7	sit	the	det:art	_	_	5	xcomp	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 8 Eng-UK=null
 8	in	conservatory	n	_	_	10	case	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 8 Eng-UK=null
 9	the	_	_	_	_	10	det	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 8 Eng-UK=null
@@ -1822,7 +1822,7 @@
 2	it	he	pro:sub	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 17 14 Eng-UK=null
 3	when	stop	v	_	_	5	mark	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 17 14 Eng-UK=null
 4	he	to	inf	_	_	5	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 17 14 Eng-UK=null
-5	stopped	look	v	_	_	2	advcl	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 17 14 Eng-UK=null
+5	stopped	look	v	_	_	2	parataxis	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 17 14 Eng-UK=null
 6	to	at	prep	_	_	7	mark	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 17 14 Eng-UK=null
 7	look	these	det:dem	_	_	5	advcl	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 17 14 Eng-UK=null
 8	at	hula	n	_	_	11	case	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 17 14 Eng-UK=null
@@ -1831,7 +1831,7 @@
 11	hoops	rob	n	_	_	7	obl	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 17 14 Eng-UK=null
 12	that	do	v	_	_	14	obj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 17 14 Eng-UK=null
 13	robber	_	_	_	_	14	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 17 14 Eng-UK=null
-14	did	_	_	_	_	2	aux	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 17 14 Eng-UK=null
+14	did	_	_	_	_	2	parataxis	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 17 14 Eng-UK=null
 
 # text = with carrots in
 1	with	with	prep	_	_	2	case	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 4 3 Eng-UK=null
@@ -1849,8 +1849,8 @@
 4	itches	itch	n	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 4 Eng-UK=null
 
 # text = why not
-1	why	why	pro:int	_	_	2	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 2 2 Eng-UK=null
-2	not	not	neg	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 2 2 Eng-UK=null
+1	why	why	pro:int	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 2 2 Eng-UK=null
+2	not	not	neg	_	_	1	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 2 2 Eng-UK=null
 
 # text = what shall we play with
 1	what	what	pro:int	_	_	4	obl	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas question 5 5 Eng-UK=null
@@ -1862,7 +1862,7 @@
 # text = I wan na
 1	I	I	pro:sub	_	_	2	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 3 2 Eng-UK=null
 2	wan	want	v	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 3 2 Eng-UK=null
-3	na	to	inf	_	_	2	obj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 3 2 Eng-UK=null
+3	na	to	inf	_	_	2	xcomp	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas trail off 3 2 Eng-UK=null
 
 # text = no apples
 1	no	no	qn	_	_	2	det	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 3 2 Eng-UK=null
@@ -1892,9 +1892,9 @@
 2	cartons	carton	n	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 3 2 Eng-UK=null
 
 # text = oh no thanks
-1	oh	oh	co	_	_	3	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 3 3 Eng-UK=null
-2	no	no	co	_	_	3	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 3 3 Eng-UK=null
-3	thanks	thanks	co	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 3 3 Eng-UK=null
+1	oh	oh	co	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 3 3 Eng-UK=null
+2	no	no	co	_	_	1	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 3 3 Eng-UK=null
+3	thanks	thanks	co	_	_	1	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 3 3 Eng-UK=null
 
 # text = I am a clown
 1	I	I	pro:sub	_	_	4	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 5 4 Eng-UK=null
@@ -1937,7 +1937,7 @@
 2	of	of	prep	_	_	3	case	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 7 Eng-UK=null
 3	mine	mine	pro:poss	_	_	1	nmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 7 Eng-UK=null
 4	because	because	conj	_	_	5	mark	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 7 Eng-UK=null
-5	look	look	v	_	_	1	parataxis	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 7 Eng-UK=null
+5	look	look	v	_	_	1	advcl	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 7 Eng-UK=null
 6	at	at	prep	_	_	7	case	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 7 Eng-UK=null
 7	that	that	pro:dem	_	_	5	obl	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 7 Eng-UK=null
 
@@ -1957,7 +1957,7 @@
 1	still	still	adv	_	_	2	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 5 4 Eng-UK=null
 2	saying	say	part	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 5 4 Eng-UK=null
 3	boo	boo	n	_	_	2	obj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 5 4 Eng-UK=null
-4	boo	boo	n	_	_	2	obj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 5 4 Eng-UK=null
+4	boo	boo	n	_	_	2	conj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 5 4 Eng-UK=null
 
 # text = I been to a fire station and look what they gave me
 1	I	I	pro:sub	_	_	6	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 12 Eng-UK=null
@@ -1974,7 +1974,7 @@
 12	me	me	pro:obj	_	_	11	iobj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 14 12 Eng-UK=null
 
 # text = Mum I wan na go to the trace train station right now
-1	Mum	Mum	n:prop	_	_	3	discourse	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 11 11 Eng-UK=null
+1	Mum	Mum	n:prop	_	_	3	vocative	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 11 11 Eng-UK=null
 2	I	I	pro:sub	_	_	3	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 11 11 Eng-UK=null
 3	wan	want	v	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 11 11 Eng-UK=null
 4	na	to	inf	_	_	5	mark	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 11 11 Eng-UK=null
@@ -2041,19 +2041,19 @@
 # text = if you got need one helmet for a boy then I the I the one that stop the fire and you can watch
 1	if	need	v	_	_	4	mark	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
 2	you	one	det:num	_	_	4	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
-3	got	helmet	n	_	_	4	advcl	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
+3	got	helmet	n	_	_	4	reparandum	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
 4	need	for	prep	_	_	12	advcl	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
 5	one	a	det:art	_	_	6	nummod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
 6	helmet	boy	n	_	_	4	obj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
 7	for	then	adv:tem	_	_	9	case	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
 8	a	I	pro:sub	_	_	9	det	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
 9	boy	I	pro:sub	_	_	6	nmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
-10	then	the	det:art	_	_	12	advmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
+10	then	the	det:art	_	_	15	advmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
 11	I	one	det:num	_	_	12	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
-12	the	that	adv	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
+12	the	that	adv	_	_	15	reparandum	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
 13	I	stop	v	_	_	15	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
 14	the	the	det:art	_	_	15	det	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
-15	one	fire	n	_	_	12	obj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
+15	one	fire	n	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
 16	that	and	coord	_	_	17	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
 17	stop	you	pro:per	_	_	15	acl:relcl	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
 18	the	can	mod	_	_	19	det	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
@@ -2061,12 +2061,12 @@
 20	and	_	_	_	_	23	cc	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
 21	you	_	_	_	_	23	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
 22	can	_	_	_	_	23	aux	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
-23	watch	_	_	_	_	12	conj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
+23	watch	_	_	_	_	15	conj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 19 23 Eng-UK=null
 
 # text = on that blue t+shirt
 1	on	on	prep	_	_	4	case	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 3 4 Eng-UK=null
 2	that	that	pro:dem	_	_	4	det	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 3 4 Eng-UK=null
-3	blue	blue	adj	_	_	4	compound	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 3 4 Eng-UK=null
+3	blue	blue	adj	_	_	4	amod	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 3 4 Eng-UK=null
 4	t+shirt	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 3 4 Eng-UK=null
 
 # text = xxx got themself
@@ -2156,12 +2156,12 @@
 5	out	out	adv	_	_	3	compound:prt	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 6 5 Eng-UK=null
 
 # text = but it she ca n't see down there
-1	but	but	conj	_	_	6	cc	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 7 Eng-UK=null
-2	it	she	pro:sub	_	_	6	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 7 Eng-UK=null
+1	but	but	conj	_	_	2	cc	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 7 Eng-UK=null
+2	it	she	pro:sub	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 7 Eng-UK=null
 3	she	can	mod	_	_	6	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 7 Eng-UK=null
 4	ca	see	v	_	_	6	aux	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 7 Eng-UK=null
 5	n't	not	neg	_	_	6	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 7 Eng-UK=null
-6	see	down	prep	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 7 Eng-UK=null
+6	see	down	prep	_	_	2	parataxis	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 7 Eng-UK=null
 7	down	there	n	_	_	8	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 7 Eng-UK=null
 8	there	_	_	_	_	6	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 7 Eng-UK=null
 
@@ -2216,9 +2216,9 @@
 6	there	there	adv	_	_	3	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 7 6 Eng-UK=null
 
 # text = sometimes you do
-1	sometimes	sometimes	adv	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 3 3 Eng-UK=null
-2	you	you	pro:per	_	_	1	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 3 3 Eng-UK=null
-3	do	do	v	_	_	1	aux	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 3 3 Eng-UK=null
+1	sometimes	sometimes	adv	_	_	3	advmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 3 3 Eng-UK=null
+2	you	you	pro:per	_	_	3	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 3 3 Eng-UK=null
+3	do	do	v	_	_	0	root	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 3 3 Eng-UK=null
 
 # text = and then in the car go ugh ugh ugh
 1	and	and	coord	_	_	6	cc	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 9 Eng-UK=null
@@ -2227,21 +2227,21 @@
 4	the	the	det:art	_	_	5	det	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 9 Eng-UK=null
 5	car	car	n	_	_	6	obl	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 9 Eng-UK=null
 6	go	go	v	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 9 Eng-UK=null
-7	ugh	ugh	co	_	_	6	discourse	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 9 Eng-UK=null
-8	ugh	_	_	_	_	6	discourse	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 9 Eng-UK=null
-9	ugh	_	_	_	_	6	discourse	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 9 Eng-UK=null
+7	ugh	ugh	co	_	_	6	xcomp	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 9 Eng-UK=null
+8	ugh	_	_	_	_	7	conj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 9 Eng-UK=null
+9	ugh	_	_	_	_	7	conj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 7 9 Eng-UK=null
 
 # text = today um um the builders on there are uh have a day off today
-1	today	today	adv:tem	_	_	8	obl:tmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
-2	um	the	det:art	_	_	8	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
-3	um	build	n	_	_	8	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
+1	today	today	adv:tem	_	_	10	obl:tmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
+2	um	the	det:art	_	_	10	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
+3	um	build	n	_	_	2	conj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
 4	the	on	prep	_	_	5	det	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
-5	builders	there	n	_	_	8	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
+5	builders	there	n	_	_	10	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
 6	on	have	v	_	_	7	case	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
 7	there	a	det:art	_	_	5	nmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
-8	are	day	n	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
+8	are	day	n	_	_	10	reparandum	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
 9	uh	off	prep	_	_	10	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
-10	have	today	adv:tem	_	_	8	parataxis	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
+10	have	today	adv:tem	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
 11	a	_	_	_	_	12	det	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
 12	day	_	_	_	_	10	obj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
 13	off	_	_	_	_	12	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 13 14 Eng-UK=null
@@ -2330,14 +2330,14 @@
 3	just	just	adv	_	_	2	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 22 15 Eng-UK=null
 4	when	when	conj	_	_	6	mark	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 22 15 Eng-UK=null
 5	we	we	pro:sub	_	_	6	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 22 15 Eng-UK=null
-6	got	get	v	_	_	2	advcl	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 22 15 Eng-UK=null
+6	got	get	v	_	_	13	advcl	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 22 15 Eng-UK=null
 7	on	on	prep	_	_	9	case	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 22 15 Eng-UK=null
 8	the	the	det:art	_	_	9	det	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 22 15 Eng-UK=null
 9	boat	boat	n	_	_	6	obl	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 22 15 Eng-UK=null
 10	it	it	pro:per	_	_	13	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 22 15 Eng-UK=null
 11	was	be	cop	_	_	13	cop	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 22 15 Eng-UK=null
 12	so	so	adv	_	_	13	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 22 15 Eng-UK=null
-13	rough	rough	adj	_	_	2	parataxis	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 22 15 Eng-UK=null
+13	rough	rough	adj	_	_	2	ccomp	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 22 15 Eng-UK=null
 14	and	and	coord	_	_	15	cc	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 22 15 Eng-UK=null
 15	windy	wind	adj	_	_	13	conj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 22 15 Eng-UK=null
 
@@ -2390,7 +2390,7 @@
 6	the	the	det:art	_	_	7	det	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 14 9 Eng-UK=null
 7	food	food	n	_	_	9	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 14 9 Eng-UK=null
 8	was	be	aux	_	_	9	cop	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 14 9 Eng-UK=null
-9	gone	go	part	_	_	5	ccomp	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 14 9 Eng-UK=null
+9	gone	go	part	_	_	5	parataxis	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 14 9 Eng-UK=null
 
 # text = can we pretend
 1	can	can	mod	_	_	3	aux	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas question 3 3 Eng-UK=null
@@ -2436,8 +2436,8 @@
 7	them	_	_	_	_	6	obj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 8 5 Eng-UK=null
 
 # text = go get apple out
-1	go	go	v	_	_	2	discourse	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 4 4 Eng-UK=null
-2	get	get	v	_	_	0	root	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 4 4 Eng-UK=null
+1	go	go	v	_	_	0	root	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 4 4 Eng-UK=null
+2	get	get	v	_	_	1	xcomp	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 4 4 Eng-UK=null
 3	apple	apple	n	_	_	2	obj	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 4 4 Eng-UK=null
 4	out	out	adv	_	_	2	compound:prt	Thomas CHI Target_Child	Thomas 54.099673504589425 male Thomas declarative 4 4 Eng-UK=null
 
@@ -2447,12 +2447,12 @@
 3	piers	pier	n	_	_	1	vocative	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 4 3 Eng-UK=null
 
 # text = no that xxx
-1	no	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 2 3 Eng-UK=null
-2	that	_	_	_	_	1	mark	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 2 3 Eng-UK=null
+1	no	_	_	_	_	2	det	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 2 3 Eng-UK=null
+2	that	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 2 3 Eng-UK=null
 
 # text = whee whee I 'm off my bird
 1	whee	whee	co	_	_	7	discourse	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
-2	whee	I	pro:sub	_	_	7	discourse	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
+2	whee	I	pro:sub	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
 3	I	off	prep	_	_	7	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
 4	'm	be	cop	_	_	7	cop	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
 5	off	my	det:poss	_	_	7	case	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 6 6 Eng-UK=null
@@ -2478,9 +2478,9 @@
 9	piers	pier	n	_	_	4	xcomp	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 10 9 Eng-UK=null
 
 # text = ay yum yum
-1	ay	ay	co	_	_	3	discourse	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 2 3 Eng-UK=null
-2	yum	yum	n	_	_	3	discourse	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 2 3 Eng-UK=null
-3	yum	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 2 3 Eng-UK=null
+1	ay	ay	co	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 2 3 Eng-UK=null
+2	yum	yum	n	_	_	1	discourse	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 2 3 Eng-UK=null
+3	yum	_	_	_	_	2	conj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 2 3 Eng-UK=null
 
 # text = it 's a good program
 1	it	it	pro	_	_	5	nsubj	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 5 4 Eng-UK=null
@@ -2495,13 +2495,13 @@
 3	there	there	adv	_	_	1	advmod	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 3 3 Eng-UK=null
 
 # text = you can just you can just see the balloon now
-1	you	you	pro:per	_	_	7	nsubj	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 7 10 Eng-UK=null
-2	can	can	mod	_	_	7	aux	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 7 10 Eng-UK=null
-3	just	just	adv	_	_	7	advmod	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 7 10 Eng-UK=null
+1	you	you	pro:per	_	_	2	nsubj	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 7 10 Eng-UK=null
+2	can	can	mod	_	_	0	root	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 7 10 Eng-UK=null
+3	just	just	adv	_	_	2	advmod	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 7 10 Eng-UK=null
 4	you	see	v	_	_	7	nsubj	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 7 10 Eng-UK=null
 5	can	the	det:art	_	_	7	aux	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 7 10 Eng-UK=null
 6	just	balloon	n	_	_	7	advmod	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 7 10 Eng-UK=null
-7	see	now	adv	_	_	0	root	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 7 10 Eng-UK=null
+7	see	now	adv	_	_	2	parataxis	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 7 10 Eng-UK=null
 8	the	_	_	_	_	9	det	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 7 10 Eng-UK=null
 9	balloon	_	_	_	_	7	obj	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 7 10 Eng-UK=null
 10	now	_	_	_	_	7	advmod	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 7 10 Eng-UK=null
@@ -2540,14 +2540,14 @@
 6	that	that	pro:dem	_	_	5	obj	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 6 6 Eng-UK=null
 
 # text = xxx see we looked up he was hit me eye
-1	see	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 13 10 Eng-UK=null
+1	see	_	_	_	_	3	discourse	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 13 10 Eng-UK=null
 2	we	_	_	_	_	3	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 13 10 Eng-UK=null
-3	looked	_	_	_	_	1	parataxis	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 13 10 Eng-UK=null
+3	looked	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 13 10 Eng-UK=null
 4	up	_	_	_	_	3	compound:prt	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 13 10 Eng-UK=null
-5	he	_	_	_	_	7	nsubj:pass	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 13 10 Eng-UK=null
-6	was	_	_	_	_	7	aux:pass	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 13 10 Eng-UK=null
-7	hit	_	_	_	_	1	parataxis	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 13 10 Eng-UK=null
-8	me	_	_	_	_	7	obj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 13 10 Eng-UK=null
+5	he	_	_	_	_	6	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 13 10 Eng-UK=null
+6	was	_	_	_	_	3	parataxis	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 13 10 Eng-UK=null
+7	hit	_	_	_	_	3	parataxis	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 13 10 Eng-UK=null
+8	me	_	_	_	_	9	nmod:poss	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 13 10 Eng-UK=null
 9	eye	_	_	_	_	7	obj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 13 10 Eng-UK=null
 
 # text = Purdie 's poo
@@ -2563,8 +2563,8 @@
 
 # text = that 's why I 'm giggly
 1	that	that	n	_	_	3	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 8 4 Eng-UK=null
-2	's	be	cop	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 8 4 Eng-UK=null
-3	why	why	pro:int	_	_	2	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 8 4 Eng-UK=null
+2	's	be	cop	_	_	3	cop	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 8 4 Eng-UK=null
+3	why	why	pro:int	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 8 4 Eng-UK=null
 4	I	I	pro:sub	_	_	6	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 8 4 Eng-UK=null
 5	'm	be	cop	_	_	6	cop	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 8 4 Eng-UK=null
 6	giggly	giggle	adj	_	_	3	acl:relcl	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 8 4 Eng-UK=null
@@ -2572,7 +2572,7 @@
 # text = fly old woman
 1	fly	fly	n	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 3 3 Eng-UK=null
 2	old	old	adj	_	_	3	amod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 3 3 Eng-UK=null
-3	woman	woman	n	_	_	1	obj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 3 3 Eng-UK=null
+3	woman	woman	n	_	_	1	vocative	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 3 3 Eng-UK=null
 
 # text = oh and she heard that did n't she
 1	oh	oh	co	_	_	4	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 10 7 Eng-UK=null
@@ -2580,9 +2580,9 @@
 3	she	she	pro:sub	_	_	4	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 10 7 Eng-UK=null
 4	heard	hear	v	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 10 7 Eng-UK=null
 5	that	that	adv	_	_	4	obj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 10 7 Eng-UK=null
-6	did	do	mod	_	_	4	aux	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 10 7 Eng-UK=null
-7	n't	not	neg	_	_	4	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 10 7 Eng-UK=null
-8	she	she	pro:sub	_	_	4	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 10 7 Eng-UK=null
+6	did	do	mod	_	_	4	parataxis	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 10 7 Eng-UK=null
+7	n't	not	neg	_	_	6	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 10 7 Eng-UK=null
+8	she	she	pro:sub	_	_	6	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas question 10 7 Eng-UK=null
 
 # text = all of them
 1	all	all	pro:indef	_	_	0	root	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 3 3 Eng-UK=null
@@ -2626,7 +2626,7 @@
 
 # text = no no she trying to xxx me
 1	no	_	_	_	_	4	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 6 7 Eng-UK=null
-2	no	_	_	_	_	4	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 6 7 Eng-UK=null
+2	no	_	_	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 6 7 Eng-UK=null
 3	she	_	_	_	_	4	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 6 7 Eng-UK=null
 4	trying	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 6 7 Eng-UK=null
 5	to	_	_	_	_	6	mark	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 6 7 Eng-UK=null
@@ -2634,18 +2634,18 @@
 
 # text = sorry sorry sorry
 1	sorry	sorry	co	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 3 Eng-UK=null
-2	sorry	_	_	_	_	1	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 3 Eng-UK=null
-3	sorry	_	_	_	_	1	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 3 Eng-UK=null
+2	sorry	_	_	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 3 Eng-UK=null
+3	sorry	_	_	_	_	1	conj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 1 3 Eng-UK=null
 
 # text = I had um a cheese and san um
 1	I	I	pro:sub	_	_	2	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas interruption 6 8 Eng-UK=null
 2	had	have	v	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas interruption 6 8 Eng-UK=null
-3	um	a	det:art	_	_	2	obj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas interruption 6 8 Eng-UK=null
+3	um	a	det:art	_	_	2	discourse	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas interruption 6 8 Eng-UK=null
 4	a	cheese	n	_	_	5	det	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas interruption 6 8 Eng-UK=null
 5	cheese	and	coord	_	_	2	obj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas interruption 6 8 Eng-UK=null
 6	and	_	_	_	_	7	cc	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas interruption 6 8 Eng-UK=null
 7	san	_	_	_	_	2	conj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas interruption 6 8 Eng-UK=null
-8	um	_	_	_	_	7	flat	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas interruption 6 8 Eng-UK=null
+8	um	_	_	_	_	7	discourse	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas interruption 6 8 Eng-UK=null
 
 # text = I do n't know some of these names
 1	I	I	pro:sub	_	_	4	nsubj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 9 7 Eng-UK=null
@@ -2678,7 +2678,7 @@
 4	some	some	qn	_	_	5	det	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 7 7 Eng-UK=null
 5	noise	noise	n	_	_	3	obj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 7 7 Eng-UK=null
 6	ha	ha	co	_	_	3	discourse	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 7 7 Eng-UK=null
-7	ha	ha	co	_	_	3	discourse	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 7 7 Eng-UK=null
+7	ha	ha	co	_	_	6	conj	Thomas CHI Target_Child	Thomas 55.19825869114356 male Thomas declarative 7 7 Eng-UK=null
 
 # text = oh I do like to be beside the seaside
 1	oh	oh	co	_	_	4	discourse	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 9 9 Eng-UK=null
@@ -2714,9 +2714,9 @@
 1	I	_	_	_	_	3	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 8 7 Eng-UK=null
 2	'm	_	_	_	_	3	aux	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 8 7 Eng-UK=null
 3	looking	_	_	_	_	0	root	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 8 7 Eng-UK=null
-4	for	_	_	_	_	6	mark	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 8 7 Eng-UK=null
+4	for	_	_	_	_	5	reparandum	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 8 7 Eng-UK=null
 5	to	_	_	_	_	6	mark	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 8 7 Eng-UK=null
-6	go	_	_	_	_	3	advcl	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 8 7 Eng-UK=null
+6	go	_	_	_	_	3	xcomp	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 8 7 Eng-UK=null
 7	home	_	_	_	_	6	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 8 7 Eng-UK=null
 
 # text = serves the robber right
@@ -2726,7 +2726,7 @@
 4	right	right	co	_	_	1	advmod	Thomas CHI Target_Child	Thomas 55.03398427072425 male Thomas declarative 7 4 Eng-UK=null
 
 # text = and then she might come in and then she might wan na come in and then might come in here and the come out again
-1	and	and	coord	_	_	11	cc	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 11 24 Eng-UK=null
+1	and	and	coord	_	_	5	cc	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 11 24 Eng-UK=null
 2	then	then	adv:tem	_	_	5	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 11 24 Eng-UK=null
 3	she	might	mod	_	_	5	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 11 24 Eng-UK=null
 4	might	come	v	_	_	5	aux	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 11 24 Eng-UK=null
@@ -2747,14 +2747,14 @@
 19	in	_	_	_	_	20	case	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 11 24 Eng-UK=null
 20	here	_	_	_	_	18	obl	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 11 24 Eng-UK=null
 21	and	_	_	_	_	23	cc	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 11 24 Eng-UK=null
-22	the	_	_	_	_	23	nsubj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 11 24 Eng-UK=null
+22	the	_	_	_	_	23	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 11 24 Eng-UK=null
 23	come	_	_	_	_	18	conj	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 11 24 Eng-UK=null
 24	out	_	_	_	_	23	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 11 24 Eng-UK=null
 25	again	_	_	_	_	23	advmod	Thomas CHI Target_Child	Thomas 54.13252838867328 male Thomas declarative 11 24 Eng-UK=null
 
 # text = he over
-1	he	he	pro:sub	_	_	2	nsubj	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 2 2 Eng-UK=null
-2	over	over	adv	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 2 2 Eng-UK=null
+1	he	he	pro:sub	_	_	0	root	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 2 2 Eng-UK=null
+2	over	over	adv	_	_	1	advmod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 2 2 Eng-UK=null
 
 # text = fussy lady
 1	fussy	fuss	adj	_	_	2	amod	Thomas CHI Target_Child	Thomas 54.03396373642169 male Thomas declarative 4 2 Eng-UK=null

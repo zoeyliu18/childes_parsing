@@ -13,9 +13,9 @@
 2	run	run	v	0	root	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 2 Eng-NA=null
 
 # text = he jumping rope
-1	he	he	pro:sub	0	nsubj	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 3 Eng-NA=null
-2	jumping	jump	part	3	compound	3	compound	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 3 Eng-NA=null
-3	rope	rope	n	1	parataxis	1	parataxis	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 3 Eng-NA=null
+1	he	he	pro:sub	0	nsubj	2	nsubj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 3 Eng-NA=null
+2	jumping	jump	part	3	compound	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 3 Eng-NA=null
+3	rope	rope	n	1	parataxis	2	obj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 3 Eng-NA=null
 
 # text = a ball
 1	a	ball	n	2	det	2	det	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
@@ -49,7 +49,7 @@
 1	some	kitty	n	2	det	2	det	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 6 Eng-NA=null
 2	kitty	more	adv	0	root	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 6 Eng-NA=null
 3	more	_	_	4	amod	4	amod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 6 Eng-NA=null
-4	kitty	_	_	2	parataxis	2	parataxis	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 6 Eng-NA=null
+4	kitty	_	_	2	parataxis	2	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 6 Eng-NA=null
 
 # text = more kitty
 1	more	more	qn	2	amod	2	amod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 2 Eng-NA=null
@@ -91,12 +91,12 @@
 
 # text = onk onk
 1	onk	onk	on	0	root	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 2 Eng-NA=null
-2	onk	onk	on	1	flat	1	flat	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 2 Eng-NA=null
+2	onk	onk	on	1	flat	1	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 2 Eng-NA=null
 
 # text = slide down slide
 1	slide	slide	n	0	root	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
 2	down	down	adv	1	advmod	1	advmod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
-3	slide	slide	n	1	parataxis	1	parataxis	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
+3	slide	slide	n	1	parataxis	1	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
 
 # text = ging going
 1	ging	ging_going	on	0	root	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 1 Eng-NA=null
@@ -105,7 +105,7 @@
 # text = I talk phone
 1	I	I	pro:sub	2	nsubj	2	nsubj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
 2	talk	talk	n	0	root	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
-3	phone	phone	n	2	obj	2	obj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
+3	phone	phone	n	2	obj	2	obl	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
 
 # text = call phone
 1	call	call	n	0	root	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 2 Eng-NA=null
@@ -166,9 +166,9 @@
 6	lot	lot	n	2	obl:npmod	2	obl:npmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 5 Eng-NA=null
 
 # text = a one me
-1	a	a	det:art	0	root	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
+1	a	a	det:art	0	root	3	discourse	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
 2	one	one	det:num	1	parataxis	1	parataxis	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
-3	me	me	pro:obj	1	parataxis	1	parataxis	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
+3	me	me	pro:obj	1	parataxis	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
 
 # text = out step
 1	out	out	prep	2	advmod	2	advmod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
@@ -218,9 +218,9 @@
 2	minute	minute	n	0	root	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
 
 # text = oh who dere
-1	oh	oh	co	2	discourse	2	discourse	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
-2	who	who	pro:int	0	root	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
-3	dere	there	adv	2	advmod	2	advmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
+1	oh	oh	co	2	discourse	3	discourse	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
+2	who	who	pro:int	0	root	3	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
+3	dere	there	adv	2	advmod	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 
 # text = cold out
 1	cold	cold	adj	0	root	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
@@ -232,7 +232,7 @@
 
 # text = a boo boo eye
 1	a	a	det:art	4	det	4	det	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 3 Eng-NA=null
-2	boo	boo	n	4	nmod	4	nmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 3 Eng-NA=null
+2	boo	boo	n	4	nmod	4	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 3 Eng-NA=null
 3	boo	boo	combined	2	compound:redup	2	compound:redup	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 3 Eng-NA=null
 4	eye	eye	n	0	root	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 3 Eng-NA=null
 
@@ -257,18 +257,19 @@
 
 # text = ball more beach+ball
 1	ball	more	qn	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 1 3 Eng-NA=null
-2	more	_	_	_	_	3	goeswith	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 1 3 Eng-NA=null
-3	beach+ball	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 1 3 Eng-NA=null
+2	more	_	_	_	_	4	amod	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 1 3 Eng-NA=null
+3	beach	_	_	_	_	4	compound	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 1 3 Eng-NA=null
+4	ball	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 1 3 Eng-NA=null
 
 # text = dere lion lion
-1	dere	there	adv	_	_	2	amod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
+1	dere	there	adv	_	_	2	expl	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
 2	lion	lion	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
-3	lion	_	_	_	_	2	appos	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
+3	lion	_	_	_	_	2	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
 
 # text = go Easter Bunny
 1	go	Easter_Bunny	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown question 2 3 Eng-NA=null
 2	Easter	_	_	_	_	3	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown question 2 3 Eng-NA=null
-3	Bunny	Bunny	combined	_	_	1	obj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown question 2 3 Eng-NA=null
+3	Bunny	Bunny	combined	_	_	1	vocative	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown question 2 3 Eng-NA=null
 
 # text = come on Mommy
 1	come	come	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
@@ -276,7 +277,7 @@
 3	Mommy	Mommy	n:prop	_	_	1	vocative	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 
 # text = Mommy girl
-1	Mommy	Mommy	n:prop	_	_	2	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
+1	Mommy	Mommy	n:prop	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
 2	girl	girl	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
 
 # text = I want cookie
@@ -295,7 +296,7 @@
 
 # text = more key walk
 1	more	more	qn	_	_	3	amod	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 3 3 Eng-NA=null
-2	key	key	n	_	_	3	amod	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 3 3 Eng-NA=null
+2	key	key	n	_	_	3	compound	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 3 3 Eng-NA=null
 3	walk	walk	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 3 3 Eng-NA=null
 
 # text = big ball
@@ -331,8 +332,8 @@
 4	there	there	n	_	_	2	nmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
 
 # text = oh oola
-1	oh	oh	co	_	_	2	discourse	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
-2	oola	oola	co	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
+1	oh	oh	co	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
+2	oola	oola	co	_	_	1	discourse	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
 
 # text = read again
 1	read	read	v	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 2 Eng-NA=null
@@ -384,15 +385,15 @@
 2	more	more	pro:indef	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
 
 # text = Mike did
-1	Mike	Mike	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 3 2 Eng-NA=null
-2	did	do	v	_	_	1	flat	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 3 2 Eng-NA=null
+1	Mike	Mike	n:prop	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 3 2 Eng-NA=null
+2	did	do	v	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 3 2 Eng-NA=null
 
 # text = bad dog
 1	bad	bad	adj	_	_	2	amod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown imperative_emphatic 2 2 Eng-NA=null
 2	dog	dog	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown imperative_emphatic 2 2 Eng-NA=null
 
 # text = he bad boy
-1	he	he	pro:sub	_	_	3	compound	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
+1	he	he	pro:sub	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
 2	bad	bad	adj	_	_	3	amod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
 3	boy	boy	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
 
@@ -406,8 +407,8 @@
 3	dat	that	pro:dem	_	_	2	obj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 3 3 Eng-NA=null
 
 # text = oh boy
-1	oh	oh_boy	co	_	_	2	discourse	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 1 Eng-NA=null
-2	boy	boy	combined	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 1 Eng-NA=null
+1	oh	oh_boy	co	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 1 Eng-NA=null
+2	boy	boy	combined	_	_	1	vocative	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 1 Eng-NA=null
 
 # text = Mumma ride horsie
 1	Mumma	Mumma	n:prop	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 4 4 Eng-NA=null
@@ -415,7 +416,7 @@
 3	horsie	horse	n	_	_	2	obj	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 4 4 Eng-NA=null
 
 # text = a one
-1	a	a	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 2 Eng-NA=null
+1	a	a	det:art	_	_	2	discourse	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 2 Eng-NA=null
 2	one	one	pro:indef	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 2 Eng-NA=null
 
 # text = Putnam Avenue
@@ -423,14 +424,14 @@
 2	Avenue	Avenue	combined	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 1 1 Eng-NA=null
 
 # text = go money ears
-1	go	money	n	_	_	3	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
+1	go	money	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
 2	money	ear	n	_	_	3	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
-3	ears	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
+3	ears	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
 
 # text = here wuh one
 1	here	here	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
 2	wuh	wuh	phon	_	_	1	discourse	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
-3	one	one	pro:indef	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
+3	one	one	pro:indef	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
 
 # text = monkey ears
 1	monkey	monkey	n	_	_	2	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 2 Eng-NA=null
@@ -444,11 +445,11 @@
 1	he	he	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 6 4 Eng-NA=null
 2	got	get	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 6 4 Eng-NA=null
 3	boo	boo	n	_	_	4	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 6 4 Eng-NA=null
-4	boo	boo	combined	_	_	5	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 6 4 Eng-NA=null
+4	boo	boo	combined	_	_	3	compound:redup	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 6 4 Eng-NA=null
 5	hand	hand	n	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 6 4 Eng-NA=null
 
 # text = right dere
-1	right	right	adv	_	_	2	amod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 2 Eng-NA=null
+1	right	right	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 2 Eng-NA=null
 2	dere	there	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 2 Eng-NA=null
 
 # text = a cut hand
@@ -457,12 +458,12 @@
 3	hand	hand	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 
 # text = one dere
-1	one	there	adv	_	_	2	nummod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 3 Eng-NA=null
-2	dere	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 3 Eng-NA=null
+1	one	there	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 3 Eng-NA=null
+2	dere	_	_	_	_	1	advmod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 3 Eng-NA=null
 
 # text = one dat
-1	one	one	det:num	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 2 Eng-NA=null
-2	dat	that	pro:dem	_	_	1	nmod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 2 Eng-NA=null
+1	one	one	det:num	_	_	2	det	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 2 Eng-NA=null
+2	dat	that	pro:dem	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 2 Eng-NA=null
 
 # text = Donaldz Duck
 1	Donaldz	Donaldz_Duck	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown imperative_emphatic 1 1 Eng-NA=null
@@ -473,8 +474,8 @@
 2	you	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 2 Eng-NA=null
 
 # text = wow woe Donaldz Duck
-1	wow	wow	co	_	_	2	discourse	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
-2	woe	woe	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
+1	wow	wow	co	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
+2	woe	woe	n	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
 3	Donaldz	Donaldz_Duck	n:prop	_	_	4	compound	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
 4	Duck	Duck	combined	_	_	2	vocative	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
 
@@ -496,9 +497,9 @@
 2	accident	accident	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
 
 # text = a boo boo
-1	a	a	det:art	_	_	3	det	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 2 Eng-NA=null
-2	boo	boo	n	_	_	3	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 2 Eng-NA=null
-3	boo	boo	combined	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 2 Eng-NA=null
+1	a	a	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 2 Eng-NA=null
+2	boo	boo	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 2 Eng-NA=null
+3	boo	boo	combined	_	_	2	compound:redup	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 2 Eng-NA=null
 
 # text = two eyes
 1	two	two	det:num	_	_	2	nummod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 2 Eng-NA=null
@@ -514,26 +515,26 @@
 
 # text = boo boo
 1	boo	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
-2	boo	boo	combined	_	_	1	discourse	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
+2	boo	boo	combined	_	_	1	compound:redup	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
 
 # text = pulled my hair dere
 1	pulled	pull	v	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 5 4 Eng-NA=null
 2	my	my	det:poss	_	_	3	nmod:poss	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 5 4 Eng-NA=null
 3	hair	hair	n	_	_	1	obj	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 5 4 Eng-NA=null
-4	dere	there	adv	_	_	1	discourse	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 5 4 Eng-NA=null
+4	dere	there	adv	_	_	1	advmod	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 5 4 Eng-NA=null
 
 # text = my hand
 1	my	my	det:poss	_	_	2	nmod:poss	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
 2	hand	hand	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
 
 # text = Michael hand
-1	Michael	Michael	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
-2	hand	hand	n	_	_	1	flat	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
+1	Michael	Michael	n:prop	_	_	2	nmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
+2	hand	hand	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
 
 # text = Michael hand hand
-1	Michael	Michael	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 3 Eng-NA=null
-2	hand	hand	n	_	_	1	flat	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 3 Eng-NA=null
-3	hand	_	_	_	_	1	list	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 3 Eng-NA=null
+1	Michael	Michael	n:prop	_	_	2	nmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 3 Eng-NA=null
+2	hand	hand	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 3 Eng-NA=null
+3	hand	_	_	_	_	2	conj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 3 Eng-NA=null
 
 # text = I show you
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
@@ -547,7 +548,7 @@
 # text = break Tickle Baby
 1	break	break	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
 2	Tickle	Tickle_Baby	n:prop	_	_	1	obj	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
-3	Baby	Baby	combined	_	_	1	obj	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
+3	Baby	Baby	combined	_	_	2	flat	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
 
 # text = one mouth
 1	one	one	det:num	_	_	2	nummod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 2 Eng-NA=null
@@ -611,11 +612,11 @@
 2	piano	piano	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
 
 # text = one two three I got piano dere
-1	one	one	det:num	_	_	5	nummod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 8 8 Eng-NA=null
-2	two	two	det:num	_	_	3	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 8 8 Eng-NA=null
+1	one	one	det:num	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 8 8 Eng-NA=null
+2	two	two	det:num	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 8 8 Eng-NA=null
 3	three	three	det:num	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 8 8 Eng-NA=null
 4	I	get	v	_	_	5	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 8 8 Eng-NA=null
-5	got	piano	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 8 8 Eng-NA=null
+5	got	piano	n	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 8 8 Eng-NA=null
 6	piano	there	adv	_	_	7	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 8 8 Eng-NA=null
 7	dere	_	_	_	_	5	obj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 8 8 Eng-NA=null
 
@@ -637,7 +638,7 @@
 
 # text = my you
 1	my	my	det:poss	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 3 Eng-NA=null
-2	you	_	_	_	_	1	obj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 3 Eng-NA=null
+2	you	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 3 Eng-NA=null
 
 # text = hi everybody
 1	hi	hi	co	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 2 Eng-NA=null
@@ -654,8 +655,8 @@
 # text = I all wet Mommy
 1	I	I	pro:sub	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
 2	all	all	adv	_	_	3	advmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
-3	wet	wet	adj	_	_	4	amod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
-4	Mommy	Mommy	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
+3	wet	wet	adj	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
+4	Mommy	Mommy	n:prop	_	_	3	vocative	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
 
 # text = I all wet
 1	I	I	pro:sub	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
@@ -663,12 +664,12 @@
 3	wet	wet	adj	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 
 # text = eee back
-1	eee	eee	co	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
+1	eee	eee	co	_	_	2	discourse	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
 2	back	back	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
 
 # text = hi Momma
-1	hi	hi	co	_	_	2	discourse	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
-2	Momma	Momma	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
+1	hi	hi	co	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
+2	Momma	Momma	n:prop	_	_	1	vocative	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
 
 # text = buy new one
 1	buy	new	adj	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 4 Eng-NA=null
@@ -711,9 +712,9 @@
 3	school	school	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 3 Eng-NA=null
 
 # text = he big nose
-1	he	he	pro:sub	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
+1	he	he	pro:sub	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
 2	big	big	adj	_	_	3	amod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
-3	nose	nose	n	_	_	1	appos	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
+3	nose	nose	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
 
 # text = I love my dance school
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 5 5 Eng-NA=null
@@ -727,7 +728,7 @@
 2	sick	sick	adj	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
 
 # text = you Popeye
-1	you	you	pro:per	_	_	2	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
+1	you	you	pro:per	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
 2	Popeye	Popeye	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
 
 # text = where dance school go
@@ -737,8 +738,8 @@
 4	go	go	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown question 4 4 Eng-NA=null
 
 # text = oh Popeye
-1	oh	oh	co	_	_	2	discourse	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
-2	Popeye	Popeye	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
+1	oh	oh	co	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
+2	Popeye	Popeye	n:prop	_	_	1	vocative	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
 
 # text = know them
 1	know	know	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
@@ -746,12 +747,12 @@
 
 # text = my orange juice
 1	my	orange	adj	_	_	3	nmod:poss	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 4 Eng-NA=null
-2	orange	juice	n	_	_	3	amod	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 4 Eng-NA=null
+2	orange	juice	n	_	_	3	compound	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 4 Eng-NA=null
 3	juice	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 4 Eng-NA=null
 
 # text = bow wow
-1	bow	_	_	_	_	2	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 2 Eng-NA=null
-2	wow	wow	combined	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 2 Eng-NA=null
+1	bow	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 2 Eng-NA=null
+2	wow	wow	combined	_	_	1	goeswith	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 2 Eng-NA=null
 
 # text = big face
 1	big	big	adj	_	_	2	amod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
@@ -774,8 +775,8 @@
 2	saying	say	part	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 2 Eng-NA=null
 
 # text = open door
-1	open	open	adj	_	_	2	amod	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
-2	door	door	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
+1	open	open	adj	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
+2	door	door	n	_	_	1	obj	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
 
 # text = here you are
 1	here	here	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 3 Eng-NA=null
@@ -783,28 +784,28 @@
 3	are	be	cop	_	_	1	cop	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 3 Eng-NA=null
 
 # text = open dere
-1	open	open	v	_	_	2	compound	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
-2	dere	there	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
+1	open	open	v	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
+2	dere	there	adv	_	_	1	advmod	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
 
 # text = uh me
 1	uh	me	pro:obj	_	_	2	discourse	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown question 1 2 Eng-NA=null
 2	me	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown question 1 2 Eng-NA=null
 
 # text = two Mommy
-1	two	two	det:num	_	_	2	nummod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
-2	Mommy	Mommy	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
+1	two	two	det:num	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
+2	Mommy	Mommy	n:prop	_	_	1	vocative	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
 
 # text = where phone
-1	where	where	pro:int	_	_	2	advmod	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown question 2 2 Eng-NA=null
-2	phone	phone	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown question 2 2 Eng-NA=null
+1	where	where	pro:int	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown question 2 2 Eng-NA=null
+2	phone	phone	n	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown question 2 2 Eng-NA=null
 
 # text = dose bunnies
 1	dose	those	det:dem	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 2 Eng-NA=null
-2	bunnies	bunny	n	_	_	1	vocative	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 2 Eng-NA=null
+2	bunnies	bunny	n	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 2 Eng-NA=null
 
 # text = here mouse
-1	here	here	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
-2	mouse	mouse	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
+1	here	here	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
+2	mouse	mouse	n	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
 
 # text = Booby Bear
 1	Booby	Booby_Bear	n:prop	_	_	2	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 1 Eng-NA=null
@@ -817,8 +818,8 @@
 
 # text = one two three four
 1	one	one	det:num	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
-2	two	two	det:num	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
-3	three	three	det:num	_	_	2	conj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
+2	two	two	det:num	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
+3	three	three	det:num	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
 4	four	four	det:num	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
 
 # text = up door
@@ -872,7 +873,7 @@
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 4 Eng-NA=null
 2	got	get	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 4 Eng-NA=null
 3	swing	swing	n	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 4 Eng-NA=null
-4	out	out	adv	_	_	2	compound:prt	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 4 Eng-NA=null
+4	out	out	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 4 Eng-NA=null
 
 # text = outdoor swings
 1	outdoor	outdoor	adj	_	_	2	amod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 2 Eng-NA=null
@@ -887,15 +888,15 @@
 2	slides	slide	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 2 Eng-NA=null
 
 # text = out back yard
-1	out	out	prep	_	_	3	amod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
+1	out	out	prep	_	_	3	advmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 2	back	back	adj	_	_	3	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 3	yard	yard	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 
 # text = I pull pull you
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
 2	pull	pull	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
-3	pull	pull	v	_	_	2	parataxis	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
-4	you	you	pro:per	_	_	3	obj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
+3	pull	pull	v	_	_	2	conj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
+4	you	you	pro:per	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
 
 # text = I pull
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
@@ -905,18 +906,18 @@
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
 2	fall	fall	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
 3	down	down	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
-4	boom	boom	co	_	_	2	parataxis	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
+4	boom	boom	co	_	_	2	discourse	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 4 Eng-NA=null
 
 # text = oh oh
 1	oh	oh	co	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
-2	oh	oh	co	_	_	1	discourse	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
+2	oh	oh	co	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
 
 # text = we bad boom boom floor
 1	we	we	pro:sub	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 5 Eng-NA=null
 2	bad	bad	adj	_	_	4	amod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 5 Eng-NA=null
-3	boom	boom	n	_	_	4	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 5 Eng-NA=null
-4	boom	boom	n	_	_	5	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 5 Eng-NA=null
-5	floor	floor	n	_	_	1	list	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 5 Eng-NA=null
+3	boom	boom	n	_	_	5	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 5 Eng-NA=null
+4	boom	boom	n	_	_	3	compound:redup	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 5 Eng-NA=null
+5	floor	floor	n	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 5 Eng-NA=null
 
 # text = a sit car
 1	a	a	det:art	_	_	3	det	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 3 3 Eng-NA=null
@@ -947,12 +948,12 @@
 
 # text = ribbon Jo Ann
 1	ribbon	ribbon	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 3 Eng-NA=null
-2	Jo	_	_	_	_	1	flat	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 3 Eng-NA=null
+2	Jo	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 3 Eng-NA=null
 3	Ann	Ann	combined	_	_	2	flat	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 3 Eng-NA=null
 
 # text = I I love lollipop
 1	I	I	pro:sub	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 4 Eng-NA=null
-2	I	love	n	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 4 Eng-NA=null
+2	I	love	n	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 4 Eng-NA=null
 3	love	lollipop	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 4 Eng-NA=null
 4	lollipop	_	_	_	_	3	obj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 4 Eng-NA=null
 
@@ -963,7 +964,7 @@
 4	I	I	pro:sub	_	_	5	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 6 8 Eng-NA=null
 5	like	like	co	_	_	2	parataxis	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 6 8 Eng-NA=null
 6	I	_	_	_	_	7	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 6 8 Eng-NA=null
-7	like	_	_	_	_	5	parataxis	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 6 8 Eng-NA=null
+7	like	_	_	_	_	2	parataxis	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 6 8 Eng-NA=null
 
 # text = I hold it
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
@@ -1000,9 +1001,9 @@
 2	my	my	co	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 3 Eng-NA=null
 
 # text = uh bu bad
-1	uh	bad	adj	_	_	2	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 3 Eng-NA=null
-2	bu	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 3 Eng-NA=null
-3	bad	_	_	_	_	2	amod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 3 Eng-NA=null
+1	uh	bad	adj	_	_	3	discourse	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 3 Eng-NA=null
+2	bu	_	_	_	_	3	discourse	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 3 Eng-NA=null
+3	bad	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 3 Eng-NA=null
 
 # text = my new shoes
 1	my	my	det:poss	_	_	3	nmod:poss	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 3 Eng-NA=null
@@ -1014,7 +1015,7 @@
 2	done	do	part	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 2 Eng-NA=null
 
 # text = it bad tv
-1	it	it	pro:per	_	_	3	det	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
+1	it	it	pro:per	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 2	bad	bad	adj	_	_	3	amod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 3	tv	tv	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 
@@ -1032,8 +1033,8 @@
 2	shoes	shoe	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 2 Eng-NA=null
 
 # text = wee wees
-1	wee	_	_	_	_	2	amod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 2 Eng-NA=null
-2	wees	wees	combined	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 2 Eng-NA=null
+1	wee	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 2 Eng-NA=null
+2	wees	wees	combined	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 2 Eng-NA=null
 
 # text = here Mommy
 1	here	here	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 2 Eng-NA=null
@@ -1048,7 +1049,7 @@
 
 # text = rug Mommy
 1	rug	rug	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
-2	Mommy	Mommy	n:prop	_	_	1	flat	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
+2	Mommy	Mommy	n:prop	_	_	1	vocative	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
 
 # text = who did that
 1	who	who	pro:int	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown question 4 3 Eng-NA=null
@@ -1063,13 +1064,13 @@
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 7 6 Eng-NA=null
 2	got	get	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 7 6 Eng-NA=null
 3	balloon	balloon	n	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 7 6 Eng-NA=null
-4	a	a	det:art	_	_	6	case	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 7 6 Eng-NA=null
+4	a	a	det:art	_	_	6	discourse	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 7 6 Eng-NA=null
 5	my	my	det:poss	_	_	6	nmod:poss	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 7 6 Eng-NA=null
-6	house	house	n	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 7 6 Eng-NA=null
+6	house	house	n	_	_	2	parataxis	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 7 6 Eng-NA=null
 
 # text = punkins it
 1	punkins	pumpkin	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 3 2 Eng-NA=null
-2	it	it	pro:per	_	_	1	obj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 3 2 Eng-NA=null
+2	it	it	pro:per	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 3 2 Eng-NA=null
 
 # text = I like rug
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 3 Eng-NA=null
@@ -1102,16 +1103,16 @@
 # text = rug bad rug
 1	rug	bad	adj	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 3 Eng-NA=null
 2	bad	rug	n	_	_	3	amod	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 3 Eng-NA=null
-3	rug	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 3 Eng-NA=null
+3	rug	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 3 Eng-NA=null
 
 # text = whee whee whee
 1	whee	whee	co	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 1 3 Eng-NA=null
-2	whee	_	_	_	_	1	discourse	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 1 3 Eng-NA=null
-3	whee	_	_	_	_	1	discourse	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 1 3 Eng-NA=null
+2	whee	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 1 3 Eng-NA=null
+3	whee	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 1 3 Eng-NA=null
 
 # text = dat blue
-1	dat	that	pro:dem	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
-2	blue	blue	adj	_	_	1	flat	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
+1	dat	that	pro:dem	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
+2	blue	blue	adj	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
 
 # text = hold my glass
 1	hold	hold	v	_	_	0	root	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 3 3 Eng-NA=null
@@ -1119,7 +1120,7 @@
 3	glass	glass	n	_	_	1	obj	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 3 3 Eng-NA=null
 
 # text = a my
-1	a	a	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 3 Eng-NA=null
+1	a	a	det:art	_	_	2	discourse	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 3 Eng-NA=null
 2	my	my	co	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 3 Eng-NA=null
 
 # text = I blow my nose
@@ -1142,7 +1143,7 @@
 7	back	_	_	_	_	5	obj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 8 5 Eng-NA=null
 
 # text = a more
-1	a	a	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
+1	a	a	det:art	_	_	2	discourse	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
 2	more	more	pro:indef	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
 
 # text = I like Richard
@@ -1162,16 +1163,16 @@
 4	that	_	_	_	_	3	obj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 5 Eng-NA=null
 
 # text = Nana house
-1	Nana	Nana	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
-2	house	house	n	_	_	1	flat	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
+1	Nana	Nana	n:prop	_	_	2	nmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
+2	house	house	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
 
 # text = down beach
-1	down	down	adv	_	_	2	amod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 2 Eng-NA=null
+1	down	down	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 2 Eng-NA=null
 2	beach	beach	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 2 Eng-NA=null
 
 # text = I dat back
-1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 4 Eng-NA=null
-2	dat	back	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 4 Eng-NA=null
+1	I	I	pro:sub	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 4 Eng-NA=null
+2	dat	back	adv	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 4 Eng-NA=null
 3	back	_	_	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 4 Eng-NA=null
 
 # text = a two
@@ -1190,7 +1191,9 @@
 
 # text = see merry+go+round
 1	see	see	v	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 2 Eng-NA=null
-2	merry+go+round	_	_	_	_	1	obj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 2 Eng-NA=null
+2	merry+go+round	_	_	_	_	4	compound	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 2 Eng-NA=null
+3	merry+go+round	_	_	_	_	4	compound	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 2 Eng-NA=null
+4	merry+go+round	_	_	_	_	1	obj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 2 Eng-NA=null
 
 # text = go round
 1	go	go	v	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
@@ -1219,9 +1222,9 @@
 
 # text = a t ou out
 1	a	a	n:let	_	_	0	root	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown imperative_emphatic 3 4 Eng-NA=null
-2	t	t	n:let	_	_	1	fixed	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown imperative_emphatic 3 4 Eng-NA=null
-3	ou	out	adv	_	_	1	goeswith	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown imperative_emphatic 3 4 Eng-NA=null
-4	out	_	_	_	_	1	goeswith	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown imperative_emphatic 3 4 Eng-NA=null
+2	t	t	n:let	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown imperative_emphatic 3 4 Eng-NA=null
+3	ou	out	adv	_	_	4	reparandum	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown imperative_emphatic 3 4 Eng-NA=null
+4	out	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown imperative_emphatic 3 4 Eng-NA=null
 
 # text = I got Christmas tree
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 4 Eng-NA=null
@@ -1234,11 +1237,11 @@
 2	head	head	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
 
 # text = i n nin nin in
-1	i	i	n:let	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 4 5 Eng-NA=null
-2	n	n	n:let	_	_	3	advmod	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 4 5 Eng-NA=null
-3	nin	nin	bab	_	_	0	root	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 4 5 Eng-NA=null
+1	i	i	n:let	_	_	0	root	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 4 5 Eng-NA=null
+2	n	n	n:let	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 4 5 Eng-NA=null
+3	nin	nin	bab	_	_	5	nsubj	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 4 5 Eng-NA=null
 4	nin	in	adv	_	_	3	flat	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 4 5 Eng-NA=null
-5	in	_	_	_	_	3	conj	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 4 5 Eng-NA=null
+5	in	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 4 5 Eng-NA=null
 
 # text = I got Christmas tree my house
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 7 6 Eng-NA=null
@@ -1250,7 +1253,7 @@
 
 # text = in in
 1	in	in	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 1 2 Eng-NA=null
-2	in	_	_	_	_	1	goeswith	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 1 2 Eng-NA=null
+2	in	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 1 2 Eng-NA=null
 
 # text = eee here
 1	eee	eee	co	_	_	2	discourse	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 2 Eng-NA=null
@@ -1262,7 +1265,7 @@
 
 # text = oh that my dress
 1	oh	oh	co	_	_	4	discourse	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 4 4 Eng-NA=null
-2	that	that	adv	_	_	4	reparandum	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 4 4 Eng-NA=null
+2	that	that	adv	_	_	4	nsubj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 4 4 Eng-NA=null
 3	my	my	det:poss	_	_	4	nmod:poss	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 4 4 Eng-NA=null
 4	dress	dress	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 4 4 Eng-NA=null
 
@@ -1297,7 +1300,7 @@
 2	Claus	Claus	combined	_	_	1	flat	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 1 Eng-NA=null
 
 # text = more my hand
-1	more	more	qn	_	_	3	advmod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
+1	more	more	qn	_	_	3	amod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
 2	my	my	det:poss	_	_	3	nmod:poss	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
 3	hand	hand	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
 
@@ -1311,9 +1314,9 @@
 
 # text = snow n n n snow
 1	snow	snow	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 5 Eng-NA=null
-2	n	snow	n	_	_	4	goeswith	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 5 Eng-NA=null
-3	n	_	_	_	_	4	cc	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 5 Eng-NA=null
-4	n	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 5 Eng-NA=null
+2	n	snow	n	_	_	1	discourse	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 5 Eng-NA=null
+3	n	_	_	_	_	2	goeswith	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 5 Eng-NA=null
+4	n	_	_	_	_	2	goeswith	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 5 Eng-NA=null
 5	snow	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 5 Eng-NA=null
 
 # text = where my Kleenex
@@ -1322,18 +1325,18 @@
 3	Kleenex	Kleenex	n:prop	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 3 Eng-NA=null
 
 # text = here Michael
-1	here	here	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
-2	Michael	Michael	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
+1	here	here	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
+2	Michael	Michael	n:prop	_	_	1	vocative	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
 
 # text = smaller one
 1	smaller	small	adj	_	_	2	amod	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 3 2 Eng-NA=null
 2	one	one	pro:indef	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 3 2 Eng-NA=null
 
 # text = a hit on too
-1	a	a	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 4 Eng-NA=null
+1	a	a	det:art	_	_	2	discourse	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 4 Eng-NA=null
 2	hit	hit	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 4 Eng-NA=null
-3	on	on	adv	_	_	4	case	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 4 Eng-NA=null
-4	too	too	adv	_	_	2	nmod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 4 Eng-NA=null
+3	on	on	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 4 Eng-NA=null
+4	too	too	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 4 Eng-NA=null
 
 # text = where is it
 1	where	where	pro:int	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 4 3 Eng-NA=null
@@ -1341,9 +1344,9 @@
 3	it	it	pro:per	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 4 3 Eng-NA=null
 
 # text = where you Kleenex
-1	where	where	pro:int	_	_	3	advmod	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 3 3 Eng-NA=null
-2	you	you	pro:per	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 3 3 Eng-NA=null
-3	Kleenex	Kleenex	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 3 3 Eng-NA=null
+1	where	where	pro:int	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 3 3 Eng-NA=null
+2	you	you	pro:per	_	_	3	nmod:poss	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 3 3 Eng-NA=null
+3	Kleenex	Kleenex	n:prop	_	_	1	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 3 3 Eng-NA=null
 
 # text = a hat on
 1	a	a	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
@@ -1352,7 +1355,7 @@
 
 # text = dere for
 1	dere	for	prep	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown question 2 3 Eng-NA=null
-2	for	_	_	_	_	1	fixed	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown question 2 3 Eng-NA=null
+2	for	_	_	_	_	1	obl	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown question 2 3 Eng-NA=null
 
 # text = full of pep
 1	full	full	adj	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 3 Eng-NA=null
@@ -1361,7 +1364,7 @@
 
 # text = sit dere
 1	sit	sit	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
-2	dere	there	adv	_	_	1	obj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
+2	dere	there	adv	_	_	1	advmod	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
 
 # text = he my doggie know
 1	he	he	pro:sub	_	_	4	discourse	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 5 4 Eng-NA=null
@@ -1379,7 +1382,7 @@
 
 # text = wow wow
 1	wow	wow	co	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 2 2 Eng-NA=null
-2	wow	wow	co	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 2 2 Eng-NA=null
+2	wow	wow	co	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 2 2 Eng-NA=null
 
 # text = I broke it
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 4 3 Eng-NA=null
@@ -1388,7 +1391,7 @@
 
 # text = whee whooee
 1	whee	whee	co	_	_	0	root	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
-2	whooee	whooee	co	_	_	1	vocative	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
+2	whooee	whooee	co	_	_	1	discourse	Sarah CHI Target_Child	Sarah 30.13203556541202 female Brown declarative 2 2 Eng-NA=null
 
 # text = Bugs Chatty Baby
 1	Bugs	Bugs	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 2 Eng-NA=null
@@ -1406,12 +1409,12 @@
 
 # text = oink oink
 1	oink	oink_oink	on	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown question 1 1 Eng-NA=null
-2	oink	oink	combined	_	_	1	vocative	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown question 1 1 Eng-NA=null
+2	oink	oink	combined	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown question 1 1 Eng-NA=null
 
 # text = here little girl
-1	here	here	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
+1	here	here	adv	_	_	3	discourse	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 2	little	little	adj	_	_	3	amod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
-3	girl	girl	n	_	_	1	vocative	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
+3	girl	girl	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 
 # text = where Chatty Baby
 1	where	where	pro:rel	_	_	0	root	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown question 2 2 Eng-NA=null
@@ -1438,14 +1441,14 @@
 # text = rings my fame
 1	rings	ring	v	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 4 3 Eng-NA=null
 2	my	my	det:poss	_	_	3	compound	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 4 3 Eng-NA=null
-3	fame	fame	n	_	_	1	appos	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 4 3 Eng-NA=null
+3	fame	fame	n	_	_	1	obj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 4 3 Eng-NA=null
 
 # text = your Mommy
 1	your	your	det:poss	_	_	2	nmod:poss	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 2 Eng-NA=null
 2	Mommy	Mommy	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 2 Eng-NA=null
 
 # text = a bite me
-1	a	a	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
+1	a	a	det:art	_	_	2	discourse	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 2	bite	bite	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 3	me	me	pro:obj	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 
@@ -1456,8 +1459,8 @@
 # text = hi Dada where Tickles
 1	hi	hi	co	_	_	0	root	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown question 4 4 Eng-NA=null
 2	Dada	Dada	n:prop	_	_	1	vocative	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown question 4 4 Eng-NA=null
-3	where	where	pro:rel	_	_	4	advmod	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown question 4 4 Eng-NA=null
-4	Tickles	Tickles	n:prop	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown question 4 4 Eng-NA=null
+3	where	where	pro:rel	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown question 4 4 Eng-NA=null
+4	Tickles	Tickles	n:prop	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown question 4 4 Eng-NA=null
 
 # text = a cut
 1	a	a	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 2 Eng-NA=null
@@ -1466,10 +1469,10 @@
 # text = Tony Pony fingers
 1	Tony	Tony_Pony	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 2 Eng-NA=null
 2	Pony	Pony	combined	_	_	1	flat	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 2 Eng-NA=null
-3	fingers	finger	v	_	_	1	flat	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 2 Eng-NA=null
+3	fingers	finger	v	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 2 Eng-NA=null
 
 # text = dat yours
-1	dat	that	comp	_	_	2	compound	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 2 2 Eng-NA=null
+1	dat	that	comp	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 2 2 Eng-NA=null
 2	yours	yours	pro:poss	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 2 2 Eng-NA=null
 
 # text = full p
@@ -1485,8 +1488,8 @@
 2	yours	yours	pro:poss	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 2 2 Eng-NA=null
 
 # text = my on
-1	my	on	adv	_	_	2	nmod:poss	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 3 Eng-NA=null
-2	on	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 3 Eng-NA=null
+1	my	on	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 3 Eng-NA=null
+2	on	_	_	_	_	1	advmod	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 3 Eng-NA=null
 
 # text = full pep
 1	full	full	adj	_	_	2	amod	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
@@ -1502,13 +1505,13 @@
 2	Mommy	_	_	_	_	1	vocative	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 3 Eng-NA=null
 
 # text = you fussy girl
-1	you	you	pro:per	_	_	3	nmod:poss	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 5 3 Eng-NA=null
+1	you	you	pro:per	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 5 3 Eng-NA=null
 2	fussy	fuss	adj	_	_	3	amod	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 5 3 Eng-NA=null
 3	girl	girl	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 5 3 Eng-NA=null
 
 # text = where Tickles
-1	where	where	pro:rel	_	_	2	advmod	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 2 Eng-NA=null
-2	Tickles	Tickles	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 2 Eng-NA=null
+1	where	where	pro:rel	_	_	0	root	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 2 Eng-NA=null
+2	Tickles	Tickles	n:prop	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 2 Eng-NA=null
 
 # text = he 's got an eye
 1	he	he	pro	_	_	3	nsubj:pass	Friend_Jo_Ann JOA Child	Sarah 31.164910983798432 female Brown declarative 6 4 Eng-NA=null
@@ -1523,9 +1526,9 @@
 3	one	one	pro:indef	_	_	2	obj	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown question 3 3 Eng-NA=null
 
 # text = eye eye he
-1	eye	eye	n	_	_	2	compound	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 4 Eng-NA=null
-2	eye	he	pro:sub	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 4 Eng-NA=null
-3	he	_	_	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 4 Eng-NA=null
+1	eye	eye	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 4 Eng-NA=null
+2	eye	he	pro:sub	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 4 Eng-NA=null
+3	he	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 4 Eng-NA=null
 
 # text = get hand caught
 1	get	get	v	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 4 3 Eng-NA=null
@@ -1559,11 +1562,11 @@
 
 # text = one two
 1	one	one	det:num	_	_	0	root	Friend_Jo_Ann JOA Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
-2	two	two	det:num	_	_	1	parataxis	Friend_Jo_Ann JOA Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
+2	two	two	det:num	_	_	1	conj	Friend_Jo_Ann JOA Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
 
 # text = here Tickles
-1	here	here	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 2 Eng-NA=null
-2	Tickles	Tickles	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 2 Eng-NA=null
+1	here	here	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 2 Eng-NA=null
+2	Tickles	Tickles	n:prop	_	_	1	vocative	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 2 Eng-NA=null
 
 # text = hit my baby
 1	hit	hit	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 3 Eng-NA=null
@@ -1577,9 +1580,9 @@
 4	down	down	adv	_	_	3	compound:prt	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 4 4 Eng-NA=null
 
 # text = a me one too
-1	a	a	det:art	_	_	3	det	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
-2	me	me	pro:obj	_	_	3	compound	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
-3	one	one	pro:indef	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
+1	a	a	det:art	_	_	2	discourse	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
+2	me	me	pro:obj	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
+3	one	one	pro:indef	_	_	2	parataxis	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
 4	too	too	adv	_	_	3	advmod	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
 
 # text = four too
@@ -1609,9 +1612,9 @@
 2	Kleenex	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 2 3 Eng-NA=null
 
 # text = one two ear
-1	one	one	det:num	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
-2	two	two	det:num	_	_	3	nummod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
-3	ear	ear	n	_	_	1	appos	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
+1	one	one	det:num	_	_	3	nummod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
+2	two	two	det:num	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
+3	ear	ear	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
 
 # text = you do hi
 1	you	you	pro:per	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 3 4 Eng-NA=null
@@ -1619,8 +1622,8 @@
 3	hi	_	_	_	_	2	discourse	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 3 4 Eng-NA=null
 
 # text = wow oh
-1	wow	wow	co	_	_	2	discourse	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
-2	oh	oh	co	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
+1	wow	wow	co	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
+2	oh	oh	co	_	_	1	discourse	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
 
 # text = I put my Kleenex
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 5 4 Eng-NA=null
@@ -1629,8 +1632,8 @@
 4	Kleenex	Kleenex	n:prop	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 5 4 Eng-NA=null
 
 # text = dere Mummy boot
-1	dere	there	adv	_	_	3	amod	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 3 Eng-NA=null
-2	Mummy	Mummy	n:prop	_	_	3	compound	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 3 Eng-NA=null
+1	dere	there	adv	_	_	3	expl	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 3 Eng-NA=null
+2	Mummy	Mummy	n:prop	_	_	3	nmod	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 3 Eng-NA=null
 3	boot	boot	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 3 Eng-NA=null
 
 # text = come off
@@ -1648,7 +1651,7 @@
 # text = I took eye out
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 5 4 Eng-NA=null
 2	took	take	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 5 4 Eng-NA=null
-3	eye	eye	n	_	_	4	compound	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 5 4 Eng-NA=null
+3	eye	eye	n	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 5 4 Eng-NA=null
 4	out	out	adv	_	_	2	compound:prt	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 5 4 Eng-NA=null
 
 # text = where baby
@@ -1673,12 +1676,12 @@
 2	know	know	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
 
 # text = hi Mommy
-1	hi	hi	co	_	_	2	discourse	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 2 Eng-NA=null
-2	Mommy	Mommy	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 2 Eng-NA=null
+1	hi	hi	co	_	_	0	root	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 2 Eng-NA=null
+2	Mommy	Mommy	n:prop	_	_	1	vocative	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 2 Eng-NA=null
 
 # text = Nana hop
-1	Nana	Nana	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
-2	hop	hop	n	_	_	1	flat	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
+1	Nana	Nana	n:prop	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
+2	hop	hop	n	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
 
 # text = is that a doggie
 1	is	be	cop	_	_	4	cop	Friend_Jo_Ann JOA Child	Sarah 31.164910983798432 female Brown question 6 4 Eng-NA=null
@@ -1697,16 +1700,16 @@
 # text = sun a eye
 1	sun	sun	v	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 3 Eng-NA=null
 2	a	a	det:art	_	_	3	det	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 3 Eng-NA=null
-3	eye	eye	n	_	_	1	flat	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 3 Eng-NA=null
+3	eye	eye	n	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 3 Eng-NA=null
 
 # text = I new teeth here
-1	I	I	pro:sub	_	_	3	nmod:poss	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 5 4 Eng-NA=null
+1	I	I	pro:sub	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 5 4 Eng-NA=null
 2	new	new	adj	_	_	3	amod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 5 4 Eng-NA=null
 3	teeth	tooth	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 5 4 Eng-NA=null
 4	here	here	adv	_	_	3	advmod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 5 4 Eng-NA=null
 
 # text = a my doggie
-1	a	a	det:art	_	_	3	det	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 4 3 Eng-NA=null
+1	a	a	det:art	_	_	3	discourse	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 4 3 Eng-NA=null
 2	my	my	co	_	_	3	nmod:poss	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 4 3 Eng-NA=null
 3	doggie	dog	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 4 3 Eng-NA=null
 
@@ -1716,8 +1719,8 @@
 3	you	you	pro:per	_	_	1	obl	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 7 Eng-NA=null
 4	to	_	_	_	_	5	case	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 7 Eng-NA=null
 5	you	_	_	_	_	1	obl	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 7 Eng-NA=null
-6	you	_	_	_	_	1	discourse	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 7 Eng-NA=null
-7	you	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 7 Eng-NA=null
+6	you	_	_	_	_	5	conj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 7 Eng-NA=null
+7	you	_	_	_	_	5	conj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 7 Eng-NA=null
 
 # text = I hungry
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 2 Eng-NA=null
@@ -1745,8 +1748,8 @@
 
 # text = too big me
 1	too	too	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 3 Eng-NA=null
-2	big	big	adj	_	_	3	amod	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 3 Eng-NA=null
-3	me	me	pro:obj	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 3 Eng-NA=null
+2	big	big	adj	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 3 Eng-NA=null
+3	me	me	pro:obj	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 3 Eng-NA=null
 
 # text = I eat sun
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 3 Eng-NA=null
@@ -1755,13 +1758,13 @@
 
 # text = I I eat sun
 1	I	I	pro:sub	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 4 Eng-NA=null
-2	I	eat	v	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 4 Eng-NA=null
+2	I	eat	v	_	_	1	conj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 4 Eng-NA=null
 3	eat	sun	n	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 4 Eng-NA=null
 4	sun	_	_	_	_	3	obj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 4 Eng-NA=null
 
 # text = a r write on back
-1	a	a	det:art	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 5 Eng-NA=null
-2	r	write	v	_	_	3	aux	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 5 Eng-NA=null
+1	a	a	det:art	_	_	3	discourse	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 5 Eng-NA=null
+2	r	write	v	_	_	3	reparandum	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 5 Eng-NA=null
 3	write	on	prep	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 5 Eng-NA=null
 4	on	back	n	_	_	5	case	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 5 Eng-NA=null
 5	back	_	_	_	_	3	obl	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 4 5 Eng-NA=null
@@ -1808,7 +1811,7 @@
 
 # text = two four
 1	two	two	det:num	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 2 Eng-NA=null
-2	four	four	det:num	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 2 Eng-NA=null
+2	four	four	det:num	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 2 Eng-NA=null
 
 # text = I had two
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 4 4 Eng-NA=null
@@ -1825,28 +1828,28 @@
 2	to	to	prep	_	_	3	case	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 5 Eng-NA=null
 3	you	you	pro:per	_	_	1	obl	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 5 Eng-NA=null
 4	to	_	_	_	_	5	case	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 5 Eng-NA=null
-5	you	_	_	_	_	1	obl	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 5 Eng-NA=null
+5	you	_	_	_	_	3	conj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 5 Eng-NA=null
 
 # text = bad bad bad bad bad
 1	bad	bad	adj	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 5 Eng-NA=null
-2	bad	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 5 Eng-NA=null
-3	bad	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 5 Eng-NA=null
-4	bad	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 5 Eng-NA=null
-5	bad	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 5 Eng-NA=null
+2	bad	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 5 Eng-NA=null
+3	bad	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 5 Eng-NA=null
+4	bad	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 5 Eng-NA=null
+5	bad	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 1 5 Eng-NA=null
 
 # text = he here
-1	he	he	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
+1	he	he	pro:sub	_	_	2	reparandum	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
 2	here	here	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 2 Eng-NA=null
 
 # text = to you to you
 1	to	to	prep	_	_	2	case	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 2 4 Eng-NA=null
 2	you	you	pro:per	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 2 4 Eng-NA=null
 3	to	_	_	_	_	4	case	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 2 4 Eng-NA=null
-4	you	_	_	_	_	2	nmod	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 2 4 Eng-NA=null
+4	you	_	_	_	_	2	conj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 2 4 Eng-NA=null
 
 # text = dis dis
 1	dis	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 1 3 Eng-NA=null
-2	dis	_	_	_	_	1	discourse	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 1 3 Eng-NA=null
+2	dis	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 1 3 Eng-NA=null
 
 # text = Ann Marie
 1	Ann	Ann_Marie	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 1 1 Eng-NA=null
@@ -1854,7 +1857,7 @@
 
 # text = downtown working
 1	downtown	downtown	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 2 Eng-NA=null
-2	working	work	part	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 2 Eng-NA=null
+2	working	work	part	_	_	1	acl	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 2 Eng-NA=null
 
 # text = say dollie 's crib
 1	say	say	co	_	_	0	root	Friend_Jo_Ann JOA Child	Sarah 31.164910983798432 female Brown declarative 6 3 Eng-NA=null
@@ -1863,8 +1866,8 @@
 4	crib	crib	n	_	_	1	obj	Friend_Jo_Ann JOA Child	Sarah 31.164910983798432 female Brown declarative 6 3 Eng-NA=null
 
 # text = who me
-1	who	who	pro:int	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 2 2 Eng-NA=null
-2	me	me	pro:obj	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 2 2 Eng-NA=null
+1	who	who	pro:int	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 2 2 Eng-NA=null
+2	me	me	pro:obj	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 2 2 Eng-NA=null
 
 # text = my doggie here
 1	my	dog	n	_	_	2	nmod:poss	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 4 4 Eng-NA=null
@@ -1873,9 +1876,9 @@
 
 # text = six six six six
 1	six	six	det:num	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
-2	six	six	det:num	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
-3	six	six	det:num	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
-4	six	six	det:num	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
+2	six	six	det:num	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
+3	six	six	det:num	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
+4	six	six	det:num	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
 
 # text = my dolly crib
 1	my	my	det:poss	_	_	3	nmod:poss	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 3 Eng-NA=null
@@ -1897,7 +1900,7 @@
 # text = dolly sit dere
 1	dolly	sit	v	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
 2	sit	there	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
-3	dere	_	_	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
+3	dere	_	_	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
 
 # text = I like celery
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
@@ -1908,7 +1911,7 @@
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 5 Eng-NA=null
 2	want	want	v	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 5 Eng-NA=null
 3	celery	celery	n	_	_	2	obj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 5 Eng-NA=null
-4	celery	_	_	_	_	2	obj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 5 Eng-NA=null
+4	celery	_	_	_	_	3	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 5 Eng-NA=null
 
 # text = her in there
 1	her	her	det:poss	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 4 Eng-NA=null
@@ -1925,9 +1928,9 @@
 2	Ann	Ann	combined	_	_	1	flat	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 1 1 Eng-NA=null
 
 # text = t ten ten
-1	t	ten	det:num	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 3 Eng-NA=null
-2	ten	ten	det:num	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 3 Eng-NA=null
-3	ten	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 3 Eng-NA=null
+1	t	ten	det:num	_	_	2	reparandum	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 3 Eng-NA=null
+2	ten	ten	det:num	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 3 Eng-NA=null
+3	ten	_	_	_	_	2	conj	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 3 Eng-NA=null
 
 # text = my broke it
 1	my	my	det:poss	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
@@ -1944,7 +1947,7 @@
 
 # text = here me Mummy
 1	here	here	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 4 Eng-NA=null
-2	me	Mummy	n:prop	_	_	1	obj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 4 Eng-NA=null
+2	me	Mummy	n:prop	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 4 Eng-NA=null
 3	Mummy	_	_	_	_	1	vocative	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 3 4 Eng-NA=null
 
 # text = ten finger
@@ -1953,7 +1956,7 @@
 
 # text = here me
 1	here	here	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 3 Eng-NA=null
-2	me	_	_	_	_	1	obj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 3 Eng-NA=null
+2	me	_	_	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 3 Eng-NA=null
 
 # text = I got my doggie too
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 7 5 Eng-NA=null
@@ -1964,8 +1967,8 @@
 
 # text = yeah yeah yeah
 1	yeah	yeah	co	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 1 3 Eng-NA=null
-2	yeah	_	_	_	_	1	discourse	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 1 3 Eng-NA=null
-3	yeah	_	_	_	_	1	discourse	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 1 3 Eng-NA=null
+2	yeah	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 1 3 Eng-NA=null
+3	yeah	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 1 3 Eng-NA=null
 
 # text = come from
 1	come	from	prep	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown question 2 3 Eng-NA=null
@@ -1981,13 +1984,15 @@
 3	from	from	prep	_	_	2	obl	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown question 3 3 Eng-NA=null
 
 # text = tooth+paste up dere
-1	tooth+paste	up	prep	_	_	2	compound	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 3 Eng-NA=null
-2	up	there	n	_	_	3	goeswith	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 3 Eng-NA=null
-3	dere	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 3 Eng-NA=null
+1	tooth	up	prep	_	_	2	compound	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 3 Eng-NA=null
+2	paste	up	prep	_	_	4	nsubj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 3 Eng-NA=null
+3	up	there	n	_	_	4	advmod	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 3 Eng-NA=null
+4	dere	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown declarative 2 3 Eng-NA=null
 
 # text = tooth+paste up
-1	tooth+paste	up	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown trail off 1 2 Eng-NA=null
-2	up	_	_	_	_	1	compound:prt	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown trail off 1 2 Eng-NA=null
+1	tooth	up	adv	_	_	2	compound	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown trail off 1 2 Eng-NA=null
+2	paste	up	adv	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown trail off 1 2 Eng-NA=null
+3	up	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 31.592024476888643 female Brown trail off 1 2 Eng-NA=null
 
 # text = I poke my eye out
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 5 Eng-NA=null
@@ -2014,9 +2019,9 @@
 2	party	party	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 2 2 Eng-NA=null
 
 # text = bad doggie cat
-1	bad	bad	adj	_	_	3	amod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
-2	doggie	cat	n	_	_	3	compound	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
-3	cat	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
+1	bad	bad	adj	_	_	2	amod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
+2	doggie	cat	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
+3	cat	_	_	_	_	2	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
 
 # text = my flower
 1	my	my	det:poss	_	_	2	nmod:poss	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 2 Eng-NA=null
@@ -2042,7 +2047,7 @@
 3	blue	blue	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 2 Eng-NA=null
 
 # text = dat two
-1	dat	that	comp	_	_	2	mark	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
+1	dat	that	comp	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
 2	two	two	det:num	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
 
 # text = my cow
@@ -2054,7 +2059,7 @@
 2	did	do	v	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 2 Eng-NA=null
 
 # text = Sevenz Up
-1	Sevenz	Sevenz_Up	n:prop	_	_	2	advmod	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 1 1 Eng-NA=null
+1	Sevenz	Sevenz_Up	n:prop	_	_	2	compound	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 1 1 Eng-NA=null
 2	Up	Up	combined	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 1 1 Eng-NA=null
 
 # text = what happen
@@ -2067,8 +2072,8 @@
 3	down	down	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
 
 # text = Chatty Baby swing
-1	Chatty	swing	n	_	_	3	amod	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 3 Eng-NA=null
-2	Baby	Baby	combined	_	_	3	compound	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 3 Eng-NA=null
+1	Chatty	swing	n	_	_	2	amod	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 3 Eng-NA=null
+2	Baby	Baby	combined	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 3 Eng-NA=null
 3	swing	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 3 Eng-NA=null
 
 # text = you nice
@@ -2098,7 +2103,7 @@
 2	boy	boy	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 2 2 Eng-NA=null
 
 # text = no right dere
-1	no	no	co	_	_	3	det	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 3 Eng-NA=null
+1	no	no	co	_	_	3	discourse	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 3 Eng-NA=null
 2	right	right	adv	_	_	3	compound	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 3 Eng-NA=null
 3	dere	there	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 3 Eng-NA=null
 
@@ -2117,7 +2122,7 @@
 
 # text = moon moon
 1	moon	moon	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 2 Eng-NA=null
-2	moon	_	_	_	_	1	flat	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 2 Eng-NA=null
+2	moon	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 2 Eng-NA=null
 
 # text = he stop it
 1	he	he	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
@@ -2130,8 +2135,8 @@
 3	him	him	pro:obj	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 
 # text = where zipper
-1	where	where	pro:int	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 2 2 Eng-NA=null
-2	zipper	zipper	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 2 2 Eng-NA=null
+1	where	where	pro:int	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 2 2 Eng-NA=null
+2	zipper	zipper	v	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 2 2 Eng-NA=null
 
 # text = I sad blue
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
@@ -2139,9 +2144,9 @@
 3	blue	blue	n	_	_	2	obj	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
 
 # text = dere my room
-1	dere	there	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
+1	dere	there	adv	_	_	3	expl	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
 2	my	my	det:poss	_	_	3	nmod:poss	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
-3	room	room	n	_	_	1	obj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
+3	room	room	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
 
 # text = I cry too
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
@@ -2154,24 +2159,24 @@
 3	tupper	supper	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 3 3 Eng-NA=null
 
 # text = orange juice
-1	orange	orange	adj	_	_	2	amod	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 2 Eng-NA=null
+1	orange	orange	adj	_	_	2	compound	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 2 Eng-NA=null
 2	juice	juice	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown declarative 2 2 Eng-NA=null
 
 # text = here for
 1	here	here	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
-2	for	for	prep	_	_	1	fixed	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
+2	for	for	prep	_	_	1	obl	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
 
 # text = night night floor you
 1	night	floor	n	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 5 Eng-NA=null
-2	night	night	combined	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 5 Eng-NA=null
+2	night	night	combined	_	_	1	compound:redup	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 5 Eng-NA=null
 3	floor	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 5 Eng-NA=null
 4	you	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 5 Eng-NA=null
 
 # text = night night night night
 1	night	night_night	co	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 1 4 Eng-NA=null
-2	night	night	combined	_	_	1	conj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 1 4 Eng-NA=null
+2	night	night	combined	_	_	1	compound:redup	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 1 4 Eng-NA=null
 3	night	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 1 4 Eng-NA=null
-4	night	night	combined	_	_	1	conj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 1 4 Eng-NA=null
+4	night	night	combined	_	_	3	compound:redup	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 1 4 Eng-NA=null
 
 # text = my horsie
 1	my	horse	n	_	_	2	nmod:poss	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 3 Eng-NA=null
@@ -2188,7 +2193,7 @@
 
 # text = giant more
 1	giant	more	pro:indef	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
-2	more	_	_	_	_	1	amod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
+2	more	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
 
 # text = who broke dat
 1	who	who	pro:int	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 3 3 Eng-NA=null
@@ -2201,21 +2206,21 @@
 3	me	me	pro:obj	_	_	2	obj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 4 3 Eng-NA=null
 
 # text = a one more
-1	a	a	det:art	_	_	3	det	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
+1	a	a	det:art	_	_	3	discourse	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
 2	one	one	det:num	_	_	3	compound	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
 3	more	more	pro:indef	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
 
 # text = you microphone
-1	you	phone	n	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
-2	microphone	_	_	_	_	1	flat	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
+1	you	phone	n	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
+2	microphone	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
 
 # text = happy day
 1	happy	happy	adj	_	_	2	amod	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 2 Eng-NA=null
 2	day	day	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 2 Eng-NA=null
 
 # text = where dog
-1	where	where	pro:int	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 2 2 Eng-NA=null
-2	dog	dog	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 2 2 Eng-NA=null
+1	where	where	pro:int	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 2 2 Eng-NA=null
+2	dog	dog	n	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 2 2 Eng-NA=null
 
 # text = I have some
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.98626255159244 female Brown question 3 3 Eng-NA=null
@@ -2235,18 +2240,19 @@
 2	notebook	notebook	n	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
 
 # text = gone Mother
-1	gone	go	part	_	_	2	amod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 3 2 Eng-NA=null
-2	Mother	Mother	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 3 2 Eng-NA=null
+1	gone	go	part	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 3 2 Eng-NA=null
+2	Mother	Mother	n:prop	_	_	1	vocative	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 3 2 Eng-NA=null
 
 # text = a blow out
-1	a	a	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
+1	a	a	det:art	_	_	2	discourse	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
 2	blow	blow	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
 3	out	out	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
 
 # text = he sit rocking+chair
 1	he	he	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 3 Eng-NA=null
 2	sit	sit	v	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 3 Eng-NA=null
-3	rocking+chair	_	_	_	_	2	obj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 3 Eng-NA=null
+3	rocking	_	_	_	_	4	acl	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 3 Eng-NA=null
+4	chair	_	_	_	_	2	obj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 2 3 Eng-NA=null
 
 # text = you make
 1	you	you	pro:per	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
@@ -2271,7 +2277,7 @@
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 4 Eng-NA=null
 2	want	want	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 4 Eng-NA=null
 3	horsie	horse	n	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 4 Eng-NA=null
-4	woowoowoo	woowoowoo	bab	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 4 Eng-NA=null
+4	woowoowoo	woowoowoo	bab	_	_	2	discourse	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 4 Eng-NA=null
 
 # text = he dance
 1	he	he	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
@@ -2280,24 +2286,24 @@
 # text = I want sit dere
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
 2	want	want	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
-3	sit	sit	v	_	_	4	compound	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
-4	dere	there	adv	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
+3	sit	sit	v	_	_	2	xcomp	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
+4	dere	there	adv	_	_	3	advmod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
 
 # text = a my doggie big doggie
-1	a	a	det:art	_	_	5	discourse	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 7 6 Eng-NA=null
-2	my	my	co	_	_	5	nmod:poss	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 7 6 Eng-NA=null
-3	doggie	dog	n	_	_	5	compound	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 7 6 Eng-NA=null
+1	a	a	det:art	_	_	3	discourse	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 7 6 Eng-NA=null
+2	my	my	co	_	_	3	nmod:poss	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 7 6 Eng-NA=null
+3	doggie	dog	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 7 6 Eng-NA=null
 4	big	dog	n	_	_	5	amod	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 7 6 Eng-NA=null
-5	doggie	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 7 6 Eng-NA=null
+5	doggie	_	_	_	_	3	parataxis	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 7 6 Eng-NA=null
 
 # text = dat suitcase are mines
-1	dat	that	det:dem	_	_	2	compound	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 5 5 Eng-NA=null
+1	dat	that	det:dem	_	_	2	det	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 5 5 Eng-NA=null
 2	suitcase	suitcase	n	_	_	4	nsubj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 5 5 Eng-NA=null
 3	are	mine	pro:poss	_	_	4	cop	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 5 5 Eng-NA=null
 4	mines	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 5 5 Eng-NA=null
 
 # text = over here
-1	over	over	prep	_	_	2	advmod	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
+1	over	over	prep	_	_	2	case	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
 2	here	here	n	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
 
 # text = he shake hands
@@ -2306,16 +2312,16 @@
 3	hands	hand	n	_	_	2	obj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 3 Eng-NA=null
 
 # text = he eye
-1	he	he	pro:sub	_	_	2	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 3 Eng-NA=null
-2	eye	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 3 Eng-NA=null
+1	he	he	pro:sub	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 3 Eng-NA=null
+2	eye	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 3 Eng-NA=null
 
 # text = cuckoo cuckoo
 1	cuckoo	cuckoo	n	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 1 2 Eng-NA=null
-2	cuckoo	_	_	_	_	1	flat	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 1 2 Eng-NA=null
+2	cuckoo	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 1 2 Eng-NA=null
 
 # text = where Donna
-1	where	where	pro:rel	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 2 2 Eng-NA=null
-2	Donna	Donna	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 2 2 Eng-NA=null
+1	where	where	pro:rel	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 2 2 Eng-NA=null
+2	Donna	Donna	n:prop	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 2 2 Eng-NA=null
 
 # text = a horsie
 1	a	a	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown imperative_emphatic 3 2 Eng-NA=null
@@ -2327,8 +2333,8 @@
 3	pants	pants	n:pt	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 
 # text = she house
-1	she	she	pro:sub	_	_	2	compound	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 2 2 Eng-NA=null
-2	house	house	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 2 2 Eng-NA=null
+1	she	she	pro:sub	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 2 2 Eng-NA=null
+2	house	house	v	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 2 2 Eng-NA=null
 
 # text = see pencil
 1	see	see	v	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
@@ -2341,23 +2347,23 @@
 
 # text = seven eight
 1	seven	seven	det:num	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 2 2 Eng-NA=null
-2	eight	eight	det:num	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 2 2 Eng-NA=null
+2	eight	eight	det:num	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 2 2 Eng-NA=null
 
 # text = woo woo woo woo woo
 1	woo	woo	bab	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 5 Eng-NA=null
-2	woo	_	_	_	_	1	discourse	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 5 Eng-NA=null
-3	woo	_	_	_	_	1	discourse	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 5 Eng-NA=null
-4	woo	_	_	_	_	1	discourse	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 5 Eng-NA=null
-5	woo	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 5 Eng-NA=null
+2	woo	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 5 Eng-NA=null
+3	woo	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 5 Eng-NA=null
+4	woo	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 5 Eng-NA=null
+5	woo	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 5 Eng-NA=null
 
 # text = this one broken
 1	this	this	pro:dem	_	_	2	det	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 4 3 Eng-NA=null
-2	one	one	pro:indef	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 4 3 Eng-NA=null
-3	broken	break	part	_	_	2	amod	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 4 3 Eng-NA=null
+2	one	one	pro:indef	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 4 3 Eng-NA=null
+3	broken	break	part	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 4 3 Eng-NA=null
 
 # text = shoe shoe
-1	shoe	shoe	n	_	_	2	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 3 Eng-NA=null
-2	shoe	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 3 Eng-NA=null
+1	shoe	shoe	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 3 Eng-NA=null
+2	shoe	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 3 Eng-NA=null
 
 # text = I throw away
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 3 3 Eng-NA=null
@@ -2366,19 +2372,19 @@
 
 # text = write dis way
 1	write	write	v	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 3 3 Eng-NA=null
-2	dis	this	det:dem	_	_	3	goeswith	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 3 3 Eng-NA=null
+2	dis	this	det:dem	_	_	3	det	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 3 3 Eng-NA=null
 3	way	way	adv	_	_	1	advmod	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 3 3 Eng-NA=null
 
 # text = dis way Mommy
-1	dis	this	pro:dem	_	_	2	compound	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 3 3 Eng-NA=null
-2	way	way	adv	_	_	3	compound	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 3 3 Eng-NA=null
-3	Mommy	Mommy	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 3 3 Eng-NA=null
+1	dis	this	pro:dem	_	_	2	det	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 3 3 Eng-NA=null
+2	way	way	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 3 3 Eng-NA=null
+3	Mommy	Mommy	n:prop	_	_	2	vocative	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 3 3 Eng-NA=null
 
 # text = I got Kleenex Mommy right here
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 7 6 Eng-NA=null
 2	got	get	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 7 6 Eng-NA=null
-3	Kleenex	Kleenex	n:prop	_	_	4	compound	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 7 6 Eng-NA=null
-4	Mommy	Mommy	n:prop	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 7 6 Eng-NA=null
+3	Kleenex	Kleenex	n:prop	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 7 6 Eng-NA=null
+4	Mommy	Mommy	n:prop	_	_	2	vocative	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 7 6 Eng-NA=null
 5	right	right	adv	_	_	6	advmod	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 7 6 Eng-NA=null
 6	here	here	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 7 6 Eng-NA=null
 
@@ -2394,17 +2400,17 @@
 
 # text = my shoe dere
 1	my	my	det:poss	_	_	2	nmod:poss	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
-2	shoe	shoe	n	_	_	3	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
-3	dere	there	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
+2	shoe	shoe	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
+3	dere	there	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 
 # text = dat way huh
-1	dat	that	det:dem	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
-2	way	way	n	_	_	1	obj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
-3	huh	huh	co	_	_	1	obj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
+1	dat	that	det:dem	_	_	2	det	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
+2	way	way	n	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
+3	huh	huh	co	_	_	2	discourse	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
 
 # text = not dis way
 1	not	not	neg	_	_	3	advmod	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
-2	dis	this	pro:dem	_	_	3	compound	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
+2	dis	this	pro:dem	_	_	3	det	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
 3	way	way	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
 
 # text = I went
@@ -2419,10 +2425,10 @@
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 6 4 Eng-NA=null
 2	went	go	v	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 6 4 Eng-NA=null
 3	dancing	dance	part	_	_	4	amod	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 6 4 Eng-NA=null
-4	school	school	n	_	_	2	obj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 6 4 Eng-NA=null
+4	school	school	n	_	_	2	obl	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 6 4 Eng-NA=null
 
 # text = dis way
-1	dis	this	pro:dem	_	_	2	advmod	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
+1	dis	this	pro:dem	_	_	2	det	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
 2	way	way	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
 
 # text = I pull ear
@@ -2432,7 +2438,7 @@
 
 # text = who one
 1	who	one	pro:indef	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 2 3 Eng-NA=null
-2	one	_	_	_	_	1	nummod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 2 3 Eng-NA=null
+2	one	_	_	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 2 3 Eng-NA=null
 
 # text = what color
 1	what	what	pro:int	_	_	2	det	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 2 Eng-NA=null
@@ -2449,7 +2455,7 @@
 
 # text = there it is
 1	there	it	pro:per	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown imperative_emphatic 4 4 Eng-NA=null
-2	it	be	cop	_	_	1	expl	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown imperative_emphatic 4 4 Eng-NA=null
+2	it	be	cop	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown imperative_emphatic 4 4 Eng-NA=null
 3	is	_	_	_	_	1	cop	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown imperative_emphatic 4 4 Eng-NA=null
 
 # text = ice seen
@@ -2467,7 +2473,7 @@
 
 # text = Esther Esther
 1	Esther	Esther	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
-2	Esther	Esther	n:prop	_	_	1	flat	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
+2	Esther	Esther	n:prop	_	_	1	conj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
 
 # text = all wet
 1	all	all	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
@@ -2489,9 +2495,9 @@
 4	rock	rock	n	_	_	0	root	Friend_Jo_Ann JOA Child	Sarah 31.164910983798432 female Brown question 5 4 Eng-NA=null
 
 # text = dere my pencil
-1	dere	there	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
+1	dere	there	adv	_	_	3	expl	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
 2	my	my	det:poss	_	_	3	nmod:poss	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
-3	pencil	pencil	n	_	_	1	obj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
+3	pencil	pencil	n	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
 
 # text = uh my Daddy
 1	uh	my	det:poss	_	_	3	discourse	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 3 Eng-NA=null
@@ -2504,12 +2510,12 @@
 
 # text = Ma Ma Ma
 1	Ma	Ma	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
-2	Ma	Ma	n:prop	_	_	1	flat	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
-3	Ma	Ma	n:prop	_	_	1	flat	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
+2	Ma	Ma	n:prop	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
+3	Ma	Ma	n:prop	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
 
 # text = my my ukelele
 1	my	ukelele	n	_	_	3	nmod:poss	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 4 Eng-NA=null
-2	my	_	_	_	_	3	nmod:poss	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 4 Eng-NA=null
+2	my	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 4 Eng-NA=null
 3	ukelele	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 4 Eng-NA=null
 
 # text = Minniez Mouse
@@ -2517,10 +2523,10 @@
 2	Mouse	Mouse	combined	_	_	1	flat	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown question 1 1 Eng-NA=null
 
 # text = dese my tap shoes
-1	dese	these	pro:dem	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 5 4 Eng-NA=null
+1	dese	these	pro:dem	_	_	4	nsubj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 5 4 Eng-NA=null
 2	my	my	det:poss	_	_	4	nmod:poss	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 5 4 Eng-NA=null
 3	tap	tap	n	_	_	4	compound	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 5 4 Eng-NA=null
-4	shoes	shoe	n	_	_	1	obj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 5 4 Eng-NA=null
+4	shoes	shoe	n	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 5 4 Eng-NA=null
 
 # text = up here
 1	up	up	prep	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 2 2 Eng-NA=null
@@ -2564,22 +2570,22 @@
 
 # text = girl Donaldz Duck
 1	girl	girl	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 2 Eng-NA=null
-2	Donaldz	Donaldz_Duck	n:prop	_	_	1	flat	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 2 Eng-NA=null
-3	Duck	Duck	combined	_	_	1	flat	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 2 Eng-NA=null
+2	Donaldz	Donaldz_Duck	n:prop	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 2 Eng-NA=null
+3	Duck	Duck	combined	_	_	2	flat	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 2 Eng-NA=null
 
 # text = hi swing
-1	hi	hi	co	_	_	2	amod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
-2	swing	swing	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
+1	hi	hi	co	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
+2	swing	swing	n	_	_	1	vocative	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
 
 # text = make dis one
 1	make	this	det:dem	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 4 Eng-NA=null
-2	dis	one	pro:indef	_	_	1	obj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 4 Eng-NA=null
-3	one	_	_	_	_	2	nummod	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 4 Eng-NA=null
+2	dis	one	pro:indef	_	_	2	det	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 4 Eng-NA=null
+3	one	_	_	_	_	1	obj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 4 Eng-NA=null
 
 # text = want go read it
 1	want	go	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 5 5 Eng-NA=null
-2	go	read	v	_	_	1	obj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 5 5 Eng-NA=null
-3	read	it	pro:per	_	_	1	xcomp	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 5 5 Eng-NA=null
+2	go	read	v	_	_	1	xcomp	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 5 5 Eng-NA=null
+3	read	it	pro:per	_	_	2	xcomp	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 5 5 Eng-NA=null
 4	it	_	_	_	_	3	obj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 5 5 Eng-NA=null
 
 # text = ah ring in dere
@@ -2590,12 +2596,12 @@
 
 # text = hi swing swing
 1	hi	hi	co	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
-2	swing	swing	n	_	_	3	compound	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
-3	swing	swing	n	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
+2	swing	swing	n	_	_	1	vocative	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
+3	swing	swing	n	_	_	2	conj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
 
 # text = Nana home
-1	Nana	Nana	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 2 2 Eng-NA=null
-2	home	home	n	_	_	1	flat	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 2 2 Eng-NA=null
+1	Nana	Nana	n:prop	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 2 2 Eng-NA=null
+2	home	home	n	_	_	0	root	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 2 2 Eng-NA=null
 
 # text = see new book
 1	see	see	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 3 3 Eng-NA=null
@@ -2605,47 +2611,47 @@
 # text = I fall boom boom
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
 2	fall	fall	v	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
-3	boom	boom	n	_	_	2	parataxis	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
-4	boom	boom	co	_	_	2	obj	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
+3	boom	boom	n	_	_	2	discourse	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
+4	boom	boom	co	_	_	3	conj	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
 
 # text = eee Daisy here
 1	eee	eee	co	_	_	2	discourse	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
-2	Daisy	Daisy	n:prop	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
-3	here	here	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
+2	Daisy	Daisy	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
+3	here	here	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
 
 # text = a gone
-1	a	a	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 2 Eng-NA=null
+1	a	a	det:art	_	_	2	discourse	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 2 Eng-NA=null
 2	gone	go	part	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 2 Eng-NA=null
 
 # text = swing swing
 1	swing	swing	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
-2	swing	swing	n	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
+2	swing	swing	n	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
 
 # text = it gone
 1	it	it	pro:per	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 2 Eng-NA=null
 2	gone	go	part	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 2 Eng-NA=null
 
 # text = where swing
-1	where	where	pro:int	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
-2	swing	swing	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
+1	where	where	pro:int	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
+2	swing	swing	n	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 2 2 Eng-NA=null
 
 # text = a see God
-1	a	a	det:art	_	_	2	punct	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
-2	see	see	v	_	_	3	compound	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
-3	God	God	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
+1	a	a	det:art	_	_	2	discourse	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
+2	see	see	v	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
+3	God	God	n:prop	_	_	2	obj	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
 
 # text = no noise
 1	no	noise	n	_	_	2	det	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 3 Eng-NA=null
 2	noise	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 3 Eng-NA=null
 
 # text = where you keys
-1	where	where	pro:int	_	_	3	advmod	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 4 3 Eng-NA=null
+1	where	where	pro:int	_	_	0	root	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 4 3 Eng-NA=null
 2	you	you	pro:per	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 4 3 Eng-NA=null
-3	keys	key	v	_	_	0	root	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 4 3 Eng-NA=null
+3	keys	key	v	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 4 3 Eng-NA=null
 
 # text = make dis doggie
 1	make	make	v	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 4 3 Eng-NA=null
-2	dis	this	det:dem	_	_	3	compound	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 4 3 Eng-NA=null
+2	dis	this	det:dem	_	_	3	det	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 4 3 Eng-NA=null
 3	doggie	dog	n	_	_	1	obj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 4 3 Eng-NA=null
 
 # text = no string
@@ -2657,8 +2663,8 @@
 2	God	_	_	_	_	1	obj	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 2 3 Eng-NA=null
 
 # text = where swings
-1	where	where	pro:rel	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 3 2 Eng-NA=null
-2	swings	swing	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 3 2 Eng-NA=null
+1	where	where	pro:rel	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 3 2 Eng-NA=null
+2	swings	swing	n	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown question 3 2 Eng-NA=null
 
 # text = make a Michael
 1	make	make	v	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
@@ -2671,10 +2677,10 @@
 3	away	away	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 4 3 Eng-NA=null
 
 # text = a cold out Mommy
-1	a	a	det:art	_	_	4	det	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
-2	cold	cold	n	_	_	4	amod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
-3	out	out	adv	_	_	4	amod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
-4	Mommy	Mommy	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
+1	a	a	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
+2	cold	cold	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
+3	out	out	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
+4	Mommy	Mommy	n:prop	_	_	2	vocative	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 4 4 Eng-NA=null
 
 # text = make Michael
 1	make	make	v	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
@@ -2692,8 +2698,8 @@
 4	dem	them	pro:obj	_	_	3	obj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 4 4 Eng-NA=null
 
 # text = Nana book
-1	Nana	Nana	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 2 2 Eng-NA=null
-2	book	book	n	_	_	1	flat	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 2 2 Eng-NA=null
+1	Nana	Nana	n:prop	_	_	2	nmod	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 2 2 Eng-NA=null
+2	book	book	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 2 2 Eng-NA=null
 
 # text = he cold out
 1	he	he	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
@@ -2701,35 +2707,35 @@
 3	out	out	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.164910983798432 female Brown declarative 3 3 Eng-NA=null
 
 # text = yeah Michael
-1	yeah	yeah	co	_	_	2	discourse	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
-2	Michael	Michael	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
+1	yeah	yeah	co	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
+2	Michael	Michael	n:prop	_	_	1	vocative	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
 
 # text = um dat mine
-1	um	that	comp	_	_	0	root	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 3 Eng-NA=null
-2	dat	mine	pro:poss	_	_	1	obj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 3 Eng-NA=null
-3	mine	_	_	_	_	2	obj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 3 Eng-NA=null
+1	um	that	comp	_	_	3	discourse	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 3 Eng-NA=null
+2	dat	mine	pro:poss	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 3 Eng-NA=null
+3	mine	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 3 Eng-NA=null
 
 # text = me a new present
-1	me	me	pro:obj	_	_	4	nmod:poss	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 4 4 Eng-NA=null
+1	me	me	pro:obj	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 4 4 Eng-NA=null
 2	a	a	det:art	_	_	4	det	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 4 4 Eng-NA=null
 3	new	new	adj	_	_	4	amod	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 4 4 Eng-NA=null
-4	present	present	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 4 4 Eng-NA=null
+4	present	present	n	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 4 4 Eng-NA=null
 
 # text = a me
 1	a	a	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 2 Eng-NA=null
 2	me	me	pro:obj	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 2 2 Eng-NA=null
 
 # text = where mine
-1	where	where	pro:int	_	_	2	advmod	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 2 2 Eng-NA=null
-2	mine	mine	pro:poss	_	_	0	root	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 2 2 Eng-NA=null
+1	where	where	pro:int	_	_	0	root	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 2 2 Eng-NA=null
+2	mine	mine	pro:poss	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 2 2 Eng-NA=null
 
 # text = dat kitty
-1	dat	that	det:dem	_	_	2	compound	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
+1	dat	that	det:dem	_	_	2	det	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
 2	kitty	kitty	n	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
 
 # text = he money
-1	he	he	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 4 Eng-NA=null
-2	money	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 4 Eng-NA=null
+1	he	he	pro:sub	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 4 Eng-NA=null
+2	money	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 4 Eng-NA=null
 
 # text = a water in there
 1	a	a	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown question 4 4 Eng-NA=null
@@ -2743,10 +2749,10 @@
 3	up	up	adv	_	_	2	compound:prt	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 3 3 Eng-NA=null
 
 # text = a water nere Mommy
-1	a	a	det:art	_	_	4	det	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown question 4 4 Eng-NA=null
-2	water	water	n	_	_	4	compound	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown question 4 4 Eng-NA=null
-3	nere	nere	phon	_	_	4	amod	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown question 4 4 Eng-NA=null
-4	Mommy	Mommy	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown question 4 4 Eng-NA=null
+1	a	a	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown question 4 4 Eng-NA=null
+2	water	water	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown question 4 4 Eng-NA=null
+3	nere	nere	phon	_	_	2	advmod	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown question 4 4 Eng-NA=null
+4	Mommy	Mommy	n:prop	_	_	2	vocative	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown question 4 4 Eng-NA=null
 
 # text = I like Teppy
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
@@ -2768,16 +2774,16 @@
 2	story	story	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 2 2 Eng-NA=null
 
 # text = uh Mummy
-1	uh	Mummy	n:prop	_	_	2	compound	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown imperative_emphatic 1 2 Eng-NA=null
-2	Mummy	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown imperative_emphatic 1 2 Eng-NA=null
+1	uh	Mummy	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown imperative_emphatic 1 2 Eng-NA=null
+2	Mummy	_	_	_	_	1	vocative	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown imperative_emphatic 1 2 Eng-NA=null
 
 # text = yes off
-1	yes	yes	co	_	_	0	root	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 2 Eng-NA=null
-2	off	off	prep	_	_	1	advmod	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 2 Eng-NA=null
+1	yes	yes	co	_	_	2	discourse	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 2 Eng-NA=null
+2	off	off	prep	_	_	0	root	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 2 Eng-NA=null
 
 # text = Tammy dot
 1	Tammy	Tammy	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
-2	dot	dot	n	_	_	1	flat	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
+2	dot	dot	n	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 2 2 Eng-NA=null
 
 # text = the circus
 1	the	the	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 2 2 Eng-NA=null
@@ -2792,13 +2798,13 @@
 6	I	it	pro:per	_	_	9	nsubj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 7 9 Eng-NA=null
 7	do	on	adv	_	_	9	aux	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 7 9 Eng-NA=null
 8	n't	not	neg	_	_	9	advmod	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 7 9 Eng-NA=null
-9	want	_	_	_	_	5	parataxis	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 7 9 Eng-NA=null
+9	want	_	_	_	_	2	parataxis	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 7 9 Eng-NA=null
 10	it	_	_	_	_	9	obj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 7 9 Eng-NA=null
 11	on	_	_	_	_	9	advmod	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 7 9 Eng-NA=null
 
 # text = dat cute
-1	dat	that	det:dem	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 2 2 Eng-NA=null
-2	cute	cute	adj	_	_	1	flat	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 2 2 Eng-NA=null
+1	dat	that	det:dem	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 2 2 Eng-NA=null
+2	cute	cute	adj	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 2 2 Eng-NA=null
 
 # text = see doggie
 1	see	see	co	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 2 Eng-NA=null
@@ -2826,8 +2832,8 @@
 2	here	here	adv	_	_	1	advmod	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 2 Eng-NA=null
 
 # text = dat hand
-1	dat	that	det:dem	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown question 2 2 Eng-NA=null
-2	hand	hand	n	_	_	1	flat	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown question 2 2 Eng-NA=null
+1	dat	that	det:dem	_	_	2	det	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown question 2 2 Eng-NA=null
+2	hand	hand	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown question 2 2 Eng-NA=null
 
 # text = a Beaver
 1	a	a	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 2 2 Eng-NA=null
@@ -2840,12 +2846,12 @@
 4	today	today	adv:tem	_	_	2	obl:tmod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 4 4 Eng-NA=null
 
 # text = you Nannie
-1	you	you	pro:per	_	_	2	nmod:poss	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
+1	you	you	pro:per	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
 2	Nannie	Nannie	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
 
 # text = front sit front
-1	front	front	n	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
-2	sit	sit	v	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
+1	front	front	n	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
+2	sit	sit	v	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
 3	front	front	n	_	_	2	obj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
 
 # text = what happen then
@@ -2859,14 +2865,14 @@
 3	Annie	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 3 Eng-NA=null
 
 # text = dat fun
-1	dat	that	pro:dem	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 2 2 Eng-NA=null
-2	fun	fun	adj	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 2 2 Eng-NA=null
+1	dat	that	pro:dem	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 2 2 Eng-NA=null
+2	fun	fun	adj	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 2 2 Eng-NA=null
 
 # text = I want go doctor 's
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 5 4 Eng-NA=null
 2	want	want	v	_	_	0	root	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 5 4 Eng-NA=null
 3	go	go	v	_	_	2	xcomp	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 5 4 Eng-NA=null
-4	doctor	doctor	n	_	_	3	obj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 5 4 Eng-NA=null
+4	doctor	doctor	n	_	_	3	obl	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 5 4 Eng-NA=null
 5	's	be	cop	_	_	4	case	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 5 4 Eng-NA=null
 
 # text = you read this
@@ -2875,9 +2881,9 @@
 3	this	this	pro:dem	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 4 Eng-NA=null
 
 # text = your Orphanz Annie
-1	your	your	det:poss	_	_	3	nmod:poss	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
-2	Orphanz	Orphanz_Annie	n:prop	_	_	3	compound	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
-3	Annie	Annie	combined	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
+1	your	your	det:poss	_	_	2	nmod:poss	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
+2	Orphanz	Orphanz_Annie	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
+3	Annie	Annie	combined	_	_	2	flat	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
 
 # text = I make k
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
@@ -2896,17 +2902,17 @@
 4	my	my	det:poss	_	_	3	obj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 4 5 Eng-NA=null
 
 # text = no you Orphanz Annie
-1	no	no	co	_	_	2	discourse	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 3 Eng-NA=null
-2	you	you	pro:per	_	_	4	compound	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 3 Eng-NA=null
-3	Orphanz	Orphanz_Annie	n:prop	_	_	4	compound	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 3 Eng-NA=null
-4	Annie	Annie	combined	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 3 Eng-NA=null
+1	no	no	co	_	_	3	discourse	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 3 Eng-NA=null
+2	you	you	pro:per	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 3 Eng-NA=null
+3	Orphanz	Orphanz_Annie	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 3 Eng-NA=null
+4	Annie	Annie	combined	_	_	3	flat	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 3 Eng-NA=null
 
 # text = oh bad Teppy right dere
 1	oh	oh	co	_	_	3	discourse	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 5 Eng-NA=null
 2	bad	bad	adj	_	_	3	amod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 5 Eng-NA=null
-3	Teppy	Teppy	n:prop	_	_	5	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 5 Eng-NA=null
-4	right	right	adv	_	_	5	discourse	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 5 Eng-NA=null
-5	dere	there	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 5 Eng-NA=null
+3	Teppy	Teppy	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 5 Eng-NA=null
+4	right	right	adv	_	_	5	advmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 5 Eng-NA=null
+5	dere	there	adv	_	_	3	advmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 5 5 Eng-NA=null
 
 # text = I no know
 1	I	I	pro:sub	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 4 Eng-NA=null
@@ -2914,7 +2920,7 @@
 3	know	know	v	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 4 Eng-NA=null
 
 # text = de fishie
-1	de	the	det:art	_	_	2	compound	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
+1	de	the	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
 2	fishie	fish	n	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
 
 # text = know what
@@ -2922,7 +2928,7 @@
 2	what	what	pro:int	_	_	1	obj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 2 Eng-NA=null
 
 # text = de fishie water
-1	de	the	det:art	_	_	3	compound	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 4 3 Eng-NA=null
+1	de	the	det:art	_	_	3	det	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 4 3 Eng-NA=null
 2	fishie	fish	n	_	_	3	compound	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 4 3 Eng-NA=null
 3	water	water	n	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 4 3 Eng-NA=null
 
@@ -2945,10 +2951,10 @@
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 5 Eng-NA=null
 2	want	want	v	_	_	0	root	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 5 Eng-NA=null
 3	I	_	_	_	_	4	nsubj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 5 Eng-NA=null
-4	want	_	_	_	_	2	parataxis	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 5 Eng-NA=null
+4	want	_	_	_	_	2	conj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 5 Eng-NA=null
 
 # text = dis fishie
-1	dis	this	pro:dem	_	_	2	compound	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
+1	dis	this	pro:dem	_	_	2	det	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
 2	fishie	fish	n	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
 
 # text = want my finger
@@ -2962,23 +2968,23 @@
 3	it	it	pro:per	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 4 4 Eng-NA=null
 
 # text = is a big circus in is
-1	is	be	cop	_	_	4	cop	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 8 6 Eng-NA=null
+1	is	be	cop	_	_	5	cop	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 8 6 Eng-NA=null
 2	a	a	det:art	_	_	4	det	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 8 6 Eng-NA=null
 3	big	big	adj	_	_	4	amod	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 8 6 Eng-NA=null
-4	circus	circus	n	_	_	0	root	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 8 6 Eng-NA=null
-5	in	in	prep	_	_	6	case	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 8 6 Eng-NA=null
-6	is	be	cop	_	_	4	cop	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 8 6 Eng-NA=null
+4	circus	circus	n	_	_	5	nsubj	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 8 6 Eng-NA=null
+5	in	in	prep	_	_	0	root	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 8 6 Eng-NA=null
+6	is	be	cop	_	_	5	parataxis	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 8 6 Eng-NA=null
 
 # text = all gone gone
 1	all	all	post	_	_	2	advmod	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 5 3 Eng-NA=null
 2	gone	go	part	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 5 3 Eng-NA=null
-3	gone	go	part	_	_	2	parataxis	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 5 3 Eng-NA=null
+3	gone	go	part	_	_	2	conj	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 5 3 Eng-NA=null
 
 # text = one two three dere
-1	one	one	det:num	_	_	4	nummod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown imperative_emphatic 4 4 Eng-NA=null
-2	two	two	det:num	_	_	3	compound	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown imperative_emphatic 4 4 Eng-NA=null
-3	three	three	det:num	_	_	1	nmod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown imperative_emphatic 4 4 Eng-NA=null
-4	dere	there	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown imperative_emphatic 4 4 Eng-NA=null
+1	one	one	det:num	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown imperative_emphatic 4 4 Eng-NA=null
+2	two	two	det:num	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown imperative_emphatic 4 4 Eng-NA=null
+3	three	three	det:num	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown imperative_emphatic 4 4 Eng-NA=null
+4	dere	there	adv	_	_	1	advmod	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown imperative_emphatic 4 4 Eng-NA=null
 
 # text = my bawbo gone
 1	my	my	det:poss	_	_	2	nmod:poss	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 3 Eng-NA=null
@@ -2992,8 +2998,8 @@
 # text = I have one dere
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 4 Eng-NA=null
 2	have	have	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 4 Eng-NA=null
-3	one	one	pro:indef	_	_	4	nummod	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 4 Eng-NA=null
-4	dere	there	adv	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 4 Eng-NA=null
+3	one	one	pro:indef	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 4 Eng-NA=null
+4	dere	there	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 4 Eng-NA=null
 
 # text = I want do it
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 4 4 Eng-NA=null
@@ -3003,12 +3009,12 @@
 
 # text = um ssh uh uh
 1	um	ssh	co	_	_	0	root	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 1 4 Eng-NA=null
-2	ssh	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 1 4 Eng-NA=null
-3	uh	_	_	_	_	4	discourse	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 1 4 Eng-NA=null
-4	uh	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 1 4 Eng-NA=null
+2	ssh	_	_	_	_	1	discourse	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 1 4 Eng-NA=null
+3	uh	_	_	_	_	1	discourse	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 1 4 Eng-NA=null
+4	uh	_	_	_	_	3	conj	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 1 4 Eng-NA=null
 
 # text = dere baby room
-1	dere	there	adv	_	_	3	compound	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 3 Eng-NA=null
+1	dere	there	adv	_	_	3	expl	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 3 Eng-NA=null
 2	baby	baby	n	_	_	3	compound	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 3 Eng-NA=null
 3	room	room	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 3 Eng-NA=null
 
@@ -3022,7 +3028,7 @@
 
 # text = choo choo train
 1	choo	choo	on	_	_	3	compound	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 2 Eng-NA=null
-2	choo	choo	combined	_	_	3	compound	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 2 Eng-NA=null
+2	choo	choo	combined	_	_	1	compound:redup	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 2 Eng-NA=null
 3	train	train	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 2 Eng-NA=null
 
 # text = a new one
@@ -3038,16 +3044,16 @@
 # text = he go house
 1	he	he	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
 2	go	go	v	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
-3	house	house	n	_	_	2	obj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
+3	house	house	n	_	_	2	obl	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 3 3 Eng-NA=null
 
 # text = no so wet
-1	no	no	co	_	_	3	advmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
+1	no	no	co	_	_	3	discourse	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 2	so	so	adv	_	_	3	advmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 3	wet	wet	adj	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 
 # text = put dat finger
 1	put	put	v	_	_	0	root	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 4 3 Eng-NA=null
-2	dat	that	pro:dem	_	_	1	iobj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 4 3 Eng-NA=null
+2	dat	that	pro:dem	_	_	3	det	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 4 3 Eng-NA=null
 3	finger	finger	v	_	_	1	obj	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 4 3 Eng-NA=null
 
 # text = a Teppy again
@@ -3056,14 +3062,14 @@
 3	again	again	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 3 Eng-NA=null
 
 # text = dat dat dat my neck
-1	dat	that	comp	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 5 Eng-NA=null
-2	dat	my	det:poss	_	_	1	obj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 5 Eng-NA=null
-3	dat	neck	n	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 5 Eng-NA=null
+1	dat	that	comp	_	_	5	nsubj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 5 Eng-NA=null
+2	dat	my	det:poss	_	_	1	conj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 5 Eng-NA=null
+3	dat	neck	n	_	_	1	conj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 5 Eng-NA=null
 4	my	_	_	_	_	5	nmod:poss	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 5 Eng-NA=null
-5	neck	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 5 Eng-NA=null
+5	neck	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 5 Eng-NA=null
 
 # text = dis finger
-1	dis	this	det:dem	_	_	2	compound	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 2 2 Eng-NA=null
+1	dis	this	det:dem	_	_	2	det	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 2 2 Eng-NA=null
 2	finger	finger	n	_	_	0	root	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown question 2 2 Eng-NA=null
 
 # text = ten clock
@@ -3075,25 +3081,25 @@
 2	bandage	bandage	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
 
 # text = I big girl
-1	I	I	pro:sub	_	_	3	nmod:poss	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
+1	I	I	pro:sub	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
 2	big	big	adj	_	_	3	amod	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
 3	girl	girl	n	_	_	0	root	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 3 3 Eng-NA=null
 
 # text = dat one
-1	dat	that	det:dem	_	_	0	root	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 2 Eng-NA=null
-2	one	one	pro:indef	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 2 Eng-NA=null
+1	dat	that	det:dem	_	_	2	det	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 2 Eng-NA=null
+2	one	one	pro:indef	_	_	0	root	Sarah CHI Target_Child	Sarah 34.16497258670609 female Brown declarative 2 2 Eng-NA=null
 
 # text = Mommy I get my doggie
-1	Mommy	Mommy	n:prop	_	_	3	discourse	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 6 5 Eng-NA=null
+1	Mommy	Mommy	n:prop	_	_	3	vocative	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 6 5 Eng-NA=null
 2	I	I	pro:sub	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 6 5 Eng-NA=null
 3	get	get	v	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 6 5 Eng-NA=null
 4	my	my	det:poss	_	_	5	nmod:poss	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 6 5 Eng-NA=null
 5	doggie	dog	n	_	_	3	obj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 6 5 Eng-NA=null
 
 # text = dat choo choo
-1	dat	that	comp	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 2 Eng-NA=null
-2	choo	choo	on	_	_	1	obj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 2 Eng-NA=null
-3	choo	choo	combined	_	_	1	obj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 2 Eng-NA=null
+1	dat	that	comp	_	_	2	det	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 2 Eng-NA=null
+2	choo	choo	on	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 2 Eng-NA=null
+3	choo	choo	combined	_	_	2	compound:redup	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 3 2 Eng-NA=null
 
 # text = I did
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 2 Eng-NA=null
@@ -3101,18 +3107,18 @@
 
 # text = doo doo dere choo choo dere choo choo
 1	doo	doo_doo	bab	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 5 Eng-NA=null
-2	doo	doo	combined	_	_	1	flat	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 5 Eng-NA=null
-3	dere	there	adv	_	_	1	flat	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 5 Eng-NA=null
-4	choo	choo	on	_	_	1	flat	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 5 Eng-NA=null
-5	choo	choo	combined	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 5 Eng-NA=null
-6	dere	_	_	_	_	8	compound	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 5 Eng-NA=null
-7	choo	_	_	_	_	8	compound	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 5 Eng-NA=null
-8	choo	choo	combined	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 5 Eng-NA=null
+2	doo	doo	combined	_	_	1	compound:redup	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 5 Eng-NA=null
+3	dere	there	adv	_	_	1	advmod	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 5 Eng-NA=null
+4	choo	choo	on	_	_	1	conj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 5 Eng-NA=null
+5	choo	choo	combined	_	_	4	compound:redup	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 5 Eng-NA=null
+6	dere	_	_	_	_	4	advmod	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 5 Eng-NA=null
+7	choo	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 5 Eng-NA=null
+8	choo	choo	combined	_	_	7	compound:redup	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 4 5 Eng-NA=null
 
 # text = ging ging ging
 1	ging	ging	on	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 3 Eng-NA=null
-2	ging	_	_	_	_	1	flat	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 3 Eng-NA=null
-3	ging	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 3 Eng-NA=null
+2	ging	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 3 Eng-NA=null
+3	ging	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 3 Eng-NA=null
 
 # text = I make Dawson
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 3 3 Eng-NA=null
@@ -3145,9 +3151,9 @@
 
 # text = my dog a dere
 1	my	dog	n	_	_	2	nmod:poss	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 4 5 Eng-NA=null
-2	dog	a	det:art	_	_	4	nsubj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 4 5 Eng-NA=null
-3	a	there	adv	_	_	4	det	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 4 5 Eng-NA=null
-4	dere	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 4 5 Eng-NA=null
+2	dog	a	det:art	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 4 5 Eng-NA=null
+3	a	there	adv	_	_	2	discourse	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 4 5 Eng-NA=null
+4	dere	_	_	_	_	2	advmod	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 4 5 Eng-NA=null
 
 # text = right here my pocket
 1	right	right	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 30.657713710753807 female Brown declarative 4 4 Eng-NA=null
@@ -3157,16 +3163,16 @@
 
 # text = right dere a crib
 1	right	right	adv	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 4 4 Eng-NA=null
-2	dere	there	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 4 4 Eng-NA=null
+2	dere	there	adv	_	_	4	advmod	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 4 4 Eng-NA=null
 3	a	a	det:art	_	_	4	det	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 4 4 Eng-NA=null
-4	crib	crib	n	_	_	2	obj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 4 4 Eng-NA=null
+4	crib	crib	n	_	_	0	root	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown question 4 4 Eng-NA=null
 
 # text = dump dis
-1	dump	dump	v	_	_	2	compound	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 2 2 Eng-NA=null
-2	dis	this	pro:dem	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 2 2 Eng-NA=null
+1	dump	dump	v	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 2 2 Eng-NA=null
+2	dis	this	pro:dem	_	_	1	obj	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 2 2 Eng-NA=null
 
 # text = de fishies
-1	de	the	det:art	_	_	2	compound	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 4 2 Eng-NA=null
+1	de	the	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 4 2 Eng-NA=null
 2	fishies	fish	n	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 4 2 Eng-NA=null
 
 # text = two pennies
@@ -3182,7 +3188,7 @@
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 4 4 Eng-NA=null
 2	love	love	v	_	_	0	root	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 4 4 Eng-NA=null
 3	you	you	pro:per	_	_	2	obj	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 4 4 Eng-NA=null
-4	Mother	Mother	n:prop	_	_	2	obj	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 4 4 Eng-NA=null
+4	Mother	Mother	n:prop	_	_	2	vocative	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 4 4 Eng-NA=null
 
 # text = I sorry
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 2 Eng-NA=null
@@ -3225,9 +3231,9 @@
 3	more	more	adv	_	_	2	obj	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
 
 # text = I eye more
-1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 4 Eng-NA=null
-2	eye	more	pro:indef	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 4 Eng-NA=null
-3	more	_	_	_	_	2	advmod	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 4 Eng-NA=null
+1	I	I	pro:sub	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 4 Eng-NA=null
+2	eye	more	pro:indef	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 4 Eng-NA=null
+3	more	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 3 4 Eng-NA=null
 
 # text = her not home yet
 1	her	her	det:poss	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 4 4 Eng-NA=null
@@ -3236,8 +3242,8 @@
 4	yet	yet	adv	_	_	3	advmod	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 4 4 Eng-NA=null
 
 # text = eye more
-1	eye	more	pro:indef	_	_	2	compound	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 3 Eng-NA=null
-2	more	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 3 Eng-NA=null
+1	eye	more	pro:indef	_	_	0	root	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 3 Eng-NA=null
+2	more	_	_	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 31.394895172385468 female Brown declarative 2 3 Eng-NA=null
 
 # text = I write Tammy
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
@@ -3255,8 +3261,8 @@
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 7 6 Eng-NA=null
 2	broke	break	v	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 7 6 Eng-NA=null
 3	it	it	pro:per	_	_	2	obj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 7 6 Eng-NA=null
-4	a	a	det:art	_	_	5	cc	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 7 6 Eng-NA=null
-5	broke	broke	adj	_	_	2	parataxis	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 7 6 Eng-NA=null
+4	a	a	det:art	_	_	5	discourse	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 7 6 Eng-NA=null
+5	broke	broke	adj	_	_	2	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 7 6 Eng-NA=null
 6	it	it	pro:per	_	_	5	obj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 7 6 Eng-NA=null
 
 # text = I broke it a broke
@@ -3264,7 +3270,7 @@
 2	broke	break	v	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 6 5 Eng-NA=null
 3	it	it	pro:per	_	_	2	obj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 6 5 Eng-NA=null
 4	a	a	det:art	_	_	5	discourse	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 6 5 Eng-NA=null
-5	broke	broke	adj	_	_	2	parataxis	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 6 5 Eng-NA=null
+5	broke	broke	adj	_	_	2	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 6 5 Eng-NA=null
 
 # text = I write crayon
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
@@ -3272,14 +3278,14 @@
 3	crayon	crayon	n	_	_	2	obj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
 
 # text = fitting dere
-1	fitting	fit	part	_	_	2	amod	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 2 Eng-NA=null
-2	dere	there	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 2 Eng-NA=null
+1	fitting	fit	part	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 2 Eng-NA=null
+2	dere	there	adv	_	_	1	advmod	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 3 2 Eng-NA=null
 
 # text = broke it a broke it
 1	broke	break	v	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 6 5 Eng-NA=null
 2	it	it	pro:per	_	_	1	obj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 6 5 Eng-NA=null
-3	a	a	det:art	_	_	4	cc	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 6 5 Eng-NA=null
-4	broke	broke	adj	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 6 5 Eng-NA=null
+3	a	a	det:art	_	_	4	discourse	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 6 5 Eng-NA=null
+4	broke	broke	adj	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 6 5 Eng-NA=null
 5	it	it	pro:per	_	_	4	obj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 6 5 Eng-NA=null
 
 # text = you got crayons
@@ -3308,8 +3314,8 @@
 3	any	any	qn	_	_	2	obj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 4 3 Eng-NA=null
 
 # text = Michael fit here
-1	Michael	Michael	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown question 3 4 Eng-NA=null
-2	fit	here	adv	_	_	1	flat	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown question 3 4 Eng-NA=null
+1	Michael	Michael	n:prop	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown question 3 4 Eng-NA=null
+2	fit	here	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown question 3 4 Eng-NA=null
 3	here	_	_	_	_	2	advmod	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown question 3 4 Eng-NA=null
 
 # text = a hot
@@ -3321,9 +3327,9 @@
 2	see	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 1 2 Eng-NA=null
 
 # text = a hot Mummy
-1	a	a	det:art	_	_	3	det	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
-2	hot	hot	adj	_	_	3	amod	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
-3	Mummy	Mummy	n:prop	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
+1	a	a	det:art	_	_	2	det	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
+2	hot	hot	adj	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
+3	Mummy	Mummy	n:prop	_	_	2	vocative	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
 
 # text = my crayon
 1	my	crayon	n	_	_	2	nmod:poss	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
@@ -3352,15 +3358,15 @@
 3	cold	cold	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 3 Eng-NA=null
 
 # text = pussy dog
-1	pussy	pussy	n	_	_	0	root	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 2 2 Eng-NA=null
-2	dog	dog	n	_	_	1	obj	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 2 2 Eng-NA=null
+1	pussy	pussy	n	_	_	2	compound	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 2 2 Eng-NA=null
+2	dog	dog	n	_	_	0	root	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 2 2 Eng-NA=null
 
 # text = no you do n't no you do n't
 1	no	no	co	_	_	3	discourse	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 8 6 Eng-NA=null
 2	you	you	pro:per	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 8 6 Eng-NA=null
 3	do	do	mod	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 8 6 Eng-NA=null
 4	n't	not	neg	_	_	3	advmod	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 8 6 Eng-NA=null
-5	no	no	co	_	_	3	discourse	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 8 6 Eng-NA=null
+5	no	no	co	_	_	7	discourse	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 8 6 Eng-NA=null
 6	you	you	pro:per	_	_	7	nsubj	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 8 6 Eng-NA=null
 7	do	do	mod	_	_	3	parataxis	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 8 6 Eng-NA=null
 8	n't	not	neg	_	_	7	advmod	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 8 6 Eng-NA=null
@@ -3371,32 +3377,32 @@
 3	dat	that	pro:dem	_	_	2	obj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
 
 # text = no you do n't
-1	no	no	co	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 4 3 Eng-NA=null
-2	you	you	pro:per	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 4 3 Eng-NA=null
-3	do	do	mod	_	_	1	aux	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 4 3 Eng-NA=null
-4	n't	not	neg	_	_	1	advmod	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 4 3 Eng-NA=null
+1	no	no	co	_	_	3	discourse	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 4 3 Eng-NA=null
+2	you	you	pro:per	_	_	3	nsubj	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 4 3 Eng-NA=null
+3	do	do	mod	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 4 3 Eng-NA=null
+4	n't	not	neg	_	_	3	advmod	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 4 3 Eng-NA=null
 
 # text = my broke
-1	my	broke	adj	_	_	2	nmod:poss	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
+1	my	broke	adj	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
 2	broke	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 2 3 Eng-NA=null
 
 # text = where clown
-1	where	where	pro:int	_	_	2	advmod	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 2 3 Eng-NA=null
-2	clown	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 2 3 Eng-NA=null
+1	where	where	pro:int	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 2 3 Eng-NA=null
+2	clown	_	_	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown question 2 3 Eng-NA=null
 
 # text = ow ow ow
 1	ow	ow	co	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 1 3 Eng-NA=null
-2	ow	_	_	_	_	1	vocative	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 1 3 Eng-NA=null
-3	ow	_	_	_	_	1	vocative	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 1 3 Eng-NA=null
+2	ow	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 1 3 Eng-NA=null
+3	ow	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 1 3 Eng-NA=null
 
 # text = big you
 1	big	you	pro:per	_	_	2	amod	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 3 Eng-NA=null
 2	you	_	_	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 3 Eng-NA=null
 
 # text = where Bobo clown
-1	where	where	pro:rel	_	_	3	advmod	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
+1	where	where	pro:rel	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
 2	Bobo	Bobo	n:prop	_	_	3	compound	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
-3	clown	clown	n	_	_	0	root	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
+3	clown	clown	n	_	_	1	nsubj	Sarah CHI Target_Child	Sarah 33.197806936487396 female Brown declarative 3 3 Eng-NA=null
 
 # text = I got toys in there
 1	I	I	pro:sub	_	_	2	nsubj	Sarah CHI Target_Child	Sarah 31.920573317727264 female Brown declarative 7 5 Eng-NA=null
@@ -3407,7 +3413,7 @@
 
 # text = pussy well
 1	pussy	pussy	n	_	_	0	root	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 2 2 Eng-NA=null
-2	well	well	adv	_	_	1	advmod	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 2 2 Eng-NA=null
+2	well	well	adv	_	_	1	parataxis	Sarah CHI Target_Child	Sarah 33.65777531366147 female Brown declarative 2 2 Eng-NA=null
 
 # text = poor fishie
 1	poor	poor	adj	_	_	2	amod	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 3 2 Eng-NA=null
@@ -3415,7 +3421,7 @@
 
 # text = baboo babo
 1	baboo	babo	chi	_	_	0	root	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 2 Eng-NA=null
-2	babo	_	_	_	_	1	flat	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 2 Eng-NA=null
+2	babo	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 30.427729522166782 female Brown declarative 1 2 Eng-NA=null
 
 # text = fall up
 1	fall	up	adv	_	_	0	root	Sarah CHI Target_Child	Sarah 32.066366865849396 female Brown declarative 2 3 Eng-NA=null
@@ -3423,8 +3429,8 @@
 
 # text = goodbye goodbye goodbye
 1	goodbye	goodbye	co	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 1 3 Eng-NA=null
-2	goodbye	_	_	_	_	1	discourse	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 1 3 Eng-NA=null
-3	goodbye	_	_	_	_	1	discourse	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 1 3 Eng-NA=null
+2	goodbye	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 1 3 Eng-NA=null
+3	goodbye	_	_	_	_	1	conj	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 1 3 Eng-NA=null
 
 # text = go away
 1	go	go	v	_	_	0	root	Sarah CHI Target_Child	Sarah 32.822029199778235 female Brown declarative 2 2 Eng-NA=null
