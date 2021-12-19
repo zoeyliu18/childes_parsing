@@ -55,10 +55,10 @@
 2	what	what	pro:int	0	root	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown question 2 2 Eng-NA=null
 
 # text = is that what happened
-1	is	be	cop	3	cop	3	cop	None MOT Mother	Sarah 54.16538327275714 female Brown question 6 4 Eng-NA=null
-2	that	that	pro:dem	3	nsubj	3	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown question 6 4 Eng-NA=null
-3	what	what	pro:int	0	root	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown question 6 4 Eng-NA=null
-4	happened	happen	v	3	acl:relcl	3	acl:relcl	None MOT Mother	Sarah 54.16538327275714 female Brown question 6 4 Eng-NA=null
+1	is	be	cop	0	root	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown question 6 4 Eng-NA=null
+2	that	that	pro:dem	1	nsubj	1	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown question 6 4 Eng-NA=null
+3	what	what	pro:int	4	nsubj	4	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown question 6 4 Eng-NA=null
+4	happened	happen	v	1	ccomp	1	ccomp	None MOT Mother	Sarah 54.16538327275714 female Brown question 6 4 Eng-NA=null
 
 # text = tell em what you said to me the other day
 1	tell	tell	v	0	root	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 11 10 Eng-NA=null
@@ -119,7 +119,7 @@
 3	up	up	adv	2	compound:prt	2	compound:prt	None MOT Mother	Sarah 54.32965769317645 female Brown question 13 12 Eng-NA=null
 4	to	to	inf	5	mark	5	mark	None MOT Mother	Sarah 54.32965769317645 female Brown question 13 12 Eng-NA=null
 5	have	have	aux	2	xcomp	2	xcomp	None MOT Mother	Sarah 54.32965769317645 female Brown question 13 12 Eng-NA=null
-6	delivered	deliver	v	5	ccomp	5	ccomp	None MOT Mother	Sarah 54.32965769317645 female Brown question 13 12 Eng-NA=null
+6	delivered	deliver	v	5	xcomp	5	xcomp	None MOT Mother	Sarah 54.32965769317645 female Brown question 13 12 Eng-NA=null
 7	you	you	pro:per	8	nsubj	8	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown question 13 12 Eng-NA=null
 8	know	know	v	2	parataxis	2	parataxis	None MOT Mother	Sarah 54.32965769317645 female Brown question 13 12 Eng-NA=null
 9	daily	daily	adj	6	advmod	6	advmod	None MOT Mother	Sarah 54.32965769317645 female Brown question 13 12 Eng-NA=null
@@ -273,13 +273,16 @@
 
 # text = shut the record+player off
 1	shut	shut	v	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown question 4 4 Eng-NA=null
-2	the	the	det:art	_	_	3	det	None MOT Mother	Sarah 54.32965769317645 female Brown question 4 4 Eng-NA=null
-3	record+player	off	adv	_	_	1	obj	None MOT Mother	Sarah 54.32965769317645 female Brown question 4 4 Eng-NA=null
-4	off	_	_	_	_	1	compound:prt	None MOT Mother	Sarah 54.32965769317645 female Brown question 4 4 Eng-NA=null
+2	the	the	det:art	_	_	4	det	None MOT Mother	Sarah 54.32965769317645 female Brown question 4 4 Eng-NA=null
+3	record	off	adv	_	_	4	compound	None MOT Mother	Sarah 54.32965769317645 female Brown question 4 4 Eng-NA=null
+4	player	off	adv	_	_	1	obj	None MOT Mother	Sarah 54.32965769317645 female Brown question 4 4 Eng-NA=null
+5	off	_	_	_	_	1	compound:prt	None MOT Mother	Sarah 54.32965769317645 female Brown question 4 4 Eng-NA=null
 
 # text = a bull's+eye
-1	a	a	det:art	_	_	2	det	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 1 2 Eng-NA=null
-2	bull's+eye	_	_	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 1 2 Eng-NA=null
+1	a	a	det:art	_	_	4	det	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 1 2 Eng-NA=null
+2	bull	_	_	_	_	4	nmod:poss	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 1 2 Eng-NA=null
+3	's	_	_	_	_	2	case	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 1 2 Eng-NA=null
+4	eye	_	_	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 1 2 Eng-NA=null
 
 # text = you haf ta get the ribbons sewed on
 1	you	you	pro:per	_	_	2	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 10 7 Eng-NA=null
@@ -302,14 +305,14 @@
 8	on	on	adv	_	_	7	compound:prt	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 9 7 Eng-NA=null
 
 # text = mhm size ten
-1	mhm	mhm	co	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 3 3 Eng-NA=null
-2	size	size	n	_	_	1	list	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 3 3 Eng-NA=null
-3	ten	ten	det:num	_	_	2	nummod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 3 3 Eng-NA=null
+1	mhm	mhm	co	_	_	2	discourse	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 3 3 Eng-NA=null
+2	size	size	n	_	_	2	compound	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 3 3 Eng-NA=null
+3	ten	ten	det:num	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 3 3 Eng-NA=null
 
 # text = come on sit up here
 1	come	come	v	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
 2	on	on	prep	_	_	1	advmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
-3	sit	sit	v	_	_	1	parataxis	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
+3	sit	sit	v	_	_	1	conj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
 4	up	up	prep	_	_	5	advmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
 5	here	here	n	_	_	3	advmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
 
@@ -321,15 +324,15 @@
 # text = that means and
 1	that	that	pro:rel	_	_	2	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 4 3 Eng-NA=null
 2	means	mean	v	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 4 3 Eng-NA=null
-3	and	and	coord	_	_	2	cc	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 4 3 Eng-NA=null
+3	and	and	coord	_	_	2	conj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 4 3 Eng-NA=null
 
 # text = I know that first ya do these
 1	I	I	pro:sub	_	_	2	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 7 Eng-NA=null
 2	know	know	v	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 7 Eng-NA=null
-3	that	that	adv	_	_	6	mark	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 7 Eng-NA=null
+3	that	that	adv	_	_	2	obj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 7 Eng-NA=null
 4	first	first	adv	_	_	6	advmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 7 Eng-NA=null
 5	ya	you	pro:per	_	_	6	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 7 Eng-NA=null
-6	do	do	v	_	_	2	ccomp	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 7 Eng-NA=null
+6	do	do	v	_	_	2	parataxis	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 7 Eng-NA=null
 7	these	these	pro:dem	_	_	6	obj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 7 Eng-NA=null
 
 # text = sit up there
@@ -479,8 +482,8 @@
 2	're	be	cop	_	_	3	cop	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 26 23 Eng-NA=null
 3	hard	hard	adv	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 26 23 Eng-NA=null
 4	to	to	inf	_	_	5	mark	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 26 23 Eng-NA=null
-5	get	get	v	_	_	3	ccomp	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 26 23 Eng-NA=null
-6	on	on	adv	_	_	5	obl	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 26 23 Eng-NA=null
+5	get	get	v	_	_	3	xcomp	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 26 23 Eng-NA=null
+6	on	on	adv	_	_	5	advmod	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 26 23 Eng-NA=null
 7	but	but	conj	_	_	16	cc	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 26 23 Eng-NA=null
 8	when	when	conj	_	_	10	mark	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 26 23 Eng-NA=null
 9	you	you	pro:per	_	_	10	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 26 23 Eng-NA=null
@@ -568,10 +571,10 @@
 5	hurt	hurt	v	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 4 Eng-NA=null
 
 # text = not when you stand up
-1	not	not	neg	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
+1	not	not	neg	_	_	4	advmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
 2	when	when	conj	_	_	4	mark	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
 3	you	you	pro:per	_	_	4	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
-4	stand	stand	v	_	_	1	advcl	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
+4	stand	stand	v	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
 5	up	up	adv	_	_	4	compound:prt	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
 
 # text = do n't play with that
@@ -602,7 +605,7 @@
 5	be	_	_	_	_	6	cop	None MOT Mother	Sarah 54.16538327275714 female Brown question 10 7 Eng-NA=null
 6	Tina	_	_	_	_	3	xcomp	None MOT Mother	Sarah 54.16538327275714 female Brown question 10 7 Eng-NA=null
 7	the	_	_	_	_	8	det	None MOT Mother	Sarah 54.16538327275714 female Brown question 10 7 Eng-NA=null
-8	Ballerina	_	_	_	_	6	nmod:npmod	None MOT Mother	Sarah 54.16538327275714 female Brown question 10 7 Eng-NA=null
+8	Ballerina	_	_	_	_	6	appos	None MOT Mother	Sarah 54.16538327275714 female Brown question 10 7 Eng-NA=null
 9	huh	_	_	_	_	3	discourse	None MOT Mother	Sarah 54.16538327275714 female Brown question 10 7 Eng-NA=null
 
 # text = in the show you 're gonna be Tina the Ballerina
@@ -620,12 +623,12 @@
 
 # text = and what else are ya gonna be
 1	and	_	_	_	_	6	cc	None MOT Mother	Sarah 54.16538327275714 female Brown question 10 7 Eng-NA=null
-2	what	_	_	_	_	6	conj	None MOT Mother	Sarah 54.16538327275714 female Brown question 10 7 Eng-NA=null
+2	what	_	_	_	_	6	xcomp	None MOT Mother	Sarah 54.16538327275714 female Brown question 10 7 Eng-NA=null
 3	else	_	_	_	_	2	amod	None MOT Mother	Sarah 54.16538327275714 female Brown question 10 7 Eng-NA=null
 4	are	_	_	_	_	6	aux	None MOT Mother	Sarah 54.16538327275714 female Brown question 10 7 Eng-NA=null
 5	ya	_	_	_	_	6	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown question 10 7 Eng-NA=null
 6	gon	_	_	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown question 10 7 Eng-NA=null
-7	na	_	_	_	_	6	obj	None MOT Mother	Sarah 54.16538327275714 female Brown question 10 7 Eng-NA=null
+7	na	_	_	_	_	2	mark	None MOT Mother	Sarah 54.16538327275714 female Brown question 10 7 Eng-NA=null
 8	be	_	_	_	_	2	cop	None MOT Mother	Sarah 54.16538327275714 female Brown question 10 7 Eng-NA=null
 
 # text = no what 's the other two
@@ -688,27 +691,29 @@
 
 # text = oh sure when you were a baby you useta do a lot of things
 1	oh	oh	co	_	_	10	discourse	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
-2	sure	sure	v	_	_	10	advmod	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
+2	sure	sure	v	_	_	10	discourse	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
 3	when	when	conj	_	_	7	mark	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
 4	you	you	pro:per	_	_	7	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
 5	were	be	cop	_	_	7	cop	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
 6	a	a	det:art	_	_	7	det	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
 7	baby	baby	n	_	_	10	advcl	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
-8	you	you	pro:per	_	_	10	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
-9	useta	used	mod	_	_	10	aux	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
-10	do	do	v	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
-11	a	a	det:art	_	_	12	det	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
-12	lot	lot	n	_	_	10	obj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
-13	of	of	prep	_	_	14	case	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
-14	things	thing	n	_	_	12	nmod	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
+8	you	you	pro:per	_	_	9	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
+9	use	used	mod	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
+10	ta	used	mod	_	_	11	mark	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
+11	do	do	v	_	_	9	xcomp	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
+12	a	a	det:art	_	_	13	det	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
+13	lot	lot	n	_	_	11	obj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
+14	of	of	prep	_	_	15	case	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
+15	things	thing	n	_	_	13	nmod	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 17 14 Eng-NA=null
 
 # text = from a striptease act I think
+# Re-evaluate
 1	from	from	prep	_	_	4	case	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 6 Eng-NA=null
 2	a	a	det:art	_	_	4	det	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 6 Eng-NA=null
 3	striptease	striptease	n	_	_	4	compound	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 6 Eng-NA=null
-4	act	act	n	_	_	6	obl	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 6 Eng-NA=null
+4	act	act	n	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 6 Eng-NA=null
 5	I	I	pro:sub	_	_	6	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 6 Eng-NA=null
-6	think	think	v	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 6 Eng-NA=null
+6	think	think	v	_	_	4	parataxis	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 6 Eng-NA=null
 
 # text = you ca n't put the record on
 1	you	you	pro:per	_	_	4	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 8 6 Eng-NA=null
@@ -786,25 +791,25 @@
 
 # text = stop stop stop stop stop
 1	stop	stop	n	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
-2	stop	stop	n	_	_	1	vocative	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
-3	stop	stop	n	_	_	1	parataxis	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
-4	stop	stop	n	_	_	1	parataxis	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
-5	stop	stop	n	_	_	1	parataxis	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
+2	stop	stop	n	_	_	1	conj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
+3	stop	stop	n	_	_	1	conj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
+4	stop	stop	n	_	_	1	conj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
+5	stop	stop	n	_	_	1	conj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
 
 # text = that says criss+cross make only can they
 1	that	that	pro:rel	_	_	2	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 7 Eng-NA=null
 2	says	say	v	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 7 Eng-NA=null
-3	criss+cross	make	v	_	_	4	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 7 Eng-NA=null
-4	make	only	adv	_	_	2	ccomp	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 7 Eng-NA=null
-5	only	can	mod	_	_	6	advmod	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 7 Eng-NA=null
-6	can	they	pro:sub	_	_	4	aux	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 7 Eng-NA=null
-7	they	_	_	_	_	4	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 7 Eng-NA=null
+3	criss+cross	make	v	_	_	2	obj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 7 Eng-NA=null
+4	make	only	adv	_	_	1	parataxis	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 7 Eng-NA=null
+5	only	can	mod	_	_	4	advmod	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 7 Eng-NA=null
+6	can	they	pro:sub	_	_	1	parataxis	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 7 Eng-NA=null
+7	they	_	_	_	_	6	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 7 Eng-NA=null
 
 # text = never mind Simon says
 1	never	never	adv	_	_	2	advmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 4 Eng-NA=null
-2	mind	mind	n	_	_	4	advmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 4 Eng-NA=null
+2	mind	mind	n	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 4 Eng-NA=null
 3	Simon	Simon	n:prop	_	_	4	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 4 Eng-NA=null
-4	says	say	v	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 4 Eng-NA=null
+4	says	say	v	_	_	2	parataxis	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 4 Eng-NA=null
 
 # text = hey big daddy
 1	hey	hey	co	_	_	3	discourse	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 3 3 Eng-NA=null
@@ -843,15 +848,15 @@
 4	doing	do	part	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown question 6 4 Eng-NA=null
 
 # text = oh you 're getting pretty smart are n't ya
-1	oh	oh	co	_	_	6	discourse	None MOT Mother	Sarah 54.32965769317645 female Brown question 11 7 Eng-NA=null
+1	oh	oh	co	_	_	4	discourse	None MOT Mother	Sarah 54.32965769317645 female Brown question 11 7 Eng-NA=null
 2	you	you	pro:per	_	_	4	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown question 11 7 Eng-NA=null
 3	're	be	cop	_	_	4	aux	None MOT Mother	Sarah 54.32965769317645 female Brown question 11 7 Eng-NA=null
 4	getting	get	part	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown question 11 7 Eng-NA=null
 5	pretty	pretty	adv	_	_	6	advmod	None MOT Mother	Sarah 54.32965769317645 female Brown question 11 7 Eng-NA=null
 6	smart	smart	adj	_	_	4	xcomp	None MOT Mother	Sarah 54.32965769317645 female Brown question 11 7 Eng-NA=null
-7	are	be	aux	_	_	6	aux	None MOT Mother	Sarah 54.32965769317645 female Brown question 11 7 Eng-NA=null
-8	n't	not	neg	_	_	6	advmod	None MOT Mother	Sarah 54.32965769317645 female Brown question 11 7 Eng-NA=null
-9	ya	you	pro:per	_	_	6	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown question 11 7 Eng-NA=null
+7	are	be	aux	_	_	4	parataxis	None MOT Mother	Sarah 54.32965769317645 female Brown question 11 7 Eng-NA=null
+8	n't	not	neg	_	_	7	advmod	None MOT Mother	Sarah 54.32965769317645 female Brown question 11 7 Eng-NA=null
+9	ya	you	pro:per	_	_	7	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown question 11 7 Eng-NA=null
 
 # text = what are ya writing
 1	what	what	pro:int	_	_	4	obj	None MOT Mother	Sarah 54.32965769317645 female Brown question 6 4 Eng-NA=null
@@ -965,7 +970,7 @@
 2	're	be	cop	_	_	3	aux	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 4 Eng-NA=null
 3	getting	get	part	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 4 Eng-NA=null
 4	ornery	ornery	adj	_	_	3	xcomp	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 4 Eng-NA=null
-5	today	today	adv:tem	_	_	4	obl:tmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 4 Eng-NA=null
+5	today	today	adv:tem	_	_	3	obl:tmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 4 Eng-NA=null
 
 # text = that 's the water heater
 1	that	that	n	_	_	5	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 4 Eng-NA=null
@@ -975,35 +980,36 @@
 5	heater	heat	n	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 4 Eng-NA=null
 
 # text = Sarah show her the book
-1	Sarah	Sarah	n:prop	_	_	2	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
+1	Sarah	Sarah	n:prop	_	_	2	vocative	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
 2	show	show	v	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
 3	her	her	pro:obj	_	_	2	iobj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
 4	the	the	det:art	_	_	5	det	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
 5	book	book	n	_	_	2	obj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
 
 # text = she 's taking a lot a paper from you
+# Re-evaluate
 1	she	she	pro	_	_	3	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 10 8 Eng-NA=null
 2	's	be	cop	_	_	3	aux	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 10 8 Eng-NA=null
 3	taking	take	part	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 10 8 Eng-NA=null
 4	a	a	det:art	_	_	5	det	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 10 8 Eng-NA=null
 5	lot	lot	n	_	_	3	obj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 10 8 Eng-NA=null
 6	a	a	det:art	_	_	7	det	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 10 8 Eng-NA=null
-7	paper	paper	n	_	_	3	obj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 10 8 Eng-NA=null
+7	paper	paper	n	_	_	3	nmod	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 10 8 Eng-NA=null
 8	from	from	prep	_	_	9	case	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 10 8 Eng-NA=null
 9	you	you	pro:per	_	_	3	obl	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 10 8 Eng-NA=null
 
 # text = how come you like to write
-1	how	how_come	pro:int	_	_	2	advmod	None MOT Mother	Sarah 54.32965769317645 female Brown question 5 5 Eng-NA=null
-2	come	come	combined	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown question 5 5 Eng-NA=null
+1	how	how_come	pro:int	_	_	6	advmod	None MOT Mother	Sarah 54.32965769317645 female Brown question 5 5 Eng-NA=null
+2	come	come	combined	_	_	1	fixed	None MOT Mother	Sarah 54.32965769317645 female Brown question 5 5 Eng-NA=null
 3	you	you	pro:per	_	_	4	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown question 5 5 Eng-NA=null
-4	like	like	v	_	_	2	ccomp	None MOT Mother	Sarah 54.32965769317645 female Brown question 5 5 Eng-NA=null
+4	like	like	v	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown question 5 5 Eng-NA=null
 5	to	to	inf	_	_	6	mark	None MOT Mother	Sarah 54.32965769317645 female Brown question 5 5 Eng-NA=null
 6	write	write	v	_	_	4	xcomp	None MOT Mother	Sarah 54.32965769317645 female Brown question 5 5 Eng-NA=null
 
 # text = here right here
 1	here	here	adv	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 3 3 Eng-NA=null
 2	right	right	adv	_	_	3	advmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 3 3 Eng-NA=null
-3	here	here	adv	_	_	1	advmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 3 3 Eng-NA=null
+3	here	here	adv	_	_	1	conj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 3 3 Eng-NA=null
 
 # text = here 's your pencils right here
 1	here	here	n	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 5 Eng-NA=null
@@ -1137,8 +1143,8 @@
 2	are	be	aux	_	_	4	aux	None MOT Mother	Sarah 54.32965769317645 female Brown question 8 6 Eng-NA=null
 3	ya	you	pro:per	_	_	4	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown question 8 6 Eng-NA=null
 4	trying	try	part	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown question 8 6 Eng-NA=null
-5	a	a	det:art	_	_	6	det	None MOT Mother	Sarah 54.32965769317645 female Brown question 8 6 Eng-NA=null
-6	spell	spell	n	_	_	4	obj	None MOT Mother	Sarah 54.32965769317645 female Brown question 8 6 Eng-NA=null
+5	a	a	det:art	_	_	6	mark	None MOT Mother	Sarah 54.32965769317645 female Brown question 8 6 Eng-NA=null
+6	spell	spell	n	_	_	4	xcomp	None MOT Mother	Sarah 54.32965769317645 female Brown question 8 6 Eng-NA=null
 
 # text = you'll whack somebody
 1	you	_	_	_	_	3	nsubj	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 4 3 Eng-NA=null
@@ -1153,14 +1159,14 @@
 4	war	war	n	_	_	3	obj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 5 4 Eng-NA=null
 
 # text = Donna did you see um did Betty have the sled out
-1	Donna	Donna	n:prop	_	_	4	vocative	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 11 Eng-NA=null
+1	Donna	Donna	n:prop	_	_	8	vocative	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 11 Eng-NA=null
 2	did	do	v	_	_	4	aux	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 11 Eng-NA=null
 3	you	Betty	n:prop	_	_	4	nsubj	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 11 Eng-NA=null
-4	see	have	v	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 11 Eng-NA=null
-5	um	the	det:art	_	_	4	discourse	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 11 Eng-NA=null
+4	see	have	v	_	_	8	reparandum	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 11 Eng-NA=null
+5	um	the	det:art	_	_	8	discourse	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 11 Eng-NA=null
 6	did	sled	n	_	_	8	aux	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 11 Eng-NA=null
 7	Betty	out	adv	_	_	8	nsubj	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 11 Eng-NA=null
-8	have	_	_	_	_	4	parataxis	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 11 Eng-NA=null
+8	have	_	_	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 11 Eng-NA=null
 9	the	_	_	_	_	10	det	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 11 Eng-NA=null
 10	sled	_	_	_	_	8	obj	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 11 Eng-NA=null
 11	out	_	_	_	_	8	advmod	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 11 Eng-NA=null
@@ -1177,7 +1183,7 @@
 2	had	have	v	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown question 6 5 Eng-NA=null
 3	the	the	det:art	_	_	4	det	None MOT Mother	Sarah 55.001129386640386 female Brown question 6 5 Eng-NA=null
 4	sled	sled	n	_	_	2	obj	None MOT Mother	Sarah 55.001129386640386 female Brown question 6 5 Eng-NA=null
-5	out	out	adv	_	_	2	compound:prt	None MOT Mother	Sarah 55.001129386640386 female Brown question 6 5 Eng-NA=null
+5	out	out	adv	_	_	2	xcomp	None MOT Mother	Sarah 55.001129386640386 female Brown question 6 5 Eng-NA=null
 
 # text = no p
 1	no	no	co	_	_	2	det	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 2 2 Eng-NA=null
@@ -1243,9 +1249,9 @@
 4	on	on	adv	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 8 Eng-NA=null
 5	tonight	tonight	adv:tem	_	_	4	obl:tmod	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 8 Eng-NA=null
 6	at	at	prep	_	_	8	case	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 8 Eng-NA=null
-7	seven	seven	det:num	_	_	8	nummod	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 8 Eng-NA=null
+7	seven	seven	det:num	_	_	8	compound	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 8 Eng-NA=null
 8	thirty	thirty	det:num	_	_	4	obl	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 8 Eng-NA=null
-9	right	right	co	_	_	4	advmod	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 8 Eng-NA=null
+9	right	right	co	_	_	4	discourse	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 8 Eng-NA=null
 
 # text = you tell me
 1	you	you	pro:per	_	_	2	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 3 3 Eng-NA=null
@@ -1330,8 +1336,8 @@
 1	let	let	v	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
 2	me	me	pro:obj	_	_	1	obj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
 3	see	see	v	_	_	1	xcomp	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
-4	you	you	pro:per	_	_	5	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
-5	write	write	v	_	_	3	ccomp	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
+4	you	you	pro:per	_	_	3	obj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
+5	write	write	v	_	_	3	xcomp	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
 6	your	your	det:poss	_	_	7	nmod:poss	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
 7	name	name	n	_	_	5	obj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
 
@@ -1388,7 +1394,7 @@
 9	me	some	qn	_	_	8	obj	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 12 13 Eng-NA=null
 10	give	some	qn	_	_	8	xcomp	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 12 13 Eng-NA=null
 11	you	medicine	n	_	_	10	iobj	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 12 13 Eng-NA=null
-12	some	_	_	_	_	14	det:predet	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 12 13 Eng-NA=null
+12	some	_	_	_	_	13	reparandum	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 12 13 Eng-NA=null
 13	some	_	_	_	_	14	det	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 12 13 Eng-NA=null
 14	medicine	_	_	_	_	10	obj	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 12 13 Eng-NA=null
 
@@ -1409,11 +1415,11 @@
 1	you	you	pro:per	_	_	2	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 9 8 Eng-NA=null
 2	got	get	v	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 9 8 Eng-NA=null
 3	it	it	pro:per	_	_	2	obj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 9 8 Eng-NA=null
-4	s	s	n:let	_	_	5	cop	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 9 8 Eng-NA=null
-5	a	a	n:let	_	_	7	compound	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 9 8 Eng-NA=null
-6	r	r	n:let	_	_	7	compound	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 9 8 Eng-NA=null
-7	h	h	n:let	_	_	8	goeswith	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 9 8 Eng-NA=null
-8	a	a	n:let	_	_	2	parataxis	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 9 8 Eng-NA=null
+4	s	s	n:let	_	_	3	appos	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 9 8 Eng-NA=null
+5	a	a	n:let	_	_	4	goeswith	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 9 8 Eng-NA=null
+6	r	r	n:let	_	_	4	goeswith	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 9 8 Eng-NA=null
+7	h	h	n:let	_	_	4	goeswith	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 9 8 Eng-NA=null
+8	a	a	n:let	_	_	4	goeswith	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 9 8 Eng-NA=null
 
 # text = you 're gonna be so smart by the time you get there
 1	you	_	_	_	_	3	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 14 11 Eng-NA=null
@@ -1431,14 +1437,14 @@
 13	there	_	_	_	_	12	advmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 14 11 Eng-NA=null
 
 # text = it 's a s a r a h
-1	it	it	pro	_	_	3	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
-2	's	be	cop	_	_	3	cop	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
-3	a	a	det:art	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
-4	s	s	n:let	_	_	3	goeswith	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
-5	a	a	n:let	_	_	8	compound	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
-6	r	r	n:let	_	_	3	conj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
-7	a	a	n:let	_	_	8	compound	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
-8	h	h	n:let	_	_	3	conj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
+1	it	it	pro	_	_	4	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
+2	's	be	cop	_	_	4	cop	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
+3	a	a	det:art	_	_	4	det	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
+4	s	s	n:let	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
+5	a	a	n:let	_	_	4	goeswith	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
+6	r	r	n:let	_	_	4	goeswith	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
+7	a	a	n:let	_	_	4	goeswith	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
+8	h	h	n:let	_	_	4	goeswith	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
 
 # text = why do n't you stay between the lines
 1	why	why	pro:int	_	_	5	advmod	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 9 7 Eng-NA=null
@@ -1459,8 +1465,8 @@
 1	let	let	n	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 6 5 Eng-NA=null
 2	's	be	cop	_	_	1	obj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 6 5 Eng-NA=null
 3	see	see	v	_	_	1	xcomp	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 6 5 Eng-NA=null
-4	you	you	pro:per	_	_	5	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 6 5 Eng-NA=null
-5	write	write	v	_	_	3	ccomp	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 6 5 Eng-NA=null
+4	you	you	pro:per	_	_	3	obj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 6 5 Eng-NA=null
+5	write	write	v	_	_	3	xcomp	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 6 5 Eng-NA=null
 6	cat	cat	n	_	_	5	obj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 6 5 Eng-NA=null
 
 # text = can you write that
@@ -1505,7 +1511,7 @@
 3	problem	problem	n	_	_	2	obj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 3 3 Eng-NA=null
 
 # text = well if you get it down fast then it does n't even bother ya
-1	well	well	co	_	_	13	discourse	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 15 13 Eng-NA=null
+1	well	well	co	_	_	4	discourse	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 15 13 Eng-NA=null
 2	if	if	conj	_	_	4	mark	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 15 13 Eng-NA=null
 3	you	you	pro:per	_	_	4	nsubj	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 15 13 Eng-NA=null
 4	get	get	v	_	_	13	advcl	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 15 13 Eng-NA=null
@@ -1542,15 +1548,15 @@
 3	Donny	Donny	n:prop	_	_	1	nmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 3 3 Eng-NA=null
 
 # text = one two three go
-1	one	one	det:num	_	_	4	nummod	None MOT Mother	Sarah 55.001129386640386 female Brown imperative_emphatic 4 4 Eng-NA=null
-2	two	two	det:num	_	_	1	parataxis	None MOT Mother	Sarah 55.001129386640386 female Brown imperative_emphatic 4 4 Eng-NA=null
+1	one	one	det:num	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown imperative_emphatic 4 4 Eng-NA=null
+2	two	two	det:num	_	_	1	conj	None MOT Mother	Sarah 55.001129386640386 female Brown imperative_emphatic 4 4 Eng-NA=null
 3	three	three	det:num	_	_	1	conj	None MOT Mother	Sarah 55.001129386640386 female Brown imperative_emphatic 4 4 Eng-NA=null
-4	go	go	v	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown imperative_emphatic 4 4 Eng-NA=null
+4	go	go	v	_	_	1	parataxis	None MOT Mother	Sarah 55.001129386640386 female Brown imperative_emphatic 4 4 Eng-NA=null
 
 # text = c a what
 1	c	c	n:let	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown question 3 3 Eng-NA=null
-2	a	a	n:let	_	_	1	discourse	None MOT Mother	Sarah 54.32965769317645 female Brown question 3 3 Eng-NA=null
-3	what	what	pro:int	_	_	1	parataxis	None MOT Mother	Sarah 54.32965769317645 female Brown question 3 3 Eng-NA=null
+2	a	a	n:let	_	_	1	conj	None MOT Mother	Sarah 54.32965769317645 female Brown question 3 3 Eng-NA=null
+3	what	what	pro:int	_	_	1	conj	None MOT Mother	Sarah 54.32965769317645 female Brown question 3 3 Eng-NA=null
 
 # text = and she said
 1	and	and	coord	_	_	3	cc	None MOT Mother	Sarah 54.16538327275714 female Brown quotation next line 4 3 Eng-NA=null
@@ -1565,8 +1571,8 @@
 5	you	you	pro:per	_	_	6	nsubj	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 17 16 Eng-NA=null
 6	do	do	v	_	_	1	advcl	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 17 16 Eng-NA=null
 7	everything	everything	pro:indef	_	_	6	obj	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 17 16 Eng-NA=null
-8	oh	oh	co	_	_	9	discourse	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 17 16 Eng-NA=null
-9	see	see	v	_	_	1	parataxis	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 17 16 Eng-NA=null
+8	oh	oh	co	_	_	12	discourse	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 17 16 Eng-NA=null
+9	see	see	v	_	_	12	discourse	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 17 16 Eng-NA=null
 10	now	now	adv	_	_	12	advmod	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 17 16 Eng-NA=null
 11	you	you	pro:per	_	_	12	nsubj	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 17 16 Eng-NA=null
 12	split	split	v	_	_	1	parataxis	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 17 16 Eng-NA=null
@@ -1591,7 +1597,7 @@
 4	you	you	pro:per	_	_	3	obj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 5 3 Eng-NA=null
 
 # text = and she tried to say problem and she could n't get it out
-1	and	and	coord	_	_	11	cc	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 14 12 Eng-NA=null
+1	and	and	coord	_	_	3	cc	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 14 12 Eng-NA=null
 2	she	she	pro:sub	_	_	3	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 14 12 Eng-NA=null
 3	tried	try	v	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 14 12 Eng-NA=null
 4	to	to	inf	_	_	5	mark	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 14 12 Eng-NA=null
@@ -1618,10 +1624,10 @@
 1	no	no	co	_	_	3	discourse	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
 2	that	that	pro:rel	_	_	3	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
 3	spells	spell	v	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
-4	car	car	n	_	_	7	compound	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
-5	c	c	n:let	_	_	7	compound	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
-6	a	a	n:let	_	_	7	compound	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
-7	r	r	n:let	_	_	3	obj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
+4	car	car	n	_	_	3	obj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
+5	c	c	n:let	_	_	4	conj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
+6	a	a	n:let	_	_	5	goeswith	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
+7	r	r	n:let	_	_	5	goeswith	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 8 7 Eng-NA=null
 
 # text = you feel kind of warm
 1	you	you	pro:per	_	_	2	nsubj	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 5 5 Eng-NA=null
@@ -1638,7 +1644,7 @@
 5	wanted	want	v	_	_	2	ccomp	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 5 Eng-NA=null
 
 # text = and she was stuttering and falling all over and finally she got it out
-1	and	and	coord	_	_	12	cc	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 21 14 Eng-NA=null
+1	and	and	coord	_	_	4	cc	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 21 14 Eng-NA=null
 2	she	she	pro:sub	_	_	4	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 21 14 Eng-NA=null
 3	was	be	aux	_	_	4	aux	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 21 14 Eng-NA=null
 4	stuttering	stutter	part	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 21 14 Eng-NA=null
@@ -1677,11 +1683,11 @@
 # text = watch it watch it
 1	watch	watch	v	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 4 4 Eng-NA=null
 2	it	it	pro:per	_	_	1	obj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 4 4 Eng-NA=null
-3	watch	watch	v	_	_	1	parataxis	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 4 4 Eng-NA=null
+3	watch	watch	v	_	_	1	conj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 4 4 Eng-NA=null
 4	it	it	pro:per	_	_	3	obj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 4 4 Eng-NA=null
 
 # text = Sarah do n't pull on the table
-1	Sarah	Sarah	n:prop	_	_	4	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 6 Eng-NA=null
+1	Sarah	Sarah	n:prop	_	_	4	vocative	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 6 Eng-NA=null
 2	do	do	mod	_	_	4	aux	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 6 Eng-NA=null
 3	n't	not	neg	_	_	4	advmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 6 Eng-NA=null
 4	pull	pull	v	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 6 Eng-NA=null
@@ -1704,7 +1710,7 @@
 5	sick	sick	adj	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 7 4 Eng-NA=null
 
 # text = Sarah I have no idea
-1	Sarah	Sarah	n:prop	_	_	3	discourse	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
+1	Sarah	Sarah	n:prop	_	_	3	vocative	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
 2	I	I	pro:sub	_	_	3	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
 3	have	have	v	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
 4	no	no	qn	_	_	5	det	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 5 5 Eng-NA=null
@@ -1734,7 +1740,7 @@
 2	do	do	mod	_	_	4	aux	None MOT Mother	Sarah 54.32965769317645 female Brown question 6 6 Eng-NA=null
 3	you	you	pro:per	_	_	4	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown question 6 6 Eng-NA=null
 4	want	want	v	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown question 6 6 Eng-NA=null
-5	red	red	n	_	_	4	obj	None MOT Mother	Sarah 54.32965769317645 female Brown question 6 6 Eng-NA=null
+5	red	red	n	_	_	4	xcomp	None MOT Mother	Sarah 54.32965769317645 female Brown question 6 6 Eng-NA=null
 6	though	though	adv	_	_	4	advmod	None MOT Mother	Sarah 54.32965769317645 female Brown question 6 6 Eng-NA=null
 
 # text = which one
@@ -1742,12 +1748,12 @@
 2	one	one	pro:indef	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown question 2 2 Eng-NA=null
 
 # text = you 're not you 're gonna leave that here
-1	you	_	_	_	_	3	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown question 8 7 Eng-NA=null
-2	're	_	_	_	_	6	aux	None MOT Mother	Sarah 54.16538327275714 female Brown question 8 7 Eng-NA=null
+1	you	_	_	_	_	2	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown question 8 7 Eng-NA=null
+2	're	_	_	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown question 8 7 Eng-NA=null
 3	not	_	_	_	_	2	advmod	None MOT Mother	Sarah 54.16538327275714 female Brown question 8 7 Eng-NA=null
 4	you	_	_	_	_	6	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown question 8 7 Eng-NA=null
 5	're	_	_	_	_	6	aux	None MOT Mother	Sarah 54.16538327275714 female Brown question 8 7 Eng-NA=null
-6	gon	_	_	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown question 8 7 Eng-NA=null
+6	gon	_	_	_	_	2	parataxis	None MOT Mother	Sarah 54.16538327275714 female Brown question 8 7 Eng-NA=null
 7	na	_	_	_	_	8	mark	None MOT Mother	Sarah 54.16538327275714 female Brown question 8 7 Eng-NA=null
 8	leave	_	_	_	_	6	xcomp	None MOT Mother	Sarah 54.16538327275714 female Brown question 8 7 Eng-NA=null
 9	that	_	_	_	_	8	obj	None MOT Mother	Sarah 54.16538327275714 female Brown question 8 7 Eng-NA=null
@@ -1763,13 +1769,13 @@
 7	you	you	pro:per	_	_	3	obl	None MOT Mother	Sarah 54.16538327275714 female Brown question 9 7 Eng-NA=null
 
 # text = Sarah shut it
-1	Sarah	Sarah	n:prop	_	_	2	nsubj	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 4 3 Eng-NA=null
+1	Sarah	Sarah	n:prop	_	_	2	vocative	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 4 3 Eng-NA=null
 2	shut	shut	v	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 4 3 Eng-NA=null
 3	it	it	pro:per	_	_	2	obj	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 4 3 Eng-NA=null
 
 # text = the grey one
 1	the	the	det:art	_	_	3	det	None MOT Mother	Sarah 54.32965769317645 female Brown question 3 3 Eng-NA=null
-2	grey	grey	adj	_	_	3	compound	None MOT Mother	Sarah 54.32965769317645 female Brown question 3 3 Eng-NA=null
+2	grey	grey	adj	_	_	3	amod	None MOT Mother	Sarah 54.32965769317645 female Brown question 3 3 Eng-NA=null
 3	one	one	pro:indef	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown question 3 3 Eng-NA=null
 
 # text = or the red one
@@ -1829,23 +1835,24 @@
 18	ya	you	pro:per	_	_	14	obl	None MOT Mother	Sarah 54.16538327275714 female Brown question 19 16 Eng-NA=null
 
 # text = see the go all over you
-1	see	see	v	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 6 7 Eng-NA=null
-2	the	the	det:art	_	_	3	det	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 6 7 Eng-NA=null
-3	go	all	adv	_	_	1	obj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 6 7 Eng-NA=null
+1	see	see	v	_	_	3	discourse	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 6 7 Eng-NA=null
+2	the	the	det:art	_	_	3	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 6 7 Eng-NA=null
+3	go	all	adv	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 6 7 Eng-NA=null
 4	all	over	prep	_	_	6	advmod	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 6 7 Eng-NA=null
 5	over	you	pro:per	_	_	6	case	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 6 7 Eng-NA=null
-6	you	_	_	_	_	3	nmod	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 6 7 Eng-NA=null
+6	you	_	_	_	_	3	obl	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 6 7 Eng-NA=null
 
 # text = see the go all over your face
-1	see	see	v	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 8 Eng-NA=null
-2	the	the	det:art	_	_	3	det	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 8 Eng-NA=null
-3	go	all	adv	_	_	1	obj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 8 Eng-NA=null
+1	see	see	v	_	_	3	discourse	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 8 Eng-NA=null
+2	the	the	det:art	_	_	3	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 8 Eng-NA=null
+3	go	all	adv	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 8 Eng-NA=null
 4	all	over	prep	_	_	7	advmod	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 8 Eng-NA=null
 5	over	your	det:poss	_	_	7	case	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 8 Eng-NA=null
 6	your	face	n	_	_	7	nmod:poss	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 8 Eng-NA=null
 7	face	_	_	_	_	3	nmod	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 8 Eng-NA=null
 
 # text = you want a cup a tea
+# Re-evaluate
 1	you	you	pro:per	_	_	2	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown question 6 6 Eng-NA=null
 2	want	want	v	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown question 6 6 Eng-NA=null
 3	a	a	det:art	_	_	4	det	None MOT Mother	Sarah 54.16538327275714 female Brown question 6 6 Eng-NA=null
@@ -1909,7 +1916,7 @@
 1	this	this	det:dem	_	_	2	det	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 10 7 Eng-NA=null
 2	man	man	n	_	_	7	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 10 7 Eng-NA=null
 3	was	be	cop	_	_	7	cop	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 10 7 Eng-NA=null
-4	forty	forty	det:num	_	_	6	nummod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 10 7 Eng-NA=null
+4	forty	forty	det:num	_	_	5	compound	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 10 7 Eng-NA=null
 5	five	five	det:num	_	_	6	nummod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 10 7 Eng-NA=null
 6	years	year	n	_	_	7	obl:npmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 10 7 Eng-NA=null
 7	old	old	adj	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 10 7 Eng-NA=null
@@ -1918,12 +1925,12 @@
 1	he	he	pro:sub	_	_	3	nsubj:pass	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 11 9 Eng-NA=null
 2	was	be	aux	_	_	3	aux:pass	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 11 9 Eng-NA=null
 3	operated	operate	part	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 11 9 Eng-NA=null
-4	on	on	adv	_	_	3	obl	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 11 9 Eng-NA=null
+4	on	on	adv	_	_	3	advmod	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 11 9 Eng-NA=null
 5	for	for	prep	_	_	6	case	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 11 9 Eng-NA=null
 6	cancer	cancer	n	_	_	3	obl	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 11 9 Eng-NA=null
-7	of	of	prep	_	_	9	case	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 11 9 Eng-NA=null
-8	the	the	det:art	_	_	9	det	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 11 9 Eng-NA=null
-9	uh	_	_	_	_	6	nmod	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 11 9 Eng-NA=null
+7	of	of	prep	_	_	8	case	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 11 9 Eng-NA=null
+8	the	the	det:art	_	_	6	nmod	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 11 9 Eng-NA=null
+9	uh	_	_	_	_	8	discourse	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 11 9 Eng-NA=null
 
 # text = I hate Thursdays
 1	I	I	pro:sub	_	_	2	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 3 3 Eng-NA=null
@@ -1952,7 +1959,7 @@
 # text = she started last a week ago
 1	she	she	pro:sub	_	_	2	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 6 Eng-NA=null
 2	started	start	v	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 6 Eng-NA=null
-3	last	last	adv	_	_	2	advmod	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 6 Eng-NA=null
+3	last	last	adv	_	_	4	reparandum	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 6 Eng-NA=null
 4	a	a	det:art	_	_	5	det	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 6 Eng-NA=null
 5	week	week	n	_	_	6	obl:npmod	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 6 Eng-NA=null
 6	ago	ago	post	_	_	2	advmod	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 7 6 Eng-NA=null
@@ -1976,9 +1983,9 @@
 3	week	week	n	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 3 3 Eng-NA=null
 
 # text = sposta go back to work next month
-1	spos	_	_	_	_	3	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 9 7 Eng-NA=null
-2	ta	_	_	_	_	3	aux	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 9 7 Eng-NA=null
-3	go	_	_	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 9 7 Eng-NA=null
+1	spos	_	_	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 9 7 Eng-NA=null
+2	ta	_	_	_	_	3	mark	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 9 7 Eng-NA=null
+3	go	_	_	_	_	1	xcomp	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 9 7 Eng-NA=null
 4	back	_	_	_	_	3	advmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 9 7 Eng-NA=null
 5	to	_	_	_	_	6	case	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 9 7 Eng-NA=null
 6	work	_	_	_	_	4	obl	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 9 7 Eng-NA=null
@@ -2001,10 +2008,10 @@
 1	he	he	pro:sub	_	_	2	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 9 Eng-NA=null
 2	died	die	v	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 9 Eng-NA=null
 3	of	of	prep	_	_	9	case	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 9 Eng-NA=null
-4	uh	no	qn	_	_	5	obl:npmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 9 Eng-NA=null
-5	instant	quick	adj	_	_	9	amod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 9 Eng-NA=null
+4	uh	no	qn	_	_	5	discourse	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 9 Eng-NA=null
+5	instant	quick	adj	_	_	8	reparandum	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 9 Eng-NA=null
 6	uh	pneumonia	n	_	_	9	discourse	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 9 Eng-NA=null
-7	no	_	_	_	_	8	det	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 9 Eng-NA=null
+7	no	_	_	_	_	0	discourse	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 9 Eng-NA=null
 8	quick	_	_	_	_	9	amod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 9 Eng-NA=null
 9	pneumonia	_	_	_	_	2	obl	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 9 Eng-NA=null
 
@@ -2052,7 +2059,7 @@
 5	smoking	smoke	part	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 6 4 Eng-NA=null
 
 # text = and they were trying four days to get him to go into the hospital and he would n't go
-1	and	and	coord	_	_	19	cc	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 23 18 Eng-NA=null
+1	and	and	coord	_	_	4	cc	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 23 18 Eng-NA=null
 2	they	they	pro:sub	_	_	4	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 23 18 Eng-NA=null
 3	were	be	aux	_	_	4	aux	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 23 18 Eng-NA=null
 4	trying	try	part	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 23 18 Eng-NA=null
@@ -2085,10 +2092,10 @@
 10	in	in	adv	_	_	8	xcomp	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 13 10 Eng-NA=null
 
 # text = c a r car
-1	c	c	n:let	_	_	4	compound	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 4 4 Eng-NA=null
-2	a	a	n:let	_	_	1	flat	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 4 4 Eng-NA=null
+1	c	c	n:let	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 4 4 Eng-NA=null
+2	a	a	n:let	_	_	1	goeswith	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 4 4 Eng-NA=null
 3	r	r	n:let	_	_	1	goeswith	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 4 4 Eng-NA=null
-4	car	car	n	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 4 4 Eng-NA=null
+4	car	car	n	_	_	1	conj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 4 4 Eng-NA=null
 
 # text = and if he had gone he would've been alright
 1	and	_	_	_	_	10	cc	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 14 9 Eng-NA=null
@@ -2120,16 +2127,16 @@
 
 # text = dimples dimples
 1	dimples	dimple	n	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 4 2 Eng-NA=null
-2	dimples	dimple	n	_	_	1	flat	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 4 2 Eng-NA=null
+2	dimples	dimple	n	_	_	1	conj	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 4 2 Eng-NA=null
 
 # text = how come you have n't been out playing
-1	how	how_come	pro:int	_	_	2	advmod	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 6 Eng-NA=null
-2	come	come	combined	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 6 Eng-NA=null
+1	how	how_come	pro:int	_	_	7	advmod	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 6 Eng-NA=null
+2	come	come	combined	_	_	1	fixed	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 6 Eng-NA=null
 3	you	you	pro:per	_	_	7	nsubj	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 6 Eng-NA=null
 4	have	have	aux	_	_	7	aux	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 6 Eng-NA=null
 5	n't	not	neg	_	_	7	advmod	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 6 Eng-NA=null
 6	been	be	cop	_	_	7	cop	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 6 Eng-NA=null
-7	out	out	adv	_	_	2	ccomp	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 6 Eng-NA=null
+7	out	out	adv	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 6 Eng-NA=null
 8	playing	play	part	_	_	7	advcl	None MOT Mother	Sarah 55.001129386640386 female Brown question 9 6 Eng-NA=null
 
 # text = you 're a smartie
@@ -2189,8 +2196,8 @@
 4	much	much	adv	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 4 3 Eng-NA=null
 
 # text = oh Sarah
-1	oh	oh	co	_	_	2	discourse	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 2 2 Eng-NA=null
-2	Sarah	Sarah	n:prop	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 2 2 Eng-NA=null
+1	oh	oh	co	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 2 2 Eng-NA=null
+2	Sarah	Sarah	n:prop	_	_	1	vocative	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 2 2 Eng-NA=null
 
 # text = Betty just come home
 1	Betty	Betty	n:prop	_	_	3	nsubj	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 4 4 Eng-NA=null
@@ -2291,10 +2298,10 @@
 5	see	see	v	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 5 4 Eng-NA=null
 
 # text = yeah yeah I would
-1	yeah	yeah	co	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 5 4 Eng-NA=null
-2	yeah	yeah	co	_	_	1	discourse	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 5 4 Eng-NA=null
-3	I	I	pro:sub	_	_	1	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 5 4 Eng-NA=null
-4	would	will	mod	_	_	1	aux	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 5 4 Eng-NA=null
+1	yeah	yeah	co	_	_	4	discourse	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 5 4 Eng-NA=null
+2	yeah	yeah	co	_	_	1	conj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 5 4 Eng-NA=null
+3	I	I	pro:sub	_	_	4	nsubj	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 5 4 Eng-NA=null
+4	would	will	mod	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown declarative 5 4 Eng-NA=null
 
 # text = she did pretty good though this time
 1	she	she	pro:sub	_	_	2	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 8 7 Eng-NA=null
@@ -2314,8 +2321,8 @@
 6	in	in	prep	_	_	8	case	None MOT Mother	Sarah 55.001129386640386 female Brown question 11 9 Eng-NA=null
 7	your	your	det:poss	_	_	8	nmod:poss	None MOT Mother	Sarah 55.001129386640386 female Brown question 11 9 Eng-NA=null
 8	eyes	eye	n	_	_	4	obl	None MOT Mother	Sarah 55.001129386640386 female Brown question 11 9 Eng-NA=null
-9	do	do	v	_	_	4	aux	None MOT Mother	Sarah 55.001129386640386 female Brown question 11 9 Eng-NA=null
-10	ya	you	pro:per	_	_	4	nsubj	None MOT Mother	Sarah 55.001129386640386 female Brown question 11 9 Eng-NA=null
+9	do	do	v	_	_	4	parataxis	None MOT Mother	Sarah 55.001129386640386 female Brown question 11 9 Eng-NA=null
+10	ya	you	pro:per	_	_	9	nsubj	None MOT Mother	Sarah 55.001129386640386 female Brown question 11 9 Eng-NA=null
 
 # text = she had them quite a while
 1	she	she	pro:sub	_	_	2	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 6 Eng-NA=null
@@ -2388,8 +2395,8 @@
 10	know	know	v	_	_	3	parataxis	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 10 10 Eng-NA=null
 
 # text = oh yeah
-1	oh	oh	co	_	_	2	discourse	None MOT Mother	Sarah 54.32965769317645 female Brown question 2 2 Eng-NA=null
-2	yeah	yeah	co	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown question 2 2 Eng-NA=null
+1	oh	oh	co	_	_	0	root	None MOT Mother	Sarah 54.32965769317645 female Brown question 2 2 Eng-NA=null
+2	yeah	yeah	co	_	_	1	discourse	None MOT Mother	Sarah 54.32965769317645 female Brown question 2 2 Eng-NA=null
 
 # text = no Daddy did n't get any cheese
 1	no	no	co	_	_	5	discourse	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 8 6 Eng-NA=null
@@ -2414,14 +2421,15 @@
 2	like	like	prep	_	_	4	case	None MOT Mother	Sarah 54.78962607035052 female Brown declarative 6 7 Eng-NA=null
 3	your	your	det:poss	_	_	4	nmod:poss	None MOT Mother	Sarah 54.78962607035052 female Brown declarative 6 7 Eng-NA=null
 4	father	father	n	_	_	0	root	None MOT Mother	Sarah 54.78962607035052 female Brown declarative 6 7 Eng-NA=null
-5	without	without	prep	_	_	4	case	None MOT Mother	Sarah 54.78962607035052 female Brown declarative 6 7 Eng-NA=null
-6	a	a	det:art	_	_	4	det	None MOT Mother	Sarah 54.78962607035052 female Brown declarative 6 7 Eng-NA=null
-7	fire+engine	_	_	_	_	4	compound	None MOT Mother	Sarah 54.78962607035052 female Brown declarative 6 7 Eng-NA=null
+5	without	without	prep	_	_	8	case	None MOT Mother	Sarah 54.78962607035052 female Brown declarative 6 7 Eng-NA=null
+6	a	a	det:art	_	_	8	det	None MOT Mother	Sarah 54.78962607035052 female Brown declarative 6 7 Eng-NA=null
+7	fire	_	_	_	_	8	compound	None MOT Mother	Sarah 54.78962607035052 female Brown declarative 6 7 Eng-NA=null
+8	engine	_	_	_	_	4	nmod	None MOT Mother	Sarah 54.78962607035052 female Brown declarative 6 7 Eng-NA=null
 
 # text = oh no no
 1	oh	oh	co	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 3 3 Eng-NA=null
 2	no	no	co	_	_	1	discourse	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 3 3 Eng-NA=null
-3	no	no	co	_	_	1	discourse	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 3 3 Eng-NA=null
+3	no	no	co	_	_	2	conj	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 3 3 Eng-NA=null
 
 # text = no he did n't and I forgot to tell him
 1	no	no	co	_	_	3	discourse	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 12 9 Eng-NA=null
@@ -2448,7 +2456,7 @@
 10	alright	_	_	_	_	8	xcomp	None MOT Mother	Sarah 54.16538327275714 female Brown question 10 9 Eng-NA=null
 
 # text = yeah but that
-1	yeah	yeah	co	_	_	2	discourse	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 3 3 Eng-NA=null
+1	yeah	yeah	co	_	_	3	discourse	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 3 3 Eng-NA=null
 2	but	but	conj	_	_	3	cc	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 3 3 Eng-NA=null
 3	that	that	pro:dem	_	_	0	root	None MOT Mother	Sarah 54.16538327275714 female Brown trail off 3 3 Eng-NA=null
 
@@ -2495,7 +2503,7 @@
 2	we	we	pro:sub	_	_	1	nsubj	None MOT Mother	Sarah 54.16538327275714 female Brown question 2 2 Eng-NA=null
 
 # text = no not on those crackers
-1	no	no	co	_	_	2	discourse	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 5 Eng-NA=null
+1	no	no	co	_	_	5	discourse	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 5 Eng-NA=null
 2	not	not	neg	_	_	5	advmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 5 Eng-NA=null
 3	on	on	prep	_	_	5	case	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 5 Eng-NA=null
 4	those	those	det:dem	_	_	5	det	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 6 5 Eng-NA=null
@@ -2503,7 +2511,7 @@
 
 # text = uhuh uhuh
 1	uhuh	uhuh	co	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 2 2 Eng-NA=null
-2	uhuh	uhuh	co	_	_	1	discourse	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 2 2 Eng-NA=null
+2	uhuh	uhuh	co	_	_	1	conj	None MOT Mother	Sarah 55.001129386640386 female Brown declarative 2 2 Eng-NA=null
 
 # text = if you want it
 1	if	if	conj	_	_	3	mark	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 4 4 Eng-NA=null
@@ -2535,11 +2543,11 @@
 
 # text = what are what are ya trying a do
 1	what	what	pro:int	_	_	2	nsubj	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 8 Eng-NA=null
-2	are	be	aux	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 8 Eng-NA=null
+2	are	be	aux	_	_	4	reparandum	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 8 Eng-NA=null
 3	what	you	pro:per	_	_	6	obj	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 8 Eng-NA=null
 4	are	try	part	_	_	6	aux	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 8 Eng-NA=null
 5	ya	a	det:art	_	_	6	nsubj	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 8 Eng-NA=null
-6	trying	do	v	_	_	2	ccomp	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 8 Eng-NA=null
+6	trying	do	v	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 8 Eng-NA=null
 7	a	_	_	_	_	8	mark	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 8 Eng-NA=null
 8	do	_	_	_	_	6	xcomp	None MOT Mother	Sarah 55.001129386640386 female Brown question 8 8 Eng-NA=null
 
@@ -2573,7 +2581,7 @@
 5	em	them	pro:obj	_	_	4	obj	None MOT Mother	Sarah 54.16538327275714 female Brown question 5 4 Eng-NA=null
 
 # text = what do you want a shovel for
-1	what	what	pro:int	_	_	4	obj	None MOT Mother	Sarah 55.001129386640386 female Brown question 7 7 Eng-NA=null
+1	what	what	pro:int	_	_	4	obl	None MOT Mother	Sarah 55.001129386640386 female Brown question 7 7 Eng-NA=null
 2	do	do	mod	_	_	4	aux	None MOT Mother	Sarah 55.001129386640386 female Brown question 7 7 Eng-NA=null
 3	you	you	pro:per	_	_	4	nsubj	None MOT Mother	Sarah 55.001129386640386 female Brown question 7 7 Eng-NA=null
 4	want	want	v	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown question 7 7 Eng-NA=null
@@ -2642,7 +2650,7 @@
 5	night	night	n	_	_	3	obl:tmod	None MOT Mother	Sarah 54.16538327275714 female Brown declarative 7 5 Eng-NA=null
 
 # text = what do you want it for
-1	what	what	pro:int	_	_	4	obj	None MOT Mother	Sarah 55.001129386640386 female Brown question 6 6 Eng-NA=null
+1	what	what	pro:int	_	_	4	obl	None MOT Mother	Sarah 55.001129386640386 female Brown question 6 6 Eng-NA=null
 2	do	do	mod	_	_	4	aux	None MOT Mother	Sarah 55.001129386640386 female Brown question 6 6 Eng-NA=null
 3	you	you	pro:per	_	_	4	nsubj	None MOT Mother	Sarah 55.001129386640386 female Brown question 6 6 Eng-NA=null
 4	want	want	v	_	_	0	root	None MOT Mother	Sarah 55.001129386640386 female Brown question 6 6 Eng-NA=null
