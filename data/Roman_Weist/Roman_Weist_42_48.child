@@ -28,6 +28,7 @@
 4	lunchbox	_	_	0	root	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 3 3 Eng-NA=null
 
 # text = dis is how you make a a box like that
+# Re-evaluate
 1	dis	this	pro:dem	2	nsubj	2	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 11 12 Eng-NA=null
 2	is	be	cop	0	root	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 11 12 Eng-NA=null
 3	how	how	pro:int	5	advmod	5	advmod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 11 12 Eng-NA=null
@@ -94,8 +95,9 @@
 8	like	like	prep	3	parataxis	3	parataxis	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 10 7 Eng-NA=null
 
 # text = spider beetle
-1	spider	spider	n	2	nmod	2	nmod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 2 4 Eng-NA=null
-2	beetle	beetle	n	0	root	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 2 4 Eng-NA=null
+# Re-evaluate
+1	spider	spider	n	2	nmod	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 2 4 Eng-NA=null
+2	beetle	beetle	n	0	root	1	conj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 2 4 Eng-NA=null
 
 # text = spider spider
 1	spider	spider	n	0	root	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 2 2 Eng-NA=null
@@ -116,6 +118,7 @@
 5	catch	catch	v	3	parataxis	3	parataxis	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 5 5 Eng-NA=null
 
 # text = a a beetle
+# Re-evaluate
 1	a	a	det:art	3	det	3	det	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 3 3 Eng-NA=null
 2	a	a	det:art	1	conj	1	conj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 3 3 Eng-NA=null
 3	beetle	beetle	n	0	root	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 3 3 Eng-NA=null
@@ -143,12 +146,12 @@
 3	ta	to	inf	4	mark	4	mark	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 6 Eng-NA=null
 4	color	color	v	2	xcomp	2	xcomp	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 6 Eng-NA=null
 5	it	it	pro:per	4	obj	4	obj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 6 Eng-NA=null
-6	in	in	adv	4	compound:prt	4	compound:prt	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 6 Eng-NA=null
+6	in	in	adv	4	compound:prt	4	advmod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 6 Eng-NA=null
 7	first	first	adv	4	advmod	4	advmod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 6 Eng-NA=null
 
 # text = that 's the spiders s back the round back
-1	that	that	n	4	nsubj	4	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 9 7 Eng-NA=null
-2	's	be	cop	4	cop	4	cop	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 9 7 Eng-NA=null
+1	that	that	n	6	nsubj	6	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 9 7 Eng-NA=null
+2	's	be	cop	6	cop	6	cop	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 9 7 Eng-NA=null
 3	the	the	det:art	4	det	4	det	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 9 7 Eng-NA=null
 4	spiders	spider	n	6	nmod:poss	6	nmod:poss	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 9 7 Eng-NA=null
 5	s	's	poss	4	case	4	case	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 9 7 Eng-NA=null
@@ -214,7 +217,7 @@
 # text = ah the chicken barn
 1	ah	ah	co	4	discourse	4	discourse	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 4 4 Eng-NA=null
 2	the	the	det:art	4	det	4	det	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 4 4 Eng-NA=null
-3	chicken	chicken	n	4	nmod	4	nmod	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 4 4 Eng-NA=null
+3	chicken	chicken	n	4	compound	4	compound	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 4 4 Eng-NA=null
 4	barn	barn	n	0	root	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 4 4 Eng-NA=null
 
 # text = I think I will draw like a leg down here like so it was like that so it was like that
@@ -238,14 +241,14 @@
 18	it	it	pro:per	19	nsubj	19	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 25 21 Eng-NA=null
 19	was	be	cop	21	cop	21	cop	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 25 21 Eng-NA=null
 20	like	like	prep	21	case	21	case	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 25 21 Eng-NA=null
-21	that	that	pro:dem	5	parataxis	16	parataxis	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 25 21 Eng-NA=null
+21	that	that	pro:dem	5	parataxis	5	parataxis	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 25 21 Eng-NA=null
 
 # text = ah I want the chicken barn
 1	ah	ah	co	3	discourse	3	discourse	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 6 Eng-NA=null
 2	I	I	pro:sub	3	nsubj	3	nsubj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 6 Eng-NA=null
 3	want	want	v	0	root	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 6 Eng-NA=null
 4	the	the	det:art	6	det	6	det	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 6 Eng-NA=null
-5	chicken	chicken	n	6	nmod	6	nmod	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 6 Eng-NA=null
+5	chicken	chicken	n	6	compound	6	compound	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 6 Eng-NA=null
 6	barn	barn	n	3	obj	3	obj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 6 Eng-NA=null
 
 # text = that 's the spiders back the round back
@@ -302,7 +305,7 @@
 9	the	the	det:art	_	_	12	det	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 13 11 Eng-NA=null
 10	big	big	adj	_	_	12	amod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 13 11 Eng-NA=null
 11	fat	fat	adj	_	_	12	amod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 13 11 Eng-NA=null
-12	leg	leg	n	_	_	7	conj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 13 11 Eng-NA=null
+12	leg	leg	n	_	_	7	appos	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 13 11 Eng-NA=null
 
 # text = yeah yes
 1	yeah	yeah	co	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 2 2 Eng-NA=null
@@ -332,6 +335,7 @@
 4	that	that	pro:dem	_	_	3	obj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 4 4 Eng-NA=null
 
 # text = because because the beetle will be all gone after spider eats it the spider will if if the beetle will eat the spider
+# Re-evaluate
 1	because	because	conj	_	_	8	mark	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 25 23 Eng-NA=null
 2	because	because	conj	_	_	1	conj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 25 23 Eng-NA=null
 3	the	the	det:art	_	_	4	det	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 25 23 Eng-NA=null
@@ -464,6 +468,7 @@
 12	finger	finger	n	_	_	8	obl	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 12 11 Eng-NA=null
 
 # text = I was I was gonna go to Mommy 's school but I did n't go to Mommys school I go to my school
+# Re-evaluate
 1	I	_	_	_	_	2	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 31 21 Eng-NA=null
 2	was	_	_	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 31 21 Eng-NA=null
 3	I	_	_	_	_	5	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 31 21 Eng-NA=null
@@ -567,7 +572,7 @@
 
 # text = yeah Dottie birthfday on a piece of paper
 1	yeah	yeah	co	_	_	3	discourse	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 8 Eng-NA=null
-2	Dottie	Dottie	n:prop	_	_	3	nmod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 8 Eng-NA=null
+2	Dottie	Dottie	n:prop	_	_	3	compound	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 8 Eng-NA=null
 3	birthfday	on	prep	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 8 Eng-NA=null
 4	on	a	det:art	_	_	6	case	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 8 Eng-NA=null
 5	a	piece	n	_	_	6	det	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 8 Eng-NA=null
@@ -650,6 +655,7 @@
 6	school	school	n	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 6 5 Eng-NA=null
 
 # text = yeah my my other one name is Dottie xxx and Michelle
+# Re-evaluate
 1	yeah	_	_	_	_	8	discourse	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 11 11 Eng-NA=null
 2	my	_	_	_	_	6	nmod:poss	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 11 11 Eng-NA=null
 3	my	_	_	_	_	2	conj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 11 11 Eng-NA=null
@@ -679,11 +685,11 @@
 5	toilet	toilet	n	_	_	3	nsubj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 15 13 Eng-NA=null
 6	in	in	prep	_	_	8	case	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 15 13 Eng-NA=null
 7	the	the	det:art	_	_	8	det	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 15 13 Eng-NA=null
-8	house	house	n	_	_	5	nmod	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 15 13 Eng-NA=null
+8	house	house	n	_	_	3	obl	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 15 13 Eng-NA=null
 9	messing	mess	part	_	_	5	acl	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 15 13 Eng-NA=null
 10	up	up	adv	_	_	9	compound:prt	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 15 13 Eng-NA=null
-11	all	all	qn	_	_	14	det:predet	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 15 13 Eng-NA=null
-12	the	the	det:art	_	_	14	det	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 15 13 Eng-NA=null
+11	all	all	qn	_	_	13	det:predet	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 15 13 Eng-NA=null
+12	the	the	det:art	_	_	13	det	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 15 13 Eng-NA=null
 13	furniture	furniture	n	_	_	9	obj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 15 13 Eng-NA=null
 14	furniture	furniture	n	_	_	13	conj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 15 13 Eng-NA=null
 
@@ -807,8 +813,8 @@
 5	do	_	_	_	_	7	aux	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 10 8 Eng-NA=null
 6	n't	_	_	_	_	7	advmod	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 10 8 Eng-NA=null
 7	wan	_	_	_	_	3	parataxis	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 10 8 Eng-NA=null
-8	na	_	_	_	_	9	mark	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 10 8 Eng-NA=null
-9	ah	_	_	_	_	7	xcomp	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 10 8 Eng-NA=null
+8	na	_	_	_	_	7	xcomp	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 10 8 Eng-NA=null
+9	ah	_	_	_	_	7	discourse	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 10 8 Eng-NA=null
 
 # text = yeah but first I haf ta draw
 1	yeah	yeah	co	_	_	5	discourse	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 6 Eng-NA=null
@@ -831,6 +837,7 @@
 3	breaking	break	part	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 4 2 Eng-NA=null
 
 # text = Daddy Daddy he 's not out of the paper he 's in the paper not out of it
+# Re-evaluate
 1	Daddy	Daddy	n:prop	_	_	9	vocative	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 18 16 Eng-NA=null
 2	Daddy	Daddy	n:prop	_	_	1	conj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 18 16 Eng-NA=null
 3	he	he	pro	_	_	9	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 18 16 Eng-NA=null
@@ -897,6 +904,7 @@
 3	broke	broke	adj	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 3 3 Eng-NA=null
 
 # text = because those little boys captured everything that 's all I found see
+# Re-evaluate
 1	because	because	conj	_	_	5	mark	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 15 11 Eng-NA=null
 2	those	those	det:dem	_	_	4	det	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 15 11 Eng-NA=null
 3	little	little	adj	_	_	4	amod	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 15 11 Eng-NA=null
@@ -911,6 +919,7 @@
 12	see	see	co	_	_	9	discourse	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 15 11 Eng-NA=null
 
 # text = No I was no I was on the rocks when
+# Re-evaluate
 1	No	No	n:prop	_	_	3	discourse	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 15 10 Eng-NA=null
 2	I	I	pro:sub	_	_	3	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 15 10 Eng-NA=null
 3	was	be	cop	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 15 10 Eng-NA=null
@@ -930,6 +939,7 @@
 5	know	know	v	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 5 4 Eng-NA=null
 
 # text = what is that for what 's that for
+# Re-evaluate
 1	what	what	pro:int	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist question 9 7 Eng-NA=null
 2	is	be	cop	_	_	1	cop	Roman CHI Target_Child	Roman 45.132343579950316 male Weist question 9 7 Eng-NA=null
 3	that	that	pro:dem	_	_	1	nsubj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist question 9 7 Eng-NA=null
@@ -940,6 +950,7 @@
 8	for	for	prep	_	_	5	case	Roman CHI Target_Child	Roman 45.132343579950316 male Weist question 9 7 Eng-NA=null
 
 # text = I I dunno
+# Re-evaluate
 1	I	_	_	_	_	5	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 5 3 Eng-NA=null
 2	I	_	_	_	_	1	conj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 5 3 Eng-NA=null
 3	du	_	_	_	_	5	aux	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 5 3 Eng-NA=null
@@ -970,6 +981,7 @@
 4	know	know	v	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 4 3 Eng-NA=null
 
 # text = yeah I went on the couch I went on the couch there was there was two spiders
+# Re-evaluate
 1	yeah	yeah	co	_	_	3	discourse	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 24 17 Eng-NA=null
 2	I	I	pro:sub	_	_	3	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 24 17 Eng-NA=null
 3	went	go	v	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 24 17 Eng-NA=null
@@ -1006,13 +1018,13 @@
 10	it	it	pro:per	_	_	9	obj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 32 24 Eng-NA=null
 11	it	it	pro:per	_	_	13	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 32 24 Eng-NA=null
 12	was	be	aux	_	_	13	aux	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 32 24 Eng-NA=null
-13	climbing	climb	part	_	_	3	parataxis	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 32 24 Eng-NA=null
+13	climbing	climb	part	_	_	1	parataxis	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 32 24 Eng-NA=null
 14	on	on	prep	_	_	16	case	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 32 24 Eng-NA=null
 15	the	the	det:art	_	_	16	det	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 32 24 Eng-NA=null
 16	chairs	chair	n	_	_	13	obl	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 32 24 Eng-NA=null
-17	and	and	coord	_	_	22	cc	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 32 24 Eng-NA=null
-18	then	then	adv:tem	_	_	22	advmod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 32 24 Eng-NA=null
-19	I	I	pro:sub	_	_	13	conjj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 32 24 Eng-NA=null
+17	and	and	coord	_	_	19	cc	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 32 24 Eng-NA=null
+18	then	then	adv:tem	_	_	19	advmod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 32 24 Eng-NA=null
+19	I	I	pro:sub	_	_	13	conj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 32 24 Eng-NA=null
 20	have	have	v	_	_	22	aux	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 32 24 Eng-NA=null
 21	you	you	pro:per	_	_	22	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 32 24 Eng-NA=null
 22	found	find	v	_	_	1	parataxis	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 32 24 Eng-NA=null
@@ -1020,6 +1032,7 @@
 24	spider	spider	n	_	_	22	obj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 32 24 Eng-NA=null
 
 # text = those spiders do n't do n't
+# Re-evaluate
 1	those	those	det:dem	_	_	2	det	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 4 Eng-NA=null
 2	spiders	spider	n	_	_	3	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 4 Eng-NA=null
 3	do	do	mod	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 4 Eng-NA=null
@@ -1049,7 +1062,7 @@
 8	heading	head	part	_	_	4	parataxis	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 24 17 Eng-NA=null
 9	under	under	prep	_	_	12	case	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 24 17 Eng-NA=null
 10	the	the	det:art	_	_	12	det	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 24 17 Eng-NA=null
-11	toy	toy	n	_	_	12	nmod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 24 17 Eng-NA=null
+11	toy	toy	n	_	_	12	compound	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 24 17 Eng-NA=null
 12	box	box	n	_	_	8	obl	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 24 17 Eng-NA=null
 13	I	I	pro:sub	_	_	16	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 24 17 Eng-NA=null
 14	wo	will	mod	_	_	16	aux	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 24 17 Eng-NA=null
@@ -1059,7 +1072,7 @@
 18	him	him	pro:obj	_	_	16	obl	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 24 17 Eng-NA=null
 
 # text = no why I saw but I saw another one climbing on the couch that I wo n't step on it too
-1	no	no	co	_	_	4	dis	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 24 20 Eng-NA=null
+1	no	no	co	_	_	4	discourse	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 24 20 Eng-NA=null
 2	why	why	pro:int	_	_	4	advmod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 24 20 Eng-NA=null
 3	I	I	pro:sub	_	_	4	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 24 20 Eng-NA=null
 4	saw	see	v	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 24 20 Eng-NA=null
@@ -1130,10 +1143,10 @@
 3	I	I	pro:sub	_	_	5	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 10 10 Eng-NA=null
 4	will	will	mod	_	_	5	aux	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 10 10 Eng-NA=null
 5	color	color	v	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 10 10 Eng-NA=null
-6	in	in	prep	_	_	5	compound:prt	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 10 10 Eng-NA=null
+6	in	in	prep	_	_	5	advmod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 10 10 Eng-NA=null
 7	this	this	det:dem	_	_	10	det	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 10 10 Eng-NA=null
 8	long	long	adj	_	_	10	amod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 10 10 Eng-NA=null
-9	daddy	daddy	n	_	_	10	nmod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 10 10 Eng-NA=null
+9	daddy	daddy	n	_	_	10	compound	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 10 10 Eng-NA=null
 10	thing	thing	n	_	_	5	obj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 10 10 Eng-NA=null
 
 # text = yeah but Sophie likes purple too
@@ -1145,6 +1158,7 @@
 6	too	too	adv	_	_	4	advmod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 6 Eng-NA=null
 
 # text = he does n't know how to to frew his legs
+# Re-evaluate
 1	he	he	pro:sub	_	_	4	nsubj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 12 9 Eng-NA=null
 2	does	do	mod	_	_	4	aux	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 12 9 Eng-NA=null
 3	n't	not	neg	_	_	4	advmod	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 12 9 Eng-NA=null
@@ -1168,6 +1182,7 @@
 5	anything	anything	pro:indef	_	_	4	obj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 4 Eng-NA=null
 
 # text = yeah but my eye my eyes are bright gray just like you
+# Re-evaluate
 1	yeah	yeah	co	_	_	4	discourse	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 13 12 Eng-NA=null
 2	but	but	conj	_	_	4	cc	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 13 12 Eng-NA=null
 3	my	my	det:poss	_	_	4	nmod:poss	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 13 12 Eng-NA=null
@@ -1182,6 +1197,7 @@
 12	you	_	_	_	_	9	obl	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 13 12 Eng-NA=null
 
 # text = xxx green eyes green eyes
+# Re-evaluate
 1	green	_	_	_	_	2	amod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 6 5 Eng-NA=null
 2	eyes	_	_	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 6 5 Eng-NA=null
 3	green	_	_	_	_	4	amod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 6 5 Eng-NA=null
@@ -1192,6 +1208,7 @@
 2	jumps	jump	v	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 3 2 Eng-NA=null
 
 # text = maybe maybe if we put them around my arms
+# Re-evaluate
 1	maybe	maybe	adv	_	_	5	advmod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 11 9 Eng-NA=null
 2	maybe	maybe	adv	_	_	1	conj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 11 9 Eng-NA=null
 3	if	if	conj	_	_	5	mark	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 11 9 Eng-NA=null
@@ -1219,6 +1236,7 @@
 2	there	there	adv	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 2 2 Eng-NA=null
 
 # text = what do look like what do look like when do like this
+# Re-evaluate
 1	what	what	pro:int	_	_	3	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist question 12 12 Eng-NA=null
 2	do	do	mod	_	_	3	aux	Roman CHI Target_Child	Roman 42.62510523830058 male Weist question 12 12 Eng-NA=null
 3	look	look	co	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist question 12 12 Eng-NA=null
@@ -1299,7 +1317,7 @@
 1	then	then	adv:tem	_	_	3	advmod	Roman CHI Target_Child	Roman 45.132343579950316 male Weist imperative_emphatic 5 5 Eng-NA=null
 2	he	he	pro:sub	_	_	3	nsubj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist imperative_emphatic 5 5 Eng-NA=null
 3	went	go	v	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist imperative_emphatic 5 5 Eng-NA=null
-4	ah	ah	co	_	_	3	discourse	Roman CHI Target_Child	Roman 45.132343579950316 male Weist imperative_emphatic 5 5 Eng-NA=null
+4	ah	ah	co	_	_	3	xcomp	Roman CHI Target_Child	Roman 45.132343579950316 male Weist imperative_emphatic 5 5 Eng-NA=null
 5	ah	_	_	_	_	4	conj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist imperative_emphatic 5 5 Eng-NA=null
 
 # text = so they want that thing still alive
@@ -1312,6 +1330,7 @@
 7	alive	alive	adj	_	_	3	xcomp	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 7 Eng-NA=null
 
 # text = remember in Shreck he killed all of the knifers out of the knifers hand then he and then sun came then there was mud all over and then and then and then xxx as he said xxx face said this xxx and then he said this xxx
+# Re-evaluate
 1	remember	_	_	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 52 47 Eng-NA=null
 2	in	_	_	_	_	3	case	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 52 47 Eng-NA=null
 3	Shreck	_	_	_	_	1	obl	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 52 47 Eng-NA=null
@@ -1384,6 +1403,7 @@
 5	Goblin	Goblin	n:prop	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 6 5 Eng-NA=null
 
 # text = yeah he had a tube in his mouf but Green Goblin had a mouf but but he 's funny because he has a pointy thing back here so that does n't look like Spiderman and but it does n't have any mouf
+# Re-evaluate
 1	yeah	yeah	co	_	_	3	discourse	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 51 39 Eng-NA=null
 2	he	he	pro:sub	_	_	3	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 51 39 Eng-NA=null
 3	had	have	v	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 51 39 Eng-NA=null
@@ -1434,7 +1454,7 @@
 
 # text = the pincher bug
 1	the	the	det:art	_	_	3	det	Roman CHI Target_Child	Roman 45.132343579950316 male Weist imperative_emphatic 5 3 Eng-NA=null
-2	pincher	pinch	n	_	_	3	nmod	Roman CHI Target_Child	Roman 45.132343579950316 male Weist imperative_emphatic 5 3 Eng-NA=null
+2	pincher	pinch	n	_	_	3	compound	Roman CHI Target_Child	Roman 45.132343579950316 male Weist imperative_emphatic 5 3 Eng-NA=null
 3	bug	bug	n	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist imperative_emphatic 5 3 Eng-NA=null
 
 # text = he does n't talk
@@ -1446,7 +1466,7 @@
 # text = that da chicken barn
 1	that	that	comp	_	_	4	nsubj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 4 4 Eng-NA=null
 2	da	the	det:art	_	_	4	det	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 4 4 Eng-NA=null
-3	chicken	chicken	n	_	_	4	nmod	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 4 4 Eng-NA=null
+3	chicken	chicken	n	_	_	4	compound	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 4 4 Eng-NA=null
 4	barn	barn	n	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 4 4 Eng-NA=null
 
 # text = he just has web so Peter is trapped in Spiderman clothing but it just a costume
@@ -1459,7 +1479,7 @@
 7	is	be	aux	_	_	8	aux:pass	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 16 Eng-NA=null
 8	trapped	trap	part	_	_	3	parataxis	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 16 Eng-NA=null
 9	in	in	prep	_	_	11	case	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 16 Eng-NA=null
-10	Spiderman	Spiderman	n:prop	_	_	11	nmodd	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 16 Eng-NA=null
+10	Spiderman	Spiderman	n:prop	_	_	11	compound	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 16 Eng-NA=null
 11	clothing	clothing	n	_	_	8	obl	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 16 Eng-NA=null
 12	but	but	conj	_	_	16	cc	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 16 Eng-NA=null
 13	it	it	pro:per	_	_	16	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 16 Eng-NA=null
@@ -1468,6 +1488,7 @@
 16	costume	costume	n	_	_	8	conj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 16 Eng-NA=null
 
 # text = no he just he just he look all sleepy so the Green Goblin spider does n't see it see his the Green Goblin and know what he took the Green Goblin face off and he and then and then xxx
+# Re-evaluate
 1	no	_	_	_	_	2	discourse	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 43 39 Eng-NA=null
 2	he	_	_	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 43 39 Eng-NA=null
 3	just	_	_	_	_	2	advmod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 43 39 Eng-NA=null
@@ -1525,6 +1546,7 @@
 7	inside	inside	adj	_	_	6	advmod	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 8 6 Eng-NA=null
 
 # text = and then and then and then and then he looked at Spiderman and then Spiderman went like this he went pssss he 's tied the big web to web and he pulled his xxx and then he tried to play in this thing and then Green Goblin went ah poof on his head
+# Re-evaluate
 1	and	_	_	_	_	2	cc	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 59 52 Eng-NA=null
 2	then	_	_	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 59 52 Eng-NA=null
 3	and	_	_	_	_	4	cc	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 59 52 Eng-NA=null
@@ -1579,6 +1601,7 @@
 52	head	_	_	_	_	47	obl	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 59 52 Eng-NA=null
 
 # text = it 's all he said
+# Re-evaluate
 1	it	it	pro	_	_	3	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 6 4 Eng-NA=null
 2	's	be	cop	_	_	3	cop	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 6 4 Eng-NA=null
 3	all	all	pro:indef	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 6 4 Eng-NA=null
@@ -1586,6 +1609,7 @@
 5	said	say	v	_	_	3	acl:relcl	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 6 4 Eng-NA=null
 
 # text = yeah it was over know what Spiderman and Green Goblin and when it was over I stole Green Goblin 's and Spiderman 's and and web and stole and and black stuff and and letters when it was over on the black stuff
+# Re-evaluate
 1	yeah	yeah	co	_	_	4	discourse	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 54 41 Eng-NA=null
 2	it	it	pro:per	_	_	4	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 54 41 Eng-NA=null
 3	was	be	cop	_	_	4	cop	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 54 41 Eng-NA=null
@@ -1631,6 +1655,7 @@
 43	stuff	stuff	n	_	_	39	obl	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 54 41 Eng-NA=null
 
 # text = I was starting I was starting so xxx
+# Re-evaluate
 1	I	_	_	_	_	3	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 13 8 Eng-NA=null
 2	was	_	_	_	_	3	aux	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 13 8 Eng-NA=null
 3	starting	_	_	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 13 8 Eng-NA=null
@@ -1727,12 +1752,13 @@
 7	fish	fish	n	_	_	5	obj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 7 6 Eng-NA=null
 
 # text = hey now where is that store stuff here it is and here 's here 's another one
+# Re-evaluate
 1	hey	hey	co	_	_	3	discourse	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 15 Eng-NA=null
 2	now	now	adv	_	_	3	advmod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 15 Eng-NA=null
 3	where	where	pro:int	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 15 Eng-NA=null
 4	is	be	cop	_	_	3	cop	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 15 Eng-NA=null
 5	that	that	det:dem	_	_	7	det	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 15 Eng-NA=null
-6	store	store	n	_	_	7	nmod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 15 Eng-NA=null
+6	store	store	n	_	_	7	compound	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 15 Eng-NA=null
 7	stuff	stuff	n	_	_	3	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 15 Eng-NA=null
 8	here	here	adv	_	_	3	parataxis	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 15 Eng-NA=null
 9	it	it	pro:per	_	_	8	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 15 Eng-NA=null
@@ -1746,6 +1772,7 @@
 17	one	one	pro:indef	_	_	14	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 19 15 Eng-NA=null
 
 # text = where 's the key where 's the key where 's the key
+# Re-evaluate
 1	where	where	n	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist question 12 9 Eng-NA=null
 2	's	be	cop	_	_	1	cop	Roman CHI Target_Child	Roman 42.62510523830058 male Weist question 12 9 Eng-NA=null
 3	the	the	det:art	_	_	4	det	Roman CHI Target_Child	Roman 42.62510523830058 male Weist question 12 9 Eng-NA=null
@@ -1767,6 +1794,7 @@
 5	fish	fish	n	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist imperative_emphatic 5 5 Eng-NA=null
 
 # text = that not the fish not that kind a fish
+# Re-evaluate: a, det or case
 1	that	that	adv	_	_	4	nsubj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist imperative_emphatic 9 9 Eng-NA=null
 2	not	not	neg	_	_	4	advmod	Roman CHI Target_Child	Roman 45.132343579950316 male Weist imperative_emphatic 9 9 Eng-NA=null
 3	the	the	det:art	_	_	4	det	Roman CHI Target_Child	Roman 45.132343579950316 male Weist imperative_emphatic 9 9 Eng-NA=null
@@ -1778,6 +1806,7 @@
 9	fish	fish	n	_	_	7	nmod	Roman CHI Target_Child	Roman 45.132343579950316 male Weist imperative_emphatic 9 9 Eng-NA=null
 
 # text = no this kind a xxx a fish
+# Re-evaluate: a, det or case
 1	no	_	_	_	_	3	discourse	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 7 Eng-NA=null
 2	this	_	_	_	_	3	det	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 7 Eng-NA=null
 3	kind	_	_	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 7 Eng-NA=null
@@ -1794,6 +1823,7 @@
 6	key	key	n	_	_	4	obj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 6 5 Eng-NA=null
 
 # text = that 's that that 's not a tail
+# Re-evaluate
 1	that	that	n	_	_	2	nsubj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 8 6 Eng-NA=null
 2	's	be	cop	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 8 6 Eng-NA=null
 3	that	that	pro:rel	_	_	2	parataxis	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 8 6 Eng-NA=null
@@ -1821,8 +1851,8 @@
 1	this	this	pro:dem	_	_	3	nsubj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 8 8 Eng-NA=null
 2	is	be	cop	_	_	3	cop	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 8 8 Eng-NA=null
 3	the	the	det:art	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 8 8 Eng-NA=null
-4	da	that	pro:dem	_	_	6	reparandum	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 8 8 Eng-NA=null
-5	da	a	det:art	_	_	4	conj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 8 8 Eng-NA=null
+4	da	that	pro:dem	_	_	3	vocative	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 8 8 Eng-NA=null
+5	da	a	det:art	_	_	4	goeswith	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 8 8 Eng-NA=null
 6	that	shark	n	_	_	9	nsubj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 8 8 Eng-NA=null
 7	's	be	cop	_	_	9	cop	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 8 8 Eng-NA=null
 8	a	_	_	_	_	9	det	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 8 8 Eng-NA=null
@@ -1935,6 +1965,7 @@
 6	one	one	pro:indef	_	_	4	obj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 5 Eng-NA=null
 
 # text = five o five xxx years
+# Re-evaluate
 1	five	_	_	_	_	4	nummod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 5 5 Eng-NA=null
 2	o	_	_	_	_	1	flat	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 5 5 Eng-NA=null
 3	five	_	_	_	_	1	flat	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 5 5 Eng-NA=null
@@ -1994,11 +2025,11 @@
 7	money	money	n	_	_	4	obj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 8 6 Eng-NA=null
 
 # text = and the last card got the card
-1	and	and	coord	_	_	5	cc	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 8 7 Eng-NA=null
+1	and	and	coord	_	_	4	cc	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 8 7 Eng-NA=null
 2	the	the	det:art	_	_	4	det	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 8 7 Eng-NA=null
 3	last	last	adj	_	_	4	amod	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 8 7 Eng-NA=null
-4	card	card	n	_	_	5	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 8 7 Eng-NA=null
-5	got	get	v	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 8 7 Eng-NA=null
+4	card	card	n	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 8 7 Eng-NA=null
+5	got	get	v	_	_	4	parataxis	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 8 7 Eng-NA=null
 6	the	the	det:art	_	_	7	det	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 8 7 Eng-NA=null
 7	card	card	n	_	_	5	obj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 8 7 Eng-NA=null
 
@@ -2061,10 +2092,10 @@
 # text = not right next to the jellyfish
 1	not	not	neg	_	_	3	advmod	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 5 6 Eng-NA=null
 2	right	right	adv	_	_	3	advmod	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 5 6 Eng-NA=null
-3	next	next	adv	_	_	6	case	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 5 6 Eng-NA=null
+3	next	next	adv	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 5 6 Eng-NA=null
 4	to	to	prep	_	_	6	case	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 5 6 Eng-NA=null
 5	the	the	det:art	_	_	6	det	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 5 6 Eng-NA=null
-6	jellyfish	_	_	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 5 6 Eng-NA=null
+6	jellyfish	_	_	_	_	3	obl	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 5 6 Eng-NA=null
 
 # text = because you played that and you did n't wan na
 1	because	because	conj	_	_	3	mark	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 12 8 Eng-NA=null
@@ -2088,7 +2119,7 @@
 7	that	that	pro:dem	_	_	8	nsubj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 13 12 Eng-NA=null
 8	goes	go	v	_	_	3	conj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 13 12 Eng-NA=null
 9	to	to	inf	_	_	8	obl	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 13 12 Eng-NA=null
-10	go	go	v	_	_	8	parataxis	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 13 12 Eng-NA=null
+10	go	go	v	_	_	3	parataxis	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 13 12 Eng-NA=null
 11	get	get	v	_	_	10	xcomp	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 13 12 Eng-NA=null
 12	it	it	pro:per	_	_	11	obj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 13 12 Eng-NA=null
 
@@ -2107,6 +2138,7 @@
 12	money	money	n	_	_	10	obj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 13 9 Eng-NA=null
 
 # text = and look but that can be that can be a a thin jellyfish
+# Re-evaluate
 1	and	and	coord	_	_	6	cc	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 11 13 Eng-NA=null
 2	look	look	v	_	_	6	discourse	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 11 13 Eng-NA=null
 3	but	but	conj	_	_	6	cc	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 11 13 Eng-NA=null
@@ -2149,6 +2181,7 @@
 6	card	card	n	_	_	4	obj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist question 6 6 Eng-NA=null
 
 # text = I 'm gonna just gonna just gonna get
+# Re-evaluate
 1	I	_	_	_	_	3	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 14 7 Eng-NA=null
 2	'm	_	_	_	_	3	cop	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 14 7 Eng-NA=null
 3	gon	_	_	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 14 7 Eng-NA=null
@@ -2180,6 +2213,7 @@
 3	what	what	pro:int	_	_	2	obj	Roman CHI Target_Child	Roman 45.592311957124366 male Weist question 3 3 Eng-NA=null
 
 # text = I want I want I you to come with me
+# Re-evaluate
 1	I	I	pro:sub	_	_	2	nsubj	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 10 10 Eng-NA=null
 2	want	want	v	_	_	0	root	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 10 10 Eng-NA=null
 3	I	I	pro:sub	_	_	4	nsubj	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 10 10 Eng-NA=null
@@ -2199,6 +2233,7 @@
 5	sir	sir	n	_	_	4	flat	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 5 5 Eng-NA=null
 
 # text = no it that big is that big daddy
+# Re-evaluate
 1	no	no	co	_	_	4	discourse	Roman CHI Target_Child	Roman 45.132343579950316 male Weist question 9 8 Eng-NA=null
 2	it	it	pro:per	_	_	4	nsubj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist question 9 8 Eng-NA=null
 3	that	that	det:dem	_	_	4	advmod	Roman CHI Target_Child	Roman 45.132343579950316 male Weist question 9 8 Eng-NA=null
@@ -2246,9 +2281,9 @@
 7	eyes	_	_	_	_	5	obj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 8 6 Eng-NA=null
 
 # text = it space ship
-1	it	it	pro:per	_	_	0	root	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 3 3 Eng-NA=null
-2	space	space	v	_	_	3	nmod	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 3 3 Eng-NA=null
-3	ship	ship	n	_	_	1	appos	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 3 3 Eng-NA=null
+1	it	it	pro:per	_	_	2	nsubj	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 3 3 Eng-NA=null
+2	space	space	v	_	_	0	root	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 3 3 Eng-NA=null
+3	ship	ship	n	_	_	2	goeswith	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 3 3 Eng-NA=null
 
 # text = Dad okay you have only that
 1	Dad	Dad	n:prop	_	_	4	vocative	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 6 6 Eng-NA=null
@@ -2284,8 +2319,8 @@
 3	got	get	v	_	_	0	root	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 9 7 Eng-NA=null
 4	anoder	another	qn	_	_	5	det	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 9 7 Eng-NA=null
 5	one	one	pro:indef	_	_	3	obj	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 9 7 Eng-NA=null
-6	up	up	adv	_	_	7	case	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 9 7 Eng-NA=null
-7	stairs	stair	n	_	_	5	nmod	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 9 7 Eng-NA=null
+6	up	up	adv	_	_	5	advmod	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 9 7 Eng-NA=null
+7	stairs	stair	n	_	_	6	goeswith	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 9 7 Eng-NA=null
 
 # text = that 's you that 's me inside the whale
 1	that	that	n	_	_	3	nsubj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 9 7 Eng-NA=null
@@ -2316,8 +2351,8 @@
 7	you	you	pro:per	_	_	6	iobj	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 10 Eng-NA=null
 8	anoder	another	qn	_	_	9	det	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 10 Eng-NA=null
 9	one	one	pro:indef	_	_	6	obj	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 10 Eng-NA=null
-10	up	up	adv	_	_	11	case	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 10 Eng-NA=null
-11	stairs	stair	n	_	_	9	nmod	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 10 Eng-NA=null
+10	up	up	adv	_	_	9	advmod	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 10 Eng-NA=null
+11	stairs	stair	n	_	_	10	goeswith	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 10 Eng-NA=null
 
 # text = the ketchup okay do you like ketchup and chocolate milk
 1	the	the	det:art	_	_	2	det	Roman CHI Target_Child	Roman 42.62510523830058 male Weist question 10 10 Eng-NA=null
@@ -2349,6 +2384,7 @@
 9	dogs	dog	n	_	_	6	obj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 11 9 Eng-NA=null
 
 # text = see see all dose grapes
+# Re-evaluate
 1	see	see	v	_	_	0	root	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 6 5 Eng-NA=null
 2	see	see	v	_	_	1	conj	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 6 5 Eng-NA=null
 3	all	all	qn	_	_	4	det:predet	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 6 5 Eng-NA=null
@@ -2390,12 +2426,13 @@
 8	here	_	_	_	_	3	parataxis	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 8 6 Eng-NA=null
 
 # text = no not the whale that off
+# Re-evaluate
 1	no	no	co	_	_	4	discourse	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 6 Eng-NA=null
 2	not	not	neg	_	_	4	advmod	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 6 Eng-NA=null
 3	the	the	det:art	_	_	4	det	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 6 Eng-NA=null
 4	whale	whale	n	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 6 Eng-NA=null
 5	that	that	adv	_	_	6	nsubj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 6 Eng-NA=null
-6	off	off	adv	_	_	4	acl:relcl	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 6 Eng-NA=null
+6	off	off	adv	_	_	4	parataxis	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 6 6 Eng-NA=null
 
 # text = yeah but see that right here
 1	yeah	yeah	co	_	_	3	discourse	Roman CHI Target_Child	Roman 45.592311957124366 male Weist question 6 6 Eng-NA=null
@@ -2415,15 +2452,16 @@
 7	it	it	pro:per	_	_	3	obl	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 9 7 Eng-NA=null
 
 # text = uh it has see you turn it see see dat right here
+# Re-evaluate
 1	uh	it	pro:per	_	_	3	discourse	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 12 Eng-NA=null
 2	it	have	aux	_	_	3	nsubj	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 12 Eng-NA=null
 3	has	see	v	_	_	0	root	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 12 Eng-NA=null
-4	see	you	pro:per	_	_	0	root	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 12 Eng-NA=null
-5	you	turn	v	_	_	6	discourse	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 12 Eng-NA=null
+4	see	you	pro:per	_	_	6	discourse	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 12 Eng-NA=null
+5	you	turn	v	_	_	6	nsubj	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 12 Eng-NA=null
 6	turn	it	pro:per	_	_	3	parataxis	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 12 Eng-NA=null
 7	it	see	v	_	_	6	obj	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 12 Eng-NA=null
-8	see	see	v	_	_	9	discourse	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 12 Eng-NA=null
-9	see	that	comp	_	_	4	parataxis	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 12 Eng-NA=null
+8	see	see	v	_	_	9	reparandum	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 12 Eng-NA=null
+9	see	that	comp	_	_	3	parataxis	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 12 Eng-NA=null
 10	dat	right	adv	_	_	9	obj	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 12 Eng-NA=null
 11	right	here	adv	_	_	12	advmod	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 12 Eng-NA=null
 12	here	_	_	_	_	9	advmod	Roman CHI Target_Child	Roman 45.592311957124366 male Weist declarative 12 12 Eng-NA=null
@@ -2436,9 +2474,9 @@
 5	here	here	n	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 5 4 Eng-NA=null
 
 # text = no it not
-1	no	no	co	_	_	3	discourse	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 3 3 Eng-NA=null
-2	it	it	pro:per	_	_	3	nsubj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 3 3 Eng-NA=null
-3	not	not	neg	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 3 3 Eng-NA=null
+1	no	no	co	_	_	2	discourse	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 3 3 Eng-NA=null
+2	it	it	pro:per	_	_	0	root	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 3 3 Eng-NA=null
+3	not	not	neg	_	_	2	advmod	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 3 3 Eng-NA=null
 
 # text = but first I haf ta do this
 1	but	but	conj	_	_	4	cc	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 6 Eng-NA=null
@@ -2450,6 +2488,7 @@
 7	this	this	pro:dem	_	_	6	obj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 7 6 Eng-NA=null
 
 # text = see that that 's all the hot dogs
+# Re-evaluate
 1	see	see	v	_	_	2	discourse	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 9 7 Eng-NA=null
 2	that	that	comp	_	_	0	root	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 9 7 Eng-NA=null
 3	that	that	n	_	_	8	nsubj	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 9 7 Eng-NA=null
@@ -2460,6 +2499,7 @@
 8	dogs	dog	n	_	_	2	parataxis	Roman CHI Target_Child	Roman 42.62510523830058 male Weist declarative 9 7 Eng-NA=null
 
 # text = you you can make that a water but you can make eyes too
+# Re-evaluate
 1	you	you	pro:per	_	_	4	nsubj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 13 13 Eng-NA=null
 2	you	can	mod	_	_	1	conj	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 13 13 Eng-NA=null
 3	can	make	v	_	_	4	aux	Roman CHI Target_Child	Roman 45.132343579950316 male Weist declarative 13 13 Eng-NA=null
