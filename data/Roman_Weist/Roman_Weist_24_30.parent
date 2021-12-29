@@ -78,6 +78,7 @@
 9	that	that	pro:dem	7	nsubj	7	nsubj	None FAT Father	Roman 29.03345037885788 male Weist question 10 8 Eng-NA=null
 
 # text = what is what is this what is Sophie drawing
+# Re-evaluate
 1	what	what	pro:int	0	root	0	root	None FAT Father	Roman 29.03345037885788 male Weist question 12 9 Eng-NA=null
 2	is	be	cop	1	cop	1	cop	None FAT Father	Roman 29.03345037885788 male Weist question 12 9 Eng-NA=null
 3	what	what	pro:int	1	parataxis	1	parataxis	None FAT Father	Roman 29.03345037885788 male Weist question 12 9 Eng-NA=null
@@ -99,6 +100,7 @@
 8	Roman	Roman	n:prop	4	vocative	4	vocative	None FAT Father	Roman 29.03345037885788 male Weist question 9 7 Eng-NA=null
 
 # text = Roman what is what is this
+# Re-evaluate
 1	Roman	Roman	n:prop	2	vocative	2	vocative	None FAT Father	Roman 29.03345037885788 male Weist question 8 6 Eng-NA=null
 2	what	what	pro:int	0	root	0	root	None FAT Father	Roman 29.03345037885788 male Weist question 8 6 Eng-NA=null
 3	is	be	cop	2	cop	2	cop	None FAT Father	Roman 29.03345037885788 male Weist question 8 6 Eng-NA=null
@@ -376,7 +378,7 @@
 4	book	book	n	_	_	1	obl	None FAT Father	Roman 29.690548060535125 male Weist declarative 4 4 Eng-NA=null
 
 # text = Roman he has food in his hand what 's he doing with it
-1	Roman	Roman	n:prop	_	_	2	dislocated	None FAT Father	Roman 29.690548060535125 male Weist question 15 12 Eng-NA=null
+1	Roman	Roman	n:prop	_	_	3	vocative	None FAT Father	Roman 29.690548060535125 male Weist question 15 12 Eng-NA=null
 2	he	he	pro:sub	_	_	3	nsubj	None FAT Father	Roman 29.690548060535125 male Weist question 15 12 Eng-NA=null
 3	has	have	v	_	_	0	root	None FAT Father	Roman 29.690548060535125 male Weist question 15 12 Eng-NA=null
 4	food	food	n	_	_	3	obj	None FAT Father	Roman 29.690548060535125 male Weist question 15 12 Eng-NA=null
@@ -648,9 +650,9 @@
 6	robot	robot	n	_	_	0	root	None FAT Father	Roman 29.23057968336105 male Weist question 7 6 Eng-NA=null
 
 # text = remember you had this thing on your head
-1	remember	remember	v	_	_	0	root	None FAT Father	Roman 29.23057968336105 male Weist question 9 8 Eng-NA=null
+1	remember	remember	v	_	_	3	discourse	None FAT Father	Roman 29.23057968336105 male Weist question 9 8 Eng-NA=null
 2	you	you	pro:per	_	_	3	nsubj	None FAT Father	Roman 29.23057968336105 male Weist question 9 8 Eng-NA=null
-3	had	have	v	_	_	1	ccomp	None FAT Father	Roman 29.23057968336105 male Weist question 9 8 Eng-NA=null
+3	had	have	v	_	_	0	root	None FAT Father	Roman 29.23057968336105 male Weist question 9 8 Eng-NA=null
 4	this	this	det:dem	_	_	5	det	None FAT Father	Roman 29.23057968336105 male Weist question 9 8 Eng-NA=null
 5	thing	thing	n	_	_	3	obj	None FAT Father	Roman 29.23057968336105 male Weist question 9 8 Eng-NA=null
 6	on	on	prep	_	_	8	case	None FAT Father	Roman 29.23057968336105 male Weist question 9 8 Eng-NA=null
@@ -751,6 +753,7 @@
 11	doing	do	part	_	_	5	parataxis	None FAT Father	Roman 29.23057968336105 male Weist question 17 9 Eng-NA=null
 
 # text = what 's the teacher doing though before before the teacher fell over the cliff what was she doing
+# Re-evaluate
 1	what	what	n	_	_	5	obj	None FAT Father	Roman 29.23057968336105 male Weist question 27 17 Eng-NA=null
 2	's	be	cop	_	_	5	aux	None FAT Father	Roman 29.23057968336105 male Weist question 27 17 Eng-NA=null
 3	the	the	det:art	_	_	4	det	None FAT Father	Roman 29.23057968336105 male Weist question 27 17 Eng-NA=null
@@ -868,7 +871,7 @@
 3	horse	horse	n	_	_	4	nsubj	None FAT Father	Roman 29.23057968336105 male Weist declarative 8 8 Eng-NA=null
 4	went	go	v	_	_	0	root	None FAT Father	Roman 29.23057968336105 male Weist declarative 8 8 Eng-NA=null
 5	to	to	inf	_	_	6	mark	None FAT Father	Roman 29.23057968336105 male Weist declarative 8 8 Eng-NA=null
-6	use	use	v	_	_	4	advcl	None FAT Father	Roman 29.23057968336105 male Weist declarative 8 8 Eng-NA=null
+6	use	use	v	_	_	4	xcomp	None FAT Father	Roman 29.23057968336105 male Weist declarative 8 8 Eng-NA=null
 7	the	the	det:art	_	_	8	det	None FAT Father	Roman 29.23057968336105 male Weist declarative 8 8 Eng-NA=null
 8	bathroom	_	_	_	_	6	obj	None FAT Father	Roman 29.23057968336105 male Weist declarative 8 8 Eng-NA=null
 
@@ -918,7 +921,7 @@
 8	this	this	pro:dem	_	_	6	nsubj	None FAT Father	Roman 29.23057968336105 male Weist question 9 7 Eng-NA=null
 
 # text = Roman look what is this
-1	Roman	Roman	n:prop	_	_	2	vocative	None FAT Father	Roman 29.23057968336105 male Weist question 6 5 Eng-NA=null
+1	Roman	Roman	n:prop	_	_	3	vocative	None FAT Father	Roman 29.23057968336105 male Weist question 6 5 Eng-NA=null
 2	look	look	v	_	_	3	discourse	None FAT Father	Roman 29.23057968336105 male Weist question 6 5 Eng-NA=null
 3	what	what	pro:int	_	_	0	root	None FAT Father	Roman 29.23057968336105 male Weist question 6 5 Eng-NA=null
 4	is	be	cop	_	_	3	cop	None FAT Father	Roman 29.23057968336105 male Weist question 6 5 Eng-NA=null
@@ -977,6 +980,7 @@
 8	Roman	Roman	n:prop	_	_	5	vocative	None FAT Father	Roman 29.23057968336105 male Weist question 9 8 Eng-NA=null
 
 # text = look look how did that dog get up there
+# Re-evaluate
 1	look	look	v	_	_	7	discourse	None FAT Father	Roman 29.23057968336105 male Weist question 10 9 Eng-NA=null
 2	look	look	v	_	_	1	conj	None FAT Father	Roman 29.23057968336105 male Weist question 10 9 Eng-NA=null
 3	how	how	pro:int	_	_	7	advmod	None FAT Father	Roman 29.23057968336105 male Weist question 10 9 Eng-NA=null
@@ -1018,6 +1022,7 @@
 4	silly	silly	adj	_	_	0	root	None FAT Father	Roman 29.23057968336105 male Weist declarative 5 3 Eng-NA=null
 
 # text = what 's going on what 's what 's going on what 's happening
+# Re-evaluate
 1	what	what	n	_	_	3	nsubj	None FAT Father	Roman 29.23057968336105 male Weist question 16 9 Eng-NA=null
 2	's	be	cop	_	_	3	aux	None FAT Father	Roman 29.23057968336105 male Weist question 16 9 Eng-NA=null
 3	going	go	part	_	_	0	root	None FAT Father	Roman 29.23057968336105 male Weist question 16 9 Eng-NA=null
@@ -1033,8 +1038,9 @@
 13	happening	happen	part	_	_	3	parataxis	None FAT Father	Roman 29.23057968336105 male Weist question 16 9 Eng-NA=null
 
 # text = no but who 's who 's riding the horse
-1	no	no	co	_	_	2	discourse	None FAT Father	Roman 29.23057968336105 male Weist question 10 7 Eng-NA=null
-2	but	but	conj	_	_	2	cc	None FAT Father	Roman 29.23057968336105 male Weist question 10 7 Eng-NA=null
+# Re-evaluate
+1	no	no	co	_	_	3	discourse	None FAT Father	Roman 29.23057968336105 male Weist question 10 7 Eng-NA=null
+2	but	but	conj	_	_	3	cc	None FAT Father	Roman 29.23057968336105 male Weist question 10 7 Eng-NA=null
 3	who	who	n	_	_	0	root	None FAT Father	Roman 29.23057968336105 male Weist question 10 7 Eng-NA=null
 4	's	be	cop	_	_	3	cop	None FAT Father	Roman 29.23057968336105 male Weist question 10 7 Eng-NA=null
 5	who	who	n	_	_	7	nsubj	None FAT Father	Roman 29.23057968336105 male Weist question 10 7 Eng-NA=null
@@ -1062,6 +1068,7 @@
 5	outside	outside	adv	_	_	4	advmod	None FAT Father	Roman 29.23057968336105 male Weist question 5 4 Eng-NA=null
 
 # text = I am I am gonna leave it on
+# Re-evaluate
 1	I	_	_	_	_	2	nsubj	None FAT Father	Roman 29.23057968336105 male Weist declarative 12 8 Eng-NA=null
 2	am	_	_	_	_	0	root	None FAT Father	Roman 29.23057968336105 male Weist declarative 12 8 Eng-NA=null
 3	I	_	_	_	_	5	nsubj	None FAT Father	Roman 29.23057968336105 male Weist declarative 12 8 Eng-NA=null
@@ -1098,7 +1105,7 @@
 2	had	_	_	_	_	0	root	None FAT Father	Roman 29.23057968336105 male Weist declarative 7 5 Eng-NA=null
 3	ta	_	_	_	_	4	mark	None FAT Father	Roman 29.23057968336105 male Weist declarative 7 5 Eng-NA=null
 4	get	_	_	_	_	2	xcomp	None FAT Father	Roman 29.23057968336105 male Weist declarative 7 5 Eng-NA=null
-5	all	_	_	_	_	4	advmod	None FAT Father	Roman 29.23057968336105 male Weist declarative 7 5 Eng-NA=null
+5	all	_	_	_	_	6	advmod	None FAT Father	Roman 29.23057968336105 male Weist declarative 7 5 Eng-NA=null
 6	clean	_	_	_	_	4	xcomp	None FAT Father	Roman 29.23057968336105 male Weist declarative 7 5 Eng-NA=null
 
 # text = how do you get clean
@@ -1106,7 +1113,7 @@
 2	do	do	mod	_	_	4	aux	None FAT Father	Roman 29.23057968336105 male Weist question 5 5 Eng-NA=null
 3	you	you	pro:per	_	_	4	nsubj	None FAT Father	Roman 29.23057968336105 male Weist question 5 5 Eng-NA=null
 4	get	get	v	_	_	0	root	None FAT Father	Roman 29.23057968336105 male Weist question 5 5 Eng-NA=null
-5	clean	clean	adj	_	_	4	obj	None FAT Father	Roman 29.23057968336105 male Weist question 5 5 Eng-NA=null
+5	clean	clean	adj	_	_	4	xcomp	None FAT Father	Roman 29.23057968336105 male Weist question 5 5 Eng-NA=null
 
 # text = stop wiggling
 1	stop	stop	n	_	_	0	root	None FAT Father	Roman 29.23057968336105 male Weist declarative 3 2 Eng-NA=null
@@ -1163,9 +1170,9 @@
 3	up	up	adv	_	_	1	compound:prt	None FAT Father	Roman 29.23057968336105 male Weist declarative 3 3 Eng-NA=null
 
 # text = Sophie let go of your piece
-1	Sophie	Sophie	n:prop	_	_	2	nsubj	None FAT Father	Roman 29.23057968336105 male Weist declarative 7 6 Eng-NA=null
+1	Sophie	Sophie	n:prop	_	_	2	vocative	None FAT Father	Roman 29.23057968336105 male Weist declarative 7 6 Eng-NA=null
 2	let	let	v	_	_	0	root	None FAT Father	Roman 29.23057968336105 male Weist declarative 7 6 Eng-NA=null
-3	go	go	v	_	_	2	obj	None FAT Father	Roman 29.23057968336105 male Weist declarative 7 6 Eng-NA=null
+3	go	go	v	_	_	2	xcomp	None FAT Father	Roman 29.23057968336105 male Weist declarative 7 6 Eng-NA=null
 4	of	of	prep	_	_	6	case	None FAT Father	Roman 29.23057968336105 male Weist declarative 7 6 Eng-NA=null
 5	your	your	det:poss	_	_	6	nmod:poss	None FAT Father	Roman 29.23057968336105 male Weist declarative 7 6 Eng-NA=null
 6	piece	piece	n	_	_	3	obl	None FAT Father	Roman 29.23057968336105 male Weist declarative 7 6 Eng-NA=null
@@ -1326,7 +1333,7 @@
 
 # text = look it you 're a little baby who 's holding you
 1	look	look	v	_	_	0	root	None FAT Father	Roman 29.92053224912216 male Weist question 12 9 Eng-NA=null
-2	it	it	pro:per	_	_	1	obj	None FAT Father	Roman 29.92053224912216 male Weist question 12 9 Eng-NA=null
+2	it	it	pro:per	_	_	1	obl	None FAT Father	Roman 29.92053224912216 male Weist question 12 9 Eng-NA=null
 3	you	you	pro:per	_	_	7	nsubj	None FAT Father	Roman 29.92053224912216 male Weist question 12 9 Eng-NA=null
 4	're	be	cop	_	_	7	cop	None FAT Father	Roman 29.92053224912216 male Weist question 12 9 Eng-NA=null
 5	a	a	det:art	_	_	7	det	None FAT Father	Roman 29.92053224912216 male Weist question 12 9 Eng-NA=null
@@ -1342,7 +1349,7 @@
 2	who	who	pro:int	_	_	0	root	None FAT Father	Roman 29.92053224912216 male Weist question 8 6 Eng-NA=null
 3	is	be	cop	_	_	2	cop	None FAT Father	Roman 29.92053224912216 male Weist question 8 6 Eng-NA=null
 4	that	that	comp	_	_	2	nsubj	None FAT Father	Roman 29.92053224912216 male Weist question 8 6 Eng-NA=null
-5	holding	hold	part	_	_	4	acl:relcl	None FAT Father	Roman 29.92053224912216 male Weist question 8 6 Eng-NA=null
+5	holding	hold	part	_	_	4	acl	None FAT Father	Roman 29.92053224912216 male Weist question 8 6 Eng-NA=null
 6	you	you	pro:per	_	_	5	obj	None FAT Father	Roman 29.92053224912216 male Weist question 8 6 Eng-NA=null
 
 # text = you do n't wan na do this right now
@@ -1393,7 +1400,7 @@
 3	's	be	cop	_	_	2	obj	None FAT Father	Roman 29.92053224912216 male Weist declarative 6 5 Eng-NA=null
 4	go	go	v	_	_	2	xcomp	None FAT Father	Roman 29.92053224912216 male Weist declarative 6 5 Eng-NA=null
 5	come	come	v	_	_	2	parataxis	None FAT Father	Roman 29.92053224912216 male Weist declarative 6 5 Eng-NA=null
-6	on	on	adv	_	_	5	advmod	None FAT Father	Roman 29.92053224912216 male Weist declarative 6 5 Eng-NA=null
+6	on	on	adv	_	_	5	compound:prt	None FAT Father	Roman 29.92053224912216 male Weist declarative 6 5 Eng-NA=null
 
 # text = where do you wan na play Roman
 1	where	where	pro:int	_	_	6	advmod	None FAT Father	Roman 29.92053224912216 male Weist question 7 6 Eng-NA=null
@@ -1481,6 +1488,7 @@
 3	spider	spider	n	_	_	0	root	None FAT Father	Roman 29.92053224912216 male Weist declarative 3 3 Eng-NA=null
 
 # text = come here hurry look right here spider
+# Re-evaluate
 1	come	come	v	_	_	0	root	None FAT Father	Roman 29.92053224912216 male Weist declarative 7 7 Eng-NA=null
 2	here	here	adv	_	_	1	advmod	None FAT Father	Roman 29.92053224912216 male Weist declarative 7 7 Eng-NA=null
 3	hurry	hurry	n	_	_	1	discourse	None FAT Father	Roman 29.92053224912216 male Weist declarative 7 7 Eng-NA=null
@@ -1563,12 +1571,12 @@
 4	ta	_	_	_	_	8	mark	None FAT Father	Roman 29.92053224912216 male Weist declarative 21 16 Eng-NA=null
 5	be	_	_	_	_	8	cop	None FAT Father	Roman 29.92053224912216 male Weist declarative 21 16 Eng-NA=null
 6	an	_	_	_	_	8	det	None FAT Father	Roman 29.92053224912216 male Weist declarative 21 16 Eng-NA=null
-7	ant	_	_	_	_	8	nmod	None FAT Father	Roman 29.92053224912216 male Weist declarative 21 16 Eng-NA=null
+7	ant	_	_	_	_	8	compound	None FAT Father	Roman 29.92053224912216 male Weist declarative 21 16 Eng-NA=null
 8	hill	_	_	_	_	3	xcomp	None FAT Father	Roman 29.92053224912216 male Weist declarative 21 16 Eng-NA=null
 9	in	_	_	_	_	10	case	None FAT Father	Roman 29.92053224912216 male Weist declarative 21 16 Eng-NA=null
-10	here	_	_	_	_	8	nmod	None FAT Father	Roman 29.92053224912216 male Weist declarative 21 16 Eng-NA=null
+10	here	_	_	_	_	3	obl	None FAT Father	Roman 29.92053224912216 male Weist declarative 21 16 Eng-NA=null
 11	the	_	_	_	_	12	det	None FAT Father	Roman 29.92053224912216 male Weist declarative 21 16 Eng-NA=null
-12	way	_	_	_	_	5	obl:tmod	None FAT Father	Roman 29.92053224912216 male Weist declarative 21 16 Eng-NA=null
+12	way	_	_	_	_	3	obl:npmod	None FAT Father	Roman 29.92053224912216 male Weist declarative 21 16 Eng-NA=null
 13	all	_	_	_	_	15	det:predet	None FAT Father	Roman 29.92053224912216 male Weist declarative 21 16 Eng-NA=null
 14	the	_	_	_	_	15	det	None FAT Father	Roman 29.92053224912216 male Weist declarative 21 16 Eng-NA=null
 15	ants	_	_	_	_	17	nsubj	None FAT Father	Roman 29.92053224912216 male Weist declarative 21 16 Eng-NA=null
@@ -1603,14 +1611,14 @@
 1	it	it	pro	_	_	5	nsubj	None FAT Father	Roman 29.92053224912216 male Weist question 5 4 Eng-NA=null
 2	's	be	cop	_	_	5	cop	None FAT Father	Roman 29.92053224912216 male Weist question 5 4 Eng-NA=null
 3	the	the	det:art	_	_	5	det	None FAT Father	Roman 29.92053224912216 male Weist question 5 4 Eng-NA=null
-4	ant	ant	n	_	_	5	nmod	None FAT Father	Roman 29.92053224912216 male Weist question 5 4 Eng-NA=null
+4	ant	ant	n	_	_	5	compound	None FAT Father	Roman 29.92053224912216 male Weist question 5 4 Eng-NA=null
 5	hole	hole	n	_	_	0	root	None FAT Father	Roman 29.92053224912216 male Weist question 5 4 Eng-NA=null
 
 # text = yeah the ant 's live in that hole
 1	yeah	yeah	co	_	_	5	discourse	None FAT Father	Roman 29.92053224912216 male Weist question 9 7 Eng-NA=null
 2	the	the	det:art	_	_	3	det	None FAT Father	Roman 29.92053224912216 male Weist question 9 7 Eng-NA=null
 3	ant	ant	n	_	_	5	nsubj	None FAT Father	Roman 29.92053224912216 male Weist question 9 7 Eng-NA=null
-4	's	's	poss	_	_	5	aux	None FAT Father	Roman 29.92053224912216 male Weist question 9 7 Eng-NA=null
+4	's	's	poss	_	_	3	goeswith	None FAT Father	Roman 29.92053224912216 male Weist question 9 7 Eng-NA=null
 5	live	live	v	_	_	0	root	None FAT Father	Roman 29.92053224912216 male Weist question 9 7 Eng-NA=null
 6	in	in	prep	_	_	8	case	None FAT Father	Roman 29.92053224912216 male Weist question 9 7 Eng-NA=null
 7	that	that	det:dem	_	_	8	det	None FAT Father	Roman 29.92053224912216 male Weist question 9 7 Eng-NA=null
@@ -1782,7 +1790,7 @@
 # text = mommy 's over here crying she wants to see her babies
 1	mommy	mommy	n	_	_	4	nsubj	None FAT Father	Roman 26.657631573543608 male Weist declarative 14 10 Eng-NA=null
 2	's	be	cop	_	_	4	cop	None FAT Father	Roman 26.657631573543608 male Weist declarative 14 10 Eng-NA=null
-3	over	over	prep	_	_	4	advmod	None FAT Father	Roman 26.657631573543608 male Weist declarative 14 10 Eng-NA=null
+3	over	over	prep	_	_	4	case	None FAT Father	Roman 26.657631573543608 male Weist declarative 14 10 Eng-NA=null
 4	here	here	n	_	_	0	root	None FAT Father	Roman 26.657631573543608 male Weist declarative 14 10 Eng-NA=null
 5	crying	cry	part	_	_	4	advcl	None FAT Father	Roman 26.657631573543608 male Weist declarative 14 10 Eng-NA=null
 6	she	she	pro:sub	_	_	7	nsubj	None FAT Father	Roman 26.657631573543608 male Weist declarative 14 10 Eng-NA=null
@@ -1921,7 +1929,7 @@
 2	Roman	Roman	n:prop	_	_	5	vocative	None FAT Father	Roman 26.657631573543608 male Weist declarative 12 9 Eng-NA=null
 3	these	these	det:dem	_	_	5	det	None FAT Father	Roman 26.657631573543608 male Weist declarative 12 9 Eng-NA=null
 4	two	two	det:num	_	_	5	nummod	None FAT Father	Roman 26.657631573543608 male Weist declarative 12 9 Eng-NA=null
-5	boys	boy	n	_	_	8	dislocated	None FAT Father	Roman 26.657631573543608 male Weist declarative 12 9 Eng-NA=null
+5	boys	boy	n	_	_	7	dislocated	None FAT Father	Roman 26.657631573543608 male Weist declarative 12 9 Eng-NA=null
 6	I	I	pro:sub	_	_	7	nsubj	None FAT Father	Roman 26.657631573543608 male Weist declarative 12 9 Eng-NA=null
 7	think	think	v	_	_	0	root	None FAT Father	Roman 26.657631573543608 male Weist declarative 12 9 Eng-NA=null
 8	they	they	pro:sub	_	_	10	nsubj	None FAT Father	Roman 26.657631573543608 male Weist declarative 12 9 Eng-NA=null
@@ -2197,7 +2205,7 @@
 1	here	here	n	_	_	0	root	None FAT Father	Roman 26.657631573543608 male Weist declarative 5 4 Eng-NA=null
 2	's	be	cop	_	_	1	cop	None FAT Father	Roman 26.657631573543608 male Weist declarative 5 4 Eng-NA=null
 3	the	the	det:art	_	_	5	det	None FAT Father	Roman 26.657631573543608 male Weist declarative 5 4 Eng-NA=null
-4	kitchen	kitchen	n	_	_	5	nmod	None FAT Father	Roman 26.657631573543608 male Weist declarative 5 4 Eng-NA=null
+4	kitchen	kitchen	n	_	_	5	compound	None FAT Father	Roman 26.657631573543608 male Weist declarative 5 4 Eng-NA=null
 5	table	table	n	_	_	1	nsubj	None FAT Father	Roman 26.657631573543608 male Weist declarative 5 4 Eng-NA=null
 
 # text = there you go there 's a chair right there
@@ -2259,7 +2267,7 @@
 10	where	where	pro:int	_	_	13	advmod	None FAT Father	Roman 26.657631573543608 male Weist question 13 11 Eng-NA=null
 11	do	do	mod	_	_	13	aux	None FAT Father	Roman 26.657631573543608 male Weist question 13 11 Eng-NA=null
 12	they	they	pro:sub	_	_	13	nsubj	None FAT Father	Roman 26.657631573543608 male Weist question 13 11 Eng-NA=null
-13	go	go	v	_	_	5	parataxis	None FAT Father	Roman 26.657631573543608 male Weist question 13 11 Eng-NA=null
+13	go	go	v	_	_	2	parataxis	None FAT Father	Roman 26.657631573543608 male Weist question 13 11 Eng-NA=null
 
 # text = and the tv
 1	and	and	coord	_	_	3	cc	None FAT Father	Roman 26.657631573543608 male Weist question 3 3 Eng-NA=null
