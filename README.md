@@ -7,14 +7,13 @@
 (1) From [Universal Dependencies](https://universaldependencies.org/), download the following treebanks
 
 <pre>(a) UD-EWT <br>
-(b) UD-GUM <br>
-(c) UD-GUM reddit (then build the reddit corpus following [instructions](https://github.com/amir-zeldes/gum/blob/master/README_reddit.md) <br>
-(d) UD-Atis
+(b) UD-GUM reddit (then build the reddit corpus following [instructions](https://github.com/amir-zeldes/gum/blob/master/README_reddit.md) <br>
+(c) UD-Atis
 </pre>
 
-(2) Download [Convbank data](https://gitlab.com/ucdavisnlp/dialog-parsing/-/tree/master/dep_parsed)
+(2) Download [English Tweeter data](https://github.com/Oneplus/Tweebank) (use the converted version in the experiments)
 
-(3) Download Tweeter data?
+(3) Download [Convbank data](https://gitlab.com/ucdavisnlp/dialog-parsing/-/tree/master/dep_parsed)
 
 ### Training parsers
 
