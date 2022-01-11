@@ -6,7 +6,7 @@
 
 (1) From [Universal Dependencies](https://universaldependencies.org/), download the following treebanks
 
-<pre> (a) UD-EWT <br>
+<pre>(a) UD-EWT <br>
 (b) UD-GUM
 </pre>
 
