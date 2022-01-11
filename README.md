@@ -6,8 +6,7 @@
 
 (1) From [Universal Dependencies](https://universaldependencies.org/), download the following treebanks
 
-(a) UD-EWT
-
+(a) UD-EWT <br>
 (b) UD-GUM
 
 (c) UD-GUM reddit (then build the reddit corpus following [instructions](https://github.com/amir-zeldes/gum/blob/master/README_reddit.md)
