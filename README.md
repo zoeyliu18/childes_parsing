@@ -22,18 +22,12 @@
 
 #### Install [Diaparser](https://github.com/Unipisa/diaparser) AND `git clone` its repository
 
+
+
 ## Finetune a pretrained model
 
 (1) Under the `diaparser` git repository, create a `fientune.txt` file; the fine contains one line of text that is the path of the pretrained model. See `misc/finetune.txt` for an example.
 
 (2) replace `diaparser/diaparser/parsers/biaffine_dependency.py` with `misc/biaffine_dependency.py`
 
-(3) run via commaind line:
-
-`python -m diaparser.cmds.biaffine_dependency train --train /data/liuaal/childes_syntax/UD_English-GUMReddit/en_gumreddit-ud-train.conllu <br />
-    --dev  /data/liuaal/childes_syntax/UD_English-GUMReddit/en_gumreddit-ud-dev.conllu 
-    --test /data/liuaal/childes_syntax/UD_English-GUMReddit/en_gumreddit-ud-test.conllu
-    -b -d 0  
-    -p exp/reddit_finetune/model  
-    -f bert  <br>  
-    --bert bert-base-cased`
+(3) Start finetuning; see `misc/finetune_cmd.sh` for an example of finetuning a parser trained on UD-EWT with UD-Atis
