@@ -7,13 +7,10 @@
 (1) From [Universal Dependencies](https://universaldependencies.org/), download the following treebanks
 
 <pre>(a) UD-EWT <br>
-(b) UD-GUM
-</pre>
-
-
-(c) UD-GUM reddit (then build the reddit corpus following [instructions](https://github.com/amir-zeldes/gum/blob/master/README_reddit.md)
-
+(b) UD-GUM <br>
+(c) UD-GUM reddit (then build the reddit corpus following [instructions](https://github.com/amir-zeldes/gum/blob/master/README_reddit.md) <br>
 (d) UD-Atis
+</pre>
 
 (2) Download [Convbank data](https://gitlab.com/ucdavisnlp/dialog-parsing/-/tree/master/dep_parsed)
 
