@@ -20,4 +20,5 @@
 
 ### Training parsers
 
-#### Install [Diaparser](https://github.com/Unipisa/diaparser)
+#### Install [Diaparser](https://github.com/Unipisa/diaparser) AND `git clone` its repository
+
