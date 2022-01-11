@@ -22,3 +22,6 @@
 
 #### Install [Diaparser](https://github.com/Unipisa/diaparser) AND `git clone` its repository
 
+## Finetune
+
+(1) Under the `diaparser` git repository, create a `fientune.txt` file; the fine contains one line of text that is the path of the pretrained model. See `misc/finetune.txt` for an example.
