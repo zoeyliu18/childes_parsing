@@ -36,4 +36,4 @@
     -b -d 0  \
     -p exp/reddit_finetune/model  \
     -f bert  \
-    --bert bert-base-cased 
+    --bert bert-base-cased`
