@@ -31,9 +31,15 @@
 (3) run via commaind line:
 
 `python -m diaparser.cmds.biaffine_dependency train --train /data/liuaal/childes_syntax/UD_English-GUMReddit/en_gumreddit-ud-train.conllu \
+
     --dev  /data/liuaal/childes_syntax/UD_English-GUMReddit/en_gumreddit-ud-dev.conllu \
+    
     --test /data/liuaal/childes_syntax/UD_English-GUMReddit/en_gumreddit-ud-test.conllu \
+    
     -b -d 0  \
+    
     -p exp/reddit_finetune/model  \
+    
     -f bert  \
+    
     --bert bert-base-cased`
