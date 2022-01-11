@@ -22,6 +22,8 @@
 
 #### Install [Diaparser](https://github.com/Unipisa/diaparser) AND `git clone` its repository
 
-## Finetune
+## Finetune a pretrained model
 
 (1) Under the `diaparser` git repository, create a `fientune.txt` file; the fine contains one line of text that is the path of the pretrained model. See `misc/finetune.txt` for an example.
+
+(2) replace `diaparser/diaparser/parsers/biaffine_dependency.py` with `misc/biaffine_dependency.py`
