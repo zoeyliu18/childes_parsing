@@ -10,7 +10,7 @@
 
 (2) UD-GUM
 
-(3) UD-GUM reddit (then build the reddit corpus following (instructions)[https://github.com/amir-zeldes/gum/blob/master/README_reddit.md]
+(3) UD-GUM reddit (then build the reddit corpus following [instructions](https://github.com/amir-zeldes/gum/blob/master/README_reddit.md)
 
 (4) UD-Atis
 
