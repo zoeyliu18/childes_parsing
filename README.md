@@ -4,25 +4,36 @@
 
 ### Data preparation
 
-#### From [Universal Dependencies](https://universaldependencies.org/), download the following treebanks
+(1) From [Universal Dependencies](https://universaldependencies.org/), download the following treebanks
 
-(1) UD-EWT
+(a) UD-EWT
 
-(2) UD-GUM
+(b) UD-GUM
 
-(3) UD-GUM reddit (then build the reddit corpus following [instructions](https://github.com/amir-zeldes/gum/blob/master/README_reddit.md)
+(c) UD-GUM reddit (then build the reddit corpus following [instructions](https://github.com/amir-zeldes/gum/blob/master/README_reddit.md)
 
-(4) UD-Atis
+(d) UD-Atis
 
-#### Download [Convbank data](https://gitlab.com/ucdavisnlp/dialog-parsing/-/tree/master/dep_parsed)
+(2) Download [Convbank data](https://gitlab.com/ucdavisnlp/dialog-parsing/-/tree/master/dep_parsed)
 
-#### Download Tweeter data?
+(3) Download Tweeter data?
 
 ### Training parsers
 
-#### Install [Diaparser](https://github.com/Unipisa/diaparser) AND `git clone` its repository
+(1) Install [Diaparser](https://github.com/Unipisa/diaparser) AND `git clone` its repository
 
+(2) Start training; see `misc/train_cmd.sh` for an example of training a parser with UD-Atis 
 
+```sh
+$ python -m diaparser.cmds.biaffine_dependency train --train /data/liuaal/childes_syntax/UD_English-Atis/en_atis-ud-train.conllu \
+    --dev  /data/liuaal/childes_syntax/UD_English-Atis/en_atis-ud-dev.conllu \
+    --test /data/liuaal/childes_syntax/UD_English-Atis/en_atis-ud-test.conllu \
+    -b -d 0  \
+    -p exp/en_atis.bert-cased/model  \
+    -f bert  \
+    --batch-size 2000  \
+    --bert bert-base-cased
+```
 
 ## Finetune a pretrained model
 
