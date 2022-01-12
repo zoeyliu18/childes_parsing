@@ -4,6 +4,8 @@
 
 ### Data preparation
 
+```scripts/0.prep.sh```
+
 (1) From [Universal Dependencies](https://universaldependencies.org/), download the following treebanks
 
 <pre>(a) UD-EWT <br>
@@ -17,20 +19,28 @@
 
 ### Training parsers
 
+```scripts/1.graph_train.sh```
+
 (1) Install [Diaparser](https://github.com/Unipisa/diaparser) AND `git clone` its repository
 
 (2) Start training; see `misc/train_cmd.sh` for an example of training a parser with UD-Atis 
 
 ```sh
-$ python -m diaparser.cmds.biaffine_dependency train --train /data/liuaal/childes_syntax/UD_English-Atis/en_atis-ud-train.conllu \
-    --dev  /data/liuaal/childes_syntax/UD_English-Atis/en_atis-ud-dev.conllu \
-    --test /data/liuaal/childes_syntax/UD_English-Atis/en_atis-ud-test.conllu \
+$ python -m diaparser.cmds.biaffine_dependency train --train ud_data/UD_English-Atis/en_atis-ud-train.conllu \
+    --dev  ud_data/UD_English-Atis/en_atis-ud-dev.conllu \
+    --test ud_data/UD_English-Atis/en_atis-ud-test.conllu \
     -b -d 0  \
-    -p exp/en_atis.bert-cased/model  \
+    -p models/graph/UD_English-Atis.bert-cased/model  \
     -f bert  \
     --batch-size 2000  \
     --bert bert-base-cased
 ```
+
+### TO DO: add training commands for training all out-of-domain parsers
+
+### TO DO: add trained models for out-of-domain parsers
+
+### Acquire parser predictions
 
 ## Finetune a pretrained model
 
