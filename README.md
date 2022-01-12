@@ -42,6 +42,16 @@ $ python -m diaparser.cmds.biaffine_dependency train --train ud_data/UD_English-
 
 ### Acquire parser predictions
 
+```scripts/2.graph_predict.py```
+
+To run:
+
+```python3 scripts/2.graph_predct.py --input ud_data/```
+
+### Evaluation ###
+
+Micro LAS/UAS + Macro LAS/UAS
+
 ## Finetune a pretrained model
 
 (1) Under the `diaparser` git repository, create a `fientune.txt` file; the fine contains one line of text that is the path of the pretrained model. See `misc/finetune.txt` for an example.
