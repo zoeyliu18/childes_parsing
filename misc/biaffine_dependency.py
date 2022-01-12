@@ -14,6 +14,7 @@ from ..utils.logging import get_logger, progress_bar
 from ..utils.metric import AttachmentMetric
 from ..utils.transform import CoNLL
 from tokenizer.tokenizer import Tokenizer
+from .. import parsers
 
 logger = get_logger(__name__)
 
@@ -237,6 +238,14 @@ class BiaffineDependencyParser(Parser):
             return parser
 
         logger.info("Building the fields")
+        
+        state = ''
+        finetune = open('finetune.txt','r').readlines()[0].strip()
+        if finetune is not 'none':
+            state = torch.load(finetune)
+#        state = torch.load('/data/liuaal/childes_syntax/diaparser/exp/try/model')
+            args = state['args']#.update(args)
+        
         WORD = Field('words', pad=pad, unk=unk, bos=bos, lower=True)
         if args.feat == 'char':
             FEAT = SubwordField('chars', pad=pad, unk=unk, bos=bos, fix_len=args.fix_len)
@@ -252,6 +261,7 @@ class BiaffineDependencyParser(Parser):
         REL = Field('rels', bos=bos)
         if args.feat in ('char', 'bert'):
             transform = CoNLL(FORM=(WORD, FEAT), HEAD=ARC, DEPREL=REL)
+       #     transform = state['transform']
         else:
             transform = CoNLL(FORM=WORD, CPOS=FEAT, HEAD=ARC, DEPREL=REL)
 
@@ -275,5 +285,12 @@ class BiaffineDependencyParser(Parser):
         logger.info(f"   {FEAT}\n   {ARC}\n   {REL}")
 
         model = cls.MODEL(**args)
-        model.load_pretrained(WORD.embed).to(args.device)
+        
+        if finetune is not 'none':
+            model.load_pretrained(state['pretrained'])
+            model.load_state_dict(state['state_dict'],False)
+            model.to(args.device)
+        else:
+            model.load_pretrained(WORD.embed).to(args.device)
+
         return cls(args, model, transform)
