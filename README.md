@@ -50,6 +50,12 @@ To run:
 
 ### Evaluation ###
 
+```scripts/3.graph_evaluate.py```
+
+To run:
+
+```python3 scripts/3.graph_evaluate.py --input ud_data/```
+
 Micro LAS/UAS + Macro LAS/UAS
 
 ## Finetune a pretrained model
