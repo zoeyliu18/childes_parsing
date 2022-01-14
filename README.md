@@ -34,6 +34,7 @@ $ python -m diaparser.cmds.biaffine_dependency train --train ud_data/UD_English-
     -f bert  \
     --batch-size 2000  \
     --bert bert-base-cased
+    -s 1
 ```
 
 ### TO DO: add training commands for training all out-of-domain parsers
