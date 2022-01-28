@@ -1,6 +1,7 @@
 #usr/bin/env python3
 
-import io, os, argparse, random
+import io, os, argparse
+from diaparser.parsers import Parser
 
 ### Read *.conllu file ###
 
@@ -23,181 +24,148 @@ def conll_read_sentence(file_handle):
 	return None
 
 
-### Get all parses from combined data (either train + dev, or just train) ###
+### Get heads and dependency relations from a file ###
 
-def get_data(file):
+def get_parse(file):
 
-	data = []
+	parses = []
 
 	with io.open(file, encoding = 'utf-8') as f:
 		sent = conll_read_sentence(f)
 
 		while sent is not None:
-
-			### Select all unique sentences ###
-			if sent not in data:
-				data.append(sent)
+			info = []
+			for tok in sent:
+				info.append([tok[6], tok[7]])
+			parses.append(info)
 
 			sent = conll_read_sentence(f)
 
-	return data
+	return parses
 
 
-### Build data sets of given sizes ###
+### Evaluation ###
 
-def build_dataset(directory, data, train_size, train_n, dev_size, dev_n):
+def evaluate(gold, pred):
 
-	if not os.path.exists('data/' + directory):
-		os.system('mkdir data/' + directory)
+	gold_parses = get_parse(gold)
+	pred_parses = get_parse(pred)
 
-	if not os.path.exists('data/' + directory + '/' + str(train_size)):
-		os.system('mkdir data/' + directory + '/' + str(train_size))
+	assert len(gold_parses) == len(pred_parses)
 
-	for i in range(train_n):
-		train_idx = i + 1
-		train_idx_data = []
-		train_idx_size = 0
+	### Macro: calculate for each sentence, then divide by number of sentences ###
 
-		while train_idx_size != train_size:
+	macro_uas = 0
+	macro_las = 0
 
-			### Sample sentences without replacement, allowing wiggle room ###
-			sent = random.sample(data, k = 1)[0]
-			if sent not in train_idx_data:
-				train_idx_size += len(sent)
-				train_idx_data.append(sent)
+	for i in range(len(gold_parses)):
+		gold_sent = gold_parses[i]
+		pred_sent = pred_parses[i]
+		sent_macro_uas = 0
+		sent_macro_las = 0
 
-			if train_idx_size >= train_size - 10 and train_idx_size <= train_size + 10:
-				break
-		
-			if train_idx_size > train_size + 10:
-				train_idx_data = train_idx_data[ : -1]
-				break
+		for z in range(len(gold_sent)):
+			gold_head = gold_sent[z][0]
+			gold_deprel = gold_sent[z][1]
+			pred_head = pred_sent[z][0]
+			pred_deprel = pred_sent[z][1]
 
-		if not os.path.exists('data/' + directory + '/' + str(train_size) + '/' + str(train_idx)):
-			os.system('mkdir data/' + directory + '/' + str(train_size) + '/' + str(train_idx))
+			if gold_head == pred_head:
+				sent_macro_uas += 1
+			if gold_head == pred_head and gold_deprel == pred_deprel:
+				sent_macro_las += 1
 
-			with io.open('data/' + directory + '/' + str(train_size) + '/' + str(train_idx) + '/train.conllu', 'w') as f:
-				for sent in train_idx_data:
-					for tok in sent:
-						f.write('\t'.join(w for w in tok) + '\n')
-					f.write('\n')
+		sent_macro_uas = sent_macro_uas / len(gold_sent)
+		sent_macro_las = sent_macro_las / len(gold_sent)
 
-		if not os.path.exists('data/' + directory + '/' + str(train_size) + '/' + str(train_idx) + '/' + str(dev_size)):
-			os.system('mkdir data/' + directory + '/' + str(train_size) + '/' + str(train_idx) + '/' + str(dev_size))
+		macro_uas += sent_macro_uas
+		macro_las += sent_macro_las
 
-		selected_dev_data = []
+	macro_uas = round(100 * macro_uas / len(gold_parses), 2)
+	macro_las = round(100 * macro_las / len(gold_parses), 2)
 
-		for z in range(int(dev_n)):
-			dev_idx = z + 1
-			dev_idx_data = []
-			dev_idx_size = 0
+	### Micro: combining all sentences together ###
 
-			### No overlap between each train set and its corresponding dev sets ###
-			rest_data = []
-			for sent in data:
-				if sent not in train_idx_data and sent not in selected_dev_data:
-					rest_data.append(sent)
+	micro_uas = 0
+	micro_las = 0
+	total = 0
 
-			if len(rest_data) < dev_size - 10:
-				break
+	for i in range(len(gold_parses)):
+		gold_sent = gold_parses[i]
+		pred_sent = pred_parses[i]
+		sent_macro_uas = 0
+		sent_macro_las = 0
 
-			while dev_idx_size != dev_size:
+		total += len(gold_sent)
 
-				### Sample sentences without replacement, allowing wiggle room ###
-				sent = random.sample(rest_data, k = 1)[0]
-				if sent not in dev_idx_data:
-					dev_idx_size += len(sent)
-					dev_idx_data.append(sent)
+		for z in range(len(gold_sent)):
+			
+			gold_head = gold_sent[z][0]
+			gold_deprel = gold_sent[z][1]
+			pred_head = pred_sent[z][0]
+			pred_deprel = pred_sent[z][1]
 
-				if dev_idx_size >= dev_size - 10 and dev_idx_size <= dev_size + 10:
-					break
-		
-				if dev_idx_size > dev_size + 10:
-					dev_idx_data = dev_idx_data[ : -1]
-					break
+			if gold_head == pred_head:
+				micro_uas += 1
+			if gold_head == pred_head and gold_deprel == pred_deprel:
+				micro_las += 1
 
-			for sent in dev_idx_data:
-				selected_dev_data.append(sent)
+	micro_uas = round(100 * micro_uas / total, 2)
+	micro_las = round(100 * micro_las / total, 2)
 
-			if not os.path.exists('data/' + directory + '/' + str(train_size) + '/' + str(train_idx) + '/' + str(dev_size) + '/' + str(dev_idx)):
-				os.system('mkdir data/' + directory + '/' + str(train_size) + '/' + str(train_idx) + '/' + str(dev_size) + '/' + str(dev_idx))
-
-				with io.open('data/' + directory + '/' + str(train_size) + '/' + str(train_idx) + '/' + str(dev_size) + '/' + str(dev_idx) + '/dev.conllu', 'w') as f:
-					for sent in dev_idx_data:
-						for tok in sent:
-							f.write('\t'.join(w for w in tok) + '\n')
-						f.write('\n')
+	return [macro_uas, macro_las, micro_uas, micro_las]
 
 
 if __name__ == '__main__':
 
 	parser = argparse.ArgumentParser()
-	parser.add_argument('--input', type = str, help = 'path to UD directory')
-	parser.add_argument('--output', type = str, help = 'output path')
-	parser.add_argument('--train_size', type = str, help = 'training set size, based on N of words')
-	parser.add_argument('--train_n', type = str, help = 'number of training sets to be constructed')
-	parser.add_argument('--dev_size', type = str, help = 'dev set size, based on N of words')
-	parser.add_argument('--dev_n', type = str, help = 'number of dev sets to be constructed')
+	parser.add_argument('--input', type = str, help = 'path to ud_data/')
 
 	args = parser.parse_args()
 
-	if not os.path.exists('data'):
-		os.system('mkdir data/')
+	if not os.path.exists('evaluate'):
+		os.system('mkdir evaluate/')
+
+	if not os.path.exists('evaluate/graph'):
+		os.system('mkdir evaluate/graph')
 
 	for directory in os.listdir(args.input):
+		print(directory)
 		if os.path.isdir(args.input + directory) and directory.startswith('UD'):
-			train_file = ''
-			dev_file = ''
-			test_file = ''
+			if not os.path.exists('evaluate/graph/' + directory):
+				os.system('mkdir evaluate/graph/' + directory)
 
-			if directory == 'UD_Hindi_English-HIENCS': #!= 'Tweebank':
-				for file in os.listdir(args.input + directory):
-					if file.endswith('train.conllu'):
-						train_file = file
-					if file.endswith('dev.conllu'):
-						dev_file = file
-					if file.endswith('test.conllu'):
-						test_file = file
+			gold_file = ''
+			filename = ''
 
-				if train_file != '' and test_file != '':
-					train_data = get_data(args.input + directory + '/' + train_file)
-					data = train_data
+			for file in os.listdir(args.input + directory):
+				if file.endswith('test.conllu') or file.endswith('test.fixed.conllu'):
+					filename = file
+					gold_file = args.input + directory + '/' + file
 
-					### If treebank has a dev set, combine training and dev set for data sets construction ###
+			bert_pred_file = 'predict/graph/' + directory + '/bert-cased/' + filename
+			roberta_pred_file = 'predict/graph/' + directory + '/roberta-large/' + filename
+		#	rembert_pred_file = 'predict/graph/' + directory + '/rembert/' + filename
 
-					if dev_file != '':					
-						dev_data = get_data(args.input + directory + '/' + dev_file)
-						data = data + dev_data
+			bert_evaluate = evaluate(gold_file, bert_pred_file)
+			roberta_evaluate = evaluate(gold_file, roberta_pred_file)
+		#	rembert_evaluate = evaluate(gold_file, rembert_pred_file)
+			print(bert_evaluate)
+			print(roberta_evaluate)
+			header = ['Treebank', 'Parser', 'Embedding', 'Macro_UAS', 'Macro_LAS', 'Micro_UAS', 'Micro_LAS']
+		
+		#	with open('evaluate/graph/' + directory + '/' + 'eval.txt', 'w') as f:
+		#		f.write('\t'.join(w for w in header) + '\n')
+		#		f.write('\t'.join(str(w for w in [directory, 'diaparser', 'bert', bert_evaluate[0], bert_evaluate[1], bert_evaluate[2], bert_evaluate[3]])) + '\n')
+		#		f.write('\t'.join(str(w for w in [directory, 'diaparser', 'roberta-large', roberta_evaluate[0], roberta_evaluate[1], roberta_evaluate[2], roberta_evaluate[3]])) + '\n')
+		#		f.write('\t'.join(str(w for w in [directory, 'diaparser', 'rembert', rembert_evaluate[0], rembert_evaluate[1], rembert_evaluate[2], rembert_evaluate[3]])) + '\n')
 
-					total = len(data)
-					train_size = int(args.train_size)
-					dev_size = int(args.dev_size)
 
-					if total < train_size + dev_size - 20:
-						print(directory + ': ' + str(total) + ' ' + str(train_size + dev_size))
+			f = open('evaluate/graph/' + directory + '/' + 'eval.txt', 'w')
+			f.write('\t'.join(w for w in header) + '\n')
+			f.write('\t'.join(str(w for w in [directory, 'diaparser', 'bert', bert_evaluate[0], bert_evaluate[1], bert_evaluate[2], bert_evaluate[3]])) + '\n')
+			f.write('\t'.join(str(w for w in [directory, 'diaparser', 'roberta-large', roberta_evaluate[0], roberta_evaluate[1], roberta_evaluate[2], roberta_evaluate[3]])) + '\n')
+		#	f.write('\t'.join(str(w for w in [directory, 'diaparser', 'rembert', rembert_evaluate[0], rembert_evaluate[1], rembert_evaluate[2], rembert_evaluate[3]])) + '\n')
 
-					else:
-						### Start with contructing training sets that have no overlap between each other ###
-						train_n = int(total / train_size)
-						dev_n = int((total - train_size) / dev_size)
 
-						build_dataset(directory, data, train_size, train_n, dev_size, dev_n)
 
-				if directory == 'Tweebank':
-					train_data = get_data(args.input + directory + '/en-ud-tweet-train.fixed.conllu')
-					dev_data = get_data(args.input + directory + '/en-ud-tweet-dev.fixed.conllu')
-					data = train_data + dev_data
-
-					total = len(data)
-					train_size = int(args.train_size)
-					dev_size = int(args.dev_size)
-
-					if total < train_size + dev_size - 20:
-						print(directory + ': ' + str(total) + ' ' + str(train_size + dev_size))
-
-					else:
-						### Start with contructing training sets that have no overlap between each other ###
-						train_n = int(total / train_size)
-						dev_n = int((total - train_size) / dev_size)
-
-						build_dataset(directory, data, train_size, train_n, dev_size, dev_n)

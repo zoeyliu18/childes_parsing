@@ -47,7 +47,7 @@ def get_data(file):
 
 ### Predict parses of sentences from a file with a trained model ###
 
-def predict(file, directory, model, emb):
+def predict(file, directory, model, emb, run):
 
 	mapping = {'bert': 'bert-cased', 'roberta': 'roberta-large', 'rembert': 'rembert'}
 
@@ -73,7 +73,7 @@ def predict(file, directory, model, emb):
 	
 	file_name = file.split('/')[-1]
 
-	with io.open('predict/graph/' + directory + '/' + mapping[emb] + '/' + file_name, 'w') as f:
+	with io.open('predict/graph' + str(run) + '/' + directory + '/' + mapping[emb] + '/' + file_name, 'w') as f:
 		for sent in predictions:
 			for tok in sent:
 				f.write('\t'.join(str(w) for w in tok) + '\n')
@@ -89,30 +89,33 @@ if __name__ == '__main__':
 	if not os.path.exists('predict'):
 		os.system('mkdir predict/')
 
-	if not os.path.exists('predict/graph'):
-		os.system('mkdir predict/graph')
+	for run in [1, 2, 3]:
+		if not os.path.exists('predict/graph' + str(run)):
+			os.system('mkdir predict/graph' + str(run))
 
 	for directory in os.listdir(args.input):
 		if os.path.isdir(args.input + directory) and directory.startswith('UD'):
-			if not os.path.exists('predict/graph/' + directory):
-				os.system('mkdir predict/graph/' + directory)
+			for run in [1, 2, 3]:
+				if not os.path.exists('predict/graph/' + directory):
+					os.system('mkdir predict/graph/' + directory)
 
-			if not os.path.exists('predict/graph/' + directory + '/bert-cased'):
-				os.system('mkdir predict/graph/' + directory + '/bert-cased')
-			if not os.path.exists('predict/graph/' + directory + '/roberta-large'):
-				os.system('mkdir predict/graph/' + directory + '/roberta-large')
-			if not os.path.exists('predict/graph/' + directory + '/rembert'):
-				os.system('mkdir predict/graph/' + directory + '/rembert')
+				if not os.path.exists('predict/graph/' + directory + '/bert-cased'):
+					os.system('mkdir predict/graph/' + directory + '/bert-cased')
+				if not os.path.exists('predict/graph/' + directory + '/roberta-large'):
+					os.system('mkdir predict/graph/' + directory + '/roberta-large')
+				if not os.path.exists('predict/graph/' + directory + '/rembert'):
+					os.system('mkdir predict/graph/' + directory + '/rembert')
 
 			test_file = ''
 			for file in os.listdir(args.input + directory):
-				if file.endswith('test.conllu'):
+				if file.endswith('test.conllu') or file.endswith('test.fixed.conllu'):
 					test_file = file
 
-			bert_model = parser = Parser.load('models/graph/' + directory + '/bert-cased/model')
-			roberta_model = parser = Parser.load('models/graph/' + directory + '/roberta-large/model')
-		#	rembert_model = parser = Parser.load('models/graph/' + directory + '/rembert/model')
+			for run in [1, 2, 3]:
+				bert_model = parser = Parser.load('models/graph/' + str(run) + '/' + directory + '/bert-cased/model')
+				roberta_model = parser = Parser.load('models/graph/' + str(run) + '/' + directory + '/roberta-large/model')
+		#		rembert_model = parser = Parser.load('models/graph/' + str(run) + '/' + directory + '/rembert/model')
 
-			predict(args.input + directory + '/' + test_file, directory, bert_model, 'bert')
-			predict(args.input + directory + '/' + test_file, directory, roberta_model, 'roberta')
-		#	predict(args.input + directory + '/' + test_file, directory, rembert_model, 'rembert'):
+				predict(args.input + directory + '/' + test_file, directory, bert_model, 'bert', run)
+				predict(args.input + directory + '/' + test_file, directory, roberta_model, 'roberta', run)
+		#		predict(args.input + directory + '/' + test_file, directory, rembert_model, 'rembert'):
