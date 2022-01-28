@@ -34,6 +34,7 @@ $ python -m diaparser.cmds.biaffine_dependency train --train ud_data/UD_English-
     -f bert  \
     --batch-size 2000  \
     --bert bert-base-cased
+    -s 1
 ```
 
 ### TO DO: add training commands for training all out-of-domain parsers
@@ -49,6 +50,12 @@ To run:
 ```python3 scripts/2.graph_predct.py --input ud_data/```
 
 ### Evaluation ###
+
+```scripts/3.graph_evaluate.py```
+
+To run:
+
+```python3 scripts/3.graph_evaluate.py --input ud_data/```
 
 Micro LAS/UAS + Macro LAS/UAS
 
