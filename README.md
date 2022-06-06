@@ -1,4 +1,4 @@
-# child_syntax: Child and Parent speech annotated with adaptations of the Universal Dependencies framework
+# Child and Parent speech annotated with adaptations of the Universal Dependencies framework
 
 ## Train graph-based parser based on out-of-domain UD-style data
 
