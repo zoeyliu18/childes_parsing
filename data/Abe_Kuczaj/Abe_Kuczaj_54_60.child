@@ -48,8 +48,8 @@
 6	drink	drink	v	4	acl	4	acl	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 6 Eng-NA=null
 
 # text = yeah Mother
-1	yeah	yeah	co	2	discourse	2	discourse	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 2 2 Eng-NA=null
-2	Mother	Mother	n:prop	0	root	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 2 2 Eng-NA=null
+1	yeah	yeah	co	0	root	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 2 2 Eng-NA=null
+2	Mother	Mother	n:prop	1	vocative	1	vocative	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 2 2 Eng-NA=null
 
 # text = what did Tippy do when she was a kid
 1	what	what	pro:int	4	obj	4	obj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 12 9 Eng-NA=null
@@ -63,7 +63,7 @@
 9	kid	kid	n	4	advcl	4	advcl	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 12 9 Eng-NA=null
 
 # text = what did Bumpa call her
-1	what	what	pro:int	4	obj	4	obj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 6 5 Eng-NA=null
+1	what	what	pro:int	4	ccomp	4	ccomp	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 6 5 Eng-NA=null
 2	did	do	mod	4	aux	4	aux	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 6 5 Eng-NA=null
 3	Bumpa	Bumpa	n:prop	4	nsubj	4	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 6 5 Eng-NA=null
 4	call	call	v	0	root	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 6 5 Eng-NA=null
@@ -162,13 +162,14 @@
 5	lot	lot	combined	2	obl:npmod	2	obl:npmod	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 4 4 Eng-NA=null
 
 # text = Mommy you do n't need shoes look
+# Re-evaluate
 1	Mommy	Mommy	n:prop	5	vocative	5	vocative	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 8 6 Eng-NA=null
 2	you	you	pro:per	5	nsubj	5	nsubj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 8 6 Eng-NA=null
 3	do	do	mod	5	aux	5	aux	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 8 6 Eng-NA=null
 4	n't	not	neg	5	advmod	5	advmod	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 8 6 Eng-NA=null
 5	need	need	v	0	root	0	root	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 8 6 Eng-NA=null
 6	shoes	shoe	n	5	obj	5	obj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 8 6 Eng-NA=null
-7	look	look	co	5	discourse	5	discourse	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 8 6 Eng-NA=null
+7	look	look	co	5	discourse	5	parataxis	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 8 6 Eng-NA=null
 
 # text = ready for what
 1	ready	ready	v	0	root	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 3 3 Eng-NA=null
@@ -176,10 +177,11 @@
 3	what	what	pro:int	1	obl	1	obl	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 3 3 Eng-NA=null
 
 # text = no I told you I was thirsty
+# Re-evaluate
 1	no	no	co	3	discourse	3	discourse	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 12 7 Eng-NA=null
 2	I	I	pro:sub	3	nsubj	3	nsubj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 12 7 Eng-NA=null
 3	told	tell	v	0	root	0	root	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 12 7 Eng-NA=null
-4	you	you	pro:per	3	obj	3	obj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 12 7 Eng-NA=null
+4	you	you	pro:per	3	obj	3	iobj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 12 7 Eng-NA=null
 5	I	I	pro:sub	7	nsubj	7	nsubj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 12 7 Eng-NA=null
 6	was	be	cop	7	cop	7	cop	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 12 7 Eng-NA=null
 7	thirsty	thirst	adj	3	ccomp	3	ccomp	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 12 7 Eng-NA=null
@@ -268,12 +270,12 @@
 
 # text = with paper and tape that 's what
 1	with	with	prep	_	_	2	case	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 6 Eng-NA=null
-2	paper	paper	n	_	_	7	obl	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 6 Eng-NA=null
+2	paper	paper	n	_	_	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 6 Eng-NA=null
 3	and	and	coord	_	_	4	cc	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 6 Eng-NA=null
 4	tape	tape	n	_	_	2	conj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 6 Eng-NA=null
 5	that	that	n	_	_	7	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 6 Eng-NA=null
 6	's	be	cop	_	_	7	cop	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 6 Eng-NA=null
-7	what	what	pro:int	_	_	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 6 Eng-NA=null
+7	what	what	pro:int	_	_	2	parataxis	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 6 Eng-NA=null
 
 # text = oh yeah like that scorpion with the red star in it
 1	oh	oh	co	_	_	5	discourse	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 11 11 Eng-NA=null
@@ -289,8 +291,8 @@
 11	it	it	pro:per	_	_	5	nmod	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 11 11 Eng-NA=null
 
 # text = see here 's the tape mark
-1	see	see	co	_	_	2	discourse	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 6 5 Eng-NA=null
-2	here	here	n	_	_	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 6 5 Eng-NA=null
+1	see	see	co	_	_	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 6 5 Eng-NA=null
+2	here	here	n	_	_	1	parataxis	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 6 5 Eng-NA=null
 3	's	be	cop	_	_	2	cop	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 6 5 Eng-NA=null
 4	the	the	det:art	_	_	6	det	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 6 5 Eng-NA=null
 5	tape	tape	n	_	_	6	compound	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 6 5 Eng-NA=null
@@ -337,10 +339,10 @@
 
 # text = I was I was bouncing a balloon and trying to catch it
 1	I	I	pro:sub	_	_	2	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 14 12 Eng-NA=null
-2	was	be	aux	_	_	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 14 12 Eng-NA=null
+2	was	be	aux	_	_	5	reparandum:repetition	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 14 12 Eng-NA=null
 3	I	bounce	part	_	_	5	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 14 12 Eng-NA=null
 4	was	a	det:art	_	_	5	aux	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 14 12 Eng-NA=null
-5	bouncing	balloon	n	_	_	2	parataxis	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 14 12 Eng-NA=null
+5	bouncing	balloon	n	_	_	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 14 12 Eng-NA=null
 6	a	and	coord	_	_	7	det	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 14 12 Eng-NA=null
 7	balloon	try	part	_	_	5	obj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 14 12 Eng-NA=null
 8	and	to	inf	_	_	9	cc	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 14 12 Eng-NA=null
@@ -390,12 +392,13 @@
 6	hard	hard	adv	_	_	3	xcomp	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 6 Eng-NA=null
 
 # text = except where is it
-1	except	except	conj	_	_	2	advmod	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj question 5 4 Eng-NA=null
+1	except	except	conj	_	_	2	cc	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj question 5 4 Eng-NA=null
 2	where	where	pro:int	_	_	0	root	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj question 5 4 Eng-NA=null
 3	is	be	cop	_	_	2	cop	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj question 5 4 Eng-NA=null
 4	it	it	pro:per	_	_	2	nsubj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj question 5 4 Eng-NA=null
 
 # text = I forgot where
+# Re-evaluate
 1	I	I	pro:sub	_	_	2	nsubj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 4 3 Eng-NA=null
 2	forgot	forget	v	_	_	0	root	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 4 3 Eng-NA=null
 3	where	where	pro:rel	_	_	2	obj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 4 3 Eng-NA=null
@@ -571,11 +574,11 @@
 6	squeezing	_	_	_	_	5	xcomp	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 10 5 Eng-NA=null
 
 # text = but I 'm not now
-1	but	but	conj	_	_	5	cc	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 5 4 Eng-NA=null
-2	I	I	pro:sub	_	_	5	nsubj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 5 4 Eng-NA=null
-3	'm	be	cop	_	_	5	cop	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 5 4 Eng-NA=null
-4	not	not	neg	_	_	5	advmod	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 5 4 Eng-NA=null
-5	now	now	adv	_	_	0	root	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 5 4 Eng-NA=null
+1	but	but	conj	_	_	3	cc	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 5 4 Eng-NA=null
+2	I	I	pro:sub	_	_	3	nsubj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 5 4 Eng-NA=null
+3	'm	be	cop	_	_	0	root	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 5 4 Eng-NA=null
+4	not	not	neg	_	_	3	advmod	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 5 4 Eng-NA=null
+5	now	now	adv	_	_	3	advmod	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 5 4 Eng-NA=null
 
 # text = that this thing keeps falling off Mother
 1	that	this	det:dem	_	_	4	mark	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 8 7 Eng-NA=null
@@ -619,11 +622,11 @@
 8	one	one	pro:indef	_	_	5	obj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 9 7 Eng-NA=null
 
 # text = he he just made believe
-1	he	he	pro:sub	_	_	4	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 5 5 Eng-NA=null
-2	he	just	adv	_	_	1	conj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 5 5 Eng-NA=null
+1	he	he	pro:sub	_	_	2	reparandum:repetition	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 5 5 Eng-NA=null
+2	he	just	adv	_	_	4	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 5 5 Eng-NA=null
 3	just	make	v	_	_	4	advmod	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 5 5 Eng-NA=null
 4	made	believe	v	_	_	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 5 5 Eng-NA=null
-5	believe	_	_	_	_	4	xcomp	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 5 5 Eng-NA=null
+5	believe	_	_	_	_	4	parataxis	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 5 5 Eng-NA=null
 
 # text = and he sounded like a real bird
 1	and	and	coord	_	_	3	cc	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 8 7 Eng-NA=null
@@ -731,14 +734,15 @@
 5	them	_	_	_	_	4	obj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 6 4 Eng-NA=null
 
 # text = yeah and that 's what jelly is right
-1	yeah	yeah	co	_	_	4	discourse	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 7 Eng-NA=null
-2	and	and	coord	_	_	4	cc	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 7 Eng-NA=null
-3	that	that	n	_	_	4	nsubj	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 7 Eng-NA=null
-4	's	be	cop	_	_	0	root	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 7 Eng-NA=null
-5	what	what	pro:int	_	_	4	ccomp	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 7 Eng-NA=null
-6	jelly	jelly	n	_	_	5	nsubj	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 7 Eng-NA=null
-7	is	be	cop	_	_	5	cop	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 7 Eng-NA=null
-8	right	right	co	_	_	4	discourse	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 7 Eng-NA=null
+# CCOMP
+1	yeah	yeah	co	_	_	5	discourse	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 7 Eng-NA=null
+2	and	and	coord	_	_	5	cc	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 7 Eng-NA=null
+3	that	that	n	_	_	5	nsubj	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 7 Eng-NA=null
+4	's	be	cop	_	_	5	cop	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 7 Eng-NA=null
+5	what	what	pro:int	_	_	0	root	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 7 Eng-NA=null
+6	jelly	jelly	n	_	_	7	nsubj	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 7 Eng-NA=null
+7	is	be	cop	_	_	5	acl	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 7 Eng-NA=null
+8	right	right	co	_	_	5	discourse	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 7 Eng-NA=null
 
 # text = oh Mother I could put this back on
 1	oh	oh	co	_	_	5	discourse	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 9 8 Eng-NA=null
@@ -789,10 +793,11 @@
 8	pants	pants	n:pt	_	_	6	obj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 9 7 Eng-NA=null
 
 # text = uhhuh that 's how John fixed his screen
+# CCOMP
 1	uhhuh	uhhuh	co	_	_	3	discourse	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj declarative 9 7 Eng-NA=null
 2	that	that	n	_	_	3	nsubj	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj declarative 9 7 Eng-NA=null
 3	's	be	cop	_	_	0	root	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj declarative 9 7 Eng-NA=null
-4	how	how	pro:rel	_	_	6	advmod	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj declarative 9 7 Eng-NA=null
+4	how	how	pro:rel	_	_	6	mark	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj declarative 9 7 Eng-NA=null
 5	John	John	n:prop	_	_	6	nsubj	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj declarative 9 7 Eng-NA=null
 6	fixed	fix	v	_	_	3	ccomp	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj declarative 9 7 Eng-NA=null
 7	his	his	det:poss	_	_	8	nmod:poss	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj declarative 9 7 Eng-NA=null
@@ -811,8 +816,8 @@
 1	he	he	pro:sub	_	_	2	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 7 Eng-NA=null
 2	walks	walk	v	_	_	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 7 Eng-NA=null
 3	around	around	adv	_	_	2	advmod	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 7 Eng-NA=null
-4	in	in	prep	_	_	7	case	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 7 Eng-NA=null
-5	in	his	det:poss	_	_	4	conj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 7 Eng-NA=null
+4	in	in	prep	_	_	5	reparandum:repetition	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 7 Eng-NA=null
+5	in	his	det:poss	_	_	7	case	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 7 Eng-NA=null
 6	his	underwear	n	_	_	7	nmod:poss	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 7 Eng-NA=null
 7	underwear	_	_	_	_	2	obl	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 7 7 Eng-NA=null
 
@@ -921,7 +926,7 @@
 # text = you maked it hard for me to jump
 1	you	you	pro:per	_	_	2	nsubj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 9 8 Eng-NA=null
 2	maked	make	v	_	_	0	root	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 9 8 Eng-NA=null
-3	it	it	pro:per	_	_	2	expl	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 9 8 Eng-NA=null
+3	it	it	pro:per	_	_	2	obj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 9 8 Eng-NA=null
 4	hard	hard	adv	_	_	2	xcomp	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 9 8 Eng-NA=null
 5	for	for	prep	_	_	8	mark	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 9 8 Eng-NA=null
 6	me	me	pro:obj	_	_	8	nsubj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 9 8 Eng-NA=null
@@ -929,7 +934,7 @@
 8	jump	jump	n	_	_	4	advcl	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 9 8 Eng-NA=null
 
 # text = except where are they
-1	except	except	conj	_	_	2	advmod	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 5 4 Eng-NA=null
+1	except	except	conj	_	_	2	cc	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 5 4 Eng-NA=null
 2	where	where	pro:rel	_	_	0	root	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 5 4 Eng-NA=null
 3	are	be	cop	_	_	2	cop	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 5 4 Eng-NA=null
 4	they	they	pro:sub	_	_	2	nsubj	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 5 4 Eng-NA=null
@@ -1046,8 +1051,8 @@
 3	already	already	adv	_	_	4	advmod	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 11 9 Eng-NA=null
 4	put	put	v	_	_	0	root	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 11 9 Eng-NA=null
 5	it	it	pro:per	_	_	4	obj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 11 9 Eng-NA=null
-6	in	in	prep	_	_	9	case	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 11 9 Eng-NA=null
-7	in	the	det:art	_	_	6	conj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 11 9 Eng-NA=null
+6	in	in	prep	_	_	7	reparandum:repetition	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 11 9 Eng-NA=null
+7	in	the	det:art	_	_	9	case	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 11 9 Eng-NA=null
 8	the	toast	n	_	_	9	det	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 11 9 Eng-NA=null
 9	toaster	_	_	_	_	4	obl	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 11 9 Eng-NA=null
 
@@ -1059,7 +1064,7 @@
 5	in	in	adv	_	_	7	case	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj declarative 9 8 Eng-NA=null
 6	quiet	quiet	adj	_	_	7	amod	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj declarative 9 8 Eng-NA=null
 7	moods	mood	n	_	_	2	xcomp	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj declarative 9 8 Eng-NA=null
-8	sometimes	sometimes	adv	_	_	7	advmod	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj declarative 9 8 Eng-NA=null
+8	sometimes	sometimes	adv	_	_	2	advmod	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj declarative 9 8 Eng-NA=null
 
 # text = okay where are my tennis shoes anyway
 1	okay	okay	co	_	_	2	discourse	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
@@ -1078,11 +1083,12 @@
 5	out	out	adv	_	_	4	compound:prt	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 6 4 Eng-NA=null
 
 # text = Daddy do you know how worms dry up
+# CCOMP
 1	Daddy	Daddy	n:prop	_	_	4	vocative	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 8 Eng-NA=null
 2	do	do	v	_	_	4	aux	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 8 Eng-NA=null
 3	you	you	pro:per	_	_	4	nsubj	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 8 Eng-NA=null
 4	know	know	v	_	_	0	root	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 8 Eng-NA=null
-5	how	how	pro:int	_	_	7	advmod	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 8 Eng-NA=null
+5	how	how	pro:int	_	_	7	mark	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 8 Eng-NA=null
 6	worms	worm	n	_	_	7	nsubj	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 8 Eng-NA=null
 7	dry	dry	adj	_	_	4	ccomp	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 8 Eng-NA=null
 8	up	up	adv	_	_	7	compound:prt	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj question 9 8 Eng-NA=null
@@ -1098,7 +1104,7 @@
 1	I	_	_	_	_	3	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 5 4 Eng-NA=null
 2	'll	_	_	_	_	3	aux	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 5 4 Eng-NA=null
 3	go	_	_	_	_	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 5 4 Eng-NA=null
-4	see	_	_	_	_	3	xcomp	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 5 4 Eng-NA=null
+4	see	_	_	_	_	3	compound:svc	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 5 4 Eng-NA=null
 5	Mother	_	_	_	_	4	obj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 5 4 Eng-NA=null
 
 # text = not too much
@@ -1144,11 +1150,11 @@
 
 # text = it 's it 's a game to see how long you play
 1	it	it	pro	_	_	2	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 10 10 Eng-NA=null
-2	's	be	cop	_	_	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 10 10 Eng-NA=null
+2	's	be	cop	_	_	6	reparandum:repetition	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 10 10 Eng-NA=null
 3	it	a	pro	_	_	6	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 10 10 Eng-NA=null
 4	's	be	cop	_	_	6	cop	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 10 10 Eng-NA=null
 5	a	game	n	_	_	6	det	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 10 10 Eng-NA=null
-6	game	to	inf	_	_	2	parataxis	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 10 10 Eng-NA=null
+6	game	to	inf	_	_	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 10 10 Eng-NA=null
 7	to	see	v	_	_	8	mark	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 10 10 Eng-NA=null
 8	see	how	pro:int	_	_	6	csubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 10 10 Eng-NA=null
 9	how	long	adj	_	_	10	advmod	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 10 10 Eng-NA=null
@@ -1173,6 +1179,7 @@
 14	ground	ground	n	_	_	10	conj	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj declarative 15 12 Eng-NA=null
 
 # text = I'll see what we got
+# CCOMP
 1	I	_	_	_	_	3	nsubj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 7 5 Eng-NA=null
 2	'll	_	_	_	_	3	aux	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 7 5 Eng-NA=null
 3	see	_	_	_	_	0	root	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 7 5 Eng-NA=null
@@ -1188,9 +1195,9 @@
 5	name	name	n	_	_	7	nsubj	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 12 10 Eng-NA=null
 6	was	be	cop	_	_	7	cop	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 12 10 Eng-NA=null
 7	Sam	Sam	n:prop	_	_	2	conj	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 12 10 Eng-NA=null
-8	Sam	Sam	n:prop	_	_	7	conj	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 12 10 Eng-NA=null
+8	Sam	Sam	n:prop	_	_	2	parataxis	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 12 10 Eng-NA=null
 9	the	the	det:art	_	_	10	det	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 12 10 Eng-NA=null
-10	dog	dog	n	_	_	7	appos	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 12 10 Eng-NA=null
+10	dog	dog	n	_	_	8	appos	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 12 10 Eng-NA=null
 
 # text = it 's hard to play it
 1	it	it	pro	_	_	3	expl	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 6 5 Eng-NA=null
@@ -1315,7 +1322,7 @@
 7	today	_	_	_	_	5	obl:tmod	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 6 6 Eng-NA=null
 
 # text = Mother does Daddy haf ta go to school
-1	Mother	Mother	n:prop	_	_	4	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
+1	Mother	Mother	n:prop	_	_	4	vocative	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
 2	does	do	v	_	_	4	aux	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
 3	Daddy	Daddy	n:prop	_	_	4	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
 4	haf	have	v	_	_	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
@@ -1338,7 +1345,7 @@
 4	as	as	adv	_	_	5	advmod	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj question 11 10 Eng-NA=null
 5	big	big	adj	_	_	0	root	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj question 11 10 Eng-NA=null
 6	as	as	prep	_	_	10	case	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj question 11 10 Eng-NA=null
-7	a	a	det:art	_	_	9	det	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj question 11 10 Eng-NA=null
+7	a	a	det:art	_	_	10	det	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj question 11 10 Eng-NA=null
 8	five	five	det:num	_	_	9	nummod	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj question 11 10 Eng-NA=null
 9	year	year	n	_	_	10	obl:npmod	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj question 11 10 Eng-NA=null
 10	old	old	adj	_	_	5	obl	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj question 11 10 Eng-NA=null
@@ -1466,7 +1473,7 @@
 1	me	me	pro:obj	_	_	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 11 9 Eng-NA=null
 2	how	how	pro:int	_	_	3	advmod	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 11 9 Eng-NA=null
 3	much	much	adv	_	_	4	amod	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 11 9 Eng-NA=null
-4	times	time	v	_	_	9	obj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 11 9 Eng-NA=null
+4	times	time	v	_	_	9	obl:npmod	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 11 9 Eng-NA=null
 5	do	do	mod	_	_	7	aux	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 11 9 Eng-NA=null
 6	I	I	pro:sub	_	_	7	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 11 9 Eng-NA=null
 7	haf	have	v	_	_	1	parataxis	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 11 9 Eng-NA=null
@@ -1589,13 +1596,13 @@
 4	upstairs	upstairs	adv	_	_	0	root	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj declarative 4 4 Eng-NA=null
 
 # text = which is left and which is right
-1	which	which	pro:rel	_	_	3	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
-2	is	be	cop	_	_	3	cop	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
-3	left	left	adj	_	_	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
-4	and	and	coord	_	_	7	cc	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
-5	which	which	pro:rel	_	_	7	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
-6	is	be	cop	_	_	7	cop	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
-7	right	right	co	_	_	3	conj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
+1	which	which	pro:rel	_	_	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
+2	is	be	cop	_	_	1	cop	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
+3	left	left	adj	_	_	1	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
+4	and	and	coord	_	_	5	cc	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
+5	which	which	pro:rel	_	_	1	conj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
+6	is	be	cop	_	_	5	cop	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
+7	right	right	co	_	_	5	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
 
 # text = I think we do
 1	I	I	pro:sub	_	_	2	nsubj	Abe CHI Target_Child	Abe 54.8881907226021 male Kuczaj declarative 4 4 Eng-NA=null
@@ -1612,11 +1619,12 @@
 6	upstairs	upstairs	adj	_	_	2	ccomp	Abe CHI Target_Child	Abe 54.4610772295119 male Kuczaj declarative 6 5 Eng-NA=null
 
 # text = toast I already told you
+# Re-evaluate
 1	toast	toast	n	_	_	0	root	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 6 5 Eng-NA=null
 2	I	I	pro:sub	_	_	4	nsubj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 6 5 Eng-NA=null
 3	already	already	adv	_	_	4	advmod	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 6 5 Eng-NA=null
 4	told	tell	v	_	_	1	parataxis	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 6 5 Eng-NA=null
-5	you	you	pro:per	_	_	4	obj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 6 5 Eng-NA=null
+5	you	you	pro:per	_	_	4	iobj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 6 5 Eng-NA=null
 
 # text = I already know
 1	I	I	pro:sub	_	_	3	nsubj	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 3 3 Eng-NA=null
@@ -1697,9 +1705,9 @@
 
 # text = okay I wo n't
 1	okay	okay	co	_	_	3	discourse	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 4 3 Eng-NA=null
-2	I	I	pro:sub	_	_	1	nsubj	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 4 3 Eng-NA=null
+2	I	I	pro:sub	_	_	3	nsubj	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 4 3 Eng-NA=null
 3	wo	will	mod	_	_	0	root	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 4 3 Eng-NA=null
-4	n't	not	neg	_	_	1	advmod	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 4 3 Eng-NA=null
+4	n't	not	neg	_	_	3	advmod	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 4 3 Eng-NA=null
 
 # text = except you ca n't even let Jason play never
 1	except	except	conj	_	_	6	cc	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 10 8 Eng-NA=null
@@ -1710,7 +1718,7 @@
 6	let	let	v	_	_	0	root	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 10 8 Eng-NA=null
 7	Jason	Jason	n:prop	_	_	6	obj	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 10 8 Eng-NA=null
 8	play	play	n	_	_	6	xcomp	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 10 8 Eng-NA=null
-9	never	never	adv	_	_	8	advmod	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 10 8 Eng-NA=null
+9	never	never	adv	_	_	6	parataxis	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 10 8 Eng-NA=null
 
 # text = then Dad would n't help
 1	then	then	adv:tem	_	_	5	advmod	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 6 4 Eng-NA=null
@@ -1760,9 +1768,10 @@
 8	you	you	pro:per	_	_	4	obl	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 10 8 Eng-NA=null
 
 # text = playing that 's what playing
+# CCOMP
 1	playing	play	part	_	_	0	root	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 7 4 Eng-NA=null
 2	that	that	n	_	_	4	nsubj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 7 4 Eng-NA=null
-3	's	be	cop	_	_	0	root	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 7 4 Eng-NA=null
+3	's	be	cop	_	_	1	parataxis	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 7 4 Eng-NA=null
 4	what	what	pro:int	_	_	1	parataxis	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 7 4 Eng-NA=null
 5	playing	play	part	_	_	4	acl	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 7 4 Eng-NA=null
 
@@ -1906,7 +1915,7 @@
 1	Daddy	Daddy	n:prop	_	_	3	vocative	Abe CHI Target_Child	Abe 54.8881907226021 male Kuczaj declarative 9 7 Eng-NA=null
 2	I	I	pro:sub	_	_	3	nsubj	Abe CHI Target_Child	Abe 54.8881907226021 male Kuczaj declarative 9 7 Eng-NA=null
 3	told	tell	v	_	_	0	root	Abe CHI Target_Child	Abe 54.8881907226021 male Kuczaj declarative 9 7 Eng-NA=null
-4	you	you	pro:per	_	_	3	obj	Abe CHI Target_Child	Abe 54.8881907226021 male Kuczaj declarative 9 7 Eng-NA=null
+4	you	you	pro:per	_	_	3	iobj	Abe CHI Target_Child	Abe 54.8881907226021 male Kuczaj declarative 9 7 Eng-NA=null
 5	I	I	pro:sub	_	_	8	nsubj	Abe CHI Target_Child	Abe 54.8881907226021 male Kuczaj declarative 9 7 Eng-NA=null
 6	do	do	mod	_	_	8	aux	Abe CHI Target_Child	Abe 54.8881907226021 male Kuczaj declarative 9 7 Eng-NA=null
 7	n't	not	neg	_	_	8	advmod	Abe CHI Target_Child	Abe 54.8881907226021 male Kuczaj declarative 9 7 Eng-NA=null
@@ -1950,7 +1959,7 @@
 3	one	one	det:num	_	_	6	nummod	Abe CHI Target_Child	Abe 54.8881907226021 male Kuczaj declarative 6 6 Eng-NA=null
 4	peanut	peanut	n	_	_	5	compound	Abe CHI Target_Child	Abe 54.8881907226021 male Kuczaj declarative 6 6 Eng-NA=null
 5	butter	butter	n	_	_	6	compound	Abe CHI Target_Child	Abe 54.8881907226021 male Kuczaj declarative 6 6 Eng-NA=null
-6	cracker	cracker	n	_	_	2	obj	Abe CHI Target_Child	Abe 54.8881907226021 male Kuczaj declarative 6 6 Eng-NA=null
+6	cracker	cracker	n	_	_	2	ccomp	Abe CHI Target_Child	Abe 54.8881907226021 male Kuczaj declarative 6 6 Eng-NA=null
 
 # text = tie them together
 1	tie	tie	v	_	_	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 3 3 Eng-NA=null
@@ -2018,11 +2027,12 @@
 9	now	now	adv	_	_	4	advmod	Abe CHI Target_Child	Abe 54.8881907226021 male Kuczaj declarative 10 9 Eng-NA=null
 
 # text = is that what you said
+# CCOMP
 1	is	be	cop	_	_	3	cop	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 7 5 Eng-NA=null
 2	that	that	pro:dem	_	_	3	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 7 5 Eng-NA=null
 3	what	what	pro:int	_	_	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 7 5 Eng-NA=null
 4	you	you	pro:per	_	_	5	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 7 5 Eng-NA=null
-5	said	say	v	_	_	3	acl:relcl	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 7 5 Eng-NA=null
+5	said	say	v	_	_	3	acl	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 7 5 Eng-NA=null
 
 # text = that 's Lorien
 1	that	that	n	_	_	3	nsubj	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 3 2 Eng-NA=null
@@ -2058,7 +2068,7 @@
 1	Daddy	Daddy	n:prop	_	_	2	vocative	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 25 18 Eng-NA=null
 2	remember	remember	v	_	_	0	root	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 25 18 Eng-NA=null
 3	that	that	det:dem	_	_	4	det	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 25 18 Eng-NA=null
-4	time	time	n	_	_	2	obl:tmod	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 25 18 Eng-NA=null
+4	time	time	n	_	_	2	obj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 25 18 Eng-NA=null
 5	we	we	pro:sub	_	_	7	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 25 18 Eng-NA=null
 6	were	be	aux	_	_	7	aux	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 25 18 Eng-NA=null
 7	running	run	part	_	_	4	acl:relcl	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj question 25 18 Eng-NA=null
@@ -2120,8 +2130,8 @@
 
 # text = uhhuh my xxx my feet were n't holding onto the rug
 1	uhhuh	_	_	_	_	7	discourse	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 13 10 Eng-NA=null
-2	my	_	_	_	_	4	nmod:poss	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 13 10 Eng-NA=null
-3	my	_	_	_	_	2	conj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 13 10 Eng-NA=null
+2	my	_	_	_	_	3	reparandum:repetition	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 13 10 Eng-NA=null
+3	my	_	_	_	_	4	nmod:poss	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 13 10 Eng-NA=null
 4	feet	_	_	_	_	7	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 13 10 Eng-NA=null
 5	were	_	_	_	_	7	aux	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 13 10 Eng-NA=null
 6	n't	_	_	_	_	7	advmod	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 13 10 Eng-NA=null
@@ -2203,7 +2213,7 @@
 1	I	I	pro:sub	_	_	2	nsubj	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 5 4 Eng-NA=null
 2	thought	think	v	_	_	0	root	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 5 4 Eng-NA=null
 3	next	next	adj	_	_	4	amod	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 5 4 Eng-NA=null
-4	winter	winter	n	_	_	2	obl:tmod	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 5 4 Eng-NA=null
+4	winter	winter	n	_	_	2	ccomp	Abe CHI Target_Child	Abe 54.16538327275714 male Kuczaj declarative 5 4 Eng-NA=null
 
 # text = I said I fell
 1	I	I	pro:sub	_	_	2	nsubj	Abe CHI Target_Child	Abe 54.03396373642169 male Kuczaj declarative 6 4 Eng-NA=null
@@ -2262,7 +2272,7 @@
 1	I	_	_	_	_	3	nsubj	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 4 3 Eng-NA=null
 2	'll	_	_	_	_	3	aux	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 4 3 Eng-NA=null
 3	go	_	_	_	_	0	root	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 4 3 Eng-NA=null
-4	see	_	_	_	_	3	xcomp	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 4 3 Eng-NA=null
+4	see	_	_	_	_	3	compound:svc	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 4 3 Eng-NA=null
 
 # text = is this a pimple Mommy
 1	is	be	cop	_	_	4	cop	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj question 6 5 Eng-NA=null
@@ -2474,8 +2484,8 @@
 
 # text = Daddy one 's bleeding
 1	Daddy	Daddy	n:prop	_	_	4	vocative	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 5 3 Eng-NA=null
-2	one	one	n	_	_	3	nsubj	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 5 3 Eng-NA=null
-3	's	be	cop	_	_	3	cop	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 5 3 Eng-NA=null
+2	one	one	n	_	_	4	nsubj	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 5 3 Eng-NA=null
+3	's	be	cop	_	_	4	cop	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 5 3 Eng-NA=null
 4	bleeding	bleed	part	_	_	0	root	Abe CHI Target_Child	Abe 54.39536746134417 male Kuczaj declarative 5 3 Eng-NA=null
 
 # text = I 'm ready again
@@ -2563,12 +2573,13 @@
 4	it	it	pro:per	_	_	3	obj	Abe CHI Target_Child	Abe 54.8881907226021 male Kuczaj declarative 5 4 Eng-NA=null
 
 # text = that 's what we would say
+# CCOMP
 1	that	that	n	_	_	3	nsubj	Abe CHI Target_Child	Abe 55.362533111562875 male Kuczaj quotation next line 7 5 Eng-NA=null
 2	's	be	cop	_	_	3	cop	Abe CHI Target_Child	Abe 55.362533111562875 male Kuczaj quotation next line 7 5 Eng-NA=null
 3	what	what	pro:int	_	_	0	root	Abe CHI Target_Child	Abe 55.362533111562875 male Kuczaj quotation next line 7 5 Eng-NA=null
 4	we	we	pro:sub	_	_	6	nsubj	Abe CHI Target_Child	Abe 55.362533111562875 male Kuczaj quotation next line 7 5 Eng-NA=null
 5	would	will	mod	_	_	6	aux	Abe CHI Target_Child	Abe 55.362533111562875 male Kuczaj quotation next line 7 5 Eng-NA=null
-6	say	say	v	_	_	3	acl:relcl	Abe CHI Target_Child	Abe 55.362533111562875 male Kuczaj quotation next line 7 5 Eng-NA=null
+6	say	say	v	_	_	3	acl	Abe CHI Target_Child	Abe 55.362533111562875 male Kuczaj quotation next line 7 5 Eng-NA=null
 
 # text = did you know Mommy forgot something
 1	did	do	mod	_	_	3	aux	Abe CHI Target_Child	Abe 55.099694038891975 male Kuczaj question 8 6 Eng-NA=null
@@ -2643,12 +2654,13 @@
 14	deep	deep	n	_	_	6	advcl	Abe CHI Target_Child	Abe 54.8881907226021 male Kuczaj question 14 12 Eng-NA=null
 
 # text = okay is that what I bought
+# CCOMP
 1	okay	okay	co	_	_	4	discourse	Abe CHI Target_Child	Abe 55.362533111562875 male Kuczaj question 8 6 Eng-NA=null
 2	is	be	cop	_	_	4	cop	Abe CHI Target_Child	Abe 55.362533111562875 male Kuczaj question 8 6 Eng-NA=null
 3	that	that	pro:dem	_	_	4	nsubj	Abe CHI Target_Child	Abe 55.362533111562875 male Kuczaj question 8 6 Eng-NA=null
 4	what	what	pro:int	_	_	0	root	Abe CHI Target_Child	Abe 55.362533111562875 male Kuczaj question 8 6 Eng-NA=null
 5	I	I	pro:sub	_	_	6	nsubj	Abe CHI Target_Child	Abe 55.362533111562875 male Kuczaj question 8 6 Eng-NA=null
-6	bought	buy	v	_	_	4	acl:relcl	Abe CHI Target_Child	Abe 55.362533111562875 male Kuczaj question 8 6 Eng-NA=null
+6	bought	buy	v	_	_	4	acl	Abe CHI Target_Child	Abe 55.362533111562875 male Kuczaj question 8 6 Eng-NA=null
 
 # text = I do n't know what it is
 1	I	I	pro:sub	_	_	4	nsubj	Abe CHI Target_Child	Abe 55.099694038891975 male Kuczaj declarative 8 6 Eng-NA=null

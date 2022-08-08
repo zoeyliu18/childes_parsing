@@ -52,11 +52,12 @@
 3	right	right	co	0	root	0	root	None FAT Father	Emma 43.690835540770856 female Weist declarative 3 2 Eng-NA=null
 
 # text = he was pretty big remember
+# Re-evaluate
 1	he	he	pro:sub	4	nsubj	4	nsubj	None FAT Father	Emma 43.690835540770856 female Weist question 7 5 Eng-NA=null
 2	was	be	cop	4	cop	4	cop	None FAT Father	Emma 43.690835540770856 female Weist question 7 5 Eng-NA=null
 3	pretty	pretty	adv	4	advmod	4	advmod	None FAT Father	Emma 43.690835540770856 female Weist question 7 5 Eng-NA=null
 4	big	big	adj	0	root	0	root	None FAT Father	Emma 43.690835540770856 female Weist question 7 5 Eng-NA=null
-5	remember	remember	v	4	discourse	4	discourse	None FAT Father	Emma 43.690835540770856 female Weist question 7 5 Eng-NA=null
+5	remember	remember	v	4	discourse	4	parataxis	None FAT Father	Emma 43.690835540770856 female Weist question 7 5 Eng-NA=null
 
 # text = yeah he 's big and black
 1	yeah	yeah	co	4	discourse	4	discourse	None FAT Father	Emma 43.690835540770856 female Weist declarative 6 5 Eng-NA=null
@@ -67,13 +68,14 @@
 6	black	black	n	4	conj	4	conj	None FAT Father	Emma 43.690835540770856 female Weist declarative 6 5 Eng-NA=null
 
 # text = well we can show we can show Jessica pictures later
+# Re-evaluate
 1	well	well	co	4	discourse	4	discourse	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
 2	we	we	pro:sub	4	nsubj	4	nsubj	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
 3	can	can	mod	4	aux	4	aux	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
-4	show	show	v	0	root	0	root	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
+4	show	show	v	0	root	7	reparandum:repetition	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
 5	we	Jessica	n:prop	7	nsubj	7	nsubj	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
 6	can	picture	v	7	aux	7	aux	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
-7	show	later	adv	4	parataxis	4	parataxis	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
+7	show	later	adv	4	parataxis	0	root	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
 8	Jessica	_	_	7	iobj	7	iobj	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
 9	pictures	_	_	7	obj	7	obj	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
 10	later	_	_	7	advmod	7	advmod	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
@@ -83,13 +85,14 @@
 2	he	he	pro:sub	0	root	0	root	None FAT Father	Emma 43.690835540770856 female Weist interruption 2 2 Eng-NA=null
 
 # text = but do you remember what I told you I heard from Hans and Temerl about him
+# Re-evaluate
 1	but	but	conj	4	cc	4	cc	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
 2	do	do	v	4	aux	4	aux	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
 3	you	you	pro:per	4	nsubj	4	nsubj	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
 4	remember	remember	v	0	root	0	root	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
-5	what	what	pro:int	4	obj	4	obj	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
+5	what	what	pro:int	4	obj	7	obj	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
 6	I	I	pro:sub	7	nsubj	7	nsubj	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
-7	told	tell	v	5	acl:relcl	5	acl:relcl	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
+7	told	tell	v	5	acl:relcl	4	ccomp	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
 8	you	you	pro:per	7	iobj	7	iobj	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
 9	I	I	pro:sub	10	nsubj	10	nsubj	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
 10	heard	hear	v	4	parataxis	4	parataxis	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
@@ -334,13 +337,13 @@
 6	there	there	n	_	_	7	expl	None FAT Father	Emma 43.690835540770856 female Weist declarative 11 7 Eng-NA=null
 7	's	be	cop	_	_	4	advcl	None FAT Father	Emma 43.690835540770856 female Weist declarative 11 7 Eng-NA=null
 8	instructions	instruction	n	_	_	7	nsubj	None FAT Father	Emma 43.690835540770856 female Weist declarative 11 7 Eng-NA=null
-9	here	here	adv	_	_	8	advmod	None FAT Father	Emma 43.690835540770856 female Weist declarative 11 7 Eng-NA=null
+9	here	here	adv	_	_	7	advmod	None FAT Father	Emma 43.690835540770856 female Weist declarative 11 7 Eng-NA=null
 
 # text = is it one one letter of each alphabet xxx one letter
 1	is	_	_	_	_	5	cop	None FAT Father	Emma 43.690835540770856 female Weist declarative 10 11 Eng-NA=null
 2	it	_	_	_	_	5	nsubj	None FAT Father	Emma 43.690835540770856 female Weist declarative 10 11 Eng-NA=null
-3	one	_	_	_	_	5	nummod	None FAT Father	Emma 43.690835540770856 female Weist declarative 10 11 Eng-NA=null
-4	one	_	_	_	_	3	conj	None FAT Father	Emma 43.690835540770856 female Weist declarative 10 11 Eng-NA=null
+3	one	_	_	_	_	4	reparandum:repetition	None FAT Father	Emma 43.690835540770856 female Weist declarative 10 11 Eng-NA=null
+4	one	_	_	_	_	5	nummod	None FAT Father	Emma 43.690835540770856 female Weist declarative 10 11 Eng-NA=null
 5	letter	_	_	_	_	0	root	None FAT Father	Emma 43.690835540770856 female Weist declarative 10 11 Eng-NA=null
 6	of	_	_	_	_	8	case	None FAT Father	Emma 43.690835540770856 female Weist declarative 10 11 Eng-NA=null
 7	each	_	_	_	_	8	det	None FAT Father	Emma 43.690835540770856 female Weist declarative 10 11 Eng-NA=null
@@ -381,10 +384,10 @@
 12	huh	_	_	_	_	4	discourse	None FAT Father	Emma 43.690835540770856 female Weist question 13 10 Eng-NA=null
 
 # text = see we can learn German this way
-1	see	see	v	_	_	4	discourse	None FAT Father	Emma 43.690835540770856 female Weist declarative 7 7 Eng-NA=null
+1	see	see	v	_	_	0	root	None FAT Father	Emma 43.690835540770856 female Weist declarative 7 7 Eng-NA=null
 2	we	we	pro:sub	_	_	4	nsubj	None FAT Father	Emma 43.690835540770856 female Weist declarative 7 7 Eng-NA=null
 3	can	can	mod	_	_	4	aux	None FAT Father	Emma 43.690835540770856 female Weist declarative 7 7 Eng-NA=null
-4	learn	learn	v	_	_	0	root	None FAT Father	Emma 43.690835540770856 female Weist declarative 7 7 Eng-NA=null
+4	learn	learn	v	_	_	1	parataxis	None FAT Father	Emma 43.690835540770856 female Weist declarative 7 7 Eng-NA=null
 5	German	German	n:prop	_	_	4	obj	None FAT Father	Emma 43.690835540770856 female Weist declarative 7 7 Eng-NA=null
 6	this	this	pro:dem	_	_	7	det	None FAT Father	Emma 43.690835540770856 female Weist declarative 7 7 Eng-NA=null
 7	way	way	adv	_	_	4	obl:npmod	None FAT Father	Emma 43.690835540770856 female Weist declarative 7 7 Eng-NA=null
@@ -396,14 +399,14 @@
 4	know	know	v	_	_	0	root	None FAT Father	Emma 43.690835540770856 female Weist question 4 4 Eng-NA=null
 
 # text = do do you not have teeth because because they all fell out because they had cavities because you did n't brush them or did you just never get teeth
-1	do	do	mod	_	_	5	aux	None FAT Father	Emma 42.789379658719895 female Weist question 34 28 Eng-NA=null
-2	do	you	pro:per	_	_	1	conj	None FAT Father	Emma 42.789379658719895 female Weist question 34 28 Eng-NA=null
+1	do	do	mod	_	_	2	reparandum:repetition	None FAT Father	Emma 42.789379658719895 female Weist question 34 28 Eng-NA=null
+2	do	you	pro:per	_	_	5	aux	None FAT Father	Emma 42.789379658719895 female Weist question 34 28 Eng-NA=null
 3	you	not	neg	_	_	5	nsubj	None FAT Father	Emma 42.789379658719895 female Weist question 34 28 Eng-NA=null
 4	not	have	v	_	_	5	advmod	None FAT Father	Emma 42.789379658719895 female Weist question 34 28 Eng-NA=null
 5	have	tooth	n	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist question 34 28 Eng-NA=null
 6	teeth	because	conj	_	_	5	obj	None FAT Father	Emma 42.789379658719895 female Weist question 34 28 Eng-NA=null
-7	because	they	pro:sub	_	_	11	mark	None FAT Father	Emma 42.789379658719895 female Weist question 34 28 Eng-NA=null
-8	because	all	post	_	_	7	conj	None FAT Father	Emma 42.789379658719895 female Weist question 34 28 Eng-NA=null
+7	because	they	pro:sub	_	_	8	reparandum:repetition	None FAT Father	Emma 42.789379658719895 female Weist question 34 28 Eng-NA=null
+8	because	all	post	_	_	11	mark	None FAT Father	Emma 42.789379658719895 female Weist question 34 28 Eng-NA=null
 9	they	fall	v	_	_	11	nsubj	None FAT Father	Emma 42.789379658719895 female Weist question 34 28 Eng-NA=null
 10	all	out	adv	_	_	9	det	None FAT Father	Emma 42.789379658719895 female Weist question 34 28 Eng-NA=null
 11	fell	because	conj	_	_	5	advcl	None FAT Father	Emma 42.789379658719895 female Weist question 34 28 Eng-NA=null
@@ -513,7 +516,7 @@
 1	and	and	coord	_	_	3	cc	None FAT Father	Emma 43.690835540770856 female Weist declarative 4 4 Eng-NA=null
 2	I	I	pro:sub	_	_	3	nsubj	None FAT Father	Emma 43.690835540770856 female Weist declarative 4 4 Eng-NA=null
 3	guess	guess	v	_	_	0	root	None FAT Father	Emma 43.690835540770856 female Weist declarative 4 4 Eng-NA=null
-4	you	you	pro:per	_	_	3	ccomp	None FAT Father	Emma 43.690835540770856 female Weist declarative 4 4 Eng-NA=null
+4	you	you	pro:per	_	_	3	obj	None FAT Father	Emma 43.690835540770856 female Weist declarative 4 4 Eng-NA=null
 
 # text = oh yeah there we go
 1	oh	oh	co	_	_	5	discourse	None FAT Father	Emma 42.789379658719895 female Weist declarative 5 5 Eng-NA=null
@@ -585,8 +588,8 @@
 9	um	eighty	det:num	_	_	8	discourse	None FAT Father	Emma 43.690835540770856 female Weist declarative 11 13 Eng-NA=null
 10	in	six	det:num	_	_	11	case	None FAT Father	Emma 43.690835540770856 female Weist declarative 11 13 Eng-NA=null
 11	nineteen	_	_	_	_	2	obl	None FAT Father	Emma 43.690835540770856 female Weist declarative 11 13 Eng-NA=null
-12	eighty	_	_	_	_	11	flat	None FAT Father	Emma 43.690835540770856 female Weist declarative 11 13 Eng-NA=null
-13	six	_	_	_	_	11	flat	None FAT Father	Emma 43.690835540770856 female Weist declarative 11 13 Eng-NA=null
+12	eighty	_	_	_	_	11	conj	None FAT Father	Emma 43.690835540770856 female Weist declarative 11 13 Eng-NA=null
+13	six	_	_	_	_	11	conj	None FAT Father	Emma 43.690835540770856 female Weist declarative 11 13 Eng-NA=null
 
 # text = oh yeah flag is a good idea
 1	oh	oh	co	_	_	7	discourse	None FAT Father	Emma 42.789379658719895 female Weist declarative 8 7 Eng-NA=null
@@ -660,8 +663,8 @@
 13	more	more	adv	_	_	14	advmod	None FAT Father	Emma 42.789379658719895 female Weist question 19 17 Eng-NA=null
 14	easy	ease	adj	_	_	12	xcomp	None FAT Father	Emma 42.789379658719895 female Weist question 19 17 Eng-NA=null
 15	to	to	inf	_	_	16	mark	None FAT Father	Emma 42.789379658719895 female Weist question 19 17 Eng-NA=null
-16	build	build	v	_	_	14	ccomp	None FAT Father	Emma 42.789379658719895 female Weist question 19 17 Eng-NA=null
-17	huh	huh	co	_	_	14	discourse	None FAT Father	Emma 42.789379658719895 female Weist question 19 17 Eng-NA=null
+16	build	build	v	_	_	12	ccomp	None FAT Father	Emma 42.789379658719895 female Weist question 19 17 Eng-NA=null
+17	huh	huh	co	_	_	12	discourse	None FAT Father	Emma 42.789379658719895 female Weist question 19 17 Eng-NA=null
 
 # text = you wan na tape it on right now
 1	you	you	pro:per	_	_	2	nsubj	None FAT Father	Emma 43.690835540770856 female Weist question 8 7 Eng-NA=null
@@ -679,7 +682,7 @@
 3	let	let	n	_	_	0	root	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 7 Eng-NA=null
 4	's	be	cop	_	_	3	obj	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 7 Eng-NA=null
 5	go	go	v	_	_	3	xcomp	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 7 Eng-NA=null
-6	tape	tape	v	_	_	5	xcomp	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 7 Eng-NA=null
+6	tape	tape	v	_	_	5	compound:svc	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 7 Eng-NA=null
 7	it	it	pro:per	_	_	6	obj	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 7 Eng-NA=null
 8	on	on	adv	_	_	6	compound:prt	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 7 Eng-NA=null
 
@@ -701,7 +704,7 @@
 1	wait	wait	v	_	_	0	root	None FAT Father	Emma 43.690835540770856 female Weist question 6 8 Eng-NA=null
 2	for	for	prep	_	_	3	case	None FAT Father	Emma 43.690835540770856 female Weist question 6 8 Eng-NA=null
 3	the	the	det:art	_	_	5	reparandum	None FAT Father	Emma 43.690835540770856 female Weist question 6 8 Eng-NA=null
-4	um	for	prep	_	_	7	discourse	None FAT Father	Emma 43.690835540770856 female Weist question 6 8 Eng-NA=null
+4	um	for	prep	_	_	5	discourse	None FAT Father	Emma 43.690835540770856 female Weist question 6 8 Eng-NA=null
 5	for	the	det:art	_	_	7	case	None FAT Father	Emma 43.690835540770856 female Weist question 6 8 Eng-NA=null
 6	the	right	co	_	_	7	det	None FAT Father	Emma 43.690835540770856 female Weist question 6 8 Eng-NA=null
 7	jellyfish	_	_	_	_	1	obl	None FAT Father	Emma 43.690835540770856 female Weist question 6 8 Eng-NA=null
@@ -770,7 +773,7 @@
 2	's	be	cop	_	_	4	cop	None FAT Father	Emma 42.789379658719895 female Weist question 8 5 Eng-NA=null
 3	very	very	adv	_	_	4	advmod	None FAT Father	Emma 42.789379658719895 female Weist question 8 5 Eng-NA=null
 4	wide	wide	adj	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist question 8 5 Eng-NA=null
-5	is	be	cop	_	_	4	cop	None FAT Father	Emma 42.789379658719895 female Weist question 8 5 Eng-NA=null
+5	is	be	cop	_	_	4	parataxis	None FAT Father	Emma 42.789379658719895 female Weist question 8 5 Eng-NA=null
 6	n't	not	neg	_	_	5	advmod	None FAT Father	Emma 42.789379658719895 female Weist question 8 5 Eng-NA=null
 7	it	it	pro:per	_	_	5	nsubj	None FAT Father	Emma 42.789379658719895 female Weist question 8 5 Eng-NA=null
 
@@ -800,7 +803,7 @@
 7	pretend	pretend	v	_	_	4	ccomp	None FAT Father	Emma 42.789379658719895 female Weist declarative 12 10 Eng-NA=null
 8	Toronto	Toronto	n	_	_	11	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 12 10 Eng-NA=null
 9	's	's	poss	_	_	11	cop	None FAT Father	Emma 42.789379658719895 female Weist declarative 12 10 Eng-NA=null
-10	over	over	prep	_	_	11	advmod	None FAT Father	Emma 42.789379658719895 female Weist declarative 12 10 Eng-NA=null
+10	over	over	prep	_	_	11	case	None FAT Father	Emma 42.789379658719895 female Weist declarative 12 10 Eng-NA=null
 11	here	here	n	_	_	7	ccomp	None FAT Father	Emma 42.789379658719895 female Weist declarative 12 10 Eng-NA=null
 
 # text = because then I wo n't be so tired
@@ -832,8 +835,8 @@
 4	museum	museum	n	_	_	1	obl	None FAT Father	Emma 42.789379658719895 female Weist question 4 4 Eng-NA=null
 
 # text = wait how about that museum with the dinosaurs
-1	wait	wait	v	_	_	2	discourse	None FAT Father	Emma 42.789379658719895 female Weist question 9 8 Eng-NA=null
-2	how	how	pro:rel	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist question 9 8 Eng-NA=null
+1	wait	wait	v	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist question 9 8 Eng-NA=null
+2	how	how	pro:rel	_	_	1	parataxis	None FAT Father	Emma 42.789379658719895 female Weist question 9 8 Eng-NA=null
 3	about	about	prep	_	_	5	case	None FAT Father	Emma 42.789379658719895 female Weist question 9 8 Eng-NA=null
 4	that	that	det:dem	_	_	5	det	None FAT Father	Emma 42.789379658719895 female Weist question 9 8 Eng-NA=null
 5	museum	museum	n	_	_	2	obl	None FAT Father	Emma 42.789379658719895 female Weist question 9 8 Eng-NA=null
@@ -913,9 +916,9 @@
 3	you	you	pro:per	_	_	1	nsubj	None FAT Father	Emma 42.789379658719895 female Weist interruption question 4 3 Eng-NA=null
 
 # text = oh okay great
-1	oh	oh	co	_	_	0	root	None FAT Father	Emma 43.690835540770856 female Weist declarative 3 3 Eng-NA=null
-2	okay	okay	co	_	_	1	discourse	None FAT Father	Emma 43.690835540770856 female Weist declarative 3 3 Eng-NA=null
-3	great	great	adj	_	_	1	discourse	None FAT Father	Emma 43.690835540770856 female Weist declarative 3 3 Eng-NA=null
+1	oh	oh	co	_	_	3	discourse	None FAT Father	Emma 43.690835540770856 female Weist declarative 3 3 Eng-NA=null
+2	okay	okay	co	_	_	3	discourse	None FAT Father	Emma 43.690835540770856 female Weist declarative 3 3 Eng-NA=null
+3	great	great	adj	_	_	0	root	None FAT Father	Emma 43.690835540770856 female Weist declarative 3 3 Eng-NA=null
 
 # text = it 's not Robbie the Robot is it
 1	it	it	pro	_	_	4	nsubj	None FAT Father	Emma 44.72371095915727 female Weist question 7 5 Eng-NA=null
@@ -1090,12 +1093,12 @@
 6	us	us	pro:obj	_	_	4	nmod	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
 7	are	be	cop	_	_	8	cop	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
 8	here	here	adv	_	_	15	advcl	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
-9	we	we	pro:sub	_	_	15	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
-10	're	be	cop	_	_	15	aux	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
-11	just	just	adv	_	_	15	advmod	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
-12	we	scare	part	_	_	13	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
-13	're	be	cop	_	_	10	parataxis	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
-14	just	him	pro:obj	_	_	13	advmod	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
+9	we	we	pro:sub	_	_	10	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
+10	're	be	cop	_	_	15	reparandum:repetition	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
+11	just	just	adv	_	_	10	advmod	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
+12	we	scare	part	_	_	15	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
+13	're	be	cop	_	_	15	cop	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
+14	just	him	pro:obj	_	_	15	advmod	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
 15	scaring	_	_	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
 16	him	_	_	_	_	15	obj	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
 
@@ -1141,7 +1144,7 @@
 6	this	_	_	_	_	5	obj	None FAT Father	Emma 43.690835540770856 female Weist declarative 6 5 Eng-NA=null
 
 # text = oh here I'll give um
-1	oh	_	_	_	_	2	discourse	None FAT Father	Emma 43.690835540770856 female Weist declarative 5 5 Eng-NA=null
+1	oh	_	_	_	_	5	discourse	None FAT Father	Emma 43.690835540770856 female Weist declarative 5 5 Eng-NA=null
 2	here	_	_	_	_	5	advmod	None FAT Father	Emma 43.690835540770856 female Weist declarative 5 5 Eng-NA=null
 3	I	_	_	_	_	5	nsubj	None FAT Father	Emma 43.690835540770856 female Weist declarative 5 5 Eng-NA=null
 4	'll	_	_	_	_	5	aux	None FAT Father	Emma 43.690835540770856 female Weist declarative 5 5 Eng-NA=null
@@ -1176,12 +1179,12 @@
 1	we	we	pro:sub	_	_	2	nsubj	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
 2	have	have	v	_	_	0	root	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
 3	a	a	det:art	_	_	5	det	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
-4	Pooh	Pooh	n:prop	_	_	5	nmod	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
+4	Pooh	Pooh	n:prop	_	_	5	compound	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
 5	book	book	n	_	_	2	obj	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
 6	we	we	pro:sub	_	_	7	nsubj	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
 7	have	have	v	_	_	2	parataxis	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
 8	a	a	det:art	_	_	10	det	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
-9	Pooh	Pooh	n:prop	_	_	10	nmod	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
+9	Pooh	Pooh	n:prop	_	_	10	compound	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
 10	book	book	n	_	_	7	obj	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
 11	in	in	prep	_	_	12	case	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
 12	German	German	n:prop	_	_	10	nmod	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
@@ -1210,22 +1213,22 @@
 # text = that 's kind of fun is n't it
 1	that	that	n	_	_	5	nsubj	None FAT Father	Emma 43.690835540770856 female Weist declarative 9 6 Eng-NA=null
 2	's	be	cop	_	_	5	cop	None FAT Father	Emma 43.690835540770856 female Weist declarative 9 6 Eng-NA=null
-3	kind	kind	adj	_	_	0	root	None FAT Father	Emma 43.690835540770856 female Weist declarative 9 6 Eng-NA=null
+3	kind	kind	adj	_	_	5	advmod	None FAT Father	Emma 43.690835540770856 female Weist declarative 9 6 Eng-NA=null
 4	of	of	prep	_	_	3	fixed	None FAT Father	Emma 43.690835540770856 female Weist declarative 9 6 Eng-NA=null
-5	fun	fun	n	_	_	3	obl	None FAT Father	Emma 43.690835540770856 female Weist declarative 9 6 Eng-NA=null
-6	is	be	cop	_	_	3	parataxis	None FAT Father	Emma 43.690835540770856 female Weist declarative 9 6 Eng-NA=null
+5	fun	fun	n	_	_	0	root	None FAT Father	Emma 43.690835540770856 female Weist declarative 9 6 Eng-NA=null
+6	is	be	cop	_	_	5	parataxis	None FAT Father	Emma 43.690835540770856 female Weist declarative 9 6 Eng-NA=null
 7	n't	not	neg	_	_	6	advmod	None FAT Father	Emma 43.690835540770856 female Weist declarative 9 6 Eng-NA=null
 8	it	it	pro:per	_	_	6	nsubj	None FAT Father	Emma 43.690835540770856 female Weist declarative 9 6 Eng-NA=null
 
 # text = Big Bird sauce
 1	Big	Big_Bird	n:prop	_	_	2	amod	None FAT Father	Emma 42.789379658719895 female Weist question 2 2 Eng-NA=null
-2	Bird	Bird	combined	_	_	3	nmod	None FAT Father	Emma 42.789379658719895 female Weist question 2 2 Eng-NA=null
+2	Bird	Bird	combined	_	_	3	compound	None FAT Father	Emma 42.789379658719895 female Weist question 2 2 Eng-NA=null
 3	sauce	sauce	n	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist question 2 2 Eng-NA=null
 
 # text = remember the remember the Winnie the Pooh we have in German
-1	remember	remember	v	_	_	0	root	None FAT Father	Emma 43.690835540770856 female Weist question 7 9 Eng-NA=null
+1	remember	remember	v	_	_	3	reparandum:repetition	None FAT Father	Emma 43.690835540770856 female Weist question 7 9 Eng-NA=null
 2	the	the	det:art	_	_	1	obj	None FAT Father	Emma 43.690835540770856 female Weist question 7 9 Eng-NA=null
-3	remember	Winnie_the_Pooh	n:prop	_	_	1	parataxis	None FAT Father	Emma 43.690835540770856 female Weist question 7 9 Eng-NA=null
+3	remember	Winnie_the_Pooh	n:prop	_	_	0	root	None FAT Father	Emma 43.690835540770856 female Weist question 7 9 Eng-NA=null
 4	the	we	pro:sub	_	_	5	det	None FAT Father	Emma 43.690835540770856 female Weist question 7 9 Eng-NA=null
 5	Winnie	have	v	_	_	3	obj	None FAT Father	Emma 43.690835540770856 female Weist question 7 9 Eng-NA=null
 6	the	the	combined	_	_	7	det	None FAT Father	Emma 43.690835540770856 female Weist question 7 9 Eng-NA=null
@@ -1237,7 +1240,7 @@
 
 # text = or Ernie sauce
 1	or	or	coord	_	_	3	cc	None FAT Father	Emma 42.789379658719895 female Weist declarative 3 3 Eng-NA=null
-2	Ernie	Ernie	n:prop	_	_	3	nmod	None FAT Father	Emma 42.789379658719895 female Weist declarative 3 3 Eng-NA=null
+2	Ernie	Ernie	n:prop	_	_	3	compound	None FAT Father	Emma 42.789379658719895 female Weist declarative 3 3 Eng-NA=null
 3	sauce	sauce	n	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist declarative 3 3 Eng-NA=null
 
 # text = and I can almost understand all of it
@@ -1278,7 +1281,7 @@
 7	things	thing	n	_	_	4	obj	None FAT Father	Emma 43.690835540770856 female Weist declarative 12 10 Eng-NA=null
 8	back	back	adv	_	_	4	advmod	None FAT Father	Emma 43.690835540770856 female Weist declarative 12 10 Eng-NA=null
 9	in	in	prep	_	_	10	case	None FAT Father	Emma 43.690835540770856 female Weist declarative 12 10 Eng-NA=null
-10	here	here	n	_	_	4	obl	None FAT Father	Emma 43.690835540770856 female Weist declarative 12 10 Eng-NA=null
+10	here	here	n	_	_	8	obl	None FAT Father	Emma 43.690835540770856 female Weist declarative 12 10 Eng-NA=null
 
 # text = let 's get Mufasa to get us some antelope
 1	let	let	n	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist declarative 9 8 Eng-NA=null
@@ -1308,7 +1311,7 @@
 4	a	a	det:art	_	_	5	det	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
 5	letter	letter	n	_	_	3	nsubj	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
 6	in	in	prep	_	_	7	case	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
-7	this	this	det:dem	_	_	5	nmod	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
+7	this	this	det:dem	_	_	3	obl	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
 8	for	for	prep	_	_	10	case	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
 9	the	the	det:art	_	_	10	det	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
 10	instructions	instruction	n	_	_	3	obl	None FAT Father	Emma 43.690835540770856 female Weist declarative 15 13 Eng-NA=null
@@ -1418,7 +1421,7 @@
 3	use	used	mod	_	_	0	root	None FAT Father	Emma 43.690835540770856 female Weist question 7 6 Eng-NA=null
 4	ta	used	mod	_	_	7	mark	None FAT Father	Emma 43.690835540770856 female Weist question 7 6 Eng-NA=null
 5	be	be	cop	_	_	7	cop	None FAT Father	Emma 43.690835540770856 female Weist question 7 6 Eng-NA=null
-6	a	a	det:art	_	_	6	det	None FAT Father	Emma 43.690835540770856 female Weist question 7 6 Eng-NA=null
+6	a	a	det:art	_	_	7	det	None FAT Father	Emma 43.690835540770856 female Weist question 7 6 Eng-NA=null
 7	baby	baby	n	_	_	3	xcomp	None FAT Father	Emma 43.690835540770856 female Weist question 7 6 Eng-NA=null
 
 # text = when you get all sandy in the sandbox you can go wash yourself off in the swimming pool
@@ -1429,16 +1432,16 @@
 5	sandy	sand	adj	_	_	3	xcomp	None FAT Father	Emma 44.72371095915727 female Weist declarative 20 18 Eng-NA=null
 6	in	in	prep	_	_	8	case	None FAT Father	Emma 44.72371095915727 female Weist declarative 20 18 Eng-NA=null
 7	the	the	det:art	_	_	8	det	None FAT Father	Emma 44.72371095915727 female Weist declarative 20 18 Eng-NA=null
-8	sandbox	you	pro:per	_	_	5	obl	None FAT Father	Emma 44.72371095915727 female Weist declarative 20 18 Eng-NA=null
+8	sandbox	you	pro:per	_	_	3	obl	None FAT Father	Emma 44.72371095915727 female Weist declarative 20 18 Eng-NA=null
 9	you	can	mod	_	_	11	nsubj	None FAT Father	Emma 44.72371095915727 female Weist declarative 20 18 Eng-NA=null
 10	can	go	v	_	_	11	aux	None FAT Father	Emma 44.72371095915727 female Weist declarative 20 18 Eng-NA=null
 11	go	wash	n	_	_	0	root	None FAT Father	Emma 44.72371095915727 female Weist declarative 20 18 Eng-NA=null
-12	wash	yourself	pro:refl	_	_	11	xcomp	None FAT Father	Emma 44.72371095915727 female Weist declarative 20 18 Eng-NA=null
+12	wash	yourself	pro:refl	_	_	11	compound:svc	None FAT Father	Emma 44.72371095915727 female Weist declarative 20 18 Eng-NA=null
 13	yourself	off	prep	_	_	12	obj	None FAT Father	Emma 44.72371095915727 female Weist declarative 20 18 Eng-NA=null
 14	off	in	prep	_	_	12	compound:prt	None FAT Father	Emma 44.72371095915727 female Weist declarative 20 18 Eng-NA=null
 15	in	the	det:art	_	_	18	case	None FAT Father	Emma 44.72371095915727 female Weist declarative 20 18 Eng-NA=null
 16	the	swim	n:gerund	_	_	18	det	None FAT Father	Emma 44.72371095915727 female Weist declarative 20 18 Eng-NA=null
-17	swimming	pool	n	_	_	18	compound	None FAT Father	Emma 44.72371095915727 female Weist declarative 20 18 Eng-NA=null
+17	swimming	pool	n	_	_	18	amod	None FAT Father	Emma 44.72371095915727 female Weist declarative 20 18 Eng-NA=null
 18	pool	_	_	_	_	12	obl	None FAT Father	Emma 44.72371095915727 female Weist declarative 20 18 Eng-NA=null
 
 # text = he really gets around does n't he
@@ -1503,8 +1506,8 @@
 
 # text = oh that that 's someone else
 1	oh	oh	co	_	_	5	discourse	None FAT Father	Emma 44.72371095915727 female Weist declarative 5 5 Eng-NA=null
-2	that	that	pro:rel	_	_	5	nsubj	None FAT Father	Emma 44.72371095915727 female Weist declarative 5 5 Eng-NA=null
-3	that	someone	n	_	_	2	conj	None FAT Father	Emma 44.72371095915727 female Weist declarative 5 5 Eng-NA=null
+2	that	that	pro:rel	_	_	3	reparandum:repetition	None FAT Father	Emma 44.72371095915727 female Weist declarative 5 5 Eng-NA=null
+3	that	someone	n	_	_	5	nsubj	None FAT Father	Emma 44.72371095915727 female Weist declarative 5 5 Eng-NA=null
 4	's	be	cop	_	_	5	cop	None FAT Father	Emma 44.72371095915727 female Weist declarative 5 5 Eng-NA=null
 5	someone	else	post	_	_	0	root	None FAT Father	Emma 44.72371095915727 female Weist declarative 5 5 Eng-NA=null
 6	else	_	_	_	_	5	amod	None FAT Father	Emma 44.72371095915727 female Weist declarative 5 5 Eng-NA=null
@@ -1546,7 +1549,7 @@
 4	interested	interest	part	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 11 Eng-NA=null
 5	in	in	prep	_	_	8	case	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 11 Eng-NA=null
 6	the	the	det:art	_	_	8	det	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 11 Eng-NA=null
-7	bird	bird	n	_	_	8	nmod	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 11 Eng-NA=null
+7	bird	bird	n	_	_	8	compound	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 11 Eng-NA=null
 8	life	life	n	_	_	4	obl	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 11 Eng-NA=null
 9	in	in	prep	_	_	12	case	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 11 Eng-NA=null
 10	the	the	det:art	_	_	12	det	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 11 Eng-NA=null
@@ -1613,18 +1616,18 @@
 
 # text = but does n't do n't does n't he is n't he in danger of being eaten
 1	but	but	conj	_	_	2	cc	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
-2	does	do	mod	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
+2	does	do	mod	_	_	13	reparandum:resstart	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
 3	n't	not	neg	_	_	2	advmod	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
-4	do	do	mod	_	_	2	parataxis	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
+4	do	do	mod	_	_	13	reparandum:restart	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
 5	n't	not	neg	_	_	4	advmod	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
-6	does	do	mod	_	_	2	parataxis	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
+6	does	do	mod	_	_	13	reparandum:restart	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
 7	n't	not	neg	_	_	6	advmod	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
 8	he	he	pro:sub	_	_	6	nsubj	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
 9	is	be	cop	_	_	13	cop	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
 10	n't	not	neg	_	_	13	advmod	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
 11	he	he	pro:sub	_	_	13	nsubj	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
 12	in	in	prep	_	_	13	case	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
-13	danger	danger	n	_	_	2	parataxis	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
+13	danger	danger	n	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
 14	of	of	prep	_	_	16	mark	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
 15	being	be	n:gerund	_	_	16	aux:pass	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
 16	eaten	eat	part	_	_	13	acl	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
@@ -1666,7 +1669,7 @@
 1	someone	someone	n	_	_	3	nsubj	None FAT Father	Emma 44.72371095915727 female Weist declarative 13 11 Eng-NA=null
 2	's	be	cop	_	_	3	aux	None FAT Father	Emma 44.72371095915727 female Weist declarative 13 11 Eng-NA=null
 3	coming	come	part	_	_	0	root	None FAT Father	Emma 44.72371095915727 female Weist declarative 13 11 Eng-NA=null
-4	from	from	prep	_	_	7	case	None FAT Father	Emma 44.72371095915727 female Weist declarative 13 11 Eng-NA=null
+4	from	from	prep	_	_	8	case	None FAT Father	Emma 44.72371095915727 female Weist declarative 13 11 Eng-NA=null
 5	a	a	det:art	_	_	7	det	None FAT Father	Emma 44.72371095915727 female Weist declarative 13 11 Eng-NA=null
 6	long	long	adj	_	_	7	amod	None FAT Father	Emma 44.72371095915727 female Weist declarative 13 11 Eng-NA=null
 7	way	way	n	_	_	8	obl:npmod	None FAT Father	Emma 44.72371095915727 female Weist declarative 13 11 Eng-NA=null
@@ -1874,8 +1877,8 @@
 
 # text = yeah you you certainly can jump
 1	yeah	yeah	co	_	_	6	discourse	None FAT Father	Emma 42.789379658719895 female Weist declarative 7 6 Eng-NA=null
-2	you	you	pro:per	_	_	6	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 7 6 Eng-NA=null
-3	you	certain	adv	_	_	2	conj	None FAT Father	Emma 42.789379658719895 female Weist declarative 7 6 Eng-NA=null
+2	you	you	pro:per	_	_	3	reparandum:repetition	None FAT Father	Emma 42.789379658719895 female Weist declarative 7 6 Eng-NA=null
+3	you	certain	adv	_	_	6	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 7 6 Eng-NA=null
 4	certainly	can	mod	_	_	6	advmod	None FAT Father	Emma 42.789379658719895 female Weist declarative 7 6 Eng-NA=null
 5	can	jump	v	_	_	6	aux	None FAT Father	Emma 42.789379658719895 female Weist declarative 7 6 Eng-NA=null
 6	jump	_	_	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist declarative 7 6 Eng-NA=null
@@ -1890,13 +1893,13 @@
 7	much	much	adv	_	_	5	advmod	None FAT Father	Emma 42.789379658719895 female Weist declarative 6 6 Eng-NA=null
 
 # text = have you been in in the water
-1	have	have	v	_	_	4	aux	None FAT Father	Emma 42.789379658719895 female Weist question 7 7 Eng-NA=null
-2	you	you	pro:per	_	_	4	nsubj	None FAT Father	Emma 42.789379658719895 female Weist question 7 7 Eng-NA=null
-3	been	be	cop	_	_	4	cop	None FAT Father	Emma 42.789379658719895 female Weist question 7 7 Eng-NA=null
-4	in	in	prep	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist question 7 7 Eng-NA=null
-5	in	the	det:art	_	_	4	conj	None FAT Father	Emma 42.789379658719895 female Weist question 7 7 Eng-NA=null
+1	have	have	v	_	_	7	aux	None FAT Father	Emma 42.789379658719895 female Weist question 7 7 Eng-NA=null
+2	you	you	pro:per	_	_	7	nsubj	None FAT Father	Emma 42.789379658719895 female Weist question 7 7 Eng-NA=null
+3	been	be	cop	_	_	7	cop	None FAT Father	Emma 42.789379658719895 female Weist question 7 7 Eng-NA=null
+4	in	in	prep	_	_	5	reparandum:repetition	None FAT Father	Emma 42.789379658719895 female Weist question 7 7 Eng-NA=null
+5	in	the	det:art	_	_	7	case	None FAT Father	Emma 42.789379658719895 female Weist question 7 7 Eng-NA=null
 6	the	water	n	_	_	7	det	None FAT Father	Emma 42.789379658719895 female Weist question 7 7 Eng-NA=null
-7	water	_	_	_	_	4	obl	None FAT Father	Emma 42.789379658719895 female Weist question 7 7 Eng-NA=null
+7	water	_	_	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist question 7 7 Eng-NA=null
 
 # text = I thought they did
 1	I	I	pro:sub	_	_	2	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 6 4 Eng-NA=null
@@ -1911,7 +1914,7 @@
 4	to	to	inf	_	_	5	mark	None FAT Father	Emma 42.789379658719895 female Weist declarative 8 6 Eng-NA=null
 5	join	join	v	_	_	3	xcomp	None FAT Father	Emma 42.789379658719895 female Weist declarative 8 6 Eng-NA=null
 6	us	us	pro:obj	_	_	5	obj	None FAT Father	Emma 42.789379658719895 female Weist declarative 8 6 Eng-NA=null
-7	frog	frog	n	_	_	5	vocative	None FAT Father	Emma 42.789379658719895 female Weist declarative 8 6 Eng-NA=null
+7	frog	frog	n	_	_	3	vocative	None FAT Father	Emma 42.789379658719895 female Weist declarative 8 6 Eng-NA=null
 
 # text = okay you 're gonna bring the Barneys downstairs
 1	okay	_	_	_	_	4	discourse	None FAT Father	Emma 42.789379658719895 female Weist declarative 10 7 Eng-NA=null
@@ -1951,7 +1954,7 @@
 3	happened	happen	v	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist question 4 3 Eng-NA=null
 
 # text = Nuclear Barney
-1	Nuclear	Nuclear	n:prop	_	_	2	nmod	None FAT Father	Emma 42.789379658719895 female Weist declarative 2 2 Eng-NA=null
+1	Nuclear	Nuclear	n:prop	_	_	2	compound	None FAT Father	Emma 42.789379658719895 female Weist declarative 2 2 Eng-NA=null
 2	Barney	Barney	n:prop	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist declarative 2 2 Eng-NA=null
 
 # text = but we still can talk
@@ -2076,7 +2079,7 @@
 7	the	the	det:art	_	_	8	det	None FAT Father	Emma 42.789379658719895 female Weist question 13 10 Eng-NA=null
 8	Salvation	Salvation	n:prop	_	_	4	obl	None FAT Father	Emma 42.789379658719895 female Weist question 13 10 Eng-NA=null
 9	the	the	det:art	_	_	10	det	None FAT Father	Emma 42.789379658719895 female Weist question 13 10 Eng-NA=null
-10	sparkles	sparkle	n	_	_	5	dislocated	None FAT Father	Emma 42.789379658719895 female Weist question 13 10 Eng-NA=null
+10	sparkles	sparkle	n	_	_	4	dislocated	None FAT Father	Emma 42.789379658719895 female Weist question 13 10 Eng-NA=null
 
 # text = all right thank you
 1	all	all	qn	_	_	2	advmod	None FAT Father	Emma 44.72371095915727 female Weist declarative 4 4 Eng-NA=null
@@ -2131,8 +2134,8 @@
 4	Barney	Barney	combined	_	_	1	nsubj	None FAT Father	Emma 42.789379658719895 female Weist question 3 2 Eng-NA=null
 
 # text = why why ca n't I swim there
-1	why	why	pro:int	_	_	6	advmod	None FAT Father	Emma 44.72371095915727 female Weist question 6 6 Eng-NA=null
-2	why	can	mod	_	_	1	conj	None FAT Father	Emma 44.72371095915727 female Weist question 6 6 Eng-NA=null
+1	why	why	pro:int	_	_	2	reparandum:repetition	None FAT Father	Emma 44.72371095915727 female Weist question 6 6 Eng-NA=null
+2	why	can	mod	_	_	6	advmod	None FAT Father	Emma 44.72371095915727 female Weist question 6 6 Eng-NA=null
 3	ca	I	pro:sub	_	_	6	aux	None FAT Father	Emma 44.72371095915727 female Weist question 6 6 Eng-NA=null
 4	n't	not	neg	_	_	6	advmod	None FAT Father	Emma 44.72371095915727 female Weist question 6 6 Eng-NA=null
 5	I	swim	n	_	_	6	nsubj	None FAT Father	Emma 44.72371095915727 female Weist question 6 6 Eng-NA=null
@@ -2153,6 +2156,7 @@
 5	fun	fun	n	_	_	3	obl	None FAT Father	Emma 44.72371095915727 female Weist imperative_emphatic 6 5 Eng-NA=null
 
 # text = maybe that 's why he 's hiding from us
+# Re-evaluate
 1	maybe	maybe	adv	_	_	4	advmod	None FAT Father	Emma 42.789379658719895 female Weist declarative 10 7 Eng-NA=null
 2	that	that	n	_	_	4	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 10 7 Eng-NA=null
 3	's	be	cop	_	_	4	cop	None FAT Father	Emma 42.789379658719895 female Weist declarative 10 7 Eng-NA=null
@@ -2199,18 +2203,18 @@
 # text = well you know I well I bet he well maybe we should I thought he was sick this morning
 1	well	well	co	_	_	3	discourse	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
 2	you	you	pro:per	_	_	3	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
-3	know	know	v	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
-4	I	I	pro:sub	_	_	7	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
+3	know	know	v	_	_	14	reparandum:restart	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
+4	I	I	pro:sub	_	_	3	ccomp	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
 5	well	well	n	_	_	7	discourse	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
-6	I	I	pro:sub	_	_	4	conj	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
-7	bet	bet	v	_	_	3	parataxis	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
+6	I	I	pro:sub	_	_	7	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
+7	bet	bet	v	_	_	14	reparandum:restart	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
 8	he	he	pro:sub	_	_	7	ccomp	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
 9	well	well	n	_	_	12	discourse	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
 10	maybe	maybe	adv	_	_	12	advmod	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
 11	we	we	pro:sub	_	_	12	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
-12	should	should	mod	_	_	3	parataxis	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
+12	should	should	mod	_	_	14	reparandum:restart	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
 13	I	I	pro:sub	_	_	14	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
-14	thought	think	v	_	_	3	parataxis	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
+14	thought	think	v	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
 15	he	he	pro:sub	_	_	17	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
 16	was	be	cop	_	_	17	cop	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
 17	sick	sick	adj	_	_	14	ccomp	None FAT Father	Emma 42.789379658719895 female Weist declarative 23 19 Eng-NA=null
@@ -2254,8 +2258,8 @@
 3	I	_	_	_	_	5	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
 4	'll	_	_	_	_	5	aux	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
 5	have	_	_	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
-6	a	_	_	_	_	8	det	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
-7	a	_	_	_	_	6	conj	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
+6	a	_	_	_	_	7	reparandum:repetition	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
+7	a	_	_	_	_	8	det	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
 8	weekend	_	_	_	_	5	obj	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
 9	that	_	_	_	_	13	obj	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
 10	I	_	_	_	_	13	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 15 14 Eng-NA=null
@@ -2280,7 +2284,7 @@
 6	barely	bare	adv	_	_	7	advmod	None FAT Father	Emma 44.72371095915727 female Weist declarative 13 10 Eng-NA=null
 7	fit	fit	n	_	_	0	root	None FAT Father	Emma 44.72371095915727 female Weist declarative 13 10 Eng-NA=null
 8	there	there	adv	_	_	7	advmod	None FAT Father	Emma 44.72371095915727 female Weist declarative 13 10 Eng-NA=null
-9	ca	can	mod	_	_	7	aux	None FAT Father	Emma 44.72371095915727 female Weist declarative 13 10 Eng-NA=null
+9	ca	can	mod	_	_	7	parataxis	None FAT Father	Emma 44.72371095915727 female Weist declarative 13 10 Eng-NA=null
 10	n't	not	neg	_	_	9	advmod	None FAT Father	Emma 44.72371095915727 female Weist declarative 13 10 Eng-NA=null
 11	you	you	pro:per	_	_	9	nsubj	None FAT Father	Emma 44.72371095915727 female Weist declarative 13 10 Eng-NA=null
 
@@ -2370,10 +2374,10 @@
 3	my	my	det:poss	_	_	4	nmod:poss	None FAT Father	Emma 42.789379658719895 female Weist declarative 11 10 Eng-NA=null
 4	heavens	heaven	n	_	_	11	discourse	None FAT Father	Emma 42.789379658719895 female Weist declarative 11 10 Eng-NA=null
 5	oh	oh	co	_	_	11	discourse	None FAT Father	Emma 42.789379658719895 female Weist declarative 11 10 Eng-NA=null
-6	that	that	n	_	_	11	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 11 10 Eng-NA=null
-7	's	be	cop	_	_	11	cop	None FAT Father	Emma 42.789379658719895 female Weist declarative 11 10 Eng-NA=null
-8	that	a	n	_	_	9	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 11 10 Eng-NA=null
-9	's	be	cop	_	_	7	parataxis	None FAT Father	Emma 42.789379658719895 female Weist declarative 11 10 Eng-NA=null
+6	that	that	n	_	_	7	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 11 10 Eng-NA=null
+7	's	be	cop	_	_	11	reparandum:repetition	None FAT Father	Emma 42.789379658719895 female Weist declarative 11 10 Eng-NA=null
+8	that	a	n	_	_	11	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 11 10 Eng-NA=null
+9	's	be	cop	_	_	11	cop	None FAT Father	Emma 42.789379658719895 female Weist declarative 11 10 Eng-NA=null
 10	a	relief	n	_	_	11	det	None FAT Father	Emma 42.789379658719895 female Weist declarative 11 10 Eng-NA=null
 11	relief	okay	adj	_	_	0	root	None FAT Father	Emma 42.789379658719895 female Weist declarative 11 10 Eng-NA=null
 12	okay	_	_	_	_	11	discourse	None FAT Father	Emma 42.789379658719895 female Weist declarative 11 10 Eng-NA=null
@@ -2473,11 +2477,11 @@
 
 # text = hi name my name is Eleanor the elephant
 1	hi	my	det:poss	_	_	2	discourse	None FAT Father	Emma 44.72371095915727 female Weist declarative 7 8 Eng-NA=null
-2	name	name	n	_	_	0	root	None FAT Father	Emma 44.72371095915727 female Weist declarative 7 8 Eng-NA=null
+2	name	name	n	_	_	6	reparandum:restart	None FAT Father	Emma 44.72371095915727 female Weist declarative 7 8 Eng-NA=null
 3	my	be	cop	_	_	4	nmod:poss	None FAT Father	Emma 44.72371095915727 female Weist declarative 7 8 Eng-NA=null
 4	name	Eleanor	n:prop	_	_	6	nsubj	None FAT Father	Emma 44.72371095915727 female Weist declarative 7 8 Eng-NA=null
 5	is	the	det:art	_	_	6	cop	None FAT Father	Emma 44.72371095915727 female Weist declarative 7 8 Eng-NA=null
-6	Eleanor	elephant	n	_	_	2	parataxis	None FAT Father	Emma 44.72371095915727 female Weist declarative 7 8 Eng-NA=null
+6	Eleanor	elephant	n	_	_	0	root	None FAT Father	Emma 44.72371095915727 female Weist declarative 7 8 Eng-NA=null
 7	the	_	_	_	_	8	det	None FAT Father	Emma 44.72371095915727 female Weist declarative 7 8 Eng-NA=null
 8	elephant	_	_	_	_	6	appos	None FAT Father	Emma 44.72371095915727 female Weist declarative 7 8 Eng-NA=null
 
@@ -2496,7 +2500,7 @@
 7	you	you	pro:per	_	_	8	nsubj	None FAT Father	Emma 44.72371095915727 female Weist question 12 11 Eng-NA=null
 8	get	get	v	_	_	3	parataxis	None FAT Father	Emma 44.72371095915727 female Weist question 12 11 Eng-NA=null
 9	any	any	qn	_	_	11	det	None FAT Father	Emma 44.72371095915727 female Weist question 12 11 Eng-NA=null
-10	elephant	elephant	n	_	_	11	nmod	None FAT Father	Emma 44.72371095915727 female Weist question 12 11 Eng-NA=null
+10	elephant	elephant	n	_	_	11	compound	None FAT Father	Emma 44.72371095915727 female Weist question 12 11 Eng-NA=null
 11	food	food	n	_	_	8	obj	None FAT Father	Emma 44.72371095915727 female Weist question 12 11 Eng-NA=null
 
 # text = but you taste so good

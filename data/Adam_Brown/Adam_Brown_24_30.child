@@ -1,354 +1,372 @@
 # text = play checkers
-1	play	play	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
-2	checkers	checker	n	1	obj=	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
+1	play	play	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
+2	checkers	checker	n	1	obj	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
 
 # text = big drum
-1	big	big	adj	2	amod=	2	amod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	drum	drum	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	big	big	adj	2	amod	2	amod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	drum	drum	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = who that
-1	who	who	pro:int	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
-2	that	that	pro:dem	1	nsubj=	1	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
+1	who	who	pro:int	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
+2	that	that	pro:dem	1	nsubj	1	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
 
 # text = two check
-1	two	two	det:num	2	nummod=	2	nummod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	check	check	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	two	two	det:num	2	nummod	2	nummod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	check	check	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = rig horn
-1	rig	rig	n	2	amod=	2	amod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	horn	horn	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	rig	rig	n	2	amod	2	amod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	horn	horn	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = big horn
-1	big	big	adj	2	amod=	2	amod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	horn	horn	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	big	big	adj	2	amod	2	amod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	horn	horn	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = alright look tv
-1	alright	alright	co	2	discourse=	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	look	look	co	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	tv	tv	n	2	obj=	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+# Re-evaluate
+1	alright	alright	co	2	discourse	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	look	look	co	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	tv	tv	n	2	obj	2	obl	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = get over Mommy
-1	get	get	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	over	over	adv	1	compound:prt=	1	compound:prt	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	Mommy	Mommy	n:prop	1	vocative=	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	get	get	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	over	over	adv	1	compound:prt	1	compound:prt	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	Mommy	Mommy	n:prop	1	vocative	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = yeah Shadow yeah
-1	yeah	yeah	co	2	discourse=	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	Shadow	Shadow	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	yeah	yeah	co	2	discourse=	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	yeah	yeah	co	2	discourse	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	Shadow	Shadow	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	yeah	yeah	co	2	discourse	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = shadow funny
-1	shadow	shadow	n	2	nsubj=	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 2 Eng-NA=null
-2	funny	fun	adj	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 2 Eng-NA=null
+1	shadow	shadow	n	2	nsubj	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 2 Eng-NA=null
+2	funny	fun	adj	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 2 Eng-NA=null
 
 # text = put dirt up
-1	put	put	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
-2	dirt	dirt	n	1	obj=	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
-3	up	up	adv	1	compound:prt=	1	compound:prt	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+1	put	put	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+2	dirt	dirt	n	1	obj	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+3	up	up	adv	1	compound:prt	1	compound:prt	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
 
 # text = sit dere
-1	sit	sit	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	dere	there	adv	1	advmod=	1	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	sit	sit	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	dere	there	adv	1	advmod	1	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = read Shadow
-1	read	read	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
-2	Shadow	Shadow	n:prop	1	obj=	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
+1	read	read	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
+2	Shadow	Shadow	n:prop	1	obj	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
 
 # text = Adam checker
-1	Adam	Adam	n:prop	0	root=	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	checker	checker	n	1	parataxis=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+# Re-evaluate
+1	Adam	Adam	n:prop	0	root	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	checker	checker	n	1	parataxis	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = I got horn
-1	I	I	pro:sub	2	nsubj=	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
-2	got	get	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
-3	horn	horn	n	2	obj=	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+1	I	I	pro:sub	2	nsubj	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+2	got	get	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+3	horn	horn	n	2	obj	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
 
 # text = like it hm
-1	like	like	conj	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
-2	it	it	pro:per	1	obj=	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
-3	hm	hm	co	1	discourse=	1	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
+1	like	like	conj	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
+2	it	it	pro:per	1	obj	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
+3	hm	hm	co	1	discourse	1	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
 
 # text = do like it
-1	do	do	mod	2	aux=	2	aux	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	like	like	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	it	it	pro:per	2	obj=	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	do	do	mod	2	aux	2	aux	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	like	like	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	it	it	pro:per	2	obj	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = my Shadow
-1	my	my	det:poss	2	nmod:poss=	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	Shadow	Shadow	n:prop	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	my	my	det:poss	2	nmod:poss	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	Shadow	Shadow	n:prop	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = my Shadow Mommy
-1	my	my	det:poss	2	nmod:poss=	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	Shadow	Shadow	n:prop	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	Mommy	Mommy	n:prop	2	vocative=	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	my	my	det:poss	2	nmod:poss	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	Shadow	Shadow	n:prop	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	Mommy	Mommy	n:prop	2	vocative	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = horse go Mommy
-1	horse	horse	n	2	nsubj=	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	go	go	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	Mommy	Mommy	n:prop	2	vocative=	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	horse	horse	n	2	nsubj	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	go	go	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	Mommy	Mommy	n:prop	2	vocative	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = Mott apple juice
-1	Mott	Mott	n:prop	3	nmod=	3	nmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	apple	apple	n	3	compound=	3	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	juice	juice	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+# Re-evaluate
+1	Mott	Mott	n:prop	3	nmod	3	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	apple	apple	n	3	compound	3	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	juice	juice	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = water Mommy
-1	water	water	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	Mommy	Mommy	n:prop	1	vocative=	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	water	water	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	Mommy	Mommy	n:prop	1	vocative	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = who that Daddy
-1	who	who	pro:rel	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
-2	that	that	adv	1	nsubj=	1	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
-3	Daddy	Daddy	n:prop	1	vocative=	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
+1	who	who	pro:rel	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
+2	that	that	adv	1	nsubj	1	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
+3	Daddy	Daddy	n:prop	1	vocative	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
 
 # text = who 's that
-1	who	who	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 2 Eng-NA=null
-2	's	be	cop	1	cop=	1	cop	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 2 Eng-NA=null
-3	that	that	pro:dem	1	nsubj=	1	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 2 Eng-NA=null
+1	who	who	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 2 Eng-NA=null
+2	's	be	cop	1	cop	1	cop	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 2 Eng-NA=null
+3	that	that	pro:dem	1	nsubj	1	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 2 Eng-NA=null
 
 # text = two three
-1	two	two	det:num	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	three	three	det:num	1	conj=	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	two	two	det:num	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	three	three	det:num	1	conj	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = take two
-1	take	take	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	two	two	det:num	1	obj=	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	take	take	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	two	two	det:num	1	obj	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = put record
-1	put	put	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
-2	record	record	n	1	obj=	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
+1	put	put	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
+2	record	record	n	1	obj	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
 
 # text = Adam horn
-1	Adam	Adam	n:prop	0	root=	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	horn	horn	n	1	parataxis=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+# Re-evaluate
+1	Adam	Adam	n:prop	0	root	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	horn	horn	n	1	parataxis	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = Adam horn hm hm
-1	Adam	Adam	n:prop	0	root=	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 4 4 Eng-NA=null
-2	horn	horn	n	1	parataxis=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 4 4 Eng-NA=null
-3	hm	hm	co	1	discourse=	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 4 4 Eng-NA=null
-4	hm	hm	co	3	conj=	3	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 4 4 Eng-NA=null
+# Re-evaluate
+1	Adam	Adam	n:prop	0	root	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 4 4 Eng-NA=null
+2	horn	horn	n	1	parataxis	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 4 4 Eng-NA=null
+3	hm	hm	co	1	discourse	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 4 4 Eng-NA=null
+4	hm	hm	co	3	conj	3	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 4 4 Eng-NA=null
 
 # text = my pencil my
-1	my	my	det:poss	2	nmod:poss=	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	pencil	pencil	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	my	my	det:poss	2	parataxis=	2	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	my	my	det:poss	2	nmod:poss	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	pencil	pencil	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	my	my	det:poss	2	parataxis	2	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = Daddy go
-1	Daddy	Daddy	n:prop	2	nsubj=	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
-2	go	go	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
+# Re-evaluate
+1	Daddy	Daddy	n:prop	2	nsubj	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
+2	go	go	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
 
 # text = where go
-1	where	where	pro:rel	2	advmod=	2	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
-2	go	go	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
+1	where	where	pro:rel	2	advmod	2	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
+2	go	go	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
 
 # text = Daddy car
-1	Daddy	Daddy	n:prop	0	root=	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	car	car	n	1	parataxis=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+# Re-evaluate
+1	Daddy	Daddy	n:prop	0	root	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	car	car	n	1	parataxis	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = Daddy Daddy Daddy
-1	Daddy	Daddy	n:prop	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	Daddy	Daddy	n:prop	1	conj=	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	Daddy	Daddy	n:prop	1	conj=	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	Daddy	Daddy	n:prop	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	Daddy	Daddy	n:prop	1	conj	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	Daddy	Daddy	n:prop	1	conj	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = mine mine mine mine
-1	mine	mine	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-2	mine	mine	n	1	conj=	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-3	mine	mine	n	1	conj=	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-4	mine	mine	pro:poss	1	conj=	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+1	mine	mine	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+2	mine	mine	n	1	conj	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+3	mine	mine	n	1	conj	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+4	mine	mine	pro:poss	1	conj	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
 # text = sit in Adam chair
-1	sit	sit	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-2	in	in	prep	4	case=	4	case	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-3	Adam	Adam	n:prop	4	nmod:poss=	4	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-4	chair	chair	n	1	obl=	1	obl	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+1	sit	sit	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+2	in	in	prep	4	case	4	case	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+3	Adam	Adam	n:prop	4	nmod:poss	4	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+4	chair	chair	n	1	obl	1	obl	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
 # text = there boots dog
-1	there	there	adv	0	root=	2	expl	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
-2	boots	boot	v	1	nsubj=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
-3	dog	dog	n	2	vocative=	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+# Re-evaluate
+1	there	there	adv	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+2	boots	boot	v	1	nsubj	1	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+3	dog	dog	n	2	vocative	1	dep	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
 
 # text = wash hand
-1	wash	wash	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	hand	hand	n	1	obj=	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	wash	wash	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	hand	hand	n	1	obj	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = I wash hand
-1	I	I	pro:sub	2	nsubj=	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	wash	wash	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	hand	hand	n	2	obj=	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	I	I	pro:sub	2	nsubj	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	wash	wash	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	hand	hand	n	2	obj	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = who is that
-1	who	who	pro:int	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 4 3 Eng-NA=null
-2	is	be	cop	1	cop=	1	cop	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 4 3 Eng-NA=null
-3	that	that	pro:dem	1	nsubj=	1	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 4 3 Eng-NA=null
+1	who	who	pro:int	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 4 3 Eng-NA=null
+2	is	be	cop	1	cop	1	cop	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 4 3 Eng-NA=null
+3	that	that	pro:dem	1	nsubj	1	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 4 3 Eng-NA=null
 
 # text = go fall
-1	go	go	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 2 2 Eng-NA=null
-2	fall	fall	v	1	xcomp=	1	xcomp	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 2 2 Eng-NA=null
+1	go	go	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 2 2 Eng-NA=null
+2	fall	fall	v	1	xcomp	1	xcomp	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 2 2 Eng-NA=null
 
 # text = no no fall no
-1	no	no	co	3	discourse=	3	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 4 4 Eng-NA=null
-2	no	no	co	3	det=	3	det	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 4 4 Eng-NA=null
-3	fall	fall	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 4 4 Eng-NA=null
-4	no	no	co	3	discourse=	3	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 4 4 Eng-NA=null
+1	no	no	co	3	discourse	3	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 4 4 Eng-NA=null
+2	no	no	co	3	det	3	det	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 4 4 Eng-NA=null
+3	fall	fall	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 4 4 Eng-NA=null
+4	no	no	co	3	discourse	3	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 4 4 Eng-NA=null
 
 # text = no fall
-1	no	no	co	2	det=	2	det	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 2 2 Eng-NA=null
-2	fall	fall	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 2 2 Eng-NA=null
+1	no	no	co	2	det	2	det	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 2 2 Eng-NA=null
+2	fall	fall	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 2 2 Eng-NA=null
 
 # text = there bunny+rabbit
-1	there	there	adv	2	advmod=	2	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
-2	bunny+rabbit	_	_	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
+# Re-evaluate
+1	there	there	adv	3	advmod	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
+2	bunny	_	_	3	compound	3	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
+3	rabbit	_	_	0	root	1	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
 
 # text = come on bunny+rabbit
-1	come	come	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
-2	on	on	prep	1	advmod=	1	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
-3	bunny+rabbit	_	_	1	vocative=	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
+1	come	come	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
+2	on	on	prep	1	advmod	1	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
+3	bunny	_	_	4	compound	4	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
+4	rabbit	_	_	1	vocative	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
 
 # text = hit ball
-1	hit	hit	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
-2	ball	ball	n	1	obj=	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
+1	hit	hit	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
+2	ball	ball	n	1	obj	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
 
 # text = a bunny+rabbit walk
-1	a	a	det:art	2	det=	2	det	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
-2	bunny+rabbit	walk	n	3	nsubj=	3	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
-3	walk	_	_	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
+1	a	a	det:art	4	det	4	det	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
+2	bunny	walk	n	3	compound	3	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
+3	rabbit	walk	n	4	compound	4	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
+4	walk	_	_	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
 
 # text = hop hop hop
-1	hop	hop	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	hop	hop	n	1	conj=	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	hop	hop	n	1	conj=	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	hop	hop	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	hop	hop	n	1	conj	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	hop	hop	n	1	conj	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = sweep broom
-1	sweep	sweep	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	broom	broom	n	1	obj=	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	sweep	sweep	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	broom	broom	n	1	obj	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = I get that brush that brush
-1	I	I	pro:sub	2	nsubj=	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 6 6 Eng-NA=null
-2	get	get	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 6 6 Eng-NA=null
-3	that	that	pro:dem	4	det=	4	det	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 6 6 Eng-NA=null
-4	brush	brush	v	2	obj=	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 6 6 Eng-NA=null
-5	that	that	det:dem	6	det=	6	det	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 6 6 Eng-NA=null
-6	brush	brush	n	4	parataxis=	4	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 6 6 Eng-NA=null
+# Re-evaluate
+1	I	I	pro:sub	2	nsubj	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 6 6 Eng-NA=null
+2	get	get	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 6 6 Eng-NA=null
+3	that	that	pro:dem	4	det	4	det	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 6 6 Eng-NA=null
+4	brush	brush	v	2	obj	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 6 6 Eng-NA=null
+5	that	that	det:dem	6	det	6	det	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 6 6 Eng-NA=null
+6	brush	brush	n	4	parataxis	4	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 6 6 Eng-NA=null
 
 # text = hi Bunny Rabbit
-1	hi	hi	co	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	Bunny	Bunny_Rabbit	n:prop	3	compound=	3	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-3	Rabbit	Rabbit	combined	1	vocative=	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	hi	hi	co	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	Bunny	Bunny_Rabbit	n:prop	3	compound	3	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+3	Rabbit	Rabbit	combined	1	vocative	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = my screwdriver
-1	my	my	det:poss	2	nmod:poss=	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
-2	screwdriver	screwdriver	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
+1	my	my	det:poss	2	nmod:poss	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
+2	screwdriver	screwdriver	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
 
 # text = hi bunny+rabbit Adam Smith
-1	hi	hi	co	2	discourse=	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
-2	bunny+rabbit	Adam	n:prop	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
-3	Adam	Smith	n:prop	2	parataxis=	2	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
-4	Smith	_	_	3	flat=	3	flat	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
+1	hi	hi	co	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
+2	bunny	Adam	n:prop	3	compound	3	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
+3	rabbit	Adam	n:prop	1	vocative	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
+4	Adam	Smith	n:prop	1	parataxis	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
+5	Smith	_	_	4	flat	4	flat	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
 
 # text = get light
-1	get	get	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	light	light	n	1	obj=	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	get	get	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	light	light	n	1	obj	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = hear tractor
-1	hear	hear	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	tractor	tractor	n	1	obj=	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	hear	hear	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	tractor	tractor	n	1	obj	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = see truck Mommy
-1	see	see	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	truck	truck	n	1	obj=	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	Mommy	Mommy	n:prop	1	vocative=	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	see	see	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	truck	truck	n	1	obj	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	Mommy	Mommy	n:prop	1	vocative	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = see truck
-1	see	see	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	truck	truck	n	1	obj=	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	see	see	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	truck	truck	n	1	obj	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = no I see truck
-1	no	no	co	3	discourse=	3	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-2	I	I	pro:sub	3	nsubj=	3	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-3	see	see	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-4	truck	truck	n	3	obj=	3	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+1	no	no	co	3	discourse	3	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+2	I	I	pro:sub	3	nsubj	3	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+3	see	see	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+4	truck	truck	n	3	obj	3	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
 # text = there go one
-1	there	there	adv	2	expl=	2	expl	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	go	go	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	one	one	det:num	2	nsubj=	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+# Re-evaluate
+1	there	there	adv	2	expl	2	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	go	go	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	one	one	det:num	2	nsubj	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = see a truck
-1	see	see	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	a	a	det:art	3	det=	3	det	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	truck	truck	n	1	obj=	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	see	see	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	a	a	det:art	3	det	3	det	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	truck	truck	n	1	obj	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = put truck Mommy
-1	put	put	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
-2	truck	truck	n	1	obj=	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
-3	Mommy	Mommy	n:prop	1	vocative=	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+1	put	put	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+2	truck	truck	n	1	obj	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+3	Mommy	Mommy	n:prop	1	vocative	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
 
 # text = put truck window
-1	put	put	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
-2	truck	truck	n	1	obj=	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
-3	window	window	n	1	parataxis=	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+1	put	put	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+2	truck	truck	n	1	obj	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+3	window	window	n	1	parataxis	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
 
 # text = look tow truck come here
-1	look	look	v	4	discourse=	4	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
-2	tow	tow	n	3	compound=	3	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
-3	truck	truck	n	4	nsubj=	4	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
-4	come	come	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
-5	here	here	adv	4	advmod=	4	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
+# Re-evaluate
+1	look	look	v	4	discourse	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
+2	tow	tow	n	3	compound	3	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
+3	truck	truck	n	4	nsubj	4	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
+4	come	come	v	0	root	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
+5	here	here	adv	4	advmod	4	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
 
 # text = busy bulldozer
-1	busy	busy	adj	2	amod=	2	amod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 2 Eng-NA=null
-2	bulldozer	bulldoze	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 2 Eng-NA=null
+1	busy	busy	adj	2	amod	2	amod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 2 Eng-NA=null
+2	bulldozer	bulldoze	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 2 Eng-NA=null
 
 # text = there go another one
-1	there	there	adv	2	expl=	2	expl	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-2	go	go	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-3	another	another	qn	4	det=	4	det	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-4	one	one	pro:indef	2	nsubj=	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+# Re-evaluate
+1	there	there	adv	2	expl	2	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+2	go	go	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+3	another	another	qn	4	det	4	det	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+4	one	one	pro:indef	2	nsubj	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
 # text = tow truck
-1	tow	tow	n	2	compound=	2	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	truck	truck	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	tow	tow	n	2	compound	2	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	truck	truck	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = Bozo Bozo
-1	Bozo	Bozo	n:prop	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	Bozo	Bozo	n:prop	1	conj=	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	Bozo	Bozo	n:prop	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	Bozo	Bozo	n:prop	1	conj	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = yeah shadow yeah
-1	yeah	yeah	co	2	discourse=	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	shadow	shadow	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	yeah	yeah	co	2	discourse=	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	yeah	yeah	co	2	discourse	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	shadow	shadow	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	yeah	yeah	co	2	discourse	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = Bozo yeah Bozo
-1	Bozo	Bozo	n:prop	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	yeah	yeah	co	1	discourse=	1	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	Bozo	Bozo	n:prop	1	conj=	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	Bozo	Bozo	n:prop	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	yeah	yeah	co	1	discourse	1	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	Bozo	Bozo	n:prop	1	conj	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = remember Bozo
-1	remember	remember	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
-2	Bozo	Bozo	n:prop	1	obj=	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
+1	remember	remember	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
+2	Bozo	Bozo	n:prop	1	obj	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
 
 # text = I like see that
-1	I	I	pro:sub	2	nsubj=	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-2	like	like	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-3	see	see	v	2	xcomp=	2	xcomp	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-4	that	that	comp	3	obj=	3	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+1	I	I	pro:sub	2	nsubj	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+2	like	like	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+3	see	see	v	2	xcomp	2	xcomp	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+4	that	that	comp	3	obj	3	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
 # text = alright see that
-1	alright	alright	co	2	discourse=	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 3 3 Eng-NA=null
-2	see	see	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 3 3 Eng-NA=null
-3	that	that	comp	2	obj=	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 3 3 Eng-NA=null
+1	alright	alright	co	2	discourse	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 3 3 Eng-NA=null
+2	see	see	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 3 3 Eng-NA=null
+3	that	that	comp	2	obj	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown imperative_emphatic 3 3 Eng-NA=null
 
 # text = keep dat
-1	keep	keep	v	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	dat	that	pro:dem	1	obj=	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	keep	keep	v	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	dat	that	pro:dem	1	obj	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = hat hat
-1	hat	hat	n	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	hat	hat	n	1	conj=	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	hat	hat	n	0	root	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	hat	hat	n	1	conj	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = Adam hat
-1	Adam	Adam	n:prop	0	root=	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	hat	hat	n	1	parataxis=	1	flat	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+# Re-evaluate
+1	Adam	Adam	n:prop	0	root	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	hat	hat	n	1	parataxis	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = all gone
 1	all	all_gone	co	_	_	2	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 1 Eng-NA=null
@@ -399,6 +417,7 @@
 3	fall	fall	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = Adam fall toy
+# Re-evaluate
 1	Adam	Adam	n:prop	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 2	fall	fall	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 3	toy	toy	n	_	_	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
@@ -423,21 +442,24 @@
 2	please	please	co	_	_	1	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = paper find
-1	paper	paper	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	find	find	v	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	paper	paper	n	_	_	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	find	find	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = my bunny+rabbit
-1	my	my	det:poss	_	_	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
-2	bunny+rabbit	_	_	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
+1	my	my	det:poss	_	_	3	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
+2	bunny	_	_	_	_	3	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
+3	rabbit	_	_	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
 
 # text = bunny+rabbit go Mommy
-1	bunny+rabbit	go	v	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 3 Eng-NA=null
-2	go	Mommy	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 3 Eng-NA=null
-3	Mommy	_	_	_	_	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 3 Eng-NA=null
+1	bunny	go	v	_	_	2	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 3 Eng-NA=null
+2	rabbit	go	v	_	_	3	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 3 Eng-NA=null
+3	go	Mommy	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 3 Eng-NA=null
+4	Mommy	_	_	_	_	3	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 3 Eng-NA=null
 
 # text = where bunny+rabbit
-1	where	where	pro:int	_	_	2	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
-2	bunny+rabbit	_	_	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
+1	where	where	pro:int	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
+2	bunny	_	_	_	_	3	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
+3	rabbit	_	_	_	_	1	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
 
 # text = I may give some
 1	I	I	pro:sub	_	_	3	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
@@ -484,7 +506,7 @@
 # text = ride that my
 1	ride	ride	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 2	that	that	pro:rel	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	my	my	co	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	my	my	co	_	_	2	appos	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = my my my my
 1	my	my	det:poss	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
@@ -493,23 +515,23 @@
 4	my	my	co	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
 # text = okay kitty okay okay
-1	okay	okay	co	_	_	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-2	kitty	kitty	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-3	okay	okay	adj	_	_	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-4	okay	okay	adj	_	_	3	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+1	okay	okay	co	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+2	kitty	kitty	n	_	_	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+3	okay	okay	adj	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+4	okay	okay	adj	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
 # text = okay kitty okay kitty
-1	okay	okay	co	_	_	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-2	kitty	kitty	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-3	okay	okay	adj	_	_	4	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-4	kitty	kitty	n	_	_	2	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+1	okay	okay	co	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+2	kitty	kitty	n	_	_	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+3	okay	okay	adj	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+4	kitty	kitty	n	_	_	3	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
 # text = bear dere right in here
-1	bear	bear	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
-2	dere	there	adv	_	_	1	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
+1	bear	bear	n	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
+2	dere	there	adv	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
 3	right	right	adv	_	_	5	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
 4	in	in	prep	_	_	5	case	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
-5	here	here	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
+5	here	here	n	_	_	2	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
 
 # text = shake hands
 1	shake	shake	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
@@ -534,15 +556,15 @@
 
 # text = no my thank you
 1	no	no	qn	_	_	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	my	my	det:poss	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	my	my	det:poss	_	_	3	reparandum:restart	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 3	thank	thank_you	n	_	_	2	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 4	you	you	combined	_	_	3	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = my my ball player
-1	my	my	det:poss	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
-2	my	ball	n	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
+1	my	my	det:poss	_	_	2	reparandum:repetition	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
+2	my	ball	n	_	_	4	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
 3	ball	play	n	_	_	4	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
-4	player	_	_	_	_	1	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
+4	player	_	_	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
 
 # text = giraffe mosquito
 1	giraffe	giraffe	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
@@ -562,28 +584,28 @@
 3	fall	fall	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = tv not go
-1	tv	not	neg	_	_	3	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
+1	tv	not	neg	_	_	3	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
 2	not	go	v	_	_	3	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
 3	go	_	_	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
 
 # text = tv green jeans
 1	tv	tv	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 2	green	green	n	_	_	3	amod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	jeans	jeans	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	jeans	jeans	n	_	_	1	dep	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = part trailer
 1	part	part	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	trailer	trailer	n	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	trailer	trailer	n	_	_	1	nmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = part Adam trailer
 1	part	part	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
-2	Adam	Adam	n:prop	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
-3	trailer	_	_	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
+2	Adam	Adam	n:prop	_	_	3	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
+3	trailer	_	_	_	_	1	nmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
 
 # text = part two truck
 1	part	part	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	two	two	det:num	_	_	1	nummod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	truck	truck	n	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	two	two	det:num	_	_	3	nummod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	truck	truck	n	_	_	1	nmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = na na na
 1	na	na	bab	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
@@ -593,7 +615,7 @@
 # text = not Adam night night
 1	not	not	neg	_	_	2	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 2	Adam	Adam	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-3	night	_	_	_	_	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+3	night	_	_	_	_	2	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 4	night	night	combined	_	_	3	goeswith	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
 # text = sit down
@@ -610,13 +632,13 @@
 3	no	no	co	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = Mommy come
-1	Mommy	Mommy	n:prop	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	Mommy	Mommy	n:prop	_	_	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 2	come	come	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = no Mommy no
 1	no	no	co	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 2	Mommy	Mommy	n:prop	_	_	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	no	no	co	_	_	1	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	no	no	co	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = not a chair floor
 1	not	not	neg	_	_	3	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
@@ -625,17 +647,17 @@
 4	floor	floor	n	_	_	3	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
 # text = Mommy stand up
-1	Mommy	Mommy	n:prop	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	Mommy	Mommy	n:prop	_	_	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 2	stand	stand	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 3	up	up	adv	_	_	2	compound:prt	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = Adam funny
-1	Adam	Adam	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 2 Eng-NA=null
-2	funny	fun	adj	_	_	1	amod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 2 Eng-NA=null
+1	Adam	Adam	n:prop	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 2 Eng-NA=null
+2	funny	fun	adj	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 2 Eng-NA=null
 
 # text = chair about
 1	chair	chair	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
-2	about	about	adv	_	_	1	obl	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
+2	about	about	adv	_	_	1	nmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
 
 # text = my suitcase
 1	my	my	det:poss	_	_	2	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
@@ -647,8 +669,8 @@
 
 # text = too man suitcase
 1	too	too_man	chi	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
-2	man	man	combined	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
-3	suitcase	suitcase	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
+2	man	man	combined	_	_	1	dep	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
+3	suitcase	suitcase	n	_	_	1	dep	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
 
 # text = Mommy may please
 1	Mommy	Mommy	n:prop	_	_	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
@@ -684,8 +706,8 @@
 2	glove	glove	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
 
 # text = why not
-1	why	why	pro:int	_	_	2	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
-2	not	not	neg	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
+1	why	why	pro:int	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
+2	not	not	neg	_	_	1	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
 
 # text = put ball
 1	put	put	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 2 Eng-NA=null
@@ -725,8 +747,8 @@
 3	look	look	co	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = my get Adam bike
-1	my	my	det:poss	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 5 Eng-NA=null
-2	get	Adam	n:prop	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 5 Eng-NA=null
+1	my	my	det:poss	_	_	2	reparandum:restart	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 5 Eng-NA=null
+2	get	Adam	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 5 Eng-NA=null
 3	Adam	bike	n	_	_	4	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 5 Eng-NA=null
 4	bike	_	_	_	_	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 5 Eng-NA=null
 
@@ -734,7 +756,7 @@
 1	put	put	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 4 Eng-NA=null
 2	ball	ball	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 4 Eng-NA=null
 3	over	over	prep	_	_	4	case	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 4 Eng-NA=null
-4	here	here	n	_	_	1	advmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 4 Eng-NA=null
+4	here	here	n	_	_	1	case	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 4 Eng-NA=null
 
 # text = Adam bike
 1	Adam	Adam	n:prop	_	_	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
@@ -742,7 +764,7 @@
 
 # text = hit Mommy wall
 1	hit	hit	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 3 Eng-NA=null
-2	Mommy	Mommy	n:prop	_	_	3	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 3 Eng-NA=null
+2	Mommy	Mommy	n:prop	_	_	1	vocative	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 3 Eng-NA=null
 3	wall	wall	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 3 Eng-NA=null
 
 # text = Adam pillow
@@ -752,11 +774,11 @@
 # text = my pillow my
 1	my	my	det:poss	_	_	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 2	pillow	pillow	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	my	my	det:poss	_	_	2	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	my	my	det:poss	_	_	2	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = hit Mommy rug
 1	hit	hit	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 3 Eng-NA=null
-2	Mommy	Mommy	n:prop	_	_	3	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 3 Eng-NA=null
+2	Mommy	Mommy	n:prop	_	_	1	vocative	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 3 Eng-NA=null
 3	rug	rug	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 3 Eng-NA=null
 
 # text = put light Mommy
@@ -770,8 +792,8 @@
 3	Mommy	Mommy	n:prop	_	_	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = where ball
-1	where	where	pro:int	_	_	2	advmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 2 2 Eng-NA=null
-2	ball	ball	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 2 2 Eng-NA=null
+1	where	where	pro:int	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 2 2 Eng-NA=null
+2	ball	ball	n	_	_	1	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 2 2 Eng-NA=null
 
 # text = read book
 1	read	read	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
@@ -784,7 +806,7 @@
 
 # text = book boy
 1	book	book	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	boy	boy	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	boy	boy	n	_	_	1	dep	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = pictures in there
 1	pictures	picture	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 4 3 Eng-NA=null
@@ -799,7 +821,7 @@
 # text = Adam go get it
 1	Adam	Adam	n:prop	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
 2	go	go	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
-3	get	get	v	_	_	2	xcomp	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
+3	get	get	v	_	_	2	compound:svc	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
 4	it	it	pro:per	_	_	3	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
 
 # text = get stuck
@@ -817,7 +839,7 @@
 
 # text = wee wee way home
 1	wee	wee	adj	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-2	wee	wee	adj	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+2	wee	wee	adj	_	_	1	goeswith	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 3	way	way	adv	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 4	home	home	n	_	_	3	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
@@ -863,7 +885,7 @@
 1	Adam	Adam	n:prop	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
 2	sit	sit	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
 3	down	down	adv	_	_	2	compound:prt	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
-4	book	book	n	_	_	2	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
+4	book	book	n	_	_	2	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
 
 # text = Adam sit
 1	Adam	Adam	n:prop	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
@@ -877,32 +899,32 @@
 # text = Shadow go get it
 1	Shadow	Shadow	n:prop	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 2	go	go	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-3	get	get	v	_	_	2	xcomp	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+3	get	get	v	_	_	2	compound:svc	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 4	it	it	pro:per	_	_	3	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
 # text = go get it
-1	go	go	v	_	_	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	get	get	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	go	go	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	get	get	v	_	_	1	compound:svc	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 3	it	it	pro:per	_	_	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = diesel motor no no motor
-1	diesel	diesel	n	_	_	2	nmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
+1	diesel	diesel	n	_	_	2	compound	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
 2	motor	motor	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
-3	no	no	qn	_	_	5	discourse	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
-4	no	no	qn	_	_	3	conj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
+3	no	no	qn	_	_	4	reparandum:repetition	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
+4	no	no	qn	_	_	5	det	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
 5	motor	motor	n	_	_	2	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
 
 # text = tractor go floor
 1	tractor	tractor	n	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 2	go	go	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	floor	floor	n	_	_	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	floor	floor	n	_	_	2	obl	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = go floor
 1	go	go	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	floor	floor	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	floor	floor	n	_	_	1	obl	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = streamline coach
-1	streamline	streamline	v	_	_	2	amod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
+1	streamline	streamline	v	_	_	2	compound	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
 2	coach	coach	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
 
 # text = move rock
@@ -911,7 +933,7 @@
 
 # text = move power shovel
 1	move	move	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	power	power	n	_	_	3	nmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	power	power	n	_	_	3	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 3	shovel	shovel	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = snow plow
@@ -920,19 +942,22 @@
 
 # text = read bunny+rabbit
 1	read	read	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	bunny+rabbit	_	_	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	bunny	_	_	_	_	3	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+3	rabbit	_	_	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = put baby
 1	put	baby	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
 2	baby	_	_	_	_	1	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
 
 # text = moo+cow tractor
-1	moo+cow	tractor	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
-2	tractor	_	_	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
+1	moo	tractor	n	_	_	2	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
+2	cow	tractor	n	_	_	3	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
+3	tractor	_	_	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
 
 # text = moo+cow truck
-1	moo+cow	truck	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
-2	truck	_	_	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
+1	moo	truck	n	_	_	2	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
+2	cow	truck	n	_	_	3	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
+3	truck	_	_	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
 
 # text = Adam write hm
 1	Adam	Adam	n:prop	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
@@ -949,8 +974,8 @@
 3	write	write	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = paper write
-1	paper	paper	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	write	write	v	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	paper	paper	n	_	_	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	write	write	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = write the paper
 1	write	write	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
@@ -963,7 +988,7 @@
 
 # text = dining where eat
 1	dining	dine	part	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 3 Eng-NA=null
-2	where	where	pro:rel	_	_	3	advmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 3 Eng-NA=null
+2	where	where	pro:rel	_	_	1	advmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 3 Eng-NA=null
 3	eat	eat	v	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 3 Eng-NA=null
 
 # text = I get you
@@ -1016,7 +1041,7 @@
 2	Smith	Smith	n:prop	_	_	1	flat	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = my mine
-1	my	my	det:poss	_	_	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
+1	my	my	det:poss	_	_	2	reparandum	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
 2	mine	_	_	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
 
 # text = work with
@@ -1025,13 +1050,13 @@
 
 # text = old time train
 1	old	old	adj	_	_	2	amod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
-2	time	time	n	_	_	3	nmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
+2	time	time	n	_	_	3	compound	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
 3	train	train	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
 
 # text = train right dere
-1	train	train	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
+1	train	train	n	_	_	3	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
 2	right	right	adv	_	_	3	advmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
-3	dere	there	adv	_	_	1	nmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
+3	dere	there	adv	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
 
 # text = find pocket
 1	find	find	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
@@ -1060,7 +1085,7 @@
 
 # text = go floor take
 1	go	go	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
-2	floor	floor	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
+2	floor	floor	n	_	_	1	obl	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
 3	take	take	v	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
 
 # text = take off
@@ -1079,7 +1104,7 @@
 
 # text = write Adam take off paper
 1	write	write	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
-2	Adam	Adam	n:prop	_	_	1	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
+2	Adam	Adam	n:prop	_	_	3	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
 3	take	take	v	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
 4	off	off	prep	_	_	3	compound:prt	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
 5	paper	paper	n	_	_	3	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
@@ -1113,7 +1138,7 @@
 
 # text = Adam m
 1	Adam	Adam	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
-2	m	m	n:let	_	_	1	flat	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
+2	m	m	n:let	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
 
 # text = okay screwdriver
 1	okay	okay	co	_	_	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 1 2 Eng-NA=null
@@ -1147,9 +1172,9 @@
 
 # text = write pencil Adam a
 1	write	write	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
-2	pencil	pencil	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
-3	Adam	Adam	n:prop	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
-4	a	a	n:let	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
+2	pencil	pencil	n	_	_	1	dep	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
+3	Adam	Adam	n:prop	_	_	1	dep	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
+4	a	a	n:let	_	_	1	dep	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
 
 # text = put dirt up put dirt up put dirt up
 1	put	put	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 12 9 Eng-NA=null
@@ -1217,25 +1242,25 @@
 # text = beep beep screwdriver
 1	beep	beep	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
 2	beep	beep	n	_	_	1	goeswith	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
-3	screwdriver	_	_	_	_	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
+3	screwdriver	_	_	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 3 Eng-NA=null
 
 # text = Adam locomotive caboose
-1	Adam	Adam	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
+1	Adam	Adam	n:prop	_	_	3	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
 2	locomotive	locomotive	n	_	_	3	compound	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
-3	caboose	caboose	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
+3	caboose	caboose	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
 
 # text = like it screwdriver
-1	like	like	prep	_	_	2	case	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 3 Eng-NA=null
-2	it	it	pro:per	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 3 Eng-NA=null
+1	like	like	prep	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 3 Eng-NA=null
+2	it	it	pro:per	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 3 Eng-NA=null
 3	screwdriver	_	_	_	_	2	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 3 Eng-NA=null
 
 # text = Adam locomotive
-1	Adam	Adam	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
-2	locomotive	locomotive	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
+1	Adam	Adam	n:prop	_	_	2	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
+2	locomotive	locomotive	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
 
 # text = like it
-1	like	like	prep	_	_	2	case	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
-2	it	it	pro:per	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
+1	like	like	prep	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
+2	it	it	pro:per	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
 
 # text = I like a bulldozer
 1	I	I	pro:sub	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 6 4 Eng-NA=null
@@ -1285,12 +1310,12 @@
 # text = must go Catherine
 1	must	must	mod	_	_	2	aux	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 2	go	go	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	Catherine	Catherine	n:prop	_	_	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	Catherine	Catherine	n:prop	_	_	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = Catherine a dinner
-1	Catherine	Catherine	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
+1	Catherine	Catherine	n:prop	_	_	3	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
 2	a	a	det:art	_	_	3	det	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
-3	dinner	dinner	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
+3	dinner	dinner	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
 
 # text = Donz Duck
 1	Donz	Donz_Duck	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 1 1 Eng-NA=null
@@ -1328,7 +1353,7 @@
 
 # text = put dat pajamas on
 1	put	put	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 4 Eng-NA=null
-2	dat	that	pro:dem	_	_	3	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 4 Eng-NA=null
+2	dat	that	pro:dem	_	_	3	det	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 4 Eng-NA=null
 3	pajamas	pajamas	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 4 Eng-NA=null
 4	on	on	adv	_	_	1	compound:prt	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 4 Eng-NA=null
 
@@ -1347,8 +1372,8 @@
 4	car	car	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 4 Eng-NA=null
 
 # text = Joshua home
-1	Joshua	Joshua	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	home	home	n	_	_	1	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	Joshua	Joshua	n:prop	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	home	home	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = get Joshua
 1	get	get	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
@@ -1362,8 +1387,8 @@
 5	no	no	co	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
 
 # text = where racket
-1	where	where	pro:int	_	_	2	advmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 2 2 Eng-NA=null
-2	racket	racket	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 2 2 Eng-NA=null
+1	where	where	pro:int	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 2 2 Eng-NA=null
+2	racket	racket	n	_	_	1	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 2 2 Eng-NA=null
 
 # text = must go
 1	must	must	mod	_	_	2	aux	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
@@ -1416,8 +1441,8 @@
 2	box	box	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
 
 # text = my see that
-1	my	my	det:poss	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	see	see	v	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	my	my	det:poss	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	see	see	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 3	that	that	comp	_	_	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = Adam see that
@@ -1450,15 +1475,15 @@
 2	band	band	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = my play bulldozer hm
-1	my	my	det:poss	_	_	3	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 6 4 Eng-NA=null
-2	play	play	n	_	_	3	nmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 6 4 Eng-NA=null
-3	bulldozer	bulldoze	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 6 4 Eng-NA=null
-4	hm	hm	co	_	_	3	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 6 4 Eng-NA=null
+1	my	my	det:poss	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 6 4 Eng-NA=null
+2	play	play	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 6 4 Eng-NA=null
+3	bulldozer	bulldoze	n	_	_	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 6 4 Eng-NA=null
+4	hm	hm	co	_	_	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 6 4 Eng-NA=null
 
 # text = my Adam bulldozer
-1	my	my	det:poss	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 3 Eng-NA=null
-2	Adam	Adam	n:prop	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 3 Eng-NA=null
-3	bulldozer	bulldoze	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 3 Eng-NA=null
+1	my	my	det:poss	_	_	3	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 3 Eng-NA=null
+2	Adam	Adam	n:prop	_	_	3	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 3 Eng-NA=null
+3	bulldozer	bulldoze	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 3 Eng-NA=null
 
 # text = squ down
 1	squ	down	adv	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 1 2 Eng-NA=null
@@ -1510,8 +1535,8 @@
 4	ball	ball	n	_	_	3	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
 
 # text = my hit ball
-1	my	my	det:poss	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
-2	hit	hit	v	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+1	my	my	det:poss	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+2	hit	hit	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
 3	ball	ball	n	_	_	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
 
 # text = two sock
@@ -1521,7 +1546,7 @@
 # text = two like Adam two sock
 1	two	two	det:num	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
 2	like	like	v	_	_	3	case	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
-3	Adam	Adam	n:prop	_	_	1	nmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
+3	Adam	Adam	n:prop	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
 4	two	two	det:num	_	_	5	nummod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
 5	sock	sock	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
 
@@ -1531,12 +1556,12 @@
 
 # text = go get
 1	go	go	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	get	get	v	_	_	1	xcomp	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	get	get	v	_	_	1	compound:svc	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = Mommy go get it
 1	Mommy	Mommy	n:prop	_	_	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 2	go	go	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-3	get	get	v	_	_	2	xcomp	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+3	get	get	v	_	_	2	compound:svc	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 4	it	it	pro:per	_	_	3	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
 # text = hold hand Mommy
@@ -1549,9 +1574,9 @@
 2	hand	hand	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = right a arm
-1	right	right	co	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 3 Eng-NA=null
+1	right	right	co	_	_	3	discourse	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 3 Eng-NA=null
 2	a	arm	n	_	_	3	det	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 3 Eng-NA=null
-3	arm	_	_	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 3 Eng-NA=null
+3	arm	_	_	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 3 Eng-NA=null
 
 # text = Ricky tie dat
 1	Ricky	Ricky	n:prop	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
@@ -1564,11 +1589,11 @@
 
 # text = go block
 1	go	go	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
-2	block	block	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
+2	block	block	n	_	_	1	obl	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
 
 # text = go block get it
 1	go	go	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-2	block	block	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+2	block	block	n	_	_	1	obl	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 3	get	get	aux	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 4	it	it	pro:per	_	_	3	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
@@ -1577,9 +1602,9 @@
 2	qua	_	_	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 1 2 Eng-NA=null
 
 # text = two three block
-1	two	two	det:num	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	two	two	det:num	_	_	2	reparandum	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 2	three	three	det:num	_	_	3	nummod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	block	block	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	block	block	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = block in nere
 1	block	in	prep	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
@@ -1622,10 +1647,10 @@
 2	sir	sir	n	_	_	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = foot dere Joshua foot
-1	foot	foot	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
-2	dere	there	adv	_	_	1	advmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
+1	foot	foot	n	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
+2	dere	there	adv	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
 3	Joshua	Joshua	n:prop	_	_	4	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
-4	foot	foot	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
+4	foot	foot	n	_	_	2	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
 
 # text = foot Adam
 1	foot	foot	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown trail off 2 2 Eng-NA=null
@@ -1636,15 +1661,16 @@
 2	go	go	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = Adam busy bulldozer
-1	Adam	Adam	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 3 Eng-NA=null
+1	Adam	Adam	n:prop	_	_	3	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 3 Eng-NA=null
 2	busy	busy	adj	_	_	3	amod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 3 Eng-NA=null
-3	bulldozer	bulldoze	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 3 Eng-NA=null
+3	bulldozer	bulldoze	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 3 Eng-NA=null
 
 # text = Newmi up on there
-1	Newmi	Newmi	n:prop	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-2	up	up	adv	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+# Re-evaluate
+1	Newmi	Newmi	n:prop	_	_	4	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+2	up	up	adv	_	_	4	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 3	on	on	prep	_	_	4	case	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-4	there	there	adv	_	_	2	obl	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+4	there	there	adv	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
 # text = pick dirt up
 1	pick	pick	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
@@ -1686,22 +1712,22 @@
 
 # text = name man
 1	name	name	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	man	man	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	man	man	n	_	_	1	dep	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = like Adam sit down
-1	like	like	conj	_	_	2	case	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
-2	Adam	Adam	n:prop	_	_	3	obl	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
+1	like	like	conj	_	_	3	mark	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
+2	Adam	Adam	n:prop	_	_	3	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
 3	sit	sit	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
 4	down	down	adv	_	_	3	compound:prt	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
 
 # text = car mosquito
 1	car	car	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	mosquito	mosquito	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	mosquito	mosquito	n	_	_	1	dep	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = look car mosquito
-1	look	look	v	_	_	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	car	car	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	mosquito	mosquito	n	_	_	2	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	look	look	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	car	car	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	mosquito	mosquito	n	_	_	2	dep	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = pick dirt shovel up
 1	pick	pick	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
@@ -1735,8 +1761,8 @@
 3	dat	that	pro:rel	_	_	2	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown trail off 3 3 Eng-NA=null
 
 # text = to tomato
-1	to	to	prep	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	tomato	tomato	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	to	to	prep	_	_	2	reparandum	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	tomato	tomato	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = choo choo go
 1	choo	choo	on	_	_	3	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 2 Eng-NA=null
@@ -1837,14 +1863,14 @@
 # text = I go get it
 1	I	I	pro:sub	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 2	go	go	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-3	get	get	v	_	_	2	xcomp	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+3	get	get	v	_	_	2	compound:svc	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 4	it	it	pro:per	_	_	3	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
 # text = Daddy suitcase go get it
 1	Daddy	Daddy	n:prop	_	_	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
 2	suitcase	suitcase	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
 3	go	go	v	_	_	2	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
-4	get	get	v	_	_	3	xcomp	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
+4	get	get	v	_	_	3	compound:svc	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
 5	it	it	pro:per	_	_	4	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
 
 # text = put away
@@ -1897,7 +1923,7 @@
 # text = okay kitty okay
 1	okay	okay	co	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 2	kitty	kitty	n	_	_	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	okay	okay	adj	_	_	1	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	okay	okay	adj	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = lie down
 1	lie	lie	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
@@ -1952,7 +1978,7 @@
 
 # text = byebye bye
 1	byebye	byebye	co	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	bye	bye	co	_	_	1	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	bye	bye	co	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = where Daddy go
 1	where	where	pro:rel	_	_	3	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 3 3 Eng-NA=null
@@ -1995,8 +2021,8 @@
 2	fire	fire	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
 
 # text = okay doggie
-1	okay	okay	co	_	_	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
-2	doggie	dog	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
+1	okay	okay	co	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
+2	doggie	dog	n	_	_	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
 
 # text = find doggie
 1	find	find	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
@@ -2008,7 +2034,7 @@
 
 # text = give doggie
 1	give	give	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
-2	doggie	dog	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
+2	doggie	dog	n	_	_	1	iobj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
 
 # text = give doggie paper
 1	give	give	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
@@ -2016,9 +2042,9 @@
 3	paper	paper	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
 
 # text = yeah on table
-1	yeah	yeah	co	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
+1	yeah	yeah	co	_	_	3	discourse	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
 2	on	on	prep	_	_	3	case	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
-3	table	table	n	_	_	1	obl	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
+3	table	table	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
 
 # text = my mosquito
 1	my	my	det:poss	_	_	2	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
@@ -2030,8 +2056,8 @@
 
 # text = give paper pencil
 1	give	give	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	paper	paper	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	pencil	pencil	n	_	_	2	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	paper	paper	n	_	_	1	iobj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	pencil	pencil	n	_	_	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = hit mosquito
 1	hit	hit	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 2 Eng-NA=null
@@ -2064,7 +2090,7 @@
 2	record	record	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = Adam buy bulldozer
-1	Adam	Adam	n:prop	_	_	2	compound	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 3 Eng-NA=null
+1	Adam	Adam	n:prop	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 3 Eng-NA=null
 2	buy	buy	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 3 Eng-NA=null
 3	bulldozer	bulldoze	n	_	_	2	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 3 Eng-NA=null
 
@@ -2098,8 +2124,8 @@
 
 # text = drive up dere
 1	drive	drive	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
-2	up	up	prep	_	_	3	case	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
-3	dere	there	n	_	_	1	obl	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
+2	up	up	prep	_	_	3	advmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
+3	dere	there	n	_	_	1	advmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
 
 # text = record player
 1	record	record	n	_	_	2	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 2 Eng-NA=null
@@ -2116,8 +2142,8 @@
 3	player	play	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 3 Eng-NA=null
 
 # text = dere water
-1	dere	there	adv	_	_	2	nsubj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
-2	water	water	n	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
+1	dere	there	adv	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
+2	water	water	n	_	_	1	nsubj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
 
 # text = busy busy bulldozer
 1	busy	busy	adj	_	_	3	amod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 3 Eng-NA=null
@@ -2125,9 +2151,9 @@
 3	bulldozer	bulldoze	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 3 Eng-NA=null
 
 # text = water right dere
-1	water	water	n	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
+1	water	water	n	_	_	3	nsubj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
 2	right	right	adv	_	_	3	advmod	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
-3	dere	there	adv	_	_	1	advmod	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
+3	dere	there	adv	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
 
 # text = read dat
 1	read	read	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 2 Eng-NA=null
@@ -2135,7 +2161,7 @@
 
 # text = Jack Jill come
 1	Jack	Jack	n:prop	_	_	3	nsubj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
-2	Jill	Jill	n:prop	_	_	1	conj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
+2	Jill	Jill	n:prop	_	_	1	flat	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
 3	come	come	v	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
 
 # text = horn playing
@@ -2144,7 +2170,7 @@
 
 # text = Jack Jill
 1	Jack	Jack	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
-2	Jill	Jill	n:prop	_	_	1	conj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
+2	Jill	Jill	n:prop	_	_	1	flat	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
 
 # text = take suitcase
 1	take	take	v	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 2 2 Eng-NA=null
@@ -2153,8 +2179,8 @@
 # text = drive busy busy busy bulldozer
 1	drive	drive	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 7 5 Eng-NA=null
 2	busy	busy	adj	_	_	5	amod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 7 5 Eng-NA=null
-3	busy	busy	adj	_	_	5	amod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 7 5 Eng-NA=null
-4	busy	busy	adj	_	_	5	amod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 7 5 Eng-NA=null
+3	busy	busy	adj	_	_	2	conj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 7 5 Eng-NA=null
+4	busy	busy	adj	_	_	2	conj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 7 5 Eng-NA=null
 5	bulldozer	bulldoze	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 7 5 Eng-NA=null
 
 # text = hear horn
@@ -2162,15 +2188,15 @@
 2	horn	horn	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = here Urler
-1	here	here	adv	_	_	2	advmod	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
-2	Urler	Urler	chi	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
+1	here	here	adv	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
+2	Urler	Urler	chi	_	_	1	nsubj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
 
 # text = drive drive busy busy busy bulldozer
-1	drive	drive	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 7 6 Eng-NA=null
-2	drive	busy	adj	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 7 6 Eng-NA=null
+1	drive	drive	n	_	_	2	reparandum:repetition	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 7 6 Eng-NA=null
+2	drive	busy	adj	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 7 6 Eng-NA=null
 3	busy	busy	adj	_	_	6	amod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 7 6 Eng-NA=null
-4	busy	busy	adj	_	_	6	amod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 7 6 Eng-NA=null
-5	busy	bulldoze	n	_	_	6	amod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 7 6 Eng-NA=null
+4	busy	busy	adj	_	_	3	conj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 7 6 Eng-NA=null
+5	busy	bulldoze	n	_	_	3	conj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 7 6 Eng-NA=null
 6	bulldozer	_	_	_	_	2	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 7 6 Eng-NA=null
 
 # text = do n't Adam foot
@@ -2180,13 +2206,13 @@
 4	foot	foot	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 28.09913961272305 male Brown quotation next line 4 3 Eng-NA=null
 
 # text = home go
-1	home	home	adv	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
-2	go	go	v	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
+1	home	home	adv	_	_	2	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
+2	go	go	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
 
 # text = okay Kepi okay
 1	okay	okay	co	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 2	Kepi	Kepi	chi	_	_	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	okay	okay	co	_	_	1	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	okay	okay	co	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = where tractor go
 1	where	where	pro:rel	_	_	3	advmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 3 Eng-NA=null
@@ -2215,15 +2241,15 @@
 1	see	see	v	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 5 4 Eng-NA=null
 2	marching	march	n:gerund	_	_	3	compound	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 5 4 Eng-NA=null
 3	bear	bear	n	_	_	4	nsubj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 5 4 Eng-NA=null
-4	go	go	v	_	_	1	advcl	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 5 4 Eng-NA=null
+4	go	go	v	_	_	1	ccomp	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 5 4 Eng-NA=null
 
 # text = hi kitty
-1	hi	hi	co	_	_	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	kitty	kitty	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	hi	hi	co	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	kitty	kitty	n	_	_	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = what dat
-1	what	what	pro:int	_	_	2	nsubj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 2 2 Eng-NA=null
-2	dat	that	adv	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 2 2 Eng-NA=null
+1	what	what	pro:int	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 2 2 Eng-NA=null
+2	dat	that	adv	_	_	1	nsubj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 2 2 Eng-NA=null
 
 # text = I like a hammer
 1	I	I	pro:sub	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
@@ -2233,33 +2259,33 @@
 
 # text = ups a daisy
 1	ups	ups_a_daisy	co	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 1 1 Eng-NA=null
-2	a	a	combined	_	_	1	fixed	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 1 1 Eng-NA=null
-3	daisy	daisy	combined	_	_	1	fixed	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 1 1 Eng-NA=null
+2	a	a	combined	_	_	1	goeswith	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 1 1 Eng-NA=null
+3	daisy	daisy	combined	_	_	1	goeswith	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 1 1 Eng-NA=null
 
 # text = Mommy hammer
-1	Mommy	Mommy	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	hammer	hammer	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	Mommy	Mommy	n:prop	_	_	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	hammer	hammer	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = string string
 1	string	string	n	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
 2	string	string	n	_	_	1	conj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
 
 # text = up ups a daisy
-1	up	up	adv	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
-2	ups	ups_a_daisy	co	_	_	1	parataxis	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
-3	a	a	combined	_	_	2	fixed	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
-4	daisy	daisy	combined	_	_	2	fixed	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
+1	up	up	adv	_	_	2	reparandum	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
+2	ups	ups_a_daisy	co	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
+3	a	a	combined	_	_	2	goeswith	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
+4	daisy	daisy	combined	_	_	2	goeswith	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
 
 # text = tow truck train train track
 1	tow	tow	n	_	_	2	compound	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
 2	truck	truck	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
-3	train	train	n	_	_	2	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
+3	train	train	n	_	_	4	reparandum:repetition	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
 4	train	train	n	_	_	5	compound	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
 5	track	track	n	_	_	2	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
 
 # text = where book
-1	where	where	pro:int	_	_	2	advmod	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 2 2 Eng-NA=null
-2	book	book	n	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 2 2 Eng-NA=null
+1	where	where	pro:int	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 2 2 Eng-NA=null
+2	book	book	n	_	_	1	nsubj	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 2 2 Eng-NA=null
 
 # text = see in there
 1	see	see	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
@@ -2283,8 +2309,8 @@
 14	bulldozer	bulldoze	n	_	_	1	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 42 14 Eng-NA=null
 
 # text = sitting chair
-1	sitting	sit	part	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 3 2 Eng-NA=null
-2	chair	chair	n	_	_	1	obj	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 3 2 Eng-NA=null
+1	sitting	sit	part	_	_	2	amod	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 3 2 Eng-NA=null
+2	chair	chair	n	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 3 2 Eng-NA=null
 
 # text = bulldozer Mommy
 1	bulldozer	bulldoze	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 2 Eng-NA=null
@@ -2309,7 +2335,7 @@
 
 # text = come Cromer
 1	come	come	v	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 2 2 Eng-NA=null
-2	Cromer	Cromer	n:prop	_	_	1	parataxis	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 2 2 Eng-NA=null
+2	Cromer	Cromer	n:prop	_	_	1	vocative	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 2 2 Eng-NA=null
 
 # text = okay walk
 1	okay	okay	co	_	_	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
@@ -2352,7 +2378,7 @@
 # text = be out a way
 1	be	be	aux	_	_	4	cop	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 4 4 Eng-NA=null
 2	out	out	prep	_	_	4	case	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 4 4 Eng-NA=null
-3	a	a	det:art	_	_	4	case	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 4 4 Eng-NA=null
+3	a	a	det:art	_	_	4	det	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 4 4 Eng-NA=null
 4	way	way	n	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 4 4 Eng-NA=null
 
 # text = too man
@@ -2374,25 +2400,25 @@
 3	there	there	n	_	_	1	nmod	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 3 3 Eng-NA=null
 
 # text = Mommy get it ladder
-1	Mommy	Mommy	n:prop	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+1	Mommy	Mommy	n:prop	_	_	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 2	get	get	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 3	it	it	pro:per	_	_	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-4	ladder	ladder	n	_	_	3	dislocated	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+4	ladder	ladder	n	_	_	2	dislocated	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
 # text = oh no no screw part machine
-1	oh	oh	co	_	_	2	discourse	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 7 Eng-NA=null
-2	no	no	co	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 7 Eng-NA=null
-3	no	no	qn	_	_	2	conj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 7 Eng-NA=null
-4	screw	part	n	_	_	5	compound	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 7 Eng-NA=null
-5	part	machine	n	_	_	2	parataxis	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 7 Eng-NA=null
-6	machine	_	_	_	_	2	parataxis	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 7 Eng-NA=null
+1	oh	oh	co	_	_	4	discourse	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 7 Eng-NA=null
+2	no	no	co	_	_	4	discourse	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 7 Eng-NA=null
+3	no	no	qn	_	_	4	det	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 7 Eng-NA=null
+4	screw	part	n	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 7 Eng-NA=null
+5	part	machine	n	_	_	4	parataxis	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 7 Eng-NA=null
+6	machine	_	_	_	_	5	nmod	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 7 Eng-NA=null
 
 # text = Mommy get it my ladder
-1	Mommy	Mommy	n:prop	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
+1	Mommy	Mommy	n:prop	_	_	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
 2	get	get	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
 3	it	it	pro:per	_	_	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
 4	my	my	det:poss	_	_	5	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
-5	ladder	ladder	n	_	_	3	dislocated	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
+5	ladder	ladder	n	_	_	2	dislocated	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
 
 # text = hurry hurry
 1	hurry	hurry	n	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
@@ -2404,21 +2430,22 @@
 3	truck	truck	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = bunny+rabbit rabbit running
-1	bunny+rabbit	rabbit	n	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 3 3 Eng-NA=null
-2	rabbit	run	part	_	_	3	nsubj	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 3 3 Eng-NA=null
-3	running	_	_	_	_	1	parataxis	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 3 3 Eng-NA=null
+1	bunny	rabbit	n	_	_	3	compound	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 3 3 Eng-NA=null
+2	rabbit	rabbit	n	_	_	3	reparandum:repetition	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 3 3 Eng-NA=null
+3	rabbit	run	part	_	_	4	nsubj	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 3 3 Eng-NA=null
+4	running	_	_	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 3 3 Eng-NA=null
 
 # text = dat a screw
-1	dat	that	comp	_	_	3	nsubj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
+1	dat	that	comp	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
 2	a	a	det:art	_	_	3	det	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
-3	screw	screw	n	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
+3	screw	screw	n	_	_	1	nsubj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
 
 # text = circus Doctor Doctor Dan Dan book
 1	circus	circus	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 6 Eng-NA=null
-2	Doctor	Doctor	n:prop	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 6 Eng-NA=null
-3	Doctor	Dan	n:prop	_	_	2	conj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 6 Eng-NA=null
+2	Doctor	Doctor	n:prop	_	_	2	reparandum:repetition	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 6 Eng-NA=null
+3	Doctor	Dan	n:prop	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 6 Eng-NA=null
 4	Dan	Dan	n:prop	_	_	2	flat	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 6 Eng-NA=null
-5	Dan	book	n	_	_	4	conj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 6 Eng-NA=null
+5	Dan	book	n	_	_	6	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 6 Eng-NA=null
 6	book	_	_	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 6 Eng-NA=null
 
 # text = what shell doing
@@ -2427,7 +2454,7 @@
 3	doing	do	part	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 4 3 Eng-NA=null
 
 # text = Mommy put on
-1	Mommy	Mommy	n:prop	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+1	Mommy	Mommy	n:prop	_	_	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
 2	put	put	part	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
 3	on	on	prep	_	_	2	compound:prt	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
 
@@ -2462,8 +2489,8 @@
 4	it	it	pro:per	_	_	3	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
 # text = okay mommy
-1	okay	okay	co	_	_	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	mommy	mommy	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	okay	okay	co	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	mommy	mommy	n	_	_	1	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = put ladder
 1	put	put	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
@@ -2484,24 +2511,24 @@
 2	Daddy	Daddy	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
 
 # text = no put put belong
-1	no	no	co	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-2	put	put	part	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-3	put	belong	v	_	_	2	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
-4	belong	_	_	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+1	no	no	co	_	_	3	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+2	put	put	part	_	_	3	reparandum:repetition	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+3	put	belong	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
+4	belong	_	_	_	_	3	dep	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
 # text = happen paper
 1	happen	happen	v	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 2 2 Eng-NA=null
-2	paper	paper	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 2 2 Eng-NA=null
+2	paper	paper	n	_	_	1	dep	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 2 2 Eng-NA=null
 
 # text = oh no what dat
 1	oh	oh	co	_	_	3	discourse	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 4 5 Eng-NA=null
-2	no	no	co	_	_	1	discourse	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 4 5 Eng-NA=null
+2	no	no	co	_	_	3	discourse	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 4 5 Eng-NA=null
 3	what	that	adv	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 4 5 Eng-NA=null
 4	dat	_	_	_	_	3	nsubj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 4 5 Eng-NA=null
 
 # text = watch going
 1	watch	watch	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
-2	going	go	part	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
+2	going	go	part	_	_	1	xcomp	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
 
 # text = not tv not tv
 1	not	not	neg	_	_	2	advmod	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 4 4 Eng-NA=null
@@ -2518,7 +2545,7 @@
 2	paper	paper	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = no find penny
-1	no	no	co	_	_	2	advmod	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
+1	no	no	co	_	_	2	discourse	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
 2	find	find	v	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
 3	penny	penny	n	_	_	2	obj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
 
@@ -2528,9 +2555,9 @@
 3	paper	paper	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
 
 # text = my Cromer suitcase
-1	my	my	det:poss	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 3 Eng-NA=null
-2	Cromer	Cromer	n:prop	_	_	3	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 3 Eng-NA=null
-3	suitcase	suitcase	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 3 Eng-NA=null
+1	my	my	det:poss	_	_	2	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 3 Eng-NA=null
+2	Cromer	Cromer	n:prop	_	_	3	compound	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 3 Eng-NA=null
+3	suitcase	suitcase	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 3 Eng-NA=null
 
 # text = penny yeah
 1	penny	penny	n	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
@@ -2545,13 +2572,13 @@
 2	happen	happen	v	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 2 2 Eng-NA=null
 
 # text = mine paper
-1	mine	mine	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	paper	paper	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	mine	mine	n	_	_	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	paper	paper	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = put it pocket
 1	put	put	v	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 4 3 Eng-NA=null
 2	it	it	pro:per	_	_	1	obj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 4 3 Eng-NA=null
-3	pocket	pocket	v	_	_	1	obj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 4 3 Eng-NA=null
+3	pocket	pocket	v	_	_	1	obl	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 4 3 Eng-NA=null
 
 # text = what happen Mommy
 1	what	what	pro:int	_	_	2	nsubj	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 3 3 Eng-NA=null
@@ -2559,8 +2586,8 @@
 3	Mommy	Mommy	n:prop	_	_	2	vocative	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 3 3 Eng-NA=null
 
 # text = Cromer Cromer suitcase
-1	Cromer	Cromer	n:prop	_	_	3	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
-2	Cromer	Cromer	n:prop	_	_	1	conj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
+1	Cromer	Cromer	n:prop	_	_	2	reparandum:repetition	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
+2	Cromer	Cromer	n:prop	_	_	3	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
 3	suitcase	suitcase	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 3 3 Eng-NA=null
 
 # text = no my paper
@@ -2630,7 +2657,7 @@
 
 # text = come from for
 1	come	come	v	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 3 3 Eng-NA=null
-2	from	from	prep	_	_	3	case	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 3 3 Eng-NA=null
+2	from	from	prep	_	_	3	reparandum	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 3 3 Eng-NA=null
 3	for	for	prep	_	_	1	obl	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 3 3 Eng-NA=null
 
 # text = go go go
@@ -2681,7 +2708,7 @@
 2	box	box	n	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 2 2 Eng-NA=null
 
 # text = Adam ride tow truck
-1	Adam	Adam	n:prop	_	_	2	compound	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
+1	Adam	Adam	n:prop	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
 2	ride	ride	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
 3	tow	tow	n	_	_	4	compound	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
 4	truck	truck	n	_	_	2	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 4 Eng-NA=null
@@ -2692,10 +2719,10 @@
 
 # text = put Miss Munroe tow truck
 1	put	put	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 6 5 Eng-NA=null
-2	Miss	Miss	n:prop	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 6 5 Eng-NA=null
+2	Miss	Miss	n:prop	_	_	5	compound	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 6 5 Eng-NA=null
 3	Munroe	Munroe	n:prop	_	_	2	flat	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 6 5 Eng-NA=null
 4	tow	tow	n	_	_	5	compound	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 6 5 Eng-NA=null
-5	truck	truck	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 6 5 Eng-NA=null
+5	truck	truck	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 6 5 Eng-NA=null
 
 # text = dat box
 1	dat	that	det:dem	_	_	2	det	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 2 2 Eng-NA=null
@@ -2714,8 +2741,8 @@
 2	Mommy	Mommy	n:prop	_	_	1	vocative	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 2 2 Eng-NA=null
 
 # text = where doggie
-1	where	where	pro:int	_	_	2	advmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 2 Eng-NA=null
-2	doggie	dog	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 2 Eng-NA=null
+1	where	where	pro:int	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 2 Eng-NA=null
+2	doggie	dog	n	_	_	1	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 2 Eng-NA=null
 
 # text = write Urler
 1	write	write	v	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
@@ -2734,24 +2761,24 @@
 2	Perro	Perro	n:prop	_	_	1	obj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
 
 # text = sit chair
-1	sit	sit	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
-2	chair	chair	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+1	sit	sit	v	_	_	2	amod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
+2	chair	chair	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = my doggie
 1	my	my	det:poss	_	_	2	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 2 Eng-NA=null
 2	doggie	dog	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 2 Eng-NA=null
 
 # text = one Mommy
-1	one	one	det:num	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
-2	Mommy	Mommy	n:prop	_	_	1	parataxis	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
+1	one	one	det:num	_	_	2	nummod	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
+2	Mommy	Mommy	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
 
 # text = Daddy chair
 1	Daddy	Daddy	n:prop	_	_	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 2	chair	chair	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = one Daddy
-1	one	one	det:num	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
-2	Daddy	Daddy	n:prop	_	_	1	parataxis	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
+1	one	one	det:num	_	_	2	nummod	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
+2	Daddy	Daddy	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
 
 # text = you right hand
 1	you	you	pro:per	_	_	3	nmod:poss	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
@@ -2768,10 +2795,10 @@
 3	pretty	pretty	adv	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 3 3 Eng-NA=null
 
 # text = no Daddy chair home soon
-1	no	no	co	_	_	3	det	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
+1	no	no	co	_	_	4	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
 2	Daddy	Daddy	n:prop	_	_	3	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
-3	chair	chair	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
-4	home	home	adv	_	_	3	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
+3	chair	chair	n	_	_	4	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
+4	home	home	adv	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
 5	soon	soon	adv	_	_	4	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 5 Eng-NA=null
 
 # text = jelly Mommy
@@ -2784,7 +2811,7 @@
 
 # text = put Texaco star
 1	put	put	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 3 Eng-NA=null
-2	Texaco	Texaco	n:prop	_	_	3	nmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 3 Eng-NA=null
+2	Texaco	Texaco	n:prop	_	_	3	compound	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 3 Eng-NA=null
 3	star	star	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 4 3 Eng-NA=null
 
 # text = sit water
@@ -2833,8 +2860,8 @@
 
 # text = ups a daisy caught it
 1	ups	ups_a_daisy	co	_	_	4	discourse	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 4 3 Eng-NA=null
-2	a	a	combined	_	_	1	fixed	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 4 3 Eng-NA=null
-3	daisy	daisy	combined	_	_	1	fixed	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 4 3 Eng-NA=null
+2	a	a	combined	_	_	1	goeswith	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 4 3 Eng-NA=null
+3	daisy	daisy	combined	_	_	1	goeswith	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 4 3 Eng-NA=null
 4	caught	catch	v	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 4 3 Eng-NA=null
 5	it	it	pro:per	_	_	4	obj	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 4 3 Eng-NA=null
 
@@ -2853,26 +2880,26 @@
 
 # text = tell Urler
 1	tell	tell	v	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
-2	Urler	Urler	chi	_	_	1	obj	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
+2	Urler	Urler	chi	_	_	1	iobj	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
 
 # text = oh no hurt
 1	oh	oh	co	_	_	3	discourse	Adam CHI Target_Child	Adam 28.09913961272305 male Brown trail off 4 3 Eng-NA=null
-2	no	no	co	_	_	1	discourse	Adam CHI Target_Child	Adam 28.09913961272305 male Brown trail off 4 3 Eng-NA=null
+2	no	no	co	_	_	3	discourse	Adam CHI Target_Child	Adam 28.09913961272305 male Brown trail off 4 3 Eng-NA=null
 3	hurt	hurt	part	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown trail off 4 3 Eng-NA=null
 
 # text = tape recorder hurt
 1	tape	tape	n	_	_	2	compound	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 3 Eng-NA=null
-2	recorder	record	n	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 3 Eng-NA=null
-3	hurt	hurt	v	_	_	2	parataxis	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 3 Eng-NA=null
+2	recorder	record	n	_	_	3	nsubj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 3 Eng-NA=null
+3	hurt	hurt	v	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 3 Eng-NA=null
 
 # text = Mommy tea yeah
-1	Mommy	Mommy	n:prop	_	_	2	nmod:poss	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	Mommy	Mommy	n:prop	_	_	2	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 2	tea	tea	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 3	yeah	yeah	co	_	_	2	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = screwdriver hurt
-1	screwdriver	hurt	v	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
-2	hurt	_	_	_	_	1	parataxis	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
+1	screwdriver	hurt	v	_	_	2	nsubj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
+2	hurt	_	_	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
 
 # text = more tea Mommy
 1	more	more	qn	_	_	2	amod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
@@ -2905,7 +2932,7 @@
 1	put	put	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 4 Eng-NA=null
 2	Adam	Adam	n:prop	_	_	4	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 4 Eng-NA=null
 3	two	two	det:num	_	_	4	nummod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 4 Eng-NA=null
-4	boot	boot	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 4 Eng-NA=null
+4	boot	boot	n	_	_	1	obl	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 4 Eng-NA=null
 
 # text = screw firetruck
 1	screw	screw	n	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown question 1 2 Eng-NA=null
@@ -2987,7 +3014,7 @@
 3	Tuffy	Tuffy	n:prop	_	_	2	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = turkey pine
-1	turkey	turkey	n	_	_	2	nmod	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 2 2 Eng-NA=null
+1	turkey	turkey	n	_	_	2	compound	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 2 2 Eng-NA=null
 2	pine	pine	n	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 2 2 Eng-NA=null
 
 # text = red red
@@ -3014,15 +3041,15 @@
 3	off	off	adv	_	_	1	compound:prt	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 3 Eng-NA=null
 
 # text = nose off
-1	nose	nose	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 2 2 Eng-NA=null
-2	off	off	adv	_	_	1	advmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 2 2 Eng-NA=null
+1	nose	nose	n	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 2 2 Eng-NA=null
+2	off	off	adv	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 2 2 Eng-NA=null
 
 # text = hurt truck
 1	hurt	hurt	v	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 2 Eng-NA=null
 2	truck	truck	n	_	_	1	obj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 2 Eng-NA=null
 
 # text = no sunny outside
-1	no	no	co	_	_	2	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 3 Eng-NA=null
+1	no	no	co	_	_	2	det	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 3 Eng-NA=null
 2	sunny	sun	adj	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 3 Eng-NA=null
 3	outside	outside	adv	_	_	2	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 5 3 Eng-NA=null
 
@@ -3050,8 +3077,8 @@
 3	Mommy	Mommy	n:prop	_	_	2	vocative	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 4 3 Eng-NA=null
 
 # text = my find paper
-1	my	find	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
-2	find	paper	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
+1	my	find	v	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
+2	find	paper	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
 3	paper	_	_	_	_	2	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
 
 # text = take nose off
@@ -3060,13 +3087,13 @@
 3	off	off	adv	_	_	1	compound:prt	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 3 Eng-NA=null
 
 # text = man right dere
-1	man	man	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-2	right	right	adv	_	_	3	goeswith	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
-3	dere	there	adv	_	_	1	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+1	man	man	n	_	_	3	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+2	right	right	adv	_	_	3	advmod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
+3	dere	there	adv	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
 
 # text = what dat some
-1	what	what	pro:int	_	_	2	nsubj	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 3 3 Eng-NA=null
-2	dat	that	det:dem	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 3 3 Eng-NA=null
+1	what	what	pro:int	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 3 3 Eng-NA=null
+2	dat	that	det:dem	_	_	1	nsubj	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 3 3 Eng-NA=null
 3	some	some	qn	_	_	2	parataxis	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 3 3 Eng-NA=null
 
 # text = put together
@@ -3080,13 +3107,13 @@
 
 # text = oh no put together
 1	oh	oh	co	_	_	3	discourse	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 5 4 Eng-NA=null
-2	no	no	co	_	_	1	discourse	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 5 4 Eng-NA=null
+2	no	no	co	_	_	3	discourse	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 5 4 Eng-NA=null
 3	put	put	v	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 5 4 Eng-NA=null
 4	together	together	adv	_	_	3	advmod	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 5 4 Eng-NA=null
 
 # text = show you
 1	show	show	v	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 2 2 Eng-NA=null
-2	you	you	pro:per	_	_	1	obj	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 2 2 Eng-NA=null
+2	you	you	pro:per	_	_	1	iobj	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 2 2 Eng-NA=null
 
 # text = get truck
 1	get	get	v	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
@@ -3113,12 +3140,12 @@
 
 # text = you nose off
 1	you	you	pro:per	_	_	2	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 3 Eng-NA=null
-2	nose	nose	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 3 Eng-NA=null
-3	off	off	adv	_	_	2	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 3 Eng-NA=null
+2	nose	nose	v	_	_	3	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 3 Eng-NA=null
+3	off	off	adv	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 3 3 Eng-NA=null
 
 # text = truck look
 1	truck	truck	n	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
-2	look	look	v	_	_	1	discourse	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
+2	look	look	v	_	_	1	parataxis	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 2 2 Eng-NA=null
 
 # text = excuse me Perro
 1	excuse	excuse	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 3 Eng-NA=null
@@ -3134,15 +3161,15 @@
 2	hm	hm	co	_	_	1	discourse	Adam CHI Target_Child	Adam 27.131973962504365 male Brown question 2 2 Eng-NA=null
 
 # text = too man take nose off
-1	too	too_man	chi	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
+1	too	too_man	chi	_	_	2	compound	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
 2	man	man	combined	_	_	3	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
-3	take	take	v	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
+3	take	take	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
 4	nose	nose	n	_	_	3	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
 5	off	off	adv	_	_	3	compound:prt	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
 
 # text = oh no busy bulldozer
 1	oh	oh	co	_	_	4	discourse	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 4 Eng-NA=null
-2	no	no	co	_	_	1	discourse	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 4 Eng-NA=null
+2	no	no	co	_	_	4	discourse	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 4 Eng-NA=null
 3	busy	busy	adj	_	_	4	amod	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 4 Eng-NA=null
 4	bulldozer	bulldoze	n	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 4 Eng-NA=null
 
@@ -3157,21 +3184,21 @@
 
 # text = take lion nose off
 1	take	take	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
-2	lion	lion	n	_	_	3	compound	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
+2	lion	lion	n	_	_	3	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
 3	nose	nose	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
 4	off	off	adv	_	_	1	compound:prt	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
 
 # text = dat busy bulldozer truck
-1	dat	that	det:dem	_	_	4	det	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 4 Eng-NA=null
+1	dat	that	det:dem	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 4 Eng-NA=null
 2	busy	busy	adj	_	_	4	amod	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 4 Eng-NA=null
 3	bulldozer	bulldoze	n	_	_	4	compound	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 4 Eng-NA=null
-4	truck	truck	n	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 4 Eng-NA=null
+4	truck	truck	n	_	_	1	nsubj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 6 4 Eng-NA=null
 
 # text = go get go get it Mommy
-1	go	go	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 6 Eng-NA=null
-2	get	get	v	_	_	1	xcomp	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 6 Eng-NA=null
-3	go	it	pro:per	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 6 Eng-NA=null
-4	get	Mommy	n:prop	_	_	3	xcomp	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 6 Eng-NA=null
+1	go	go	v	_	_	3	reparandum:repetition	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 6 Eng-NA=null
+2	get	get	v	_	_	1	compound:svc	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 6 Eng-NA=null
+3	go	it	pro:per	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 6 Eng-NA=null
+4	get	Mommy	n:prop	_	_	3	compound:svc	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 6 Eng-NA=null
 5	it	_	_	_	_	4	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 6 Eng-NA=null
 6	Mommy	_	_	_	_	3	vocative	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 6 Eng-NA=null
 
@@ -3182,7 +3209,7 @@
 
 # text = go dere Mommy
 1	go	go	v	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 3 3 Eng-NA=null
-2	dere	there	adv	_	_	1	obj	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 3 3 Eng-NA=null
+2	dere	there	adv	_	_	1	advmod	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 3 3 Eng-NA=null
 3	Mommy	Mommy	n:prop	_	_	1	vocative	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 3 3 Eng-NA=null
 
 # text = doggie take nose off
@@ -3197,17 +3224,17 @@
 3	bulldozer	bulldoze	n	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 5 3 Eng-NA=null
 
 # text = turkey pine turkey pine
-1	turkey	turkey	n	_	_	2	nmod	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 4 4 Eng-NA=null
+1	turkey	turkey	n	_	_	2	compound	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 4 4 Eng-NA=null
 2	pine	pine	n	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 4 4 Eng-NA=null
-3	turkey	turkey	n	_	_	4	nmod	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 4 4 Eng-NA=null
+3	turkey	turkey	n	_	_	4	compound	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 4 4 Eng-NA=null
 4	pine	pine	n	_	_	2	conj	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 4 4 Eng-NA=null
 
 # text = take nose Adam nose off
 1	take	take	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 5 5 Eng-NA=null
-2	nose	nose	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 5 5 Eng-NA=null
+2	nose	nose	n	_	_	4	reparandum	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 5 5 Eng-NA=null
 3	Adam	Adam	n:prop	_	_	4	nmod:poss	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 5 5 Eng-NA=null
-4	nose	nose	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 5 5 Eng-NA=null
-5	off	off	adv	_	_	4	advmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 5 5 Eng-NA=null
+4	nose	nose	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 5 5 Eng-NA=null
+5	off	off	adv	_	_	1	advmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 5 5 Eng-NA=null
 
 # text = put water in
 1	put	put	v	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
@@ -3215,14 +3242,14 @@
 3	in	_	_	_	_	1	compound:prt	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 4 4 Eng-NA=null
 
 # text = pretty Mommy
-1	pretty	pretty	adv	_	_	2	amod	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 2 2 Eng-NA=null
-2	Mommy	Mommy	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 2 2 Eng-NA=null
+1	pretty	pretty	adv	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 2 2 Eng-NA=null
+2	Mommy	Mommy	n:prop	_	_	1	vocative	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 2 2 Eng-NA=null
 
 # text = one one one pretty
-1	one	one	det:num	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 4 4 Eng-NA=null
-2	one	one	det:num	_	_	1	conj	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 4 4 Eng-NA=null
-3	one	one	det:num	_	_	1	conj	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 4 4 Eng-NA=null
-4	pretty	pretty	adv	_	_	1	amod	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 4 4 Eng-NA=null
+1	one	one	det:num	_	_	3	reparandum:repetition	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 4 4 Eng-NA=null
+2	one	one	det:num	_	_	3	reparandum:repetition	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 4 4 Eng-NA=null
+3	one	one	det:num	_	_	4	nummod	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 4 4 Eng-NA=null
+4	pretty	pretty	adv	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 4 4 Eng-NA=null
 
 # text = Urler right dere yellow
 1	Urler	Urler	chi	_	_	3	nsubj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 4 4 Eng-NA=null
@@ -3235,8 +3262,8 @@
 2	water	water	n	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 2 Eng-NA=null
 
 # text = over Mommy
-1	over	over	adv	_	_	2	case	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 2 2 Eng-NA=null
-2	Mommy	Mommy	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 2 2 Eng-NA=null
+1	over	over	adv	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 2 2 Eng-NA=null
+2	Mommy	Mommy	n:prop	_	_	1	vocative	Adam CHI Target_Child	Adam 28.493398221729397 male Brown question 2 2 Eng-NA=null
 
 # text = Urler right dere
 1	Urler	Urler	chi	_	_	3	nsubj	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
@@ -3245,20 +3272,20 @@
 
 # text = no Adam too man take nose off
 1	no	no	co	_	_	2	discourse	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 6 6 Eng-NA=null
-2	Adam	Adam	n:prop	_	_	5	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 6 6 Eng-NA=null
-3	too	too_man	chi	_	_	2	advmod	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 6 6 Eng-NA=null
+2	Adam	Adam	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 6 6 Eng-NA=null
+3	too	too_man	chi	_	_	4	compound	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 6 6 Eng-NA=null
 4	man	man	combined	_	_	5	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 6 6 Eng-NA=null
-5	take	take	v	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 6 6 Eng-NA=null
+5	take	take	v	_	_	2	parataxis	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 6 6 Eng-NA=null
 6	nose	nose	n	_	_	5	obj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 6 6 Eng-NA=null
 7	off	off	adv	_	_	5	compound:prt	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 6 6 Eng-NA=null
 
 # text = pine turkey
-1	pine	pine	n	_	_	2	nmod	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 2 2 Eng-NA=null
+1	pine	pine	n	_	_	2	compound	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 2 2 Eng-NA=null
 2	turkey	turkey	n	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 2 2 Eng-NA=null
 
 # text = Perro off
-1	Perro	Perro	n:prop	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
-2	off	off	adv	_	_	1	advmod	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
+1	Perro	Perro	n:prop	_	_	2	nsubj	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
+2	off	off	adv	_	_	0	root	Adam CHI Target_Child	Adam 28.493398221729397 male Brown declarative 2 2 Eng-NA=null
 
 # text = Adam too take nose off
 1	Adam	Adam	n:prop	_	_	3	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 5 5 Eng-NA=null
@@ -3269,18 +3296,18 @@
 
 # text = put together again
 1	put	put	v	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 4 3 Eng-NA=null
-2	together	together	adv	_	_	1	compound:prt	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 4 3 Eng-NA=null
+2	together	together	adv	_	_	1	advmod	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 4 3 Eng-NA=null
 3	again	again	adv	_	_	1	advmod	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 4 3 Eng-NA=null
 
 # text = Adam drive drive record
-1	Adam	Adam	n:prop	_	_	2	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
-2	drive	drive	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
-3	drive	record	n	_	_	2	conj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
-4	record	_	_	_	_	2	parataxis	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
+1	Adam	Adam	n:prop	_	_	3	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
+2	drive	drive	n	_	_	3	reparandum:repetition	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
+3	drive	record	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
+4	record	_	_	_	_	3	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 3 4 Eng-NA=null
 
 # text = there find
-1	there	there	adv	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 2 2 Eng-NA=null
-2	find	find	v	_	_	1	parataxis	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 2 2 Eng-NA=null
+1	there	there	adv	_	_	2	advmod	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 2 2 Eng-NA=null
+2	find	find	v	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 2 2 Eng-NA=null
 
 # text = Donz Duck take nose off
 1	Donz	Donz_Duck	n:prop	_	_	3	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
@@ -3304,8 +3331,8 @@
 
 # text = tape recorder funny
 1	tape	tape	n	_	_	2	compound	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 7 3 Eng-NA=null
-2	recorder	record	n	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 7 3 Eng-NA=null
-3	funny	fun	adj	_	_	2	amod	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 7 3 Eng-NA=null
+2	recorder	record	n	_	_	3	nsubj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 7 3 Eng-NA=null
+3	funny	fun	adj	_	_	0	root	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 7 3 Eng-NA=null
 
 # text = fire take nose off
 1	fire	fire	n	_	_	2	nsubj	Adam CHI Target_Child	Adam 27.59194233967843 male Brown question 4 4 Eng-NA=null
@@ -3371,13 +3398,13 @@
 2	dat	that	pro:dem	_	_	1	obj	Adam CHI Target_Child	Adam 27.131973962504365 male Brown declarative 2 2 Eng-NA=null
 
 # text = taper out
-1	taper	taper	chi	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 2 2 Eng-NA=null
-2	out	out	adv	_	_	1	advmod	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 2 2 Eng-NA=null
+1	taper	taper	chi	_	_	2	nsubj	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 2 2 Eng-NA=null
+2	out	out	adv	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown question 2 2 Eng-NA=null
 
 # text = reel tape round
 1	reel	reel	n	_	_	2	compound	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 3 3 Eng-NA=null
-2	tape	tape	n	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 3 3 Eng-NA=null
-3	round	round	adv	_	_	2	amod	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 3 3 Eng-NA=null
+2	tape	tape	n	_	_	3	nsubj	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 3 3 Eng-NA=null
+3	round	round	adv	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 3 3 Eng-NA=null
 
 # text = look like one
 1	look	look	v	_	_	0	root	Adam CHI Target_Child	Adam 28.09913961272305 male Brown declarative 3 3 Eng-NA=null
@@ -3423,7 +3450,7 @@
 2	man	man	n	_	_	0	root	Adam CHI Target_Child	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
 
 # text = Mommy will haf ta take you down
-1	Mommy	Mommy	n:prop	_	_	3	nsubj	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 7 6 Eng-NA=null
+1	Mommy	Mommy	n:prop	_	_	3	vocative	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 7 6 Eng-NA=null
 2	will	will	mod	_	_	3	aux	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 7 6 Eng-NA=null
 3	haf	have	v	_	_	0	root	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 7 6 Eng-NA=null
 4	ta	to	inf	_	_	5	mark	Adam CHI Target_Child	Adam 28.98622148298733 male Brown declarative 7 6 Eng-NA=null

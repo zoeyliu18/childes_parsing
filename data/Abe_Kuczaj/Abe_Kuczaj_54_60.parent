@@ -154,14 +154,15 @@
 4	going	go	part	0	root	0	root	None FAT Father	Abe 54.03396373642169 male Kuczaj question 6 4 Eng-NA=null
 
 # text = yeah do you know why
+# Re-evaluate
 1	yeah	yeah	co	4	discourse	4	discourse	None MOT Mother	Abe 54.16538327275714 male Kuczaj question 5 5 Eng-NA=null
 2	do	do	mod	4	aux	4	aux	None MOT Mother	Abe 54.16538327275714 male Kuczaj question 5 5 Eng-NA=null
 3	you	you	pro:per	4	nsubj	4	nsubj	None MOT Mother	Abe 54.16538327275714 male Kuczaj question 5 5 Eng-NA=null
 4	know	know	v	0	root	0	root	None MOT Mother	Abe 54.16538327275714 male Kuczaj question 5 5 Eng-NA=null
-5	why	why	pro:rel	4	advmod	4	advmod	None MOT Mother	Abe 54.16538327275714 male Kuczaj question 5 5 Eng-NA=null
+5	why	why	pro:rel	4	advmod	4	obj	None MOT Mother	Abe 54.16538327275714 male Kuczaj question 5 5 Eng-NA=null
 
 # text = well what do you think would happen if instead of going outside I hit you in the head
-1	well	well	co	7	discourse	7	discourse	None FAT Father	Abe 54.03396373642169 male Kuczaj question 21 18 Eng-NA=null
+1	well	well	co	5	discourse	5	discourse	None FAT Father	Abe 54.03396373642169 male Kuczaj question 21 18 Eng-NA=null
 2	what	what	pro:int	7	nsubj	7	nsubj	None FAT Father	Abe 54.03396373642169 male Kuczaj question 21 18 Eng-NA=null
 3	do	do	mod	5	aux	5	aux	None FAT Father	Abe 54.03396373642169 male Kuczaj question 21 18 Eng-NA=null
 4	you	you	pro:per	5	nsubj	5	nsubj	None FAT Father	Abe 54.03396373642169 male Kuczaj question 21 18 Eng-NA=null
@@ -188,12 +189,13 @@
 5	knee	knee	n	2	obl	2	obl	None FAT Father	Abe 54.03396373642169 male Kuczaj question 6 5 Eng-NA=null
 
 # text = how did you make your paper cast
+# Re-evaluate
 1	how	how	pro:int	4	advmod	4	advmod	None FAT Father	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
 2	did	do	mod	4	aux	4	aux	None FAT Father	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
 3	you	you	pro:per	4	nsubj	4	nsubj	None FAT Father	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
 4	make	make	v	0	root	0	root	None FAT Father	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
 5	your	your	det:poss	7	nmod:poss	7	nmod:poss	None FAT Father	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
-6	paper	paper	n	7	nmod	7	nmod	None FAT Father	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
+6	paper	paper	n	7	nmod	7	compound	None FAT Father	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
 7	cast	cast	v	4	obj	4	obj	None FAT Father	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
 
 # text = oh animals snakes plants scorpions
@@ -295,7 +297,7 @@
 1	did	do	mod	_	_	3	aux	None MOT Mother	Abe 54.03396373642169 male Kuczaj question 14 13 Eng-NA
 2	you	you	pro:per	_	_	3	nsubj	None MOT Mother	Abe 54.03396373642169 male Kuczaj question 14 13 Eng-NA
 3	tell	tell	v	_	_	0	root	None MOT Mother	Abe 54.03396373642169 male Kuczaj question 14 13 Eng-NA
-4	Daddy	Daddy	n:prop	_	_	3	obj	None MOT Mother	Abe 54.03396373642169 male Kuczaj question 14 13 Eng-NA
+4	Daddy	Daddy	n:prop	_	_	3	iobj	None MOT Mother	Abe 54.03396373642169 male Kuczaj question 14 13 Eng-NA
 5	about	about	prep	_	_	7	case	None MOT Mother	Abe 54.03396373642169 male Kuczaj question 14 13 Eng-NA
 6	the	the	det:art	_	_	7	det	None MOT Mother	Abe 54.03396373642169 male Kuczaj question 14 13 Eng-NA
 7	guy	guy	n	_	_	3	obl	None MOT Mother	Abe 54.03396373642169 male Kuczaj question 14 13 Eng-NA
@@ -349,7 +351,7 @@
 12	in	in	prep	_	_	14	case	None FAT Father	Abe 54.03396373642169 male Kuczaj question 17 15 Eng-NA
 13	his	his	det:poss	_	_	14	nmod:poss	None FAT Father	Abe 54.03396373642169 male Kuczaj question 17 15 Eng-NA
 14	pocket	pocket	n	_	_	9	obl	None FAT Father	Abe 54.03396373642169 male Kuczaj question 17 15 Eng-NA
-15	Abe	Abe	n:prop	_	_	6	vocative	None FAT Father	Abe 54.03396373642169 male Kuczaj question 17 15 Eng-NA
+15	Abe	Abe	n:prop	_	_	4	vocative	None FAT Father	Abe 54.03396373642169 male Kuczaj question 17 15 Eng-NA
 
 # text = that was spring
 1	that	that	pro:dem	_	_	3	nsubj	None FAT Father	Abe 54.16538327275714 male Kuczaj declarative 5 3 Eng-NA
@@ -445,7 +447,7 @@
 2	I	I	pro:sub	_	_	4	nsubj	None FAT Father	Abe 54.4610772295119 male Kuczaj question 11 9 Eng-NA
 3	should	should	mod	_	_	4	aux	None FAT Father	Abe 54.4610772295119 male Kuczaj question 11 9 Eng-NA
 4	go	go	v	_	_	0	root	None FAT Father	Abe 54.4610772295119 male Kuczaj question 11 9 Eng-NA
-5	look	look	v	_	_	4	xcomp	None FAT Father	Abe 54.4610772295119 male Kuczaj question 11 9 Eng-NA
+5	look	look	v	_	_	4	compound:svc	None FAT Father	Abe 54.4610772295119 male Kuczaj question 11 9 Eng-NA
 6	at	at	prep	_	_	7	case	None FAT Father	Abe 54.4610772295119 male Kuczaj question 11 9 Eng-NA
 7	John	John	n	_	_	5	obl	None FAT Father	Abe 54.4610772295119 male Kuczaj question 11 9 Eng-NA
 8	's	's	poss	_	_	7	case	None FAT Father	Abe 54.4610772295119 male Kuczaj question 11 9 Eng-NA
@@ -456,7 +458,7 @@
 1	oh	oh	co	_	_	2	discourse	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 9 8 Eng-NA
 2	come	come	v	_	_	0	root	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 9 8 Eng-NA
 3	over	over	prep	_	_	4	case	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 9 8 Eng-NA
-4	here	here	n	_	_	2	advmod	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 9 8 Eng-NA
+4	here	here	n	_	_	2	obl	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 9 8 Eng-NA
 5	and	and	coord	_	_	6	cc	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 9 8 Eng-NA
 6	get	get	aux	_	_	2	conj	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 9 8 Eng-NA
 7	dressed	dress	part	_	_	6	xcomp	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 9 8 Eng-NA
@@ -466,13 +468,13 @@
 1	I	_	_	_	_	3	nsubj	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 14 12 Eng-NA
 2	'll	_	_	_	_	3	aux	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 14 12 Eng-NA
 3	go	_	_	_	_	0	root	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 14 12 Eng-NA
-4	look	_	_	_	_	3	xcomp	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 14 12 Eng-NA
+4	look	_	_	_	_	3	compound:svc	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 14 12 Eng-NA
 5	at	_	_	_	_	6	case	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 14 12 Eng-NA
 6	it	_	_	_	_	4	obl	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 14 12 Eng-NA
 7	later	_	_	_	_	4	advmod	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 14 12 Eng-NA
 8	and	_	_	_	_	9	cc	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 14 12 Eng-NA
 9	see	_	_	_	_	4	conj	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 14 12 Eng-NA
-10	how	_	_	_	_	12	advmod	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 14 12 Eng-NA
+10	how	_	_	_	_	12	mark	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 14 12 Eng-NA
 11	he	_	_	_	_	12	nsubj	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 14 12 Eng-NA
 12	fixed	_	_	_	_	9	ccomp	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 14 12 Eng-NA
 13	it	_	_	_	_	12	obj	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 14 12 Eng-NA
@@ -711,14 +713,14 @@
 7	bath	bath	n	_	_	5	obj	None FAT Father	Abe 54.4610772295119 male Kuczaj question 8 7 Eng-NA
 
 # text = why not
-1	why	why	pro:int	_	_	2	advmod	None FAT Father	Abe 54.03396373642169 male Kuczaj question 2 2 Eng-NA
-2	not	not	neg	_	_	0	root	None FAT Father	Abe 54.03396373642169 male Kuczaj question 2 2 Eng-NA
+1	why	why	pro:int	_	_	0	root	None FAT Father	Abe 54.03396373642169 male Kuczaj question 2 2 Eng-NA
+2	not	not	neg	_	_	1	advmod	None FAT Father	Abe 54.03396373642169 male Kuczaj question 2 2 Eng-NA
 
 # text = did Mom tell you that we do n't think you should climb the volley ball pole anymore
 1	did	do	v	_	_	3	aux	None FAT Father	Abe 54.39536746134417 male Kuczaj question 18 16 Eng-NA
 2	Mom	Mom	n:prop	_	_	3	nsubj	None FAT Father	Abe 54.39536746134417 male Kuczaj question 18 16 Eng-NA
 3	tell	tell	v	_	_	0	root	None FAT Father	Abe 54.39536746134417 male Kuczaj question 18 16 Eng-NA
-4	you	you	pro:per	_	_	3	obj	None FAT Father	Abe 54.39536746134417 male Kuczaj question 18 16 Eng-NA
+4	you	you	pro:per	_	_	3	iobj	None FAT Father	Abe 54.39536746134417 male Kuczaj question 18 16 Eng-NA
 5	that	that	pro:rel	_	_	9	mark	None FAT Father	Abe 54.39536746134417 male Kuczaj question 18 16 Eng-NA
 6	we	we	pro:sub	_	_	9	nsubj	None FAT Father	Abe 54.39536746134417 male Kuczaj question 18 16 Eng-NA
 7	do	do	mod	_	_	9	aux	None FAT Father	Abe 54.39536746134417 male Kuczaj question 18 16 Eng-NA
@@ -749,8 +751,8 @@
 3	n't	not	neg	_	_	5	advmod	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 13 12 Eng-NA
 4	you	you	pro:per	_	_	5	nsubj	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 13 12 Eng-NA
 5	come	come	v	_	_	0	root	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 13 12 Eng-NA
-6	over	over	prep	_	_	7	advmod	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 13 12 Eng-NA
-7	here	here	n	_	_	5	advmod	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 13 12 Eng-NA
+6	over	over	prep	_	_	7	case	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 13 12 Eng-NA
+7	here	here	n	_	_	5	obl	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 13 12 Eng-NA
 8	and	and	coord	_	_	9	cc	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 13 12 Eng-NA
 9	dump	dump	v	_	_	5	conj	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 13 12 Eng-NA
 10	it	it	pro:per	_	_	9	obj	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 13 12 Eng-NA
@@ -832,7 +834,7 @@
 4	hard	hard	adj	_	_	5	amod	None FAT Father	Abe 54.16538327275714 male Kuczaj declarative 9 8 Eng-NA
 5	honey	honey	n	_	_	0	root	None FAT Father	Abe 54.16538327275714 male Kuczaj declarative 9 8 Eng-NA
 6	to	to	inf	_	_	7	mark	None FAT Father	Abe 54.16538327275714 male Kuczaj declarative 9 8 Eng-NA
-7	get	get	v	_	_	4	acl	None FAT Father	Abe 54.16538327275714 male Kuczaj declarative 9 8 Eng-NA
+7	get	get	v	_	_	5	acl	None FAT Father	Abe 54.16538327275714 male Kuczaj declarative 9 8 Eng-NA
 8	out	out	adv	_	_	7	advmod	None FAT Father	Abe 54.16538327275714 male Kuczaj declarative 9 8 Eng-NA
 
 # text = the right shoe goes on the right foot
@@ -903,7 +905,7 @@
 
 # text = go get it and come down
 1	go	go	v	_	_	0	root	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 6 6 Eng-NA
-2	get	get	v	_	_	1	xcomp	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 6 6 Eng-NA
+2	get	get	v	_	_	1	compound:svc	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 6 6 Eng-NA
 3	it	it	pro:per	_	_	2	obj	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 6 6 Eng-NA
 4	and	and	coord	_	_	5	cc	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 6 6 Eng-NA
 5	come	come	v	_	_	1	conj	None FAT Father	Abe 54.4610772295119 male Kuczaj declarative 6 6 Eng-NA
@@ -956,7 +958,7 @@
 5	n't	not	neg	_	_	6	advmod	None FAT Father	Abe 54.39536746134417 male Kuczaj declarative 14 11 Eng-NA
 6	use	use	v	_	_	0	root	None FAT Father	Abe 54.39536746134417 male Kuczaj declarative 14 11 Eng-NA
 7	six	six	det:num	_	_	8	nummod	None FAT Father	Abe 54.39536746134417 male Kuczaj declarative 14 11 Eng-NA
-8	year	year	n	_	_	9	compound	None FAT Father	Abe 54.39536746134417 male Kuczaj declarative 14 11 Eng-NA
+8	year	year	n	_	_	9	obl:npmod	None FAT Father	Abe 54.39536746134417 male Kuczaj declarative 14 11 Eng-NA
 9	olds	old	n:adj	_	_	6	obj	None FAT Father	Abe 54.39536746134417 male Kuczaj declarative 14 11 Eng-NA
 10	in	in	prep	_	_	12	case	None FAT Father	Abe 54.39536746134417 male Kuczaj declarative 14 11 Eng-NA
 11	my	my	det:poss	_	_	12	nmod:poss	None FAT Father	Abe 54.39536746134417 male Kuczaj declarative 14 11 Eng-NA
@@ -971,8 +973,8 @@
 6	unless	unless	conj	_	_	8	mark	None FAT Father	Abe 54.39536746134417 male Kuczaj question 11 9 Eng-NA
 7	I	I	pro:sub	_	_	8	nsubj	None FAT Father	Abe 54.39536746134417 male Kuczaj question 11 9 Eng-NA
 8	tell	tell	v	_	_	4	advcl	None FAT Father	Abe 54.39536746134417 male Kuczaj question 11 9 Eng-NA
-9	you	you	pro:per	_	_	8	obj	None FAT Father	Abe 54.39536746134417 male Kuczaj question 11 9 Eng-NA
-10	okay	okay	co	_	_	8	ccomp	None FAT Father	Abe 54.39536746134417 male Kuczaj question 11 9 Eng-NA
+9	you	you	pro:per	_	_	8	iobj	None FAT Father	Abe 54.39536746134417 male Kuczaj question 11 9 Eng-NA
+10	okay	okay	co	_	_	4	discourse	None FAT Father	Abe 54.39536746134417 male Kuczaj question 11 9 Eng-NA
 
 # text = uhhuh why do n't you run and ask Dad to help
 1	uhhuh	uhhuh	co	_	_	6	discourse	None MOT Mother	Abe 54.03396373642169 male Kuczaj question 11 10 Eng-NA
@@ -1056,9 +1058,9 @@
 7	eat	eat	v	_	_	5	xcomp	None FAT Father	Abe 54.8881907226021 male Kuczaj question 7 6 Eng-NA
 
 # text = who 's Glen
-1	who	who	n	_	_	3	nsubj	None FAT Father	Abe 54.39536746134417 male Kuczaj question 3 2 Eng-NA
-2	's	be	cop	_	_	3	cop	None FAT Father	Abe 54.39536746134417 male Kuczaj question 3 2 Eng-NA
-3	Glen	Glen	n:prop	_	_	0	root	None FAT Father	Abe 54.39536746134417 male Kuczaj question 3 2 Eng-NA
+1	who	who	n	_	_	0	root	None FAT Father	Abe 54.39536746134417 male Kuczaj question 3 2 Eng-NA
+2	's	be	cop	_	_	1	cop	None FAT Father	Abe 54.39536746134417 male Kuczaj question 3 2 Eng-NA
+3	Glen	Glen	n:prop	_	_	1	nsubj	None FAT Father	Abe 54.39536746134417 male Kuczaj question 3 2 Eng-NA
 
 # text = put your other one on
 1	put	put	v	_	_	0	root	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 6 5 Eng-NA
@@ -1083,7 +1085,7 @@
 2	in	in	adv	_	_	1	advmod	None FAT Father	Abe 54.8881907226021 male Kuczaj declarative 5 5 Eng-NA
 3	and	and	coord	_	_	4	cc	None FAT Father	Abe 54.8881907226021 male Kuczaj declarative 5 5 Eng-NA
 4	tell	tell	v	_	_	1	conj	None FAT Father	Abe 54.8881907226021 male Kuczaj declarative 5 5 Eng-NA
-5	me	me	pro:obj	_	_	4	obj	None FAT Father	Abe 54.8881907226021 male Kuczaj declarative 5 5 Eng-NA
+5	me	me	pro:obj	_	_	4	iobj	None FAT Father	Abe 54.8881907226021 male Kuczaj declarative 5 5 Eng-NA
 
 # text = that 's okay hey
 1	that	that	n	_	_	3	nsubj	None FAT Father	Abe 54.4610772295119 male Kuczaj imperative_emphatic 3 3 Eng-NA
@@ -1117,9 +1119,9 @@
 7	together	together	adv	_	_	5	advmod	None MOT Mother	Abe 54.03396373642169 male Kuczaj declarative 7 6 Eng-NA
 
 # text = who 's Lorien
-1	who	who	n	_	_	3	nsubj	None FAT Father	Abe 54.39536746134417 male Kuczaj question 3 2 Eng-NA
-2	's	be	cop	_	_	3	cop	None FAT Father	Abe 54.39536746134417 male Kuczaj question 3 2 Eng-NA
-3	Lorien	Lorien	n:prop	_	_	0	root	None FAT Father	Abe 54.39536746134417 male Kuczaj question 3 2 Eng-NA
+1	who	who	n	_	_	0	root	None FAT Father	Abe 54.39536746134417 male Kuczaj question 3 2 Eng-NA
+2	's	be	cop	_	_	1	cop	None FAT Father	Abe 54.39536746134417 male Kuczaj question 3 2 Eng-NA
+3	Lorien	Lorien	n:prop	_	_	1	nsubj	None FAT Father	Abe 54.39536746134417 male Kuczaj question 3 2 Eng-NA
 
 # text = she has n't been here for longer than half an hour
 1	she	she	pro:sub	_	_	5	nsubj	None FAT Father	Abe 54.16538327275714 male Kuczaj declarative 14 10 Eng-NA
@@ -1147,7 +1149,7 @@
 1	did	do	mod	_	_	3	aux	None MOT Mother	Abe 54.39536746134417 male Kuczaj question 14 12 Eng-NA
 2	you	you	pro:per	_	_	3	nsubj	None MOT Mother	Abe 54.39536746134417 male Kuczaj question 14 12 Eng-NA
 3	tell	tell	v	_	_	0	root	None MOT Mother	Abe 54.39536746134417 male Kuczaj question 14 12 Eng-NA
-4	Daddy	Daddy	n:prop	_	_	3	obj	None MOT Mother	Abe 54.39536746134417 male Kuczaj question 14 12 Eng-NA
+4	Daddy	Daddy	n:prop	_	_	3	iobj	None MOT Mother	Abe 54.39536746134417 male Kuczaj question 14 12 Eng-NA
 5	where	where	pro:rel	_	_	7	mark	None MOT Mother	Abe 54.39536746134417 male Kuczaj question 14 12 Eng-NA
 6	you	you	pro:per	_	_	7	nsubj	None MOT Mother	Abe 54.39536746134417 male Kuczaj question 14 12 Eng-NA
 7	wanted	want	v	_	_	3	ccomp	None MOT Mother	Abe 54.39536746134417 male Kuczaj question 14 12 Eng-NA
@@ -1348,7 +1350,7 @@
 3	you	you	pro:per	_	_	5	nsubj	None FAT Father	Abe 54.8881907226021 male Kuczaj declarative 6 6 Eng-NA
 4	can	can	mod	_	_	5	aux	None FAT Father	Abe 54.8881907226021 male Kuczaj declarative 6 6 Eng-NA
 5	go	go	v	_	_	0	root	None FAT Father	Abe 54.8881907226021 male Kuczaj declarative 6 6 Eng-NA
-6	see	see	v	_	_	5	xcomp	None FAT Father	Abe 54.8881907226021 male Kuczaj declarative 6 6 Eng-NA
+6	see	see	v	_	_	5	compound:svc	None FAT Father	Abe 54.8881907226021 male Kuczaj declarative 6 6 Eng-NA
 
 # text = bring where
 1	bring	bring	v	_	_	0	root	None FAT Father	Abe 54.8881907226021 male Kuczaj question 2 2 Eng-NA
@@ -1418,7 +1420,7 @@
 3	want	want	v	_	_	0	root	None FAT Father	Abe 55.099694038891975 male Kuczaj question 6 6 Eng-NA
 4	something	something	pro:indef	_	_	3	obj	None FAT Father	Abe 55.099694038891975 male Kuczaj question 6 6 Eng-NA
 5	for	for	prep	_	_	6	case	None FAT Father	Abe 55.099694038891975 male Kuczaj question 6 6 Eng-NA
-6	breakfast	breakfast	n	_	_	4	nmod	None FAT Father	Abe 55.099694038891975 male Kuczaj question 6 6 Eng-NA
+6	breakfast	breakfast	n	_	_	3	obl	None FAT Father	Abe 55.099694038891975 male Kuczaj question 6 6 Eng-NA
 
 # text = Abe what would happen if we did n't clean the house before we went on the trip
 1	Abe	Abe	n:prop	_	_	4	vocative	None FAT Father	Abe 55.362533111562875 male Kuczaj question 20 16 Eng-NA
@@ -1790,7 +1792,7 @@
 6	the	the	det:art	_	_	7	mark	None FAT Father	Abe 55.16540380705969 male Kuczaj declarative 13 9 Eng-NA
 7	hotter	hot	adj	_	_	0	root	None FAT Father	Abe 55.16540380705969 male Kuczaj declarative 13 9 Eng-NA
 8	it	it	pro:per	_	_	9	nsubj	None FAT Father	Abe 55.16540380705969 male Kuczaj declarative 13 9 Eng-NA
-9	gets	get	v	_	_	7	aux	None FAT Father	Abe 55.16540380705969 male Kuczaj declarative 13 9 Eng-NA
+9	gets	get	v	_	_	7	advcl	None FAT Father	Abe 55.16540380705969 male Kuczaj declarative 13 9 Eng-NA
 
 # text = you can leave them downstairs since we 're going to be packing
 1	you	you	pro:per	_	_	3	nsubj	None MOT Mother	Abe 55.362533111562875 male Kuczaj declarative 14 11 Eng-NA
@@ -2066,10 +2068,10 @@
 4	to	to	inf	_	_	5	mark	None FAT Father	Abe 55.099694038891975 male Kuczaj declarative 11 9 Eng-NA
 5	take	take	v	_	_	3	xcomp	None FAT Father	Abe 55.099694038891975 male Kuczaj declarative 11 9 Eng-NA
 6	an	a	det:art	_	_	8	det	None FAT Father	Abe 55.099694038891975 male Kuczaj declarative 11 9 Eng-NA
-7	airplane	airplane	n	_	_	8	nmod	None FAT Father	Abe 55.099694038891975 male Kuczaj declarative 11 9 Eng-NA
+7	airplane	airplane	n	_	_	8	compound	None FAT Father	Abe 55.099694038891975 male Kuczaj declarative 11 9 Eng-NA
 8	trip	trip	n	_	_	5	obj	None FAT Father	Abe 55.099694038891975 male Kuczaj declarative 11 9 Eng-NA
 9	to	to	prep	_	_	10	case	None FAT Father	Abe 55.099694038891975 male Kuczaj declarative 11 9 Eng-NA
-10	Texas	Texas	n:prop	_	_	8	nmod	None FAT Father	Abe 55.099694038891975 male Kuczaj declarative 11 9 Eng-NA
+10	Texas	Texas	n:prop	_	_	5	obl	None FAT Father	Abe 55.099694038891975 male Kuczaj declarative 11 9 Eng-NA
 
 # text = throw it away then
 1	throw	throw	v	_	_	0	root	None FAT Father	Abe 55.362533111562875 male Kuczaj declarative 4 4 Eng-NA
@@ -2155,7 +2157,7 @@
 3	finish	finish	v	_	_	0	root	None FAT Father	Abe 54.8881907226021 male Kuczaj declarative 7 6 Eng-NA
 4	eating	eat	part	_	_	3	xcomp	None FAT Father	Abe 54.8881907226021 male Kuczaj declarative 7 6 Eng-NA
 5	first	first	adv	_	_	4	advmod	None FAT Father	Abe 54.8881907226021 male Kuczaj declarative 7 6 Eng-NA
-6	buddy	buddy	n	_	_	4	vocative	None FAT Father	Abe 54.8881907226021 male Kuczaj declarative 7 6 Eng-NA
+6	buddy	buddy	n	_	_	2	vocative	None FAT Father	Abe 54.8881907226021 male Kuczaj declarative 7 6 Eng-NA
 
 # text = let 's see onions tomatoes and cheese
 1	let	let	n	_	_	0	root	None MOT Mother	Abe 55.16540380705969 male Kuczaj declarative 9 6 Eng-NA
@@ -2231,7 +2233,7 @@
 1	it	it	pro:per	_	_	2	nsubj	None MOT Mother	Abe 55.16540380705969 male Kuczaj declarative 7 5 Eng-NA
 2	makes	make	v	_	_	0	root	None MOT Mother	Abe 55.16540380705969 male Kuczaj declarative 7 5 Eng-NA
 3	your	your	det:poss	_	_	4	nmod:poss	None MOT Mother	Abe 55.16540380705969 male Kuczaj declarative 7 5 Eng-NA
-4	bones	bone	n	_	_	5	nsubj	None MOT Mother	Abe 55.16540380705969 male Kuczaj declarative 7 5 Eng-NA
+4	bones	bone	n	_	_	2	obj	None MOT Mother	Abe 55.16540380705969 male Kuczaj declarative 7 5 Eng-NA
 5	grow	grow	v	_	_	2	xcomp	None MOT Mother	Abe 55.16540380705969 male Kuczaj declarative 7 5 Eng-NA
 
 # text = how would we get there then
@@ -2489,7 +2491,7 @@
 
 # text = like dinosaur bones
 1	like	like	co	_	_	3	case	None MOT Mother	Abe 55.16540380705969 male Kuczaj declarative 4 3 Eng-NA
-2	dinosaur	dinosaur	n	_	_	3	nmod	None MOT Mother	Abe 55.16540380705969 male Kuczaj declarative 4 3 Eng-NA
+2	dinosaur	dinosaur	n	_	_	3	compound	None MOT Mother	Abe 55.16540380705969 male Kuczaj declarative 4 3 Eng-NA
 3	bones	bone	n	_	_	0	root	None MOT Mother	Abe 55.16540380705969 male Kuczaj declarative 4 3 Eng-NA
 
 # text = Born Free
@@ -2620,8 +2622,8 @@
 7	outside	outside	adv	_	_	3	advmod	None MOT Mother	Abe 56.001149920942936 male Kuczaj question 9 7 Eng-NA
 
 # text = oh see
-1	oh	oh	co	_	_	0	root	None FAT Father	Abe 55.099694038891975 male Kuczaj declarative 2 2 Eng-NA
-2	see	see	co	_	_	1	discourse	None FAT Father	Abe 55.099694038891975 male Kuczaj declarative 2 2 Eng-NA
+1	oh	oh	co	_	_	2	discourse	None FAT Father	Abe 55.099694038891975 male Kuczaj declarative 2 2 Eng-NA
+2	see	see	co	_	_	0	root	None FAT Father	Abe 55.099694038891975 male Kuczaj declarative 2 2 Eng-NA
 
 # text = did you pick up all your toys
 1	did	do	mod	_	_	3	aux	None MOT Mother	Abe 55.362533111562875 male Kuczaj question 9 7 Eng-NA

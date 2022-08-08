@@ -1,0 +1,29 @@
+{
+    "UD": {
+        "train_data_path": "../UD_data/UD_English-Tweebank/en-ud-tweet-train.fixed.conllu",
+        "validation_data_path": "../UD_data/UD_English-Tweebank/en-ud-tweet-dev.fixed.conllu",
+        "word_idx": 1,
+        "tasks": {
+            "upos": {
+                "task_type": "seq",
+                "column_idx": 3
+            },
+            "xpos": {
+                "task_type": "seq",
+                "column_idx": 4
+            },
+            "lemma": {
+                "task_type": "string2string",
+                "column_idx": 2
+            },
+            "feats": {
+                "task_type": "seq",
+                "column_idx": 5
+            },
+            "dependency": {
+                "task_type": "dependency",
+                "column_idx": 6
+            }
+        }
+    }
+}

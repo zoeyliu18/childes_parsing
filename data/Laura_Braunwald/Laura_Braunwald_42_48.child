@@ -19,7 +19,7 @@
 
 # text = no I 'll do it
 1	no	no	co	4	discourse	4	discourse	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 5 5 Eng-NA=null
-2	I	I	pro:sub	4	aux	4	aux	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 5 5 Eng-NA=null
+2	I	I	pro:sub	4	nsubj	4	nsubj	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 5 5 Eng-NA=null
 3	'll	will	aux	4	aux	4	aux	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 5 5 Eng-NA=null
 4	do	do	v	0	root	0	root	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 5 5 Eng-NA=null
 5	it	it	pro:per	4	obj	4	obj	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 5 5 Eng-NA=null
@@ -133,7 +133,7 @@
 6	hamster	hamster	n	4	obj	4	obj	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald question 6 5 Eng-NA=null
 
 # text = where 's the hamster go anyways
-1	where	where	n	5	nsubj	5	nsubj	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald question 6 5 Eng-NA=null
+1	where	where	n	5	advmod	5	advmod	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald question 6 5 Eng-NA=null
 2	's	be	cop	5	aux	5	aux	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald question 6 5 Eng-NA=null
 3	the	the	det:art	4	det	4	det	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald question 6 5 Eng-NA=null
 4	hamster	hamster	n	5	nsubj	5	nsubj	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald question 6 5 Eng-NA=null
@@ -163,7 +163,7 @@
 # text = she is she is a scaredy+cat
 # Re-evaluate
 1	she	she	pro:sub	2	nsubj	2	nsubj	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald declarative 4 6 Eng-NA=null
-2	is	be	cop	0	root	4	reparandum	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald declarative 4 6 Eng-NA=null
+2	is	be	cop	0	root	7	reparandum:repetition	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald declarative 4 6 Eng-NA=null
 3	she	she	pro:sub	6	nsubj	7	nsubj	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald declarative 4 6 Eng-NA=null
 4	is	be	cop	6	cop	7	cop	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald declarative 4 6 Eng-NA=null
 5	a	a	det:art	6	det	7	det	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald declarative 4 6 Eng-NA=null
@@ -286,10 +286,11 @@
 9	that	that	pro:dem	8	obj	8	obj	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald declarative 12 9 Eng-NA=null
 
 # text = so see we started watching it
-1	so	so	adv	4	advmod	4	advmod	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald declarative 8 6 Eng-NA=null
-2	see	see	v	4	discourse	4	discourse	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald declarative 8 6 Eng-NA=null
+# Re-evaluate
+1	so	so	adv	4	advmod	2	advmod	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald declarative 8 6 Eng-NA=null
+2	see	see	v	4	discourse	0	root	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald declarative 8 6 Eng-NA=null
 3	we	we	pro:sub	4	nsubj	4	nsubj	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald declarative 8 6 Eng-NA=null
-4	started	start	v	0	root	0	root	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald declarative 8 6 Eng-NA=null
+4	started	start	v	0	root	2	parataxis	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald declarative 8 6 Eng-NA=null
 5	watching	watch	part	4	xcomp	4	xcomp	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald declarative 8 6 Eng-NA=null
 6	it	it	pro:per	5	obj	5	obj	Laura CHI Target_Child	Laura 42.75652477463603 female Braunwald declarative 8 6 Eng-NA=null
 
@@ -658,7 +659,7 @@
 3	need	_	_	_	_	0	root	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 9 Eng-NA=null
 4	a	_	_	_	_	3	obj	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 9 Eng-NA=null
 5	here	_	_	_	_	3	advmod	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 9 Eng-NA=null
-6	right	_	_	_	_	7	reparandum	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 9 Eng-NA=null
+6	right	_	_	_	_	7	reparandum:repetition	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 9 Eng-NA=null
 7	right	_	_	_	_	8	advmod	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 9 Eng-NA=null
 8	now	_	_	_	_	3	advmod	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 9 Eng-NA=null
 
@@ -792,7 +793,7 @@
 # text = but it xxx because
 1	but	_	_	_	_	2	cc	Laura CHI Target_Child	Laura 42.72366989055217 female Braunwald trail off 3 4 Eng-NA=null
 2	it	_	_	_	_	0	root	Laura CHI Target_Child	Laura 42.72366989055217 female Braunwald trail off 3 4 Eng-NA=null
-3	because	_	_	_	_	2	mark	Laura CHI Target_Child	Laura 42.72366989055217 female Braunwald trail off 3 4 Eng-NA=null
+3	because	_	_	_	_	2	dep	Laura CHI Target_Child	Laura 42.72366989055217 female Braunwald trail off 3 4 Eng-NA=null
 
 # text = you cheating
 1	you	you	pro:per	_	_	2	nsubj	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 3 2 Eng-NA=null
@@ -936,7 +937,6 @@
 2	evening	evening	n	_	_	0	root	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 2 2 Eng-NA=null
 
 # text = hi there Dad
-# Re-evaluate
 1	hi	hi	co	_	_	0	root	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 3 3 Eng-NA=null
 2	there	there	adv	_	_	1	discourse	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 3 3 Eng-NA=null
 3	Dad	Dad	n:prop	_	_	1	vocative	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 3 3 Eng-NA=null
@@ -962,7 +962,7 @@
 3	poo	poo	combined	_	_	0	root	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 3 2 Eng-NA=null
 
 # text = because because I dragged it so much
-1	because	because	conj	_	_	2	reparandum	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 7 7 Eng-NA=null
+1	because	because	conj	_	_	2	reparandum:repetition	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 7 7 Eng-NA=null
 2	because	I	pro:sub	_	_	4	mark	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 7 7 Eng-NA=null
 3	I	drag	v	_	_	4	nsubj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 7 7 Eng-NA=null
 4	dragged	it	pro:per	_	_	0	root	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 7 7 Eng-NA=null
@@ -981,28 +981,28 @@
 # text = because I like to go because I when I was two when they were three and and when I was playing three I dragged it
 1	because	because	conj	_	_	3	mark	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
 2	I	when	conj	_	_	3	nsubj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
-3	like	I	pro:sub	_	_	0	root	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
+3	like	I	pro:sub	_	_	24	advcl	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
 4	to	be	cop	_	_	5	mark	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
 5	go	two	det:num	_	_	3	xcomp	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
-6	because	when	conj	_	_	7	mark	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
-7	I	they	pro:sub	_	_	3	parataxis	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
+6	because	when	conj	_	_	11	mark	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
+7	I	they	pro:sub	_	_	8	reparandum	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
 8	when	be	cop	_	_	11	mark	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
 9	I	three	det:num	_	_	11	nsubj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
 10	was	and	coord	_	_	11	cop	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
-11	two	when	conj	_	_	3	parataxis	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
+11	two	when	conj	_	_	24	advcl	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
 12	when	I	pro:sub	_	_	15	mark	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
 13	they	be	aux	_	_	15	nsubj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
 14	were	play	part	_	_	15	cop	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
-15	three	three	det:num	_	_	11	conj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
-16	and	I	pro:sub	_	_	17	reparandum	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
+15	three	three	det:num	_	_	24	advcl	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
+16	and	I	pro:sub	_	_	17	reparandum:repetition	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
 17	and	drag	v	_	_	24	cc	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
 18	when	it	pro:per	_	_	21	mark	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
 19	I	_	_	_	_	21	nsubj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
 20	was	_	_	_	_	21	aux	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
-21	playing	_	_	_	_	24	advcl	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
-22	three	_	_	_	_	21	advmod	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
+21	playing	_	_	_	_	11	conj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
+22	three	_	_	_	_	21	xcomp	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
 23	I	_	_	_	_	24	nsubj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
-24	dragged	_	_	_	_	3	conj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
+24	dragged	_	_	_	_	0	root	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
 25	it	_	_	_	_	24	obj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 25 25 Eng-NA=null
 
 # text = I wan na hear your voice
@@ -1239,7 +1239,7 @@
 2	he	he	pro	_	_	4	nsubj	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald question 12 8 Eng-NA=null
 3	's	be	cop	_	_	4	aux	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald question 12 8 Eng-NA=null
 4	learning	learn	part	_	_	0	root	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald question 12 8 Eng-NA=null
-5	how	how	pro:int	_	_	7	advmod	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald question 12 8 Eng-NA=null
+5	how	how	pro:int	_	_	7	mark	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald question 12 8 Eng-NA=null
 6	to	to	prep	_	_	7	mark	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald question 12 8 Eng-NA=null
 7	crawl	crawl	n	_	_	4	xcomp	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald question 12 8 Eng-NA=null
 8	is	be	cop	_	_	4	parataxis	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald question 12 8 Eng-NA=null
@@ -1388,8 +1388,7 @@
 17	hospital	_	_	_	_	12	obl	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald question 15 16 Eng-NA=null
 
 # text = he he 's tired I bet
-# Re-evaluate
-1	he	he	pro:sub	_	_	2	reparandum	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 5 Eng-NA=null
+1	he	he	pro:sub	_	_	2	reparandum:repetition	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 5 Eng-NA=null
 2	he	tire	pro	_	_	4	nsubj	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 5 Eng-NA=null
 3	's	be	cop	_	_	4	cop	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 5 Eng-NA=null
 4	tired	I	pro:sub	_	_	0	root	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 5 Eng-NA=null
@@ -1420,7 +1419,7 @@
 7	name	name	n	_	_	5	obj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald question 7 6 Eng-NA=null
 
 # text = I I wan na hear our voice
-1	I	I	pro:sub	_	_	2	reparandum	Laura CHI Target_Child	Laura 42.920799195055345 female Braunwald declarative 6 6 Eng-NA=null
+1	I	I	pro:sub	_	_	2	reparandum:repetition	Laura CHI Target_Child	Laura 42.920799195055345 female Braunwald declarative 6 6 Eng-NA=null
 2	I	want	v	_	_	3	nsubj	Laura CHI Target_Child	Laura 42.920799195055345 female Braunwald declarative 6 6 Eng-NA=null
 3	wan	want	v	_	_	0	root	Laura CHI Target_Child	Laura 42.920799195055345 female Braunwald declarative 6 6 Eng-NA=null
 4	na	to	inf	_	_	5	mark	Laura CHI Target_Child	Laura 42.920799195055345 female Braunwald declarative 6 6 Eng-NA=null
@@ -1471,7 +1470,7 @@
 # text = but we wo n't wo n't take anything out
 1	but	but	conj	_	_	7	cc	Laura CHI Target_Child	Laura 42.55939547013285 female Braunwald declarative 7 7 Eng-NA=null
 2	we	we	pro:sub	_	_	7	nsubj	Laura CHI Target_Child	Laura 42.55939547013285 female Braunwald declarative 7 7 Eng-NA=null
-3	wo	will	mod	_	_	5	reparandum	Laura CHI Target_Child	Laura 42.55939547013285 female Braunwald declarative 7 7 Eng-NA=null
+3	wo	will	mod	_	_	5	reparandum:repetition	Laura CHI Target_Child	Laura 42.55939547013285 female Braunwald declarative 7 7 Eng-NA=null
 4	n't	not	neg	_	_	3	advmod	Laura CHI Target_Child	Laura 42.55939547013285 female Braunwald declarative 7 7 Eng-NA=null
 5	wo	take	v	_	_	7	aux	Laura CHI Target_Child	Laura 42.55939547013285 female Braunwald declarative 7 7 Eng-NA=null
 6	n't	not	neg	_	_	7	advmod	Laura CHI Target_Child	Laura 42.55939547013285 female Braunwald declarative 7 7 Eng-NA=null
@@ -1555,7 +1554,7 @@
 6	down	_	_	_	_	5	compound:prt	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 5 Eng-NA=null
 
 # text = and and when you need to have you just run over the hose and put water in it in in the swimming+pool
-1	and	you	pro:per	_	_	2	reparandum	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 12 22 Eng-NA=null
+1	and	you	pro:per	_	_	2	reparandum:repetition	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 12 22 Eng-NA=null
 2	and	just	adv	_	_	10	cc	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 12 22 Eng-NA=null
 3	when	run	v	_	_	5	mark	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 12 22 Eng-NA=null
 4	you	over	prep	_	_	5	nsubj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 12 22 Eng-NA=null
@@ -1573,7 +1572,7 @@
 16	water	_	_	_	_	15	obj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 12 22 Eng-NA=null
 17	in	_	_	_	_	18	case	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 12 22 Eng-NA=null
 18	it	_	_	_	_	15	obl	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 12 22 Eng-NA=null
-19	in	_	_	_	_	20	reparandum	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 12 22 Eng-NA=null
+19	in	_	_	_	_	20	reparandum:repetition	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 12 22 Eng-NA=null
 20	in	_	_	_	_	23	case	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 12 22 Eng-NA=null
 21	the	_	_	_	_	23	det	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 12 22 Eng-NA=null
 22	swimming	_	_	_	_	23	compound	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 12 22 Eng-NA=null
@@ -1612,8 +1611,8 @@
 2	do	_	_	_	_	7	aux	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald imperative_emphatic 7 8 Eng-NA=null
 3	n't	_	_	_	_	7	advmod	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald imperative_emphatic 7 8 Eng-NA=null
 4	you	_	_	_	_	7	nsubj	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald imperative_emphatic 7 8 Eng-NA=null
-5	lie	_	_	_	_	7	reparandum	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald imperative_emphatic 7 8 Eng-NA=null
-6	lie	_	_	_	_	5	conj	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald imperative_emphatic 7 8 Eng-NA=null
+5	lie	_	_	_	_	7	reparandum:repetition	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald imperative_emphatic 7 8 Eng-NA=null
+6	lie	_	_	_	_	7	reparandum:repetition	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald imperative_emphatic 7 8 Eng-NA=null
 7	lie	_	_	_	_	0	root	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald imperative_emphatic 7 8 Eng-NA=null
 8	down	_	_	_	_	7	compound:prt	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald imperative_emphatic 7 8 Eng-NA=null
 
@@ -1667,18 +1666,18 @@
 12	to	_	_	_	_	8	xcomp	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 12 11 Eng-NA=null
 
 # text = and when it 's too cold we turn my Mum we ask our Mummy to turn it
-1	and	and	coord	_	_	8	cc	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
+1	and	and	coord	_	_	12	cc	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
 2	when	when	conj	_	_	6	mark	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
 3	it	it	pro	_	_	6	nsubj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
 4	's	be	cop	_	_	6	cop	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
 5	too	too	adv	_	_	6	advmod	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
-6	cold	cold	adv	_	_	8	advcl	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
+6	cold	cold	adv	_	_	12	advcl	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
 7	we	we	pro:sub	_	_	8	nsubj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
-8	turn	my	co	_	_	0	root	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
+8	turn	my	co	_	_	12	reparandum	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
 9	my	we	pro:sub	_	_	10	nmod:poss	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
-10	Mum	ask	v	_	_	8	obj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
+10	Mum	ask	v	_	_	12	reparandum	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
 11	we	our	det:poss	_	_	12	nsubj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
-12	ask	Mummy	n:prop	_	_	8	parataxis	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
+12	ask	Mummy	n:prop	_	_	0	root	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
 13	our	to	inf	_	_	14	nmod:poss	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
 14	Mummy	turn	v	_	_	12	obj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
 15	to	it	pro:per	_	_	16	mark	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald trail off 15 16 Eng-NA=null
@@ -1696,7 +1695,7 @@
 4	hotter	_	_	_	_	0	root	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 4 4 Eng-NA=null
 
 # text = him maybe he 's in the playroom
-1	him	maybe	adv	_	_	3	dislocated	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 5 6 Eng-NA=null
+1	him	maybe	adv	_	_	2	reparandum	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 5 6 Eng-NA=null
 2	maybe	he	pro:sub	_	_	7	advmod	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 5 6 Eng-NA=null
 3	he	in	pro	_	_	7	nsubj	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 5 6 Eng-NA=null
 4	's	be	cop	_	_	7	cop	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 5 6 Eng-NA=null
@@ -1775,12 +1774,13 @@
 3	baby	_	_	_	_	1	obj	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 3 4 Eng-NA=null
 
 # text = how about how my school is
+# Re-evaluate
 1	how	how	pro:int	_	_	0	root	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald question 7 6 Eng-NA=null
-2	about	about	adv	_	_	3	mark	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald question 7 6 Eng-NA=null
-3	how	how	pro:rel	_	_	1	advcl	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald question 7 6 Eng-NA=null
+2	about	about	adv	_	_	6	mark	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald question 7 6 Eng-NA=null
+3	how	how	pro:rel	_	_	6	mark	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald question 7 6 Eng-NA=null
 4	my	my	det:poss	_	_	5	nmod:poss	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald question 7 6 Eng-NA=null
-5	school	school	n	_	_	3	nsubj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald question 7 6 Eng-NA=null
-6	is	be	cop	_	_	3	cop	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald question 7 6 Eng-NA=null
+5	school	school	n	_	_	6	nsubj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald question 7 6 Eng-NA=null
+6	is	be	cop	_	_	1	advcl	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald question 7 6 Eng-NA=null
 
 # text = my baby 's just really have to go bathroom in the toilet
 1	my	my	det:poss	_	_	2	nmod:poss	Laura CHI Target_Child	Laura 42.55939547013285 female Braunwald declarative 11 11 Eng-NA=null
@@ -1791,7 +1791,7 @@
 6	have	have	v	_	_	0	root	Laura CHI Target_Child	Laura 42.55939547013285 female Braunwald declarative 11 11 Eng-NA=null
 7	to	to	inf	_	_	8	mark	Laura CHI Target_Child	Laura 42.55939547013285 female Braunwald declarative 11 11 Eng-NA=null
 8	go	go	v	_	_	6	xcomp	Laura CHI Target_Child	Laura 42.55939547013285 female Braunwald declarative 11 11 Eng-NA=null
-9	bathroom	in	prep	_	_	8	obj	Laura CHI Target_Child	Laura 42.55939547013285 female Braunwald declarative 11 11 Eng-NA=null
+9	bathroom	in	prep	_	_	8	obl	Laura CHI Target_Child	Laura 42.55939547013285 female Braunwald declarative 11 11 Eng-NA=null
 10	in	the	det:art	_	_	12	case	Laura CHI Target_Child	Laura 42.55939547013285 female Braunwald declarative 11 11 Eng-NA=null
 11	the	toilet	n	_	_	12	det	Laura CHI Target_Child	Laura 42.55939547013285 female Braunwald declarative 11 11 Eng-NA=null
 12	toilet	_	_	_	_	8	obl	Laura CHI Target_Child	Laura 42.55939547013285 female Braunwald declarative 11 11 Eng-NA=null
@@ -1899,7 +1899,7 @@
 3	here	here	adv	_	_	0	root	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 3 4 Eng-NA=null
 4	I	_	_	_	_	6	nsubj	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 3 4 Eng-NA=null
 5	'm	be	cop	_	_	6	cop	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 3 4 Eng-NA=null
-6	here	_	_	_	_	3	conj	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 3 4 Eng-NA=null
+6	here	_	_	_	_	3	parataxis	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 3 4 Eng-NA=null
 
 # text = well I 'm coming right here
 1	well	well	co	_	_	4	discourse	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 7 5 Eng-NA=null
@@ -2031,9 +2031,9 @@
 
 # text = ding dong ding dong
 1	ding	ding	v	_	_	0	root	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 2 4 Eng-NA=null
-2	dong	dong	co	_	_	1	discourse	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 2 4 Eng-NA=null
+2	dong	dong	co	_	_	1	conj	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 2 4 Eng-NA=null
 3	ding	_	_	_	_	1	conj	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 2 4 Eng-NA=null
-4	dong	_	_	_	_	3	discourse	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 2 4 Eng-NA=null
+4	dong	_	_	_	_	3	conj	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 2 4 Eng-NA=null
 
 # text = I do n't like it anymore
 1	I	I	pro:sub	_	_	4	nsubj	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 6 5 Eng-NA=null
@@ -2058,7 +2058,7 @@
 3	sleeping	sleep	part	_	_	0	root	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 5 6 Eng-NA=null
 4	are	_	_	_	_	6	aux	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 5 6 Eng-NA=null
 5	you	_	_	_	_	6	nsubj	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 5 6 Eng-NA=null
-6	sleeping	_	_	_	_	3	conj	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 5 6 Eng-NA=null
+6	sleeping	_	_	_	_	3	parataxis	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 5 6 Eng-NA=null
 
 # text = and I wan na grow another baby
 1	and	and	coord	_	_	3	cc	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 6 Eng-NA=null
@@ -2100,7 +2100,7 @@
 5	morning	_	_	_	_	6	compound	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 7 8 Eng-NA=null
 6	bells	_	_	_	_	8	nsubj	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 7 8 Eng-NA=null
 7	are	_	_	_	_	8	aux	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 7 8 Eng-NA=null
-8	ringing	_	_	_	_	4	conj	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 7 8 Eng-NA=null
+8	ringing	_	_	_	_	4	parataxis	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 7 8 Eng-NA=null
 
 # text = what have you there little bear
 1	what	what	pro:int	_	_	2	obj	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald question 6 6 Eng-NA=null
@@ -2169,9 +2169,9 @@
 1	and	and	coord	_	_	8	cc	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 8 Eng-NA=null
 2	this	this	pro:dem	_	_	8	nsubj	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 8 Eng-NA=null
 3	is	be	cop	_	_	8	cop	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 8 Eng-NA=null
-4	our	a	det:art	_	_	5	reparandum	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 8 Eng-NA=null
-5	the	little	adj	_	_	8	det	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 8 Eng-NA=null
-6	a	girl	n	_	_	8	discourse	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 8 Eng-NA=null
+4	our	a	det:art	_	_	8	nmod:poss	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 8 Eng-NA=null
+5	the	little	adj	_	_	7	reparandum	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 8 Eng-NA=null
+6	a	girl	n	_	_	7	reparandum	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 8 Eng-NA=null
 7	little	_	_	_	_	8	amod	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 8 Eng-NA=null
 8	girl	_	_	_	_	0	root	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 7 8 Eng-NA=null
 
@@ -2230,10 +2230,10 @@
 # text = I remember when xxx
 1	I	_	_	_	_	2	nsubj	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 3 4 Eng-NA=null
 2	remember	_	_	_	_	0	root	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 3 4 Eng-NA=null
-3	when	_	_	_	_	2	ccomp	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 3 4 Eng-NA=null
+3	when	_	_	_	_	2	obj	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 3 4 Eng-NA=null
 
 # text = got you get to live at my house
-1	got	you	pro:per	_	_	3	reparandum	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 7 8 Eng-NA=null
+1	got	you	pro:per	_	_	2	reparandum	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 7 8 Eng-NA=null
 2	you	get	v	_	_	3	nsubj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 7 8 Eng-NA=null
 3	get	to	inf	_	_	0	root	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 7 8 Eng-NA=null
 4	to	live	v	_	_	5	mark	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 7 8 Eng-NA=null
@@ -2248,7 +2248,7 @@
 3	harmony	harmony	n	_	_	1	nmod	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 3 3 Eng-NA=null
 
 # text = this this goes here
-1	this	this	pro:dem	_	_	3	reparandum	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 4 4 Eng-NA=null
+1	this	this	pro:dem	_	_	3	reparandum:repetition	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 4 4 Eng-NA=null
 2	this	go	v	_	_	3	nsubj	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 4 4 Eng-NA=null
 3	goes	here	adv	_	_	0	root	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 4 4 Eng-NA=null
 4	here	_	_	_	_	3	advmod	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 4 4 Eng-NA=null
@@ -2269,7 +2269,7 @@
 6	cooperation	operation	n	_	_	5	obj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 7 5 Eng-NA=null
 
 # text = I I was xxx
-1	I	_	_	_	_	2	reparandum	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 4 4 Eng-NA=null
+1	I	_	_	_	_	2	reparandum:repetition	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 4 4 Eng-NA=null
 2	I	_	_	_	_	3	nsubj	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 4 4 Eng-NA=null
 3	was	_	_	_	_	0	root	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 4 4 Eng-NA=null
 
@@ -2294,7 +2294,7 @@
 3	I	I	pro:sub	_	_	4	nsubj	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 4 6 Eng-NA=null
 4	hope	hope	v	_	_	2	parataxis	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 4 6 Eng-NA=null
 5	I	_	_	_	_	6	nsubj	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 4 6 Eng-NA=null
-6	hope	_	_	_	_	4	conj	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 4 6 Eng-NA=null
+6	hope	_	_	_	_	4	parataxis	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 4 6 Eng-NA=null
 
 # text = Mummy I wan na look at this
 1	Mummy	Mummy	n:prop	_	_	3	vocative	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 7 6 Eng-NA=null
@@ -2325,7 +2325,7 @@
 6	haf	have	v	_	_	2	parataxis	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 9 15 Eng-NA=null
 7	ta	to	inf	_	_	6	xcomp	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 9 15 Eng-NA=null
 8	you	in	prep	_	_	9	nsubj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 9 15 Eng-NA=null
-9	ca	my	det:poss	_	_	12	reparandum	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 9 15 Eng-NA=null
+9	ca	my	det:poss	_	_	14	reparandum:repetition	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 9 15 Eng-NA=null
 10	n't	not	neg	_	_	9	advmod	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 9 15 Eng-NA=null
 11	you	house	n	_	_	14	nsubj	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 9 15 Eng-NA=null
 12	ca	_	_	_	_	14	aux	Laura CHI Target_Child	Laura 42.88794431097148 female Braunwald declarative 9 15 Eng-NA=null
@@ -2357,7 +2357,7 @@
 3	do	_	_	_	_	5	aux	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 9 9 Eng-NA=null
 4	n't	_	_	_	_	5	advmod	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 9 9 Eng-NA=null
 5	know	_	_	_	_	1	ccomp	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 9 9 Eng-NA=null
-6	how	_	_	_	_	8	advmod	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 9 9 Eng-NA=null
+6	how	_	_	_	_	8	mark	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 9 9 Eng-NA=null
 7	to	_	_	_	_	8	mark	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 9 9 Eng-NA=null
 8	do	_	_	_	_	5	ccomp	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 9 9 Eng-NA=null
 9	it	_	_	_	_	8	obj	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 9 9 Eng-NA=null
@@ -2368,10 +2368,10 @@
 3	do	do	v	_	_	0	root	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 3 9 Eng-NA=null
 4	yes	_	_	_	_	6	discourse	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 3 9 Eng-NA=null
 5	I	_	_	_	_	6	nsubj	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 3 9 Eng-NA=null
-6	do	_	_	_	_	3	conj	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 3 9 Eng-NA=null
+6	do	_	_	_	_	3	parataxis	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 3 9 Eng-NA=null
 7	yes	_	_	_	_	9	discourse	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 3 9 Eng-NA=null
 8	I	_	_	_	_	9	nsubj	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 3 9 Eng-NA=null
-9	do	_	_	_	_	3	conj	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 3 9 Eng-NA=null
+9	do	_	_	_	_	3	parataxis	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 3 9 Eng-NA=null
 
 # text = look at this
 1	look	look	v	_	_	0	root	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 3 3 Eng-NA=null
@@ -2503,7 +2503,7 @@
 2	did	do	mod	_	_	0	root	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 9 7 Eng-NA=null
 3	it	it	pro:per	_	_	2	obj	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 9 7 Eng-NA=null
 4	already	already	adv	_	_	5	advmod	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 9 7 Eng-NA=null
-5	doing	do	part	_	_	2	advcl	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 9 7 Eng-NA=null
+5	doing	do	part	_	_	2	parataxis	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 9 7 Eng-NA=null
 6	it	it	pro:per	_	_	5	obj	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 9 7 Eng-NA=null
 7	here	here	adv	_	_	5	advmod	Laura CHI Target_Child	Laura 43.000882975009745 female Braunwald declarative 9 7 Eng-NA=null
 
@@ -2552,7 +2552,7 @@
 4	me	_	_	_	_	1	conj	Laura CHI Target_Child	Laura 47.55949814164561 female Braunwald declarative 4 5 Eng-NA=null
 
 # text = because of because of we have a thousands of boys
-1	because	because	conj	_	_	3	reparandum	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 10 10 Eng-NA=null
+1	because	because	conj	_	_	3	reparandum:repetition	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 10 10 Eng-NA=null
 2	of	of	prep	_	_	1	fixed	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 10 10 Eng-NA=null
 3	because	we	pro:sub	_	_	6	mark	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 10 10 Eng-NA=null
 4	of	have	v	_	_	3	fixed	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 10 10 Eng-NA=null
@@ -2617,7 +2617,7 @@
 2	here	_	_	_	_	0	root	Laura CHI Target_Child	Laura 43.06659274317748 female Braunwald declarative 2 3 Eng-NA=null
 
 # text = she she not crying when she goes upside+down
-1	she	she	pro:sub	_	_	2	reparandum	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 8 8 Eng-NA=null
+1	she	she	pro:sub	_	_	2	reparandum:repetition	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 8 8 Eng-NA=null
 2	she	not	neg	_	_	4	nsubj	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 8 8 Eng-NA=null
 3	not	cry	part	_	_	4	advmod	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 8 8 Eng-NA=null
 4	crying	when	conj	_	_	0	root	Laura CHI Target_Child	Laura 42.592250354216716 female Braunwald declarative 8 8 Eng-NA=null

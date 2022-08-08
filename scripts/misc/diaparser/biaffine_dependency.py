@@ -240,7 +240,11 @@ class BiaffineDependencyParser(Parser):
         logger.info("Building the fields")
         
         state = ''
-        finetune = open('finetune.txt','r').readlines()[0].strip()
+        finetune = 'none'
+        try:
+            finetune = open('finetune.txt','r').readlines()[0].strip()
+        except:
+            pass
         if finetune is not 'none':
             state = torch.load(finetune)
 #        state = torch.load('/data/liuaal/childes_syntax/diaparser/exp/try/model')

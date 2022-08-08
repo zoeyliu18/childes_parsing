@@ -77,11 +77,12 @@
 4	boom	boom	co	3	xcomp	3	xcomp	Emma CHI Target_Child	Emma 32.033511981765535 female Weist imperative_emphatic 5 4 Eng-NA=null
 
 # text = no it he just fell
+# Re-evaluate
 1	no	no	co	2	discourse	2	discourse	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 5 Eng-NA=null
-2	it	it	pro:per	0	root	0	root	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 5 Eng-NA=null
+2	it	it	pro:per	0	root	5	reparandum:restart	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 5 Eng-NA=null
 3	he	he	pro:sub	5	nsubj	5	nsubj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 5 Eng-NA=null
 4	just	just	adv	5	advmod	5	advmod	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 5 Eng-NA=null
-5	fell	fall	v	2	parataxis	2	parataxis	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 5 Eng-NA=null
+5	fell	fall	v	2	parataxis	0	root	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 5 Eng-NA=null
 
 # text = and he fell into the toilet
 1	and	and	coord	3	cc	3	cc	Emma CHI Target_Child	Emma 32.033511981765535 female Weist imperative_emphatic 7 6 Eng-NA=null
@@ -165,11 +166,12 @@
 3	was	be	cop	0	root	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 5 3 Eng-NA=null
 
 # text = it seem stuck and him get him out
+# Re-evaluate
 1	it	it	pro:per	2	nsubj	2	nsubj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 9 8 Eng-NA=null
 2	seem	seem	cop	0	root	0	root	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 9 8 Eng-NA=null
 3	stuck	stick	v	2	xcomp	2	xcomp	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 9 8 Eng-NA=null
 4	and	and	coord	6	cc	6	cc	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 9 8 Eng-NA=null
-5	him	him	pro:obj	6	nsubj	6	dislocated	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 9 8 Eng-NA=null
+5	him	him	pro:obj	6	nsubj	6	reparandum	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 9 8 Eng-NA=null
 6	get	get	v	2	conj	2	conj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 9 8 Eng-NA=null
 7	him	him	pro:obj	6	obj	6	obj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 9 8 Eng-NA=null
 8	out	out	adv	6	compound:prt	6	compound:prt	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 9 8 Eng-NA=null
@@ -309,7 +311,7 @@
 # text = xxx I help get in the xxx
 1	I	_	_	_	_	2	nsubj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 7 Eng-NA=null
 2	help	_	_	_	_	0	root	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 7 Eng-NA=null
-3	get	_	_	_	_	2	xcomp	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 7 Eng-NA=null
+3	get	_	_	_	_	2	parataxis	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 7 Eng-NA=null
 4	in	_	_	_	_	5	case	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 7 Eng-NA=null
 5	the	_	_	_	_	3	obl	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 7 Eng-NA=null
 
@@ -377,8 +379,8 @@
 3	haf	_	_	_	_	0	root	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 13 10 Eng-NA=null
 4	ta	_	_	_	_	5	mark	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 13 10 Eng-NA=null
 5	put	_	_	_	_	3	xcomp	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 13 10 Eng-NA=null
-6	the	_	_	_	_	8	det	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 13 10 Eng-NA=null
-7	the	_	_	_	_	6	conj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 13 10 Eng-NA=null
+6	the	_	_	_	_	7	reparandum:repetition	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 13 10 Eng-NA=null
+7	the	_	_	_	_	8	det	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 13 10 Eng-NA=null
 8	marble	_	_	_	_	10	nsubj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 13 10 Eng-NA=null
 9	is	_	_	_	_	10	aux	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 13 10 Eng-NA=null
 10	going	_	_	_	_	3	parataxis	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 13 10 Eng-NA=null
@@ -459,13 +461,13 @@
 8	restaurant	_	_	_	_	7	conj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 7 6 Eng-NA=null
 
 # text = those the and those are the paints right there
-1	those	those	pro:dem	_	_	0	root	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 11 9 Eng-NA=null
-2	the	the	det:art	_	_	1	parataxis	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 11 9 Eng-NA=null
+1	those	those	pro:dem	_	_	2	nsubj	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 11 9 Eng-NA=null
+2	the	the	det:art	_	_	7	reparandum:restart	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 11 9 Eng-NA=null
 3	and	and	coord	_	_	7	cc	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 11 9 Eng-NA=null
 4	those	those	pro:dem	_	_	7	nsubj	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 11 9 Eng-NA=null
 5	are	be	cop	_	_	7	cop	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 11 9 Eng-NA=null
 6	the	the	det:art	_	_	7	det	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 11 9 Eng-NA=null
-7	paints	paint	n	_	_	1	parataxis	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 11 9 Eng-NA=null
+7	paints	paint	n	_	_	0	root	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 11 9 Eng-NA=null
 8	right	right	adv	_	_	9	advmod	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 11 9 Eng-NA=null
 9	there	there	adv	_	_	7	advmod	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 11 9 Eng-NA=null
 
@@ -497,8 +499,8 @@
 8	this	_	_	_	_	10	det	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 23 21 Eng-NA=null
 9	top	_	_	_	_	10	nsubj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 23 21 Eng-NA=null
 10	haf	_	_	_	_	5	conj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 23 21 Eng-NA=null
-11	ta	_	_	_	_	10	xcomp	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 23 21 Eng-NA=null
-12	truck	_	_	_	_	5	parataxis	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 23 21 Eng-NA=null
+11	ta	_	_	_	_	12	mark	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 23 21 Eng-NA=null
+12	truck	_	_	_	_	10	xcomp	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 23 21 Eng-NA=null
 13	and	_	_	_	_	16	cc	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 23 21 Eng-NA=null
 14	then	_	_	_	_	16	advmod	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 23 21 Eng-NA=null
 15	I	_	_	_	_	16	nsubj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 23 21 Eng-NA=null
@@ -533,7 +535,7 @@
 7	monkey	monkey	n	_	_	0	root	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 7 6 Eng-NA=null
 
 # text = xxx dog bones
-1	dog	_	_	_	_	2	nmod	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 3 3 Eng-NA=null
+1	dog	_	_	_	_	2	compound	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 3 3 Eng-NA=null
 2	bones	_	_	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 3 3 Eng-NA=null
 
 # text = present from my mom
@@ -554,10 +556,10 @@
 
 # text = maybe it I could draw a paint box
 1	maybe	maybe	adv	_	_	2	advmod	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 8 8 Eng-NA=null
-2	it	it	pro:per	_	_	0	root	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 8 8 Eng-NA=null
+2	it	it	pro:per	_	_	5	reparandum:restart	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 8 8 Eng-NA=null
 3	I	I	pro:sub	_	_	5	nsubj	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 8 8 Eng-NA=null
 4	could	could	mod	_	_	5	aux	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 8 8 Eng-NA=null
-5	draw	draw	v	_	_	2	parataxis	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 8 8 Eng-NA=null
+5	draw	draw	v	_	_	0	root	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 8 8 Eng-NA=null
 6	a	a	det:art	_	_	8	det	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 8 8 Eng-NA=null
 7	paint	paint	n	_	_	8	compound	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 8 8 Eng-NA=null
 8	box	box	n	_	_	5	obj	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 8 8 Eng-NA=null
@@ -733,8 +735,8 @@
 3	paint	paint	v	_	_	0	root	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 9 9 Eng-NA=null
 4	a	a	det:art	_	_	5	det	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 9 9 Eng-NA=null
 5	microphone	phone	n	_	_	3	obj	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 9 9 Eng-NA=null
-6	on	on	prep	_	_	9	case	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 9 9 Eng-NA=null
-7	on	on	prep	_	_	6	conj	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 9 9 Eng-NA=null
+6	on	on	prep	_	_	7	reparandum:restart	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 9 9 Eng-NA=null
+7	on	on	prep	_	_	9	case	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 9 9 Eng-NA=null
 8	the	the	det:art	_	_	9	det	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 9 9 Eng-NA=null
 9	paper	paper	n	_	_	3	obl	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 9 9 Eng-NA=null
 
@@ -809,7 +811,7 @@
 1	let	let	n	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 9 7 Eng-NA=null
 2	's	be	cop	_	_	1	obj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 9 7 Eng-NA=null
 3	go	go	v	_	_	1	xcomp	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 9 7 Eng-NA=null
-4	eat	eat	v	_	_	3	xcomp	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 9 7 Eng-NA=null
+4	eat	eat	v	_	_	3	compound:svc	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 9 7 Eng-NA=null
 5	more	more	qn	_	_	6	amod	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 9 7 Eng-NA=null
 6	pizza	pizza	n	_	_	4	obj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 9 7 Eng-NA=null
 7	and	and	coord	_	_	8	cc	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 9 7 Eng-NA=null
@@ -857,7 +859,7 @@
 3	anything	anything	pro:indef	_	_	1	nsubj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
 4	else	else	post	_	_	3	amod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
 5	in	in	prep	_	_	6	case	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
-6	there	there	n	_	_	3	nmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
+6	there	there	n	_	_	1	obl	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
 
 # text = I do n't wan na share
 1	I	I	pro:sub	_	_	4	nsubj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 6 4 Eng-NA=null
@@ -944,8 +946,8 @@
 # text = this car is is funny
 1	this	this	det:dem	_	_	2	det	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 7 5 Eng-NA=null
 2	car	car	n	_	_	5	nsubj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 7 5 Eng-NA=null
-3	is	be	cop	_	_	5	cop	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 7 5 Eng-NA=null
-4	is	be	cop	_	_	3	conj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 7 5 Eng-NA=null
+3	is	be	cop	_	_	4	reparandum:repetition	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 7 5 Eng-NA=null
+4	is	be	cop	_	_	5	copy	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 7 5 Eng-NA=null
 5	funny	funny	adj	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 7 5 Eng-NA=null
 
 # text = yes you can
@@ -1070,8 +1072,8 @@
 # text = it has a a feet
 1	it	it	pro:per	_	_	2	nsubj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 6 5 Eng-NA=null
 2	has	have	aux	_	_	0	root	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 6 5 Eng-NA=null
-3	a	a	det:art	_	_	5	det	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 6 5 Eng-NA=null
-4	a	a	det:art	_	_	3	conj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 6 5 Eng-NA=null
+3	a	a	det:art	_	_	4	reparandum:repetition	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 6 5 Eng-NA=null
+4	a	a	det:art	_	_	5	det	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 6 5 Eng-NA=null
 5	feet	foot	n	_	_	2	obj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 6 5 Eng-NA=null
 
 # text = now teddy is going to sit back again
@@ -1093,7 +1095,7 @@
 6	sit	_	_	_	_	4	xcomp	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 11 8 Eng-NA=null
 7	in	_	_	_	_	10	case	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 11 8 Eng-NA=null
 8	the	_	_	_	_	10	det	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 11 8 Eng-NA=null
-9	sand	_	_	_	_	10	nmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 11 8 Eng-NA=null
+9	sand	_	_	_	_	10	compound	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 11 8 Eng-NA=null
 10	pile	_	_	_	_	6	obl	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 11 8 Eng-NA=null
 
 # text = I can draw him on this paper
@@ -1140,8 +1142,8 @@
 9	and	_	_	_	_	11	cc	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 15 12 Eng-NA=null
 10	then	_	_	_	_	11	advmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 15 12 Eng-NA=null
 11	slide	_	_	_	_	4	conj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 15 12 Eng-NA=null
-12	down	_	_	_	_	13	case	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 15 12 Eng-NA=null
-13	there	_	_	_	_	11	obl	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 15 12 Eng-NA=null
+12	down	_	_	_	_	13	advmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 15 12 Eng-NA=null
+13	there	_	_	_	_	11	advmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 15 12 Eng-NA=null
 
 # text = I put this on paper
 1	I	I	pro:sub	_	_	2	nsubj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 6 5 Eng-NA=null
@@ -1171,8 +1173,8 @@
 2	that	that	comp	_	_	4	nsubj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 8 8 Eng-NA=null
 3	the	the	det:art	_	_	4	det	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 8 8 Eng-NA=null
 4	turtle	turtle	n	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 8 8 Eng-NA=null
-5	purtle	turtle	n	_	_	4	parataxis	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 8 8 Eng-NA=null
-6	purtle	turtle	n	_	_	5	conj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 8 8 Eng-NA=null
+5	purtle	turtle	n	_	_	6	reparandum:repetition	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 8 8 Eng-NA=null
+6	purtle	turtle	n	_	_	4	parataxis	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 8 8 Eng-NA=null
 7	tur	turtle	n	_	_	8	reparandum	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 8 8 Eng-NA=null
 8	turtle	turtle	n	_	_	4	parataxis	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 8 8 Eng-NA=null
 
@@ -1344,8 +1346,8 @@
 
 # text = and he he gets what is in this turtle
 1	and	and	coord	_	_	4	cc	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 10 9 Eng-NA=null
-2	he	he	pro:sub	_	_	4	nsubj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 10 9 Eng-NA=null
-3	he	he	pro:sub	_	_	2	conj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 10 9 Eng-NA=null
+2	he	he	pro:sub	_	_	3	reparandum:repetition	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 10 9 Eng-NA=null
+3	he	he	pro:sub	_	_	4	nsubj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 10 9 Eng-NA=null
 4	gets	get	v	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 10 9 Eng-NA=null
 5	what	what	pro:int	_	_	9	nsubj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 10 9 Eng-NA=null
 6	is	be	cop	_	_	9	cop	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 10 9 Eng-NA=null
@@ -1389,11 +1391,11 @@
 3	some	some	qn	_	_	2	obj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 13 11 Eng-NA=null
 4	I	I	pro:sub	_	_	5	nsubj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 13 11 Eng-NA=null
 5	got	get	v	_	_	2	parataxis	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 13 11 Eng-NA=null
-6	some	some	qn	_	_	11	det	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 13 11 Eng-NA=null
-7	some	some	qn	_	_	6	conj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 13 11 Eng-NA=null
-8	more	more	pro:indef	_	_	11	amod	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 13 11 Eng-NA=null
-9	more	more	adv	_	_	8	conj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 13 11 Eng-NA=null
-10	more	more	qn	_	_	8	conj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 13 11 Eng-NA=null
+6	some	some	qn	_	_	7	reparandum:repetition	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 13 11 Eng-NA=null
+7	some	some	qn	_	_	11	det	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 13 11 Eng-NA=null
+8	more	more	pro:indef	_	_	10	reparandum:repetition	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 13 11 Eng-NA=null
+9	more	more	adv	_	_	10	reparandum:repetition	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 13 11 Eng-NA=null
+10	more	more	qn	_	_	11	amod	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 13 11 Eng-NA=null
 11	ginger	ginger	n	_	_	5	obj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 13 11 Eng-NA=null
 
 # text = the baby is gonna slide down the do do do the slide
@@ -1403,13 +1405,13 @@
 4	gon	_	_	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 15 12 Eng-NA=null
 5	na	_	_	_	_	6	mark	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 15 12 Eng-NA=null
 6	slide	_	_	_	_	4	xcomp	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 15 12 Eng-NA=null
-7	down	_	_	_	_	6	advmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 15 12 Eng-NA=null
-8	the	_	_	_	_	6	obj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 15 12 Eng-NA=null
-9	do	_	_	_	_	4	parataxis	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 15 12 Eng-NA=null
-10	do	_	_	_	_	9	conj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 15 12 Eng-NA=null
-11	do	_	_	_	_	9	conj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 15 12 Eng-NA=null
+7	down	_	_	_	_	8	case	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 15 12 Eng-NA=null
+8	the	_	_	_	_	6	obl	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 15 12 Eng-NA=null
+9	do	_	_	_	_	11	reparandum:repetition	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 15 12 Eng-NA=null
+10	do	_	_	_	_	11	reparandum:repetition	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 15 12 Eng-NA=null
+11	do	_	_	_	_	4	parataxis	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 15 12 Eng-NA=null
 12	the	_	_	_	_	13	det	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 15 12 Eng-NA=null
-13	slide	_	_	_	_	9	obj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 15 12 Eng-NA=null
+13	slide	_	_	_	_	11	obj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 15 12 Eng-NA=null
 
 # text = you tell mommy
 1	you	you	pro:per	_	_	2	nsubj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 3 3 Eng-NA=null
@@ -1433,8 +1435,8 @@
 
 # text = and I I 'm gonna get more pizzas
 1	and	_	_	_	_	5	cc	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 11 7 Eng-NA=null
-2	I	_	_	_	_	5	nsubj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 11 7 Eng-NA=null
-3	I	_	_	_	_	2	conj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 11 7 Eng-NA=null
+2	I	_	_	_	_	3	reparandum:repetition	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 11 7 Eng-NA=null
+3	I	_	_	_	_	5	nsubj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 11 7 Eng-NA=null
 4	'm	_	_	_	_	5	aux	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 11 7 Eng-NA=null
 5	gon	_	_	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 11 7 Eng-NA=null
 6	na	_	_	_	_	7	mark	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 11 7 Eng-NA=null
@@ -1465,9 +1467,9 @@
 
 # text = I got I got more pizza
 1	I	I	pro:sub	_	_	2	nsubj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 8 6 Eng-NA=null
-2	got	get	v	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 8 6 Eng-NA=null
+2	got	get	v	_	_	4	reparandum:repetition	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 8 6 Eng-NA=null
 3	I	I	pro:sub	_	_	4	nsubj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 8 6 Eng-NA=null
-4	got	get	v	_	_	2	parataxis	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 8 6 Eng-NA=null
+4	got	get	v	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 8 6 Eng-NA=null
 5	more	more	qn	_	_	6	amod	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 8 6 Eng-NA=null
 6	pizza	pizza	n	_	_	4	obj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 8 6 Eng-NA=null
 
@@ -1475,8 +1477,8 @@
 1	what	what	pro:int	_	_	6	nsubj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 6 6 Eng-NA=null
 2	is	be	cop	_	_	6	cop	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 6 6 Eng-NA=null
 3	in	in	prep	_	_	6	case	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 6 6 Eng-NA=null
-4	the	the	det:art	_	_	6	det	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 6 6 Eng-NA=null
-5	the	the	det:art	_	_	4	conj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 6 6 Eng-NA=null
+4	the	the	det:art	_	_	5	reparandum:repetition	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 6 6 Eng-NA=null
+5	the	the	det:art	_	_	6	det	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 6 6 Eng-NA=null
 6	turtle	turtle	n	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 6 6 Eng-NA=null
 
 # text = I got more pizzas
@@ -1503,10 +1505,10 @@
 
 # text = I 'm I 'm gonna eat some ginger
 1	I	_	_	_	_	2	nsubj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 6 Eng-NA=null
-2	'm	_	_	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 6 Eng-NA=null
+2	'm	_	_	_	_	5	reparandum:repetition	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 6 Eng-NA=null
 3	I	_	_	_	_	5	nsubj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 6 Eng-NA=null
 4	'm	_	_	_	_	5	aux	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 6 Eng-NA=null
-5	gon	_	_	_	_	2	parataxis	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 6 Eng-NA=null
+5	gon	_	_	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 6 Eng-NA=null
 6	na	_	_	_	_	7	mark	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 6 Eng-NA=null
 7	eat	_	_	_	_	5	xcomp	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 6 Eng-NA=null
 8	some	_	_	_	_	9	det	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 6 Eng-NA=null
@@ -1577,12 +1579,12 @@
 1	that	that	n	_	_	5	nsubj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 4 4 Eng-NA=null
 2	's	be	cop	_	_	5	cop	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 4 4 Eng-NA=null
 3	a	a	det:art	_	_	5	det	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 4 4 Eng-NA=null
-4	ladybug	ladybug	n	_	_	5	nmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 4 4 Eng-NA=null
+4	ladybug	ladybug	n	_	_	5	compound	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 4 4 Eng-NA=null
 5	bracelet	bracelet	n	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 4 4 Eng-NA=null
 
 # text = tee taa
 1	tee	sea	n	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 2 2 Eng-NA=null
-2	taa	salt	n	_	_	1	parataxis	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 2 2 Eng-NA=null
+2	taa	salt	n	_	_	1	dep	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 2 2 Eng-NA=null
 
 # text = and you 're gonna show me other things
 1	and	_	_	_	_	4	cc	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 11 7 Eng-NA=null
@@ -1679,9 +1681,9 @@
 # text = I think put I put it right there
 1	I	I	pro:sub	_	_	2	nsubj	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 10 8 Eng-NA=null
 2	think	think	v	_	_	0	root	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 10 8 Eng-NA=null
-3	put	put	v	_	_	2	parataxis	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 10 8 Eng-NA=null
+3	put	put	v	_	_	5	reparandum	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 10 8 Eng-NA=null
 4	I	I	pro:sub	_	_	5	nsubj	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 10 8 Eng-NA=null
-5	put	put	v	_	_	2	parataxis	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 10 8 Eng-NA=null
+5	put	put	v	_	_	2	ccomp	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 10 8 Eng-NA=null
 6	it	it	pro:per	_	_	5	obj	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 10 8 Eng-NA=null
 7	right	right	adv	_	_	8	advmod	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 10 8 Eng-NA=null
 8	there	there	adv	_	_	5	advmod	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 10 8 Eng-NA=null
@@ -1720,7 +1722,7 @@
 # text = they say ribbit casta
 1	they	they	pro:sub	_	_	2	nsubj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 4 4 Eng-NA=null
 2	say	say	v	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 4 4 Eng-NA=null
-3	ribbit	ribbit	v	_	_	4	nmod	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 4 4 Eng-NA=null
+3	ribbit	ribbit	v	_	_	4	compound	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 4 4 Eng-NA=null
 4	casta	casta	on	_	_	2	obj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 4 4 Eng-NA=null
 
 # text = we fly in a plane to Germany
@@ -1756,7 +1758,7 @@
 
 # text = something I xxx
 1	something	_	_	_	_	0	root	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 2 3 Eng-NA=null
-2	I	_	_	_	_	1	parataxis	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 2 3 Eng-NA=null
+2	I	_	_	_	_	1	dep	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 2 3 Eng-NA=null
 
 # text = I think he could fit in here
 1	I	I	pro:sub	_	_	2	nsubj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 7 7 Eng-NA=null
@@ -1822,13 +1824,13 @@
 
 # text = and they how c can they not fit in there
 1	and	and	coord	_	_	2	cc	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 9 10 Eng-NA=null
-2	they	they	pro:sub	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 9 10 Eng-NA=null
+2	they	they	pro:sub	_	_	8	reparandum:restart	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 9 10 Eng-NA=null
 3	how	how	pro:rel	_	_	8	advmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 9 10 Eng-NA=null
 4	c	can	mod	_	_	5	reparandum	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 9 10 Eng-NA=null
 5	can	can	mod	_	_	8	aux	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 9 10 Eng-NA=null
 6	they	they	pro:sub	_	_	8	nsubj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 9 10 Eng-NA=null
 7	not	not	neg	_	_	8	advmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 9 10 Eng-NA=null
-8	fit	fit	v	_	_	2	parataxis	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 9 10 Eng-NA=null
+8	fit	fit	v	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 9 10 Eng-NA=null
 9	in	in	prep	_	_	10	case	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 9 10 Eng-NA=null
 10	there	there	n	_	_	8	obl	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 9 10 Eng-NA=null
 
@@ -1880,8 +1882,8 @@
 7	together	together	adv	_	_	3	advmod	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 7 6 Eng-NA=null
 
 # text = except except this guy
-1	except	except	conj	_	_	4	advmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 4 4 Eng-NA=null
-2	except	except	prep	_	_	1	conj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 4 4 Eng-NA=null
+1	except	except	conj	_	_	2	reparandum:repetition	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 4 4 Eng-NA=null
+2	except	except	prep	_	_	4	advmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 4 4 Eng-NA=null
 3	this	this	det:dem	_	_	4	det	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 4 4 Eng-NA=null
 4	guy	guy	n	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 4 4 Eng-NA=null
 
@@ -1960,9 +1962,9 @@
 # text = how is there two two ones
 1	how	how	pro:int	_	_	2	advmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
 2	is	be	cop	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
-3	there	there	adv	_	_	2	parataxis	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
-4	two	two	det:num	_	_	6	nummod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
-5	two	two	det:num	_	_	4	conj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
+3	there	there	adv	_	_	2	expl	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
+4	two	two	det:num	_	_	5	reparandum:repetition	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
+5	two	two	det:num	_	_	6	nummod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
 6	ones	one	n	_	_	2	nsubj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
 
 # text = and there two
@@ -1973,7 +1975,7 @@
 # text = is there a one for I
 1	is	be	cop	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
 2	there	there	adv	_	_	1	expl	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
-3	a	a	det:art	_	_	4	det	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
+3	a	a	det:art	_	_	4	reparandum	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
 4	one	one	pro:indef	_	_	1	nsubj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
 5	for	for	prep	_	_	6	case	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
 6	I	I	pro:sub	_	_	4	nmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
@@ -2031,7 +2033,7 @@
 1	is	be	cop	_	_	5	cop	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 5 5 Eng-NA=null
 2	that	that	comp	_	_	5	nsubj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 5 5 Eng-NA=null
 3	a	a	det:art	_	_	5	det	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 5 5 Eng-NA=null
-4	turtle	turtle	n	_	_	5	nmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 5 5 Eng-NA=null
+4	turtle	turtle	n	_	_	5	compound	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 5 5 Eng-NA=null
 5	sandbox	sandbox	n	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 5 5 Eng-NA=null
 
 # text = we should ride that
@@ -2093,7 +2095,7 @@
 
 # text = a Barney video for me
 1	a	a	det:art	_	_	3	det	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 5 5 Eng-NA=null
-2	Barney	Barney	n:prop	_	_	3	nmod	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 5 5 Eng-NA=null
+2	Barney	Barney	n:prop	_	_	3	compound	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 5 5 Eng-NA=null
 3	video	video	n	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 5 5 Eng-NA=null
 4	for	for	prep	_	_	5	case	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 5 5 Eng-NA=null
 5	me	me	pro:obj	_	_	3	nmod	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 5 5 Eng-NA=null
@@ -2110,7 +2112,7 @@
 1	I	I	pro:sub	_	_	2	nsubj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist imperative_emphatic 7 6 Eng-NA=null
 2	got	get	v	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist imperative_emphatic 7 6 Eng-NA=null
 3	your	your	det:poss	_	_	6	nmod:poss	Emma CHI Target_Child	Emma 33.493500893242164 female Weist imperative_emphatic 7 6 Eng-NA=null
-4	Barney	Barney	n:prop	_	_	6	nmod	Emma CHI Target_Child	Emma 33.493500893242164 female Weist imperative_emphatic 7 6 Eng-NA=null
+4	Barney	Barney	n:prop	_	_	6	compound	Emma CHI Target_Child	Emma 33.493500893242164 female Weist imperative_emphatic 7 6 Eng-NA=null
 5	Barney	Barney	n:prop	_	_	4	conj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist imperative_emphatic 7 6 Eng-NA=null
 6	video	video	n	_	_	2	obj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist imperative_emphatic 7 6 Eng-NA=null
 
@@ -2134,7 +2136,7 @@
 2	's	be	cop	_	_	9	cop	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 11 8 Eng-NA=null
 3	right	right	adv	_	_	9	advmod	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 11 8 Eng-NA=null
 4	behind	behind	prep	_	_	9	case	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 11 8 Eng-NA=null
-5	the	the	det:art	_	_	9	det	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 11 8 Eng-NA=null
+5	the	the	det:art	_	_	6	reparandum:repetition	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 11 8 Eng-NA=null
 6	the	the	det:art	_	_	9	det	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 11 8 Eng-NA=null
 7	Blue	Blue	n	_	_	9	nmod:poss	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 11 8 Eng-NA=null
 8	's	's	poss	_	_	7	case	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 11 8 Eng-NA=null
@@ -2183,10 +2185,10 @@
 
 # text = they 're they 're put xxx right xxx
 1	they	_	_	_	_	2	nsubj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 7 6 Eng-NA=null
-2	're	_	_	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 7 6 Eng-NA=null
+2	're	_	_	_	_	5	reparandum:repetition	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 7 6 Eng-NA=null
 3	they	_	_	_	_	5	nsubj:pass	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 7 6 Eng-NA=null
 4	're	_	_	_	_	5	aux:pass	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 7 6 Eng-NA=null
-5	put	_	_	_	_	2	parataxis	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 7 6 Eng-NA=null
+5	put	_	_	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 7 6 Eng-NA=null
 6	right	_	_	_	_	5	discourse	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 7 6 Eng-NA=null
 
 # text = along came a
@@ -2253,16 +2255,16 @@
 9	seven	seven	det:num	_	_	8	nsubj	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 11 9 Eng-NA=null
 
 # text = maybe they 're not they 're not in that one
-1	maybe	maybe	adv	_	_	3	advmod	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 8 Eng-NA=null
+1	maybe	maybe	adv	_	_	10	advmod	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 8 Eng-NA=null
 2	they	they	pro:sub	_	_	3	nsubj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 8 Eng-NA=null
-3	're	be	cop	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 8 Eng-NA=null
+3	're	be	cop	_	_	10	reparandum:repetition	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 8 Eng-NA=null
 4	not	not	neg	_	_	3	advmod	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 8 Eng-NA=null
 5	they	they	pro:sub	_	_	10	nsubj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 8 Eng-NA=null
 6	're	be	cop	_	_	10	cop	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 8 Eng-NA=null
 7	not	not	neg	_	_	10	advmod	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 8 Eng-NA=null
 8	in	in	prep	_	_	10	case	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 8 Eng-NA=null
 9	that	that	det:dem	_	_	10	det	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 8 Eng-NA=null
-10	one	one	pro:indef	_	_	3	parataxis	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 8 Eng-NA=null
+10	one	one	pro:indef	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 8 Eng-NA=null
 
 # text = and then there were seven
 1	and	and	coord	_	_	4	cc	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 6 5 Eng-NA=null
@@ -2334,7 +2336,7 @@
 # text = do the sidewalk chalk
 1	do	do	v	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 4 4 Eng-NA=null
 2	the	the	det:art	_	_	4	det	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 4 4 Eng-NA=null
-3	sidewalk	sidewalk	n	_	_	4	nmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 4 4 Eng-NA=null
+3	sidewalk	sidewalk	n	_	_	4	compound	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 4 4 Eng-NA=null
 4	chalk	chalk	n	_	_	1	obj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 4 4 Eng-NA=null
 
 # text = what is this number
@@ -2374,7 +2376,7 @@
 5	draw	draw	v	_	_	2	conj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 11 11 Eng-NA=null
 6	on	on	prep	_	_	9	case	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 11 11 Eng-NA=null
 7	the	the	det:art	_	_	9	det	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 11 11 Eng-NA=null
-8	sidewalk	sidewalk	n	_	_	9	nmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 11 11 Eng-NA=null
+8	sidewalk	sidewalk	n	_	_	9	compound	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 11 11 Eng-NA=null
 9	chalk	chalk	n	_	_	5	obl	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 11 11 Eng-NA=null
 10	with	with	prep	_	_	11	case	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 11 11 Eng-NA=null
 11	this	this	pro:dem	_	_	5	obl	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 11 11 Eng-NA=null
@@ -2447,8 +2449,8 @@
 7	bench	bench	n	_	_	4	obl	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 7 7 Eng-NA=null
 
 # text = where where are you
-1	where	where	pro:int	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist question 4 4 Eng-NA=null
-2	where	where	pro:int	_	_	1	conj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist question 4 4 Eng-NA=null
+1	where	where	pro:int	_	_	2	reparandum:repetition	Emma CHI Target_Child	Emma 33.493500893242164 female Weist question 4 4 Eng-NA=null
+2	where	where	pro:int	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist question 4 4 Eng-NA=null
 3	are	be	cop	_	_	1	cop	Emma CHI Target_Child	Emma 33.493500893242164 female Weist question 4 4 Eng-NA=null
 4	you	you	pro:per	_	_	1	nsubj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist question 4 4 Eng-NA=null
 
@@ -2483,9 +2485,9 @@
 
 # text = there 's there 's too much people in here
 1	there	there	n	_	_	2	expl	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 7 Eng-NA=null
-2	's	be	cop	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 7 Eng-NA=null
+2	's	be	cop	_	_	4	reparandum:repetition	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 7 Eng-NA=null
 3	there	there	n	_	_	4	expl	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 7 Eng-NA=null
-4	's	be	cop	_	_	2	parataxis	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 7 Eng-NA=null
+4	's	be	cop	_	_	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 7 Eng-NA=null
 5	too	too	adv	_	_	6	advmod	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 7 Eng-NA=null
 6	much	much	adv	_	_	7	amod	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 7 Eng-NA=null
 7	people	person	n	_	_	4	nsubj	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 10 7 Eng-NA=null
@@ -2719,7 +2721,7 @@
 2	my	my	det:poss	_	_	1	obj	Emma CHI Target_Child	Emma 32.5920450111912 female Weist declarative 2 2 Eng-NA=null
 
 # text = car soup
-1	car	car	n	_	_	2	nmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 2 2 Eng-NA=null
+1	car	car	n	_	_	2	compound	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 2 2 Eng-NA=null
 2	soup	soup	n	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 2 2 Eng-NA=null
 
 # text = are they gonna drive into here
@@ -2763,10 +2765,10 @@
 # text = now I need now I need these
 1	now	now	adv	_	_	3	advmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 7 7 Eng-NA=null
 2	I	I	pro:sub	_	_	3	nsubj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 7 7 Eng-NA=null
-3	need	need	v	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 7 7 Eng-NA=null
+3	need	need	v	_	_	6	reparandum:repetition	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 7 7 Eng-NA=null
 4	now	now	adv	_	_	6	advmod	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 7 7 Eng-NA=null
 5	I	I	pro:sub	_	_	6	nsubj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 7 7 Eng-NA=null
-6	need	need	v	_	_	3	parataxis	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 7 7 Eng-NA=null
+6	need	need	v	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 7 7 Eng-NA=null
 7	these	these	pro:dem	_	_	6	obj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 7 7 Eng-NA=null
 
 # text = I 'm cooking
