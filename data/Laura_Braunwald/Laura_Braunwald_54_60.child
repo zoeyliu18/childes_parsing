@@ -32,7 +32,6 @@
 7	else	else	post	6	amod	6	amod	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald declarative 9 7 Eng-NA=null
 
 # text = the raccoon chasing the fox
-# Re-evaluate
 1	the	the	det:art	2	det	2	det	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald declarative 6 5 Eng-NA=null
 2	raccoon	raccoon	n	0	root	3	nsubj	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald declarative 6 5 Eng-NA=null
 3	chasing	chase	part	2	acl	0	root	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald declarative 6 5 Eng-NA=null
@@ -40,7 +39,6 @@
 5	fox	fox	n	3	obj	3	obj	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald declarative 6 5 Eng-NA=null
 
 # text = well that 's not shown on the picture all of it
-# Re-evaluate
 1	well	well	co	5	discourse	5	discourse	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald declarative 12 10 Eng-NA=null
 2	that	that	n	5	nsubj:pass	5	nsubj:pass	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald declarative 12 10 Eng-NA=null
 3	's	be	cop	5	aux:pass	5	aux:pass	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald declarative 12 10 Eng-NA=null
@@ -175,12 +173,11 @@
 11	shoe	shoe	n	8	obj	8	obj	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald declarative 11 10 Eng-NA=null
 
 # text = about did did you say about raccoons
-# Re-evaluate
-1	about	about	adv	0	root	5	reparandum:restart	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald question 8 7 Eng-NA=null
-2	did	do	mod	5	aux	3	reparandum:repetition	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald question 8 7 Eng-NA=null
+1	about	about	adv	5	reparandum:restart	5	reparandum:restart	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald question 8 7 Eng-NA=null
+2	did	do	mod	3	reparandum:repetition	3	reparandum:repetition	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald question 8 7 Eng-NA=null
 3	did	do	mod	2	conj	5	aux	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald question 8 7 Eng-NA=null
 4	you	you	pro:sub	5	nsubj	5	nsubj	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald question 8 7 Eng-NA=null
-5	say	say	v	1	parataxis	0	root	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald question 8 7 Eng-NA=null
+5	say	say	v	0	root	0	root	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald question 8 7 Eng-NA=null
 6	about	about	prep	7	case	7	case	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald question 8 7 Eng-NA=null
 7	raccoons	raccoon	n	5	obl	5	obl	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald question 8 7 Eng-NA=null
 
@@ -350,7 +347,6 @@
 9	yesterday	yesterday	adv:tem	_	_	2	obl:tmod	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald declarative 10 9 Eng-NA=null
 
 # text = I 'm a figure of ehrm that they 're going to read them tomorrow the
-# Re-evaluate: ehrm
 1	I	I	pro:sub	_	_	4	nsubj	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald trail off 16 13 Eng-NA=null
 2	'm	be	cop	_	_	4	cop	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald trail off 16 13 Eng-NA=null
 3	a	a	det:art	_	_	4	det	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald trail off 16 13 Eng-NA=null
@@ -797,7 +793,6 @@
 2	town	town	n	_	_	0	root	Laura CHI Target_Child	Laura 55.5925173001499 female Braunwald declarative 2 2 Eng-NA=null
 
 # text = look it
-# Re-evaluate
 1	look	look	v	_	_	0	root	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald declarative 2 2 Eng-NA=null
 2	it	it	pro:per	_	_	1	obl	Laura CHI Target_Child	Laura 55.362533111562875 female Braunwald declarative 2 2 Eng-NA=null
 
@@ -1055,7 +1050,7 @@
 2	wan	want	v	_	_	0	root	Laura CHI Target_Child	Laura 55.5925173001499 female Braunwald declarative 5 4 Eng-NA=null
 3	na	to	inf	_	_	4	mark	Laura CHI Target_Child	Laura 55.5925173001499 female Braunwald declarative 5 4 Eng-NA=null
 4	show	show	v	_	_	2	xcomp	Laura CHI Target_Child	Laura 55.5925173001499 female Braunwald declarative 5 4 Eng-NA=null
-5	you	you	pro:per	_	_	4	obj	Laura CHI Target_Child	Laura 55.5925173001499 female Braunwald declarative 5 4 Eng-NA=null
+5	you	you	pro:per	_	_	4	iobj	Laura CHI Target_Child	Laura 55.5925173001499 female Braunwald declarative 5 4 Eng-NA=null
 
 # text = I found the birthday cat
 1	I	I	pro:sub	_	_	2	nsubj	Laura CHI Target_Child	Laura 55.5925173001499 female Braunwald declarative 5 5 Eng-NA=null
@@ -1339,7 +1334,6 @@
 3	wrinkly	wrinkle	adj	_	_	0	root	Laura CHI Target_Child	Laura 55.5925173001499 female Braunwald declarative 5 2 Eng-NA=null
 
 # text = did he poo poo
-# Re-evaluate
 1	did	do	mod	_	_	3	aux	Laura CHI Target_Child	Laura 58.001190989548036 female Braunwald question 5 3 Eng-NA=null
 2	he	he	pro:sub	_	_	3	nsubj	Laura CHI Target_Child	Laura 58.001190989548036 female Braunwald question 5 3 Eng-NA=null
 3	poo	poo	v	_	_	0	root	Laura CHI Target_Child	Laura 58.001190989548036 female Braunwald question 5 3 Eng-NA=null
@@ -1406,7 +1400,6 @@
 6	a	_	_	_	_	5	nsubj	Laura CHI Target_Child	Laura 58.001190989548036 female Braunwald declarative 8 7 Eng-NA=null
 
 # text = not really now
-# Re-evaluate
 1	not	not	neg	_	_	3	advmod	Laura CHI Target_Child	Laura 58.001190989548036 female Braunwald declarative 3 3 Eng-NA=null
 2	really	really	adv	_	_	3	advmod	Laura CHI Target_Child	Laura 58.001190989548036 female Braunwald declarative 3 3 Eng-NA=null
 3	now	now	adv	_	_	0	root	Laura CHI Target_Child	Laura 58.001190989548036 female Braunwald declarative 3 3 Eng-NA=null

@@ -538,7 +538,7 @@
 
 # text = get set go
 1	get	get	v	_	_	0	root	Abe CHI Target_Child	Abe 29.23057968336105 male Kuczaj imperative_emphatic 3 3 Eng-NA=null
-2	set	set	n	_	_	1	xcom	Abe CHI Target_Child	Abe 29.23057968336105 male Kuczaj imperative_emphatic 3 3 Eng-NA=null
+2	set	set	n	_	_	1	xcomp	Abe CHI Target_Child	Abe 29.23057968336105 male Kuczaj imperative_emphatic 3 3 Eng-NA=null
 3	go	go	v	_	_	1	parataxis	Abe CHI Target_Child	Abe 29.23057968336105 male Kuczaj imperative_emphatic 3 3 Eng-NA=null
 
 # text = leave me alone
@@ -945,7 +945,6 @@
 6	cracker	cracker	n	_	_	1	parataxis	Abe CHI Target_Child	Abe 29.32914433561264 male Kuczaj declarative 6 4 Eng-NA=null
 
 # text = look what Jean gotted for me
-# CCOMP
 1	look	look	v	_	_	0	root	Abe CHI Target_Child	Abe 29.000595494774018 male Kuczaj declarative 7 6 Eng-NA=null
 2	what	what	pro:int	_	_	4	obj	Abe CHI Target_Child	Abe 29.000595494774018 male Kuczaj declarative 7 6 Eng-NA=null
 3	Jean	Jean	n:prop	_	_	4	nsubj	Abe CHI Target_Child	Abe 29.000595494774018 male Kuczaj declarative 7 6 Eng-NA=null
@@ -1407,7 +1406,6 @@
 4	go	go	v	_	_	0	root	Abe CHI Target_Child	Abe 29.46056387194809 male Kuczaj imperative_emphatic 4 4 Eng-NA=null
 
 # text = look what 's in here
-# CCOMP
 1	look	look	co	_	_	0	root	Abe CHI Target_Child	Abe 29.23057968336105 male Kuczaj question 5 4 Eng-NA=null
 2	what	what	n	_	_	5	nsubj	Abe CHI Target_Child	Abe 29.23057968336105 male Kuczaj question 5 4 Eng-NA=null
 3	's	be	cop	_	_	5	cop	Abe CHI Target_Child	Abe 29.23057968336105 male Kuczaj question 5 4 Eng-NA=null
@@ -1425,7 +1423,6 @@
 8	monsters	monster	n	_	_	4	obl	Abe CHI Target_Child	Abe 28.789092178484157 male Kuczaj declarative 9 7 Eng-NA=null
 
 # text = look what I find
-# CCOMP
 1	look	look	v	_	_	0	root	Abe CHI Target_Child	Abe 29.23057968336105 male Kuczaj imperative_emphatic 4 4 Eng-NA=null
 2	what	what	pro:int	_	_	4	obj	Abe CHI Target_Child	Abe 29.23057968336105 male Kuczaj imperative_emphatic 4 4 Eng-NA=null
 3	I	I	pro:sub	_	_	4	nsubj	Abe CHI Target_Child	Abe 29.23057968336105 male Kuczaj imperative_emphatic 4 4 Eng-NA=null

@@ -248,10 +248,9 @@
 9	how	how	pro:rel	7	advmod	7	obj	None FAT Father	Abe 30.13203556541202 male Kuczaj declarative 9 8 Eng-NA=null
 
 # text = you know what
-# Re-evaluate
 1	you	you	pro:per	2	nsubj	2	nsubj	None MOT Mother	Abe 30.460584406250643 male Kuczaj question 3 3 Eng-NA=null
 2	know	know	v	0	root	0	root	None MOT Mother	Abe 30.460584406250643 male Kuczaj question 3 3 Eng-NA=null
-3	what	what	pro:int	2	ccomp	2	obj	None MOT Mother	Abe 30.460584406250643 male Kuczaj question 3 3 Eng-NA=null
+3	what	what	pro:int	2	obj	2	obj	None MOT Mother	Abe 30.460584406250643 male Kuczaj question 3 3 Eng-NA=null
 
 # text = they all taste the same
 1	they	they	pro:sub	3	nsubj	3	nsubj	None MOT Mother	Abe 30.460584406250643 male Kuczaj declarative 5 5 Eng-NA=null
@@ -424,7 +423,6 @@
 3	goose	goose	n	_	_	1	appos	None FAT Father	Abe 30.13203556541202 male Kuczaj declarative 3 3 Eng-NA=null
 
 # text = uhhuh can you find where it 's spos ta go
-# CCOMP
 1	uhhuh	_	_	_	_	4	discourse	None FAT Father	Abe 30.460584406250643 male Kuczaj question 11 8 Eng-NA=null
 2	can	_	_	_	_	4	aux	None FAT Father	Abe 30.460584406250643 male Kuczaj question 11 8 Eng-NA=null
 3	you	_	_	_	_	4	nsubj	None FAT Father	Abe 30.460584406250643 male Kuczaj question 11 8 Eng-NA=null
@@ -549,7 +547,7 @@
 2	did	do	mod	_	_	4	aux	None MOT Mother	Abe 30.13203556541202 male Kuczaj question 15 12 Eng-NA=null
 3	you	you	pro:per	_	_	4	nsubj	None MOT Mother	Abe 30.13203556541202 male Kuczaj question 15 12 Eng-NA=null
 4	tell	tell	v	_	_	0	root	None MOT Mother	Abe 30.13203556541202 male Kuczaj question 15 12 Eng-NA=null
-5	Daddy	Daddy	n:prop	_	_	4	obj	None MOT Mother	Abe 30.13203556541202 male Kuczaj question 15 12 Eng-NA=null
+5	Daddy	Daddy	n:prop	_	_	4	iobj	None MOT Mother	Abe 30.13203556541202 male Kuczaj question 15 12 Eng-NA=null
 6	that	that	pro:rel	_	_	8	mark	None MOT Mother	Abe 30.13203556541202 male Kuczaj question 15 12 Eng-NA=null
 7	you	you	pro:per	_	_	8	nsubj	None MOT Mother	Abe 30.13203556541202 male Kuczaj question 15 12 Eng-NA=null
 8	helped	help	v	_	_	4	ccomp	None MOT Mother	Abe 30.13203556541202 male Kuczaj question 15 12 Eng-NA=null
@@ -565,7 +563,7 @@
 
 # text = show me
 1	show	show	v	_	_	0	root	None MOT Mother	Abe 30.460584406250643 male Kuczaj declarative 2 2 Eng-NA=null
-2	me	me	pro:obj	_	_	1	obj	None MOT Mother	Abe 30.460584406250643 male Kuczaj declarative 2 2 Eng-NA=null
+2	me	me	pro:obj	_	_	1	iobj	None MOT Mother	Abe 30.460584406250643 male Kuczaj declarative 2 2 Eng-NA=null
 
 # text = what happened to Humpty Dumpty
 1	what	what	pro:int	_	_	2	nsubj	None MOT Mother	Abe 30.460584406250643 male Kuczaj question 5 4 Eng-NA=null
@@ -700,7 +698,6 @@
 8	it	it	pro:per	_	_	7	obj	None MOT Mother	Abe 30.13203556541202 male Kuczaj declarative 9 8 Eng-NA=null
 
 # text = alright you know what else we need
-# CCOMP
 1	alright	alright	co	_	_	3	discourse	None MOT Mother	Abe 30.460584406250643 male Kuczaj question 7 7 Eng-NA=null
 2	you	you	pro:per	_	_	3	nsubj	None MOT Mother	Abe 30.460584406250643 male Kuczaj question 7 7 Eng-NA=null
 3	know	know	v	_	_	0	root	None MOT Mother	Abe 30.460584406250643 male Kuczaj question 7 7 Eng-NA=null
@@ -1047,7 +1044,7 @@
 3	me	me	pro:obj	_	_	2	obj	None FAT Father	Abe 30.460584406250643 male Kuczaj question 6 6 Eng-NA=null
 4	to	to	inf	_	_	5	mark	None FAT Father	Abe 30.460584406250643 male Kuczaj question 6 6 Eng-NA=null
 5	show	show	v	_	_	2	xcomp	None FAT Father	Abe 30.460584406250643 male Kuczaj question 6 6 Eng-NA=null
-6	Mike	Mike	n:prop	_	_	5	obj	None FAT Father	Abe 30.460584406250643 male Kuczaj question 6 6 Eng-NA=null
+6	Mike	Mike	n:prop	_	_	5	iobj	None FAT Father	Abe 30.460584406250643 male Kuczaj question 6 6 Eng-NA=null
 
 # text = do n't bite that hurts
 1	do	do	mod	_	_	3	aux	None FAT Father	Abe 30.13203556541202 male Kuczaj declarative 6 4 Eng-NA=null
@@ -1073,7 +1070,6 @@
 4	shortening	shorten	part	_	_	3	obj	None MOT Mother	Abe 30.460584406250643 male Kuczaj declarative 5 4 Eng-NA=null
 
 # text = see how creamy this is getting
-# CCOMP
 1	see	see	v	_	_	0	root	None MOT Mother	Abe 30.460584406250643 male Kuczaj question 10 6 Eng-NA=null
 2	how	how	pro:int	_	_	3	advmod	None MOT Mother	Abe 30.460584406250643 male Kuczaj question 10 6 Eng-NA=null
 3	creamy	cream	adj	_	_	6	xcomp	None MOT Mother	Abe 30.460584406250643 male Kuczaj question 10 6 Eng-NA=null

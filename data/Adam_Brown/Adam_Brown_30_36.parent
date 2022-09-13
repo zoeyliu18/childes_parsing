@@ -73,14 +73,13 @@
 2	pig	pig	n	0	root=	0	root	None MOT Mother	Adam 30.099180681328157 male Brown question 2 2 Eng-NA=null
 
 # text = the other was a cow I think
-# Re-evaluate
 1	the	the	det:art	2	det=	2	det	None MOT Mother	Adam 30.099180681328157 male Brown declarative 9 7 Eng-NA=null
 2	other	other	qn	5	nsubj=	5	nsubj	None MOT Mother	Adam 30.099180681328157 male Brown declarative 9 7 Eng-NA=null
 3	was	be	cop	5	cop=	5	cop	None MOT Mother	Adam 30.099180681328157 male Brown declarative 9 7 Eng-NA=null
 4	a	a	det:art	5	det=	5	det	None MOT Mother	Adam 30.099180681328157 male Brown declarative 9 7 Eng-NA=null
-5	cow	cow	n	0	root=	7	ccomp	None MOT Mother	Adam 30.099180681328157 male Brown declarative 9 7 Eng-NA=null
+5	cow	cow	n	0	root=	0	root	None MOT Mother	Adam 30.099180681328157 male Brown declarative 9 7 Eng-NA=null
 6	I	I	pro:sub	7	nsubj=	7	nsubj	None MOT Mother	Adam 30.099180681328157 male Brown declarative 9 7 Eng-NA=null
-7	think	think	v	5	parataxis=	0	root	None MOT Mother	Adam 30.099180681328157 male Brown declarative 9 7 Eng-NA=null
+7	think	think	v	5	parataxis=	5	parataxis	None MOT Mother	Adam 30.099180681328157 male Brown declarative 9 7 Eng-NA=null
 
 # text = oh maybe so
 1	oh	oh	co	3	discourse=	3	discourse	None MOT Mother	Adam 30.099180681328157 male Brown declarative 3 3 Eng-NA=null
@@ -210,10 +209,9 @@
 3	mouth	mouth	n	0	root=	0	root	None MOT Mother	Adam 30.559149058502232 male Brown declarative 4 2 Eng-NA=null
 
 # text = doggie right there
-# Re-evaluate
-1	doggie	dog	n	0	root=	3	nsubj	None MOT Mother	Adam 30.099180681328157 male Brown declarative 4 3 Eng-NA=null
+1	doggie	dog	n	0	root=	0	root	None MOT Mother	Adam 30.099180681328157 male Brown declarative 4 3 Eng-NA=null
 2	right	right	adv	3	advmod=	3	advmod	None MOT Mother	Adam 30.099180681328157 male Brown declarative 4 3 Eng-NA=null
-3	there	there	adv	1	advmod=	0	root	None MOT Mother	Adam 30.099180681328157 male Brown declarative 4 3 Eng-NA=null
+3	there	there	adv	1	advmod=	1	advmod	None MOT Mother	Adam 30.099180681328157 male Brown declarative 4 3 Eng-NA=null
 
 # text = you 're dripping down
 1	you	you	pro:per	3	nsubj=	3	nsubj	None MOT Mother	Adam 31.033491447462982 male Brown question 5 3 Eng-NA=null
@@ -244,10 +242,9 @@
 3	mouth	mouth	n	0	root=	0	root	None MOT Mother	Adam 31.033491447462982 male Brown declarative 3 3 Eng-NA=null
 
 # text = look somebody find something
-# Re-evaluate
-1	look	look	v	3	discourse=	0	root	None MOT Mother	Adam 30.099180681328157 male Brown declarative 4 4 Eng-NA=null
+1	look	look	v	0	root	0	root	None MOT Mother	Adam 30.099180681328157 male Brown declarative 4 4 Eng-NA=null
 2	somebody	somebody	pro:indef	3	nsubj=	3	nsubj	None MOT Mother	Adam 30.099180681328157 male Brown declarative 4 4 Eng-NA=null
-3	find	find	v	0	root=	1	parataxis	None MOT Mother	Adam 30.099180681328157 male Brown declarative 4 4 Eng-NA=null
+3	find	find	v	1	parataxis	1	parataxis	None MOT Mother	Adam 30.099180681328157 male Brown declarative 4 4 Eng-NA=null
 4	something	something	pro:indef	3	obj=	3	obj	None MOT Mother	Adam 30.099180681328157 male Brown declarative 4 4 Eng-NA=null
 
 # text = Adam did
@@ -554,7 +551,7 @@
 1	can	can	mod	_	_	3	aux	None MOT Mother	Adam 30.099180681328157 male Brown question 10 9 Eng-NA=null
 2	you	you	pro:per	_	_	3	nsubj	None MOT Mother	Adam 30.099180681328157 male Brown question 10 9 Eng-NA=null
 3	tell	tell	v	_	_	0	root	None MOT Mother	Adam 30.099180681328157 male Brown question 10 9 Eng-NA=null
-4	Mr	Mr	n:prop	_	_	3	obj	None MOT Mother	Adam 30.099180681328157 male Brown question 10 9 Eng-NA=null
+4	Mr	Mr	n:prop	_	_	3	iobj	None MOT Mother	Adam 30.099180681328157 male Brown question 10 9 Eng-NA=null
 5	Cromer	Cromer	n:prop	_	_	4	flat	None MOT Mother	Adam 30.099180681328157 male Brown question 10 9 Eng-NA=null
 6	what	what	pro:int	_	_	8	obl	None MOT Mother	Adam 30.099180681328157 male Brown question 10 9 Eng-NA=null
 7	you	you	pro:per	_	_	8	nsubj	None MOT Mother	Adam 30.099180681328157 male Brown question 10 9 Eng-NA=null
@@ -669,7 +666,7 @@
 1	can	can	mod	_	_	3	aux	None MOT Mother	Adam 30.099180681328157 male Brown question 12 12 Eng-NA=null
 2	you	you	pro:per	_	_	3	nsubj	None MOT Mother	Adam 30.099180681328157 male Brown question 12 12 Eng-NA=null
 3	tell	tell	v	_	_	0	root	None MOT Mother	Adam 30.099180681328157 male Brown question 12 12 Eng-NA=null
-4	Mr	Mr	n:prop	_	_	3	obj	None MOT Mother	Adam 30.099180681328157 male Brown question 12 12 Eng-NA=null
+4	Mr	Mr	n:prop	_	_	3	iobj	None MOT Mother	Adam 30.099180681328157 male Brown question 12 12 Eng-NA=null
 5	Cromer	Cromer	n:prop	_	_	4	flat	None MOT Mother	Adam 30.099180681328157 male Brown question 12 12 Eng-NA=null
 6	about	about	prep	_	_	8	case	None MOT Mother	Adam 30.099180681328157 male Brown question 12 12 Eng-NA=null
 7	the	the	det:art	_	_	8	det	None MOT Mother	Adam 30.099180681328157 male Brown question 12 12 Eng-NA=null
@@ -806,7 +803,7 @@
 1	did	do	mod	_	_	3	aux	None MOT Mother	Adam 30.099180681328157 male Brown question 12 9 Eng-NA=null
 2	you	you	pro:per	_	_	3	nsubj	None MOT Mother	Adam 30.099180681328157 male Brown question 12 9 Eng-NA=null
 3	tell	tell	v	_	_	0	root	None MOT Mother	Adam 30.099180681328157 male Brown question 12 9 Eng-NA=null
-4	her	her	pro:obj	_	_	3	obj	None MOT Mother	Adam 30.099180681328157 male Brown question 12 9 Eng-NA=null
+4	her	her	pro:obj	_	_	3	iobj	None MOT Mother	Adam 30.099180681328157 male Brown question 12 9 Eng-NA=null
 5	that	that	comp	_	_	9	mark	None MOT Mother	Adam 30.099180681328157 male Brown question 12 9 Eng-NA=null
 6	you	you	pro:per	_	_	9	nsubj	None MOT Mother	Adam 30.099180681328157 male Brown question 12 9 Eng-NA=null
 7	did	do	mod	_	_	9	aux	None MOT Mother	Adam 30.099180681328157 male Brown question 12 9 Eng-NA=null
@@ -2297,8 +2294,8 @@
 3	've	_	_	_	_	4	aux	None MOT Mother	Adam 30.559149058502232 male Brown declarative 8 6 Eng-NA=null
 4	got	_	_	_	_	0	root	None MOT Mother	Adam 30.559149058502232 male Brown declarative 8 6 Eng-NA=null
 5	her	_	_	_	_	4	obj	None MOT Mother	Adam 30.559149058502232 male Brown declarative 8 6 Eng-NA=null
-6	upside	_	_	_	_	4	xcomp	None MOT Mother	Adam 30.559149058502232 male Brown declarative 8 6 Eng-NA=null
-7	down	_	_	_	_	6	compound:prt	None MOT Mother	Adam 30.559149058502232 male Brown declarative 8 6 Eng-NA=null
+6	upside	_	_	_	_	4	advmod	None MOT Mother	Adam 30.559149058502232 male Brown declarative 8 6 Eng-NA=null
+7	down	_	_	_	_	6	fixed	None MOT Mother	Adam 30.559149058502232 male Brown declarative 8 6 Eng-NA=null
 
 # text = take it out of your mouth Adam
 1	take	take	v	_	_	0	root	None MOT Mother	Adam 31.033491447462982 male Brown declarative 6 6 Eng-NA=null

@@ -30,7 +30,7 @@
 3	want	want	v	0	root	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 8 8 Eng-NA=null
 4	corn	corn	n	3	obj	3	obj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 8 8 Eng-NA=null
 5	and	and	coord	7	cc	7	cc	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 8 8 Eng-NA=null
-6	summer	summer	n	7	nmod	7	nmod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 8 8 Eng-NA=null
+6	summer	summer	n	7	compound	7	compound	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 8 8 Eng-NA=null
 7	vegetables	vegetable	n	4	conj	4	conj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 8 8 Eng-NA=null
 
 # text = vegetable go to
@@ -91,13 +91,13 @@
 
 # text = the friend song
 1	the	the	det:art	3	det	3	det	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 3 Eng-NA=null
-2	friend	friend	n	3	nmod	3	nmod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 3 Eng-NA=null
+2	friend	friend	n	3	compound	3	compound	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 3 Eng-NA=null
 3	song	song	n	0	root	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 3 Eng-NA=null
 
 # text = look I put the cabbage there
-1	look	look	v	3	discourse	3	discourse	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 7 6 Eng-NA=null
+1	look	look	v	0	root	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 7 6 Eng-NA=null
 2	I	I	pro:sub	3	nsubj	3	nsubj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 7 6 Eng-NA=null
-3	put	put	v	0	root	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 7 6 Eng-NA=null
+3	put	put	v	1	parataxis	1	parataxis	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 7 6 Eng-NA=null
 4	the	the	det:art	5	det	5	det	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 7 6 Eng-NA=null
 5	cabbage	cabbage	n	3	obj	3	obj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 7 6 Eng-NA=null
 6	there	there	adv	3	advmod	3	advmod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 7 6 Eng-NA=null
@@ -119,8 +119,8 @@
 3	carrying	carry	part	0	root	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 9 7 Eng-NA=null
 4	a	a	det:art	8	det	8	det	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 9 7 Eng-NA=null
 5	u	u	n:let	8	nmod	8	nmod	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 9 7 Eng-NA=null
-6	p	p	n:let	5	flat	5	flat	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 9 7 Eng-NA=null
-7	s	s	n:let	5	flat	5	flat	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 9 7 Eng-NA=null
+6	p	p	n:let	5	flat	5	goeswith	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 9 7 Eng-NA=null
+7	s	s	n:let	5	flat	5	goeswith	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 9 7 Eng-NA=null
 8	man	man	n	3	obj	3	obj	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 9 7 Eng-NA=null
 
 # text = you are
@@ -130,7 +130,7 @@
 # text = Mommy read jungle book
 1	Mommy	Mommy	n:prop	2	nsubj	2	nsubj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 5 5 Eng-NA=null
 2	read	read	v	0	root	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 5 5 Eng-NA=null
-3	jungle	jungle	n	4	nmod	4	nmod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 5 5 Eng-NA=null
+3	jungle	jungle	n	4	compound	4	compound	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 5 5 Eng-NA=null
 4	book	book	n	2	obj	2	obj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 5 5 Eng-NA=null
 
 # text = putting the backpack on
@@ -184,8 +184,8 @@
 3	it	it	pro:per	2	obj	2	obj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 3 Eng-NA=null
 
 # text = blueberry keeth girl
-1	blueberry	blueberry	n	2	nmod	2	nmod	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 4 3 Eng-NA=null
-2	keeth	tooth	n	3	nmod	3	nmod	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 4 3 Eng-NA=null
+1	blueberry	blueberry	n	2	compound	2	compound	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 4 3 Eng-NA=null
+2	keeth	tooth	n	3	compound	3	compound	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 4 3 Eng-NA=null
 3	girl	girl	n	0	root	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 4 3 Eng-NA=null
 
 # text = open it
@@ -231,7 +231,7 @@
 3	it	it	pro:per	2	obj	2	obj	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 4 3 Eng-NA=null
 
 # text = friend song
-1	friend	friend	n	2	nmod	2	nmod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 2 2 Eng-NA=null
+1	friend	friend	n	2	compound	2	compound	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 2 2 Eng-NA=null
 2	song	song	n	0	root	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 2 2 Eng-NA=null
 
 # text = I cutting you a present
@@ -316,7 +316,7 @@
 1	it	_	_	_	_	5	nsubj	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 7 5 Eng-NA=null
 2	's	_	_	_	_	5	cop	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 7 5 Eng-NA=null
 3	a	_	_	_	_	5	det	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 7 5 Eng-NA=null
-4	potty	_	_	_	_	5	nmod	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 7 5 Eng-NA=null
+4	potty	_	_	_	_	5	compound	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 7 5 Eng-NA=null
 5	bowl	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 7 5 Eng-NA=null
 
 # text = xxx we do n't have some
@@ -331,18 +331,18 @@
 2	some	_	_	_	_	1	obj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 2 3 Eng-NA=null
 
 # text = we do n't
-1	we	we	pro:sub	_	_	3	nsubj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 2 Eng-NA=null
+1	we	we	pro:sub	_	_	2	nsubj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 2 Eng-NA=null
 2	do	do	mod	_	_	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 2 Eng-NA=null
 3	n't	not	neg	_	_	2	advmod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 2 Eng-NA=null
 
 # text = xxx toddler time
-1	toddler	_	_	_	_	2	nmod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 4 3 Eng-NA=null
+1	toddler	_	_	_	_	2	compound	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 4 3 Eng-NA=null
 2	time	_	_	_	_	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 4 3 Eng-NA=null
 
 # text = to to go in there
-1	to	to	inf	_	_	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 5 Eng-NA=null
+1	to	to	inf	_	_	2	reparandum:repetition	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 5 Eng-NA=null
 2	to	to	inf	_	_	3	mark	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 5 Eng-NA=null
-3	go	go	v	_	_	1	parataxis	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 5 Eng-NA=null
+3	go	go	v	_	_	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 5 Eng-NA=null
 4	in	in	prep	_	_	5	case	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 5 Eng-NA=null
 5	there	there	n	_	_	3	obl	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 5 Eng-NA=null
 
@@ -361,7 +361,7 @@
 2	those	those	det:dem	_	_	1	nsubj	Naima CHI Target_Child	Naima 25.32906219840243 female Providence question 2 2 Eng-NA=null
 
 # text = xxx grade cheese
-1	grade	_	_	_	_	2	nmod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 2 3 Eng-NA=null
+1	grade	_	_	_	_	2	compound	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 2 3 Eng-NA=null
 2	cheese	_	_	_	_	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 2 3 Eng-NA=null
 
 # text = there 's a potty
@@ -509,9 +509,9 @@
 9	towel	towel	n	_	_	7	obj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 10 9 Eng-NA=null
 
 # text = xxx Mommy Mommy trying to do
-1	Mommy	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence question 6 6 Eng-NA=null
+1	Mommy	_	_	_	_	2	reparandum:repetition	Naima CHI Target_Child	Naima 25.32906219840243 female Providence question 6 6 Eng-NA=null
 2	Mommy	_	_	_	_	3	nsubj	Naima CHI Target_Child	Naima 25.32906219840243 female Providence question 6 6 Eng-NA=null
-3	trying	_	_	_	_	1	parataxis	Naima CHI Target_Child	Naima 25.32906219840243 female Providence question 6 6 Eng-NA=null
+3	trying	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence question 6 6 Eng-NA=null
 4	to	_	_	_	_	5	mark	Naima CHI Target_Child	Naima 25.32906219840243 female Providence question 6 6 Eng-NA=null
 5	do	_	_	_	_	3	xcomp	Naima CHI Target_Child	Naima 25.32906219840243 female Providence question 6 6 Eng-NA=null
 
@@ -676,7 +676,7 @@
 # text = xxx Nai make food mess
 1	Nai	_	_	_	_	2	nsubj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 4 5 Eng-NA=null
 2	make	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 4 5 Eng-NA=null
-3	food	_	_	_	_	4	nmod	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 4 5 Eng-NA=null
+3	food	_	_	_	_	4	compound	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 4 5 Eng-NA=null
 4	mess	_	_	_	_	2	obj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 4 5 Eng-NA=null
 
 # text = no Naima clean it up
@@ -893,10 +893,10 @@
 5	towel	towel	n	_	_	3	obj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 5 5 Eng-NA=null
 
 # text = you you you you putting them there xxx fold them
-1	you	_	_	_	_	5	nsubj	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 10 10 Eng-NA=null
-2	you	_	_	_	_	1	conj	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 10 10 Eng-NA=null
-3	you	_	_	_	_	1	conj	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 10 10 Eng-NA=null
-4	you	_	_	_	_	1	conj	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 10 10 Eng-NA=null
+1	you	_	_	_	_	4	reparandum:repetition	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 10 10 Eng-NA=null
+2	you	_	_	_	_	4	reparandum:repetition	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 10 10 Eng-NA=null
+3	you	_	_	_	_	4	reparandum:repetition	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 10 10 Eng-NA=null
+4	you	_	_	_	_	5	nsubj	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 10 10 Eng-NA=null
 5	putting	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 10 10 Eng-NA=null
 6	them	_	_	_	_	5	obj	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 10 10 Eng-NA=null
 7	there	_	_	_	_	5	advmod	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 10 10 Eng-NA=null
@@ -1004,7 +1004,7 @@
 2	on	on	adv	_	_	1	advmod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 2 2 Eng-NA=null
 
 # text = xxx sock it was in this xxx
-1	sock	_	_	_	_	2	dislocated	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 7 7 Eng-NA=null
+1	sock	_	_	_	_	5	dislocated	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 7 7 Eng-NA=null
 2	it	_	_	_	_	5	nsubj	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 7 7 Eng-NA=null
 3	was	_	_	_	_	5	cop	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 7 7 Eng-NA=null
 4	in	_	_	_	_	5	case	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 7 7 Eng-NA=null
@@ -1064,14 +1064,14 @@
 1	that	that	n	_	_	5	nsubj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 5 4 Eng-NA=null
 2	's	be	cop	_	_	5	cop	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 5 4 Eng-NA=null
 3	a	a	det:art	_	_	5	det	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 5 4 Eng-NA=null
-4	frog	frog	n	_	_	5	nmod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 5 4 Eng-NA=null
+4	frog	frog	n	_	_	5	compound	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 5 4 Eng-NA=null
 5	hand	hand	n	_	_	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 5 4 Eng-NA=null
 
 # text = those yellow things in xxx
 1	those	_	_	_	_	3	det	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 5 Eng-NA=null
 2	yellow	_	_	_	_	3	amod	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 5 Eng-NA=null
-3	things	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 5 Eng-NA=null
-4	in	_	_	_	_	3	advmod	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 5 Eng-NA=null
+3	things	_	_	_	_	4	nsubj	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 5 Eng-NA=null
+4	in	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 5 Eng-NA=null
 
 # text = where frog go
 1	where	where	pro:rel	_	_	3	advmod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence question 3 3 Eng-NA=null
@@ -1095,7 +1095,7 @@
 4	whisper	whisper	n	_	_	2	nsubj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 8 6 Eng-NA=null
 5	in	in	prep	_	_	7	case	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 8 6 Eng-NA=null
 6	the	the	det:art	_	_	7	det	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 8 6 Eng-NA=null
-7	trees	tree	n	_	_	4	nmod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 8 6 Eng-NA=null
+7	trees	tree	n	_	_	2	obl	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 8 6 Eng-NA=null
 
 # text = xxx lion 's tail
 1	lion	_	_	_	_	3	nmod:poss	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 4 3 Eng-NA=null
@@ -1110,7 +1110,7 @@
 
 # text = xxx the lion tail
 1	the	_	_	_	_	3	det	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 4 Eng-NA=null
-2	lion	_	_	_	_	3	nmod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 4 Eng-NA=null
+2	lion	_	_	_	_	3	compound	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 4 Eng-NA=null
 3	tail	_	_	_	_	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 4 Eng-NA=null
 
 # text = it 's a lion 's tail
@@ -1126,9 +1126,9 @@
 2	chair	chair	n	_	_	0	root	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 2 2 Eng-NA=null
 
 # text = ant hill ant hill xxx
-1	ant	_	_	_	_	2	nmod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 4 5 Eng-NA=null
+1	ant	_	_	_	_	2	compound	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 4 5 Eng-NA=null
 2	hill	_	_	_	_	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 4 5 Eng-NA=null
-3	ant	_	_	_	_	4	nmod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 4 5 Eng-NA=null
+3	ant	_	_	_	_	4	compound	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 4 5 Eng-NA=null
 4	hill	_	_	_	_	2	parataxis	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 4 5 Eng-NA=null
 
 # text = let me help you
@@ -1355,7 +1355,7 @@
 4	there	there	n	_	_	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 4 3 Eng-NA=null
 
 # text = over there
-1	over	over	prep	_	_	2	advmod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 2 2 Eng-NA=null
+1	over	over	prep	_	_	2	case	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 2 2 Eng-NA=null
 2	there	there	n	_	_	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 2 2 Eng-NA=null
 
 # text = xxx you are taking care of me
@@ -1393,12 +1393,12 @@
 4	go	_	_	_	_	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence question 4 3 Eng-NA=null
 
 # text = where where where'd it go
-1	where	_	_	_	_	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence question 6 5 Eng-NA=null
-2	where	_	_	_	_	1	conj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence question 6 5 Eng-NA=null
+1	where	_	_	_	_	3	reparandum:repetition	Naima CHI Target_Child	Naima 24.55902585268691 female Providence question 6 5 Eng-NA=null
+2	where	_	_	_	_	3	reparandum:repetition	Naima CHI Target_Child	Naima 24.55902585268691 female Providence question 6 5 Eng-NA=null
 3	where	_	_	_	_	6	advmod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence question 6 5 Eng-NA=null
 4	'd	_	_	_	_	6	aux	Naima CHI Target_Child	Naima 24.55902585268691 female Providence question 6 5 Eng-NA=null
 5	it	_	_	_	_	6	nsubj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence question 6 5 Eng-NA=null
-6	go	_	_	_	_	1	parataxis	Naima CHI Target_Child	Naima 24.55902585268691 female Providence question 6 5 Eng-NA=null
+6	go	_	_	_	_	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence question 6 5 Eng-NA=null
 
 # text = xxx two little pieces
 1	two	_	_	_	_	3	nummod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 4 4 Eng-NA=null
@@ -1634,9 +1634,9 @@
 9	garbage	_	_	_	_	6	obl	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 11 11 Eng-NA=null
 
 # text = what 's what 's that
-1	what	what	n	_	_	0	root	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 5 3 Eng-NA=null
+1	what	what	n	_	_	3	reparandum:repetition	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 5 3 Eng-NA=null
 2	's	be	cop	_	_	1	cop	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 5 3 Eng-NA=null
-3	what	what	n	_	_	1	parataxis	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 5 3 Eng-NA=null
+3	what	what	n	_	_	0	root	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 5 3 Eng-NA=null
 4	's	be	cop	_	_	3	cop	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 5 3 Eng-NA=null
 5	that	that	pro:dem	_	_	3	nsubj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 5 3 Eng-NA=null
 
@@ -1671,9 +1671,9 @@
 
 # text = xxx Daddy xxx Mommy to read xxx
 1	Daddy	_	_	_	_	4	vocative	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 7 Eng-NA=null
-2	Mommy	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 7 Eng-NA=null
+2	Mommy	_	_	_	_	4	vocative	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 7 Eng-NA=null
 3	to	_	_	_	_	4	mark	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 7 Eng-NA=null
-4	read	_	_	_	_	2	acl	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 7 Eng-NA=null
+4	read	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 7 Eng-NA=null
 
 # text = xxx nursies xxx oh my goodness
 1	nursies	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 4 4 Eng-NA=null
@@ -1682,8 +1682,8 @@
 4	goodness	_	_	_	_	1	discourse	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 4 4 Eng-NA=null
 
 # text = xxx nursies out
-1	nursies	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 4 3 Eng-NA=null
-2	out	_	_	_	_	1	advmod	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 4 3 Eng-NA=null
+1	nursies	_	_	_	_	2	nsubj	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 4 3 Eng-NA=null
+2	out	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 4 3 Eng-NA=null
 
 # text = xxx are you in there nursies
 1	are	_	_	_	_	4	cop	Naima CHI Target_Child	Naima 25.32906219840243 female Providence question 8 6 Eng-NA=null
@@ -1709,9 +1709,9 @@
 2	letters	_	_	_	_	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 3 Eng-NA=null
 
 # text = xxx Mommy to read it
-1	Mommy	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 5 Eng-NA=null
+1	Mommy	_	_	_	_	3	vocative	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 5 Eng-NA=null
 2	to	_	_	_	_	3	mark	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 5 Eng-NA=null
-3	read	_	_	_	_	1	acl	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 5 Eng-NA=null
+3	read	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 5 Eng-NA=null
 4	it	_	_	_	_	3	obj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 5 Eng-NA=null
 
 # text = hey Mommy xxx
@@ -1723,9 +1723,9 @@
 2	card	_	_	_	_	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 2 4 Eng-NA=null
 
 # text = xxx Daddy to read
-1	Daddy	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 4 4 Eng-NA=null
+1	Daddy	_	_	_	_	3	vocative	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 4 4 Eng-NA=null
 2	to	_	_	_	_	3	mark	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 4 4 Eng-NA=null
-3	read	_	_	_	_	1	acl	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 4 4 Eng-NA=null
+3	read	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 4 4 Eng-NA=null
 
 # text = what Mommy trying to do
 1	what	what	pro:int	_	_	5	obj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence question 6 5 Eng-NA=null
@@ -1742,10 +1742,10 @@
 5	it	_	_	_	_	4	obj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 6 6 Eng-NA=null
 
 # text = Mommy xxx Mommy will carry you xxx
-1	Mommy	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 7 Eng-NA=null
+1	Mommy	_	_	_	_	2	reparandum:repetition	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 7 Eng-NA=null
 2	Mommy	_	_	_	_	4	nsubj	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 7 Eng-NA=null
 3	will	_	_	_	_	4	aux	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 7 Eng-NA=null
-4	carry	_	_	_	_	1	parataxis	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 7 Eng-NA=null
+4	carry	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 7 Eng-NA=null
 5	you	_	_	_	_	4	obj	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 7 Eng-NA=null
 
 # text = xxx trying to get it out and see it finished
@@ -1773,7 +1773,7 @@
 2	Daddy	Daddy	n:prop	_	_	1	obj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 9 8 Eng-NA=null
 3	to	to	inf	_	_	4	mark	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 9 8 Eng-NA=null
 4	tell	tell	v	_	_	1	xcomp	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 9 8 Eng-NA=null
-5	you	you	pro:per	_	_	4	obj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 9 8 Eng-NA=null
+5	you	you	pro:per	_	_	4	iobj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 9 8 Eng-NA=null
 6	what	what	pro:int	_	_	4	ccomp	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 9 8 Eng-NA=null
 7	it	it	pro:per	_	_	6	nsubj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 9 8 Eng-NA=null
 8	is	be	cop	_	_	6	cop	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 9 8 Eng-NA=null
@@ -1810,8 +1810,8 @@
 2	cats	cat	n	_	_	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 2 Eng-NA=null
 
 # text = xxx xxx here here 's a green xxx
-1	here	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 5 7 Eng-NA=null
-2	here	_	_	_	_	1	parataxis	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 5 7 Eng-NA=null
+1	here	_	_	_	_	2	reparandum:repetition	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 5 7 Eng-NA=null
+2	here	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 5 7 Eng-NA=null
 3	's	_	_	_	_	2	cop	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 5 7 Eng-NA=null
 4	a	_	_	_	_	5	det	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 5 7 Eng-NA=null
 5	green	_	_	_	_	2	nsubj	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 5 7 Eng-NA=null
@@ -1828,9 +1828,10 @@
 # text = here 's a blue lunch+box
 1	here	here	n	_	_	0	root	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 4 4 Eng-NA=null
 2	's	be	cop	_	_	1	cop	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 4 4 Eng-NA=null
-3	a	a	det:art	_	_	5	det	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 4 4 Eng-NA=null
-4	blue	blue	adj	_	_	5	amod	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 4 4 Eng-NA=null
-5	lunch+box	_	_	_	_	1	nsubj	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 4 4 Eng-NA=null
+3	a	a	det:art	_	_	6	det	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 4 4 Eng-NA=null
+4	blue	blue	adj	_	_	6	amod	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 4 4 Eng-NA=null
+5	lunch	_	_	_	_	6	compound	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 4 4 Eng-NA=null
+6	box	_	_	_	_	1	nsubj	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 4 4 Eng-NA=null
 
 # text = xxx for you
 1	for	_	_	_	_	2	case	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 2 3 Eng-NA=null
@@ -1841,7 +1842,7 @@
 2	rabbit	rabbit	n	_	_	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 2 2 Eng-NA=null
 
 # text = lost and found lady xxx
-1	lost	_	_	_	_	4	nmod	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 6 5 Eng-NA=null
+1	lost	_	_	_	_	4	compound	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 6 5 Eng-NA=null
 2	and	_	_	_	_	3	cc	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 6 5 Eng-NA=null
 3	found	_	_	_	_	1	conj	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 6 5 Eng-NA=null
 4	lady	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 6 5 Eng-NA=null
@@ -2007,9 +2008,9 @@
 5	doing	_	_	_	_	2	parataxis	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 6 7 Eng-NA=null
 
 # text = I do n't
-1	I	I	pro:sub	_	_	3	nsubj	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 3 2 Eng-NA=null
-2	do	do	mod	_	_	3	aux	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 3 2 Eng-NA=null
-3	n't	not	neg	_	_	0	root	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 3 2 Eng-NA=null
+1	I	I	pro:sub	_	_	2	nsubj	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 3 2 Eng-NA=null
+2	do	do	mod	_	_	0	root	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 3 2 Eng-NA=null
+3	n't	not	neg	_	_	2	advmod	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 3 2 Eng-NA=null
 
 # text = xxx put sticker in it
 1	put	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 5 5 Eng-NA=null
@@ -2034,7 +2035,7 @@
 7	mommy	_	_	_	_	4	conj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 13 12 Eng-NA=null
 8	doing	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 13 12 Eng-NA=null
 9	his	_	_	_	_	10	nmod:poss	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 13 12 Eng-NA=null
-10	mommy	_	_	_	_	8	nsubj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 13 12 Eng-NA=null
+10	mommy	_	_	_	_	11	nsubj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 13 12 Eng-NA=null
 11	doing	_	_	_	_	8	parataxis	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 13 12 Eng-NA=null
 
 # text = Naima put some poop in it
@@ -2048,12 +2049,12 @@
 # text = I mean what 's she what 's she doin
 1	I	I	pro:sub	_	_	2	nsubj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 10 7 Eng-NA=null
 2	mean	mean	v	_	_	0	root	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 10 7 Eng-NA=null
-3	what	what	n	_	_	9	obj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 10 7 Eng-NA=null
-4	's	be	cop	_	_	9	aux	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 10 7 Eng-NA=null
-5	she	she	pro:sub	_	_	9	nsubj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 10 7 Eng-NA=null
-6	what	what	n	_	_	3	parataxis	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 10 7 Eng-NA=null
-7	's	be	cop	_	_	6	cop	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 10 7 Eng-NA=null
-8	she	she	pro:sub	_	_	6	nsubj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 10 7 Eng-NA=null
+3	what	what	n	_	_	5	obj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 10 7 Eng-NA=null
+4	's	be	cop	_	_	5	aux	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 10 7 Eng-NA=null
+5	she	she	pro:sub	_	_	9	reparandum:repetition	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 10 7 Eng-NA=null
+6	what	what	n	_	_	9	obj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 10 7 Eng-NA=null
+7	's	be	cop	_	_	9	aux	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 10 7 Eng-NA=null
+8	she	she	pro:sub	_	_	9	nsubj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 10 7 Eng-NA=null
 9	doin	do	part	_	_	2	ccomp	Naima CHI Target_Child	Naima 25.00051335756381 female Providence question 10 7 Eng-NA=null
 
 # text = I mean what 's the boy doin xxx
@@ -2078,8 +2079,8 @@
 4	there	_	_	_	_	3	advmod	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 5 4 Eng-NA=null
 
 # text = xxx socks on
-1	socks	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 3 3 Eng-NA=null
-2	on	_	_	_	_	1	advmod	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 3 3 Eng-NA=null
+1	socks	_	_	_	_	2	nsubj	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 3 3 Eng-NA=null
+2	on	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 3 3 Eng-NA=null
 
 # text = xxx has socks I think that she has socks
 1	has	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 12 9 Eng-NA=null
@@ -2171,9 +2172,9 @@
 
 # text = xxx check what in it
 1	check	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 4 5 Eng-NA=null
-2	what	_	_	_	_	1	obj	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 4 5 Eng-NA=null
+2	what	_	_	_	_	4	nsubj	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 4 5 Eng-NA=null
 3	in	_	_	_	_	4	case	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 4 5 Eng-NA=null
-4	it	_	_	_	_	2	nmod	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 4 5 Eng-NA=null
+4	it	_	_	_	_	1	ccomp	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 4 5 Eng-NA=null
 
 # text = you 're getting them xxx
 1	you	_	_	_	_	3	nsubj	Naima CHI Target_Child	Naima 26.55906692129202 female Providence declarative 5 4 Eng-NA=null
@@ -2188,8 +2189,8 @@
 4	dry	dry	adj	_	_	0	root	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 5 4 Eng-NA=null
 
 # text = xxx stay home
-1	stay	_	_	_	_	2	compound	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 2 3 Eng-NA=null
-2	home	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 2 3 Eng-NA=null
+1	stay	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 2 3 Eng-NA=null
+2	home	_	_	_	_	1	advmod	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 2 3 Eng-NA=null
 
 # text = you 're slapping them xxx
 1	you	_	_	_	_	3	nsubj	Naima CHI Target_Child	Naima 26.55906692129202 female Providence declarative 5 4 Eng-NA=null
@@ -2245,7 +2246,7 @@
 
 # text = yes potty book
 1	yes	yes	co	_	_	3	discourse	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 5 3 Eng-NA=null
-2	potty	pot	adj	_	_	3	nmod	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 5 3 Eng-NA=null
+2	potty	pot	adj	_	_	3	compound	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 5 3 Eng-NA=null
 3	book	book	n	_	_	0	root	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 5 3 Eng-NA=null
 
 # text = the duckies are all lined up
@@ -2259,7 +2260,7 @@
 # text = want that potty book
 1	want	want	v	_	_	0	root	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 6 4 Eng-NA=null
 2	that	that	det:dem	_	_	4	det	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 6 4 Eng-NA=null
-3	potty	pot	adj	_	_	4	nmod	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 6 4 Eng-NA=null
+3	potty	pot	adj	_	_	4	compound	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 6 4 Eng-NA=null
 4	book	book	n	_	_	1	obj	Naima CHI Target_Child	Naima 25.526191502905608 female Providence declarative 6 4 Eng-NA=null
 
 # text = macaroni and cheese
@@ -2416,7 +2417,7 @@
 # text = is it bed time
 1	is	be	aux	_	_	4	cop	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 4 Eng-NA=null
 2	it	it	pro:per	_	_	4	nsubj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 4 Eng-NA=null
-3	bed	bed	n	_	_	4	nmod	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 4 Eng-NA=null
+3	bed	bed	n	_	_	4	compound	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 4 Eng-NA=null
 4	time	time	n	_	_	0	root	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 4 Eng-NA=null
 
 # text = a giraffe
@@ -2442,7 +2443,7 @@
 # text = it is bed time
 1	it	it	pro:per	_	_	4	nsubj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 4 Eng-NA=null
 2	is	be	cop	_	_	4	cop	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 4 Eng-NA=null
-3	bed	bed	n	_	_	4	nmod	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 4 Eng-NA=null
+3	bed	bed	n	_	_	4	compound	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 4 Eng-NA=null
 4	time	time	n	_	_	0	root	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 5 4 Eng-NA=null
 
 # text = xxx cards here
@@ -2469,7 +2470,7 @@
 4	microphone	microphone	n	_	_	2	nsubj	Naima CHI Target_Child	Naima 25.32906219840243 female Providence declarative 4 3 Eng-NA=null
 
 # text = xxx xxx blath time
-1	blath	_	_	_	_	2	nmod	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 2 4 Eng-NA=null
+1	blath	_	_	_	_	2	compound	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 2 4 Eng-NA=null
 2	time	_	_	_	_	0	root	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 2 4 Eng-NA=null
 
 # text = xxx mess up in the eyes
@@ -2504,16 +2505,16 @@
 
 # text = doo doo doo di loo di loo
 1	doo	doo_doo_doo_di_loo_di_loo	sing	_	_	0	root	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 1 1 Eng-NA=null
-2	doo	doo	combined	_	_	1	conj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 1 1 Eng-NA=null
-3	doo	doo	combined	_	_	1	conj	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 1 1 Eng-NA=null
-4	di	di	combined	_	_	1	discourse	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 1 1 Eng-NA=null
-5	loo	loo	combined	_	_	1	discourse	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 1 1 Eng-NA=null
-6	di	di	combined	_	_	1	discourse	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 1 1 Eng-NA=null
-7	loo	loo	combined	_	_	1	discourse	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 1 1 Eng-NA=null
+2	doo	doo	combined	_	_	1	goeswith	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 1 1 Eng-NA=null
+3	doo	doo	combined	_	_	1	goeswith	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 1 1 Eng-NA=null
+4	di	di	combined	_	_	1	goeswith	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 1 1 Eng-NA=null
+5	loo	loo	combined	_	_	1	goeswith	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 1 1 Eng-NA=null
+6	di	di	combined	_	_	1	goeswith	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 1 1 Eng-NA=null
+7	loo	loo	combined	_	_	1	goeswith	Naima CHI Target_Child	Naima 25.00051335756381 female Providence declarative 1 1 Eng-NA=null
 
 # text = a fox card
 1	a	a	det:art	_	_	3	det	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 3 Eng-NA=null
-2	fox	fox	n	_	_	3	nmod	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 3 Eng-NA=null
+2	fox	fox	n	_	_	3	compound	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 3 Eng-NA=null
 3	card	card	n	_	_	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 3 3 Eng-NA=null
 
 # text = a loo loo loo
@@ -2561,8 +2562,8 @@
 
 # text = xxx xxx baby and xxx and fox and lion
 1	baby	_	_	_	_	0	root	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 6 9 Eng-NA=null
-2	and	_	_	_	_	4	cc	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 6 9 Eng-NA=null
-3	and	_	_	_	_	2	conj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 6 9 Eng-NA=null
+2	and	_	_	_	_	3	reparandum:repetition	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 6 9 Eng-NA=null
+3	and	_	_	_	_	4	cc	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 6 9 Eng-NA=null
 4	fox	_	_	_	_	1	conj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 6 9 Eng-NA=null
 5	and	_	_	_	_	6	cc	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 6 9 Eng-NA=null
 6	lion	_	_	_	_	1	conj	Naima CHI Target_Child	Naima 24.55902585268691 female Providence declarative 6 9 Eng-NA=null

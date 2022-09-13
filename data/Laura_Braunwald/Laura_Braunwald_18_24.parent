@@ -43,7 +43,6 @@
 5	Laura	Laura	n:prop	4	vocative	4	vocative	nan MOT Mother	Laura 18.000369617445944 female Braunwald question 5 5 Eng-NA=null
 
 # text = that 's what you want
-# Re-evaluate
 1	that	that	n	3	nsubj	3	nsubj	nan MOT Mother	Laura 18.000369617445944 female Braunwald question 5 4 Eng-NA=null
 2	's	be	cop	3	cop	3	cop	nan MOT Mother	Laura 18.000369617445944 female Braunwald question 5 4 Eng-NA=null
 3	what	what	pro:int	0	root	0	root	nan MOT Mother	Laura 18.000369617445944 female Braunwald question 5 4 Eng-NA=null
@@ -69,12 +68,11 @@
 5	banana	banana	n	4	obj	4	obj	nan MOT Mother	Laura 18.000369617445944 female Braunwald question 6 5 Eng-NA=null
 
 # text = that well do n't put your finger down your throat Laura
-# Re-evaluate
-1	that	that	pro:dem	0	root	2	reparandum	nan MOT Mother	Laura 18.000369617445944 female Braunwald declarative 11 10 Eng-NA=null
+1	that	that	pro:dem	2	reparandum	2	reparandum	nan MOT Mother	Laura 18.000369617445944 female Braunwald declarative 11 10 Eng-NA=null
 2	well	well	co	5	discourse	5	discourse	nan MOT Mother	Laura 18.000369617445944 female Braunwald declarative 11 10 Eng-NA=null
 3	do	put	v	5	aux	5	aux	nan MOT Mother	Laura 18.000369617445944 female Braunwald declarative 11 10 Eng-NA=null
 4	n't	not	neg	5	advmod	5	advmod	nan MOT Mother	Laura 18.000369617445944 female Braunwald declarative 11 10 Eng-NA=null
-5	put	put	v	1	parataxis	0	root	nan MOT Mother	Laura 18.000369617445944 female Braunwald declarative 11 10 Eng-NA=null
+5	put	put	v	0	root	0	root	nan MOT Mother	Laura 18.000369617445944 female Braunwald declarative 11 10 Eng-NA=null
 6	your	your	det:poss	7	nmod:poss	7	nmod:poss	nan MOT Mother	Laura 18.000369617445944 female Braunwald declarative 11 10 Eng-NA=null
 7	finger	finger	n	5	obj	5	obj	nan MOT Mother	Laura 18.000369617445944 female Braunwald declarative 11 10 Eng-NA=null
 8	down	down	prep	10	case	10	case	nan MOT Mother	Laura 18.000369617445944 female Braunwald declarative 11 10 Eng-NA=null
@@ -1176,7 +1174,6 @@
 3	Laura	Laura	n:prop	_	_	0	root	nan MOT Mother	Laura 18.000369617445944 female Braunwald declarative 3 2 Eng-NA=null
 
 # text = with Mommy and Daddy and and Dwww yes
-# Re-evaluate
 1	with	with	prep	_	_	2	case	nan FAT Father	Laura 18.230353806032976 female Braunwald declarative 7 8 Eng-NA=null
 2	Mommy	Mommy	n:prop	_	_	0	root	nan FAT Father	Laura 18.230353806032976 female Braunwald declarative 7 8 Eng-NA=null
 3	and	and	coord	_	_	4	cc	nan FAT Father	Laura 18.230353806032976 female Braunwald declarative 7 8 Eng-NA=null
@@ -1198,7 +1195,7 @@
 2	of	of	prep	_	_	3	case	nan MOT Mother	Laura 18.13178915378139 female Braunwald declarative 8 6 Eng-NA=null
 3	lunch	lunch	n	_	_	1	nmod	nan MOT Mother	Laura 18.13178915378139 female Braunwald declarative 8 6 Eng-NA=null
 4	August	August	n:prop	_	_	1	nmod:tmod	nan MOT Mother	Laura 18.13178915378139 female Braunwald declarative 8 6 Eng-NA=null
-5	two	two	det:num	_	_	5	flat	nan MOT Mother	Laura 18.13178915378139 female Braunwald declarative 8 6 Eng-NA=null
+5	two	two	det:num	_	_	4	flat	nan MOT Mother	Laura 18.13178915378139 female Braunwald declarative 8 6 Eng-NA=null
 6	four	four	det:num	_	_	5	conj	nan MOT Mother	Laura 18.13178915378139 female Braunwald declarative 8 6 Eng-NA=null
 
 # text = she really knows her own name now
@@ -1245,12 +1242,11 @@
 3	ciao	ciao	meta	_	_	2	obj	nan MOT Mother	Laura 18.164644037865255 female Braunwald declarative 3 3 Eng-NA=null
 
 # text = Laura said Copper hot day hot day
-# Re-evaluate: ccomp or obj
 1	Laura	Laura	n:prop	_	_	2	nsubj	nan MOT Mother	Laura 18.13178915378139 female Braunwald declarative 6 7 Eng-NA=null
 2	said	say	v	_	_	0	root	nan MOT Mother	Laura 18.13178915378139 female Braunwald declarative 6 7 Eng-NA=null
 3	Copper	Copper	n:prop	_	_	5	vocative	nan MOT Mother	Laura 18.13178915378139 female Braunwald declarative 6 7 Eng-NA=null
 4	hot	hot	adj	_	_	5	amod	nan MOT Mother	Laura 18.13178915378139 female Braunwald declarative 6 7 Eng-NA=null
-5	day	day	n	_	_	2	ccomp	nan MOT Mother	Laura 18.13178915378139 female Braunwald declarative 6 7 Eng-NA=null
+5	day	day	n	_	_	2	obj	nan MOT Mother	Laura 18.13178915378139 female Braunwald declarative 6 7 Eng-NA=null
 6	hot	_	_	_	_	7	amod	nan MOT Mother	Laura 18.13178915378139 female Braunwald declarative 6 7 Eng-NA=null
 7	day	_	_	_	_	5	conj	nan MOT Mother	Laura 18.13178915378139 female Braunwald declarative 6 7 Eng-NA=null
 
@@ -1358,7 +1354,6 @@
 3	hello	_	_	_	_	2	obj	nan MOT Mother	Laura 18.230353806032976 female Braunwald declarative 4 4 Eng-NA=null
 
 # text = Laura say no no
-# Re-evaluate
 1	Laura	Laura	n:prop	_	_	2	nsubj	nan MOT Mother	Laura 18.164644037865255 female Braunwald declarative 3 4 Eng-NA=null
 2	say	say	v	_	_	0	root	nan MOT Mother	Laura 18.164644037865255 female Braunwald declarative 3 4 Eng-NA=null
 3	no	no	co	_	_	2	obj	nan MOT Mother	Laura 18.164644037865255 female Braunwald declarative 3 4 Eng-NA=null
@@ -1460,7 +1455,6 @@
 2	ho	_	_	_	_	0	root	nan FAT Father	Laura 18.164644037865255 female Braunwald declarative 1 2 Eng-NA=null
 
 # text = Laura say ho ho
-# Re-evaluate
 1	Laura	Laura	n:prop	_	_	2	nsubj	nan FAT Father	Laura 18.164644037865255 female Braunwald declarative 3 4 Eng-NA=null
 2	say	say	v	_	_	0	root	nan FAT Father	Laura 18.164644037865255 female Braunwald declarative 3 4 Eng-NA=null
 3	ho	ho	co	_	_	2	obj	nan FAT Father	Laura 18.164644037865255 female Braunwald declarative 3 4 Eng-NA=null
@@ -1593,7 +1587,6 @@
 12	for	for	prep	_	_	11	obl	nan MOT Mother	Laura 18.164644037865255 female Braunwald declarative 16 11 Eng-NA=null
 
 # text = Laura say nai nai
-# Re-evaluate
 1	Laura	Laura	n:prop	_	_	2	vocative	nan MOT Mother	Laura 18.164644037865255 female Braunwald declarative 3 3 Eng-NA=null
 2	say	say	v	_	_	0	root	nan MOT Mother	Laura 18.164644037865255 female Braunwald declarative 3 3 Eng-NA=null
 3	nai	nai_nai	chi	_	_	2	obj	nan MOT Mother	Laura 18.164644037865255 female Braunwald declarative 3 3 Eng-NA=null
@@ -2740,7 +2733,6 @@
 7	eye	_	_	_	_	4	obl	nan MOT Mother	Laura 18.066079385613662 female Braunwald question 6 7 Eng-NA=null
 
 # text = j I see your eye bit I still do n't know what happened to it
-# Re-evaluate
 1	j	I	pro:sub	_	_	2	reparandum	nan MOT Mother	Laura 18.066079385613662 female Braunwald declarative 16 14 Eng-NA=null
 2	I	see	v	_	_	3	nsubj	nan MOT Mother	Laura 18.066079385613662 female Braunwald declarative 16 14 Eng-NA=null
 3	see	your	det:poss	_	_	0	root	nan MOT Mother	Laura 18.066079385613662 female Braunwald declarative 16 14 Eng-NA=null

@@ -38,7 +38,7 @@
 1	you	you	pro:per	5	nsubj=	5	nsubj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 6 5 Eng-NA=null
 2	're	be	cop	5	cop=	5	cop	None MOT Mother	Naima 30.362019753999054 female Providence declarative 6 5 Eng-NA=null
 3	teeny	teeny	adj	5	amod=	5	amod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 6 5 Eng-NA=null
-4	weeny	weeny	adj	3	compound=	3	compound	None MOT Mother	Naima 30.362019753999054 female Providence declarative 6 5 Eng-NA=null
+4	weeny	weeny	adj	3	compound=	5	amod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 6 5 Eng-NA=null
 5	baby	baby	n	0	root=	0	root	None MOT Mother	Naima 30.362019753999054 female Providence declarative 6 5 Eng-NA=null
 6	oh	oh	co	5	discourse=	5	discourse	None MOT Mother	Naima 30.362019753999054 female Providence declarative 6 5 Eng-NA=null
 
@@ -49,7 +49,7 @@
 4	sound	sound	n	0	root=	0	root	None MOT Mother	Naima 30.362019753999054 female Providence question 11 9 Eng-NA=null
 5	that	that	det:dem	9	obj=	9	obj	None MOT Mother	Naima 30.362019753999054 female Providence question 11 9 Eng-NA=null
 6	teeny	teeny	adj	8	amod=	8	amod	None MOT Mother	Naima 30.362019753999054 female Providence question 11 9 Eng-NA=null
-7	weeny	weeny	adj	6	compound=	6	compound	None MOT Mother	Naima 30.362019753999054 female Providence question 11 9 Eng-NA=null
+7	weeny	weeny	adj	6	compound=	8	amod	None MOT Mother	Naima 30.362019753999054 female Providence question 11 9 Eng-NA=null
 8	babies	baby	n	9	nsubj=	9	nsubj	None MOT Mother	Naima 30.362019753999054 female Providence question 11 9 Eng-NA=null
 9	make	make	v	4	acl:relcl=	4	acl:relcl	None MOT Mother	Naima 30.362019753999054 female Providence question 11 9 Eng-NA=null
 
@@ -112,13 +112,13 @@
 3	remember	remember	v	0	root=	0	root	None MOT Mother	Naima 30.362019753999054 female Providence question 3 3 Eng-NA=null
 
 # text = look there 's what on the bed
-1	look	look	co	3	discourse=	3	discourse	None MOT Mother	Naima 30.362019753999054 female Providence question 7 6 Eng-NA=null
+1	look	look	co	3	discourse=	0	root	None MOT Mother	Naima 30.362019753999054 female Providence question 7 6 Eng-NA=null
 2	there	there	n	3	expl=	3	expl	None MOT Mother	Naima 30.362019753999054 female Providence question 7 6 Eng-NA=null
-3	's	be	cop	0	root=	0	root	None MOT Mother	Naima 30.362019753999054 female Providence question 7 6 Eng-NA=null
+3	's	be	cop	0	root=	1	parataxis	None MOT Mother	Naima 30.362019753999054 female Providence question 7 6 Eng-NA=null
 4	what	what	pro:int	3	nsubj=	3	nsubj	None MOT Mother	Naima 30.362019753999054 female Providence question 7 6 Eng-NA=null
 5	on	on	prep	7	case=	7	case	None MOT Mother	Naima 30.362019753999054 female Providence question 7 6 Eng-NA=null
 6	the	the	det:art	7	det=	7	det	None MOT Mother	Naima 30.362019753999054 female Providence question 7 6 Eng-NA=null
-7	bed	bed	n	4	nmod=	4	nmod	None MOT Mother	Naima 30.362019753999054 female Providence question 7 6 Eng-NA=null
+7	bed	bed	n	4	nmod=	3	obl	None MOT Mother	Naima 30.362019753999054 female Providence question 7 6 Eng-NA=null
 
 # text = oh the sheet yeah
 1	oh	oh	co	3	discourse=	3	discourse	None MOT Mother	Naima 30.362019753999054 female Providence declarative 4 4 Eng-NA=null
@@ -145,19 +145,19 @@
 # text = are they merry go around animals
 1	are	be	cop	6	cop=	6	cop	None MOT Mother	Naima 30.362019753999054 female Providence question 8 6 Eng-NA=null
 2	they	they	pro:sub	6	nsubj=	6	nsubj	None MOT Mother	Naima 30.362019753999054 female Providence question 8 6 Eng-NA=null
-3	merry	merry	adj	6	nmod=	6	nmod	None MOT Mother	Naima 30.362019753999054 female Providence question 8 6 Eng-NA=null
-4	go	go	v	3	compound=	3	compound	None MOT Mother	Naima 30.362019753999054 female Providence question 8 6 Eng-NA=null
-5	around	around	prep	4	compound=	4	compound	None MOT Mother	Naima 30.362019753999054 female Providence question 8 6 Eng-NA=null
+3	merry	merry	adj	6	compound	4	nsubj	None MOT Mother	Naima 30.362019753999054 female Providence question 8 6 Eng-NA=null
+4	go	go	v	3	compound=	6	compound	None MOT Mother	Naima 30.362019753999054 female Providence question 8 6 Eng-NA=null
+5	around	around	prep	4	compound=	4	advmod	None MOT Mother	Naima 30.362019753999054 female Providence question 8 6 Eng-NA=null
 6	animals	animal	n	0	root=	0	root	None MOT Mother	Naima 30.362019753999054 female Providence question 8 6 Eng-NA=null
 
 # text = horse merry go around horses and what 's that
 1	horse	horse	n	0	root=	0	root	None MOT Mother	Naima 30.362019753999054 female Providence question 10 8 Eng-NA=null
-2	merry	merry	adj	5	amod=	5	amod	None MOT Mother	Naima 30.362019753999054 female Providence question 10 8 Eng-NA=null
-3	go	go	v	2	compound=	2	compound	None MOT Mother	Naima 30.362019753999054 female Providence question 10 8 Eng-NA=null
-4	around	around	prep	2	compound=	2	compound	None MOT Mother	Naima 30.362019753999054 female Providence question 10 8 Eng-NA=null
-5	horses	horse	n	1	parataxis=	1	parataxis	None MOT Mother	Naima 30.362019753999054 female Providence question 10 8 Eng-NA=null
+2	merry	merry	adj	5	amod=	3	nsubj	None MOT Mother	Naima 30.362019753999054 female Providence question 10 8 Eng-NA=null
+3	go	go	v	2	compound=	1	conj	None MOT Mother	Naima 30.362019753999054 female Providence question 10 8 Eng-NA=null
+4	around	around	prep	2	compound=	3	advmod	None MOT Mother	Naima 30.362019753999054 female Providence question 10 8 Eng-NA=null
+5	horses	horse	n	1	parataxis=	1	conj	None MOT Mother	Naima 30.362019753999054 female Providence question 10 8 Eng-NA=null
 6	and	and	coord	7	cc=	7	cc	None MOT Mother	Naima 30.362019753999054 female Providence question 10 8 Eng-NA=null
-7	what	what	n	1	parataxis=	1	parataxis	None MOT Mother	Naima 30.362019753999054 female Providence question 10 8 Eng-NA=null
+7	what	what	n	1	parataxis=	1	conj	None MOT Mother	Naima 30.362019753999054 female Providence question 10 8 Eng-NA=null
 8	's	be	cop	7	cop=	7	cop	None MOT Mother	Naima 30.362019753999054 female Providence question 10 8 Eng-NA=null
 9	that	that	pro:dem	7	nsubj=	7	nsubj	None MOT Mother	Naima 30.362019753999054 female Providence question 10 8 Eng-NA=null
 
@@ -280,7 +280,7 @@
 9	was	be	aux	_	_	10	aux	None MOT Mother	Naima 30.362019753999054 female Providence declarative 19 12 Eng-NA=null
 10	avoiding	avoid	part	_	_	6	advcl	None MOT Mother	Naima 30.362019753999054 female Providence declarative 19 12 Eng-NA=null
 11	the	the	det:art	_	_	13	det	None MOT Mother	Naima 30.362019753999054 female Providence declarative 19 12 Eng-NA=null
-12	yellow	yellow	adj	_	_	13	compound	None MOT Mother	Naima 30.362019753999054 female Providence declarative 19 12 Eng-NA=null
+12	yellow	yellow	adj	_	_	13	amod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 19 12 Eng-NA=null
 13	jackets	jacket	n	_	_	10	obj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 19 12 Eng-NA=null
 
 # text = because he 's allergic to them
@@ -300,7 +300,7 @@
 6	get	get	aux	_	_	2	ccomp	None MOT Mother	Naima 30.362019753999054 female Providence declarative 17 13 Eng-NA=null
 7	very	very	adv	_	_	9	advmod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 17 13 Eng-NA=null
 8	very	very	adv	_	_	7	conj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 17 13 Eng-NA=null
-9	sick	sick	adj	_	_	2	ccomp	None MOT Mother	Naima 30.362019753999054 female Providence declarative 17 13 Eng-NA=null
+9	sick	sick	adj	_	_	6	ccomp	None MOT Mother	Naima 30.362019753999054 female Providence declarative 17 13 Eng-NA=null
 10	if	if	conj	_	_	13	mark	None MOT Mother	Naima 30.362019753999054 female Providence declarative 17 13 Eng-NA=null
 11	he	he	pro:sub	_	_	13	nsubj:pass	None MOT Mother	Naima 30.362019753999054 female Providence declarative 17 13 Eng-NA=null
 12	were	be	aux	_	_	13	aux:pass	None MOT Mother	Naima 30.362019753999054 female Providence declarative 17 13 Eng-NA=null
@@ -398,12 +398,12 @@
 18	over	over	adv	_	_	4	advmod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 33 31 Eng-NA=null
 19	to	to	prep	_	_	21	case	None MOT Mother	Naima 30.362019753999054 female Providence declarative 33 31 Eng-NA=null
 20	the	the	det:art	_	_	21	det	None MOT Mother	Naima 30.362019753999054 female Providence declarative 33 31 Eng-NA=null
-21	garage	garage	n	_	_	4	obl	None MOT Mother	Naima 30.362019753999054 female Providence declarative 33 31 Eng-NA=null
+21	garage	garage	n	_	_	18	obl	None MOT Mother	Naima 30.362019753999054 female Providence declarative 33 31 Eng-NA=null
 22	and	and	coord	_	_	26	cc	None MOT Mother	Naima 30.362019753999054 female Providence declarative 33 31 Eng-NA=null
 23	also	also	adv	_	_	26	advmod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 33 31 Eng-NA=null
 24	the	the	det:art	_	_	26	det	None MOT Mother	Naima 30.362019753999054 female Providence declarative 33 31 Eng-NA=null
 25	kitty	kitty	n	_	_	26	compound	None MOT Mother	Naima 30.362019753999054 female Providence declarative 33 31 Eng-NA=null
-26	pool	pool	n	_	_	21	conj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 33 31 Eng-NA=null
+26	pool	pool	n	_	_	5	conj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 33 31 Eng-NA=null
 27	and	and	coord	_	_	28	cc	None MOT Mother	Naima 30.362019753999054 female Providence declarative 33 31 Eng-NA=null
 28	put	put	v	_	_	4	conj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 33 31 Eng-NA=null
 29	it	it	pro:per	_	_	28	obj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 33 31 Eng-NA=null
@@ -732,7 +732,7 @@
 18	things	_	_	_	_	17	obj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 41 32 Eng-NA=null
 19	around	_	_	_	_	17	compound:prt	None MOT Mother	Naima 30.362019753999054 female Providence declarative 41 32 Eng-NA=null
 20	and	_	_	_	_	21	cc	None MOT Mother	Naima 30.362019753999054 female Providence declarative 41 32 Eng-NA=null
-21	organizing	_	_	_	_	17	conj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 41 32 Eng-NA=null
+21	organizing	_	_	_	_	14	conj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 41 32 Eng-NA=null
 22	things	_	_	_	_	21	obj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 41 32 Eng-NA=null
 23	so	_	_	_	_	25	advmod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 41 32 Eng-NA=null
 24	be	_	_	_	_	25	cop	None MOT Mother	Naima 30.362019753999054 female Providence declarative 41 32 Eng-NA=null
@@ -851,7 +851,7 @@
 2	will	will	mod	_	_	4	aux	None MOT Mother	Naima 30.362019753999054 female Providence question 10 10 Eng-NA=null
 3	you	you	pro:per	_	_	4	nsubj	None MOT Mother	Naima 30.362019753999054 female Providence question 10 10 Eng-NA=null
 4	tell	tell	v	_	_	0	root	None MOT Mother	Naima 30.362019753999054 female Providence question 10 10 Eng-NA=null
-5	me	me	pro:obj	_	_	4	obj	None MOT Mother	Naima 30.362019753999054 female Providence question 10 10 Eng-NA=null
+5	me	me	pro:obj	_	_	4	iobj	None MOT Mother	Naima 30.362019753999054 female Providence question 10 10 Eng-NA=null
 6	if	if	conj	_	_	8	mark	None MOT Mother	Naima 30.362019753999054 female Providence question 10 10 Eng-NA=null
 7	you	you	pro:per	_	_	8	nsubj	None MOT Mother	Naima 30.362019753999054 female Providence question 10 10 Eng-NA=null
 8	need	need	v	_	_	4	advcl	None MOT Mother	Naima 30.362019753999054 female Providence question 10 10 Eng-NA=null
@@ -865,7 +865,7 @@
 4	you	you	pro:per	_	_	3	obj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 17 14 Eng-NA=null
 5	to	to	inf	_	_	6	mark	None MOT Mother	Naima 30.362019753999054 female Providence declarative 17 14 Eng-NA=null
 6	tell	tell	v	_	_	3	xcomp	None MOT Mother	Naima 30.362019753999054 female Providence declarative 17 14 Eng-NA=null
-7	me	me	pro:obj	_	_	6	obj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 17 14 Eng-NA=null
+7	me	me	pro:obj	_	_	6	iobj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 17 14 Eng-NA=null
 8	if	if	conj	_	_	10	mark	None MOT Mother	Naima 30.362019753999054 female Providence declarative 17 14 Eng-NA=null
 9	you	you	pro:per	_	_	10	nsubj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 17 14 Eng-NA=null
 10	need	need	v	_	_	6	advcl	None MOT Mother	Naima 30.362019753999054 female Providence declarative 17 14 Eng-NA=null
@@ -1171,10 +1171,10 @@
 1	There	There	n:prop	_	_	3	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 14 11 Eng-NA=null
 2	is	be	cop	_	_	3	cop	None MOT Mother	Naima 31.099201215630714 female Providence declarative 14 11 Eng-NA=null
 3	Tigger	Tigger	n:prop	_	_	0	root	None MOT Mother	Naima 31.099201215630714 female Providence declarative 14 11 Eng-NA=null
-4	oh	oh	co	_	_	7	advmod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 14 11 Eng-NA=null
-5	there	there	adv	_	_	7	advmod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 14 11 Eng-NA=null
-6	he	he	pro:sub	_	_	7	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 14 11 Eng-NA=null
-7	is	be	cop	_	_	3	parataxis	None MOT Mother	Naima 31.099201215630714 female Providence declarative 14 11 Eng-NA=null
+4	oh	oh	co	_	_	5	advmod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 14 11 Eng-NA=null
+5	there	there	adv	_	_	3	parataxis	None MOT Mother	Naima 31.099201215630714 female Providence declarative 14 11 Eng-NA=null
+6	he	he	pro:sub	_	_	5	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 14 11 Eng-NA=null
+7	is	be	cop	_	_	5	cop	None MOT Mother	Naima 31.099201215630714 female Providence declarative 14 11 Eng-NA=null
 8	Tigger	Tigger	n:prop	_	_	11	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 14 11 Eng-NA=null
 9	is	be	cop	_	_	11	cop	None MOT Mother	Naima 31.099201215630714 female Providence declarative 14 11 Eng-NA=null
 10	right	right	adv	_	_	11	advmod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 14 11 Eng-NA=null
@@ -1225,21 +1225,21 @@
 17	one	_	_	_	_	19	nummod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
 18	more	_	_	_	_	19	amod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
 19	piece	_	_	_	_	16	obj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
-20	of	_	_	_	_	23	case	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
-21	curved	_	_	_	_	23	amod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
-22	track	_	_	_	_	23	compound	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
-23	Naima	_	_	_	_	19	nmod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
+20	of	_	_	_	_	22	case	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
+21	curved	_	_	_	_	22	amod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
+22	track	_	_	_	_	19	nmod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
+23	Naima	_	_	_	_	14	vocative	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
 24	it	_	_	_	_	26	nsubj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
 25	's	_	_	_	_	26	aux	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
 26	got	_	_	_	_	14	parataxis	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
 27	ta	_	_	_	_	28	mark	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
 28	go	_	_	_	_	26	xcomp	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
 29	right	_	_	_	_	30	advmod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
-30	there	_	_	_	_	26	advmod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
+30	there	_	_	_	_	28	advmod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 32 27 Eng-NA=null
 
 # text = come sit up here
 1	come	come	v	_	_	0	root	None MOT Mother	Naima 31.65773424505637 female Providence declarative 4 4 Eng-NA=null
-2	sit	sit	v	_	_	1	xcomp	None MOT Mother	Naima 31.65773424505637 female Providence declarative 4 4 Eng-NA=null
+2	sit	sit	v	_	_	1	compound:svc	None MOT Mother	Naima 31.65773424505637 female Providence declarative 4 4 Eng-NA=null
 3	up	up	prep	_	_	4	advmod	None MOT Mother	Naima 31.65773424505637 female Providence declarative 4 4 Eng-NA=null
 4	here	here	n	_	_	2	advmod	None MOT Mother	Naima 31.65773424505637 female Providence declarative 4 4 Eng-NA=null
 
@@ -1369,10 +1369,10 @@
 4	say	say	v	_	_	2	xcomp	None MOT Mother	Naima 31.65773424505637 female Providence trail off 5 4 Eng-NA=null
 
 # text = oh look you wan na put it in
-1	oh	oh	co	_	_	4	discourse	None MOT Mother	Naima 30.362019753999054 female Providence declarative 9 7 Eng-NA=null
-2	look	look	co	_	_	4	discourse	None MOT Mother	Naima 30.362019753999054 female Providence declarative 9 7 Eng-NA=null
+1	oh	oh	co	_	_	2	discourse	None MOT Mother	Naima 30.362019753999054 female Providence declarative 9 7 Eng-NA=null
+2	look	look	co	_	_	0	root	None MOT Mother	Naima 30.362019753999054 female Providence declarative 9 7 Eng-NA=null
 3	you	you	pro:per	_	_	4	nsubj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 9 7 Eng-NA=null
-4	wan	want	v	_	_	0	root	None MOT Mother	Naima 30.362019753999054 female Providence declarative 9 7 Eng-NA=null
+4	wan	want	v	_	_	2	parataxis	None MOT Mother	Naima 30.362019753999054 female Providence declarative 9 7 Eng-NA=null
 5	na	to	inf	_	_	6	mark	None MOT Mother	Naima 30.362019753999054 female Providence declarative 9 7 Eng-NA=null
 6	put	put	v	_	_	4	xcomp	None MOT Mother	Naima 30.362019753999054 female Providence declarative 9 7 Eng-NA=null
 7	it	it	pro:per	_	_	6	obj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 9 7 Eng-NA=null
@@ -1405,7 +1405,7 @@
 3	a	a	det:art	_	_	5	det	None MOT Mother	Naima 31.65773424505637 female Providence trail off 12 9 Eng-NA=null
 4	certain	certain	adj	_	_	5	amod	None MOT Mother	Naima 31.65773424505637 female Providence trail off 12 9 Eng-NA=null
 5	page	page	n	_	_	2	nsubj	None MOT Mother	Naima 31.65773424505637 female Providence trail off 12 9 Eng-NA=null
-6	were	be	cop	_	_	8	advmod	None MOT Mother	Naima 31.65773424505637 female Providence trail off 12 9 Eng-NA=null
+6	were	be	cop	_	_	8	mark	None MOT Mother	Naima 31.65773424505637 female Providence trail off 12 9 Eng-NA=null
 7	you	you	pro:per	_	_	8	nsubj	None MOT Mother	Naima 31.65773424505637 female Providence trail off 12 9 Eng-NA=null
 8	used	use	v	_	_	5	acl:relcl	None MOT Mother	Naima 31.65773424505637 female Providence trail off 12 9 Eng-NA=null
 9	to	to	inf	_	_	10	mark	None MOT Mother	Naima 31.65773424505637 female Providence trail off 12 9 Eng-NA=null
@@ -1419,7 +1419,7 @@
 5	time	time	n	_	_	2	parataxis	None MOT Mother	Naima 30.362019753999054 female Providence question 21 17 Eng-NA=null
 6	to	to	inf	_	_	7	mark	None MOT Mother	Naima 30.362019753999054 female Providence question 21 17 Eng-NA=null
 7	go	go	v	_	_	5	acl	None MOT Mother	Naima 30.362019753999054 female Providence question 21 17 Eng-NA=null
-8	get	get	v	_	_	7	xcomp	None MOT Mother	Naima 30.362019753999054 female Providence question 21 17 Eng-NA=null
+8	get	get	v	_	_	7	compound:svc	None MOT Mother	Naima 30.362019753999054 female Providence question 21 17 Eng-NA=null
 9	a	a	det:art	_	_	10	det	None MOT Mother	Naima 30.362019753999054 female Providence question 21 17 Eng-NA=null
 10	new	new	adj	_	_	8	obj	None MOT Mother	Naima 30.362019753999054 female Providence question 21 17 Eng-NA=null
 11	should	should	mod	_	_	13	aux	None MOT Mother	Naima 30.362019753999054 female Providence question 21 17 Eng-NA=null
@@ -1457,7 +1457,7 @@
 5	lost	lose	v	_	_	4	xcomp	None MOT Mother	Naima 31.65773424505637 female Providence trail off 15 12 Eng-NA=null
 6	and	and	coord	_	_	8	cc	None MOT Mother	Naima 31.65773424505637 female Providence trail off 15 12 Eng-NA=null
 7	Tom	Tom	n:prop	_	_	8	nsubj	None MOT Mother	Naima 31.65773424505637 female Providence trail off 15 12 Eng-NA=null
-8	has	have	aux	_	_	5	conj	None MOT Mother	Naima 31.65773424505637 female Providence trail off 15 12 Eng-NA=null
+8	has	have	aux	_	_	4	conj	None MOT Mother	Naima 31.65773424505637 female Providence trail off 15 12 Eng-NA=null
 9	to	to	inf	_	_	10	mark	None MOT Mother	Naima 31.65773424505637 female Providence trail off 15 12 Eng-NA=null
 10	look	look	v	_	_	8	xcomp	None MOT Mother	Naima 31.65773424505637 female Providence trail off 15 12 Eng-NA=null
 11	for	for	prep	_	_	12	case	None MOT Mother	Naima 31.65773424505637 female Providence trail off 15 12 Eng-NA=null
@@ -1545,11 +1545,11 @@
 # text = one one mhm what would you like to play
 1	one	one	det:num	_	_	0	root	None MOT Mother	Naima 31.099201215630714 female Providence question 10 9 Eng-NA=null
 2	one	one	pro:indef	_	_	1	conj	None MOT Mother	Naima 31.099201215630714 female Providence question 10 9 Eng-NA=null
-3	mhm	mhm	co	_	_	1	vocative	None MOT Mother	Naima 31.099201215630714 female Providence question 10 9 Eng-NA=null
+3	mhm	mhm	co	_	_	1	discourse	None MOT Mother	Naima 31.099201215630714 female Providence question 10 9 Eng-NA=null
 4	what	what	pro:int	_	_	9	obj	None MOT Mother	Naima 31.099201215630714 female Providence question 10 9 Eng-NA=null
 5	would	will	mod	_	_	7	aux	None MOT Mother	Naima 31.099201215630714 female Providence question 10 9 Eng-NA=null
 6	you	you	pro:per	_	_	7	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence question 10 9 Eng-NA=null
-7	like	like	v	_	_	3	parataxis	None MOT Mother	Naima 31.099201215630714 female Providence question 10 9 Eng-NA=null
+7	like	like	v	_	_	1	parataxis	None MOT Mother	Naima 31.099201215630714 female Providence question 10 9 Eng-NA=null
 8	to	to	inf	_	_	9	mark	None MOT Mother	Naima 31.099201215630714 female Providence question 10 9 Eng-NA=null
 9	play	play	v	_	_	7	xcomp	None MOT Mother	Naima 31.099201215630714 female Providence question 10 9 Eng-NA=null
 
@@ -1610,12 +1610,12 @@
 
 # text = he needs to clean up I think
 1	he	he	pro:sub	_	_	2	nsubj	None MOT Mother	Naima 31.65773424505637 female Providence declarative 8 7 Eng-NA=null
-2	needs	need	v	_	_	7	ccomp	None MOT Mother	Naima 31.65773424505637 female Providence declarative 8 7 Eng-NA=null
+2	needs	need	v	_	_	0	root	None MOT Mother	Naima 31.65773424505637 female Providence declarative 8 7 Eng-NA=null
 3	to	to	inf	_	_	4	mark	None MOT Mother	Naima 31.65773424505637 female Providence declarative 8 7 Eng-NA=null
 4	clean	clean	v	_	_	2	xcomp	None MOT Mother	Naima 31.65773424505637 female Providence declarative 8 7 Eng-NA=null
 5	up	up	adv	_	_	4	compound:prt	None MOT Mother	Naima 31.65773424505637 female Providence declarative 8 7 Eng-NA=null
 6	I	I	pro:sub	_	_	7	nsubj	None MOT Mother	Naima 31.65773424505637 female Providence declarative 8 7 Eng-NA=null
-7	think	think	v	_	_	0	root	None MOT Mother	Naima 31.65773424505637 female Providence declarative 8 7 Eng-NA=null
+7	think	think	v	_	_	2	parataxis	None MOT Mother	Naima 31.65773424505637 female Providence declarative 8 7 Eng-NA=null
 
 # text = does n't he
 1	does	do	mod	_	_	0	root	None MOT Mother	Naima 31.65773424505637 female Providence question 4 2 Eng-NA=null
@@ -1633,8 +1633,8 @@
 8	one	one	pro:indef	_	_	9	nummod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 77 61 Eng-NA=null
 9	day	day	n	_	_	13	obl:tmod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 77 61 Eng-NA=null
 10	when	when	conj	_	_	13	mark	None MOT Mother	Naima 31.099201215630714 female Providence declarative 77 61 Eng-NA=null
-11	Pooh	Pooh	n:prop	_	_	12	compound	None MOT Mother	Naima 31.099201215630714 female Providence declarative 77 61 Eng-NA=null
-12	bear	bear	n	_	_	13	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 77 61 Eng-NA=null
+11	Pooh	Pooh	n:prop	_	_	13	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 77 61 Eng-NA=null
+12	bear	bear	n	_	_	11	flat	None MOT Mother	Naima 31.099201215630714 female Providence declarative 77 61 Eng-NA=null
 13	had	have	v	_	_	19	advcl	None MOT Mother	Naima 31.099201215630714 female Providence declarative 77 61 Eng-NA=null
 14	nothing	nothing	pro:indef	_	_	13	obj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 77 61 Eng-NA=null
 15	else	else	post	_	_	14	amod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 77 61 Eng-NA=null
@@ -1776,7 +1776,7 @@
 12	he	he	pro	_	_	15	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 32 23 Eng-NA=null
 13	's	be	cop	_	_	15	cop	None MOT Mother	Naima 31.099201215630714 female Providence declarative 32 23 Eng-NA=null
 14	not	not	neg	_	_	15	advmod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 32 23 Eng-NA=null
-15	in	in	adv	_	_	9	parataxis	None MOT Mother	Naima 31.099201215630714 female Providence declarative 32 23 Eng-NA=null
+15	in	in	adv	_	_	3	parataxis	None MOT Mother	Naima 31.099201215630714 female Providence declarative 32 23 Eng-NA=null
 16	I	I	pro:sub	_	_	18	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 32 23 Eng-NA=null
 17	shall	shall	mod	_	_	18	aux	None MOT Mother	Naima 31.099201215630714 female Providence declarative 32 23 Eng-NA=null
 18	haf	have	v	_	_	3	parataxis	None MOT Mother	Naima 31.099201215630714 female Providence declarative 32 23 Eng-NA=null
@@ -1788,7 +1788,7 @@
 24	walk	walk	n	_	_	20	obj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 32 23 Eng-NA=null
 25	by	by	prep	_	_	26	case	None MOT Mother	Naima 31.099201215630714 female Providence declarative 32 23 Eng-NA=null
 26	myself	myself	pro:refl	_	_	20	obl	None MOT Mother	Naima 31.099201215630714 female Providence declarative 32 23 Eng-NA=null
-27	bother	bother	v	_	_	18	discourse	None MOT Mother	Naima 31.099201215630714 female Providence declarative 32 23 Eng-NA=null
+27	bother	bother	v	_	_	3	parataxis	None MOT Mother	Naima 31.099201215630714 female Providence declarative 32 23 Eng-NA=null
 
 # text = he says bother a lot
 1	he	he	pro:sub	_	_	2	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 6 5 Eng-NA=null
@@ -1877,8 +1877,8 @@
 # text = come on over here
 1	come	come	v	_	_	0	root	None MOT Mother	Naima 30.362019753999054 female Providence declarative 4 4 Eng-NA=null
 2	on	on	adv	_	_	1	advmod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 4 4 Eng-NA=null
-3	over	over	prep	_	_	4	advmod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 4 4 Eng-NA=null
-4	here	here	adv	_	_	1	advmod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 4 4 Eng-NA=null
+3	over	over	prep	_	_	4	case	None MOT Mother	Naima 30.362019753999054 female Providence declarative 4 4 Eng-NA=null
+4	here	here	adv	_	_	1	obl	None MOT Mother	Naima 30.362019753999054 female Providence declarative 4 4 Eng-NA=null
 
 # text = and I see a clown
 1	and	and	coord	_	_	3	cc	None MOT Mother	Naima 31.65773424505637 female Providence declarative 5 5 Eng-NA=null
@@ -1971,28 +1971,28 @@
 25	more	more	adv	_	_	27	advmod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 26	it	it	pro:per	_	_	27	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 27	snows	snow	v	_	_	33	advcl	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
-28	tidily	tidily	wplay	_	_	27	parataxis	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
-29	pom	pom	wplay	_	_	28	goeswith	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
+28	tidily	tidily	wplay	_	_	29	amod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
+29	pom	pom	wplay	_	_	27	obj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 30	the	the	det:art	_	_	31	mark	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 31	more	more	adv	_	_	33	advmod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 32	it	it	pro:per	_	_	33	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 33	goes	go	v	_	_	4	parataxis	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
-34	tidily	tidily	wplay	_	_	33	parataxis	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
-35	pom	pom	wplay	_	_	34	goeswith	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
+34	tidily	tidily	wplay	_	_	35	amod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
+35	pom	pom	wplay	_	_	33	xcomp	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 36	the	the	det:art	_	_	37	mark	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 37	more	more	adv	_	_	39	advmod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 38	it	it	pro:per	_	_	39	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 39	goes	go	v	_	_	4	parataxis	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 40	tidily	tidily	wplay	_	_	41	amod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
-41	pom	pom	wplay	_	_	39	obj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
+41	pom	pom	wplay	_	_	39	xcomp	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 42	on	on	prep	_	_	44	case	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 43	snow	snow	n	_	_	44	compound	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 44	wing	wing	n	_	_	39	obl	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 45	and	and	coord	_	_	47	cc	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 46	nobody	nobody	pro:indef	_	_	47	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 47	knows	know	v	_	_	39	conj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
-48	tidily	tidily	wplay	_	_	47	parataxis	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
-49	pom	pom	wplay	_	_	48	goeswith	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
+48	tidily	tidily	wplay	_	_	49	amod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
+49	pom	pom	wplay	_	_	47	obj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 50	how	how	pro:rel	_	_	51	advmod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 51	cold	cold	adj	_	_	47	xcomp	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 52	my	my	det:poss	_	_	53	nmod:poss	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
@@ -2002,9 +2002,9 @@
 56	how	how	pro:rel	_	_	57	advmod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 57	cold	cold	adj	_	_	63	advmod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 58	my	my	det:poss	_	_	59	nmod:poss	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
-59	toes	toe	n	_	_	63	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
-60	tidil	tidil	wplay	_	_	63	parataxis	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
-61	pom	pom	wplay	_	_	60	goeswith	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
+59	toes	toe	n	_	_	57	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
+60	tidil	tidil	wplay	_	_	61	amod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
+61	pom	pom	wplay	_	_	63	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 62	are	be	aux	_	_	63	aux	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 63	growing	grow	part	_	_	51	parataxis	None MOT Mother	Naima 31.099201215630714 female Providence declarative 79 63 Eng-NA=null
 
@@ -2038,7 +2038,7 @@
 1	do	do	mod	_	_	3	aux	None MOT Mother	Naima 31.099201215630714 female Providence question 6 6 Eng-NA=null
 2	you	you	pro:per	_	_	3	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence question 6 6 Eng-NA=null
 3	know	know	v	_	_	0	root	None MOT Mother	Naima 31.099201215630714 female Providence question 6 6 Eng-NA=null
-4	how	how	pro:int	_	_	6	advmod	None MOT Mother	Naima 31.099201215630714 female Providence question 6 6 Eng-NA=null
+4	how	how	pro:int	_	_	6	mark	None MOT Mother	Naima 31.099201215630714 female Providence question 6 6 Eng-NA=null
 5	to	to	inf	_	_	6	mark	None MOT Mother	Naima 31.099201215630714 female Providence question 6 6 Eng-NA=null
 6	hum	hum	v	_	_	3	ccomp	None MOT Mother	Naima 31.099201215630714 female Providence question 6 6 Eng-NA=null
 
@@ -2053,7 +2053,7 @@
 8	eat	eat	v	_	_	6	xcomp	None MOT Mother	Naima 30.362019753999054 female Providence declarative 13 11 Eng-NA=null
 9	enough	enough	adv	_	_	8	obj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 13 11 Eng-NA=null
 10	ah	ah	co	_	_	11	case	None MOT Mother	Naima 30.362019753999054 female Providence declarative 13 11 Eng-NA=null
-11	lunch	lunch	v	_	_	9	nmod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 13 11 Eng-NA=null
+11	lunch	lunch	v	_	_	8	obl	None MOT Mother	Naima 30.362019753999054 female Providence declarative 13 11 Eng-NA=null
 12	today	today	adv:tem	_	_	8	obl:tmod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 13 11 Eng-NA=null
 
 # text = Tom gets really worried about Pippo and thinks he might never see him again
@@ -2076,7 +2076,7 @@
 1	you	you	pro:per	_	_	3	nsubj	None MOT Mother	Naima 31.099201215630714 female Providence declarative 6 6 Eng-NA=null
 2	do	do	v	_	_	3	aux	None MOT Mother	Naima 31.099201215630714 female Providence declarative 6 6 Eng-NA=null
 3	know	know	v	_	_	0	root	None MOT Mother	Naima 31.099201215630714 female Providence declarative 6 6 Eng-NA=null
-4	how	how	pro:int	_	_	6	advmod	None MOT Mother	Naima 31.099201215630714 female Providence declarative 6 6 Eng-NA=null
+4	how	how	pro:int	_	_	6	mark	None MOT Mother	Naima 31.099201215630714 female Providence declarative 6 6 Eng-NA=null
 5	to	to	inf	_	_	6	mark	None MOT Mother	Naima 31.099201215630714 female Providence declarative 6 6 Eng-NA=null
 6	hum	hum	v	_	_	3	ccomp	None MOT Mother	Naima 31.099201215630714 female Providence declarative 6 6 Eng-NA=null
 
@@ -2317,7 +2317,7 @@
 23	you	you	pro:per	_	_	25	nsubj	None MOT Mother	Naima 30.362019753999054 female Providence declarative 31 25 Eng-NA=null
 24	can	can	mod	_	_	25	aux	None MOT Mother	Naima 30.362019753999054 female Providence declarative 31 25 Eng-NA=null
 25	sit	sit	v	_	_	17	advcl	None MOT Mother	Naima 30.362019753999054 female Providence declarative 31 25 Eng-NA=null
-26	right	right	adv	_	_	25	advmod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 31 25 Eng-NA=null
+26	right	right	adv	_	_	29	advmod	None MOT Mother	Naima 30.362019753999054 female Providence declarative 31 25 Eng-NA=null
 27	on	on	prep	_	_	29	case	None MOT Mother	Naima 30.362019753999054 female Providence declarative 31 25 Eng-NA=null
 28	your	your	det:poss	_	_	29	nmod:poss	None MOT Mother	Naima 30.362019753999054 female Providence declarative 31 25 Eng-NA=null
 29	potty	pot	adj	_	_	25	obl	None MOT Mother	Naima 30.362019753999054 female Providence declarative 31 25 Eng-NA=null

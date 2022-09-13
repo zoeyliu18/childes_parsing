@@ -137,8 +137,8 @@
 2	smelly	smell	adj	1	amod	1	amod	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 4 4 Eng-NA=null
 
 # text = and and Gaby and Tamar 's Daddy is Rafi Phoebe and Trevor and Phoebe and Trevor
-1	and	and	coord	9	cc	9	cc	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
-2	and	and	coord	1	conj	1	conj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
+1	and	and	coord	2	reparandum:repetition	2	reparandum:repetition	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
+2	and	and	coord	9	cc	9	cc	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
 3	Gaby	Gaby	n:prop	7	nmod:poss	7	nmod:poss	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
 4	and	and	coord	5	cc	5	cc	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
 5	Tamar	Tamar	n	3	conj	3	conj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
@@ -146,13 +146,13 @@
 7	Daddy	Daddy	n:prop	9	nsubj	9	nsubj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
 8	is	be	cop	9	cop	9	cop	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
 9	Rafi	Rafi	n:prop	0	root	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
-10	Phoebe	Phoebe	n:prop	9	parataxis	9	flat	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
+10	Phoebe	Phoebe	n:prop	9	fkat	9	flat	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
 11	and	and	coord	12	cc	12	cc	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
-12	Trevor	Trevor	n:prop	10	conj	9	conj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
+12	Trevor	Trevor	n:prop	9	conj	9	conj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
 13	and	and	coord	14	cc	14	cc	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
-14	Phoebe	Phoebe	n:prop	10	conj	9	conj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
+14	Phoebe	Phoebe	n:prop	9	conj	9	conj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
 15	and	and	coord	16	cc	16	cc	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
-16	Trevor	Trevor	n:prop	10	conj	9	conj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
+16	Trevor	Trevor	n:prop	9	conj	9	conj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 18 15 Eng-NA=null
 
 # text = Ronnie Alec
 1	Ronnie	Ronnie	n:prop	0	root	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 2 Eng-NA=null
@@ -179,10 +179,10 @@
 
 # text = on a on a tree
 1	on	on	prep	2	case	2	case	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 5 6 Eng-NA=null
-2	a	a	det:art	0	root	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 5 6 Eng-NA=null
+2	a	a	det:art	5	reparandum:repetition	5	reparandum:repetition	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 5 6 Eng-NA=null
 3	on	on	prep	5	case	5	case	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 5 6 Eng-NA=null
 4	a	a	det:art	5	det	5	det	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 5 6 Eng-NA=null
-5	tree	tree	n	2	parataxis	2	parataxis	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 5 6 Eng-NA=null
+5	tree	tree	n	0	root	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 5 6 Eng-NA=null
 
 # text = it 's white
 1	it	it	pro	3	nsubj	3	nsubj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 2 Eng-NA=null
@@ -260,8 +260,8 @@
 # text = floppy floppy and and trees duck and a cake and um floppy a cake
 1	floppy	flop	adj	0	root	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 20 16 Eng-NA=null
 2	floppy	flop	adj	1	conj	1	conj	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 20 16 Eng-NA=null
-3	and	and	coord	5	cc	5	cc	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 20 16 Eng-NA=null
-4	and	and	coord	3	conj	3	conj	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 20 16 Eng-NA=null
+3	and	and	coord	4	reparandum:repetition	4	reparandum:repetition	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 20 16 Eng-NA=null
+4	and	and	coord	5	cc	5	cc	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 20 16 Eng-NA=null
 5	trees	tree	n	1	conj	1	conj	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 20 16 Eng-NA=null
 6	duck	duck	n	1	conj	1	conj	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 20 16 Eng-NA=null
 7	and	and	coord	9	cc	9	cc	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 20 16 Eng-NA=null
@@ -425,8 +425,8 @@
 2	Jay	Jay	n:prop	_	_	1	flat	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 2 Eng-NA
 
 # text = blue xxx blue hat
-1	blue	_	_	_	_	3	amod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 4 Eng-NA
-2	blue	_	_	_	_	1	conj	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 4 Eng-NA
+1	blue	_	_	_	_	2	reparandum:repetition	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 4 Eng-NA
+2	blue	_	_	_	_	3	amod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 4 Eng-NA
 3	hat	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 4 Eng-NA
 
 # text = and um
@@ -450,8 +450,8 @@
 5	Daddy	Daddy	n:prop	_	_	1	conj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 5 5 Eng-NA
 
 # text = shirt black
-1	shirt	shirt	n	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 2 Eng-NA
-2	black	black	n	_	_	1	amod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 2 Eng-NA
+1	shirt	shirt	n	_	_	2	nsubj	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 2 Eng-NA
+2	black	black	n	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 2 Eng-NA
 
 # text = xxx xxx Zoe xxx Gaby xxx Gaby
 1	Zoe	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 3 7 Eng-NA
@@ -494,7 +494,7 @@
 4	chair	_	_	_	_	1	parataxis	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 5 4 Eng-NA
 
 # text = acorn xxx hands
-1	acorn	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 3 3 Eng-NA
+1	acorn	_	_	_	_	2	compound	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 3 3 Eng-NA
 2	hands	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 3 3 Eng-NA
 
 # text = xxx xxx xxx xxx Phoebe 's
@@ -512,10 +512,10 @@
 
 # text = xxx in the in the garbage
 1	in	_	_	_	_	2	case	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 5 6 Eng-NA
-2	the	_	_	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 5 6 Eng-NA
+2	the	_	_	_	_	5	reparandum:repetition	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 5 6 Eng-NA
 3	in	_	_	_	_	5	case	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 5 6 Eng-NA
 4	the	_	_	_	_	5	det	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 5 6 Eng-NA
-5	garbage	_	_	_	_	2	parataxis	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 5 6 Eng-NA
+5	garbage	_	_	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 5 6 Eng-NA
 
 # text = garbage Daddy I go play in room Mommy room xxx
 1	garbage	_	_	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 9 10 Eng-NA
@@ -525,7 +525,7 @@
 5	play	_	_	_	_	4	xcomp	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 9 10 Eng-NA
 6	in	_	_	_	_	7	case	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 9 10 Eng-NA
 7	room	_	_	_	_	5	obl	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 9 10 Eng-NA
-8	Mommy	_	_	_	_	9	nmod	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 9 10 Eng-NA
+8	Mommy	_	_	_	_	9	compound	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 9 10 Eng-NA
 9	room	_	_	_	_	1	parataxis	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 9 10 Eng-NA
 
 # text = it 's
@@ -587,7 +587,7 @@
 
 # text = Pooh xxx tea
 1	Pooh	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
-2	tea	_	_	_	_	1	parataxis	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
+2	tea	_	_	_	_	1	dep	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
 
 # text = cube cube
 1	cube	cube	n	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 2 Eng-NA
@@ -607,7 +607,7 @@
 3	ooh	ooh	v	_	_	1	conj	Lily CHI Target_Child	Lily 18.361773342368426 female Providence declarative 3 3 Eng-NA
 
 # text = mouse baby xxx mouse
-1	mouse	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 4 Eng-NA
+1	mouse	_	_	_	_	2	compound	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 4 Eng-NA
 2	baby	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 4 Eng-NA
 3	mouse	_	_	_	_	2	parataxis	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 4 Eng-NA
 
@@ -620,7 +620,7 @@
 2	broken	break	part	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 2 Eng-NA
 
 # text = snow bear
-1	snow	snow	n	_	_	2	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 2 Eng-NA
+1	snow	snow	n	_	_	2	compound	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 2 Eng-NA
 2	bear	bear	n	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 2 Eng-NA
 
 # text = this breaked
@@ -632,7 +632,7 @@
 2	beans	bean	n	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 3 2 Eng-NA
 
 # text = teat xxx cup
-1	teat	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
+1	teat	_	_	_	_	2	compound	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
 2	cup	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
 
 # text = that 's great Daddy
@@ -663,21 +663,21 @@
 2	cozy	cozy	adj	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 2 Eng-NA
 
 # text = xxx broom xxx dirty
-1	broom	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 4 4 Eng-NA
-2	dirty	_	_	_	_	1	amod	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 4 4 Eng-NA
+1	broom	_	_	_	_	2	nsubj	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 4 4 Eng-NA
+2	dirty	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 4 4 Eng-NA
 
 # text = and cozy
 1	and	and	coord	_	_	2	cc	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 2 Eng-NA
 2	cozy	cozy	v	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 2 Eng-NA
 
 # text = xxx puppy xxx up
-1	puppy	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 4 Eng-NA
-2	up	_	_	_	_	1	advmod	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 4 Eng-NA
+1	puppy	_	_	_	_	2	nsubj	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 4 Eng-NA
+2	up	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 4 Eng-NA
 
 # text = Po shirt red
-1	Po	Po	n:prop	_	_	2	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
-2	shirt	shirt	n	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
-3	red	red	adj	_	_	2	amod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
+1	Po	Po	n:prop	_	_	2	nmod:poss	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
+2	shirt	shirt	n	_	_	3	nsubj	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
+3	red	red	adj	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
 
 # text = and toasty
 1	and	and	coord	_	_	2	cc	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 4 2 Eng-NA
@@ -716,7 +716,7 @@
 3	Laa	_	_	_	_	2	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
 
 # text = kitty hat
-1	kitty	kitty	n	_	_	2	nmod	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
+1	kitty	kitty	n	_	_	2	compound	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
 2	hat	hat	n	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
 
 # text = this a b
@@ -749,14 +749,14 @@
 4	o	o	n:let	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 3 Eng-NA
 
 # text = piggie xxx crane
-1	piggie	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 3 3 Eng-NA
+1	piggie	_	_	_	_	2	compound	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 3 3 Eng-NA
 2	crane	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 3 3 Eng-NA
 
 # text = Tinky Winky shirt purple
-1	Tinky	Tinky_Winky	n:prop	_	_	3	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
+1	Tinky	Tinky_Winky	n:prop	_	_	3	compound	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
 2	Winky	Winky	combined	_	_	1	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
-3	shirt	shirt	n	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
-4	purple	purple	adj	_	_	3	amod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
+3	shirt	shirt	n	_	_	4	nsubj	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
+4	purple	purple	adj	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
 
 # text = xxx a tower
 1	a	_	_	_	_	2	det	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 3 Eng-NA
@@ -780,7 +780,7 @@
 2	wow	_	_	_	_	1	discourse	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 3 Eng-NA
 
 # text = xxx Tinky Winky xxx shirt
-1	Tinky	_	_	_	_	3	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
+1	Tinky	_	_	_	_	3	compound	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
 2	Winky	_	_	_	_	1	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
 3	shirt	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
 
@@ -789,8 +789,8 @@
 2	strawberry	strawberry	n	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 2 Eng-NA
 
 # text = train train xxx swing
-1	train	_	_	_	_	3	nsubj	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 4 Eng-NA
-2	train	_	_	_	_	1	conj	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 4 Eng-NA
+1	train	_	_	_	_	2	reparandum:repetition	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 4 Eng-NA
+2	train	_	_	_	_	3	nsubj	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 4 Eng-NA
 3	swing	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 4 Eng-NA
 
 # text = and boom
@@ -806,7 +806,7 @@
 1	a	a	det:art	_	_	2	det	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 4 Eng-NA
 2	boom	boom	n	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 4 Eng-NA
 3	a	a	det:art	_	_	4	det	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 4 Eng-NA
-4	boom	boom	co	_	_	2	parataxis	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 4 Eng-NA
+4	boom	boom	co	_	_	2	conj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 4 Eng-NA
 
 # text = mm mm
 1	mm	mm	co	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 2 Eng-NA
@@ -834,7 +834,7 @@
 4	Tigger	Tigger	n:prop	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 3 Eng-NA
 
 # text = Tinky Winky shirt xxx purple shirt
-1	Tinky	_	_	_	_	3	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 4 5 Eng-NA
+1	Tinky	_	_	_	_	3	compound	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 4 5 Eng-NA
 2	Winky	_	_	_	_	1	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 4 5 Eng-NA
 3	shirt	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 4 5 Eng-NA
 4	purple	_	_	_	_	5	amod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 4 5 Eng-NA
@@ -851,28 +851,28 @@
 
 # text = Po xxx xxx Po
 1	Po	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
-2	Po	_	_	_	_	1	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
+2	Po	_	_	_	_	1	conj	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
 
 # text = xxx shirt red
-1	shirt	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
-2	red	_	_	_	_	1	amod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
+1	shirt	_	_	_	_	2	nsubj	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
+2	red	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
 
 # text = Max xxx up
-1	Max	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 3 Eng-NA
-2	up	_	_	_	_	1	advmod	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 3 Eng-NA
+1	Max	_	_	_	_	2	nsubj	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 3 Eng-NA
+2	up	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 3 Eng-NA
 
 # text = a snake
 1	a	a	det:art	_	_	2	det	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 2 2 Eng-NA
 2	snake	snake	n	_	_	0	root	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 2 2 Eng-NA
 
 # text = Laa Laa xxx yellow xxx
-1	Laa	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
+1	Laa	_	_	_	_	3	nsubj	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
 2	Laa	_	_	_	_	1	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
-3	yellow	_	_	_	_	1	amod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
+3	yellow	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
 
 # text = xxx train xxx circle
-1	train	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 4 Eng-NA
-2	circle	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 4 Eng-NA
+1	train	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 4 Eng-NA
+2	circle	_	_	_	_	1	dep	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 4 Eng-NA
 
 # text = and train
 1	and	and	coord	_	_	2	cc	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 2 Eng-NA
@@ -883,11 +883,11 @@
 2	shirt	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
 
 # text = snail xxx shell
-1	snail	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 2 3 Eng-NA
+1	snail	_	_	_	_	2	compound	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 2 3 Eng-NA
 2	shell	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 2 3 Eng-NA
 
 # text = Tinky Winky xxx shirt xxx shirt
-1	Tinky	_	_	_	_	3	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 5 Eng-NA
+1	Tinky	_	_	_	_	3	compound	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 5 Eng-NA
 2	Winky	_	_	_	_	1	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 5 Eng-NA
 3	shirt	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 5 Eng-NA
 4	shirt	_	_	_	_	3	conj	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 5 Eng-NA
@@ -897,8 +897,8 @@
 2	shoe	shoe	n	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
 
 # text = xxx train xxx circles
-1	train	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 3 4 Eng-NA
-2	circles	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 3 4 Eng-NA
+1	train	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 3 4 Eng-NA
+2	circles	_	_	_	_	1	dep	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 3 4 Eng-NA
 
 # text = it 's um a bouncy ball
 1	it	it	pro	_	_	6	nsubj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 5 5 Eng-NA
@@ -919,9 +919,9 @@
 3	it	it	pro:per	_	_	2	obj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 3 Eng-NA
 
 # text = xxx xxx Laa Laa xxx eyes
-1	Laa	_	_	_	_	3	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 5 Eng-NA
+1	Laa	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 5 Eng-NA
 2	Laa	_	_	_	_	1	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 5 Eng-NA
-3	eyes	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 5 Eng-NA
+3	eyes	_	_	_	_	1	dep	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 5 Eng-NA
 
 # text = mommy 's
 1	mommy	mommy	n	_	_	0	root	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 2 1 Eng-NA
@@ -933,13 +933,13 @@
 3	no	no	co	_	_	1	conj	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 3 3 Eng-NA
 
 # text = Laa Laa xxx shirt xxx
-1	Laa	_	_	_	_	3	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
+1	Laa	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
 2	Laa	_	_	_	_	1	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
-3	shirt	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
+3	shirt	_	_	_	_	1	dep	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
 
 # text = shirt Po shirt
 1	shirt	shirt	n	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
-2	Po	Po	n:prop	_	_	3	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
+2	Po	Po	n:prop	_	_	3	nmod:poss	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
 3	shirt	shirt	n	_	_	1	parataxis	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
 
 # text = red shirt
@@ -960,11 +960,11 @@
 
 # text = xxx shirt Laa Laa xxx
 1	shirt	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
-2	Laa	_	_	_	_	1	parataxis	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
+2	Laa	_	_	_	_	1	dep	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
 3	Laa	_	_	_	_	2	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
 
 # text = Po xxx xxx shirt
-1	Po	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
+1	Po	_	_	_	_	2	nmod:poss	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
 2	shirt	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
 
 # text = red shirt xxx shirt
@@ -978,9 +978,9 @@
 3	acorn	_	_	_	_	2	obj	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 4 8 Eng-NA
 
 # text = Po xxx shirt xxx green
-1	Po	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 5 Eng-NA
-2	shirt	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 5 Eng-NA
-3	green	_	_	_	_	2	amod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 5 Eng-NA
+1	Po	_	_	_	_	2	nmod:poss	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 5 Eng-NA
+2	shirt	_	_	_	_	3	nsubj	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 5 Eng-NA
+3	green	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 5 Eng-NA
 
 # text = xxx xxx square xxx triangle
 1	square	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 5 Eng-NA
@@ -999,10 +999,10 @@
 3	black	black	n	_	_	1	conj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 3 Eng-NA
 
 # text = Laa Laa knees xxx Po xxx knees xxx
-1	Laa	_	_	_	_	3	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 6 7 Eng-NA
+1	Laa	_	_	_	_	3	nmod:poss	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 6 7 Eng-NA
 2	Laa	_	_	_	_	1	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 6 7 Eng-NA
 3	knees	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 6 7 Eng-NA
-4	Po	_	_	_	_	5	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 6 7 Eng-NA
+4	Po	_	_	_	_	5	nmod:poss	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 6 7 Eng-NA
 5	knees	_	_	_	_	3	parataxis	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 6 7 Eng-NA
 
 # text = go Steelers
@@ -1010,7 +1010,7 @@
 2	Steelers	Steelers	n:prop	_	_	1	vocative	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 2 Eng-NA
 
 # text = Tinky Winky xxx knees xxx xxx purple shirt
-1	Tinky	_	_	_	_	3	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 5 7 Eng-NA
+1	Tinky	_	_	_	_	3	nmod:poss	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 5 7 Eng-NA
 2	Winky	_	_	_	_	1	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 5 7 Eng-NA
 3	knees	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 5 7 Eng-NA
 4	purple	_	_	_	_	5	amod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 5 7 Eng-NA
@@ -1028,7 +1028,7 @@
 
 # text = knees xxx Po
 1	knees	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
-2	Po	_	_	_	_	1	parataxis	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
+2	Po	_	_	_	_	1	dep	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
 
 # text = pink and blue and purple
 1	pink	pink	adj	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 5 5 Eng-NA
@@ -1044,7 +1044,7 @@
 4	away	away	adv	_	_	3	advmod	Lily CHI Target_Child	Lily 19.62463294934188 female Providence declarative 4 4 Eng-NA
 
 # text = xxx Po knees xxx xxx xxx
-1	Po	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 6 Eng-NA
+1	Po	_	_	_	_	2	nmod:poss	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 6 Eng-NA
 2	knees	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 6 Eng-NA
 
 # text = xxx xxx knees ankle
@@ -1052,7 +1052,7 @@
 2	ankle	_	_	_	_	1	conj	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 4 Eng-NA
 
 # text = xxx Tinky Winky feet
-1	Tinky	_	_	_	_	3	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
+1	Tinky	_	_	_	_	3	nmod:poss	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
 2	Winky	_	_	_	_	1	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
 3	feet	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
 
@@ -1075,8 +1075,8 @@
 
 # text = xxx Daddy and xxx and picture
 1	Daddy	_	_	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 6 Eng-NA
-2	and	_	_	_	_	4	cc	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 6 Eng-NA
-3	and	_	_	_	_	2	conj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 6 Eng-NA
+2	and	_	_	_	_	3	reparandum:repetition	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 6 Eng-NA
+3	and	_	_	_	_	4	cc	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 6 Eng-NA
 4	picture	_	_	_	_	1	conj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 6 Eng-NA
 
 # text = a coat
@@ -1092,8 +1092,8 @@
 2	dress	dress	n	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 2 Eng-NA
 
 # text = oh boy
-1	oh	oh	co	_	_	2	discourse	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
-2	boy	boy	n	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
+1	oh	oh	co	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
+2	boy	boy	n	_	_	1	vocative	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
 
 # text = Tinky Winky Dipsy
 1	Tinky	Tinky_Winky	n:prop	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 2 Eng-NA
@@ -1101,12 +1101,12 @@
 3	Dipsy	Dipsy	n:prop	_	_	1	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 2 Eng-NA
 
 # text = Tinky Winky xxx hat
-1	Tinky	_	_	_	_	3	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
+1	Tinky	_	_	_	_	3	nmod:poss	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
 2	Winky	_	_	_	_	1	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
 3	hat	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
 
 # text = Dipsy xxx hat
-1	Dipsy	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
+1	Dipsy	_	_	_	_	2	nmod:poss	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
 2	hat	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
 
 # text = in here
@@ -1114,7 +1114,7 @@
 2	here	here	n	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 2 2 Eng-NA
 
 # text = Dipsy xxx shirt xxx
-1	Dipsy	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
+1	Dipsy	_	_	_	_	2	nmod:poss	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
 2	shirt	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
 
 # text = xxx xxx Mommy xxx off xxx
@@ -1140,7 +1140,7 @@
 5	wiggle	wiggle	n	_	_	1	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 5 5 Eng-NA
 
 # text = Tinky Winky xxx shoes
-1	Tinky	_	_	_	_	3	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
+1	Tinky	_	_	_	_	3	nmod:poss	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
 2	Winky	_	_	_	_	1	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
 3	shoes	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
 
@@ -1149,7 +1149,7 @@
 2	wiggle	wiggle	n	_	_	1	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 2 2 Eng-NA
 
 # text = xxx Tinky Winky knees xxx on boo boo
-1	Tinky	_	_	_	_	3	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 6 6 Eng-NA
+1	Tinky	_	_	_	_	3	nmod:poss	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 6 6 Eng-NA
 2	Winky	_	_	_	_	1	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 6 6 Eng-NA
 3	knees	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 6 6 Eng-NA
 4	on	_	_	_	_	5	case	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 6 6 Eng-NA
@@ -1180,16 +1180,16 @@
 4	boo	_	_	_	_	1	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 4 7 Eng-NA
 
 # text = Po xxx Po shirt red shirt
-1	Po	_	_	_	_	3	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 5 6 Eng-NA
-2	Po	_	_	_	_	1	flat	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 5 6 Eng-NA
+1	Po	_	_	_	_	2	reparandum:repetition	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 5 6 Eng-NA
+2	Po	_	_	_	_	3	nmod:poss	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 5 6 Eng-NA
 3	shirt	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 5 6 Eng-NA
 4	red	_	_	_	_	5	amod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 5 6 Eng-NA
 5	shirt	_	_	_	_	3	parataxis	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 5 6 Eng-NA
 
 # text = Po shirt xxx Po xxx eyes
-1	Po	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 5 6 Eng-NA
+1	Po	_	_	_	_	2	nmod:poss	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 5 6 Eng-NA
 2	shirt	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 5 6 Eng-NA
-3	Po	_	_	_	_	4	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 5 6 Eng-NA
+3	Po	_	_	_	_	4	nmod:poss	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 5 6 Eng-NA
 4	eyes	_	_	_	_	2	parataxis	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 5 6 Eng-NA
 
 # text = it 's xxx xxx microphone
@@ -1245,8 +1245,8 @@
 2	mommy	_	_	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 2 3 Eng-NA
 
 # text = bunny xxx purple xxx
-1	bunny	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
-2	purple	_	_	_	_	1	amod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
+1	bunny	_	_	_	_	2	nsubj	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
+2	purple	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
 
 # text = xxx find it xxx xxx
 1	find	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 5 Eng-NA
@@ -1264,8 +1264,8 @@
 4	paper	paper	n	_	_	2	obl	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 4 Eng-NA
 
 # text = xxx feet dirty
-1	feet	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 5 3 Eng-NA
-2	dirty	_	_	_	_	1	amod	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 5 3 Eng-NA
+1	feet	_	_	_	_	2	nsubj	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 5 3 Eng-NA
+2	dirty	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 5 3 Eng-NA
 
 # text = oh yeah
 1	oh	oh	co	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 2 2 Eng-NA
@@ -1305,15 +1305,15 @@
 2	nuh	nuh	co	_	_	1	discourse	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 2 2 Eng-NA
 
 # text = feet green
-1	feet	foot	n	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 2 Eng-NA
-2	green	green	adj	_	_	1	amod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 2 Eng-NA
+1	feet	foot	n	_	_	2	nsubj	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 2 Eng-NA
+2	green	green	adj	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 2 Eng-NA
 
 # text = yay pockets
 1	yay	yay	co	_	_	2	discourse	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 2 Eng-NA
 2	pockets	pocket	v	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 2 Eng-NA
 
 # text = mommy xxx eat
-1	mommy	_	_	_	_	2	nsubj	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
+1	mommy	_	_	_	_	2	vocative	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
 2	eat	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
 
 # text = xxx eat eat xxx
@@ -1321,7 +1321,7 @@
 2	eat	_	_	_	_	1	conj	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 4 Eng-NA
 
 # text = xxx puppy seat
-1	puppy	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 3 Eng-NA
+1	puppy	_	_	_	_	2	compound	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 3 Eng-NA
 2	seat	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 3 Eng-NA
 
 # text = oh know
@@ -1387,7 +1387,7 @@
 1	hey	_	_	_	_	2	discourse	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 5 Eng-NA
 2	I	_	_	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 5 Eng-NA
 3	on	_	_	_	_	4	case	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 5 Eng-NA
-4	her	_	_	_	_	2	parataxis	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 5 Eng-NA
+4	her	_	_	_	_	2	dep	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 5 Eng-NA
 
 # text = xxx blue blankie
 1	blue	_	_	_	_	2	amod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 3 Eng-NA
@@ -1411,7 +1411,7 @@
 2	bag	bag	n	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
 
 # text = bunny xxx baby xxx xxx xxx xxx
-1	bunny	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 7 Eng-NA
+1	bunny	_	_	_	_	2	compound	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 7 Eng-NA
 2	baby	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 7 Eng-NA
 
 # text = xxx daddy xxx xxx daddy
@@ -1420,8 +1420,8 @@
 
 # text = and lowly worm has one shoe on
 1	and	and	coord	_	_	4	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 7 Eng-NA
-2	lowly	low	adv	_	_	3	amod	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 7 Eng-NA
-3	worm	worm	n	_	_	4	nsubj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 7 Eng-NA
+2	lowly	low	adv	_	_	4	nsubj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 7 Eng-NA
+3	worm	worm	n	_	_	2	flat	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 7 Eng-NA
 4	has	have	v	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 7 Eng-NA
 5	one	one	det:num	_	_	6	nummod	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 7 Eng-NA
 6	shoe	shoe	n	_	_	4	obj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 7 Eng-NA
@@ -1444,7 +1444,7 @@
 
 # text = duck xxx bubbles
 1	duck	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
-2	bubbles	_	_	_	_	1	parataxis	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
+2	bubbles	_	_	_	_	1	dep	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
 
 # text = and a hat
 1	and	and	coord	_	_	3	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
@@ -1471,11 +1471,11 @@
 2	is	_	_	_	_	3	aux	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 7 8 Eng-NA
 3	sitting	_	_	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 7 8 Eng-NA
 4	a	_	_	_	_	5	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 7 8 Eng-NA
-5	sock	_	_	_	_	3	obj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 7 8 Eng-NA
+5	sock	_	_	_	_	3	parataxis	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 7 8 Eng-NA
 
 # text = Lily xxx pink
-1	Lily	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 3 Eng-NA
-2	pink	_	_	_	_	1	parataxis	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 3 Eng-NA
+1	Lily	_	_	_	_	2	nsubj	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 3 Eng-NA
+2	pink	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 3 Eng-NA
 
 # text = ties tie
 1	ties	tie	v	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 2 Eng-NA
@@ -1488,7 +1488,7 @@
 4	egg	_	_	_	_	3	obj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 5 4 Eng-NA
 
 # text = Mommy xxx shirt
-1	Mommy	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 3 Eng-NA
+1	Mommy	_	_	_	_	2	vocative	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 3 Eng-NA
 2	shirt	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 3 Eng-NA
 
 # text = I kissing
@@ -1504,19 +1504,19 @@
 2	blah	_	_	_	_	1	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 2 3 Eng-NA
 
 # text = xxx that a um it 's a xxx red lollipop
-1	that	_	_	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 7 9 Eng-NA
-2	a	_	_	_	_	1	parataxis	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 7 9 Eng-NA
-3	um	_	_	_	_	8	discourse	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 7 9 Eng-NA
+1	that	_	_	_	_	2	nsubj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 7 9 Eng-NA
+2	a	_	_	_	_	8	reparandum:restart	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 7 9 Eng-NA
+3	um	_	_	_	_	2	discourse	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 7 9 Eng-NA
 4	it	_	_	_	_	8	nsubj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 7 9 Eng-NA
 5	's	_	_	_	_	8	cop	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 7 9 Eng-NA
 6	a	_	_	_	_	8	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 7 9 Eng-NA
 7	red	_	_	_	_	8	amod	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 7 9 Eng-NA
-8	lollipop	_	_	_	_	1	parataxis	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 7 9 Eng-NA
+8	lollipop	_	_	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 7 9 Eng-NA
 
 # text = bunny purple vest
-1	bunny	bunny	n	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
+1	bunny	bunny	n	_	_	3	compound	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
 2	purple	purple	adj	_	_	3	amod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
-3	vest	vest	n	_	_	1	parataxis	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
+3	vest	vest	n	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
 
 # text = a fork and a spoon
 1	a	a	det:art	_	_	2	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 5 5 Eng-NA
@@ -1526,8 +1526,8 @@
 5	spoon	spoon	n	_	_	2	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 5 5 Eng-NA
 
 # text = duck yellow
-1	duck	duck	n	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 2 Eng-NA
-2	yellow	yellow	n	_	_	1	amod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 2 Eng-NA
+1	duck	duck	n	_	_	2	nsubj	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 2 Eng-NA
+2	yellow	yellow	n	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 2 Eng-NA
 
 # text = wash his hand
 1	wash	wash	v	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
@@ -1535,8 +1535,8 @@
 3	hand	hand	n	_	_	1	obj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
 
 # text = bubbles xxx blue
-1	bubbles	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
-2	blue	_	_	_	_	1	amod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
+1	bubbles	_	_	_	_	2	nsubj	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
+2	blue	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
 
 # text = I think
 1	I	I	pro:sub	_	_	2	nsubj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 2 2 Eng-NA
@@ -1558,21 +1558,21 @@
 
 # text = xxx um it xxx Lowly Worm is sitting in in in xxx in a in
 1	um	_	_	_	_	2	discourse	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
-2	it	_	_	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
+2	it	_	_	_	_	6	reparandum:restart	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
 3	Lowly	_	_	_	_	6	nsubj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
 4	Worm	_	_	_	_	3	flat	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
 5	is	_	_	_	_	6	aux	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
-6	sitting	_	_	_	_	2	parataxis	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
-7	in	_	_	_	_	11	case	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
-8	in	_	_	_	_	7	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
-9	in	_	_	_	_	7	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
-10	in	_	_	_	_	7	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
-11	a	_	_	_	_	6	obl	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
-12	in	_	_	_	_	11	parataxis	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
+6	sitting	_	_	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
+7	in	_	_	_	_	12	reparandum:repetition	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
+8	in	_	_	_	_	12	reparandum:repetition	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
+9	in	_	_	_	_	12	reparandum:repetition	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
+10	in	_	_	_	_	12	reparandum:repetition	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
+11	a	_	_	_	_	12	reparandum	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
+12	in	_	_	_	_	6	obl	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 13 15 Eng-NA
 
 # text = xxx xxx xxx door xxx xxx carrying books
 1	door	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 5 8 Eng-NA
-2	carrying	_	_	_	_	1	acl	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 5 8 Eng-NA
+2	carrying	_	_	_	_	1	dep	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 5 8 Eng-NA
 3	books	_	_	_	_	1	parataxis	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 5 8 Eng-NA
 
 # text = he 's xxx um um a bib
@@ -1590,7 +1590,7 @@
 
 # text = xxx pockets Lily
 1	pockets	_	_	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 3 Eng-NA
-2	Lily	_	_	_	_	1	parataxis	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 3 Eng-NA
+2	Lily	_	_	_	_	1	dep	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 3 Eng-NA
 
 # text = kitty xxx xxx bunny xxx xxx xxx table
 1	kitty	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 3 8 Eng-NA
@@ -1618,7 +1618,7 @@
 9	you	_	_	_	_	8	iobj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 15 13 Eng-NA
 10	Tamar	_	_	_	_	12	nmod:poss	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 15 13 Eng-NA
 11	's	_	_	_	_	10	case	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 15 13 Eng-NA
-12	Mommy	_	_	_	_	8	parataxis	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 15 13 Eng-NA
+12	Mommy	_	_	_	_	8	vocative	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 15 13 Eng-NA
 
 # text = a teapot
 1	a	a	det:art	_	_	2	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 1 2 Eng-NA
@@ -1635,7 +1635,7 @@
 
 # text = and gold bug
 1	and	and	coord	_	_	3	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
-2	gold	gold	adj	_	_	3	nmod	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
+2	gold	gold	adj	_	_	3	amod	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
 3	bug	bug	n	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
 
 # text = dad wash xxx dishes
@@ -1651,7 +1651,7 @@
 1	a	_	_	_	_	2	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 4 5 Eng-NA
 2	pickle	_	_	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 4 5 Eng-NA
 3	a	_	_	_	_	4	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 4 5 Eng-NA
-4	pickle	_	_	_	_	2	parataxis	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 4 5 Eng-NA
+4	pickle	_	_	_	_	2	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 4 5 Eng-NA
 
 # text = a pickle
 1	a	a	det:art	_	_	2	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 2 2 Eng-NA
@@ -1672,8 +1672,8 @@
 2	brush	brush	n	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 2 Eng-NA
 
 # text = oh goodness
-1	oh	oh_goodness	co	_	_	2	discourse	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 1 1 Eng-NA
-2	goodness	goodness	combined	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 1 1 Eng-NA
+1	oh	oh_goodness	co	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 1 1 Eng-NA
+2	goodness	goodness	combined	_	_	1	discourse	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 1 1 Eng-NA
 
 # text = and Sally
 1	and	and	coord	_	_	2	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 2 2 Eng-NA
@@ -1706,7 +1706,7 @@
 
 # text = fox xxx xxx mail
 1	fox	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 4 Eng-NA
-2	mail	_	_	_	_	1	parataxis	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 4 Eng-NA
+2	mail	_	_	_	_	1	dep	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 4 Eng-NA
 
 # text = and phone back
 1	and	and	coord	_	_	2	cc	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 3 Eng-NA
@@ -1746,7 +1746,7 @@
 2	Goldbug	Goldbug	n:prop	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 2 2 Eng-NA
 
 # text = bunny shirt
-1	bunny	bunny	n	_	_	2	nmod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 2 Eng-NA
+1	bunny	bunny	n	_	_	2	compound	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 2 Eng-NA
 2	shirt	shirt	n	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 2 Eng-NA
 
 # text = xxx xxx xxx and gold and lowly worm has one shoe
@@ -1784,8 +1784,8 @@
 5	worm	_	_	_	_	4	flat	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 7 6 Eng-NA
 
 # text = shirt pink shirt
-1	shirt	shirt	n	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
-2	pink	pink	adj	_	_	3	amod	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
+1	shirt	shirt	n	_	_	2	nsubj	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
+2	pink	pink	adj	_	_	0	root	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
 3	shirt	shirt	n	_	_	1	parataxis	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 3 3 Eng-NA
 
 # text = and xxx behind gate
@@ -1810,7 +1810,7 @@
 
 # text = piggie 's sleeping
 1	piggie	pig	n	_	_	3	nsubj	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 6 2 Eng-NA
-2	's	be	cop	_	_	1	case	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 6 2 Eng-NA
+2	's	be	cop	_	_	3	aux	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 6 2 Eng-NA
 3	sleeping	be	aux	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 6 2 Eng-NA
 
 # text = piggie out xxx xxx xxx out
@@ -1891,9 +1891,9 @@
 2	cow	cow	n	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 2 Eng-NA
 
 # text = night night fish
-1	night	night	n	_	_	0	root	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 3 Eng-NA
-2	night	night	n	_	_	1	goeswith	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 3 Eng-NA
-3	fish	fish	n	_	_	1	vocative	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 3 Eng-NA
+1	night	night	n	_	_	2	compound	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 3 Eng-NA
+2	night	night	n	_	_	0	root	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 3 Eng-NA
+3	fish	fish	n	_	_	2	vocative	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 3 Eng-NA
 
 # text = lowly worm and Goldbug
 1	lowly	low	adj	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 6 4 Eng-NA
@@ -1902,8 +1902,8 @@
 4	Goldbug	Goldbug	n:prop	_	_	1	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 6 4 Eng-NA
 
 # text = night night
-1	night	night	n	_	_	0	root	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 2 2 Eng-NA
-2	night	night	n	_	_	1	goeswith	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 2 2 Eng-NA
+1	night	night	n	_	_	2	compound	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 2 2 Eng-NA
+2	night	night	n	_	_	0	root	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 2 2 Eng-NA
 
 # text = xxx hiding xxx Hucklecat
 1	hiding	_	_	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 4 Eng-NA
@@ -1911,7 +1911,7 @@
 
 # text = xxx throw Mommy
 1	throw	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 3 Eng-NA
-2	Mommy	_	_	_	_	1	obj	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 3 Eng-NA
+2	Mommy	_	_	_	_	1	vocative	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 3 Eng-NA
 
 # text = p puppy
 1	p	p	n:let	_	_	2	reparandum	Lily CHI Target_Child	Lily 20.460379063225115 female Providence declarative 2 2 Eng-NA
@@ -1931,7 +1931,7 @@
 1	a	a	det:art	_	_	2	det	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 4 4 Eng-NA
 2	chicken	chicken	n	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 4 4 Eng-NA
 3	a	a	det:art	_	_	4	det	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 4 4 Eng-NA
-4	chicken	chicken	n	_	_	2	parataxis	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 4 4 Eng-NA
+4	chicken	chicken	n	_	_	2	conj	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 4 4 Eng-NA
 
 # text = moon moon
 1	moon	moon	n	_	_	0	root	Lily CHI Target_Child	Lily 18.361773342368426 female Providence declarative 2 2 Eng-NA
@@ -1979,12 +1979,12 @@
 7	Alec	Alec	n:prop	_	_	1	conj	Lily CHI Target_Child	Lily 21.821803322450148 female Providence imperative_emphatic 7 7 Eng-NA
 
 # text = Lily microphone
-1	Lily	Lily	n:prop	_	_	2	nmod	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
+1	Lily	Lily	n:prop	_	_	2	nmod:poss	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
 2	microphone	microphone	n	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
 
 # text = the the string
-1	the	the	det:art	_	_	3	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
-2	the	the	det:art	_	_	1	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
+1	the	the	det:art	_	_	2	reparandum:repetition	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
+2	the	the	det:art	_	_	3	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
 3	string	string	n	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
 
 # text = Mommy and Daddy
@@ -2013,7 +2013,7 @@
 # text = oh gosh oh gosh
 1	oh	oh	co	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 4 4 Eng-NA
 2	gosh	gosh	co	_	_	1	discourse	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 4 4 Eng-NA
-3	oh	oh	co	_	_	1	parataxis	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 4 4 Eng-NA
+3	oh	oh	co	_	_	1	conj	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 4 4 Eng-NA
 4	gosh	gosh	co	_	_	3	discourse	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 4 4 Eng-NA
 
 # text = it 's um
@@ -2053,10 +2053,10 @@
 3	three	three	det:num	_	_	1	conj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 3 Eng-NA
 
 # text = Lily Mommy Lily Mommy xxx xxx
-1	Lily	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 4 6 Eng-NA
-2	Mommy	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 4 6 Eng-NA
-3	Lily	_	_	_	_	4	nmod	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 4 6 Eng-NA
-4	Mommy	_	_	_	_	2	parataxis	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 4 6 Eng-NA
+1	Lily	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 4 6 Eng-NA
+2	Mommy	_	_	_	_	1	conj	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 4 6 Eng-NA
+3	Lily	_	_	_	_	1	conj	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 4 6 Eng-NA
+4	Mommy	_	_	_	_	1	conj	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 4 6 Eng-NA
 
 # text = xxx no no xxx
 1	no	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 2 4 Eng-NA
@@ -2072,7 +2072,7 @@
 2	oh	_	_	_	_	1	discourse	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 1 2 Eng-NA
 
 # text = puppy book
-1	puppy	puppy	n	_	_	2	nmod	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 2 2 Eng-NA
+1	puppy	puppy	n	_	_	2	compound	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 2 2 Eng-NA
 2	book	book	n	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 2 2 Eng-NA
 
 # text = suit and tie
@@ -2091,7 +2091,7 @@
 
 # text = yes Spot book
 1	yes	yes	co	_	_	3	discourse	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
-2	Spot	Spot	n:prop	_	_	3	nmod	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
+2	Spot	Spot	n:prop	_	_	3	compound	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
 3	book	book	n	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
 
 # text = green xxx green
@@ -2126,11 +2126,11 @@
 5	sing	sing	v	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 5 4 Eng-NA
 
 # text = xxx alligator xxx train
-1	alligator	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 4 Eng-NA
+1	alligator	_	_	_	_	2	compound	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 4 Eng-NA
 2	train	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 4 Eng-NA
 
 # text = xxx goose hat
-1	goose	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 3 Eng-NA
+1	goose	_	_	_	_	2	compound	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 3 Eng-NA
 2	hat	_	_	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 3 Eng-NA
 
 # text = it 's a head on and and crocodile has xxx a head on and and bear has a nose
@@ -2139,33 +2139,33 @@
 3	a	_	_	_	_	4	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
 4	head	_	_	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
 5	on	_	_	_	_	4	advmod	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
-6	and	_	_	_	_	9	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
-7	and	_	_	_	_	6	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
+6	and	_	_	_	_	7	reparandum:repetition	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
+7	and	_	_	_	_	9	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
 8	crocodile	_	_	_	_	9	nsubj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
 9	has	_	_	_	_	4	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
 10	a	_	_	_	_	11	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
 11	head	_	_	_	_	9	obj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
-12	on	_	_	_	_	11	advmod	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
-13	and	_	_	_	_	16	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
-14	and	_	_	_	_	13	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
+12	on	_	_	_	_	9	advmod	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
+13	and	_	_	_	_	14	reparandum:repetition	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
+14	and	_	_	_	_	16	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
 15	bear	_	_	_	_	16	nsubj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
 16	has	_	_	_	_	4	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
 17	a	_	_	_	_	18	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
 18	nose	_	_	_	_	16	obj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 20 18 Eng-NA
 
 # text = xxx puppy xxx train
-1	puppy	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 4 Eng-NA
+1	puppy	_	_	_	_	2	compound	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 4 Eng-NA
 2	train	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 4 Eng-NA
 
 # text = xxx it 's Dumpty xxx wall
 1	it	_	_	_	_	4	nsubj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 5 Eng-NA
 2	's	_	_	_	_	4	cop	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 5 Eng-NA
-3	Dumpty	_	_	_	_	4	nmod	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 5 Eng-NA
+3	Dumpty	_	_	_	_	4	compound	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 5 Eng-NA
 4	wall	_	_	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 5 Eng-NA
 
 # text = this xxx um boom
 1	this	_	_	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 4 Eng-NA
-2	um	_	_	_	_	1	dicourse	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 4 Eng-NA
+2	um	_	_	_	_	1	discourse	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 4 Eng-NA
 3	boom	_	_	_	_	1	discourse	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 4 Eng-NA
 
 # text = that 's Spot
@@ -2228,14 +2228,14 @@
 3	letters	_	_	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 3 Eng-NA
 
 # text = and and a plant
-1	and	and	coord	_	_	4	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 4 4 Eng-NA
-2	and	and	coord	_	_	1	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 4 4 Eng-NA
+1	and	and	coord	_	_	2	reparandum:repetition	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 4 4 Eng-NA
+2	and	and	coord	_	_	4	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 4 4 Eng-NA
 3	a	a	det:art	_	_	4	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 4 4 Eng-NA
 4	plant	plant	n	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 4 4 Eng-NA
 
 # text = bubbles sticky
-1	bubbles	bubble	v	_	_	0	root	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 2 Eng-NA
-2	sticky	sticky	n	_	_	1	amod	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 2 Eng-NA
+1	bubbles	bubble	v	_	_	2	nsubj	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 2 Eng-NA
+2	sticky	sticky	n	_	_	0	root	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 2 Eng-NA
 
 # text = a bone
 1	a	a	det:art	_	_	2	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 2 2 Eng-NA
@@ -2258,7 +2258,7 @@
 4	circle	circle	n	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence self interruption 4 3 Eng-NA
 
 # text = Mommy sad
-1	Mommy	Mommy	n:prop	_	_	2	nsubj	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 2 Eng-NA
+1	Mommy	Mommy	n:prop	_	_	2	vocative	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 2 Eng-NA
 2	sad	sad	adj	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 2 Eng-NA
 
 # text = it 's red it 's xxx paint blue paint
@@ -2365,8 +2365,8 @@
 2	bicycle	cycle	n	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 2 Eng-NA
 
 # text = lunch xxx xxx mall
-1	lunch	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 4 Eng-NA
-2	mall	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 4 Eng-NA
+1	lunch	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 4 Eng-NA
+2	mall	_	_	_	_	1	dep	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 4 Eng-NA
 
 # text = and that 's a cup
 1	and	and	coord	_	_	5	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 5 4 Eng-NA
@@ -2377,10 +2377,10 @@
 
 # text = a puppy a puppy dog
 1	a	a	det:art	_	_	2	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 5 5 Eng-NA
-2	puppy	puppy	n	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 5 5 Eng-NA
+2	puppy	puppy	n	_	_	5	reparandum:repetition	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 5 5 Eng-NA
 3	a	a	det:art	_	_	5	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 5 5 Eng-NA
 4	puppy	puppy	n	_	_	5	compound	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 5 5 Eng-NA
-5	dog	dog	n	_	_	2	parataxis	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 5 5 Eng-NA
+5	dog	dog	n	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 5 5 Eng-NA
 
 # text = a new book
 1	a	a	det:art	_	_	3	det	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 3 Eng-NA
@@ -2461,7 +2461,7 @@
 3	a	a	det:art	_	_	4	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 10 Eng-NA
 4	hat	hat	n	_	_	2	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 10 Eng-NA
 5	and	and	coord	_	_	6	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 10 Eng-NA
-6	a	a	det:art	_	_	4	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 10 Eng-NA
+6	a	a	det:art	_	_	10	reparandum:repetition	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 10 Eng-NA
 7	and	and	coord	_	_	10	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 10 Eng-NA
 8	a	a	det:art	_	_	10	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 10 Eng-NA
 9	kitty	kitty	n	_	_	10	compound	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 10 Eng-NA
@@ -2493,7 +2493,7 @@
 4	in	_	_	_	_	5	case	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 12 10 Eng-NA
 5	there	_	_	_	_	3	obl	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 12 10 Eng-NA
 6	it	_	_	_	_	7	nsubj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 12 10 Eng-NA
-7	's	_	_	_	_	3	parataxis	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 12 10 Eng-NA
+7	's	_	_	_	_	10	reparandum:repetition	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 12 10 Eng-NA
 8	it	_	_	_	_	10	nsubj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 12 10 Eng-NA
 9	's	_	_	_	_	10	cop	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 12 10 Eng-NA
 10	money	_	_	_	_	3	parataxis	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 12 10 Eng-NA
@@ -2561,12 +2561,12 @@
 
 # text = and a xxx and a and a ladybug
 1	and	_	_	_	_	2	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 6 8 Eng-NA
-2	a	_	_	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 6 8 Eng-NA
+2	a	_	_	_	_	7	reparandum:repetition	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 6 8 Eng-NA
 3	and	_	_	_	_	4	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 6 8 Eng-NA
-4	a	_	_	_	_	2	parataxis	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 6 8 Eng-NA
+4	a	_	_	_	_	7	reparandum:repetition	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 6 8 Eng-NA
 5	and	_	_	_	_	7	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 6 8 Eng-NA
 6	a	_	_	_	_	7	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 6 8 Eng-NA
-7	ladybug	_	_	_	_	2	parataxis	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 6 8 Eng-NA
+7	ladybug	_	_	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 6 8 Eng-NA
 
 # text = and candle and a cake
 1	and	and	coord	_	_	2	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 5 5 Eng-NA
@@ -2642,7 +2642,7 @@
 3	shell	shell	n	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 6 6 Eng-NA
 4	and	and	coord	_	_	6	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 6 6 Eng-NA
 5	a	a	det:art	_	_	6	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 6 6 Eng-NA
-6	bell	bell	n	_	_	3	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 6 6 Eng-NA
+6	bell	bell	n	_	_	3	parataxis	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 6 6 Eng-NA
 
 # text = a wombat
 1	a	a	det:art	_	_	2	det	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 2 Eng-NA
@@ -2669,9 +2669,9 @@
 6	car	car	n	_	_	2	nmod	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 6 6 Eng-NA
 
 # text = oh a xxx wow
-1	oh	_	_	_	_	2	discourse	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 4 Eng-NA
-2	a	_	_	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 4 Eng-NA
-3	wow	_	_	_	_	2	discourse	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 4 Eng-NA
+1	oh	_	_	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 4 Eng-NA
+2	a	_	_	_	_	1	discourse	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 4 Eng-NA
+3	wow	_	_	_	_	1	discourse	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 4 Eng-NA
 
 # text = kitty xxx coffee house
 1	kitty	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 3 4 Eng-NA
@@ -2679,11 +2679,11 @@
 3	house	_	_	_	_	1	parataxis	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 3 4 Eng-NA
 
 # text = a puppy and kitty xxx trolley
-1	a	_	_	_	_	5	det	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 5 6 Eng-NA
-2	puppy	_	_	_	_	5	nmod	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 5 6 Eng-NA
+1	a	_	_	_	_	2	det	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 5 6 Eng-NA
+2	puppy	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 5 6 Eng-NA
 3	and	_	_	_	_	4	cc	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 5 6 Eng-NA
 4	kitty	_	_	_	_	2	conj	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 5 6 Eng-NA
-5	trolley	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 5 6 Eng-NA
+5	trolley	_	_	_	_	2	conj	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 5 6 Eng-NA
 
 # text = snail and a pail
 1	snail	snail	n	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 4 4 Eng-NA
@@ -2767,8 +2767,8 @@
 3	mm	mm	co	_	_	2	goeswith	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 3 3 Eng-NA
 
 # text = and and xxx a top and a mop and a pan
-1	and	_	_	_	_	4	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 11 Eng-NA
-2	and	_	_	_	_	2	conj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 11 Eng-NA
+1	and	_	_	_	_	2	reparandum:repetition	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 11 Eng-NA
+2	and	_	_	_	_	4	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 11 Eng-NA
 3	a	_	_	_	_	4	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 11 Eng-NA
 4	top	_	_	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 11 Eng-NA
 5	and	_	_	_	_	7	cc	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 10 11 Eng-NA
@@ -2806,7 +2806,7 @@
 2	tickle	tickle	n	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 2 2 Eng-NA
 
 # text = Mommy elbow
-1	Mommy	Mommy	n:prop	_	_	2	nmod	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
+1	Mommy	Mommy	n:prop	_	_	2	vocative	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
 2	elbow	elbow	n	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
 
 # text = it 's next
@@ -2876,11 +2876,11 @@
 1	a	_	_	_	_	2	det	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 8 10 Eng-NA
 2	bat	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 8 10 Eng-NA
 3	a	_	_	_	_	4	det	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 8 10 Eng-NA
-4	bat	_	_	_	_	2	parataxis	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 8 10 Eng-NA
+4	bat	_	_	_	_	2	conj	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 8 10 Eng-NA
 5	a	_	_	_	_	6	det	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 8 10 Eng-NA
-6	hat	_	_	_	_	2	parataxis	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 8 10 Eng-NA
+6	hat	_	_	_	_	2	conj	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 8 10 Eng-NA
 7	a	_	_	_	_	8	det	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 8 10 Eng-NA
-8	bat	_	_	_	_	2	parataxis	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 8 10 Eng-NA
+8	bat	_	_	_	_	2	conj	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 8 10 Eng-NA
 
 # text = I know it
 1	I	I	pro:sub	_	_	2	nsubj	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
@@ -2892,8 +2892,8 @@
 2	car	car	n	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
 
 # text = hands xxx scratchy
-1	hands	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 5 3 Eng-NA
-2	scratchy	_	_	_	_	1	amod	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 5 3 Eng-NA
+1	hands	_	_	_	_	2	nsubj	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 5 3 Eng-NA
+2	scratchy	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 5 3 Eng-NA
 
 # text = mouse xxx xxx down xxx slide
 1	mouse	_	_	_	_	3	nsubj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 6 Eng-NA
@@ -2901,7 +2901,7 @@
 3	slide	_	_	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 6 Eng-NA
 
 # text = black kitty
-1	black	black	n	_	_	2	nmod	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
+1	black	black	n	_	_	2	amod	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
 2	kitty	kitty	n	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 2 2 Eng-NA
 
 # text = a p p p
@@ -2929,11 +2929,11 @@
 4	vest	vest	n	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 4 3 Eng-NA
 
 # text = birds xxx nest
-1	birds	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 3 3 Eng-NA
+1	birds	_	_	_	_	2	compound	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 3 3 Eng-NA
 2	nest	_	_	_	_	0	root	Lily CHI Target_Child	Lily 20.887492556315323 female Providence declarative 3 3 Eng-NA
 
 # text = trunk tree
-1	trunk	trunk	n	_	_	2	nmod	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 2 2 Eng-NA
+1	trunk	trunk	n	_	_	2	compound	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 2 2 Eng-NA
 2	tree	tree	n	_	_	0	root	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 2 2 Eng-NA
 
 # text = Ben xxx xxx back
@@ -2945,7 +2945,7 @@
 2	chair	chair	n	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 2 Eng-NA
 
 # text = peach chips
-1	peach	peach	n	_	_	2	nmod	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 2 Eng-NA
+1	peach	peach	n	_	_	2	compound	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 2 Eng-NA
 2	chips	chip	v	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 2 Eng-NA
 
 # text = xxx tree xxx bumble+bee
@@ -2974,8 +2974,8 @@
 2	bootie	boot	n	_	_	0	root	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 2 Eng-NA
 
 # text = xxx truck book
-1	truck	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 3 Eng-NA
-2	book	_	_	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 3 Eng-NA
+1	truck	_	_	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 3 Eng-NA
+2	book	_	_	_	_	1	conj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 3 Eng-NA
 
 # text = two boots
 1	two	two	det:num	_	_	2	nummod	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 2 Eng-NA
@@ -3052,7 +3052,7 @@
 5	raining	rain	part	_	_	2	parataxis	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 6 4 Eng-NA
 
 # text = xxx xxx xxx duckie book
-1	duckie	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 5 Eng-NA
+1	duckie	_	_	_	_	2	compound	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 5 Eng-NA
 2	book	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 3 5 Eng-NA
 
 # text = and a um
@@ -3090,7 +3090,7 @@
 # text = that 's horse food
 1	that	that	n	_	_	4	nsubj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 3 Eng-NA
 2	's	be	cop	_	_	4	cop	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 3 Eng-NA
-3	horse	horse	n	_	_	4	nmod	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 3 Eng-NA
+3	horse	horse	n	_	_	4	compound	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 3 Eng-NA
 4	food	food	n	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 3 Eng-NA
 
 # text = xxx xxx the flower
@@ -3098,7 +3098,7 @@
 2	flower	_	_	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 2 4 Eng-NA
 
 # text = boom floor
-1	boom	boom	n	_	_	2	nmod	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 2 Eng-NA
+1	boom	boom	n	_	_	2	compound	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 2 Eng-NA
 2	floor	floor	n	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 2 2 Eng-NA
 
 # text = papa Jay
@@ -3134,7 +3134,7 @@
 2	ice	ice	n	_	_	1	obj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 2 Eng-NA
 
 # text = boom floor Mommy 's xxx Mommy
-1	boom	_	_	_	_	2	nmod	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 6 5 Eng-NA
+1	boom	_	_	_	_	2	compound	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 6 5 Eng-NA
 2	floor	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 6 5 Eng-NA
 3	Mommy	_	_	_	_	2	parataxis	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 6 5 Eng-NA
 4	's	_	_	_	_	3	case	Lily CHI Target_Child	Lily 21.821803322450148 female Providence declarative 6 5 Eng-NA
@@ -3162,13 +3162,13 @@
 6	chair	_	_	_	_	4	obj	Lily CHI Target_Child	Lily 18.591757530955466 female Providence declarative 5 5 Eng-NA
 
 # text = it 's girl doll
-1	it	it	pro	_	_	4	nmod:poss	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 3 Eng-NA
+1	it	it	pro	_	_	4	nsubj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 3 Eng-NA
 2	's	be	cop	_	_	4	cop	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 3 Eng-NA
-3	girl	girl	n	_	_	4	nmod	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 3 Eng-NA
+3	girl	girl	n	_	_	4	compound	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 3 Eng-NA
 4	doll	doll	n	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 4 3 Eng-NA
 
 # text = girl doll
-1	girl	girl	n	_	_	2	nmod	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 2 Eng-NA
+1	girl	girl	n	_	_	2	compound	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 2 Eng-NA
 2	doll	doll	n	_	_	0	root	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 2 2 Eng-NA
 
 # text = two balls
@@ -3177,7 +3177,7 @@
 
 # text = Mommy Daddy
 1	Mommy	Mommy	n:prop	_	_	0	root	Lily CHI Target_Child	Lily 20.098975338302637 female Providence declarative 2 2 Eng-NA
-2	Daddy	Daddy	n:prop	_	_	1	vocative	Lily CHI Target_Child	Lily 20.098975338302637 female Providence declarative 2 2 Eng-NA
+2	Daddy	Daddy	n:prop	_	_	1	conj	Lily CHI Target_Child	Lily 20.098975338302637 female Providence declarative 2 2 Eng-NA
 
 # text = I'll bouncy
 1	I	I	pro:sub	_	_	3	nsubj	Lily CHI Target_Child	Lily 22.723259204501122 female Providence declarative 3 2 Eng-NA
@@ -3218,7 +3218,7 @@
 # text = xxx strawberry and mouse glasses too
 1	strawberry	_	_	_	_	0	root	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 6 6 Eng-NA
 2	and	_	_	_	_	4	cc	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 6 6 Eng-NA
-3	mouse	_	_	_	_	4	nmod	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 6 6 Eng-NA
+3	mouse	_	_	_	_	4	compound	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 6 6 Eng-NA
 4	glasses	_	_	_	_	1	conj	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 6 6 Eng-NA
 5	too	_	_	_	_	1	advmod	Lily CHI Target_Child	Lily 21.394689829359947 female Providence declarative 6 6 Eng-NA
 
@@ -3253,7 +3253,7 @@
 
 # text = a Wanta cake
 1	a	a	det:art	_	_	3	det	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
-2	Wanta	Wanta	n:prop	_	_	3	nmod	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
+2	Wanta	Wanta	n:prop	_	_	3	compound	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
 3	cake	cake	n	_	_	0	root	Lily CHI Target_Child	Lily 23.230456477545737 female Providence declarative 3 3 Eng-NA
 
 # text = it 's the pocket 's present

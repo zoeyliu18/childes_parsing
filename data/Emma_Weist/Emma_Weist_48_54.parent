@@ -707,7 +707,6 @@
 8	birthday	_	_	_	_	5	nmod	None FAT Father	Emma 49.82237828292162 female Weist question 7 8 Eng-NA=null
 
 # text = do you remember what month your birthday 's in
-# Re-evaluate
 1	do	do	mod	_	_	3	aux	None FAT Father	Emma 49.82237828292162 female Weist question 7 8 Eng-NA=null
 2	you	you	pro:per	_	_	3	nsubj	None FAT Father	Emma 49.82237828292162 female Weist question 7 8 Eng-NA=null
 3	remember	remember	v	_	_	0	root	None FAT Father	Emma 49.82237828292162 female Weist question 7 8 Eng-NA=null
@@ -962,7 +961,7 @@
 
 # text = show us how it works
 1	show	show	v	_	_	0	root	None FAT Father	Emma 49.82237828292162 female Weist declarative 6 5 Eng-NA=null
-2	us	us	pro:obj	_	_	1	obj	None FAT Father	Emma 49.82237828292162 female Weist declarative 6 5 Eng-NA=null
+2	us	us	pro:obj	_	_	1	iobj	None FAT Father	Emma 49.82237828292162 female Weist declarative 6 5 Eng-NA=null
 3	how	how	pro:int	_	_	5	mark	None FAT Father	Emma 49.82237828292162 female Weist declarative 6 5 Eng-NA=null
 4	it	it	pro:per	_	_	5	nsubj	None FAT Father	Emma 49.82237828292162 female Weist declarative 6 5 Eng-NA=null
 5	works	work	v	_	_	1	ccomp	None FAT Father	Emma 49.82237828292162 female Weist declarative 6 5 Eng-NA=null
@@ -1594,12 +1593,11 @@
 2	great	great	adj	_	_	0	root	None FAT Father	Emma 51.690999815191276 female Weist imperative_emphatic 2 2 Eng-NA=null
 
 # text = is that what it is
-# Re-evaluate
-1	is	be	cop	_	_	3	cop	None FAT Father	Emma 49.82237828292162 female Weist question 7 5 Eng-NA=null
-2	that	that	pro:dem	_	_	3	nsubj	None FAT Father	Emma 49.82237828292162 female Weist question 7 5 Eng-NA=null
-3	what	what	pro:int	_	_	0	root	None FAT Father	Emma 49.82237828292162 female Weist question 7 5 Eng-NA=null
-4	it	it	pro:per	_	_	5	nsubj	None FAT Father	Emma 49.82237828292162 female Weist question 7 5 Eng-NA=null
-5	is	be	cop	_	_	3	acl:relcl	None FAT Father	Emma 49.82237828292162 female Weist question 7 5 Eng-NA=null
+1	is	be	cop	_	_	0	root	None FAT Father	Emma 49.82237828292162 female Weist question 7 5 Eng-NA=null
+2	that	that	pro:dem	_	_	1	nsubj	None FAT Father	Emma 49.82237828292162 female Weist question 7 5 Eng-NA=null
+3	what	what	pro:int	_	_	1	ccomp	None FAT Father	Emma 49.82237828292162 female Weist question 7 5 Eng-NA=null
+4	it	it	pro:per	_	_	3	nsubj	None FAT Father	Emma 49.82237828292162 female Weist question 7 5 Eng-NA=null
+5	is	be	cop	_	_	3	cop	None FAT Father	Emma 49.82237828292162 female Weist question 7 5 Eng-NA=null
 
 # text = oh indeed coming up
 1	oh	oh	co	_	_	3	discourse	None FAT Father	Emma 51.690999815191276 female Weist self interruption 5 4 Eng-NA=null

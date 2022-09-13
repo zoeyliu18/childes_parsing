@@ -73,7 +73,7 @@
 3	one	one	det:num	7	nummod	7	nummod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 8 8 Eng-NA=null
 4	good	good	adj	7	amod	7	amod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 8 8 Eng-NA=null
 5	grape	grape	n	7	nmod	7	nmod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 8 8 Eng-NA=null
-6	hamburger	hamburger	n	7	nmod	7	nmod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 8 8 Eng-NA=null
+6	hamburger	hamburger	n	7	compound	7	compound	None MOT Mother	Lily 30.59200394258609 female Providence declarative 8 8 Eng-NA=null
 7	sandwich	sandwich	n	0	root	0	root	None MOT Mother	Lily 30.59200394258609 female Providence declarative 8 8 Eng-NA=null
 
 # text = what are you eating
@@ -87,7 +87,7 @@
 2	are	be	aux	3	aux	3	aux	None MOT Mother	Lily 30.59200394258609 female Providence question 8 7 Eng-NA=null
 3	eating	eat	part	0	root	0	root	None MOT Mother	Lily 30.59200394258609 female Providence question 8 7 Eng-NA=null
 4	a	a	detLart	6	det	6	det	None MOT Mother	Lily 30.59200394258609 female Providence question 8 7 Eng-NA=null
-5	cheese	cheese	n	6	nmod	6	nmod	None MOT Mother	Lily 30.59200394258609 female Providence question 8 7 Eng-NA=null
+5	cheese	cheese	n	6	compound	6	compound	None MOT Mother	Lily 30.59200394258609 female Providence question 8 7 Eng-NA=null
 6	sandwich	sandwich	n	3	obj	3	obj	None MOT Mother	Lily 30.59200394258609 female Providence question 8 7 Eng-NA=null
 
 # text = wow that sounds yummy
@@ -166,12 +166,12 @@
 8	off	off	adv	7	advmod	7	advmod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 9 8 Eng-NA=null
 
 # text = yeah look now she 's wearing a bathing suit
-1	yeah	yeah	co	6	discourse	6	discourse	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 8 Eng-NA=null
-2	look	look	v	6	discourse	6	discourse	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 8 Eng-NA=null
+1	yeah	yeah	co	2	discourse	2	discourse	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 8 Eng-NA=null
+2	look	look	v	0	root	0	root	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 8 Eng-NA=null
 3	now	now	adv	6	advmod	6	advmod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 8 Eng-NA=null
 4	she	she	pro	6	nsubj	6	nsubj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 8 Eng-NA=null
 5	's	be	cop	6	aux	6	aux	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 8 Eng-NA=null
-6	wearing	wear	part	0	root	0	root	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 8 Eng-NA=null
+6	wearing	wear	part	2	parataxis	2	parataxis	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 8 Eng-NA=null
 7	a	a	det:art	9	det	9	det	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 8 Eng-NA=null
 8	bathing	bathe	n:gerund	9	compound	9	compound	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 8 Eng-NA=null
 9	suit	suit	n	6	obj	6	obj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 8 Eng-NA=null
@@ -241,15 +241,15 @@
 5	from	from	prep	6	case	6	case	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
 6	URI	URI	n:prop	4	nmod	4	nmod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
 7	called	call	v	0	root	0	root	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
-8	basically	basic	adv	11	advmod	11	advmod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
-9	it	it	pro:per	11	nsubj	11	nsubj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
-10	was	be	cop	11	cop	11	cop	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
-11	like	like	co	7	parataxis	7	parataxis	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
+8	basically	basic	adv	11	advmod	10	advmod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
+9	it	it	pro:per	11	nsubj	10	nsubj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
+10	was	be	cop	11	cop	7	parataxis	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
+11	like	like	co	7	parataxis	10	compound:prt	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
 12	yeah	yes	co	16	discourse	16	discourse	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
 13	we	we	pro:sub	16	nsubj	16	nsubj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
 14	're	be	cop	16	cop	16	cop	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
 15	real	real	adj	16	advmod	16	advmod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
-16	tight	tight	adv	7	parataxis	7	parataxis	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
+16	tight	tight	adv	7	parataxis	10	ccomp	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
 17	with	with	prep	18	case	18	case	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
 18	classes	class	n	16	obl	16	obl	None MOT Mother	Lily 30.59200394258609 female Providence declarative 25 18 Eng-NA=null
 
@@ -332,12 +332,12 @@
 31	openings	of	prep	_	_	29	nmod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 48 35 Eng-NA=null
 32	in	open	n:gerund	_	_	33	case	None MOT Mother	Lily 30.59200394258609 female Providence declarative 48 35 Eng-NA=null
 33	english	in	prep	_	_	31	nmod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 48 35 Eng-NA=null
-34	five	english	adj	_	_	33	compound	None MOT Mother	Lily 30.59200394258609 female Providence declarative 48 35 Eng-NA=null
+34	five	english	adj	_	_	33	flat	None MOT Mother	Lily 30.59200394258609 female Providence declarative 48 35 Eng-NA=null
 35	sixty	five	det:num	_	_	34	flat	None MOT Mother	Lily 30.59200394258609 female Providence declarative 48 35 Eng-NA=null
 36	five	sixty	det:num	_	_	34	flat	None MOT Mother	Lily 30.59200394258609 female Providence declarative 48 35 Eng-NA=null
 37	which	five	det:num	_	_	39	nsubj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 48 35 Eng-NA=null
 38	is	which	pro:rel	_	_	39	cop	None MOT Mother	Lily 30.59200394258609 female Providence declarative 48 35 Eng-NA=null
-39	cinema	be	cop	_	_	27	acl:relcl	None MOT Mother	Lily 30.59200394258609 female Providence declarative 48 35 Eng-NA=null
+39	cinema	be	cop	_	_	33	acl:relcl	None MOT Mother	Lily 30.59200394258609 female Providence declarative 48 35 Eng-NA=null
 
 # text = well yeah although then you have time find time not only to go to class but watch all these movies too
 1	well	well	co	_	_	6	discourse	None MOT Mother	Lily 30.59200394258609 female Providence declarative 22 21 Eng-NA=null
@@ -563,9 +563,9 @@
 3	's	's	poss	_	_	4	cop	None MOT Mother	Lily 30.59200394258609 female Providence declarative 17 13 Eng-NA=null
 4	nice	to	prep	_	_	0	root	None MOT Mother	Lily 30.59200394258609 female Providence declarative 17 13 Eng-NA=null
 5	to	rock	n	_	_	6	mark	None MOT Mother	Lily 30.59200394258609 female Providence declarative 17 13 Eng-NA=null
-6	rock	Ariel	n:prop	_	_	4	csubj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 17 13 Eng-NA=null
+6	rock	Ariel	n:prop	_	_	4	advcl	None MOT Mother	Lily 30.59200394258609 female Providence declarative 17 13 Eng-NA=null
 7	Ariel	that	pro:rel	_	_	6	obj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 17 13 Eng-NA=null
-8	that	probable	adv	_	_	10	obj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 17 13 Eng-NA=null
+8	that	probable	adv	_	_	10	nsubj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 17 13 Eng-NA=null
 9	prolly	make	v	_	_	10	nsubj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 17 13 Eng-NA=null
 10	makes	her	pro:obj	_	_	4	parataxis	None MOT Mother	Lily 30.59200394258609 female Providence declarative 17 13 Eng-NA=null
 11	her	feel	v	_	_	10	obj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 17 13 Eng-NA=null
@@ -651,7 +651,7 @@
 2	it	it	pro:per	_	_	3	nsubj	None MOT Mother	Lily 30.13203556541202 female Providence declarative 6 5 Eng-NA=null
 3	goes	go	v	_	_	0	root	None MOT Mother	Lily 30.13203556541202 female Providence declarative 6 5 Eng-NA=null
 4	the	the	det:art	_	_	5	det	None MOT Mother	Lily 30.13203556541202 female Providence declarative 6 5 Eng-NA=null
-5	t	t	n:let	_	_	3	parataxis	None MOT Mother	Lily 30.13203556541202 female Providence declarative 6 5 Eng-NA=null
+5	t	t	n:let	_	_	3	dislocated	None MOT Mother	Lily 30.13203556541202 female Providence declarative 6 5 Eng-NA=null
 
 # text = xxx who has a cough
 1	who	_	_	_	_	2	nsubj	None MOT Mother	Lily 30.13203556541202 female Providence question 5 5 Eng-NA=null
@@ -759,7 +759,7 @@
 1	let	let	n	_	_	0	root	None MOT Mother	Lily 30.13203556541202 female Providence question 8 6 Eng-NA=null
 2	's	be	cop	_	_	1	obj	None MOT Mother	Lily 30.13203556541202 female Providence question 8 6 Eng-NA=null
 3	see	see	v	_	_	1	xcomp	None MOT Mother	Lily 30.13203556541202 female Providence question 8 6 Eng-NA=null
-4	what	what	n	_	_	3	ccomp	None MOT Mother	Lily 30.13203556541202 female Providence question 8 6 Eng-NA=null
+4	what	what	n	_	_	1	parataxis	None MOT Mother	Lily 30.13203556541202 female Providence question 8 6 Eng-NA=null
 5	's	be	cop	_	_	4	cop	None MOT Mother	Lily 30.13203556541202 female Providence question 8 6 Eng-NA=null
 6	our	our	det:poss	_	_	8	nmod:poss	None MOT Mother	Lily 30.13203556541202 female Providence question 8 6 Eng-NA=null
 7	next	next	adj	_	_	8	amod	None MOT Mother	Lily 30.13203556541202 female Providence question 8 6 Eng-NA=null
@@ -848,10 +848,10 @@
 2	gosh	gosh	co	_	_	1	discourse	None MOT Mother	Lily 30.59200394258609 female Providence declarative 2 2 Eng-NA=null
 
 # text = it 's upside down
-1	it	it	pro	_	_	4	nsubj	None MOT Mother	Lily 30.13203556541202 female Providence declarative 4 3 Eng-NA=null
-2	's	be	cop	_	_	4	cop	None MOT Mother	Lily 30.13203556541202 female Providence declarative 4 3 Eng-NA=null
-3	upside	upside	adv	_	_	4	goeswith	None MOT Mother	Lily 30.13203556541202 female Providence declarative 4 3 Eng-NA=null
-4	down	down	adv	_	_	0	root	None MOT Mother	Lily 30.13203556541202 female Providence declarative 4 3 Eng-NA=null
+1	it	it	pro	_	_	3	nsubj	None MOT Mother	Lily 30.13203556541202 female Providence declarative 4 3 Eng-NA=null
+2	's	be	cop	_	_	3	cop	None MOT Mother	Lily 30.13203556541202 female Providence declarative 4 3 Eng-NA=null
+3	upside	upside	adv	_	_	0	root	None MOT Mother	Lily 30.13203556541202 female Providence declarative 4 3 Eng-NA=null
+4	down	down	adv	_	_	3	fixed	None MOT Mother	Lily 30.13203556541202 female Providence declarative 4 3 Eng-NA=null
 
 # text = right that 's the m
 1	right	right	adv	_	_	5	discourse	None MOT Mother	Lily 30.13203556541202 female Providence declarative 5 4 Eng-NA=null
@@ -915,7 +915,7 @@
 2	sure	sure	adj	_	_	1	xcomp	None MOT Mother	Lily 30.59200394258609 female Providence question 8 4 Eng-NA=null
 3	she	she	pro	_	_	5	nsubj	None MOT Mother	Lily 30.59200394258609 female Providence question 8 4 Eng-NA=null
 4	's	be	cop	_	_	5	cop	None MOT Mother	Lily 30.59200394258609 female Providence question 8 4 Eng-NA=null
-5	healthy	health	adj	_	_	2	ccomp	None MOT Mother	Lily 30.59200394258609 female Providence question 8 4 Eng-NA=null
+5	healthy	health	adj	_	_	1	ccomp	None MOT Mother	Lily 30.59200394258609 female Providence question 8 4 Eng-NA=null
 
 # text = that 's right you know what letter that one is
 1	that	that	n	_	_	3	nsubj	None MOT Mother	Lily 30.13203556541202 female Providence question 11 9 Eng-NA=null
@@ -1090,7 +1090,7 @@
 7	book	book	n	_	_	4	nsubj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 10 9 Eng-NA=null
 8	in	in	prep	_	_	10	case	None MOT Mother	Lily 30.59200394258609 female Providence declarative 10 9 Eng-NA=null
 9	the	the	det:art	_	_	10	det	None MOT Mother	Lily 30.59200394258609 female Providence declarative 10 9 Eng-NA=null
-10	basket	basket	n	_	_	7	nmod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 10 9 Eng-NA=null
+10	basket	basket	n	_	_	4	obl	None MOT Mother	Lily 30.59200394258609 female Providence declarative 10 9 Eng-NA=null
 
 # text = that Auntie gave us do you wan na look in the basket there might be a new Franklin book
 1	that	that	comp	_	_	3	mark	None MOT Mother	Lily 30.59200394258609 female Providence declarative 20 18 Eng-NA=null
@@ -1099,7 +1099,7 @@
 4	us	us	pro:obj	_	_	3	iobj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 20 18 Eng-NA=null
 5	do	do	v	_	_	7	aux	None MOT Mother	Lily 30.59200394258609 female Providence declarative 20 18 Eng-NA=null
 6	you	you	pro:per	_	_	7	nsubj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 20 18 Eng-NA=null
-7	wan	want	v	_	_	0	root	None MOT Mother	Lily 30.59200394258609 female Providence declarative 20 18 Eng-NA=null
+7	wan	want	v	_	_	3	parataxis	None MOT Mother	Lily 30.59200394258609 female Providence declarative 20 18 Eng-NA=null
 8	na	to	inf	_	_	9	mark	None MOT Mother	Lily 30.59200394258609 female Providence declarative 20 18 Eng-NA=null
 9	look	look	cop	_	_	7	xcomp	None MOT Mother	Lily 30.59200394258609 female Providence declarative 20 18 Eng-NA=null
 10	in	in	prep	_	_	12	case	None MOT Mother	Lily 30.59200394258609 female Providence declarative 20 18 Eng-NA=null
@@ -1132,8 +1132,8 @@
 2	did	do	v	_	_	0	root	None MOT Mother	Lily 30.59200394258609 female Providence question 3 2 Eng-NA=null
 
 # text = a what
-1	a	a	det:art	_	_	0	root	None MOT Mother	Lily 30.13203556541202 female Providence question 2 2 Eng-NA=null
-2	what	what	pro:int	_	_	1	obj	None MOT Mother	Lily 30.13203556541202 female Providence question 2 2 Eng-NA=null
+1	a	a	det:art	_	_	2	det	None MOT Mother	Lily 30.13203556541202 female Providence question 2 2 Eng-NA=null
+2	what	what	pro:int	_	_	0	root	None MOT Mother	Lily 30.13203556541202 female Providence question 2 2 Eng-NA=null
 
 # text = is that
 1	is	be	cop	_	_	0	root	None MOT Mother	Lily 30.59200394258609 female Providence self interruption question 3 2 Eng-NA=null
@@ -1230,13 +1230,13 @@
 1	elephant	elephant	n	_	_	0	root	None MOT Mother	Lily 30.13203556541202 female Providence question 6 5 Eng-NA=null
 2	what	what	pro:int	_	_	3	det	None MOT Mother	Lily 30.13203556541202 female Providence question 6 5 Eng-NA=null
 3	letter	letter	n	_	_	1	parataxis	None MOT Mother	Lily 30.13203556541202 female Providence question 6 5 Eng-NA=null
-4	is	be	cop	_	_	1	cop	None MOT Mother	Lily 30.13203556541202 female Providence question 6 5 Eng-NA=null
+4	is	be	cop	_	_	3	cop	None MOT Mother	Lily 30.13203556541202 female Providence question 6 5 Eng-NA=null
 5	that	that	pro:dem	_	_	3	nsubj	None MOT Mother	Lily 30.13203556541202 female Providence question 6 5 Eng-NA=null
 
 # text = what else would be
 1	what	what	pro:int	_	_	4	nsubj	None MOT Mother	Lily 30.59200394258609 female Providence self interruption question 5 4 Eng-NA=null
 2	else	else	post	_	_	1	amod	None MOT Mother	Lily 30.59200394258609 female Providence self interruption question 5 4 Eng-NA=null
-3	would	will	mod	_	_	1	aux	None MOT Mother	Lily 30.59200394258609 female Providence self interruption question 5 4 Eng-NA=null
+3	would	will	mod	_	_	4	aux	None MOT Mother	Lily 30.59200394258609 female Providence self interruption question 5 4 Eng-NA=null
 4	be	be	cop	_	_	0	root	None MOT Mother	Lily 30.59200394258609 female Providence self interruption question 5 4 Eng-NA=null
 
 # text = that 's e
@@ -1327,7 +1327,7 @@
 # text = d for dog you 're right
 1	d	d	n:let	_	_	0	root	None MOT Mother	Lily 30.13203556541202 female Providence declarative 6 5 Eng-NA=null
 2	for	for	prep	_	_	3	case	None MOT Mother	Lily 30.13203556541202 female Providence declarative 6 5 Eng-NA=null
-3	dog	dog	n	_	_	1	obl	None MOT Mother	Lily 30.13203556541202 female Providence declarative 6 5 Eng-NA=null
+3	dog	dog	n	_	_	1	nmod	None MOT Mother	Lily 30.13203556541202 female Providence declarative 6 5 Eng-NA=null
 4	you	you	pro:per	_	_	6	nsubj	None MOT Mother	Lily 30.13203556541202 female Providence declarative 6 5 Eng-NA=null
 5	're	be	cop	_	_	6	cop	None MOT Mother	Lily 30.13203556541202 female Providence declarative 6 5 Eng-NA=null
 6	right	right	co	_	_	1	parataxis	None MOT Mother	Lily 30.13203556541202 female Providence declarative 6 5 Eng-NA=null
@@ -1360,7 +1360,7 @@
 
 # text = very very good
 1	very	very	adv	_	_	3	advmod	None MOT Mother	Lily 30.13203556541202 female Providence declarative 3 3 Eng-NA=null
-2	very	very	adv	_	_	3	conj	None MOT Mother	Lily 30.13203556541202 female Providence declarative 3 3 Eng-NA=null
+2	very	very	adv	_	_	1	conj	None MOT Mother	Lily 30.13203556541202 female Providence declarative 3 3 Eng-NA=null
 3	good	good	adj	_	_	0	root	None MOT Mother	Lily 30.13203556541202 female Providence declarative 3 3 Eng-NA=null
 
 # text = can you put them in the basket
@@ -1549,7 +1549,7 @@
 2	the	the	det:art	_	_	3	det	None MOT Mother	Lily 30.13203556541202 female Providence declarative 9 8 Eng-NA=null
 3	z	z	n:let	_	_	0	root	None MOT Mother	Lily 30.13203556541202 female Providence declarative 9 8 Eng-NA=null
 4	we	we	pro:sub	_	_	5	nsubj	None MOT Mother	Lily 30.13203556541202 female Providence declarative 9 8 Eng-NA=null
-5	haf	have	v	_	_	3	acl:relcl	None MOT Mother	Lily 30.13203556541202 female Providence declarative 9 8 Eng-NA=null
+5	haf	have	v	_	_	3	parataxis	None MOT Mother	Lily 30.13203556541202 female Providence declarative 9 8 Eng-NA=null
 6	ta	to	inf	_	_	7	mark	None MOT Mother	Lily 30.13203556541202 female Providence declarative 9 8 Eng-NA=null
 7	look	look	v	_	_	5	xcomp	None MOT Mother	Lily 30.13203556541202 female Providence declarative 9 8 Eng-NA=null
 8	for	for	prep	_	_	9	case	None MOT Mother	Lily 30.13203556541202 female Providence declarative 9 8 Eng-NA=null
@@ -1563,14 +1563,14 @@
 5	Honey	Honey	n:prop	_	_	4	vocative	None MOT Mother	Lily 30.394874638082925 female Providence question 6 5 Eng-NA=null
 
 # text = oh look it 's a little soccer game
-1	oh	oh	co	_	_	8	discourse	None MOT Mother	Lily 30.13203556541202 female Providence declarative 8 7 Eng-NA=null
-2	look	look	co	_	_	8	discourse	None MOT Mother	Lily 30.13203556541202 female Providence declarative 8 7 Eng-NA=null
+1	oh	oh	co	_	_	2	discourse	None MOT Mother	Lily 30.13203556541202 female Providence declarative 8 7 Eng-NA=null
+2	look	look	co	_	_	0	root	None MOT Mother	Lily 30.13203556541202 female Providence declarative 8 7 Eng-NA=null
 3	it	it	pro	_	_	8	nsubj	None MOT Mother	Lily 30.13203556541202 female Providence declarative 8 7 Eng-NA=null
 4	's	be	cop	_	_	8	cop	None MOT Mother	Lily 30.13203556541202 female Providence declarative 8 7 Eng-NA=null
 5	a	a	det:art	_	_	8	det	None MOT Mother	Lily 30.13203556541202 female Providence declarative 8 7 Eng-NA=null
 6	little	little	adj	_	_	8	amod	None MOT Mother	Lily 30.13203556541202 female Providence declarative 8 7 Eng-NA=null
 7	soccer	soccer	n	_	_	8	compound	None MOT Mother	Lily 30.13203556541202 female Providence declarative 8 7 Eng-NA=null
-8	game	game	n	_	_	0	root	None MOT Mother	Lily 30.13203556541202 female Providence declarative 8 7 Eng-NA=null
+8	game	game	n	_	_	2	parataxis	None MOT Mother	Lily 30.13203556541202 female Providence declarative 8 7 Eng-NA=null
 
 # text = here you go Honey
 1	here	here	adv	_	_	3	advmod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 4 4 Eng-NA=null
@@ -1682,10 +1682,10 @@
 2	know	know	v	_	_	0	root	None MOT Mother	Lily 30.59200394258609 female Providence declarative 2 2 Eng-NA=null
 
 # text = look I'll help you we each pick up a piece
-1	look	_	_	_	_	4	discourse	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 10 Eng-NA=null
+1	look	_	_	_	_	0	root	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 10 Eng-NA=null
 2	I	_	_	_	_	4	nsubj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 10 Eng-NA=null
 3	'll	_	_	_	_	4	aux	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 10 Eng-NA=null
-4	help	_	_	_	_	0	root	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 10 Eng-NA=null
+4	help	_	_	_	_	1	parataxis	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 10 Eng-NA=null
 5	you	_	_	_	_	4	obj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 10 Eng-NA=null
 6	we	_	_	_	_	8	nsubj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 10 Eng-NA=null
 7	each	_	_	_	_	8	advmod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 11 10 Eng-NA=null
@@ -1755,9 +1755,9 @@
 5	B	B	n:prop	_	_	3	nsubj	None MOT Mother	Lily 30.394874638082925 female Providence declarative 5 4 Eng-NA=null
 
 # text = look I picked up a piece
-1	look	look	v	_	_	3	discourse	None MOT Mother	Lily 30.59200394258609 female Providence declarative 7 6 Eng-NA=null
+1	look	look	v	_	_	0	root	None MOT Mother	Lily 30.59200394258609 female Providence declarative 7 6 Eng-NA=null
 2	I	I	pro:sub	_	_	3	nsubj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 7 6 Eng-NA=null
-3	picked	pick	v	_	_	0	root	None MOT Mother	Lily 30.59200394258609 female Providence declarative 7 6 Eng-NA=null
+3	picked	pick	v	_	_	1	parataxis	None MOT Mother	Lily 30.59200394258609 female Providence declarative 7 6 Eng-NA=null
 4	up	up	prep	_	_	3	compound:prt	None MOT Mother	Lily 30.59200394258609 female Providence declarative 7 6 Eng-NA=null
 5	a	a	det:art	_	_	6	det	None MOT Mother	Lily 30.59200394258609 female Providence declarative 7 6 Eng-NA=null
 6	piece	piece	n	_	_	3	obj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 7 6 Eng-NA=null
@@ -1875,8 +1875,8 @@
 5	na	to	inf	_	_	6	mark	None MOT Mother	Lily 30.394874638082925 female Providence question 9 8 Eng-NA=null
 6	bring	bring	v	_	_	4	xcomp	None MOT Mother	Lily 30.394874638082925 female Providence question 9 8 Eng-NA=null
 7	them	them	pro:obj	_	_	6	obj	None MOT Mother	Lily 30.394874638082925 female Providence question 9 8 Eng-NA=null
-8	over	over	prep	_	_	9	advmod	None MOT Mother	Lily 30.394874638082925 female Providence question 9 8 Eng-NA=null
-9	here	here	n	_	_	6	advmod	None MOT Mother	Lily 30.394874638082925 female Providence question 9 8 Eng-NA=null
+8	over	over	prep	_	_	9	case	None MOT Mother	Lily 30.394874638082925 female Providence question 9 8 Eng-NA=null
+9	here	here	n	_	_	6	obl	None MOT Mother	Lily 30.394874638082925 female Providence question 9 8 Eng-NA=null
 
 # text = okay Franklin 's class trip
 1	okay	okay	co	_	_	5	discourse	None MOT Mother	Lily 30.59200394258609 female Providence declarative 6 4 Eng-NA=null
@@ -2177,10 +2177,10 @@
 5	Snail	Snail	n:prop	_	_	4	nsubj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 6 4 Eng-NA=null
 
 # text = T T T how about this one
-1	T	T	n:prop	_	_	4	discourse	None MOT Mother	Lily 30.394874638082925 female Providence question 7 7 Eng-NA=null
+1	T	T	n:prop	_	_	0	root	None MOT Mother	Lily 30.394874638082925 female Providence question 7 7 Eng-NA=null
 2	T	T	n:prop	_	_	1	conj	None MOT Mother	Lily 30.394874638082925 female Providence question 7 7 Eng-NA=null
 3	T	T	n:prop	_	_	1	conj	None MOT Mother	Lily 30.394874638082925 female Providence question 7 7 Eng-NA=null
-4	how	how	pro:rel	_	_	0	root	None MOT Mother	Lily 30.394874638082925 female Providence question 7 7 Eng-NA=null
+4	how	how	pro:rel	_	_	1	parataxis	None MOT Mother	Lily 30.394874638082925 female Providence question 7 7 Eng-NA=null
 5	about	about	prep	_	_	7	case	None MOT Mother	Lily 30.394874638082925 female Providence question 7 7 Eng-NA=null
 6	this	this	det:dem	_	_	7	det	None MOT Mother	Lily 30.394874638082925 female Providence question 7 7 Eng-NA=null
 7	one	one	pro:indef	_	_	4	obl	None MOT Mother	Lily 30.394874638082925 female Providence question 7 7 Eng-NA=null
@@ -2231,8 +2231,8 @@
 4	that	that	n	_	_	8	nsubj	None MOT Mother	Lily 30.394874638082925 female Providence declarative 11 9 Eng-NA=null
 5	's	be	cop	_	_	8	cop	None MOT Mother	Lily 30.394874638082925 female Providence declarative 11 9 Eng-NA=null
 6	the	the	det:art	_	_	8	det	None MOT Mother	Lily 30.394874638082925 female Providence declarative 11 9 Eng-NA=null
-7	first	first	adj	_	_	8	parataxis	None MOT Mother	Lily 30.394874638082925 female Providence declarative 11 9 Eng-NA=null
-8	letter	letter	n	_	_	3	acl:relcl	None MOT Mother	Lily 30.394874638082925 female Providence declarative 11 9 Eng-NA=null
+7	first	first	adj	_	_	8	amod	None MOT Mother	Lily 30.394874638082925 female Providence declarative 11 9 Eng-NA=null
+8	letter	letter	n	_	_	3	parataxis	None MOT Mother	Lily 30.394874638082925 female Providence declarative 11 9 Eng-NA=null
 9	of	of	prep	_	_	11	case	None MOT Mother	Lily 30.394874638082925 female Providence declarative 11 9 Eng-NA=null
 10	the	the	det:art	_	_	11	det	None MOT Mother	Lily 30.394874638082925 female Providence declarative 11 9 Eng-NA=null
 11	alphabet	alphabet	n	_	_	8	nmod	None MOT Mother	Lily 30.394874638082925 female Providence declarative 11 9 Eng-NA=null
@@ -2339,12 +2339,12 @@
 7	lunch	_	_	_	_	5	obl	None MOT Mother	Lily 30.13203556541202 female Providence question 8 7 Eng-NA=null
 
 # text = but Franklin did n't he moved a little closer to Mister Owl
-1	but	but	conj	_	_	6	cc	None MOT Mother	Lily 30.59200394258609 female Providence declarative 14 10 Eng-NA=null
-2	Franklin	Franklin	n:prop	_	_	6	vocative	None MOT Mother	Lily 30.59200394258609 female Providence declarative 14 10 Eng-NA=null
-3	did	do	mod	_	_	6	aux	None MOT Mother	Lily 30.59200394258609 female Providence declarative 14 10 Eng-NA=null
-4	n't	not	neg	_	_	6	advmod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 14 10 Eng-NA=null
+1	but	but	conj	_	_	3	cc	None MOT Mother	Lily 30.59200394258609 female Providence declarative 14 10 Eng-NA=null
+2	Franklin	Franklin	n:prop	_	_	3	nsubj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 14 10 Eng-NA=null
+3	did	do	mod	_	_	0	root	None MOT Mother	Lily 30.59200394258609 female Providence declarative 14 10 Eng-NA=null
+4	n't	not	neg	_	_	3	advmod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 14 10 Eng-NA=null
 5	he	he	pro:sub	_	_	6	nsubj	None MOT Mother	Lily 30.59200394258609 female Providence declarative 14 10 Eng-NA=null
-6	moved	move	v	_	_	0	root	None MOT Mother	Lily 30.59200394258609 female Providence declarative 14 10 Eng-NA=null
+6	moved	move	v	_	_	3	parataxis	None MOT Mother	Lily 30.59200394258609 female Providence declarative 14 10 Eng-NA=null
 7	a	a	det:art	_	_	8	det	None MOT Mother	Lily 30.59200394258609 female Providence declarative 14 10 Eng-NA=null
 8	little	little	adj	_	_	9	obl:npmod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 14 10 Eng-NA=null
 9	closer	close	adj	_	_	6	advmod	None MOT Mother	Lily 30.59200394258609 female Providence declarative 14 10 Eng-NA=null

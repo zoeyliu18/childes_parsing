@@ -1,7 +1,7 @@
 {
     "UD": {
-        "train_data_path": "../UD_data/UD_English-Tweebank/en-ud-tweet-train.fixed.conllu",
-        "validation_data_path": "../UD_data/UD_English-Tweebank/en-ud-tweet-dev.fixed.conllu",
+        "train_data_path": "../UD_data/UD_English-Twitter/en_twitter-ud-train.conllu",
+        "validation_data_path": "../UD_data/UD_English-Twitter/en_twitter-ud-dev.conllu",
         "word_idx": 1,
         "tasks": {
             "upos": {

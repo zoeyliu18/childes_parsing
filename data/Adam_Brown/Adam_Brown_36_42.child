@@ -1,11 +1,10 @@
 # text = you wan na look your bag
-# Re-evaluate
 1	you	you	pro:per	2	nsubj=	2	nsubj	Adam CHI Target_Child	Adam 36.82211133698844 male Brown question 6 5 Eng-NA=null
 2	wan	want	v	0	root=	0	root	Adam CHI Target_Child	Adam 36.82211133698844 male Brown question 6 5 Eng-NA=null
 3	na	to	inf	4	mark=	4	mark	Adam CHI Target_Child	Adam 36.82211133698844 male Brown question 6 5 Eng-NA=null
 4	look	look	cop	2	xcomp=	2	xcomp	Adam CHI Target_Child	Adam 36.82211133698844 male Brown question 6 5 Eng-NA=null
 5	your	your	det:poss	6	nmod:poss=	6	nmod:poss	Adam CHI Target_Child	Adam 36.82211133698844 male Brown question 6 5 Eng-NA=null
-6	bag	bag	n	4	obj=	4	obl	Adam CHI Target_Child	Adam 36.82211133698844 male Brown question 6 5 Eng-NA=null
+6	bag	bag	n	4	obl	4	obl	Adam CHI Target_Child	Adam 36.82211133698844 male Brown question 6 5 Eng-NA=null
 
 # text = see me hop
 1	see	see	v	0	root=	0	root	Adam CHI Target_Child	Adam 36.82211133698844 male Brown question 3 3 Eng-NA=null
@@ -172,16 +171,14 @@
 5	fit	fit	v	0	root=	0	root	Adam CHI Target_Child	Adam 37.2964537259492 male Brown declarative 6 4 Eng-NA=null
 
 # text = I going find another one fit
-# Re-evaluate
 1	I	I	pro:sub	2	nsubj=	2	nsubj	Adam CHI Target_Child	Adam 37.2964537259492 male Brown declarative 8 6 Eng-NA=null
 2	going	go	n:gerund	0	root=	0	root	Adam CHI Target_Child	Adam 37.2964537259492 male Brown declarative 8 6 Eng-NA=null
 3	find	find	v	2	xcomp=	2	xcomp	Adam CHI Target_Child	Adam 37.2964537259492 male Brown declarative 8 6 Eng-NA=null
 4	another	another	qn	5	det=	5	det	Adam CHI Target_Child	Adam 37.2964537259492 male Brown declarative 8 6 Eng-NA=null
 5	one	one	pro:indef	3	obj=	3	obj	Adam CHI Target_Child	Adam 37.2964537259492 male Brown declarative 8 6 Eng-NA=null
-6	fit	fit	v	5	acl:relcl=	5	xcomp	Adam CHI Target_Child	Adam 37.2964537259492 male Brown declarative 8 6 Eng-NA=null
+6	fit	fit	v	5	acl:relcl=	5	acl:relcl	Adam CHI Target_Child	Adam 37.2964537259492 male Brown declarative 8 6 Eng-NA=null
 
 # text = tick tick+tock
-# Re-evaluate
 1	tick	tick	n	0	root=	0	root	Adam CHI Target_Child	Adam 36.82211133698844 male Brown declarative 1 2 Eng-NA=null
 2	tick	_	_	1	goeswith=	1	parataxis	Adam CHI Target_Child	Adam 36.82211133698844 male Brown declarative 1 2 Eng-NA=null
 3	tock	_	_	1	goeswith=	2	goeswith	Adam CHI Target_Child	Adam 36.82211133698844 male Brown declarative 1 2 Eng-NA=null
@@ -289,12 +286,11 @@
 3	writing	write	part	0	root=	0	root	Adam CHI Target_Child	Adam 36.82211133698844 male Brown question 4 3 Eng-NA=null
 
 # text = no you know how put
-# Re-evaluate
 1	no	no	co	3	discourse=	3	discourse	Adam CHI Target_Child	Adam 37.2964537259492 male Brown declarative 6 5 Eng-NA=null
 2	you	you	pro:per	3	nsubj=	3	nsubj	Adam CHI Target_Child	Adam 37.2964537259492 male Brown declarative 6 5 Eng-NA=null
 3	know	know	v	0	root=	0	root	Adam CHI Target_Child	Adam 37.2964537259492 male Brown declarative 6 5 Eng-NA=null
 4	how	how	pro:rel	5	mark=	5	mark	Adam CHI Target_Child	Adam 37.2964537259492 male Brown declarative 6 5 Eng-NA=null
-5	put	put	v	3	xcomp=	3	ccomp	Adam CHI Target_Child	Adam 37.2964537259492 male Brown declarative 6 5 Eng-NA=null
+5	put	put	v	3	ccomp=	3	ccomp	Adam CHI Target_Child	Adam 37.2964537259492 male Brown declarative 6 5 Eng-NA=null
 
 # text = I ca n't how to put it back together
 1	I	I	pro:sub	2	nsubj=	2	nsubj	Adam CHI Target_Child	Adam 37.2964537259492 male Brown declarative 10 8 Eng-NA=null
@@ -528,7 +524,7 @@
 1	I	I	pro:sub	_	_	2	nsubj	Adam CHI Target_Child	Adam 36.82211133698844 male Brown declarative 5 4 Eng-NA=null
 2	going	go	n:gerund	_	_	0	root	Adam CHI Target_Child	Adam 36.82211133698844 male Brown declarative 5 4 Eng-NA=null
 3	tell	tell	v	_	_	2	xcomp	Adam CHI Target_Child	Adam 36.82211133698844 male Brown declarative 5 4 Eng-NA=null
-4	Daddy	Daddy	n:prop	_	_	3	obj	Adam CHI Target_Child	Adam 36.82211133698844 male Brown declarative 5 4 Eng-NA=null
+4	Daddy	Daddy	n:prop	_	_	3	iobj	Adam CHI Target_Child	Adam 36.82211133698844 male Brown declarative 5 4 Eng-NA=null
 
 # text = oh I haf ta fix it
 1	oh	oh	co	_	_	3	discourse	Adam CHI Target_Child	Adam 37.2964537259492 male Brown declarative 6 5 Eng-NA=null
@@ -2158,9 +2154,9 @@
 
 # text = where dere a heel
 1	where	where	pro:int	_	_	0	root	Adam CHI Target_Child	Adam 38.29647426025175 male Brown question 5 4 Eng-NA=null
-2	dere	there	pro:exist	_	_	1	parataxis	Adam CHI Target_Child	Adam 38.29647426025175 male Brown question 5 4 Eng-NA=null
+2	dere	there	pro:exist	_	_	4	expl	Adam CHI Target_Child	Adam 38.29647426025175 male Brown question 5 4 Eng-NA=null
 3	a	a	det:art	_	_	4	det	Adam CHI Target_Child	Adam 38.29647426025175 male Brown question 5 4 Eng-NA=null
-4	heel	heel	n	_	_	2	nsubj	Adam CHI Target_Child	Adam 38.29647426025175 male Brown question 5 4 Eng-NA=null
+4	heel	heel	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 38.29647426025175 male Brown question 5 4 Eng-NA=null
 
 # text = on dat shelf
 1	on	on	prep	_	_	3	case	Adam CHI Target_Child	Adam 36.82211133698844 male Brown declarative 3 3 Eng-NA=null

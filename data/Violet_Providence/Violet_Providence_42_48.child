@@ -44,7 +44,7 @@
 7	one	one	pro:indef	4	obl	4	obl	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 7 7 Eng-NA=null
 
 # text = now what 's next
-1	now	now	adv	4	advmod	4	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 3 Eng-NA=null
+1	now	now	adv	4	advmod	2	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 3 Eng-NA=null
 2	what	what	n	4	nsubj	4	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 3 Eng-NA=null
 3	's	be	cop	4	cop	4	cop	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 3 Eng-NA=null
 4	next	next	adv	0	root	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 3 Eng-NA=null
@@ -106,8 +106,8 @@
 3	do	do	v	0	root	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence interruption 3 3 Eng-NA=null
 
 # text = now to
-1	now	now	adv	0	root	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence interruption 2 6 Eng-NA=null
-2	to	to	prep	1	case	1	case	Violet CHI Target_Child	Violet 42.69081500646831 female Providence interruption 2 6 Eng-NA=null
+1	now	now	adv	2s	advmod	2	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence interruption 2 6 Eng-NA=null
+2	to	to	prep	0	root	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence interruption 2 6 Eng-NA=null
 
 # text = I see it
 1	I	I	pro:sub	2	nsubj	2	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 3 3 Eng-NA=null
@@ -131,15 +131,15 @@
 2	um	um	_	1	discourse	1	discourse	Violet CHI Target_Child	Violet 42.69081500646831 female Providence interruption 1 3 Eng-NA=null
 
 # text = because um see I think think he just wants to watch her
-1	because	because	conj	5	mark	5	mark	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
-2	um	see	v	5	discourse	5	discourse	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
-3	see	I	pro:sub	5	discourse	5	discourse	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
-4	I	think	v	5	nsubj	5	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
-5	think	think	v	0	root	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
-6	think	he	pro:sub	5	conj	5	conj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
+1	because	because	conj	5	mark	3	mark	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
+2	um	see	v	5	discourse	3	discourse	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
+3	see	I	pro:sub	5	discourse	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
+4	I	think	v	5	nsubj	6	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
+5	think	think	v	0	root	6	reparandum:repetition	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
+6	think	he	pro:sub	5	conj	3	parataxis	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
 7	he	just	adv	9	nsubj	9	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
 8	just	want	v	9	advmod	9	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
-9	wants	to	inf	5	ccomp	5	ccomp	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
+9	wants	to	inf	5	ccomp	6	ccomp	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
 10	to	watch	v	11	mark	11	mark	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
 11	watch	her	pro:obj	9	xcomp	9	xcomp	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
 12	her	_	_	11	obj	11	obj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 12 12 Eng-NA=null
@@ -147,9 +147,10 @@
 # text = what 's the ice+cream page
 1	what	what	n	0	root	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 5 Eng-NA=null
 2	's	be	cop	1	cop	1	cop	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 5 Eng-NA=null
-3	the	the	det:art	5	det	5	det	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 5 Eng-NA=null
-4	ice+cream	ice+cream	n	5	nmod	5	nmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 5 Eng-NA=null
-5	page	page	n	1	nsubj	1	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 5 Eng-NA=null
+3	the	the	det:art	6	det	6	det	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 5 Eng-NA=null
+4	ice	ice+cream	n	5	compound	5	compound	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 5 Eng-NA=null
+5	cream	ice+cream	n	6	compound	6	compound	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 5 Eng-NA=null
+6	page	page	n	1	nsubj	1	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 5 Eng-NA=null
 
 # text = not using this one
 1	not	not	neg	2	advmod	2	advmod	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 4 Eng-NA=null
@@ -225,7 +226,7 @@
 1	I	I	pro:sub	3	nsubj	3	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 4 Eng-NA=null
 2	'll	will	aux	3	aux	3	aux	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 4 Eng-NA=null
 3	go	go	v	0	root	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 4 Eng-NA=null
-4	get	get	v	3	xcomp	3	xcomp	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 4 Eng-NA=null
+4	get	get	v	3	compound:svc	3	compound:svc	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 4 Eng-NA=null
 5	them	them	pro:obj	4	obj	4	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 4 Eng-NA=null
 
 # text = now can I read book
@@ -330,7 +331,7 @@
 5	black	black	n	_	_	4	xcomp	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 4 Eng-NA=null
 
 # text = mom xxx do the animals
-1	mom	_	_	_	_	2	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 5 Eng-NA=null
+1	mom	_	_	_	_	2	vocative	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 5 Eng-NA=null
 2	do	_	_	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 5 Eng-NA=null
 3	the	_	_	_	_	4	det	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 5 Eng-NA=null
 4	animals	_	_	_	_	2	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 5 Eng-NA=null
@@ -339,7 +340,7 @@
 1	hand	hand	v	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 5 Eng-NA=null
 2	me	me	pro:obj	_	_	1	iobj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 5 Eng-NA=null
 3	the	the	det:art	_	_	5	det	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 5 Eng-NA=null
-4	blue	blue	n	_	_	5	compound	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 5 Eng-NA=null
+4	blue	blue	n	_	_	5	amod	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 5 Eng-NA=null
 5	one	one	pro:indef	_	_	1	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 5 Eng-NA=null
 
 # text = now they 're in the jungle
@@ -473,7 +474,7 @@
 # text = Max 's desert desert party
 1	Max	Max	n	_	_	5	nmod:poss	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 4 Eng-NA=null
 2	's	's	poss	_	_	1	case	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 4 Eng-NA=null
-3	desert	desert	n	_	_	5	compound	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 4 Eng-NA=null
+3	desert	desert	n	_	_	4	reparandum:repetition	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 4 Eng-NA=null
 4	desert	desert	n	_	_	5	compound	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 4 Eng-NA=null
 5	party	party	n	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 4 Eng-NA=null
 
@@ -484,7 +485,7 @@
 4	desert	desert	n	_	_	5	compound	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 8 6 Eng-NA=null
 5	party	party	n	_	_	6	obl	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 8 6 Eng-NA=null
 6	write	write	v	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 8 6 Eng-NA=null
-7	that	that	pro:dem	_	_	6	mark	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 8 6 Eng-NA=null
+7	that	that	pro:dem	_	_	6	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 8 6 Eng-NA=null
 
 # text = what does this one say right now
 1	what	what	pro:int	_	_	5	obj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 8 7 Eng-NA=null
@@ -496,8 +497,8 @@
 7	now	now	adv	_	_	5	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 8 7 Eng-NA=null
 
 # text = xxx write welcome
-1	write	_	_	_	_	2	compound	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 2 3 Eng-NA=null
-2	welcome	_	_	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 2 3 Eng-NA=null
+1	write	_	_	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 2 3 Eng-NA=null
+2	welcome	_	_	_	_	1	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 2 3 Eng-NA=null
 
 # text = what does it say right now
 1	what	what	pro:int	_	_	4	obj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 7 6 Eng-NA=null
@@ -591,13 +592,13 @@
 3	find	find	v	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 8 6 Eng-NA=null
 4	any	any	qn	_	_	7	det	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 8 6 Eng-NA=null
 5	paint	paint	n	_	_	6	compound	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 8 6 Eng-NA=null
-6	brushing	brush	part	_	_	7	compound	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 8 6 Eng-NA=null
+6	brushing	brush	part	_	_	7	amod	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 8 6 Eng-NA=null
 7	thing	thing	n	_	_	3	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 8 6 Eng-NA=null
 
 # text = found I found xxx
-1	found	_	_	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 3 4 Eng-NA=null
+1	found	_	_	_	_	2	reparandum	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 3 4 Eng-NA=null
 2	I	_	_	_	_	3	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 3 4 Eng-NA=null
-3	found	_	_	_	_	1	parataxis	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 3 4 Eng-NA=null
+3	found	_	_	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 3 4 Eng-NA=null
 
 # text = xxx xxx I 'm getting it on the paint thing
 1	I	_	_	_	_	3	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 9 9 Eng-NA=null
@@ -658,7 +659,7 @@
 1	on	on	prep	_	_	3	case	Violet CHI Target_Child	Violet 46.59233249142692 female Providence self interruption 7 6 Eng-NA=null
 2	the	the	det:art	_	_	3	det	Violet CHI Target_Child	Violet 46.59233249142692 female Providence self interruption 7 6 Eng-NA=null
 3	side	side	n	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence self interruption 7 6 Eng-NA=null
-4	so	so	conj	_	_	3	advmod	Violet CHI Target_Child	Violet 46.59233249142692 female Providence self interruption 7 6 Eng-NA=null
+4	so	so	conj	_	_	6	advmod	Violet CHI Target_Child	Violet 46.59233249142692 female Providence self interruption 7 6 Eng-NA=null
 5	I	I	pro:sub	_	_	3	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence self interruption 7 6 Eng-NA=null
 6	do	do	mod	_	_	3	aux	Violet CHI Target_Child	Violet 46.59233249142692 female Providence self interruption 7 6 Eng-NA=null
 7	n't	not	neg	_	_	3	advmod	Violet CHI Target_Child	Violet 46.59233249142692 female Providence self interruption 7 6 Eng-NA=null
@@ -700,14 +701,14 @@
 1	and	and	coord	_	_	3	cc	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 4 4 Eng-NA=null
 2	the	the	det:art	_	_	3	det	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 4 4 Eng-NA=null
 3	color	color	n	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 4 4 Eng-NA=null
-4	red	red	adj	_	_	3	appos	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 4 4 Eng-NA=null
+4	red	red	adj	_	_	3	amod	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 4 4 Eng-NA=null
 
 # text = mom now I want to um
 1	mom	mom	n	_	_	4	vocative	Violet CHI Target_Child	Violet 42.69081500646831 female Providence trail off 5 6 Eng-NA=null
 2	now	now	adv	_	_	4	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence trail off 5 6 Eng-NA=null
 3	I	I	pro:sub	_	_	4	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence trail off 5 6 Eng-NA=null
 4	want	want	v	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence trail off 5 6 Eng-NA=null
-5	to	to	prep	_	_	6	mark	Violet CHI Target_Child	Violet 42.69081500646831 female Providence trail off 5 6 Eng-NA=null
+5	to	to	prep	_	_	4	xcomp	Violet CHI Target_Child	Violet 42.69081500646831 female Providence trail off 5 6 Eng-NA=null
 6	um	_	_	_	_	4	discourse	Violet CHI Target_Child	Violet 42.69081500646831 female Providence trail off 5 6 Eng-NA=null
 
 # text = this is the color orange
@@ -715,7 +716,7 @@
 2	is	be	cop	_	_	4	cop	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 5 Eng-NA=null
 3	the	the	det:art	_	_	4	det	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 5 Eng-NA=null
 4	color	color	n	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 5 Eng-NA=null
-5	orange	orange	adj	_	_	4	appos	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 5 Eng-NA=null
+5	orange	orange	adj	_	_	4	amod	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 5 Eng-NA=null
 
 # text = this is orange but it 's really red
 1	this	this	pro:dem	_	_	3	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 11 7 Eng-NA=null
@@ -741,8 +742,8 @@
 4	are	be	cop	_	_	6	cop	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 13 9 Eng-NA=null
 5	the	the	det:art	_	_	6	det	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 13 9 Eng-NA=null
 6	colors	color	n	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 13 9 Eng-NA=null
-7	that	that	pro:rel	_	_	9	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 13 9 Eng-NA=null
-8	it	it	pro:per	_	_	7	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 13 9 Eng-NA=null
+7	that	that	pro:rel	_	_	9	mark	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 13 9 Eng-NA=null
+8	it	it	pro:per	_	_	9	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 13 9 Eng-NA=null
 9	is	be	cop	_	_	6	acl:relcl	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 13 9 Eng-NA=null
 
 # text = violet and the blue are the really blue
@@ -831,9 +832,9 @@
 # text = xxx xxx what happens if you um
 1	what	_	_	_	_	2	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence interruption 5 7 Eng-NA=null
 2	happens	_	_	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence interruption 5 7 Eng-NA=null
-3	if	_	_	_	_	5	mark	Violet CHI Target_Child	Violet 46.59233249142692 female Providence interruption 5 7 Eng-NA=null
-4	you	_	_	_	_	5	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence interruption 5 7 Eng-NA=null
-5	um	_	_	_	_	2	advcl	Violet CHI Target_Child	Violet 46.59233249142692 female Providence interruption 5 7 Eng-NA=null
+3	if	_	_	_	_	4	mark	Violet CHI Target_Child	Violet 46.59233249142692 female Providence interruption 5 7 Eng-NA=null
+4	you	_	_	_	_	2	advcl	Violet CHI Target_Child	Violet 46.59233249142692 female Providence interruption 5 7 Eng-NA=null
+5	um	_	_	_	_	2	discourse	Violet CHI Target_Child	Violet 46.59233249142692 female Providence interruption 5 7 Eng-NA=null
 
 # text = xxx he 's petting the horse
 1	he	_	_	_	_	3	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 5 Eng-NA=null
@@ -894,7 +895,7 @@
 # text = look a dog with his toy
 1	look	look	v	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 6 Eng-NA=null
 2	a	a	det:art	_	_	3	det	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 6 Eng-NA=null
-3	dog	dog	n	_	_	1	obj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 6 Eng-NA=null
+3	dog	dog	n	_	_	1	parataxis	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 6 Eng-NA=null
 4	with	with	prep	_	_	6	case	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 6 Eng-NA=null
 5	his	his	det:poss	_	_	6	nmod:poss	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 6 Eng-NA=null
 6	toy	toy	n	_	_	3	nmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 6 Eng-NA=null
@@ -912,27 +913,27 @@
 1	let	let	n	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 4 3 Eng-NA=null
 2	's	be	cop	_	_	1	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 4 3 Eng-NA=null
 3	see	see	v	_	_	1	xcomp	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 4 3 Eng-NA=null
-4	if	if	conj	_	_	3	mark	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 4 3 Eng-NA=null
+4	if	if	conj	_	_	3	advcl	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 4 3 Eng-NA=null
 
 # text = I saw on my on my show what xxx
 1	I	_	_	_	_	2	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 9 9 Eng-NA=null
 2	saw	_	_	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 9 9 Eng-NA=null
 3	on	_	_	_	_	4	case	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 9 9 Eng-NA=null
-4	my	_	_	_	_	2	obl	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 9 9 Eng-NA=null
+4	my	_	_	_	_	7	reparandum:repetition	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 9 9 Eng-NA=null
 5	on	_	_	_	_	7	case	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 9 9 Eng-NA=null
 6	my	_	_	_	_	7	nmod:poss	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 9 9 Eng-NA=null
 7	show	_	_	_	_	2	obl	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 9 9 Eng-NA=null
 8	what	_	_	_	_	2	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 9 9 Eng-NA=null
 
 # text = um at school
-1	um	at	prep	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 2 3 Eng-NA=null
+1	um	at	prep	_	_	3	discourse	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 2 3 Eng-NA=null
 2	at	school	n	_	_	3	case	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 2 3 Eng-NA=null
-3	school	_	_	_	_	1	obl	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 2 3 Eng-NA=null
+3	school	_	_	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 2 3 Eng-NA=null
 
 # text = I saw what they were gonna do
 1	I	_	_	_	_	2	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 11 7 Eng-NA=null
 2	saw	_	_	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 11 7 Eng-NA=null
-3	what	_	_	_	_	6	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 11 7 Eng-NA=null
+3	what	_	_	_	_	8	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 11 7 Eng-NA=null
 4	they	_	_	_	_	6	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 11 7 Eng-NA=null
 5	were	_	_	_	_	6	cop	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 11 7 Eng-NA=null
 6	gon	_	_	_	_	2	ccomp	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 11 7 Eng-NA=null
@@ -964,7 +965,7 @@
 2	hope	hope	v	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 4 Eng-NA=null
 3	we	we	pro:sub	_	_	4	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 4 Eng-NA=null
 4	did	do	mod	_	_	2	ccomp	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 4 Eng-NA=null
-5	n't	not	neg	_	_	2	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 4 Eng-NA=null
+5	n't	not	neg	_	_	4	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 4 Eng-NA=null
 
 # text = I like xxx is this a page
 1	I	_	_	_	_	2	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 7 7 Eng-NA=null
@@ -972,7 +973,7 @@
 3	is	_	_	_	_	6	cop	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 7 7 Eng-NA=null
 4	this	_	_	_	_	6	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 7 7 Eng-NA=null
 5	a	_	_	_	_	6	det	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 7 7 Eng-NA=null
-6	page	_	_	_	_	2	ccomp	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 7 7 Eng-NA=null
+6	page	_	_	_	_	2	parataxis	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 7 7 Eng-NA=null
 
 # text = you make one of yourself
 1	you	you	pro:per	_	_	2	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 5 Eng-NA=null
@@ -1008,7 +1009,7 @@
 7	colors	color	n	_	_	3	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 16 13 Eng-NA=null
 8	together	together	adv	_	_	3	advmod	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 16 13 Eng-NA=null
 9	the	the	det:art	_	_	10	det	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 16 13 Eng-NA=null
-10	ones	one	det:num	_	_	3	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 16 13 Eng-NA=null
+10	ones	one	det:num	_	_	7	appos	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 16 13 Eng-NA=null
 11	that	that	pro:rel	_	_	13	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 16 13 Eng-NA=null
 12	I	I	pro:sub	_	_	13	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 16 13 Eng-NA=null
 13	used	use	v	_	_	10	acl:relcl	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 16 13 Eng-NA=null
@@ -1037,22 +1038,22 @@
 3	these	these	pro:dem	_	_	2	obj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 3 3 Eng-NA=null
 
 # text = I xxx now I want to um look at
-1	I	_	_	_	_	4	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence trail off 7 9 Eng-NA=null
+1	I	_	_	_	_	2	reparandum	Violet CHI Target_Child	Violet 42.69081500646831 female Providence trail off 7 9 Eng-NA=null
 2	now	_	_	_	_	4	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence trail off 7 9 Eng-NA=null
 3	I	_	_	_	_	4	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence trail off 7 9 Eng-NA=null
 4	want	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence trail off 7 9 Eng-NA=null
 5	to	_	_	_	_	7	mark	Violet CHI Target_Child	Violet 42.69081500646831 female Providence trail off 7 9 Eng-NA=null
-6	um	_	_	_	_	7	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence trail off 7 9 Eng-NA=null
+6	um	_	_	_	_	7	discourse	Violet CHI Target_Child	Violet 42.69081500646831 female Providence trail off 7 9 Eng-NA=null
 7	look	_	_	_	_	4	xcomp	Violet CHI Target_Child	Violet 42.69081500646831 female Providence trail off 7 9 Eng-NA=null
 8	at	_	_	_	_	7	obl	Violet CHI Target_Child	Violet 42.69081500646831 female Providence trail off 7 9 Eng-NA=null
 
 # text = xxx is our video is our video ready
-1	is	_	_	_	_	7	cop	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 9 8 Eng-NA=null
+1	is	_	_	_	_	3	cop	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 9 8 Eng-NA=null
 2	our	_	_	_	_	3	nmod:poss	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 9 8 Eng-NA=null
-3	video	_	_	_	_	1	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 9 8 Eng-NA=null
+3	video	_	_	_	_	7	reparandum:repetition	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 9 8 Eng-NA=null
 4	is	_	_	_	_	7	cop	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 9 8 Eng-NA=null
-5	our	_	_	_	_	7	nmod:poss	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 9 8 Eng-NA=null
-6	video	_	_	_	_	7	compound	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 9 8 Eng-NA=null
+5	our	_	_	_	_	6	nmod:poss	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 9 8 Eng-NA=null
+6	video	_	_	_	_	7	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 9 8 Eng-NA=null
 7	ready	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 9 8 Eng-NA=null
 
 # text = and green
@@ -1097,7 +1098,7 @@
 7	's	_	_	_	_	10	cop	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 11 10 Eng-NA=null
 8	all	_	_	_	_	10	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 11 10 Eng-NA=null
 9	scribbly	_	_	_	_	10	amod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 11 10 Eng-NA=null
-10	scrabble	_	_	_	_	4	ccomp	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 11 10 Eng-NA=null
+10	scrabble	_	_	_	_	4	parataxis	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 11 10 Eng-NA=null
 
 # text = xxx read all the other books
 1	read	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 6 Eng-NA=null
@@ -1119,11 +1120,11 @@
 3	read	read	v	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 3 Eng-NA=null
 
 # text = that he that he did
-1	that	that	pro:rel	_	_	2	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 5 Eng-NA=null
-2	he	he	pro:sub	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 5 Eng-NA=null
-3	that	that	pro:rel	_	_	5	obj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 5 Eng-NA=null
+1	that	that	pro:rel	_	_	2	mark	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 5 Eng-NA=null
+2	he	he	pro:sub	_	_	5	reparandum:repetition	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 5 Eng-NA=null
+3	that	that	pro:rel	_	_	5	mark	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 5 Eng-NA=null
 4	he	he	pro:sub	_	_	5	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 5 Eng-NA=null
-5	did	do	v	_	_	2	acl:relcl	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 5 Eng-NA=null
+5	did	do	v	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 5 Eng-NA=null
 
 # text = what happen if you mixed
 1	what	what	pro:int	_	_	2	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 6 5 Eng-NA=null
@@ -1148,10 +1149,10 @@
 # text = I 'm gonna flip the xxx
 1	I	I	pro:sub	_	_	3	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 7 5 Eng-NA=null
 2	'm	be	cop	_	_	3	aux	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 7 5 Eng-NA=null
-3	gonna	go	part	_	_	4	mark	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 7 5 Eng-NA=null
-4	flip	flip	v	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 7 5 Eng-NA=null
-5	the	the	det:art	_	_	6	det	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 7 5 Eng-NA=null
-6	xxx	xxx	xxx	_	_	4	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 7 5 Eng-NA=null
+3	gon	go	part	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 7 5 Eng-NA=null
+4	na	go	part	_	_	5	mark	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 7 5 Eng-NA=null
+5	flip	flip	v	_	_	3	xcomp	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 7 5 Eng-NA=null
+6	the	the	det:art	_	_	5	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 7 5 Eng-NA=null
 
 # text = can you read
 1	can	can	mod	_	_	3	aux	Violet CHI Target_Child	Violet 42.0008624407072 female Providence question 4 3 Eng-NA=null
@@ -1186,7 +1187,7 @@
 6	circles	circle	n	_	_	3	nmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 8 6 Eng-NA=null
 
 # text = or maybe me did
-1	or	or	coord	_	_	2	cc	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 5 4 Eng-NA=null
+1	or	or	coord	_	_	4	cc	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 5 4 Eng-NA=null
 2	maybe	maybe	adv	_	_	3	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 5 4 Eng-NA=null
 3	me	me	pro:obj	_	_	4	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 5 4 Eng-NA=null
 4	did	do	v	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 5 4 Eng-NA=null
@@ -1198,9 +1199,9 @@
 4	one	one	pro:indef	_	_	2	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 4 4 Eng-NA=null
 
 # text = xxx then I'll do this one
-1	xxx	xxx	xxx	_	_	4	discourse	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 6 Eng-NA=null
-2	then	I	pro:sub	_	_	4	advmod	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 6 Eng-NA=null
-3	I'll	do	v	_	_	4	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 6 Eng-NA=null
+1	then	I	pro:sub	_	_	4	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 6 Eng-NA=null
+2	I	do	v	_	_	4	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 6 Eng-NA=null
+3	'll	do	v	_	_	4	aux	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 6 Eng-NA=null
 4	do	this	det:dem	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 6 Eng-NA=null
 5	this	one	pro:indef	_	_	6	det	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 6 Eng-NA=null
 6	one	_	_	_	_	4	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 6 Eng-NA=null
@@ -1243,9 +1244,9 @@
 4	here	here	adv	_	_	3	advmod	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
 
 # text = so if they
-1	so	so	adv	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 3 3 Eng-NA=null
-2	if	if	conj	_	_	1	mark	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 3 3 Eng-NA=null
-3	they	they	pro:sub	_	_	1	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 3 3 Eng-NA=null
+1	so	so	adv	_	_	3	advmod	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 3 3 Eng-NA=null
+2	if	if	conj	_	_	3	mark	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 3 3 Eng-NA=null
+3	they	they	pro:sub	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence trail off 3 3 Eng-NA=null
 
 # text = does it look like a turtle or make a shell of it
 1	does	do	mod	_	_	3	aux	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 12 Eng-NA=null
@@ -1266,7 +1267,7 @@
 2	party	party	n	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 2 2 Eng-NA=null
 
 # text = put everyone is welcome
-1	put	put	v	_	_	4	discourse	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 4 Eng-NA=null
+1	put	put	v	_	_	2	reparandum	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 4 Eng-NA=null
 2	everyone	everyone	pro:indef	_	_	4	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 4 Eng-NA=null
 3	is	be	cop	_	_	4	cop	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 4 Eng-NA=null
 4	welcome	welcome	adj	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 6 4 Eng-NA=null
@@ -1276,25 +1277,25 @@
 2	I	_	_	_	_	4	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 6 Eng-NA=null
 3	'll	_	_	_	_	4	aux	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 6 Eng-NA=null
 4	make	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 6 Eng-NA=null
-5	um	_	_	_	_	4	iobj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 6 Eng-NA=null
+5	um	_	_	_	_	4	discourse	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 6 Eng-NA=null
 6	the	_	_	_	_	7	det	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 6 Eng-NA=null
 7	tail	_	_	_	_	4	obj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 6 6 Eng-NA=null
 
 # text = wan na go to the zoo
-1	wan	want	v	_	_	3	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 5 Eng-NA=null
-2	na	to	inf	_	_	1	flat	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 5 Eng-NA=null
-3	go	go	v	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 5 Eng-NA=null
+1	wan	want	v	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 5 Eng-NA=null
+2	na	to	inf	_	_	3	mark	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 5 Eng-NA=null
+3	go	go	v	_	_	1	xcomp	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 5 Eng-NA=null
 4	to	to	prep	_	_	6	case	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 5 Eng-NA=null
 5	the	the	det:art	_	_	6	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 5 Eng-NA=null
 6	zoo	zoo	n	_	_	3	obl	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 5 Eng-NA=null
 
 # text = that 's um that is xxx feet
 1	that	_	_	_	_	2	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 7 6 Eng-NA=null
-2	's	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 7 6 Eng-NA=null
-3	um	_	_	_	_	2	discourse	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 7 6 Eng-NA=null
+2	's	_	_	_	_	6	reparandum:repetition	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 7 6 Eng-NA=null
+3	um	_	_	_	_	6	discourse	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 7 6 Eng-NA=null
 4	that	_	_	_	_	6	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 7 6 Eng-NA=null
 5	is	_	_	_	_	6	cop	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 7 6 Eng-NA=null
-6	feet	_	_	_	_	2	parataxis	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 7 6 Eng-NA=null
+6	feet	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 7 6 Eng-NA=null
 
 # text = another flipper and another flipper
 1	another	another	qn	_	_	2	det	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 5 5 Eng-NA=null
@@ -1304,20 +1305,20 @@
 5	flipper	flipper	n	_	_	2	conj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 5 5 Eng-NA=null
 
 # text = I'll go to xxx
-1	I'll	I	pro:sub	_	_	2	aux	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
-2	go	go	v	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
-3	to	to	prep	_	_	4	case	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
-4	xxx	xxx	xxx	_	_	2	obl	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
+1	I	I	pro:sub	_	_	3	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
+2	'll	I	pro:sub	_	_	3	aux	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
+3	go	go	v	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
+4	to	to	prep	_	_	3	xcomp	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
 
 # text = water blood squirting
 1	water	water	n	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 4 3 Eng-NA=null
-2	blood	blood	n	_	_	3	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 4 3 Eng-NA=null
-3	squirting	squirt	part	_	_	1	parataxis	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 4 3 Eng-NA=null
+2	blood	blood	n	_	_	1	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 4 3 Eng-NA=null
+3	squirting	squirt	part	_	_	1	xcomp	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 4 3 Eng-NA=null
 
 # text = and um this this is a turtle in the aquarium
 1	and	and	coord	_	_	7	cc	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 10 10 Eng-NA=null
 2	um	this	pro:dem	_	_	7	discourse	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 10 10 Eng-NA=null
-3	this	this	pro:dem	_	_	7	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 10 10 Eng-NA=null
+3	this	this	pro:dem	_	_	4	reparandum:repetition	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 10 10 Eng-NA=null
 4	this	be	cop	_	_	7	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 10 10 Eng-NA=null
 5	is	a	det:art	_	_	7	cop	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 10 10 Eng-NA=null
 6	a	turtle	n	_	_	7	det	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 10 10 Eng-NA=null
@@ -1329,11 +1330,11 @@
 # text = and these are xxx it says a b c
 1	and	_	_	_	_	3	cc	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 10 9 Eng-NA=null
 2	these	_	_	_	_	3	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 10 9 Eng-NA=null
-3	are	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 10 9 Eng-NA=null
+3	are	_	_	_	_	5	reparandum:restart	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 10 9 Eng-NA=null
 4	it	_	_	_	_	5	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 10 9 Eng-NA=null
-5	says	_	_	_	_	3	ccomp	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 10 9 Eng-NA=null
+5	says	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 10 9 Eng-NA=null
 6	a	_	_	_	_	5	obj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 10 9 Eng-NA=null
-7	b	_	_	_	_	5	obj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 10 9 Eng-NA=null
+7	b	_	_	_	_	6	conj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 10 9 Eng-NA=null
 8	c	_	_	_	_	6	conj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 10 9 Eng-NA=null
 
 # text = the Easter xxx
@@ -1345,10 +1346,10 @@
 2	g	g	n:let	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 2 2 Eng-NA=null
 
 # text = a b c d
-1	a	a	n:let	_	_	2	det	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 4 4 Eng-NA=null
-2	b	b	n:let	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 4 4 Eng-NA=null
-3	c	c	n:let	_	_	2	conj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 4 4 Eng-NA=null
-4	d	d	n:let	_	_	2	conj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 4 4 Eng-NA=null
+1	a	a	n:let	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 4 4 Eng-NA=null
+2	b	b	n:let	_	_	1	conj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 4 4 Eng-NA=null
+3	c	c	n:let	_	_	1	conj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 4 4 Eng-NA=null
+4	d	d	n:let	_	_	1	conj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 4 4 Eng-NA=null
 
 # text = it 's the red one
 1	it	it	pro	_	_	5	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 4 Eng-NA=null
@@ -1358,10 +1359,10 @@
 5	one	one	pro:indef	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 5 4 Eng-NA=null
 
 # text = xxx xxx f then y z
-1	f	_	_	_	_	3	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 4 6 Eng-NA=null
+1	f	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 4 6 Eng-NA=null
 2	then	_	_	_	_	3	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 4 6 Eng-NA=null
-3	y	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 4 6 Eng-NA=null
-4	z	_	_	_	_	3	conj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 4 6 Eng-NA=null
+3	y	_	_	_	_	1	conj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 4 6 Eng-NA=null
+4	z	_	_	_	_	1	conj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 4 6 Eng-NA=null
 
 # text = all the ones that we do
 1	all	all	qn	_	_	3	det:predet	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 7 6 Eng-NA=null
@@ -1373,8 +1374,8 @@
 
 # text = b o l
 1	b	b	n:let	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 3 3 Eng-NA=null
-2	o	o	n:let	_	_	1	flat	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 3 3 Eng-NA=null
-3	l	l	n:let	_	_	1	flat	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 3 3 Eng-NA=null
+2	o	o	n:let	_	_	1	conj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 3 3 Eng-NA=null
+3	l	l	n:let	_	_	1	conj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 3 3 Eng-NA=null
 
 # text = all the things that we do
 1	all	all	qn	_	_	3	det:predet	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 7 6 Eng-NA=null
@@ -1469,11 +1470,11 @@
 2	animals	_	_	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 16 17 Eng-NA=null
 3	most	_	_	_	_	2	appos	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 16 17 Eng-NA=null
 4	of	_	_	_	_	5	case	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 16 17 Eng-NA=null
-5	lizards	_	_	_	_	3	nmod	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 16 17 Eng-NA=null
+5	lizards	_	_	_	_	2	conj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 16 17 Eng-NA=null
 6	and	_	_	_	_	9	cc	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 16 17 Eng-NA=null
 7	some	_	_	_	_	9	det:predet	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 16 17 Eng-NA=null
 8	the	_	_	_	_	9	det	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 16 17 Eng-NA=null
-9	snakes	_	_	_	_	3	conj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 16 17 Eng-NA=null
+9	snakes	_	_	_	_	2	conj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 16 17 Eng-NA=null
 10	on	_	_	_	_	12	case	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 16 17 Eng-NA=null
 11	the	_	_	_	_	12	det	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 16 17 Eng-NA=null
 12	rocks	_	_	_	_	9	nmod	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 16 17 Eng-NA=null
@@ -1506,7 +1507,7 @@
 
 # text = the living bed
 1	the	the	det:art	_	_	3	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 3 Eng-NA=null
-2	living	live	n:gerund	_	_	3	compound	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 3 Eng-NA=null
+2	living	live	n:gerund	_	_	3	amod	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 3 Eng-NA=null
 3	bed	bed	n	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 3 Eng-NA=null
 
 # text = yeah night
@@ -1516,7 +1517,7 @@
 # text = of the living bed
 1	of	of	prep	_	_	4	case	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 4 Eng-NA=null
 2	the	the	det:art	_	_	4	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 4 Eng-NA=null
-3	living	live	n:gerund	_	_	4	compound	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 4 Eng-NA=null
+3	living	live	n:gerund	_	_	4	amod	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 4 Eng-NA=null
 4	bed	bed	n	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 4 Eng-NA=null
 
 # text = my birthday party is gonna be a snake birthday party
@@ -1534,16 +1535,16 @@
 
 # text = Elvis rooster almost goes to heaven
 1	Elvis	Elvis	n:prop	_	_	4	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 6 Eng-NA=null
-2	rooster	rooster	n	_	_	4	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 6 Eng-NA=null
+2	rooster	rooster	n	_	_	1	flat	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 6 Eng-NA=null
 3	almost	almost	adv	_	_	4	advmod	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 6 Eng-NA=null
 4	goes	go	v	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 6 Eng-NA=null
 5	to	to	prep	_	_	6	case	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 6 Eng-NA=null
 6	heaven	heaven	n	_	_	4	obl	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 6 Eng-NA=null
 
 # text = um a head
-1	um	a	det:art	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 2 3 Eng-NA=null
+1	um	a	det:art	_	_	3	discourse	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 2 3 Eng-NA=null
 2	a	head	n	_	_	3	det	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 2 3 Eng-NA=null
-3	head	_	_	_	_	1	obj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 2 3 Eng-NA=null
+3	head	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 2 3 Eng-NA=null
 
 # text = tiger party
 1	tiger	tiger	n	_	_	2	compound	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 2 2 Eng-NA=null
@@ -1553,7 +1554,7 @@
 1	the	_	_	_	_	2	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 9 10 Eng-NA=null
 2	attack	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 9 10 Eng-NA=null
 3	the	_	_	_	_	4	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 9 10 Eng-NA=null
-4	attack	_	_	_	_	2	appos	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 9 10 Eng-NA=null
+4	attack	_	_	_	_	2	conj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 9 10 Eng-NA=null
 5	from	_	_	_	_	8	case	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 9 10 Eng-NA=null
 6	the	_	_	_	_	8	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 9 10 Eng-NA=null
 7	Easter	_	_	_	_	8	compound	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 9 10 Eng-NA=null
@@ -1594,14 +1595,14 @@
 6	bunnies	bunny	n	_	_	2	nmod	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 6 Eng-NA=null
 
 # text = Minnie and Moo Minnie and Moo the attack from the Easter bunnies
-1	Minnie	Minnie	n:prop	_	_	8	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 13 12 Eng-NA=null
+1	Minnie	Minnie	n:prop	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 13 12 Eng-NA=null
 2	and	and	coord	_	_	3	cc	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 13 12 Eng-NA=null
 3	Moo	Moo	n:prop	_	_	1	conj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 13 12 Eng-NA=null
 4	Minnie	Minnie	n:prop	_	_	1	conj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 13 12 Eng-NA=null
 5	and	and	coord	_	_	6	cc	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 13 12 Eng-NA=null
-6	Moo	Moo	n:prop	_	_	1	conj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 13 12 Eng-NA=null
+6	Moo	Moo	n:prop	_	_	4	conj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 13 12 Eng-NA=null
 7	the	the	det:art	_	_	8	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 13 12 Eng-NA=null
-8	attack	attack	n	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 13 12 Eng-NA=null
+8	attack	attack	n	_	_	1	parataxis	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 13 12 Eng-NA=null
 9	from	from	prep	_	_	12	case	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 13 12 Eng-NA=null
 10	the	the	det:art	_	_	12	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 13 12 Eng-NA=null
 11	Easter	Easter	n:prop	_	_	12	compound	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 13 12 Eng-NA=null
@@ -1615,9 +1616,9 @@
 
 # text = it 's funny one
 1	it	it	pro	_	_	4	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 3 Eng-NA=null
-2	's	be	cop	_	_	3	cop	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 3 Eng-NA=null
-3	funny	fun	adj	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 3 Eng-NA=null
-4	one	one	pro:indef	_	_	3	parataxis	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 3 Eng-NA=null
+2	's	be	cop	_	_	4	cop	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 3 Eng-NA=null
+3	funny	fun	adj	_	_	4	amod	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 3 Eng-NA=null
+4	one	one	pro:indef	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 3 Eng-NA=null
 
 # text = what is that
 1	what	what	pro:int	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 3 Eng-NA=null
@@ -1666,9 +1667,9 @@
 1	I	_	_	_	_	4	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 7 Eng-NA=null
 2	'm	_	_	_	_	4	cop	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 7 Eng-NA=null
 3	too	_	_	_	_	4	advmod	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 7 Eng-NA=null
-4	big	_	_	_	_	6	amod	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 7 Eng-NA=null
+4	big	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 7 Eng-NA=null
 5	Easter	_	_	_	_	6	compound	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 7 Eng-NA=null
-6	bunny	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 7 Eng-NA=null
+6	bunny	_	_	_	_	4	parataxis	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 7 Eng-NA=null
 
 # text = yeah make it grabbing a pencil
 1	yeah	yeah	co	_	_	2	discourse	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 7 6 Eng-NA=null
@@ -1696,7 +1697,7 @@
 
 # text = go drive the pigs
 1	go	go	v	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 4 Eng-NA=null
-2	drive	drive	v	_	_	1	xcomp	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 4 Eng-NA=null
+2	drive	drive	v	_	_	1	compound:svc	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 4 Eng-NA=null
 3	the	the	det:art	_	_	4	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 4 Eng-NA=null
 4	pigs	pig	n	_	_	2	obj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 4 Eng-NA=null
 
@@ -1806,10 +1807,10 @@
 2	bunny	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 2 3 Eng-NA=null
 
 # text = I've never xxx no
-1	I've	I	pro:sub	_	_	3	aux	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
-2	never	never	adv	_	_	3	advmod	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
-3	xxx	xxx	xxx	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
-4	no	_	_	_	_	3	discourse	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
+1	I	I	pro:sub	_	_	2	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
+2	've	I	pro:sub	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
+3	never	never	adv	_	_	2	advmod	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
+4	no	_	_	_	_	2	discourse	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
 
 # text = the Easter bunny
 1	the	the	det:art	_	_	3	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 3 3 Eng-NA=null
@@ -1818,17 +1819,17 @@
 
 # text = now let 's um now let 's um only do now let 's um see who xxx xxx
 1	now	_	_	_	_	2	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
-2	let	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
+2	let	_	_	_	_	6	reparandum:repetition	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
 3	's	_	_	_	_	2	obj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
-4	um	_	_	_	_	2	xcomp	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
+4	um	_	_	_	_	2	discourse	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
 5	now	_	_	_	_	6	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
-6	let	_	_	_	_	2	parataxis	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
+6	let	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
 7	's	_	_	_	_	6	obj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
-8	um	_	_	_	_	6	xcomp	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
+8	um	_	_	_	_	6	discourse	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
 9	only	_	_	_	_	10	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
 10	do	_	_	_	_	6	xcomp	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
 11	now	_	_	_	_	10	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
-12	let	_	_	_	_	2	parataxis	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
+12	let	_	_	_	_	6	parataxis	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
 13	's	_	_	_	_	12	obj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
 14	um	_	_	_	_	12	xcomp	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
 15	see	_	_	_	_	12	xcomp	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 13 15 Eng-NA=null
@@ -1919,10 +1920,10 @@
 
 # text = two three
 1	two	two	det:num	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 2 2 Eng-NA=null
-2	three	three	det:num	_	_	1	parataxis	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 2 2 Eng-NA=null
+2	three	three	det:num	_	_	1	conj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 2 2 Eng-NA=null
 
 # text = yeah now what draw
-1	yeah	yeah	co	_	_	2	discourse	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 4 Eng-NA=null
+1	yeah	yeah	co	_	_	4	discourse	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 4 Eng-NA=null
 2	now	now	adv	_	_	4	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 4 Eng-NA=null
 3	what	what	pro:int	_	_	4	det	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 4 Eng-NA=null
 4	draw	draw	v	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence question 4 4 Eng-NA=null
@@ -1994,7 +1995,7 @@
 
 # text = four five
 1	four	four	det:num	_	_	0	root	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 2 2 Eng-NA=null
-2	five	five	det:num	_	_	1	parataxis	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 2 2 Eng-NA=null
+2	five	five	det:num	_	_	1	conj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 2 2 Eng-NA=null
 
 # text = now let 's get now let 's get I know what we can get now
 1	now	now	adv	_	_	2	advmod	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 15 13 Eng-NA=null
@@ -2006,7 +2007,7 @@
 7	's	be	cop	_	_	6	obj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 15 13 Eng-NA=null
 8	get	get	v	_	_	6	xcomp	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 15 13 Eng-NA=null
 9	I	I	pro:sub	_	_	10	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 15 13 Eng-NA=null
-10	know	know	v	_	_	8	ccomp	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 15 13 Eng-NA=null
+10	know	know	v	_	_	2	parataxis	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 15 13 Eng-NA=null
 11	what	what	pro:int	_	_	14	obj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 15 13 Eng-NA=null
 12	we	we	pro:sub	_	_	14	nsubj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 15 13 Eng-NA=null
 13	can	can	mod	_	_	14	aux	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 15 13 Eng-NA=null
@@ -2020,8 +2021,8 @@
 4	let	_	_	_	_	1	parataxis	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 9 9 Eng-NA=null
 5	's	_	_	_	_	4	obj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 9 9 Eng-NA=null
 6	get	_	_	_	_	4	xcomp	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 9 9 Eng-NA=null
-7	um	_	_	_	_	6	obj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 9 9 Eng-NA=null
-8	draw	_	_	_	_	6	xcomp	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 9 9 Eng-NA=null
+7	um	_	_	_	_	6	discourse	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 9 9 Eng-NA=null
+8	draw	_	_	_	_	1	parataxis	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 9 9 Eng-NA=null
 9	a	_	_	_	_	10	det	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 9 9 Eng-NA=null
 10	face	_	_	_	_	8	obj	Violet CHI Target_Child	Violet 42.69081500646831 female Providence declarative 9 9 Eng-NA=null
 
@@ -2059,7 +2060,7 @@
 2	's	_	_	_	_	1	cop	Violet CHI Target_Child	Violet 46.59233249142692 female Providence question 2 2 Eng-NA=null
 
 # text = maybe xxx maybe Shelly hides under a rock
-1	maybe	_	_	_	_	4	advmod	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 8 8 Eng-NA=null
+1	maybe	_	_	_	_	2	reparandum:repetition	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 8 8 Eng-NA=null
 2	maybe	_	_	_	_	4	advmod	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 8 8 Eng-NA=null
 3	Shelly	_	_	_	_	4	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 8 8 Eng-NA=null
 4	hides	_	_	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 8 8 Eng-NA=null
@@ -2111,12 +2112,12 @@
 1	cat	cat	n	_	_	3	nmod:poss	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 12 6 Eng-NA=null
 2	's	's	poss	_	_	1	case	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 12 6 Eng-NA=null
 3	play	play	n	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 12 6 Eng-NA=null
-4	cat	cat	n	_	_	3	vocative	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 12 6 Eng-NA=null
+4	cat	cat	n	_	_	6	nmod:poss	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 12 6 Eng-NA=null
 5	's	's	poss	_	_	6	cc	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 12 6 Eng-NA=null
 6	play	play	n	_	_	3	conj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 12 6 Eng-NA=null
 7	cat	cat	n	_	_	9	nmod:poss	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 12 6 Eng-NA=null
 8	's	's	poss	_	_	7	case	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 12 6 Eng-NA=null
-9	play	play	n	_	_	3	parataxis	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 12 6 Eng-NA=null
+9	play	play	n	_	_	3	conj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 12 6 Eng-NA=null
 
 # text = xxx xxx read this book then read cat 's play
 1	read	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 11 9 Eng-NA=null
@@ -2197,7 +2198,7 @@
 2	Shrinkas	Shrinkas	n:prop	_	_	1	flat	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 2 2 Eng-NA=null
 
 # text = but he 's put in his right he 's xxx and if he puts that in
-1	but	_	_	_	_	9	cc	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 17 14 Eng-NA=null
+1	but	_	_	_	_	4	cc	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 17 14 Eng-NA=null
 2	he	_	_	_	_	4	nsubj:pass	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 17 14 Eng-NA=null
 3	's	_	_	_	_	4	aux:pass	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 17 14 Eng-NA=null
 4	put	_	_	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 17 14 Eng-NA=null
@@ -2209,7 +2210,7 @@
 10	and	_	_	_	_	13	cc	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 17 14 Eng-NA=null
 11	if	_	_	_	_	13	mark	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 17 14 Eng-NA=null
 12	he	_	_	_	_	13	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 17 14 Eng-NA=null
-13	puts	_	_	_	_	9	advcl	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 17 14 Eng-NA=null
+13	puts	_	_	_	_	9	conj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 17 14 Eng-NA=null
 14	that	_	_	_	_	13	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 17 14 Eng-NA=null
 15	in	_	_	_	_	13	compound:prt	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 17 14 Eng-NA=null
 
@@ -2223,14 +2224,14 @@
 7	pokey	_	_	_	_	4	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 15 11 Eng-NA=null
 8	he	_	_	_	_	10	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 15 11 Eng-NA=null
 9	's	_	_	_	_	10	aux	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 15 11 Eng-NA=null
-10	doing	_	_	_	_	7	acl:relcl	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 15 11 Eng-NA=null
+10	doing	_	_	_	_	4	parataxis	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 15 11 Eng-NA=null
 11	the	_	_	_	_	13	det	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 15 11 Eng-NA=null
 12	hokey	_	_	_	_	13	amod	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 15 11 Eng-NA=null
 13	pokey	_	_	_	_	10	obj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 15 11 Eng-NA=null
 
 # text = the xxx the xxx
-1	the	_	_	_	_	2	cc	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 2 4 Eng-NA=null
-2	the	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 2 4 Eng-NA=null
+1	the	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 2 4 Eng-NA=null
+2	the	_	_	_	_	1	conj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 2 4 Eng-NA=null
 
 # text = the tiny
 1	the	the	det:art	_	_	2	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 2 2 Eng-NA=null
@@ -2301,9 +2302,9 @@
 # text = he walk walk walk walk
 1	he	he	pro:sub	_	_	2	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 5 Eng-NA=null
 2	walk	walk	n	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 5 Eng-NA=null
-3	walk	walk	n	_	_	2	obj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 5 Eng-NA=null
-4	walk	walk	n	_	_	5	compound	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 5 Eng-NA=null
-5	walk	walk	n	_	_	2	parataxis	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 5 Eng-NA=null
+3	walk	walk	n	_	_	2	conj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 5 Eng-NA=null
+4	walk	walk	n	_	_	2	conj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 5 Eng-NA=null
+5	walk	walk	n	_	_	2	conj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 5 Eng-NA=null
 
 # text = they 're not playing quietly
 1	they	they	pro:sub	_	_	4	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 8 4 Eng-NA=null
@@ -2320,11 +2321,11 @@
 # text = now his hands are xxx
 1	now	_	_	_	_	4	advmod	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 6 5 Eng-NA=null
 2	his	_	_	_	_	3	nmod:poss	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 6 5 Eng-NA=null
-3	hands	_	_	_	_	1	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 6 5 Eng-NA=null
+3	hands	_	_	_	_	4	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 6 5 Eng-NA=null
 4	are	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 6 5 Eng-NA=null
 
 # text = his xxx the brother and the cat
-1	his	_	_	_	_	3	nmod:poss	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 7 Eng-NA=null
+1	his	_	_	_	_	2	reparandum	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 7 Eng-NA=null
 2	the	_	_	_	_	3	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 7 Eng-NA=null
 3	brother	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 7 Eng-NA=null
 4	and	_	_	_	_	6	cc	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 6 7 Eng-NA=null
@@ -2348,7 +2349,7 @@
 4	again	_	_	_	_	3	advmod	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
 
 # text = no I 'm not
-1	no	no	co	_	_	4	discourse	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 4 3 Eng-NA=null
+1	no	no	co	_	_	3	discourse	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 4 3 Eng-NA=null
 2	I	I	pro:sub	_	_	3	nsubj	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 4 3 Eng-NA=null
 3	'm	be	cop	_	_	0	root	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 4 3 Eng-NA=null
 4	not	not	neg	_	_	3	advmod	Violet CHI Target_Child	Violet 46.59233249142692 female Providence declarative 4 3 Eng-NA=null
@@ -2362,35 +2363,35 @@
 2	dog	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 2 3 Eng-NA=null
 
 # text = what it is show
-1	what	what	pro:int	_	_	4	obj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence question 5 4 Eng-NA=null
-2	it	it	pro:per	_	_	4	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence question 5 4 Eng-NA=null
-3	is	be	cop	_	_	4	cop	Violet CHI Target_Child	Violet 42.0008624407072 female Providence question 5 4 Eng-NA=null
-4	show	show	v	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence question 5 4 Eng-NA=null
+1	what	what	pro:int	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence question 5 4 Eng-NA=null
+2	it	it	pro:per	_	_	1	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence question 5 4 Eng-NA=null
+3	is	be	cop	_	_	1	cop	Violet CHI Target_Child	Violet 42.0008624407072 female Providence question 5 4 Eng-NA=null
+4	show	show	v	_	_	1	parataxis	Violet CHI Target_Child	Violet 42.0008624407072 female Providence question 5 4 Eng-NA=null
 
 # text = ice xxx ate ice xxx
-1	ice	_	_	_	_	2	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 5 Eng-NA=null
-2	ate	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 5 Eng-NA=null
+1	ice	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 5 Eng-NA=null
+2	ate	_	_	_	_	1	parataxis	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 5 Eng-NA=null
 3	ice	_	_	_	_	2	obj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 5 Eng-NA=null
 
 # text = George mommy xxx
 1	George	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 2 3 Eng-NA=null
-2	mommy	_	_	_	_	1	flat	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 2 3 Eng-NA=null
+2	mommy	_	_	_	_	1	vocative	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 2 3 Eng-NA=null
 
 # text = g o mom I
 1	g	g	n:let	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
-2	o	o	n:let	_	_	1	flat	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
-3	mom	mom	n	_	_	1	flat	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
-4	I	I	pro:sub	_	_	1	flat	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
+2	o	o	n:let	_	_	1	conj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
+3	mom	mom	n	_	_	1	vocative	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
+4	I	I	pro:sub	_	_	1	parataxis	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
 
 # text = g o mom
 1	g	g	n:let	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 3 3 Eng-NA=null
-2	o	o	n:let	_	_	1	flat	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 3 3 Eng-NA=null
-3	mom	mom	n	_	_	1	flat	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 3 3 Eng-NA=null
+2	o	o	n:let	_	_	1	conj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 3 3 Eng-NA=null
+3	mom	mom	n	_	_	1	vocative	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 3 3 Eng-NA=null
 
 # text = the mom I xxx
 1	the	_	_	_	_	2	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 3 4 Eng-NA=null
 2	mom	_	_	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 3 4 Eng-NA=null
-3	I	_	_	_	_	2	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 3 4 Eng-NA=null
+3	I	_	_	_	_	2	parataxis	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 3 4 Eng-NA=null
 
 # text = I 'm just hugging ya hugging ya hugging ya
 1	I	I	pro:sub	_	_	4	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 12 8 Eng-NA=null
@@ -2405,8 +2406,8 @@
 
 # text = doggy doggy doggy
 1	doggy	dog	adj	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 9 3 Eng-NA=null
-2	doggy	dog	adj	_	_	1	vocative	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 9 3 Eng-NA=null
-3	doggy	dog	adj	_	_	1	parataxis	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 9 3 Eng-NA=null
+2	doggy	dog	adj	_	_	1	conj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 9 3 Eng-NA=null
+3	doggy	dog	adj	_	_	1	conj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 9 3 Eng-NA=null
 
 # text = I 'm hugging and hugging your head
 1	I	I	pro:sub	_	_	3	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 9 6 Eng-NA=null
@@ -2456,9 +2457,9 @@
 
 # text = Mexico Mexico Mexico book
 1	Mexico	Mexico	n:prop	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
-2	Mexico	Mexico	n:prop	_	_	1	flat	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
-3	Mexico	Mexico	n:prop	_	_	1	flat	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
-4	book	book	n	_	_	1	flat	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
+2	Mexico	Mexico	n:prop	_	_	1	conj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
+3	Mexico	Mexico	n:prop	_	_	1	conj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
+4	book	book	n	_	_	1	conj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 4 4 Eng-NA=null
 
 # text = eat this chocolate
 1	eat	eat	v	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 3 3 Eng-NA=null
@@ -2536,11 +2537,11 @@
 
 # text = colors of the of the parrot
 1	colors	color	n	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 6 Eng-NA=null
-2	of	of	prep	_	_	6	case	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 6 Eng-NA=null
-3	the	the	det:art	_	_	1	nmod	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 6 Eng-NA=null
+2	of	of	prep	_	_	3	case	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 6 Eng-NA=null
+3	the	the	det:art	_	_	6	reparandum:repetition	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 6 Eng-NA=null
 4	of	of	prep	_	_	6	case	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 6 Eng-NA=null
 5	the	the	det:art	_	_	6	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 6 Eng-NA=null
-6	parrot	parrot	n	_	_	3	nmod	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 6 Eng-NA=null
+6	parrot	parrot	n	_	_	1	nmod	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 6 Eng-NA=null
 
 # text = that one has colors like a parrot
 1	that	that	det:dem	_	_	2	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 9 7 Eng-NA=null
@@ -2552,8 +2553,8 @@
 7	parrot	parrot	n	_	_	4	nmod	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 9 7 Eng-NA=null
 
 # text = yeah that 's where we were
-1	yeah	yeah	co	_	_	4	discourse	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 5 Eng-NA=null
-2	that	that	n	_	_	4	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 5 Eng-NA=null
+1	yeah	yeah	co	_	_	3	discourse	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 5 Eng-NA=null
+2	that	that	n	_	_	3	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 5 Eng-NA=null
 3	's	be	cop	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 5 Eng-NA=null
 4	where	where	pro:int	_	_	3	ccomp	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 5 Eng-NA=null
 5	we	we	pro:sub	_	_	4	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 7 5 Eng-NA=null
@@ -2570,7 +2571,7 @@
 
 # text = wa those
 1	wa	those	pro:dem	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 1 2 Eng-NA=null
-2	those	_	_	_	_	1	obj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 1 2 Eng-NA=null
+2	those	_	_	_	_	1	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 1 2 Eng-NA=null
 
 # text = cave diving
 1	cave	cave	n	_	_	2	compound	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 3 2 Eng-NA=null
@@ -2630,8 +2631,8 @@
 
 # text = this guy not
 1	this	this	det:dem	_	_	2	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence question 3 3 Eng-NA=null
-2	guy	guy	n	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence question 3 3 Eng-NA=null
-3	not	not	neg	_	_	2	advmod	Violet CHI Target_Child	Violet 42.0008624407072 female Providence question 3 3 Eng-NA=null
+2	guy	guy	n	_	_	3	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence question 3 3 Eng-NA=null
+3	not	not	neg	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence question 3 3 Eng-NA=null
 
 # text = but he looks venomous
 1	but	but	conj	_	_	3	cc	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 4 Eng-NA=null
@@ -2647,8 +2648,8 @@
 
 # text = this guy venomous
 1	this	this	det:dem	_	_	2	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 3 3 Eng-NA=null
-2	guy	guy	n	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 3 3 Eng-NA=null
-3	venomous	venomous	adj	_	_	2	amod	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 3 3 Eng-NA=null
+2	guy	guy	n	_	_	3	nsubj	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 3 3 Eng-NA=null
+3	venomous	venomous	adj	_	_	0	root	Violet CHI Target_Child	Violet 42.0008624407072 female Providence interruption 3 3 Eng-NA=null
 
 # text = this guy looks venomous
 1	this	this	det:dem	_	_	2	det	Violet CHI Target_Child	Violet 42.0008624407072 female Providence declarative 5 4 Eng-NA=null

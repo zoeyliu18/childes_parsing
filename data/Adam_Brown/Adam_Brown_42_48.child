@@ -1,10 +1,9 @@
 # text = do she do n't need that one
-# Re-evaluate
-1	do	do	mod	0	root=	5	reparandum:restart	Adam CHI Target_Child	Adam 42.29655639746196 male Brown question 7 6 Eng-NA=null
+1	do	do	mod	5	reparandum:restart	5	reparandum:restart	Adam CHI Target_Child	Adam 42.29655639746196 male Brown question 7 6 Eng-NA=null
 2	she	she	pro:sub	5	nsubj=	5	nsubj	Adam CHI Target_Child	Adam 42.29655639746196 male Brown question 7 6 Eng-NA=null
 3	do	do	mod	5	aux=	5	aux	Adam CHI Target_Child	Adam 42.29655639746196 male Brown question 7 6 Eng-NA=null
 4	n't	not	neg	5	advmod=	5	advmod	Adam CHI Target_Child	Adam 42.29655639746196 male Brown question 7 6 Eng-NA=null
-5	need	need	v	1	parataxis=	0	root	Adam CHI Target_Child	Adam 42.29655639746196 male Brown question 7 6 Eng-NA=null
+5	need	need	v	0	root	0	root	Adam CHI Target_Child	Adam 42.29655639746196 male Brown question 7 6 Eng-NA=null
 6	that	that	det:dem	7	det=	7	det	Adam CHI Target_Child	Adam 42.29655639746196 male Brown question 7 6 Eng-NA=null
 7	one	one	pro:indef	5	obj=	5	obj	Adam CHI Target_Child	Adam 42.29655639746196 male Brown question 7 6 Eng-NA=null
 
@@ -33,11 +32,10 @@
 4	cute	cute	adj	0	root=	0	root	Adam CHI Target_Child	Adam 42.29655639746196 male Brown question 5 3 Eng-NA=null
 
 # text = what happened a Mighty Mouse ear
-# Re-evaluate
 1	what	what	pro:int	2	nsubj=	2	nsubj	Adam CHI Target_Child	Adam 42.29655639746196 male Brown question 6 5 Eng-NA=null
 2	happened	happen	v	0	root=	0	root	Adam CHI Target_Child	Adam 42.29655639746196 male Brown question 6 5 Eng-NA=null
 3	a	a	det:art	6	det=	6	det	Adam CHI Target_Child	Adam 42.29655639746196 male Brown question 6 5 Eng-NA=null
-4	Mighty	Mighty_Mouse	n:prop	6	nmod=	6	compound	Adam CHI Target_Child	Adam 42.29655639746196 male Brown question 6 5 Eng-NA=null
+4	Mighty	Mighty_Mouse	n:prop	6	compound	6	compound	Adam CHI Target_Child	Adam 42.29655639746196 male Brown question 6 5 Eng-NA=null
 5	Mouse	Mouse	combined	4	flat=	4	flat	Adam CHI Target_Child	Adam 42.29655639746196 male Brown question 6 5 Eng-NA=null
 6	ear	ear	n	2	obj=	2	parataxis	Adam CHI Target_Child	Adam 42.29655639746196 male Brown question 6 5 Eng-NA=null
 
@@ -128,7 +126,6 @@
 4	houses	house	n	2	obl=	2	obl	Adam CHI Target_Child	Adam 42.29655639746196 male Brown declarative 5 4 Eng-NA=null
 
 # text = a tick+tock
-# Re-evaluate
 1	a	a	det:art	2	det=	2	det	Adam CHI Target_Child	Adam 42.29655639746196 male Brown declarative 1 2 Eng-NA=null
 2	tick	tick+tock	n	0	root=	0	root	Adam CHI Target_Child	Adam 42.29655639746196 male Brown declarative 1 2 Eng-NA=null
 3	tock	tick+tock	n	2	goeswith	2	goeswith	Adam CHI Target_Child	Adam 42.29655639746196 male Brown declarative 1 2 Eng-NA=null
@@ -169,10 +166,9 @@
 7	jeep	jeep	n	3	obl=	3	obl	Adam CHI Target_Child	Adam 42.29655639746196 male Brown declarative 9 7 Eng-NA=null
 
 # text = dere a man driving and need somebody
-# Re-evaluate
-1	dere	there	pro:exist	3	expl=	0	root	Adam CHI Target_Child	Adam 42.29655639746196 male Brown trail off 9 7 Eng-NA=null
+1	dere	there	pro:exist	3	expl	3	expl	Adam CHI Target_Child	Adam 42.29655639746196 male Brown trail off 9 7 Eng-NA=null
 2	a	a	det:art	3	det=	3	det	Adam CHI Target_Child	Adam 42.29655639746196 male Brown trail off 9 7 Eng-NA=null
-3	man	man	n	0	root=	1	nsubj	Adam CHI Target_Child	Adam 42.29655639746196 male Brown trail off 9 7 Eng-NA=null
+3	man	man	n	0	root	0	root	Adam CHI Target_Child	Adam 42.29655639746196 male Brown trail off 9 7 Eng-NA=null
 4	driving	drive	part	3	acl=	3	acl	Adam CHI Target_Child	Adam 42.29655639746196 male Brown trail off 9 7 Eng-NA=null
 5	and	and	coord	6	cc=	6	cc	Adam CHI Target_Child	Adam 42.29655639746196 male Brown trail off 9 7 Eng-NA=null
 6	need	need	v	4	conj=	4	conj	Adam CHI Target_Child	Adam 42.29655639746196 male Brown trail off 9 7 Eng-NA=null
@@ -375,8 +371,8 @@
 3	slowly	slow	adv	_	_	2	advmod	Adam CHI Target_Child	Adam 43.23086716359679 male Brown question 5 3 Eng-NA=null
 
 # text = there two of them driving
-1	there	there	adv	_	_	0	root	Adam CHI Target_Child	Adam 42.29655639746196 male Brown declarative 6 5 Eng-NA=null
-2	two	two	det:num	_	_	1	nsubj	Adam CHI Target_Child	Adam 42.29655639746196 male Brown declarative 6 5 Eng-NA=null
+1	there	there	adv	_	_	2	expl	Adam CHI Target_Child	Adam 42.29655639746196 male Brown declarative 6 5 Eng-NA=null
+2	two	two	det:num	_	_	0	root	Adam CHI Target_Child	Adam 42.29655639746196 male Brown declarative 6 5 Eng-NA=null
 3	of	of	prep	_	_	4	case	Adam CHI Target_Child	Adam 42.29655639746196 male Brown declarative 6 5 Eng-NA=null
 4	them	them	pro:obj	_	_	2	nmod	Adam CHI Target_Child	Adam 42.29655639746196 male Brown declarative 6 5 Eng-NA=null
 5	driving	drive	part	_	_	2	acl	Adam CHI Target_Child	Adam 42.29655639746196 male Brown declarative 6 5 Eng-NA=null
@@ -1440,8 +1436,8 @@
 3	scoot	scoot	v	_	_	1	xcomp	Adam CHI Target_Child	Adam 43.23086716359679 male Brown declarative 3 2 Eng-NA=null
 
 # text = dere one of dose
-1	dere	there	adv	_	_	0	root	Adam CHI Target_Child	Adam 42.29655639746196 male Brown declarative 4 4 Eng-NA=null
-2	one	one	pro:indef	_	_	1	nsubj	Adam CHI Target_Child	Adam 42.29655639746196 male Brown declarative 4 4 Eng-NA=null
+1	dere	there	adv	_	_	2	expl	Adam CHI Target_Child	Adam 42.29655639746196 male Brown declarative 4 4 Eng-NA=null
+2	one	one	pro:indef	_	_	0	root	Adam CHI Target_Child	Adam 42.29655639746196 male Brown declarative 4 4 Eng-NA=null
 3	of	of	prep	_	_	4	case	Adam CHI Target_Child	Adam 42.29655639746196 male Brown declarative 4 4 Eng-NA=null
 4	dose	those	pro:dem	_	_	2	nmod	Adam CHI Target_Child	Adam 42.29655639746196 male Brown declarative 4 4 Eng-NA=null
 
@@ -1553,7 +1549,7 @@
 1	he	he	pro:sub	_	_	3	nsubj	Adam CHI Target_Child	Adam 43.23086716359679 male Brown declarative 6 5 Eng-NA=null
 2	must	must	mod	_	_	3	aux	Adam CHI Target_Child	Adam 43.23086716359679 male Brown declarative 6 5 Eng-NA=null
 3	told	tell	v	_	_	0	root	Adam CHI Target_Child	Adam 43.23086716359679 male Brown declarative 6 5 Eng-NA=null
-4	you	you	pro:per	_	_	3	obj	Adam CHI Target_Child	Adam 43.23086716359679 male Brown declarative 6 5 Eng-NA=null
+4	you	you	pro:per	_	_	3	iobj	Adam CHI Target_Child	Adam 43.23086716359679 male Brown declarative 6 5 Eng-NA=null
 5	too	too	adv	_	_	3	advmod	Adam CHI Target_Child	Adam 43.23086716359679 male Brown declarative 6 5 Eng-NA=null
 
 # text = I told

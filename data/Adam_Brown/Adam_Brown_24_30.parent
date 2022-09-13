@@ -76,15 +76,14 @@
 2	na	to	inf	1	xcomp 	1	xcomp	None MOT Mother	Adam 27.131973962504365 male Brown question 2 1 Eng-NA=null
 
 # text = do you wan na see what I have
-# Re-evaluate
 1	do	do	mod	3	aux 	3	aux	None MOT Mother	Adam 27.131973962504365 male Brown question 8 7 Eng-NA=null
 2	you	you	pro:per	3	nsubj 	3	nsubj	None MOT Mother	Adam 27.131973962504365 male Brown question 8 7 Eng-NA=null
 3	wan	want	v	0	root 	0	root	None MOT Mother	Adam 27.131973962504365 male Brown question 8 7 Eng-NA=null
 4	na	to	inf	5	mark 	5	mark	None MOT Mother	Adam 27.131973962504365 male Brown question 8 7 Eng-NA=null
 5	see	see	co	3	xcomp 	3	xcomp	None MOT Mother	Adam 27.131973962504365 male Brown question 8 7 Eng-NA=null
-6	what	what	pro:int	5	obj 	8	obj	None MOT Mother	Adam 27.131973962504365 male Brown question 8 7 Eng-NA=null
+6	what	what	pro:int	8	obj 	8	obj	None MOT Mother	Adam 27.131973962504365 male Brown question 8 7 Eng-NA=null
 7	I	I	pro:sub	8	nsubj 	8	nsubj	None MOT Mother	Adam 27.131973962504365 male Brown question 8 7 Eng-NA=null
-8	have	have	v	6	acl:relcl 	5	ccomp	None MOT Mother	Adam 27.131973962504365 male Brown question 8 7 Eng-NA=null
+8	have	have	v	5	ccomp 	5	ccomp	None MOT Mother	Adam 27.131973962504365 male Brown question 8 7 Eng-NA=null
 
 # text = what is that
 1	what	what	pro:int	0	root 	0	root	None MOT Mother	Adam 27.131973962504365 male Brown question 4 3 Eng-NA=null
@@ -310,13 +309,13 @@
 6	it	it	pro:per	_	_	5	obj	None MOT Mother	Adam 27.131973962504365 male Brown declarative 7 5 Eng-NA=null
 
 # text = there goes one
-1	there	there	adv	_	_	2	advmod	None MOT Mother	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
+1	there	there	adv	_	_	2	expl	None MOT Mother	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
 2	goes	go	v	_	_	0	root	None MOT Mother	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
 3	one	one	pro:indef	_	_	2	nsubj	None MOT Mother	Adam 27.131973962504365 male Brown declarative 4 3 Eng-NA=null
 
 # text = yes there goes one
 1	yes	yes	co	_	_	3	discourse	None MOT Mother	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
-2	there	there	adv	_	_	3	advmod	None MOT Mother	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
+2	there	there	adv	_	_	3	expl	None MOT Mother	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
 3	goes	go	v	_	_	0	root	None MOT Mother	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
 4	one	one	pro:indef	_	_	3	nsubj	None MOT Mother	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
 
@@ -358,7 +357,7 @@
 5	truck	truck	n	_	_	0	root	None MOT Mother	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
 
 # text = there goes another one
-1	there	there	adv	_	_	2	advmod	None MOT Mother	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
+1	there	there	adv	_	_	2	expl	None MOT Mother	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
 2	goes	go	v	_	_	0	root	None MOT Mother	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
 3	another	another	qn	_	_	4	det	None MOT Mother	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
 4	one	one	pro:indef	_	_	2	nsubj	None MOT Mother	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
@@ -381,7 +380,6 @@
 5	that	that	pro:dem	_	_	3	obj	None MOT Mother	Adam 27.131973962504365 male Brown question 6 5 Eng-NA=null
 
 # text = do you know what those are
-# CCOMP
 1	do	do	mod	_	_	3	aux	None MOT Mother	Adam 27.131973962504365 male Brown question 7 6 Eng-NA=null
 2	you	you	pro:per	_	_	3	nsubj	None MOT Mother	Adam 27.131973962504365 male Brown question 7 6 Eng-NA=null
 3	know	know	v	_	_	0	root	None MOT Mother	Adam 27.131973962504365 male Brown question 7 6 Eng-NA=null
@@ -1076,7 +1074,6 @@
 2	car	car	n	_	_	0	root	None MOT Mother	Adam 27.59194233967843 male Brown declarative 2 2 Eng-NA=null
 
 # text = do you know what kind this is
-# CCOMP
 1	do	do	mod	_	_	3	aux	None MOT Mother	Adam 27.59194233967843 male Brown question 8 7 Eng-NA=null
 2	you	you	pro:per	_	_	3	nsubj	None MOT Mother	Adam 27.59194233967843 male Brown question 8 7 Eng-NA=null
 3	know	know	v	_	_	0	root	None MOT Mother	Adam 27.59194233967843 male Brown question 8 7 Eng-NA=null
@@ -1219,7 +1216,6 @@
 7	pillow	pillow	n	_	_	0	root	None MOT Mother	Adam 27.131973962504365 male Brown declarative 9 7 Eng-NA=null
 
 # text = know what kind that is
-# CCOMP
 1	know	know	v	_	_	0	root	None MOT Mother	Adam 27.59194233967843 male Brown question 6 5 Eng-NA=null
 2	what	what	pro:int	_	_	3	det	None MOT Mother	Adam 27.59194233967843 male Brown question 6 5 Eng-NA=null
 3	kind	kind	n	_	_	1	ccomp	None MOT Mother	Adam 27.59194233967843 male Brown question 6 5 Eng-NA=null
@@ -1243,7 +1239,6 @@
 3	that	that	pro:dem	_	_	1	nsubj	None MOT Mother	Adam 27.131973962504365 male Brown question 3 2 Eng-NA=null
 
 # text = do you know what that is
-# CCOMP
 1	do	do	mod	_	_	3	aux	None MOT Mother	Adam 27.59194233967843 male Brown question 7 6 Eng-NA=null
 2	you	you	pro:per	_	_	3	nsubj	None MOT Mother	Adam 27.59194233967843 male Brown question 7 6 Eng-NA=null
 3	know	know	v	_	_	0	root	None MOT Mother	Adam 27.59194233967843 male Brown question 7 6 Eng-NA=null
@@ -2326,7 +2321,6 @@
 5	record	record	n	_	_	0	root	None MOT Mother	Adam 27.131973962504365 male Brown declarative 5 4 Eng-NA=null
 
 # text = ask her what that is
-# CCOMP
 1	ask	ask	v	_	_	0	root	None MOT Mother	Adam 27.131973962504365 male Brown declarative 6 5 Eng-NA=null
 2	her	her	pro:obj	_	_	1	iobj	None MOT Mother	Adam 27.131973962504365 male Brown declarative 6 5 Eng-NA=null
 3	what	what	pro:int	_	_	1	ccomp	None MOT Mother	Adam 27.131973962504365 male Brown declarative 6 5 Eng-NA=null
@@ -2687,11 +2681,10 @@
 7	book	book	n	_	_	4	obj	None MOT Mother	Adam 27.59194233967843 male Brown declarative 8 5 Eng-NA=null
 
 # text = that 's what makes it whistle
-# CCOMP
 1	that	that	n	_	_	3	nsubj	None MOT Mother	Adam 28.98622148298733 male Brown declarative 7 5 Eng-NA=null
 2	's	be	cop	_	_	3	cop	None MOT Mother	Adam 28.98622148298733 male Brown declarative 7 5 Eng-NA=null
 3	what	what	pro:int	_	_	0	root	None MOT Mother	Adam 28.98622148298733 male Brown declarative 7 5 Eng-NA=null
-4	makes	make	v	_	_	3	acl	None MOT Mother	Adam 28.98622148298733 male Brown declarative 7 5 Eng-NA=null
+4	makes	make	v	_	_	3	acl:relcl	None MOT Mother	Adam 28.98622148298733 male Brown declarative 7 5 Eng-NA=null
 5	it	it	pro:per	_	_	4	obj	None MOT Mother	Adam 28.98622148298733 male Brown declarative 7 5 Eng-NA=null
 6	whistle	whistle	v	_	_	4	xcomp	None MOT Mother	Adam 28.98622148298733 male Brown declarative 7 5 Eng-NA=null
 

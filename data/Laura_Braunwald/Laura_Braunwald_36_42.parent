@@ -195,19 +195,18 @@
 2	dinnertime	_	_	0	root	0	root	nan FAT Father	Laura 36.29643319164664 female Braunwald declarative 1 2 Eng-NA=null
 
 # text = we got what we thought would be a really good usable car
-# Re-evaluate
 1	we	we	pro:sub	2	nsubj	2	nsubj	nan MOT Mother	Laura 36.03359411897575 female Braunwald declarative 17 12 Eng-NA=null
 2	got	get	v	0	root	0	root	nan MOT Mother	Laura 36.03359411897575 female Braunwald declarative 17 12 Eng-NA=null
-3	what	what	pro:int	5	obj	12	nsubj	nan MOT Mother	Laura 36.03359411897575 female Braunwald declarative 17 12 Eng-NA=null
+3	what	what	pro:int	12	nsubj	12	nsubj	nan MOT Mother	Laura 36.03359411897575 female Braunwald declarative 17 12 Eng-NA=null
 4	we	we	pro:sub	5	nsubj	5	nsubj	nan MOT Mother	Laura 36.03359411897575 female Braunwald declarative 17 12 Eng-NA=null
-5	thought	think	v	12	csubj	3	acl:relcl	nan MOT Mother	Laura 36.03359411897575 female Braunwald declarative 17 12 Eng-NA=null
+5	thought	think	v	2	ccomp	2	ccomp	nan MOT Mother	Laura 36.03359411897575 female Braunwald declarative 17 12 Eng-NA=null
 6	would	will	mod	12	aux	12	aux	nan MOT Mother	Laura 36.03359411897575 female Braunwald declarative 17 12 Eng-NA=null
 7	be	be	cop	12	cop	12	cop	nan MOT Mother	Laura 36.03359411897575 female Braunwald declarative 17 12 Eng-NA=null
 8	a	a	det:art	12	det	12	det	nan MOT Mother	Laura 36.03359411897575 female Braunwald declarative 17 12 Eng-NA=null
 9	really	really	adv	10	advmod	10	advmod	nan MOT Mother	Laura 36.03359411897575 female Braunwald declarative 17 12 Eng-NA=null
 10	good	good	adj	12	amod	12	amod	nan MOT Mother	Laura 36.03359411897575 female Braunwald declarative 17 12 Eng-NA=null
 11	usable	use	adj	12	amod	12	amod	nan MOT Mother	Laura 36.03359411897575 female Braunwald declarative 17 12 Eng-NA=null
-12	car	car	n	2	ccomp	2	ccomp	nan MOT Mother	Laura 36.03359411897575 female Braunwald declarative 17 12 Eng-NA=null
+12	car	car	n	5	ccomp	5	ccomp	nan MOT Mother	Laura 36.03359411897575 female Braunwald declarative 17 12 Eng-NA=null
 
 # text = did you enjoy the ballgame
 1	did	do	mod	3	aux	3	aux	nan FAT Father	Laura 36.29643319164664 female Braunwald question 6 5 Eng-NA=null
@@ -994,12 +993,11 @@
 2	Steamy	Steamy	n:prop	_	_	1	vocative	nan MOT Mother	Laura 36.29643319164664 female Braunwald declarative 2 2 Eng-NA=null
 
 # text = do you feel that way or not
-# Re-evaluate: obj or obl:npmod for that way
 1	do	do	mod	_	_	3	aux	nan MOT Mother	Laura 36.29643319164664 female Braunwald question 7 7 Eng-NA=null
 2	you	you	pro:per	_	_	3	nsubj	nan MOT Mother	Laura 36.29643319164664 female Braunwald question 7 7 Eng-NA=null
 3	feel	feel	v	_	_	0	root	nan MOT Mother	Laura 36.29643319164664 female Braunwald question 7 7 Eng-NA=null
 4	that	that	adv	_	_	5	det	nan MOT Mother	Laura 36.29643319164664 female Braunwald question 7 7 Eng-NA=null
-5	way	way	adv	_	_	3	obj	nan MOT Mother	Laura 36.29643319164664 female Braunwald question 7 7 Eng-NA=null
+5	way	way	adv	_	_	3	xcomp	nan MOT Mother	Laura 36.29643319164664 female Braunwald question 7 7 Eng-NA=null
 6	or	or	coord	_	_	7	cc	nan MOT Mother	Laura 36.29643319164664 female Braunwald question 7 7 Eng-NA=null
 7	not	not	neg	_	_	3	conj	nan MOT Mother	Laura 36.29643319164664 female Braunwald question 7 7 Eng-NA=null
 
@@ -2280,7 +2278,7 @@
 1	she	she	pro:sub	_	_	3	nsubj	nan MOT Mother	Laura 37.82213187129099 female Braunwald declarative 16 14 Eng-NA=null
 2	got	get	v	_	_	0	root	nan MOT Mother	Laura 37.82213187129099 female Braunwald declarative 16 14 Eng-NA=null
 3	very	very	adv	_	_	4	advmod	nan MOT Mother	Laura 37.82213187129099 female Braunwald declarative 16 14 Eng-NA=null
-4	upset	upset	adj	_	_	2	xcompe	nan MOT Mother	Laura 37.82213187129099 female Braunwald declarative 16 14 Eng-NA=null
+4	upset	upset	adj	_	_	2	xcomp	nan MOT Mother	Laura 37.82213187129099 female Braunwald declarative 16 14 Eng-NA=null
 5	when	when	conj	_	_	7	mark	nan MOT Mother	Laura 37.82213187129099 female Braunwald declarative 16 14 Eng-NA=null
 6	she	she	pro:sub	_	_	7	nsubj	nan MOT Mother	Laura 37.82213187129099 female Braunwald declarative 16 14 Eng-NA=null
 7	discovered	discover	v	_	_	2	advcl	nan MOT Mother	Laura 37.82213187129099 female Braunwald declarative 16 14 Eng-NA=null

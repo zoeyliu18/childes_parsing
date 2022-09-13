@@ -1250,7 +1250,7 @@
 # text = you showed me the other day
 1	you	you	pro:per	_	_	2	nsubj	nan MOT Mother	Laura 55.5925173001499 female Braunwald declarative 7 6 Eng-NA=null
 2	showed	show	v	_	_	0	root	nan MOT Mother	Laura 55.5925173001499 female Braunwald declarative 7 6 Eng-NA=null
-3	me	me	pro:obj	_	_	2	obj	nan MOT Mother	Laura 55.5925173001499 female Braunwald declarative 7 6 Eng-NA=null
+3	me	me	pro:obj	_	_	2	iobj	nan MOT Mother	Laura 55.5925173001499 female Braunwald declarative 7 6 Eng-NA=null
 4	the	the	det:art	_	_	6	det	nan MOT Mother	Laura 55.5925173001499 female Braunwald declarative 7 6 Eng-NA=null
 5	other	other	qn	_	_	6	amod	nan MOT Mother	Laura 55.5925173001499 female Braunwald declarative 7 6 Eng-NA=null
 6	day	day	n	_	_	2	obl:tmod	nan MOT Mother	Laura 55.5925173001499 female Braunwald declarative 7 6 Eng-NA=null

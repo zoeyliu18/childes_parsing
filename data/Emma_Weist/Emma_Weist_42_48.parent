@@ -52,12 +52,11 @@
 3	right	right	co	0	root	0	root	None FAT Father	Emma 43.690835540770856 female Weist declarative 3 2 Eng-NA=null
 
 # text = he was pretty big remember
-# Re-evaluate
 1	he	he	pro:sub	4	nsubj	4	nsubj	None FAT Father	Emma 43.690835540770856 female Weist question 7 5 Eng-NA=null
 2	was	be	cop	4	cop	4	cop	None FAT Father	Emma 43.690835540770856 female Weist question 7 5 Eng-NA=null
 3	pretty	pretty	adv	4	advmod	4	advmod	None FAT Father	Emma 43.690835540770856 female Weist question 7 5 Eng-NA=null
 4	big	big	adj	0	root	0	root	None FAT Father	Emma 43.690835540770856 female Weist question 7 5 Eng-NA=null
-5	remember	remember	v	4	discourse	4	parataxis	None FAT Father	Emma 43.690835540770856 female Weist question 7 5 Eng-NA=null
+5	remember	remember	v	4	parataxis	4	parataxis	None FAT Father	Emma 43.690835540770856 female Weist question 7 5 Eng-NA=null
 
 # text = yeah he 's big and black
 1	yeah	yeah	co	4	discourse	4	discourse	None FAT Father	Emma 43.690835540770856 female Weist declarative 6 5 Eng-NA=null
@@ -68,14 +67,13 @@
 6	black	black	n	4	conj	4	conj	None FAT Father	Emma 43.690835540770856 female Weist declarative 6 5 Eng-NA=null
 
 # text = well we can show we can show Jessica pictures later
-# Re-evaluate
 1	well	well	co	4	discourse	4	discourse	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
 2	we	we	pro:sub	4	nsubj	4	nsubj	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
 3	can	can	mod	4	aux	4	aux	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
-4	show	show	v	0	root	7	reparandum:repetition	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
+4	show	show	v	7	reparandum:repetition	7	reparandum:repetition	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
 5	we	Jessica	n:prop	7	nsubj	7	nsubj	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
 6	can	picture	v	7	aux	7	aux	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
-7	show	later	adv	4	parataxis	0	root	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
+7	show	later	adv	0	root	0	root	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
 8	Jessica	_	_	7	iobj	7	iobj	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
 9	pictures	_	_	7	obj	7	obj	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
 10	later	_	_	7	advmod	7	advmod	None FAT Father	Emma 43.690835540770856 female Weist declarative 8 10 Eng-NA=null
@@ -85,14 +83,13 @@
 2	he	he	pro:sub	0	root	0	root	None FAT Father	Emma 43.690835540770856 female Weist interruption 2 2 Eng-NA=null
 
 # text = but do you remember what I told you I heard from Hans and Temerl about him
-# Re-evaluate
 1	but	but	conj	4	cc	4	cc	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
 2	do	do	v	4	aux	4	aux	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
 3	you	you	pro:per	4	nsubj	4	nsubj	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
 4	remember	remember	v	0	root	0	root	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
-5	what	what	pro:int	4	obj	7	obj	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
+5	what	what	pro:int	7	obj	7	obj	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
 6	I	I	pro:sub	7	nsubj	7	nsubj	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
-7	told	tell	v	5	acl:relcl	4	ccomp	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
+7	told	tell	v	4	ccomp	4	ccomp	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
 8	you	you	pro:per	7	iobj	7	iobj	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
 9	I	I	pro:sub	10	nsubj	10	nsubj	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
 10	heard	hear	v	4	parataxis	4	parataxis	None FAT Father	Emma 43.690835540770856 female Weist question 18 16 Eng-NA=null
@@ -1616,7 +1613,7 @@
 
 # text = but does n't do n't does n't he is n't he in danger of being eaten
 1	but	but	conj	_	_	2	cc	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
-2	does	do	mod	_	_	13	reparandum:resstart	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
+2	does	do	mod	_	_	13	reparandum:restart	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
 3	n't	not	neg	_	_	2	advmod	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
 4	do	do	mod	_	_	13	reparandum:restart	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
 5	n't	not	neg	_	_	4	advmod	None FAT Father	Emma 42.789379658719895 female Weist question 21 12 Eng-NA=null
@@ -2156,7 +2153,6 @@
 5	fun	fun	n	_	_	3	obl	None FAT Father	Emma 44.72371095915727 female Weist imperative_emphatic 6 5 Eng-NA=null
 
 # text = maybe that 's why he 's hiding from us
-# Re-evaluate
 1	maybe	maybe	adv	_	_	4	advmod	None FAT Father	Emma 42.789379658719895 female Weist declarative 10 7 Eng-NA=null
 2	that	that	n	_	_	4	nsubj	None FAT Father	Emma 42.789379658719895 female Weist declarative 10 7 Eng-NA=null
 3	's	be	cop	_	_	4	cop	None FAT Father	Emma 42.789379658719895 female Weist declarative 10 7 Eng-NA=null

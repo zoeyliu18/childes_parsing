@@ -85,11 +85,10 @@
 5	words	word	n	3	obj=	3	obj	None MOT Mother	Adam 42.29655639746196 male Brown question 6 5 Eng-NA=null
 
 # text = on the side see
-# Re-evaluate
 1	on	on	prep	3	case=	3	case	None MOT Mother	Adam 42.29655639746196 male Brown question 4 4 Eng-NA=null
 2	the	the	det:art	3	det=	3	det	None MOT Mother	Adam 42.29655639746196 male Brown question 4 4 Eng-NA=null
 3	side	side	n	0	root=	0	root	None MOT Mother	Adam 42.29655639746196 male Brown question 4 4 Eng-NA=null
-4	see	see	v	3	discourse=	3	parataxis	None MOT Mother	Adam 42.29655639746196 male Brown question 4 4 Eng-NA=null
+4	see	see	v	3	parataxis	3	parataxis	None MOT Mother	Adam 42.29655639746196 male Brown question 4 4 Eng-NA=null
 
 # text = you can spell these words
 1	you	you	pro:per	3	nsubj=	3	nsubj	None MOT Mother	Adam 42.29655639746196 male Brown declarative 6 5 Eng-NA=null
@@ -123,7 +122,6 @@
 4	going	go	part	0	root=	0	root	None MOT Mother	Adam 42.29655639746196 male Brown question 5 3 Eng-NA=null
 
 # text = somebody 's place I think it was
-# Re-evaluate
 1	somebody	somebody	n	3	nmod:poss=	3	nmod:poss	None MOT Mother	Adam 42.29655639746196 male Brown declarative 10 6 Eng-NA=null
 2	's	's	poss	1	case=	1	case	None MOT Mother	Adam 42.29655639746196 male Brown declarative 10 6 Eng-NA=null
 3	place	place	n	7	dislocated=	5	ccomp	None MOT Mother	Adam 42.29655639746196 male Brown declarative 10 6 Eng-NA=null
@@ -2167,7 +2165,7 @@
 # text = what made you get up so early
 1	what	what	pro:int	_	_	2	nsubj	None MOT Mother	Adam 44.460871886486366 male Brown question 8 7 Eng-NA=null
 2	made	make	v	_	_	0	root	None MOT Mother	Adam 44.460871886486366 male Brown question 8 7 Eng-NA=null
-3	you	you	pro:per	_	_	3	obj	None MOT Mother	Adam 44.460871886486366 male Brown question 8 7 Eng-NA=null
+3	you	you	pro:per	_	_	2	obj	None MOT Mother	Adam 44.460871886486366 male Brown question 8 7 Eng-NA=null
 4	get	get	v	_	_	2	xcomp	None MOT Mother	Adam 44.460871886486366 male Brown question 8 7 Eng-NA=null
 5	up	up	adv	_	_	4	compound:prt	None MOT Mother	Adam 44.460871886486366 male Brown question 8 7 Eng-NA=null
 6	so	so	adv	_	_	7	advmod	None MOT Mother	Adam 44.460871886486366 male Brown question 8 7 Eng-NA=null
@@ -2678,8 +2676,8 @@
 1	what	what	n	_	_	0	root	None MOT Mother	Adam 43.23086716359679 male Brown question 6 4 Eng-NA=null
 2	's	be	cop	_	_	1	cop	None MOT Mother	Adam 43.23086716359679 male Brown question 6 4 Eng-NA=null
 3	a	a	det:art	_	_	6	det	None MOT Mother	Adam 43.23086716359679 male Brown question 6 4 Eng-NA=null
-4	boo	boo	n	_	_	6	compound	None MOT Mother	Adam 43.23086716359679 male Brown question 6 4 Eng-NA=null
-5	boo	boo	combined	_	_	4	compound:redup	None MOT Mother	Adam 43.23086716359679 male Brown question 6 4 Eng-NA=null
+4	boo	boo	n	_	_	5	compound	None MOT Mother	Adam 43.23086716359679 male Brown question 6 4 Eng-NA=null
+5	boo	boo	combined	_	_	6	compound	None MOT Mother	Adam 43.23086716359679 male Brown question 6 4 Eng-NA=null
 6	clock	clock	n	_	_	1	nsubj	None MOT Mother	Adam 43.23086716359679 male Brown question 6 4 Eng-NA=null
 
 # text = why is it easier to do it that way

@@ -161,9 +161,8 @@
 4	say	say	v	0	root	0	root	None FAT Father	Emma 36.09930388714347 female Weist question 5 4 Eng-NA=null
 
 # text = a wool bed that sounds comfortable
-# Re-evaluate
 1	a	a	det:art	3	det	3	det	None FAT Father	Emma 36.09930388714347 female Weist declarative 9 6 Eng-NA=null
-2	wool	wool	n	3	nmod	3	compound	None FAT Father	Emma 36.09930388714347 female Weist declarative 9 6 Eng-NA=null
+2	wool	wool	n	3	compound	3	compound	None FAT Father	Emma 36.09930388714347 female Weist declarative 9 6 Eng-NA=null
 3	bed	bed	n	0	root	0	root	None FAT Father	Emma 36.09930388714347 female Weist declarative 9 6 Eng-NA=null
 4	that	that	pro:rel	5	nsubj	5	nsubj	None FAT Father	Emma 36.09930388714347 female Weist declarative 9 6 Eng-NA=null
 5	sounds	sound	v	3	parataxis	3	parataxis	None FAT Father	Emma 36.09930388714347 female Weist declarative 9 6 Eng-NA=null
@@ -187,12 +186,11 @@
 15	from	from	prep	7	case	7	case	None FAT Father	Emma 36.09930388714347 female Weist question 16 13 Eng-NA=null
 
 # text = are there sheep in here
-# Re-evaluate
 1	are	be	cop	0	root	0	root	None FAT Father	Emma 36.09930388714347 female Weist question 6 5 Eng-NA=null
 2	there	there	adv	1	expl	1	expl	None FAT Father	Emma 36.09930388714347 female Weist question 6 5 Eng-NA=null
 3	sheep	sheep	n	1	nsubj	1	nsubj	None FAT Father	Emma 36.09930388714347 female Weist question 6 5 Eng-NA=null
 4	in	in	prep	5	case	5	case	None FAT Father	Emma 36.09930388714347 female Weist question 6 5 Eng-NA=null
-5	here	here	n	3	nmod	1	obl	None FAT Father	Emma 36.09930388714347 female Weist question 6 5 Eng-NA=null
+5	here	here	n	1	obl	1	obl	None FAT Father	Emma 36.09930388714347 female Weist question 6 5 Eng-NA=null
 
 # text = there 's a sheep
 1	there	there	n	2	expl	2	expl	None FAT Father	Emma 36.09930388714347 female Weist declarative 4 3 Eng-NA=null
@@ -201,20 +199,18 @@
 4	sheep	sheep	n	2	nsubj	2	nsubj	None FAT Father	Emma 36.09930388714347 female Weist declarative 4 3 Eng-NA=null
 
 # text = you 're a yoga pose horse
-# Re-evaluate
 1	you	you	pro:per	6	nsubj	6	nsubj	None FAT Father	Emma 36.09930388714347 female Weist question 6 5 Eng-NA=null
 2	're	be	cop	6	cop	6	cop	None FAT Father	Emma 36.09930388714347 female Weist question 6 5 Eng-NA=null
 3	a	a	det:art	6	det	6	det	None FAT Father	Emma 36.09930388714347 female Weist question 6 5 Eng-NA=null
-4	yoga	yoga	n	5	nmod	5	compound	None FAT Father	Emma 36.09930388714347 female Weist question 6 5 Eng-NA=null
-5	pose	pose	n	6	nmod	6	compound	None FAT Father	Emma 36.09930388714347 female Weist question 6 5 Eng-NA=null
+4	yoga	yoga	n	5	compound	5	compound	None FAT Father	Emma 36.09930388714347 female Weist question 6 5 Eng-NA=null
+5	pose	pose	n	6	compound	6	compound	None FAT Father	Emma 36.09930388714347 female Weist question 6 5 Eng-NA=null
 6	horse	horse	n	0	root	0	root	None FAT Father	Emma 36.09930388714347 female Weist question 6 5 Eng-NA=null
 
 # text = what kind what kind of yoga pose is that
-# Re-evaluate
 1	what	what	pro:int	2	det	2	det	None FAT Father	Emma 36.09930388714347 female Weist question 8 9 Eng-NA=null
-2	kind	kind	n	0	root	4	reparandum:repetition	None FAT Father	Emma 36.09930388714347 female Weist question 8 9 Eng-NA=null
+2	kind	kind	n	4	reparandum:repetition	4	reparandum:repetition	None FAT Father	Emma 36.09930388714347 female Weist question 8 9 Eng-NA=null
 3	what	of	prep	4	det	4	det	None FAT Father	Emma 36.09930388714347 female Weist question 8 9 Eng-NA=null
-4	kind	yoga	n	2	parataxis	0	root	None FAT Father	Emma 36.09930388714347 female Weist question 8 9 Eng-NA=null
+4	kind	yoga	n	0	root	0	root	None FAT Father	Emma 36.09930388714347 female Weist question 8 9 Eng-NA=null
 5	of	pose	n	7	case	7	case	None FAT Father	Emma 36.09930388714347 female Weist question 8 9 Eng-NA=null
 6	yoga	be	cop	4	nmod	7	compound	None FAT Father	Emma 36.09930388714347 female Weist question 8 9 Eng-NA=null
 7	pose	that	pro:dem	2	nmod	4	nmod	None FAT Father	Emma 36.09930388714347 female Weist question 8 9 Eng-NA=null
@@ -1322,7 +1318,6 @@
 4	big	big	adj	_	_	0	root	None FAT Father	Emma 36.09930388714347 female Weist declarative 4 3 Eng-NA=null
 
 # text = maybe that 's why you 're so fast
-# Re-evaluate
 1	maybe	maybe	adv	_	_	4	advmod	None FAT Father	Emma 36.09930388714347 female Weist declarative 8 6 Eng-NA=null
 2	that	that	n	_	_	4	nsubj	None FAT Father	Emma 36.09930388714347 female Weist declarative 8 6 Eng-NA=null
 3	's	be	cop	_	_	4	cop	None FAT Father	Emma 36.09930388714347 female Weist declarative 8 6 Eng-NA=null
@@ -1823,7 +1818,7 @@
 # text = now which one is this
 1	now	now	adv	_	_	3	advmod	None MOT Mother	Emma 37.657857450871674 female Weist question 6 5 Eng-NA=null
 2	which	which	pro:rel	_	_	3	det	None MOT Mother	Emma 37.657857450871674 female Weist question 6 5 Eng-NA=null
-3	one	one	pro:indef	_	_	0	rooot	None MOT Mother	Emma 37.657857450871674 female Weist question 6 5 Eng-NA=null
+3	one	one	pro:indef	_	_	0	root	None MOT Mother	Emma 37.657857450871674 female Weist question 6 5 Eng-NA=null
 4	is	be	cop	_	_	3	cop	None MOT Mother	Emma 37.657857450871674 female Weist question 6 5 Eng-NA=null
 5	this	this	pro:dem	_	_	3	nsubj	None MOT Mother	Emma 37.657857450871674 female Weist question 6 5 Eng-NA=null
 
@@ -2252,7 +2247,7 @@
 6	we	we	pro:sub	_	_	8	nsubj	None MOT Mother	Emma 39.46076921497361 female Weist question 18 15 Eng-NA=null
 7	ever	ever	adv	_	_	8	advmod	None MOT Mother	Emma 39.46076921497361 female Weist question 18 15 Eng-NA=null
 8	told	tell	v	_	_	2	parataxis	None MOT Mother	Emma 39.46076921497361 female Weist question 18 15 Eng-NA=null
-9	Jessica	Jessica	n:prop	_	_	8	obj	None MOT Mother	Emma 39.46076921497361 female Weist question 18 15 Eng-NA=null
+9	Jessica	Jessica	n:prop	_	_	8	iobj	None MOT Mother	Emma 39.46076921497361 female Weist question 18 15 Eng-NA=null
 10	how	how	pro:rel	_	_	11	advmod	None MOT Mother	Emma 39.46076921497361 female Weist question 18 15 Eng-NA=null
 11	long	long	v	_	_	12	advmod	None MOT Mother	Emma 39.46076921497361 female Weist question 18 15 Eng-NA=null
 12	ago	ago	post	_	_	15	advmod	None MOT Mother	Emma 39.46076921497361 female Weist question 18 15 Eng-NA=null
@@ -2394,7 +2389,6 @@
 10	pea	pea	n	_	_	2	vocative	None MOT Mother	Emma 37.657857450871674 female Weist declarative 12 10 Eng-NA=null
 
 # text = is that where we
-# Re-evaluate
 1	is	be	cop	_	_	3	cop	None MOT Mother	Emma 37.657857450871674 female Weist interruption question 5 4 Eng-NA=null
 2	that	that	comp	_	_	3	nsubj	None MOT Mother	Emma 37.657857450871674 female Weist interruption question 5 4 Eng-NA=null
 3	where	where	pro:int	_	_	0	root	None MOT Mother	Emma 37.657857450871674 female Weist interruption question 5 4 Eng-NA=null

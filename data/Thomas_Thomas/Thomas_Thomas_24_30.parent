@@ -146,7 +146,7 @@
 10	so	so	adv	13	mark	13	mark	Mother MOT Mother	Thomas 24.591880736770772 male Thomas declarative 20 18 Eng-UK=null
 11	Mummy	Mummy	n:prop	13	nsubj	13	nsubj	Mother MOT Mother	Thomas 24.591880736770772 male Thomas declarative 20 18 Eng-UK=null
 12	can	can	mod	13	aux	13	aux	Mother MOT Mother	Thomas 24.591880736770772 male Thomas declarative 20 18 Eng-UK=null
-13	make	make	v	9	advcl	9	advcl	Mother MOT Mother	Thomas 24.591880736770772 male Thomas declarative 20 18 Eng-UK=null
+13	make	make	v	8	advcl	8	advcl	Mother MOT Mother	Thomas 24.591880736770772 male Thomas declarative 20 18 Eng-UK=null
 14	herself	herself	pro:refl	13	iobj	13	iobj	Mother MOT Mother	Thomas 24.591880736770772 male Thomas declarative 20 18 Eng-UK=null
 15	a	a	det:art	16	det	16	det	Mother MOT Mother	Thomas 24.591880736770772 male Thomas declarative 20 18 Eng-UK=null
 16	cup	cup	n	13	obj	13	obj	Mother MOT Mother	Thomas 24.591880736770772 male Thomas declarative 20 18 Eng-UK=null
@@ -318,7 +318,7 @@
 1	that	that	n	_	_	3	nsubj	Mother MOT Mother	Thomas 24.526170968603054 male Thomas declarative 6 5 Eng-UK=null
 2	's	be	cop	_	_	3	cop	Mother MOT Mother	Thomas 24.526170968603054 male Thomas declarative 6 5 Eng-UK=null
 3	Thomas	Thomas	n:prop	_	_	0	root	Mother MOT Mother	Thomas 24.526170968603054 male Thomas declarative 6 5 Eng-UK=null
-4	the	the	det:art	_	_	6	det	Mother MOT Mother	Thomas 24.526170968603054 male Thomas declarative 6 5 Eng-UK=null
+4	the	the	det:art	_	_	7	det	Mother MOT Mother	Thomas 24.526170968603054 male Thomas declarative 6 5 Eng-UK=null
 5	blue	blue	n	_	_	7	amod	Mother MOT Mother	Thomas 24.526170968603054 male Thomas declarative 6 5 Eng-UK=null
 6	Tank	Tank_Engine	n:prop	_	_	7	compound	Mother MOT Mother	Thomas 24.526170968603054 male Thomas declarative 6 5 Eng-UK=null
 7	Engine	Engine	combined	_	_	3	flat	Mother MOT Mother	Thomas 24.526170968603054 male Thomas declarative 6 5 Eng-UK=null
@@ -476,7 +476,7 @@
 3	James	James	n:prop	_	_	1	nsubj	Mother MOT Mother	Thomas 24.394751432267604 male Thomas question 6 5 Eng-UK=null
 4	on	on	prep	_	_	6	case	Mother MOT Mother	Thomas 24.394751432267604 male Thomas question 6 5 Eng-UK=null
 5	the	the	det:art	_	_	6	det	Mother MOT Mother	Thomas 24.394751432267604 male Thomas question 6 5 Eng-UK=null
-6	book	book	n	_	_	3	nmod	Mother MOT Mother	Thomas 24.394751432267604 male Thomas question 6 5 Eng-UK=null
+6	book	book	n	_	_	1	nmod	Mother MOT Mother	Thomas 24.394751432267604 male Thomas question 6 5 Eng-UK=null
 
 # text = that 's bread
 1	that	that	n	_	_	3	nsubj	Mother MOT Mother	Thomas 24.427606316351465 male Thomas declarative 3 2 Eng-UK=null
@@ -1210,9 +1210,9 @@
 2	pear	pear	n	_	_	0	root	Mother MOT Mother	Thomas 24.427606316351465 male Thomas declarative 2 2 Eng-UK=null
 
 # text = like Postman Pat
-1	like	like	conj	_	_	3	case	Mother MOT Mother	Thomas 24.526170968603054 male Thomas declarative 2 2 Eng-UK=null
-2	Postman	Postman_Pat	n:prop	_	_	3	compound	Mother MOT Mother	Thomas 24.526170968603054 male Thomas declarative 2 2 Eng-UK=null
-3	Pat	Pat	combined	_	_	0	root	Mother MOT Mother	Thomas 24.526170968603054 male Thomas declarative 2 2 Eng-UK=null
+1	like	like	conj	_	_	2	case	Mother MOT Mother	Thomas 24.526170968603054 male Thomas declarative 2 2 Eng-UK=null
+2	Postman	Postman_Pat	n:prop	_	_	0	root	Mother MOT Mother	Thomas 24.526170968603054 male Thomas declarative 2 2 Eng-UK=null
+3	Pat	Pat	combined	_	_	2	flat	Mother MOT Mother	Thomas 24.526170968603054 male Thomas declarative 2 2 Eng-UK=null
 
 # text = and that 's Percy
 1	and	and	coord	_	_	4	cc	Mother MOT Mother	Thomas 24.394751432267604 male Thomas declarative 4 3 Eng-UK=null
@@ -1871,10 +1871,10 @@
 # text = I 'm sure I 'm sure Mummy looks very silly
 1	I	I	pro:sub	_	_	3	nsubj	Mother MOT Mother	Thomas 24.427606316351465 male Thomas declarative 8 8 Eng-UK=null
 2	'm	be	cop	_	_	3	cop	Mother MOT Mother	Thomas 24.427606316351465 male Thomas declarative 8 8 Eng-UK=null
-3	sure	sure	adj	_	_	0	root	Mother MOT Mother	Thomas 24.427606316351465 male Thomas declarative 8 8 Eng-UK=null
+3	sure	sure	adj	_	_	6	reparandum:repetition	Mother MOT Mother	Thomas 24.427606316351465 male Thomas declarative 8 8 Eng-UK=null
 4	I	Mummy	n:prop	_	_	6	nsubj	Mother MOT Mother	Thomas 24.427606316351465 male Thomas declarative 8 8 Eng-UK=null
 5	'm	be	cop	_	_	6	cop	Mother MOT Mother	Thomas 24.427606316351465 male Thomas declarative 8 8 Eng-UK=null
-6	sure	look	v	_	_	3	parataxis	Mother MOT Mother	Thomas 24.427606316351465 male Thomas declarative 8 8 Eng-UK=null
+6	sure	look	v	_	_	0	root	Mother MOT Mother	Thomas 24.427606316351465 male Thomas declarative 8 8 Eng-UK=null
 7	Mummy	very	adv	_	_	8	nsubj	Mother MOT Mother	Thomas 24.427606316351465 male Thomas declarative 8 8 Eng-UK=null
 8	looks	silly	adj	_	_	6	ccomp	Mother MOT Mother	Thomas 24.427606316351465 male Thomas declarative 8 8 Eng-UK=null
 9	very	_	_	_	_	10	advmod	Mother MOT Mother	Thomas 24.427606316351465 male Thomas declarative 8 8 Eng-UK=null
@@ -1958,9 +1958,9 @@
 3	our	our	det:poss	_	_	9	nmod:poss	Mother MOT Mother	Thomas 24.62473562085464 male Thomas question 9 8 Eng-UK=null
 4	good	good	adj	_	_	5	amod	Mother MOT Mother	Thomas 24.62473562085464 male Thomas question 9 8 Eng-UK=null
 5	morning	morning	n	_	_	9	compound	Mother MOT Mother	Thomas 24.62473562085464 male Thomas question 9 8 Eng-UK=null
-6	P	P_B_Bear	n:prop	_	_	9	nmod	Mother MOT Mother	Thomas 24.62473562085464 male Thomas question 9 8 Eng-UK=null
+6	P	P_B_Bear	n:prop	_	_	5	vocative	Mother MOT Mother	Thomas 24.62473562085464 male Thomas question 9 8 Eng-UK=null
 7	B	B	combined	_	_	6	flat	Mother MOT Mother	Thomas 24.62473562085464 male Thomas question 9 8 Eng-UK=null
-8	Bear	Bear	combined	_	_	5	vocative	Mother MOT Mother	Thomas 24.62473562085464 male Thomas question 9 8 Eng-UK=null
+8	Bear	Bear	combined	_	_	6	flat	Mother MOT Mother	Thomas 24.62473562085464 male Thomas question 9 8 Eng-UK=null
 9	book	book	n	_	_	10	nsubj	Mother MOT Mother	Thomas 24.62473562085464 male Thomas question 9 8 Eng-UK=null
 10	say	say	v	_	_	0	root	Mother MOT Mother	Thomas 24.62473562085464 male Thomas question 9 8 Eng-UK=null
 
@@ -2132,10 +2132,10 @@
 # text = find your coat hat and scarf
 1	find	find	v	_	_	0	root	Mother MOT Mother	Thomas 24.62473562085464 male Thomas declarative 6 6 Eng-UK=null
 2	your	your	det:poss	_	_	4	nmod:poss	Mother MOT Mother	Thomas 24.62473562085464 male Thomas declarative 6 6 Eng-UK=null
-3	coat	coat	n	_	_	4	compound	Mother MOT Mother	Thomas 24.62473562085464 male Thomas declarative 6 6 Eng-UK=null
-4	hat	hat	n	_	_	1	obj	Mother MOT Mother	Thomas 24.62473562085464 male Thomas declarative 6 6 Eng-UK=null
+3	coat	coat	n	_	_	1	obj	Mother MOT Mother	Thomas 24.62473562085464 male Thomas declarative 6 6 Eng-UK=null
+4	hat	hat	n	_	_	3	conj	Mother MOT Mother	Thomas 24.62473562085464 male Thomas declarative 6 6 Eng-UK=null
 5	and	and	coord	_	_	6	cc	Mother MOT Mother	Thomas 24.62473562085464 male Thomas declarative 6 6 Eng-UK=null
-6	scarf	scarf	n	_	_	4	conj	Mother MOT Mother	Thomas 24.62473562085464 male Thomas declarative 6 6 Eng-UK=null
+6	scarf	scarf	n	_	_	3	conj	Mother MOT Mother	Thomas 24.62473562085464 male Thomas declarative 6 6 Eng-UK=null
 
 # text = Toby 's brown is n't he
 1	Toby	Toby	n	_	_	3	nsubj	Mother MOT Mother	Thomas 24.394751432267604 male Thomas question 8 4 Eng-UK=null
@@ -2489,7 +2489,7 @@
 8	had	_	_	_	_	5	parataxis	Mother MOT Mother	Thomas 24.62473562085464 male Thomas declarative 10 13 Eng-UK=null
 9	time	_	_	_	_	8	obj	Mother MOT Mother	Thomas 24.62473562085464 male Thomas declarative 10 13 Eng-UK=null
 10	to	_	_	_	_	11	mark	Mother MOT Mother	Thomas 24.62473562085464 male Thomas declarative 10 13 Eng-UK=null
-11	clean	_	_	_	_	6	acl	Mother MOT Mother	Thomas 24.62473562085464 male Thomas declarative 10 13 Eng-UK=null
+11	clean	_	_	_	_	8	advcl	Mother MOT Mother	Thomas 24.62473562085464 male Thomas declarative 10 13 Eng-UK=null
 12	your	_	_	_	_	13	nmod:poss	Mother MOT Mother	Thomas 24.62473562085464 male Thomas declarative 10 13 Eng-UK=null
 13	shoes	_	_	_	_	11	obj	Mother MOT Mother	Thomas 24.62473562085464 male Thomas declarative 10 13 Eng-UK=null
 14	yet	_	_	_	_	11	advmod	Mother MOT Mother	Thomas 24.62473562085464 male Thomas declarative 10 13 Eng-UK=null
@@ -2519,7 +2519,7 @@
 # text = is that baby Abigail
 1	is	be	cop	_	_	4	cop	Mother MOT Mother	Thomas 24.526170968603054 male Thomas question 5 4 Eng-UK=null
 2	that	that	pro:dem	_	_	4	det	Mother MOT Mother	Thomas 24.526170968603054 male Thomas question 5 4 Eng-UK=null
-3	baby	baby	v	_	_	4	nmod	Mother MOT Mother	Thomas 24.526170968603054 male Thomas question 5 4 Eng-UK=null
+3	baby	baby	v	_	_	4	amod	Mother MOT Mother	Thomas 24.526170968603054 male Thomas question 5 4 Eng-UK=null
 4	Abigail	Abigail	n:prop	_	_	0	root	Mother MOT Mother	Thomas 24.526170968603054 male Thomas question 5 4 Eng-UK=null
 
 # text = let 's have a look
@@ -2554,7 +2554,7 @@
 # text = is that baby Abigail with Daddy
 1	is	be	cop	_	_	4	cop	Mother MOT Mother	Thomas 24.526170968603054 male Thomas question 7 6 Eng-UK=null
 2	that	that	pro:dem	_	_	4	det	Mother MOT Mother	Thomas 24.526170968603054 male Thomas question 7 6 Eng-UK=null
-3	baby	baby	v	_	_	4	nmod	Mother MOT Mother	Thomas 24.526170968603054 male Thomas question 7 6 Eng-UK=null
+3	baby	baby	v	_	_	4	amod	Mother MOT Mother	Thomas 24.526170968603054 male Thomas question 7 6 Eng-UK=null
 4	Abigail	Abigail	n:prop	_	_	0	root	Mother MOT Mother	Thomas 24.526170968603054 male Thomas question 7 6 Eng-UK=null
 5	with	with	prep	_	_	6	case	Mother MOT Mother	Thomas 24.526170968603054 male Thomas question 7 6 Eng-UK=null
 6	Daddy	Daddy	n:prop	_	_	4	nmod	Mother MOT Mother	Thomas 24.526170968603054 male Thomas question 7 6 Eng-UK=null

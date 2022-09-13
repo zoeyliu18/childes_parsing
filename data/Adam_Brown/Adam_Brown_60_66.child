@@ -6,9 +6,8 @@
 5	five	five	det:num	1	conj=	1	conj	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 5 5 Eng-NA=null
 
 # text = forty four
-# Re-evaluate
 1	forty	forty	det:num	0	root=	0	root	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 2 2 Eng-NA=null
-2	four	four	det:num	1	compound=	1	conj	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 2 2 Eng-NA=null
+2	four	four	det:num	1	conj=	1	conj	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 2 2 Eng-NA=null
 
 # text = do n't play it yet
 1	do	do	mod	3	aux=	3	aux	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 5 4 Eng-NA=null
@@ -65,7 +64,7 @@
 5	gon	go	part	1	parataxis=	1	parataxis	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 9 6 Eng-NA=null
 6	na	to	inf	7	mark=	7	mark	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 9 6 Eng-NA=null
 7	show	show	v	5	xcomp=	5	xcomp	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 9 6 Eng-NA=null
-8	you	you	pro:per	7	obj=	7	obj	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 9 6 Eng-NA=null
+8	you	you	pro:per	7	iobj=	7	iobj	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 9 6 Eng-NA=null
 
 # text = you just can walk to the window
 1	you	you	pro:per	4	nsubj=	4	nsubj	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 7 7 Eng-NA=null
@@ -343,7 +342,7 @@
 # text = I told you
 1	I	I	pro:sub	_	_	2	nsubj	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 4 3 Eng-NA=null
 2	told	tell	v	_	_	0	root	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 4 3 Eng-NA=null
-3	you	you	pro:per	_	_	2	obj	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 4 3 Eng-NA=null
+3	you	you	pro:per	_	_	2	iobj	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 4 3 Eng-NA=null
 
 # text = yes I did
 1	yes	yes	co	_	_	3	discourse	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 4 3 Eng-NA=null
@@ -2119,7 +2118,7 @@
 2	want	want	v	_	_	0	root	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 5 5 Eng-NA=null
 3	ta	to	inf	_	_	4	mark	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 5 5 Eng-NA=null
 4	show	show	v	_	_	2	xcomp	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 5 5 Eng-NA=null
-5	Mommy	Mommy	n:prop	_	_	4	obj	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 5 5 Eng-NA=null
+5	Mommy	Mommy	n:prop	_	_	4	iobj	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 5 5 Eng-NA=null
 
 # text = this is a worm
 1	this	this	pro:dem	_	_	4	nsubj	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 5 4 Eng-NA=null
@@ -2407,7 +2406,7 @@
 # text = hey show me how to play this
 1	hey	hey	co	_	_	2	discourse	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 7 7 Eng-NA=null
 2	show	show	v	_	_	0	root	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 7 7 Eng-NA=null
-3	me	me	pro:obj	_	_	2	obj	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 7 7 Eng-NA=null
+3	me	me	pro:obj	_	_	2	iobj	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 7 7 Eng-NA=null
 4	how	how	pro:int	_	_	6	mark	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 7 7 Eng-NA=null
 5	to	to	inf	_	_	6	mark	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 7 7 Eng-NA=null
 6	play	play	v	_	_	2	xcomp	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 7 7 Eng-NA=null
@@ -2613,7 +2612,7 @@
 
 # text = show me how to make dat
 1	show	show	v	_	_	0	root	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 6 6 Eng-NA=null
-2	me	me	pro:obj	_	_	1	obj	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 6 6 Eng-NA=null
+2	me	me	pro:obj	_	_	1	iobj	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 6 6 Eng-NA=null
 3	how	how	pro:int	_	_	5	mark	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 6 6 Eng-NA=null
 4	to	to	inf	_	_	5	mark	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 6 6 Eng-NA=null
 5	make	make	v	_	_	1	xcomp	Adam CHI Target_Child	Adam 62.39553173576459 male Brown declarative 6 6 Eng-NA=null

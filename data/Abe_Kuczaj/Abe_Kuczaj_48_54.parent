@@ -88,12 +88,11 @@
 12	letters	letter	n	10	obj	10	obj	None MOT Mother	Abe 48.0995502987741 male Kuczaj question 13 11 Eng-NA=null
 
 # text = is that what you want
-# Re-evaluate
 1	is	be	cop	3	cop	3	cop	None MOT Mother	Abe 48.0995502987741 male Kuczaj question 6 5 Eng-NA=null
 2	that	that	pro:dem	3	nsubj	3	nsubj	None MOT Mother	Abe 48.0995502987741 male Kuczaj question 6 5 Eng-NA=null
 3	what	what	pro:int	0	root	0	root	None MOT Mother	Abe 48.0995502987741 male Kuczaj question 6 5 Eng-NA=null
 4	you	you	pro:per	5	nsubj	5	nsubj	None MOT Mother	Abe 48.0995502987741 male Kuczaj question 6 5 Eng-NA=null
-5	want	want	v	3	acl:relcl	3	acl	None MOT Mother	Abe 48.0995502987741 male Kuczaj question 6 5 Eng-NA=null
+5	want	want	v	3	acl:relcl	3	acl:relcl	None MOT Mother	Abe 48.0995502987741 male Kuczaj question 6 5 Eng-NA=null
 
 # text = the bow
 1	the	the	det:art	2	det	2	det	None MOT Mother	Abe 48.0995502987741 male Kuczaj question 2 2 Eng-NA=null
@@ -224,14 +223,13 @@
 3	movie	movie	n	0	root	0	root	None FAT Father	Abe 49.16528060124438 male Kuczaj question 3 3 Eng-NA=null
 
 # text = Abe I have a question for you
-# Re-evaluate
 1	Abe	Abe	n:prop	3	vocative	3	vocative	None FAT Father	Abe 48.82235774861907 male Kuczaj declarative 7 7 Eng-NA=null
 2	I	I	pro:sub	3	nsubj	3	nsubj	None FAT Father	Abe 48.82235774861907 male Kuczaj declarative 7 7 Eng-NA=null
 3	have	have	v	0	root	0	root	None FAT Father	Abe 48.82235774861907 male Kuczaj declarative 7 7 Eng-NA=null
 4	a	a	det:art	5	det	5	det	None FAT Father	Abe 48.82235774861907 male Kuczaj declarative 7 7 Eng-NA=null
 5	question	question	n	3	obj	3	obj	None FAT Father	Abe 48.82235774861907 male Kuczaj declarative 7 7 Eng-NA=null
 6	for	for	prep	7	case	7	case	None FAT Father	Abe 48.82235774861907 male Kuczaj declarative 7 7 Eng-NA=null
-7	you	you	pro:per	5	nmod	3	obl	None FAT Father	Abe 48.82235774861907 male Kuczaj declarative 7 7 Eng-NA=null
+7	you	you	pro:per	5	nmod	5	nmod	None FAT Father	Abe 48.82235774861907 male Kuczaj declarative 7 7 Eng-NA=null
 
 # text = just a second and I 'll help you
 1	just	just	adv	3	advmod	3	advmod	None FAT Father	Abe 48.0995502987741 male Kuczaj declarative 8 7 Eng-NA=null
@@ -515,7 +513,6 @@
 3	who	who	pro:rel	_	_	1	obl	None FAT Father	Abe 49.65810386250231 male Kuczaj question 3 3 Eng-NA=null
 
 # text = yeah will you tell me how to play
-# Re-evaluate:tell
 1	yeah	yeah	co	_	_	4	discourse	None FAT Father	Abe 49.16528060124438 male Kuczaj question 8 8 Eng-NA=null
 2	will	will	mod	_	_	4	aux	None FAT Father	Abe 49.16528060124438 male Kuczaj question 8 8 Eng-NA=null
 3	you	you	pro:per	_	_	4	nsubj	None FAT Father	Abe 49.16528060124438 male Kuczaj question 8 8 Eng-NA=null
@@ -523,7 +520,7 @@
 5	me	me	pro:obj	_	_	4	iobj	None FAT Father	Abe 49.16528060124438 male Kuczaj question 8 8 Eng-NA=null
 6	how	how	pro:int	_	_	8	mark	None FAT Father	Abe 49.16528060124438 male Kuczaj question 8 8 Eng-NA=null
 7	to	to	inf	_	_	8	mark	None FAT Father	Abe 49.16528060124438 male Kuczaj question 8 8 Eng-NA=null
-8	play	play	v	_	_	4	xcomp	None FAT Father	Abe 49.16528060124438 male Kuczaj question 8 8 Eng-NA=null
+8	play	play	v	_	_	4	ccomp	None FAT Father	Abe 49.16528060124438 male Kuczaj question 8 8 Eng-NA=null
 
 # text = oh I 'm sorry
 1	oh	oh	co	_	_	4	discourse	None FAT Father	Abe 49.65810386250231 male Kuczaj declarative 4 3 Eng-NA=null
@@ -757,7 +754,6 @@
 6	these	these	pro:dem	_	_	5	obj	None MOT Mother	Abe 48.493808907780455 male Kuczaj question 6 5 Eng-NA=null
 
 # text = oh you know what we 're celebrating
-# Re-evaluate
 1	oh	oh	co	_	_	3	discourse	None FAT Father	Abe 49.493829442083 male Kuczaj declarative 8 6 Eng-NA=null
 2	you	you	pro:per	_	_	3	nsubj	None FAT Father	Abe 49.493829442083 male Kuczaj declarative 8 6 Eng-NA=null
 3	know	know	v	_	_	0	root	None FAT Father	Abe 49.493829442083 male Kuczaj declarative 8 6 Eng-NA=null
@@ -1474,7 +1470,7 @@
 4	wan	want	v	_	_	0	root	None FAT Father	Abe 49.95379781925707 male Kuczaj question 8 7 Eng-NA=null
 5	na	to	inf	_	_	6	mark	None FAT Father	Abe 49.95379781925707 male Kuczaj question 8 7 Eng-NA=null
 6	do	do	v	_	_	4	xcomp	None FAT Father	Abe 49.95379781925707 male Kuczaj question 8 7 Eng-NA=null
-7	tomorrow	tomorrow	adv:tem	_	_	8	obl:nmod	None FAT Father	Abe 49.95379781925707 male Kuczaj question 8 7 Eng-NA=null
+7	tomorrow	tomorrow	adv:tem	_	_	8	obl:tmod	None FAT Father	Abe 49.95379781925707 male Kuczaj question 8 7 Eng-NA=null
 8	morning	morning	n	_	_	6	obl:tmod	None FAT Father	Abe 49.95379781925707 male Kuczaj question 8 7 Eng-NA=null
 
 # text = in where

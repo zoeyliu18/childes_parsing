@@ -312,14 +312,13 @@
 8	mine	mine	pro:poss	7	obj	7	obj	Laura CHI Target_Child	Laura 25.62475615515719 female Braunwald declarative 8 7 Eng-NA=null
 
 # text = Mommy I get I do n't want you to get my napkin
-# Re-evaluate
-1	Mommy	Mommy	n:prop	3	vocative	3	vocative	Laura CHI Target_Child	Laura 25.62475615515719 female Braunwald declarative 10 11 Eng-NA=null
+1	Mommy	Mommy	n:prop	7	vocative	7	vocative	Laura CHI Target_Child	Laura 25.62475615515719 female Braunwald declarative 10 11 Eng-NA=null
 2	I	I	pro:sub	3	nsubj	3	nsubj	Laura CHI Target_Child	Laura 25.62475615515719 female Braunwald declarative 10 11 Eng-NA=null
-3	get	get	v	0	root	7	reparandum:restart	Laura CHI Target_Child	Laura 25.62475615515719 female Braunwald declarative 10 11 Eng-NA=null
+3	get	get	v	7	reparandum:restart	7	reparandum:restart	Laura CHI Target_Child	Laura 25.62475615515719 female Braunwald declarative 10 11 Eng-NA=null
 4	I	I	pro:sub	7	nsubj	7	nsubj	Laura CHI Target_Child	Laura 25.62475615515719 female Braunwald declarative 10 11 Eng-NA=null
 5	do	do	mod	7	aux	7	aux	Laura CHI Target_Child	Laura 25.62475615515719 female Braunwald declarative 10 11 Eng-NA=null
 6	n't	not	neg	7	advmod	7	advmod	Laura CHI Target_Child	Laura 25.62475615515719 female Braunwald declarative 10 11 Eng-NA=null
-7	want	want	v	3	parataxis	0	root	Laura CHI Target_Child	Laura 25.62475615515719 female Braunwald declarative 10 11 Eng-NA=null
+7	want	want	v	0	root	0	root	Laura CHI Target_Child	Laura 25.62475615515719 female Braunwald declarative 10 11 Eng-NA=null
 8	you	you	pro:per	7	obj	7	obj	Laura CHI Target_Child	Laura 25.62475615515719 female Braunwald declarative 10 11 Eng-NA=null
 9	to	to	inf	10	mark	10	mark	Laura CHI Target_Child	Laura 25.62475615515719 female Braunwald declarative 10 11 Eng-NA=null
 10	get	get	v	7	xcomp	7	xcomp	Laura CHI Target_Child	Laura 25.62475615515719 female Braunwald declarative 10 11 Eng-NA=null
@@ -1210,7 +1209,7 @@
 
 # text = tell Momma I 'm
 1	tell	tell	v	_	_	0	root	Laura CHI Target_Child	Laura 25.65761103924105 female Braunwald trail off 4 3 Eng-NA=null
-2	Momma	Momma	n:prop	_	_	1	obj	Laura CHI Target_Child	Laura 25.65761103924105 female Braunwald trail off 4 3 Eng-NA=null
+2	Momma	Momma	n:prop	_	_	1	iobj	Laura CHI Target_Child	Laura 25.65761103924105 female Braunwald trail off 4 3 Eng-NA=null
 3	I	I	pro:sub	_	_	4	nsubj	Laura CHI Target_Child	Laura 25.65761103924105 female Braunwald trail off 4 3 Eng-NA=null
 4	'm	be	cop	_	_	1	ccomp	Laura CHI Target_Child	Laura 25.65761103924105 female Braunwald trail off 4 3 Eng-NA=null
 
@@ -2106,7 +2105,6 @@
 4	birthday	_	_	_	_	0	root	Laura CHI Target_Child	Laura 25.32906219840243 female Braunwald question 4 4 Eng-NA=null
 
 # text = and I Mickey Mouse on my shirt
-# Re-evaluate
 1	and	and	coord	_	_	2	cc	Laura CHI Target_Child	Laura 26.49335715312429 female Braunwald declarative 6 6 Eng-NA=null
 2	I	I	pro:sub	_	_	0	root	Laura CHI Target_Child	Laura 26.49335715312429 female Braunwald declarative 6 6 Eng-NA=null
 3	Mickey	Mickey_Mouse	n:prop	_	_	2	parataxis	Laura CHI Target_Child	Laura 26.49335715312429 female Braunwald declarative 6 6 Eng-NA=null
@@ -2838,7 +2836,7 @@
 
 # text = show pie Mummy
 1	show	show	n	_	_	0	root	Laura CHI Target_Child	Laura 26.09909854411795 female Braunwald declarative 3 3 Eng-NA=null
-2	pie	pie	n	_	_	1	obj	Laura CHI Target_Child	Laura 26.09909854411795 female Braunwald declarative 3 3 Eng-NA=null
+2	pie	pie	n	_	_	1	iobj	Laura CHI Target_Child	Laura 26.09909854411795 female Braunwald declarative 3 3 Eng-NA=null
 3	Mummy	Mummy	n:prop	_	_	1	vocative	Laura CHI Target_Child	Laura 26.09909854411795 female Braunwald declarative 3 3 Eng-NA=null
 
 # text = look at my airplane

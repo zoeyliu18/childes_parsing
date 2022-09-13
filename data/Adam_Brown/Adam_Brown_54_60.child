@@ -198,11 +198,10 @@
 5	red	red	n	0	root=	0	root	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 6 5 Eng-NA=null
 
 # text = one mixed up mixed up with red
-# Re-evaluation
-1	one	one	det:num	2	nsubj=	2	nsubj	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 6 7 Eng-NA=null
-2	mixed	mix	v	0	root=	4	reparandum:repetition	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 6 7 Eng-NA=null
+1	one	one	det:num	0	root	0	root	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 6 7 Eng-NA=null
+2	mixed	mix	v	4	reparandum:repetition	4	reparandum:repetition	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 6 7 Eng-NA=null
 3	up	up	adv	2	compound:prt=	2	compound:prt	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 6 7 Eng-NA=null
-4	mixed	with	prep	2	parataxis=	1	acl	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 6 7 Eng-NA=null
+4	mixed	with	prep	1	acl	1	acl	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 6 7 Eng-NA=null
 5	up	red	n	4	compound:prt=	4	compound:prt	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 6 7 Eng-NA=null
 6	with	_	_	7	case=	7	case	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 6 7 Eng-NA=null
 7	red	_	_	4	obl=	4	obl	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 6 7 Eng-NA=null
@@ -239,10 +238,10 @@
 9	down	down	adv	7	compound:prt=	7	compound:prt	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 10 7 Eng-NA=null
 
 # text = if dere two balls I did one for Robin
-1	if	if	conj	4	mark=	2	mark	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 11 9 Eng-NA=null
-2	dere	there	adv	4	nsubj=	6	advcl	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 11 9 Eng-NA=null
+1	if	if	conj	4	mark=	4	mark	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 11 9 Eng-NA=null
+2	dere	there	adv	4	nsubj=	4	expl	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 11 9 Eng-NA=null
 3	two	two	det:num	4	nummod=	4	nummod	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 11 9 Eng-NA=null
-4	balls	ball	n	6	advcl=	2	nsubj	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 11 9 Eng-NA=null
+4	balls	ball	n	6	advcl=	6	advcl	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 11 9 Eng-NA=null
 5	I	I	pro:sub	6	nsubj=	6	nsubj	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 11 9 Eng-NA=null
 6	did	do	v	0	root=	0	root	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 11 9 Eng-NA=null
 7	one	one	pro:indef	6	obj=	6	obj	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 11 9 Eng-NA=null
@@ -347,7 +346,7 @@
 8	what	what	pro:int	_	_	11	obj	Adam CHI Target_Child	Adam 54.78962607035052 male Brown declarative 14 9 Eng-NA=null
 9	I	I	pro:sub	_	_	11	nsubj	Adam CHI Target_Child	Adam 54.78962607035052 male Brown declarative 14 9 Eng-NA=null
 10	'm	be	cop	_	_	11	aux	Adam CHI Target_Child	Adam 54.78962607035052 male Brown declarative 14 9 Eng-NA=null
-11	doing	do	part	_	_	8	ccomp	Adam CHI Target_Child	Adam 54.78962607035052 male Brown declarative 14 9 Eng-NA=null
+11	doing	do	part	_	_	7	ccomp	Adam CHI Target_Child	Adam 54.78962607035052 male Brown declarative 14 9 Eng-NA=null
 
 # text = I can knock anything down Mommy
 1	I	I	pro:sub	_	_	3	nsubj	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 6 6 Eng-NA=null
@@ -686,7 +685,7 @@
 # text = I told her
 1	I	I	pro:sub	_	_	2	nsubj	Adam CHI Target_Child	Adam 54.78962607035052 male Brown declarative 4 3 Eng-NA=null
 2	told	tell	v	_	_	0	root	Adam CHI Target_Child	Adam 54.78962607035052 male Brown declarative 4 3 Eng-NA=null
-3	her	her	pro:obj	_	_	2	obj	Adam CHI Target_Child	Adam 54.78962607035052 male Brown declarative 4 3 Eng-NA=null
+3	her	her	pro:obj	_	_	2	iobj	Adam CHI Target_Child	Adam 54.78962607035052 male Brown declarative 4 3 Eng-NA=null
 
 # text = the spinner
 1	the	the	det:art	_	_	2	det	Adam CHI Target_Child	Adam 54.78962607035052 male Brown declarative 4 2 Eng-NA=null
@@ -2233,7 +2232,7 @@
 # text = windows eight windows
 1	windows	window	n	_	_	0	root	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 5 3 Eng-NA=null
 2	eight	eight	det:num	_	_	3	nummod	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 5 3 Eng-NA=null
-3	windows	window	n	_	_	1	parataxis 	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 5 3 Eng-NA=null
+3	windows	window	n	_	_	1	parataxis	Adam CHI Target_Child	Adam 57.06688022341321 male Brown declarative 5 3 Eng-NA=null
 
 # text = he 's my friend
 1	he	he	pro	_	_	4	nsubj	Adam CHI Target_Child	Adam 54.78962607035052 male Brown declarative 4 3 Eng-NA=null

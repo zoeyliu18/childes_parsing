@@ -154,12 +154,11 @@
 4	going	go	part	0	root	0	root	None FAT Father	Abe 54.03396373642169 male Kuczaj question 6 4 Eng-NA=null
 
 # text = yeah do you know why
-# Re-evaluate
 1	yeah	yeah	co	4	discourse	4	discourse	None MOT Mother	Abe 54.16538327275714 male Kuczaj question 5 5 Eng-NA=null
 2	do	do	mod	4	aux	4	aux	None MOT Mother	Abe 54.16538327275714 male Kuczaj question 5 5 Eng-NA=null
 3	you	you	pro:per	4	nsubj	4	nsubj	None MOT Mother	Abe 54.16538327275714 male Kuczaj question 5 5 Eng-NA=null
 4	know	know	v	0	root	0	root	None MOT Mother	Abe 54.16538327275714 male Kuczaj question 5 5 Eng-NA=null
-5	why	why	pro:rel	4	advmod	4	obj	None MOT Mother	Abe 54.16538327275714 male Kuczaj question 5 5 Eng-NA=null
+5	why	why	pro:rel	4	obj	4	obj	None MOT Mother	Abe 54.16538327275714 male Kuczaj question 5 5 Eng-NA=null
 
 # text = well what do you think would happen if instead of going outside I hit you in the head
 1	well	well	co	5	discourse	5	discourse	None FAT Father	Abe 54.03396373642169 male Kuczaj question 21 18 Eng-NA=null
@@ -189,13 +188,12 @@
 5	knee	knee	n	2	obl	2	obl	None FAT Father	Abe 54.03396373642169 male Kuczaj question 6 5 Eng-NA=null
 
 # text = how did you make your paper cast
-# Re-evaluate
 1	how	how	pro:int	4	advmod	4	advmod	None FAT Father	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
 2	did	do	mod	4	aux	4	aux	None FAT Father	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
 3	you	you	pro:per	4	nsubj	4	nsubj	None FAT Father	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
 4	make	make	v	0	root	0	root	None FAT Father	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
 5	your	your	det:poss	7	nmod:poss	7	nmod:poss	None FAT Father	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
-6	paper	paper	n	7	nmod	7	compound	None FAT Father	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
+6	paper	paper	n	7	compound	7	compound	None FAT Father	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
 7	cast	cast	v	4	obj	4	obj	None FAT Father	Abe 54.03396373642169 male Kuczaj question 9 7 Eng-NA=null
 
 # text = oh animals snakes plants scorpions
@@ -1859,7 +1857,7 @@
 3	potatoes	potato	n	_	_	0	root	None MOT Mother	Abe 56.231134109529975 male Kuczaj declarative 5 3 Eng-NA
 
 # text = you liar
-1	you	you	pro:per	_	_	0	roott	None MOT Mother	Abe 54.39536746134417 male Kuczaj declarative 2 2 Eng-NA
+1	you	you	pro:per	_	_	0	root	None MOT Mother	Abe 54.39536746134417 male Kuczaj declarative 2 2 Eng-NA
 2	liar	liar	n	_	_	1	appos	None MOT Mother	Abe 54.39536746134417 male Kuczaj declarative 2 2 Eng-NA
 
 # text = did you know that

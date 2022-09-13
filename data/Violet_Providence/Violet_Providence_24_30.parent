@@ -223,7 +223,7 @@
 18	coming	come	part	10	advcl	10	advcl	None MOT Mother	Violet 26.36193761678885 female Providence declarative 24 19 Eng-NA=null
 19	until	until	conj	20	case	20	case	None MOT Mother	Violet 26.36193761678885 female Providence declarative 24 19 Eng-NA=null
 20	eleven	eleven	det:num	18	obl	18	obl	None MOT Mother	Violet 26.36193761678885 female Providence declarative 24 19 Eng-NA=null
-21	thirty	thirty	det:num	20	compound	20	flat	None MOT Mother	Violet 26.36193761678885 female Providence declarative 24 19 Eng-NA=null
+21	thirty	thirty	det:num	20	compound	20	conj	None MOT Mother	Violet 26.36193761678885 female Providence declarative 24 19 Eng-NA=null
 
 # text = you come over here if you want
 1	you	you	pro:per	2	nsubj	2	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence declarative 7 7 Eng-NA=null
@@ -248,7 +248,7 @@
 5	lacing	lace	part	4	obj	4	obj	None MOT Mother	Violet 25.32906219840243 female Providence question 6 4 Eng-NA=null
 
 # text = group therapy
-1	group	group	n	2	nmod	2	nmod	None FAT Father	Violet 24.427606316351465 female Providence declarative 2 2 Eng-NA=null
+1	group	group	n	2	compound	2	compound	None FAT Father	Violet 24.427606316351465 female Providence declarative 2 2 Eng-NA=null
 2	therapy	therapy	n	0	root	0	root	None FAT Father	Violet 24.427606316351465 female Providence declarative 2 2 Eng-NA=null
 
 # text = are you sore
@@ -281,7 +281,7 @@
 # text = you know how to do it
 1	you	you	pro:per	_	_	2	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence question 6 6 Eng-NA=null
 2	know	know	v	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence question 6 6 Eng-NA=null
-3	how	how	pro:int	_	_	5	advmod	None MOT Mother	Violet 25.32906219840243 female Providence question 6 6 Eng-NA=null
+3	how	how	pro:int	_	_	5	mark	None MOT Mother	Violet 25.32906219840243 female Providence question 6 6 Eng-NA=null
 4	to	to	inf	_	_	5	mark	None MOT Mother	Violet 25.32906219840243 female Providence question 6 6 Eng-NA=null
 5	do	do	v	_	_	2	ccomp	None MOT Mother	Violet 25.32906219840243 female Providence question 6 6 Eng-NA=null
 6	it	it	pro:per	_	_	5	obj	None MOT Mother	Violet 25.32906219840243 female Providence question 6 6 Eng-NA=null
@@ -290,7 +290,7 @@
 1	oh	oh	co	_	_	2	discourse	None FAT Father	Violet 24.427606316351465 female Providence declarative 4 4 Eng-NA=null
 2	wait	wait	v	_	_	0	root	None FAT Father	Violet 24.427606316351465 female Providence declarative 4 4 Eng-NA=null
 3	a	a	det:art	_	_	4	det	None FAT Father	Violet 24.427606316351465 female Providence declarative 4 4 Eng-NA=null
-4	minute	minute	n	_	_	2	obj	None FAT Father	Violet 24.427606316351465 female Providence declarative 4 4 Eng-NA=null
+4	minute	minute	n	_	_	2	obl:npmod	None FAT Father	Violet 24.427606316351465 female Providence declarative 4 4 Eng-NA=null
 
 # text = this window seems to be very drafty
 1	this	this	det:dem	_	_	2	det	None FAT Father	Violet 24.427606316351465 female Providence declarative 10 7 Eng-NA=null
@@ -313,12 +313,12 @@
 4	live	live	adj	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence question 4 4 Eng-NA=null
 
 # text = come here I'll show you
-1	come	_	_	_	_	5	parataxis	None MOT Mother	Violet 25.32906219840243 female Providence declarative 6 5 Eng-NA=null
+1	come	_	_	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence declarative 6 5 Eng-NA=null
 2	here	_	_	_	_	1	advmod	None MOT Mother	Violet 25.32906219840243 female Providence declarative 6 5 Eng-NA=null
 3	I	_	_	_	_	5	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence declarative 6 5 Eng-NA=null
 4	'll	_	_	_	_	5	aux	None MOT Mother	Violet 25.32906219840243 female Providence declarative 6 5 Eng-NA=null
-5	show	_	_	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence declarative 6 5 Eng-NA=null
-6	you	_	_	_	_	5	obj	None MOT Mother	Violet 25.32906219840243 female Providence declarative 6 5 Eng-NA=null
+5	show	_	_	_	_	1	parataxis	None MOT Mother	Violet 25.32906219840243 female Providence declarative 6 5 Eng-NA=null
+6	you	_	_	_	_	5	iobj	None MOT Mother	Violet 25.32906219840243 female Providence declarative 6 5 Eng-NA=null
 
 # text = I know that 's the drafty window
 1	I	I	pro:sub	_	_	2	nsubj	None MOT Mother	Violet 24.427606316351465 female Providence declarative 9 6 Eng-NA=null
@@ -387,7 +387,7 @@
 17	is	be	cop	_	_	20	cop	None MOT Mother	Violet 25.32906219840243 female Providence question 27 19 Eng-NA=null
 18	n't	not	neg	_	_	20	advmod	None MOT Mother	Violet 25.32906219840243 female Providence question 27 19 Eng-NA=null
 19	that	that	det:dem	_	_	20	advmod	None MOT Mother	Violet 25.32906219840243 female Providence question 27 19 Eng-NA=null
-20	funny	fun	adj	_	_	13	acl:relcl	None MOT Mother	Violet 25.32906219840243 female Providence question 27 19 Eng-NA=null
+20	funny	fun	adj	_	_	2	parataxis	None MOT Mother	Violet 25.32906219840243 female Providence question 27 19 Eng-NA=null
 
 # text = what 's your favorite color
 1	what	what	n	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence question 5 4 Eng-NA=null
@@ -398,15 +398,15 @@
 
 # text = with what a sponge
 1	with	with	prep	_	_	2	case	None MOT Mother	Violet 26.36193761678885 female Providence question 4 4 Eng-NA=null
-2	what	what	pro:int	_	_	4	det:predet	None MOT Mother	Violet 26.36193761678885 female Providence question 4 4 Eng-NA=null
+2	what	what	pro:int	_	_	0	root	None MOT Mother	Violet 26.36193761678885 female Providence question 4 4 Eng-NA=null
 3	a	a	det:art	_	_	4	det	None MOT Mother	Violet 26.36193761678885 female Providence question 4 4 Eng-NA=null
-4	sponge	sponge	n	_	_	0	root	None MOT Mother	Violet 26.36193761678885 female Providence question 4 4 Eng-NA=null
+4	sponge	sponge	n	_	_	2	parataxis	None MOT Mother	Violet 26.36193761678885 female Providence question 4 4 Eng-NA=null
 
 # text = alright I think I it 's going
 1	alright	alright	co	_	_	3	discourse	None MOT Mother	Violet 24.427606316351465 female Providence declarative 8 6 Eng-NA=null
 2	I	I	pro:sub	_	_	3	nsubj	None MOT Mother	Violet 24.427606316351465 female Providence declarative 8 6 Eng-NA=null
 3	think	think	v	_	_	0	root	None MOT Mother	Violet 24.427606316351465 female Providence declarative 8 6 Eng-NA=null
-4	I	I	pro:sub	_	_	7	mark	None MOT Mother	Violet 24.427606316351465 female Providence declarative 8 6 Eng-NA=null
+4	I	I	pro:sub	_	_	5	reparandum	None MOT Mother	Violet 24.427606316351465 female Providence declarative 8 6 Eng-NA=null
 5	it	it	pro	_	_	7	nsubj	None MOT Mother	Violet 24.427606316351465 female Providence declarative 8 6 Eng-NA=null
 6	's	be	cop	_	_	7	aux	None MOT Mother	Violet 24.427606316351465 female Providence declarative 8 6 Eng-NA=null
 7	going	go	part	_	_	3	ccomp	None MOT Mother	Violet 24.427606316351465 female Providence declarative 8 6 Eng-NA=null
@@ -425,7 +425,7 @@
 3	it	it	pro:per	_	_	2	obj	None FAT Father	Violet 24.427606316351465 female Providence question 8 6 Eng-NA=null
 4	going	go	part	_	_	2	xcomp	None FAT Father	Violet 24.427606316351465 female Providence question 8 6 Eng-NA=null
 5	there	there	adv	_	_	4	advmod	None FAT Father	Violet 24.427606316351465 female Providence question 8 6 Eng-NA=null
-6	lady	lady	n	_	_	2	parataxis	None FAT Father	Violet 24.427606316351465 female Providence question 8 6 Eng-NA=null
+6	lady	lady	n	_	_	2	vocative	None FAT Father	Violet 24.427606316351465 female Providence question 8 6 Eng-NA=null
 
 # text = you ca n't use a sponge
 1	you	you	pro:per	_	_	4	nsubj	None MOT Mother	Violet 26.36193761678885 female Providence declarative 6 5 Eng-NA=null
@@ -451,7 +451,7 @@
 4	for	for	prep	_	_	5	case	None MOT Mother	Violet 25.32906219840243 female Providence declarative 7 7 Eng-NA=null
 5	me	me	pro:obj	_	_	2	obl	None MOT Mother	Violet 25.32906219840243 female Providence declarative 7 7 Eng-NA=null
 6	and	and	coord	_	_	7	cc	None MOT Mother	Violet 25.32906219840243 female Providence declarative 7 7 Eng-NA=null
-7	you	you	pro:per	_	_	2	conj	None MOT Mother	Violet 25.32906219840243 female Providence declarative 7 7 Eng-NA=null
+7	you	you	pro:per	_	_	5	conj	None MOT Mother	Violet 25.32906219840243 female Providence declarative 7 7 Eng-NA=null
 
 # text = aw it 's open from the top
 1	aw	it	pro:per	_	_	4	discourse	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
@@ -468,11 +468,11 @@
 3	fault	_	_	_	_	0	root	None MOT Mother	Violet 24.427606316351465 female Providence declarative 3 5 Eng-NA=null
 
 # text = I'll xxx it I'll xxx it
-1	I'll	I	pro:sub	_	_	2	nsubj	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
-2	xxx	xxx	xxx	_	_	0	root	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
+1	I	I	pro:sub	_	_	2	nsubj	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
+2	'll	I	pro:sub	_	_	0	root	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
 3	it	I	pro:sub	_	_	2	obj	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
-4	I'll	it	pro:per	_	_	5	aux	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
-5	xxx	xxx	xxx	_	_	2	parataxis	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
+4	I	it	pro:per	_	_	5	nsubj	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
+5	'll	I	pro:sub	_	_	2	parataxis	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
 6	it	_	_	_	_	5	obj	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
 
 # text = which one do you like
@@ -525,8 +525,8 @@
 6	cup	cup	n	_	_	4	obj	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 7 6 Eng-NA=null
 
 # text = heh like what
-1	heh	heh	co	_	_	2	discourse	None MOT Mother	Violet 24.427606316351465 female Providence question 3 3 Eng-NA=null
-2	like	like	v	_	_	3	discourse	None MOT Mother	Violet 24.427606316351465 female Providence question 3 3 Eng-NA=null
+1	heh	heh	co	_	_	3	discourse	None MOT Mother	Violet 24.427606316351465 female Providence question 3 3 Eng-NA=null
+2	like	like	v	_	_	3	case	None MOT Mother	Violet 24.427606316351465 female Providence question 3 3 Eng-NA=null
 3	what	what	pro:int	_	_	0	root	None MOT Mother	Violet 24.427606316351465 female Providence question 3 3 Eng-NA=null
 
 # text = what do you want to drink
@@ -551,11 +551,11 @@
 # text = milk or uh juice
 1	milk	milk	n	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence question 3 4 Eng-NA=null
 2	or	or	coord	_	_	4	cc	None MOT Mother	Violet 25.62475615515719 female Providence question 3 4 Eng-NA=null
-3	uh	juice	n	_	_	4	compound	None MOT Mother	Violet 25.62475615515719 female Providence question 3 4 Eng-NA=null
+3	uh	juice	n	_	_	4	discourse	None MOT Mother	Violet 25.62475615515719 female Providence question 3 4 Eng-NA=null
 4	juice	_	_	_	_	1	conj	None MOT Mother	Violet 25.62475615515719 female Providence question 3 4 Eng-NA=null
 
 # text = okay now which ones for Vaivy
-1	okay	okay	co	_	_	2	discourse	None MOT Mother	Violet 25.32906219840243 female Providence question 7 6 Eng-NA=null
+1	okay	okay	co	_	_	4	discourse	None MOT Mother	Violet 25.32906219840243 female Providence question 7 6 Eng-NA=null
 2	now	now	adv	_	_	4	advmod	None MOT Mother	Violet 25.32906219840243 female Providence question 7 6 Eng-NA=null
 3	which	which	pro:rel	_	_	4	det	None MOT Mother	Violet 25.32906219840243 female Providence question 7 6 Eng-NA=null
 4	ones	one	det:num	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence question 7 6 Eng-NA=null
@@ -569,12 +569,12 @@
 
 # text = the one that they had there 's one that they had xxx
 1	the	_	_	_	_	2	det	None FAT Father	Violet 24.427606316351465 female Providence declarative 13 11 Eng-NA=null
-2	one	_	_	_	_	7	nsubj	None FAT Father	Violet 24.427606316351465 female Providence declarative 13 11 Eng-NA=null
+2	one	_	_	_	_	0	root	None FAT Father	Violet 24.427606316351465 female Providence declarative 13 11 Eng-NA=null
 3	that	_	_	_	_	5	obj	None FAT Father	Violet 24.427606316351465 female Providence declarative 13 11 Eng-NA=null
 4	they	_	_	_	_	5	nsubj	None FAT Father	Violet 24.427606316351465 female Providence declarative 13 11 Eng-NA=null
 5	had	_	_	_	_	2	acl:relcl	None FAT Father	Violet 24.427606316351465 female Providence declarative 13 11 Eng-NA=null
 6	there	_	_	_	_	7	expl	None FAT Father	Violet 24.427606316351465 female Providence declarative 13 11 Eng-NA=null
-7	's	_	_	_	_	0	root	None FAT Father	Violet 24.427606316351465 female Providence declarative 13 11 Eng-NA=null
+7	's	_	_	_	_	2	parataxis	None FAT Father	Violet 24.427606316351465 female Providence declarative 13 11 Eng-NA=null
 8	one	_	_	_	_	7	nsubj	None FAT Father	Violet 24.427606316351465 female Providence declarative 13 11 Eng-NA=null
 9	that	_	_	_	_	11	obj	None FAT Father	Violet 24.427606316351465 female Providence declarative 13 11 Eng-NA=null
 10	they	_	_	_	_	11	nsubj	None FAT Father	Violet 24.427606316351465 female Providence declarative 13 11 Eng-NA=null
@@ -590,9 +590,9 @@
 7	first	first	adv	_	_	4	advmod	None MOT Mother	Violet 25.32906219840243 female Providence declarative 7 6 Eng-NA=null
 
 # text = aw tell her that 's all you can get
-1	aw	tell	v	_	_	2	nsubj	None MOT Mother	Violet 24.427606316351465 female Providence declarative 8 8 Eng-NA=null
+1	aw	tell	v	_	_	2	discourse	None MOT Mother	Violet 24.427606316351465 female Providence declarative 8 8 Eng-NA=null
 2	tell	her	pro:obj	_	_	0	root	None MOT Mother	Violet 24.427606316351465 female Providence declarative 8 8 Eng-NA=null
-3	her	that	pro:dem	_	_	2	obj	None MOT Mother	Violet 24.427606316351465 female Providence declarative 8 8 Eng-NA=null
+3	her	that	pro:dem	_	_	2	iobj	None MOT Mother	Violet 24.427606316351465 female Providence declarative 8 8 Eng-NA=null
 4	that	all	n	_	_	6	nsubj	None MOT Mother	Violet 24.427606316351465 female Providence declarative 8 8 Eng-NA=null
 5	's	be	cop	_	_	6	cop	None MOT Mother	Violet 24.427606316351465 female Providence declarative 8 8 Eng-NA=null
 6	all	you	pro:per	_	_	2	ccomp	None MOT Mother	Violet 24.427606316351465 female Providence declarative 8 8 Eng-NA=null
@@ -615,8 +615,8 @@
 1	lem	let	v	_	_	0	root	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
 2	me	I	pro	_	_	1	obj	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
 3	see	me	pro:obj	_	_	1	xcomp	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
-4	go	see	v	_	_	3	xcomp	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
-5	stand	go	v	_	_	4	xcomp	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
+4	go	see	v	_	_	1	parataxis	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
+5	stand	go	v	_	_	4	compound:svc	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
 6	back	stand	n	_	_	5	advmod	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
 7	that	back	adv	_	_	8	det	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
 8	way	that	det:dem	_	_	9	obl:npmod	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
@@ -626,7 +626,7 @@
 1	now	now	adv	_	_	7	advmod	None MOT Mother	Violet 25.32906219840243 female Providence question 9 8 Eng-NA=null
 2	which	which	pro:rel	_	_	4	det	None MOT Mother	Violet 25.32906219840243 female Providence question 9 8 Eng-NA=null
 3	color	color	n	_	_	4	compound	None MOT Mother	Violet 25.32906219840243 female Providence question 9 8 Eng-NA=null
-4	string	string	n	_	_	7	obj	None MOT Mother	Violet 25.32906219840243 female Providence question 9 8 Eng-NA=null
+4	string	string	n	_	_	9	obj	None MOT Mother	Violet 25.32906219840243 female Providence question 9 8 Eng-NA=null
 5	do	do	v	_	_	7	aux	None MOT Mother	Violet 25.32906219840243 female Providence question 9 8 Eng-NA=null
 6	you	you	pro:per	_	_	7	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence question 9 8 Eng-NA=null
 7	wan	want	v	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence question 9 8 Eng-NA=null
@@ -636,7 +636,7 @@
 # text = thank you whoops
 1	thank	thank	v	_	_	0	root	None MOT Mother	Violet 26.36193761678885 female Providence declarative 3 3 Eng-NA=null
 2	you	you	pro:per	_	_	1	obj	None MOT Mother	Violet 26.36193761678885 female Providence declarative 3 3 Eng-NA=null
-3	whoops	whoops	co	_	_	1	obj	None MOT Mother	Violet 26.36193761678885 female Providence declarative 3 3 Eng-NA=null
+3	whoops	whoops	co	_	_	1	discourse	None MOT Mother	Violet 26.36193761678885 female Providence declarative 3 3 Eng-NA=null
 
 # text = these one
 1	these	these	pro:dem	_	_	2	det	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 2 2 Eng-NA=null
@@ -669,7 +669,7 @@
 2	do	do	v	_	_	4	aux	None MOT Mother	Violet 25.32906219840243 female Providence question 8 8 Eng-NA=null
 3	you	you	pro:per	_	_	4	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence question 8 8 Eng-NA=null
 4	know	know	v	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence question 8 8 Eng-NA=null
-5	how	how	pro:int	_	_	7	advmod	None MOT Mother	Violet 25.32906219840243 female Providence question 8 8 Eng-NA=null
+5	how	how	pro:int	_	_	7	mark	None MOT Mother	Violet 25.32906219840243 female Providence question 8 8 Eng-NA=null
 6	to	to	inf	_	_	7	mark	None MOT Mother	Violet 25.32906219840243 female Providence question 8 8 Eng-NA=null
 7	do	do	v	_	_	4	ccomp	None MOT Mother	Violet 25.32906219840243 female Providence question 8 8 Eng-NA=null
 8	it	it	pro:per	_	_	7	obj	None MOT Mother	Violet 25.32906219840243 female Providence question 8 8 Eng-NA=null
@@ -696,7 +696,7 @@
 5	're	be	cop	_	_	7	aux	None MOT Mother	Violet 24.427606316351465 female Providence declarative 21 16 Eng-NA=null
 6	gonna	go	v	_	_	7	aux	None MOT Mother	Violet 24.427606316351465 female Providence declarative 21 16 Eng-NA=null
 7	go	play	n	_	_	0	root	None MOT Mother	Violet 24.427606316351465 female Providence declarative 21 16 Eng-NA=null
-8	play	at	prep	_	_	7	xcomp	None MOT Mother	Violet 24.427606316351465 female Providence declarative 21 16 Eng-NA=null
+8	play	at	prep	_	_	7	compound:svc	None MOT Mother	Violet 24.427606316351465 female Providence declarative 21 16 Eng-NA=null
 9	at	the	det:art	_	_	11	case	None MOT Mother	Violet 24.427606316351465 female Providence declarative 21 16 Eng-NA=null
 10	the	gym	n	_	_	11	det	None MOT Mother	Violet 24.427606316351465 female Providence declarative 21 16 Eng-NA=null
 11	gym	today	adv:tem	_	_	8	obl	None MOT Mother	Violet 24.427606316351465 female Providence declarative 21 16 Eng-NA=null
@@ -729,12 +729,12 @@
 3	good	good	adj	_	_	2	xcomp	None MOT Mother	Violet 24.427606316351465 female Providence question 3 3 Eng-NA=null
 
 # text = yeah like this
-1	yeah	yeah	co	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence declarative 3 3 Eng-NA=null
+1	yeah	yeah	co	_	_	3	discourse	None MOT Mother	Violet 25.32906219840243 female Providence declarative 3 3 Eng-NA=null
 2	like	like	prep	_	_	3	case	None MOT Mother	Violet 25.32906219840243 female Providence declarative 3 3 Eng-NA=null
-3	this	this	pro:dem	_	_	1	obl	None MOT Mother	Violet 25.32906219840243 female Providence declarative 3 3 Eng-NA=null
+3	this	this	pro:dem	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence declarative 3 3 Eng-NA=null
 
 # text = there okay you want milk
-1	there	there	adv	_	_	4	discourse	None MOT Mother	Violet 25.62475615515719 female Providence question 5 5 Eng-NA=null
+1	there	there	adv	_	_	4	advmod	None MOT Mother	Violet 25.62475615515719 female Providence question 5 5 Eng-NA=null
 2	okay	okay	adj	_	_	4	discourse	None MOT Mother	Violet 25.62475615515719 female Providence question 5 5 Eng-NA=null
 3	you	you	pro:per	_	_	4	nsubj	None MOT Mother	Violet 25.62475615515719 female Providence question 5 5 Eng-NA=null
 4	want	want	v	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence question 5 5 Eng-NA=null
@@ -771,11 +771,11 @@
 10	it	it	pro:per	_	_	9	obj	None MOT Mother	Violet 25.32906219840243 female Providence declarative 11 10 Eng-NA=null
 
 # text = why what did she do
-1	why	why	pro:int	_	_	5	advmod	None MOT Mother	Violet 24.427606316351465 female Providence question 6 5 Eng-NA=null
+1	why	why	pro:int	_	_	0	root	None MOT Mother	Violet 24.427606316351465 female Providence question 6 5 Eng-NA=null
 2	what	what	pro:int	_	_	5	obj	None MOT Mother	Violet 24.427606316351465 female Providence question 6 5 Eng-NA=null
 3	did	do	mod	_	_	5	aux	None MOT Mother	Violet 24.427606316351465 female Providence question 6 5 Eng-NA=null
 4	she	she	pro:sub	_	_	5	nsubj	None MOT Mother	Violet 24.427606316351465 female Providence question 6 5 Eng-NA=null
-5	do	do	v	_	_	0	root	None MOT Mother	Violet 24.427606316351465 female Providence question 6 5 Eng-NA=null
+5	do	do	v	_	_	1	parataxis	None MOT Mother	Violet 24.427606316351465 female Providence question 6 5 Eng-NA=null
 
 # text = I 'm gonna make a kitty decoration
 1	I	_	_	_	_	3	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence declarative 9 6 Eng-NA=null
@@ -788,10 +788,10 @@
 8	decoration	_	_	_	_	5	obj	None MOT Mother	Violet 25.32906219840243 female Providence declarative 9 6 Eng-NA=null
 
 # text = alright here we go
-1	alright	alright	co	_	_	2	discourse	None MOT Mother	Violet 25.62475615515719 female Providence declarative 4 4 Eng-NA=null
-2	here	here	adv	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence declarative 4 4 Eng-NA=null
+1	alright	alright	co	_	_	4	discourse	None MOT Mother	Violet 25.62475615515719 female Providence declarative 4 4 Eng-NA=null
+2	here	here	adv	_	_	4	advmod	None MOT Mother	Violet 25.62475615515719 female Providence declarative 4 4 Eng-NA=null
 3	we	we	pro:sub	_	_	4	nsubj	None MOT Mother	Violet 25.62475615515719 female Providence declarative 4 4 Eng-NA=null
-4	go	go	v	_	_	2	ccomp	None MOT Mother	Violet 25.62475615515719 female Providence declarative 4 4 Eng-NA=null
+4	go	go	v	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence declarative 4 4 Eng-NA=null
 
 # text = aw she brought in some other kid that that supposedly looks just like Sophie
 1	aw	she	pro:sub	_	_	3	discourse	None FAT Father	Violet 24.427606316351465 female Providence declarative 18 14 Eng-NA=null
@@ -826,17 +826,17 @@
 
 # text = Sophie oh her older daughter
 1	Sophie	Sophie	n:prop	_	_	0	root	None MOT Mother	Violet 24.427606316351465 female Providence question 6 5 Eng-NA=null
-2	oh	oh	co	_	_	1	flat	None MOT Mother	Violet 24.427606316351465 female Providence question 6 5 Eng-NA=null
+2	oh	oh	co	_	_	1	discourse	None MOT Mother	Violet 24.427606316351465 female Providence question 6 5 Eng-NA=null
 3	her	her	det:poss	_	_	5	nmod:poss	None MOT Mother	Violet 24.427606316351465 female Providence question 6 5 Eng-NA=null
 4	older	old	adj	_	_	5	amod	None MOT Mother	Violet 24.427606316351465 female Providence question 6 5 Eng-NA=null
 5	daughter	daughter	n	_	_	1	appos	None MOT Mother	Violet 24.427606316351465 female Providence question 6 5 Eng-NA=null
 
 # text = is that her older daughter Sophie
-1	is	be	cop	_	_	0	root	None FAT Father	Violet 24.427606316351465 female Providence question 8 6 Eng-NA=null
-2	that	that	comp	_	_	1	reparandum	None FAT Father	Violet 24.427606316351465 female Providence question 8 6 Eng-NA=null
+1	is	be	cop	_	_	5	cop	None FAT Father	Violet 24.427606316351465 female Providence question 8 6 Eng-NA=null
+2	that	that	comp	_	_	5	nsubj	None FAT Father	Violet 24.427606316351465 female Providence question 8 6 Eng-NA=null
 3	her	her	det:poss	_	_	5	nmod:poss	None FAT Father	Violet 24.427606316351465 female Providence question 8 6 Eng-NA=null
 4	older	old	adj	_	_	5	amod	None FAT Father	Violet 24.427606316351465 female Providence question 8 6 Eng-NA=null
-5	daughter	daughter	n	_	_	1	nsubj	None FAT Father	Violet 24.427606316351465 female Providence question 8 6 Eng-NA=null
+5	daughter	daughter	n	_	_	0	root	None FAT Father	Violet 24.427606316351465 female Providence question 8 6 Eng-NA=null
 6	Sophie	Sophie	n:prop	_	_	5	appos	None FAT Father	Violet 24.427606316351465 female Providence question 8 6 Eng-NA=null
 
 # text = the cup was dirty on the bottom
@@ -850,7 +850,7 @@
 
 # text = oh okay thought it was her 's child
 1	oh	oh	co	_	_	3	discourse	None FAT Father	Violet 24.427606316351465 female Providence declarative 11 7 Eng-NA=null
-2	okay	okay	adj	_	_	1	discourse	None FAT Father	Violet 24.427606316351465 female Providence declarative 11 7 Eng-NA=null
+2	okay	okay	adj	_	_	3	discourse	None FAT Father	Violet 24.427606316351465 female Providence declarative 11 7 Eng-NA=null
 3	thought	think	v	_	_	0	root	None FAT Father	Violet 24.427606316351465 female Providence declarative 11 7 Eng-NA=null
 4	it	it	pro:per	_	_	8	nsubj	None FAT Father	Violet 24.427606316351465 female Providence declarative 11 7 Eng-NA=null
 5	was	be	cop	_	_	8	cop	None FAT Father	Violet 24.427606316351465 female Providence declarative 11 7 Eng-NA=null
@@ -896,10 +896,10 @@
 1	good	good	adj	_	_	2	amod	None MOT Mother	Violet 25.32906219840243 female Providence question 18 16 Eng-NA=null
 2	girl	girl	n	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence question 18 16 Eng-NA=null
 3	okay	okay	adj	_	_	2	discourse	None MOT Mother	Violet 25.32906219840243 female Providence question 18 16 Eng-NA=null
-4	lem	let	v	_	_	2	discourse	None MOT Mother	Violet 25.32906219840243 female Providence question 18 16 Eng-NA=null
+4	lem	let	v	_	_	2	parataxis	None MOT Mother	Violet 25.32906219840243 female Providence question 18 16 Eng-NA=null
 5	me	I	pro	_	_	4	obj	None MOT Mother	Violet 25.32906219840243 female Providence question 18 16 Eng-NA=null
 6	just	me	pro:obj	_	_	7	advmod	None MOT Mother	Violet 25.32906219840243 female Providence question 18 16 Eng-NA=null
-7	tie	just	adj	_	_	2	parataxis	None MOT Mother	Violet 25.32906219840243 female Providence question 18 16 Eng-NA=null
+7	tie	just	adj	_	_	4	xcomp	None MOT Mother	Violet 25.32906219840243 female Providence question 18 16 Eng-NA=null
 8	the	tie	v	_	_	9	det	None MOT Mother	Violet 25.32906219840243 female Providence question 18 16 Eng-NA=null
 9	end	the	det:art	_	_	7	obj	None MOT Mother	Violet 25.32906219840243 female Providence question 18 16 Eng-NA=null
 10	now	end	n	_	_	7	advmod	None MOT Mother	Violet 25.32906219840243 female Providence question 18 16 Eng-NA=null
@@ -940,12 +940,12 @@
 10	if	if	conj	_	_	12	mark	None MOT Mother	Violet 26.36193761678885 female Providence question 22 18 Eng-NA=null
 11	you	you	pro:per	_	_	12	nsubj	None MOT Mother	Violet 26.36193761678885 female Providence question 22 18 Eng-NA=null
 12	want	want	v	_	_	7	advcl	None MOT Mother	Violet 26.36193761678885 female Providence question 22 18 Eng-NA=null
-13	is	be	aux	_	_	3	conj	None MOT Mother	Violet 26.36193761678885 female Providence question 22 18 Eng-NA=null
-14	that	that	pro:dem	_	_	18	mark	None MOT Mother	Violet 26.36193761678885 female Providence question 22 18 Eng-NA=null
-15	what	what	pro:int	_	_	18	obj	None MOT Mother	Violet 26.36193761678885 female Providence question 22 18 Eng-NA=null
+13	is	be	aux	_	_	15	cop	None MOT Mother	Violet 26.36193761678885 female Providence question 22 18 Eng-NA=null
+14	that	that	pro:dem	_	_	15	nsubj	None MOT Mother	Violet 26.36193761678885 female Providence question 22 18 Eng-NA=null
+15	what	what	pro:int	_	_	3	parataxis	None MOT Mother	Violet 26.36193761678885 female Providence question 22 18 Eng-NA=null
 16	you	you	pro:per	_	_	18	nsubj	None MOT Mother	Violet 26.36193761678885 female Providence question 22 18 Eng-NA=null
 17	were	be	aux	_	_	18	aux	None MOT Mother	Violet 26.36193761678885 female Providence question 22 18 Eng-NA=null
-18	doing	do	part	_	_	13	ccomp	None MOT Mother	Violet 26.36193761678885 female Providence question 22 18 Eng-NA=null
+18	doing	do	part	_	_	15	acl:relcl	None MOT Mother	Violet 26.36193761678885 female Providence question 22 18 Eng-NA=null
 
 # text = that other one was dirty
 1	that	that	comp	_	_	3	det	None MOT Mother	Violet 25.62475615515719 female Providence declarative 9 5 Eng-NA=null
@@ -975,29 +975,29 @@
 3	paper	paper	n	_	_	2	obj	None MOT Mother	Violet 26.36193761678885 female Providence question 3 3 Eng-NA=null
 
 # text = here it 's all ready take this
-1	here	here	adv	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence interruption 7 6 Eng-NA=null
+1	here	here	adv	_	_	5	advmod	None MOT Mother	Violet 25.32906219840243 female Providence interruption 7 6 Eng-NA=null
 2	it	it	pro	_	_	5	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence interruption 7 6 Eng-NA=null
 3	's	be	cop	_	_	5	cop	None MOT Mother	Violet 25.32906219840243 female Providence interruption 7 6 Eng-NA=null
 4	all	all	adv	_	_	5	advmod	None MOT Mother	Violet 25.32906219840243 female Providence interruption 7 6 Eng-NA=null
-5	ready	ready	adj	_	_	1	advmod	None MOT Mother	Violet 25.32906219840243 female Providence interruption 7 6 Eng-NA=null
+5	ready	ready	adj	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence interruption 7 6 Eng-NA=null
 6	take	take	v	_	_	1	parataxis	None MOT Mother	Violet 25.32906219840243 female Providence interruption 7 6 Eng-NA=null
 7	this	this	det:dem	_	_	6	obj	None MOT Mother	Violet 25.32906219840243 female Providence interruption 7 6 Eng-NA=null
 
 # text = here you go
-1	here	here	adv	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence declarative 3 3 Eng-NA=null
+1	here	here	adv	_	_	3	advmod	None MOT Mother	Violet 25.62475615515719 female Providence declarative 3 3 Eng-NA=null
 2	you	you	pro:per	_	_	3	nsubj	None MOT Mother	Violet 25.62475615515719 female Providence declarative 3 3 Eng-NA=null
-3	go	go	v	_	_	1	parataxis	None MOT Mother	Violet 25.62475615515719 female Providence declarative 3 3 Eng-NA=null
+3	go	go	v	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence declarative 3 3 Eng-NA=null
 
 # text = now I 'm gonna put
 1	now	_	_	_	_	4	advmod	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 8 4 Eng-NA=null
 2	I	_	_	_	_	4	nsubj	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 8 4 Eng-NA=null
 3	'm	_	_	_	_	4	cop	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 8 4 Eng-NA=null
 4	gon	_	_	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 8 4 Eng-NA=null
-5	na	_	_	_	_	6	case	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 8 4 Eng-NA=null
-6	put	_	_	_	_	4	obl	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 8 4 Eng-NA=null
+5	na	_	_	_	_	6	mark	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 8 4 Eng-NA=null
+6	put	_	_	_	_	4	xcomp	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 8 4 Eng-NA=null
 
 # text = and now you put it through any holes you want and pull it through
-1	and	and	coord	_	_	12	cc	None MOT Mother	Violet 25.32906219840243 female Providence declarative 16 14 Eng-NA=null
+1	and	and	coord	_	_	4	cc	None MOT Mother	Violet 25.32906219840243 female Providence declarative 16 14 Eng-NA=null
 2	now	now	adv	_	_	4	advmod	None MOT Mother	Violet 25.32906219840243 female Providence declarative 16 14 Eng-NA=null
 3	you	you	pro:per	_	_	4	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence declarative 16 14 Eng-NA=null
 4	put	put	v	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence declarative 16 14 Eng-NA=null
@@ -1035,9 +1035,9 @@
 # text = how much stuff did you xxx
 1	how	_	_	_	_	2	advmod	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
 2	much	_	_	_	_	3	amod	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
-3	stuff	_	_	_	_	5	nmod	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
-4	did	_	_	_	_	5	aux	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
-5	you	_	_	_	_	0	root	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
+3	stuff	_	_	_	_	4	obj	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
+4	did	_	_	_	_	0	root	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
+5	you	_	_	_	_	4	nsubj	None FAT Father	Violet 24.427606316351465 female Providence declarative 6 6 Eng-NA=null
 
 # text = you do the dog and I do the cat
 1	you	you	pro:per	_	_	2	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence declarative 9 9 Eng-NA=null
@@ -1051,12 +1051,12 @@
 9	cat	cat	n	_	_	7	obj	None MOT Mother	Violet 25.32906219840243 female Providence declarative 9 9 Eng-NA=null
 
 # text = what the ball the tea ball
-1	what	what	pro:int	_	_	3	nmod:poss	None MOT Mother	Violet 25.62475615515719 female Providence question 6 6 Eng-NA=null
+1	what	what	pro:int	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence question 6 6 Eng-NA=null
 2	the	the	det:art	_	_	3	det	None MOT Mother	Violet 25.62475615515719 female Providence question 6 6 Eng-NA=null
-3	ball	ball	n	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence question 6 6 Eng-NA=null
+3	ball	ball	n	_	_	1	parataxis	None MOT Mother	Violet 25.62475615515719 female Providence question 6 6 Eng-NA=null
 4	the	the	det:art	_	_	6	det	None MOT Mother	Violet 25.62475615515719 female Providence question 6 6 Eng-NA=null
 5	tea	tea	n	_	_	6	compound	None MOT Mother	Violet 25.62475615515719 female Providence question 6 6 Eng-NA=null
-6	ball	ball	n	_	_	3	parataxis	None MOT Mother	Violet 25.62475615515719 female Providence question 6 6 Eng-NA=null
+6	ball	ball	n	_	_	1	parataxis	None MOT Mother	Violet 25.62475615515719 female Providence question 6 6 Eng-NA=null
 
 # text = see I put it through the hole
 1	see	see	v	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence interruption 8 7 Eng-NA=null
@@ -1086,7 +1086,7 @@
 11	I	_	_	_	_	14	nsubj	None MOT Mother	Violet 25.62475615515719 female Providence declarative 22 16 Eng-NA=null
 12	'm	_	_	_	_	14	aux	None MOT Mother	Violet 25.62475615515719 female Providence declarative 22 16 Eng-NA=null
 13	not	_	_	_	_	14	advmod	None MOT Mother	Violet 25.62475615515719 female Providence declarative 22 16 Eng-NA=null
-14	gon	_	_	_	_	4	conj	None MOT Mother	Violet 25.62475615515719 female Providence declarative 22 16 Eng-NA=null
+14	gon	_	_	_	_	4	advcl	None MOT Mother	Violet 25.62475615515719 female Providence declarative 22 16 Eng-NA=null
 15	na	_	_	_	_	16	mark	None MOT Mother	Violet 25.62475615515719 female Providence declarative 22 16 Eng-NA=null
 16	do	_	_	_	_	14	xcomp	None MOT Mother	Violet 25.62475615515719 female Providence declarative 22 16 Eng-NA=null
 17	the	_	_	_	_	19	det	None MOT Mother	Violet 25.62475615515719 female Providence declarative 22 16 Eng-NA=null
@@ -1099,13 +1099,13 @@
 2	n't	not	neg	_	_	3	advmod	None MOT Mother	Violet 24.427606316351465 female Providence declarative 11 10 Eng-NA=null
 3	touch	touch	v	_	_	0	root	None MOT Mother	Violet 24.427606316351465 female Providence declarative 11 10 Eng-NA=null
 4	that	that	comp	_	_	3	obj	None MOT Mother	Violet 24.427606316351465 female Providence declarative 11 10 Eng-NA=null
-5	get	get	v	_	_	3	parataxis	None MOT Mother	Violet 24.427606316351465 female Providence declarative 11 10 Eng-NA=null
+5	get	get	v	_	_	6	reparandum:repetition	None MOT Mother	Violet 24.427606316351465 female Providence declarative 11 10 Eng-NA=null
 6	get	get	v	_	_	3	parataxis	None MOT Mother	Violet 24.427606316351465 female Providence declarative 11 10 Eng-NA=null
 7	the	the	det:art	_	_	9	det	None MOT Mother	Violet 24.427606316351465 female Providence declarative 11 10 Eng-NA=null
 8	halloween	halloween	n	_	_	9	compound	None MOT Mother	Violet 24.427606316351465 female Providence declarative 11 10 Eng-NA=null
 9	decoration	decoration	n	_	_	6	obj	None MOT Mother	Violet 24.427606316351465 female Providence declarative 11 10 Eng-NA=null
 10	out	out	adv	_	_	6	advmod	None MOT Mother	Violet 24.427606316351465 female Providence declarative 11 10 Eng-NA=null
-11	please	please	co	_	_	3	discourse	None MOT Mother	Violet 24.427606316351465 female Providence declarative 11 10 Eng-NA=null
+11	please	please	co	_	_	6	discourse	None MOT Mother	Violet 24.427606316351465 female Providence declarative 11 10 Eng-NA=null
 
 # text = and pull
 1	and	and	coord	_	_	2	cc	None MOT Mother	Violet 25.32906219840243 female Providence imperative_emphatic 2 2 Eng-NA=null
@@ -1126,7 +1126,7 @@
 3	you	you	pro:per	_	_	2	iobj	None MOT Mother	Violet 26.36193761678885 female Providence question 7 6 Eng-NA=null
 4	this	this	det:dem	_	_	5	det	None MOT Mother	Violet 26.36193761678885 female Providence question 7 6 Eng-NA=null
 5	paper	paper	n	_	_	2	obj	None MOT Mother	Violet 26.36193761678885 female Providence question 7 6 Eng-NA=null
-6	daddy	daddy	n	_	_	2	obj	None MOT Mother	Violet 26.36193761678885 female Providence question 7 6 Eng-NA=null
+6	daddy	daddy	n	_	_	2	vocative	None MOT Mother	Violet 26.36193761678885 female Providence question 7 6 Eng-NA=null
 
 # text = xxx yeah find the halloween decoration
 1	yeah	_	_	_	_	2	discourse	None FAT Father	Violet 24.427606316351465 female Providence declarative 5 6 Eng-NA=null
@@ -1202,9 +1202,9 @@
 
 # text = pull it pull it keep pulling
 1	pull	pull	v	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence imperative_emphatic 7 6 Eng-NA=null
-2	it	it	pro:per	_	_	3	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence imperative_emphatic 7 6 Eng-NA=null
+2	it	it	pro:per	_	_	1	obj	None MOT Mother	Violet 25.32906219840243 female Providence imperative_emphatic 7 6 Eng-NA=null
 3	pull	pull	v	_	_	1	parataxis	None MOT Mother	Violet 25.32906219840243 female Providence imperative_emphatic 7 6 Eng-NA=null
-4	it	it	pro:per	_	_	5	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence imperative_emphatic 7 6 Eng-NA=null
+4	it	it	pro:per	_	_	3	obj	None MOT Mother	Violet 25.32906219840243 female Providence imperative_emphatic 7 6 Eng-NA=null
 5	keep	keep	v	_	_	1	parataxis	None MOT Mother	Violet 25.32906219840243 female Providence imperative_emphatic 7 6 Eng-NA=null
 6	pulling	pull	part	_	_	5	xcomp	None MOT Mother	Violet 25.32906219840243 female Providence imperative_emphatic 7 6 Eng-NA=null
 
@@ -1218,11 +1218,11 @@
 2	loo	loo	n	_	_	0	root	None FAT Father	Violet 24.427606316351465 female Providence declarative 2 2 Eng-NA=null
 
 # text = xxx now I gotta get the water
-1	xxx	xxx	xxx	_	_	5	discourse	None MOT Mother	Violet 25.62475615515719 female Providence declarative 7 7 Eng-NA=null
-2	now	I	pro:sub	_	_	5	advmod	None MOT Mother	Violet 25.62475615515719 female Providence declarative 7 7 Eng-NA=null
-3	I	got	mod	_	_	5	nsubj	None MOT Mother	Violet 25.62475615515719 female Providence declarative 7 7 Eng-NA=null
-4	gotta	get	v	_	_	5	aux	None MOT Mother	Violet 25.62475615515719 female Providence declarative 7 7 Eng-NA=null
-5	get	the	det:art	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence declarative 7 7 Eng-NA=null
+1	now	I	pro:sub	_	_	3	advmod	None MOT Mother	Violet 25.62475615515719 female Providence declarative 7 7 Eng-NA=null
+2	I	got	mod	_	_	3	nsubj	None MOT Mother	Violet 25.62475615515719 female Providence declarative 7 7 Eng-NA=null
+3	got	get	v	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence declarative 7 7 Eng-NA=null
+4	ta	get	v	_	_	5	mark	None MOT Mother	Violet 25.62475615515719 female Providence declarative 7 7 Eng-NA=null
+5	get	the	det:art	_	_	3	xcomp	None MOT Mother	Violet 25.62475615515719 female Providence declarative 7 7 Eng-NA=null
 6	the	water	n	_	_	7	det	None MOT Mother	Violet 25.62475615515719 female Providence declarative 7 7 Eng-NA=null
 7	water	_	_	_	_	5	obj	None MOT Mother	Violet 25.62475615515719 female Providence declarative 7 7 Eng-NA=null
 
@@ -1287,7 +1287,7 @@
 
 # text = tell me
 1	tell	tell	v	_	_	0	root	None MOT Mother	Violet 24.427606316351465 female Providence declarative 2 2 Eng-NA=null
-2	me	me	pro:obj	_	_	1	obj	None MOT Mother	Violet 24.427606316351465 female Providence declarative 2 2 Eng-NA=null
+2	me	me	pro:obj	_	_	1	iobj	None MOT Mother	Violet 24.427606316351465 female Providence declarative 2 2 Eng-NA=null
 
 # text = mhm you like it
 1	mhm	mhm	co	_	_	3	discourse	None MOT Mother	Violet 25.32906219840243 female Providence question 4 4 Eng-NA=null
@@ -1382,7 +1382,7 @@
 4	hang	hang	v	_	_	2	xcomp	None FAT Father	Violet 24.427606316351465 female Providence declarative 7 6 Eng-NA=null
 5	these	these	det:dem	_	_	4	obj	None FAT Father	Violet 24.427606316351465 female Providence declarative 7 6 Eng-NA=null
 6	up	up	adv	_	_	4	compound:prt	None FAT Father	Violet 24.427606316351465 female Providence declarative 7 6 Eng-NA=null
-7	okay	okay	adj	_	_	4	advmod	None FAT Father	Violet 24.427606316351465 female Providence declarative 7 6 Eng-NA=null
+7	okay	okay	adj	_	_	4	discourse	None FAT Father	Violet 24.427606316351465 female Providence declarative 7 6 Eng-NA=null
 
 # text = she does knitting
 1	she	she	pro:sub	_	_	2	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence declarative 5 3 Eng-NA=null
@@ -1412,7 +1412,7 @@
 3	it	_	_	_	_	5	nsubj	None MOT Mother	Violet 25.62475615515719 female Providence trail off 7 4 Eng-NA=null
 4	's	_	_	_	_	5	cop	None MOT Mother	Violet 25.62475615515719 female Providence trail off 7 4 Eng-NA=null
 5	gon	_	_	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence trail off 7 4 Eng-NA=null
-6	na	_	_	_	_	5	obj	None MOT Mother	Violet 25.62475615515719 female Providence trail off 7 4 Eng-NA=null
+6	na	_	_	_	_	5	xcomp	None MOT Mother	Violet 25.62475615515719 female Providence trail off 7 4 Eng-NA=null
 
 # text = yeah you wan na do a fishy now
 1	yeah	yeah	co	_	_	3	discourse	None MOT Mother	Violet 25.32906219840243 female Providence question 10 7 Eng-NA=null
@@ -1536,8 +1536,8 @@
 9	bread	_	_	_	_	6	nmod	None MOT Mother	Violet 25.62475615515719 female Providence question 10 8 Eng-NA=null
 
 # text = the xxx are xxx
-1	the	_	_	_	_	2	expl	None FAT Father	Violet 24.427606316351465 female Providence declarative 3 4 Eng-NA=null
-2	are	_	_	_	_	0	root	None FAT Father	Violet 24.427606316351465 female Providence declarative 3 4 Eng-NA=null
+1	the	_	_	_	_	0	root	None FAT Father	Violet 24.427606316351465 female Providence declarative 3 4 Eng-NA=null
+2	are	_	_	_	_	1	conj	None FAT Father	Violet 24.427606316351465 female Providence declarative 3 4 Eng-NA=null
 
 # text = oh you gotta put it through all the holes
 1	oh	_	_	_	_	3	discourse	None MOT Mother	Violet 25.32906219840243 female Providence declarative 12 9 Eng-NA=null
@@ -1564,7 +1564,7 @@
 3	'll	_	_	_	_	5	aux	None MOT Mother	Violet 24.88757469352553 female Providence question 6 5 Eng-NA=null
 4	be	_	_	_	_	5	cop	None MOT Mother	Violet 24.88757469352553 female Providence question 6 5 Eng-NA=null
 5	number	_	_	_	_	0	root	None MOT Mother	Violet 24.88757469352553 female Providence question 6 5 Eng-NA=null
-6	what	_	_	_	_	5	obj	None MOT Mother	Violet 24.88757469352553 female Providence question 6 5 Eng-NA=null
+6	what	_	_	_	_	5	nummod	None MOT Mother	Violet 24.88757469352553 female Providence question 6 5 Eng-NA=null
 
 # text = or as many holes as you can
 1	or	or	coord	_	_	4	cc	None MOT Mother	Violet 25.32906219840243 female Providence declarative 8 7 Eng-NA=null
@@ -1589,7 +1589,7 @@
 6	and	_	_	_	_	8	cc	None MOT Mother	Violet 26.36193761678885 female Providence declarative 13 11 Eng-NA=null
 7	you	_	_	_	_	8	nsubj	None MOT Mother	Violet 26.36193761678885 female Providence declarative 13 11 Eng-NA=null
 8	tell	_	_	_	_	4	conj	None MOT Mother	Violet 26.36193761678885 female Providence declarative 13 11 Eng-NA=null
-9	me	_	_	_	_	8	obj	None MOT Mother	Violet 26.36193761678885 female Providence declarative 13 11 Eng-NA=null
+9	me	_	_	_	_	8	iobj	None MOT Mother	Violet 26.36193761678885 female Providence declarative 13 11 Eng-NA=null
 10	what	_	_	_	_	8	ccomp	None MOT Mother	Violet 26.36193761678885 female Providence declarative 13 11 Eng-NA=null
 11	it	_	_	_	_	10	nsubj	None MOT Mother	Violet 26.36193761678885 female Providence declarative 13 11 Eng-NA=null
 12	is	_	_	_	_	10	cop	None MOT Mother	Violet 26.36193761678885 female Providence declarative 13 11 Eng-NA=null
@@ -1638,7 +1638,7 @@
 1	here	here	adv	_	_	2	advmod	None MOT Mother	Violet 24.88757469352553 female Providence declarative 12 10 Eng-NA=null
 2	lets	let	v	_	_	0	root	None MOT Mother	Violet 24.88757469352553 female Providence declarative 12 10 Eng-NA=null
 3	go	go	v	_	_	2	xcomp	None MOT Mother	Violet 24.88757469352553 female Providence declarative 12 10 Eng-NA=null
-4	see	see	v	_	_	3	xcomp	None MOT Mother	Violet 24.88757469352553 female Providence declarative 12 10 Eng-NA=null
+4	see	see	v	_	_	3	compound:svc	None MOT Mother	Violet 24.88757469352553 female Providence declarative 12 10 Eng-NA=null
 5	if	if	conj	_	_	8	mark	None MOT Mother	Violet 24.88757469352553 female Providence declarative 12 10 Eng-NA=null
 6	we	we	pro:sub	_	_	8	nsubj	None MOT Mother	Violet 24.88757469352553 female Providence declarative 12 10 Eng-NA=null
 7	can	can	mod	_	_	8	aux	None MOT Mother	Violet 24.88757469352553 female Providence declarative 12 10 Eng-NA=null
@@ -1647,7 +1647,7 @@
 10	coloring	color	n:gerund	_	_	8	obj	None MOT Mother	Violet 24.88757469352553 female Providence declarative 12 10 Eng-NA=null
 
 # text = I xxx mittens for christmas
-1	I	_	_	_	_	2	nmod:poss	None MOT Mother	Violet 25.32906219840243 female Providence declarative 5 5 Eng-NA=null
+1	I	_	_	_	_	2	reparandum	None MOT Mother	Violet 25.32906219840243 female Providence declarative 5 5 Eng-NA=null
 2	mittens	_	_	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence declarative 5 5 Eng-NA=null
 3	for	_	_	_	_	4	case	None MOT Mother	Violet 25.32906219840243 female Providence declarative 5 5 Eng-NA=null
 4	christmas	_	_	_	_	2	nmod	None MOT Mother	Violet 25.32906219840243 female Providence declarative 5 5 Eng-NA=null
@@ -1683,7 +1683,7 @@
 5	sure	_	_	_	_	4	xcomp	None MOT Mother	Violet 24.88757469352553 female Providence declarative 11 8 Eng-NA=null
 6	it	_	_	_	_	8	nsubj	None MOT Mother	Violet 24.88757469352553 female Providence declarative 11 8 Eng-NA=null
 7	's	_	_	_	_	8	aux	None MOT Mother	Violet 24.88757469352553 female Providence declarative 11 8 Eng-NA=null
-8	pointing	_	_	_	_	5	ccomp	None MOT Mother	Violet 24.88757469352553 female Providence declarative 11 8 Eng-NA=null
+8	pointing	_	_	_	_	4	ccomp	None MOT Mother	Violet 24.88757469352553 female Providence declarative 11 8 Eng-NA=null
 9	in	_	_	_	_	10	case	None MOT Mother	Violet 24.88757469352553 female Providence declarative 11 8 Eng-NA=null
 10	there	_	_	_	_	8	obl	None MOT Mother	Violet 24.88757469352553 female Providence declarative 11 8 Eng-NA=null
 
@@ -1700,15 +1700,15 @@
 # text = you know hot to do that
 1	you	you	pro:per	_	_	2	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence question 6 6 Eng-NA=null
 2	know	know	v	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence question 6 6 Eng-NA=null
-3	hot	hot	adj	_	_	2	xcomp	None MOT Mother	Violet 25.32906219840243 female Providence question 6 6 Eng-NA=null
+3	hot	hot	adj	_	_	5	mark	None MOT Mother	Violet 25.32906219840243 female Providence question 6 6 Eng-NA=null
 4	to	to	inf	_	_	5	mark	None MOT Mother	Violet 25.32906219840243 female Providence question 6 6 Eng-NA=null
-5	do	do	v	_	_	3	advcl	None MOT Mother	Violet 25.32906219840243 female Providence question 6 6 Eng-NA=null
+5	do	do	v	_	_	2	ccomp	None MOT Mother	Violet 25.32906219840243 female Providence question 6 6 Eng-NA=null
 6	that	that	pro:dem	_	_	5	obj	None MOT Mother	Violet 25.32906219840243 female Providence question 6 6 Eng-NA=null
 
 # text = so we can xxx
-1	so	_	_	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 3 4 Eng-NA=null
-2	we	_	_	_	_	1	nsubj	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 3 4 Eng-NA=null
-3	can	_	_	_	_	1	aux	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 3 4 Eng-NA=null
+1	so	_	_	_	_	3	advmod	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 3 4 Eng-NA=null
+2	we	_	_	_	_	3	nsubj	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 3 4 Eng-NA=null
+3	can	_	_	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 3 4 Eng-NA=null
 
 # text = the other one really jumped it
 1	the	the	det:art	_	_	3	det	None FAT Father	Violet 24.427606316351465 female Providence declarative 9 6 Eng-NA=null
@@ -1728,7 +1728,7 @@
 3	na	to	inf	_	_	4	mark	None MOT Mother	Violet 24.88757469352553 female Providence question 9 6 Eng-NA=null
 4	do	do	v	_	_	2	xcomp	None MOT Mother	Violet 24.88757469352553 female Providence question 9 6 Eng-NA=null
 5	the	the	det:art	_	_	7	det	None MOT Mother	Violet 24.88757469352553 female Providence question 9 6 Eng-NA=null
-6	coloring	color	n:gerund	_	_	7	compound	None MOT Mother	Violet 24.88757469352553 female Providence question 9 6 Eng-NA=null
+6	coloring	color	n:gerund	_	_	7	amod	None MOT Mother	Violet 24.88757469352553 female Providence question 9 6 Eng-NA=null
 7	books	book	n	_	_	4	obj	None MOT Mother	Violet 24.88757469352553 female Providence question 9 6 Eng-NA=null
 
 # text = move the tape onto us
@@ -1763,8 +1763,8 @@
 1	oh	oh	co	_	_	3	discourse	None MOT Mother	Violet 24.88757469352553 female Providence declarative 7 5 Eng-NA=null
 2	I	I	pro:sub	_	_	3	nsubj	None MOT Mother	Violet 24.88757469352553 female Providence declarative 7 5 Eng-NA=null
 3	know	know	v	_	_	0	root	None MOT Mother	Violet 24.88757469352553 female Providence declarative 7 5 Eng-NA=null
-4	you	you	pro:per	_	_	3	nsubj	None MOT Mother	Violet 24.88757469352553 female Providence declarative 7 5 Eng-NA=null
-5	did	do	mod	_	_	3	aux	None MOT Mother	Violet 24.88757469352553 female Providence declarative 7 5 Eng-NA=null
+4	you	you	pro:per	_	_	5	nsubj	None MOT Mother	Violet 24.88757469352553 female Providence declarative 7 5 Eng-NA=null
+5	did	do	mod	_	_	3	ccomp	None MOT Mother	Violet 24.88757469352553 female Providence declarative 7 5 Eng-NA=null
 6	n't	not	neg	_	_	3	advmod	None MOT Mother	Violet 24.88757469352553 female Providence declarative 7 5 Eng-NA=null
 
 # text = there she is
@@ -1829,11 +1829,11 @@
 
 # text = five right
 1	five	five	det:num	_	_	0	root	None FAT Father	Violet 24.427606316351465 female Providence question 2 2 Eng-NA=null
-2	right	right	co	_	_	1	amod	None FAT Father	Violet 24.427606316351465 female Providence question 2 2 Eng-NA=null
+2	right	right	co	_	_	1	discourse	None FAT Father	Violet 24.427606316351465 female Providence question 2 2 Eng-NA=null
 
 # text = now where 's my health insurance card is the question
 1	now	now	adv	_	_	2	advmod	None MOT Mother	Violet 25.62475615515719 female Providence question 11 9 Eng-NA=null
-2	where	where	n	_	_	10	parataxis	None MOT Mother	Violet 25.62475615515719 female Providence question 11 9 Eng-NA=null
+2	where	where	n	_	_	10	nsubj	None MOT Mother	Violet 25.62475615515719 female Providence question 11 9 Eng-NA=null
 3	's	be	cop	_	_	2	cop	None MOT Mother	Violet 25.62475615515719 female Providence question 11 9 Eng-NA=null
 4	my	my	det:poss	_	_	7	nmod:poss	None MOT Mother	Violet 25.62475615515719 female Providence question 11 9 Eng-NA=null
 5	health	health	n	_	_	6	compound	None MOT Mother	Violet 25.62475615515719 female Providence question 11 9 Eng-NA=null
@@ -1848,17 +1848,17 @@
 2	way	way	n	_	_	0	root	None FAT Father	Violet 24.427606316351465 female Providence interruption 2 2 Eng-NA=null
 
 # text = I'll color in xxx
-1	I'll	I	pro:sub	_	_	2	aux	None MOT Mother	Violet 24.88757469352553 female Providence declarative 4 4 Eng-NA=null
-2	color	color	v	_	_	0	root	None MOT Mother	Violet 24.88757469352553 female Providence declarative 4 4 Eng-NA=null
-3	in	in	adv	_	_	4	case	None MOT Mother	Violet 24.88757469352553 female Providence declarative 4 4 Eng-NA=null
-4	xxx	xxx	xxx	_	_	2	obl	None MOT Mother	Violet 24.88757469352553 female Providence declarative 4 4 Eng-NA=null
+1	I	I	pro:sub	_	_	3	nsubj	None MOT Mother	Violet 24.88757469352553 female Providence declarative 4 4 Eng-NA=null
+2	'll	I	pro:sub	_	_	3	aux	None MOT Mother	Violet 24.88757469352553 female Providence declarative 4 4 Eng-NA=null
+3	color	color	v	_	_	0	root	None MOT Mother	Violet 24.88757469352553 female Providence declarative 4 4 Eng-NA=null
+4	in	in	adv	_	_	3	advmod	None MOT Mother	Violet 24.88757469352553 female Providence declarative 4 4 Eng-NA=null
 
 # text = xxx now you gonna do the fish
-1	xxx	xxx	xxx	_	_	5	discourse	None MOT Mother	Violet 25.32906219840243 female Providence declarative 8 7 Eng-NA=null
-2	now	you	pro:per	_	_	5	advmod	None MOT Mother	Violet 25.32906219840243 female Providence declarative 8 7 Eng-NA=null
-3	you	go	part	_	_	5	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence declarative 8 7 Eng-NA=null
-4	gonna	do	v	_	_	5	aux	None MOT Mother	Violet 25.32906219840243 female Providence declarative 8 7 Eng-NA=null
-5	do	the	det:art	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence declarative 8 7 Eng-NA=null
+1	now	you	pro:per	_	_	3	advmod	None MOT Mother	Violet 25.32906219840243 female Providence declarative 8 7 Eng-NA=null
+2	you	go	part	_	_	3	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence declarative 8 7 Eng-NA=null
+3	gon	do	v	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence declarative 8 7 Eng-NA=null
+4	na	do	v	_	_	5	mark	None MOT Mother	Violet 25.32906219840243 female Providence declarative 8 7 Eng-NA=null
+5	do	the	det:art	_	_	3	xcomp	None MOT Mother	Violet 25.32906219840243 female Providence declarative 8 7 Eng-NA=null
 6	the	fish	n	_	_	7	det	None MOT Mother	Violet 25.32906219840243 female Providence declarative 8 7 Eng-NA=null
 7	fish	_	_	_	_	5	obj	None MOT Mother	Violet 25.32906219840243 female Providence declarative 8 7 Eng-NA=null
 
@@ -1909,9 +1909,9 @@
 5	would	great	adj	_	_	7	aux	None FAT Father	Violet 24.427606316351465 female Providence self interruption 8 10 Eng-NA=null
 6	be	because	conj	_	_	7	cop	None FAT Father	Violet 24.427606316351465 female Providence self interruption 8 10 Eng-NA=null
 7	great	the	det:art	_	_	0	root	None FAT Father	Violet 24.427606316351465 female Providence self interruption 8 10 Eng-NA=null
-8	because	_	_	_	_	10	mark	None FAT Father	Violet 24.427606316351465 female Providence self interruption 8 10 Eng-NA=null
-9	the	_	_	_	_	10	det	None FAT Father	Violet 24.427606316351465 female Providence self interruption 8 10 Eng-NA=null
-10	uh	_	_	_	_	7	advcl	None FAT Father	Violet 24.427606316351465 female Providence self interruption 8 10 Eng-NA=null
+8	because	_	_	_	_	9	mark	None FAT Father	Violet 24.427606316351465 female Providence self interruption 8 10 Eng-NA=null
+9	the	_	_	_	_	7	advcl	None FAT Father	Violet 24.427606316351465 female Providence self interruption 8 10 Eng-NA=null
+10	uh	_	_	_	_	7	discourse	None FAT Father	Violet 24.427606316351465 female Providence self interruption 8 10 Eng-NA=null
 
 # text = now what
 1	now	now	adv	_	_	2	advmod	None MOT Mother	Violet 26.36193761678885 female Providence question 2 2 Eng-NA=null
@@ -1970,15 +1970,15 @@
 3	card	card	n	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence question 3 3 Eng-NA=null
 
 # text = what 's that noise is that daddy 's coffee
-1	what	what	n	_	_	5	nsubj	None MOT Mother	Violet 26.36193761678885 female Providence question 11 7 Eng-NA=null
+1	what	what	n	_	_	0	root	None MOT Mother	Violet 26.36193761678885 female Providence question 11 7 Eng-NA=null
 2	's	be	cop	_	_	1	cop	None MOT Mother	Violet 26.36193761678885 female Providence question 11 7 Eng-NA=null
 3	that	that	det:dem	_	_	4	det	None MOT Mother	Violet 26.36193761678885 female Providence question 11 7 Eng-NA=null
 4	noise	noise	n	_	_	1	nsubj	None MOT Mother	Violet 26.36193761678885 female Providence question 11 7 Eng-NA=null
-5	is	be	aux	_	_	0	root	None MOT Mother	Violet 26.36193761678885 female Providence question 11 7 Eng-NA=null
-6	that	that	det:dem	_	_	9	mark	None MOT Mother	Violet 26.36193761678885 female Providence question 11 7 Eng-NA=null
+5	is	be	aux	_	_	9	cop	None MOT Mother	Violet 26.36193761678885 female Providence question 11 7 Eng-NA=null
+6	that	that	det:dem	_	_	9	nsubj	None MOT Mother	Violet 26.36193761678885 female Providence question 11 7 Eng-NA=null
 7	daddy	daddy	n	_	_	9	nmod:poss	None MOT Mother	Violet 26.36193761678885 female Providence question 11 7 Eng-NA=null
 8	's	's	poss	_	_	7	case	None MOT Mother	Violet 26.36193761678885 female Providence question 11 7 Eng-NA=null
-9	coffee	coffee	n	_	_	5	ccomp	None MOT Mother	Violet 26.36193761678885 female Providence question 11 7 Eng-NA=null
+9	coffee	coffee	n	_	_	1	parataxis	None MOT Mother	Violet 26.36193761678885 female Providence question 11 7 Eng-NA=null
 
 # text = am I doing a good job
 1	am	be	aux	_	_	3	aux	None MOT Mother	Violet 25.32906219840243 female Providence question 8 6 Eng-NA=null
@@ -2061,7 +2061,7 @@
 2	it	it	pro	_	_	5	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence declarative 6 4 Eng-NA=null
 3	's	be	cop	_	_	5	cop	None MOT Mother	Violet 25.32906219840243 female Providence declarative 6 4 Eng-NA=null
 4	all	all	adv	_	_	5	advmod	None MOT Mother	Violet 25.32906219840243 female Providence declarative 6 4 Eng-NA=null
-5	finished	finish	part	_	_	1	ccomp	None MOT Mother	Violet 25.32906219840243 female Providence declarative 6 4 Eng-NA=null
+5	finished	finish	part	_	_	1	parataxis	None MOT Mother	Violet 25.32906219840243 female Providence declarative 6 4 Eng-NA=null
 
 # text = lets color a picture in
 1	lets	let	v	_	_	0	root	None MOT Mother	Violet 24.88757469352553 female Providence declarative 6 5 Eng-NA=null
@@ -2088,7 +2088,7 @@
 
 # text = xxx xxx tough getting up
 1	tough	_	_	_	_	0	root	None MOT Mother	Violet 24.427606316351465 female Providence declarative 4 5 Eng-NA=null
-2	getting	_	_	_	_	1	csubj	None MOT Mother	Violet 24.427606316351465 female Providence declarative 4 5 Eng-NA=null
+2	getting	_	_	_	_	1	advcl	None MOT Mother	Violet 24.427606316351465 female Providence declarative 4 5 Eng-NA=null
 3	up	_	_	_	_	2	compound:prt	None MOT Mother	Violet 24.427606316351465 female Providence declarative 4 5 Eng-NA=null
 
 # text = lets see oh you want to color the witch
@@ -2096,7 +2096,7 @@
 2	see	see	co	_	_	1	xcomp	None MOT Mother	Violet 24.88757469352553 female Providence question 10 9 Eng-NA=null
 3	oh	oh	co	_	_	5	discourse	None MOT Mother	Violet 24.88757469352553 female Providence question 10 9 Eng-NA=null
 4	you	you	pro:per	_	_	5	nsubj	None MOT Mother	Violet 24.88757469352553 female Providence question 10 9 Eng-NA=null
-5	want	want	v	_	_	2	ccomp	None MOT Mother	Violet 24.88757469352553 female Providence question 10 9 Eng-NA=null
+5	want	want	v	_	_	1	parataxis	None MOT Mother	Violet 24.88757469352553 female Providence question 10 9 Eng-NA=null
 6	to	to	prep	_	_	7	mark	None MOT Mother	Violet 24.88757469352553 female Providence question 10 9 Eng-NA=null
 7	color	color	n	_	_	5	xcomp	None MOT Mother	Violet 24.88757469352553 female Providence question 10 9 Eng-NA=null
 8	the	the	det:art	_	_	9	det	None MOT Mother	Violet 24.88757469352553 female Providence question 10 9 Eng-NA=null
@@ -2104,7 +2104,7 @@
 
 # text = is that pretty kitty
 1	is	be	cop	_	_	4	cop	None MOT Mother	Violet 25.32906219840243 female Providence question 5 4 Eng-NA=null
-2	that	that	comp	_	_	4	det	None MOT Mother	Violet 25.32906219840243 female Providence question 5 4 Eng-NA=null
+2	that	that	comp	_	_	4	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence question 5 4 Eng-NA=null
 3	pretty	pretty	adj	_	_	4	amod	None MOT Mother	Violet 25.32906219840243 female Providence question 5 4 Eng-NA=null
 4	kitty	kitty	n	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence question 5 4 Eng-NA=null
 
@@ -2146,13 +2146,13 @@
 # text = you know what we 're gonna go see today
 1	you	_	_	_	_	2	nsubj	None MOT Mother	Violet 26.36193761678885 female Providence question 11 8 Eng-NA=null
 2	know	_	_	_	_	0	root	None MOT Mother	Violet 26.36193761678885 female Providence question 11 8 Eng-NA=null
-3	what	_	_	_	_	6	obj	None MOT Mother	Violet 26.36193761678885 female Providence question 11 8 Eng-NA=null
+3	what	_	_	_	_	9	obj	None MOT Mother	Violet 26.36193761678885 female Providence question 11 8 Eng-NA=null
 4	we	_	_	_	_	6	nsubj	None MOT Mother	Violet 26.36193761678885 female Providence question 11 8 Eng-NA=null
 5	're	_	_	_	_	6	aux	None MOT Mother	Violet 26.36193761678885 female Providence question 11 8 Eng-NA=null
 6	gon	_	_	_	_	2	ccomp	None MOT Mother	Violet 26.36193761678885 female Providence question 11 8 Eng-NA=null
 7	na	_	_	_	_	8	mark	None MOT Mother	Violet 26.36193761678885 female Providence question 11 8 Eng-NA=null
 8	go	_	_	_	_	6	xcomp	None MOT Mother	Violet 26.36193761678885 female Providence question 11 8 Eng-NA=null
-9	see	_	_	_	_	8	xcomp	None MOT Mother	Violet 26.36193761678885 female Providence question 11 8 Eng-NA=null
+9	see	_	_	_	_	8	compound:svc	None MOT Mother	Violet 26.36193761678885 female Providence question 11 8 Eng-NA=null
 10	today	_	_	_	_	9	obl:tmod	None MOT Mother	Violet 26.36193761678885 female Providence question 11 8 Eng-NA=null
 
 # text = the witch might like to hold the little pumpkin
@@ -2222,11 +2222,11 @@
 6	tree	_	_	_	_	2	nsubj	None FAT Father	Violet 24.427606316351465 female Providence declarative 8 6 Eng-NA=null
 
 # text = yeah xxx is gonna sing in a chorus
-1	yeah	yeah	co	_	_	5	discourse	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
-2	xxx	xxx	xxx	_	_	5	nsubj	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
-3	is	go	part	_	_	5	aux	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
-4	gonna	sing	v	_	_	5	mark	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
-5	sing	in	prep	_	_	0	root	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
+1	yeah	yeah	co	_	_	3	discourse	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
+2	is	go	part	_	_	3	aux	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
+3	gon	sing	v	_	_	0	root	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
+4	na	sing	v	_	_	5	mark	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
+5	sing	in	prep	_	_	3	xcomp	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
 6	in	a	det:art	_	_	8	case	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
 7	a	chorus	n	_	_	8	det	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
 8	chorus	_	_	_	_	5	obl	None MOT Mother	Violet 26.36193761678885 female Providence declarative 10 8 Eng-NA=null
@@ -2256,7 +2256,7 @@
 2	wan	want	v	_	_	0	root	None MOT Mother	Violet 26.36193761678885 female Providence question 9 7 Eng-NA=null
 3	na	to	inf	_	_	4	mark	None MOT Mother	Violet 26.36193761678885 female Providence question 9 7 Eng-NA=null
 4	go	go	v	_	_	2	xcomp	None MOT Mother	Violet 26.36193761678885 female Providence question 9 7 Eng-NA=null
-5	hear	hear	v	_	_	4	xcomp	None MOT Mother	Violet 26.36193761678885 female Providence question 9 7 Eng-NA=null
+5	hear	hear	v	_	_	4	compound:svc	None MOT Mother	Violet 26.36193761678885 female Providence question 9 7 Eng-NA=null
 6	the	the	det:art	_	_	8	det	None MOT Mother	Violet 26.36193761678885 female Providence question 9 7 Eng-NA=null
 7	christmas	christmas	n	_	_	8	compound	None MOT Mother	Violet 26.36193761678885 female Providence question 9 7 Eng-NA=null
 8	songs	song	n	_	_	5	obj	None MOT Mother	Violet 26.36193761678885 female Providence question 9 7 Eng-NA=null
@@ -2293,10 +2293,10 @@
 
 # text = do dee do dee doo
 1	do	do_dee_do_dee_doo	sing	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence declarative 1 1 Eng-NA=null
-2	dee	dee	combined	_	_	1	obj	None MOT Mother	Violet 25.62475615515719 female Providence declarative 1 1 Eng-NA=null
-3	do	do	combined	_	_	5	compound	None MOT Mother	Violet 25.62475615515719 female Providence declarative 1 1 Eng-NA=null
-4	dee	dee	combined	_	_	5	compound	None MOT Mother	Violet 25.62475615515719 female Providence declarative 1 1 Eng-NA=null
-5	doo	doo	combined	_	_	1	parataxis	None MOT Mother	Violet 25.62475615515719 female Providence declarative 1 1 Eng-NA=null
+2	dee	dee	combined	_	_	1	conj	None MOT Mother	Violet 25.62475615515719 female Providence declarative 1 1 Eng-NA=null
+3	do	do	combined	_	_	1	conj	None MOT Mother	Violet 25.62475615515719 female Providence declarative 1 1 Eng-NA=null
+4	dee	dee	combined	_	_	1	conj	None MOT Mother	Violet 25.62475615515719 female Providence declarative 1 1 Eng-NA=null
+5	doo	doo	combined	_	_	1	conj	None MOT Mother	Violet 25.62475615515719 female Providence declarative 1 1 Eng-NA=null
 
 # text = you color that star
 1	you	you	pro:per	_	_	2	nsubj	None MOT Mother	Violet 24.88757469352553 female Providence question 4 4 Eng-NA=null
@@ -2368,10 +2368,10 @@
 11	hat	_	_	_	_	9	obj	None MOT Mother	Violet 24.88757469352553 female Providence declarative 11 10 Eng-NA=null
 
 # text = is n't that half of one too
-1	is	be	cop	_	_	0	root	None MOT Mother	Violet 24.88757469352553 female Providence question 8 6 Eng-NA=null
-2	n't	not	neg	_	_	1	advmod	None MOT Mother	Violet 24.88757469352553 female Providence question 8 6 Eng-NA=null
+1	is	be	cop	_	_	4	cop	None MOT Mother	Violet 24.88757469352553 female Providence question 8 6 Eng-NA=null
+2	n't	not	neg	_	_	4	advmod	None MOT Mother	Violet 24.88757469352553 female Providence question 8 6 Eng-NA=null
 3	that	that	pro:dem	_	_	4	nsubj	None MOT Mother	Violet 24.88757469352553 female Providence question 8 6 Eng-NA=null
-4	half	half	n	_	_	1	nsubj	None MOT Mother	Violet 24.88757469352553 female Providence question 8 6 Eng-NA=null
+4	half	half	n	_	_	0	root	None MOT Mother	Violet 24.88757469352553 female Providence question 8 6 Eng-NA=null
 5	of	of	prep	_	_	6	case	None MOT Mother	Violet 24.88757469352553 female Providence question 8 6 Eng-NA=null
 6	one	one	det:num	_	_	4	nmod	None MOT Mother	Violet 24.88757469352553 female Providence question 8 6 Eng-NA=null
 7	too	too	adv	_	_	4	advmod	None MOT Mother	Violet 24.88757469352553 female Providence question 8 6 Eng-NA=null
@@ -2420,7 +2420,7 @@
 # text = you know what we 're gonna have
 1	you	_	_	_	_	2	nsubj	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 9 6 Eng-NA=null
 2	know	_	_	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 9 6 Eng-NA=null
-3	what	_	_	_	_	6	obj	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 9 6 Eng-NA=null
+3	what	_	_	_	_	8	obj	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 9 6 Eng-NA=null
 4	we	_	_	_	_	6	nsubj	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 9 6 Eng-NA=null
 5	're	_	_	_	_	6	aux	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 9 6 Eng-NA=null
 6	gon	_	_	_	_	2	ccomp	None MOT Mother	Violet 25.62475615515719 female Providence self interruption 9 6 Eng-NA=null
@@ -2508,21 +2508,21 @@
 
 # text = hello mickey mouse
 1	hello	hello	co	_	_	0	root	None MOT Mother	Violet 26.36193761678885 female Providence declarative 3 3 Eng-NA=null
-2	mickey	mickey	n	_	_	1	obj	None MOT Mother	Violet 26.36193761678885 female Providence declarative 3 3 Eng-NA=null
-3	mouse	mouse	n	_	_	1	obj	None MOT Mother	Violet 26.36193761678885 female Providence declarative 3 3 Eng-NA=null
+2	mickey	mickey	n	_	_	1	vocative	None MOT Mother	Violet 26.36193761678885 female Providence declarative 3 3 Eng-NA=null
+3	mouse	mouse	n	_	_	2	flat	None MOT Mother	Violet 26.36193761678885 female Providence declarative 3 3 Eng-NA=null
 
 # text = you do n't
-1	you	you	pro:per	_	_	3	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence question 3 2 Eng-NA=null
-2	do	do	mod	_	_	1	aux	None MOT Mother	Violet 25.32906219840243 female Providence question 3 2 Eng-NA=null
-3	n't	not	neg	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence question 3 2 Eng-NA=null
+1	you	you	pro:per	_	_	2	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence question 3 2 Eng-NA=null
+2	do	do	mod	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence question 3 2 Eng-NA=null
+3	n't	not	neg	_	_	2	advmod	None MOT Mother	Violet 25.32906219840243 female Providence question 3 2 Eng-NA=null
 
 # text = what do what do witches have
 1	what	what	pro:int	_	_	2	nsubj	None MOT Mother	Violet 24.88757469352553 female Providence question 7 6 Eng-NA=null
-2	do	do	mod	_	_	0	root	None MOT Mother	Violet 24.88757469352553 female Providence question 7 6 Eng-NA=null
+2	do	do	mod	_	_	6	reparandum:repetition	None MOT Mother	Violet 24.88757469352553 female Providence question 7 6 Eng-NA=null
 3	what	what	pro:int	_	_	6	obj	None MOT Mother	Violet 24.88757469352553 female Providence question 7 6 Eng-NA=null
 4	do	do	v	_	_	6	aux	None MOT Mother	Violet 24.88757469352553 female Providence question 7 6 Eng-NA=null
 5	witches	witch	n	_	_	6	nsubj	None MOT Mother	Violet 24.88757469352553 female Providence question 7 6 Eng-NA=null
-6	have	have	v	_	_	2	ccomp	None MOT Mother	Violet 24.88757469352553 female Providence question 7 6 Eng-NA=null
+6	have	have	v	_	_	0	root	None MOT Mother	Violet 24.88757469352553 female Providence question 7 6 Eng-NA=null
 
 # text = I'll call him and you ask him
 1	I	_	_	_	_	3	nsubj	None MOT Mother	Violet 25.62475615515719 female Providence declarative 8 7 Eng-NA=null
@@ -2631,13 +2631,13 @@
 8	kitty	_	_	_	_	5	obl	None MOT Mother	Violet 25.32906219840243 female Providence declarative 10 6 Eng-NA=null
 
 # text = you gonna wear that like xxx wears it
-1	you	you	pro:per	_	_	3	nsubj	None MOT Mother	Violet 24.427606316351465 female Providence question 10 8 Eng-NA=null
-2	gonna	go	part	_	_	3	aux	None MOT Mother	Violet 24.427606316351465 female Providence question 10 8 Eng-NA=null
-3	wear	wear	v	_	_	0	root	None MOT Mother	Violet 24.427606316351465 female Providence question 10 8 Eng-NA=null
-4	that	that	adv	_	_	3	obj	None MOT Mother	Violet 24.427606316351465 female Providence question 10 8 Eng-NA=null
-5	like	like	prep	_	_	7	mark	None MOT Mother	Violet 24.427606316351465 female Providence question 10 8 Eng-NA=null
-6	xxx	xxx	xxx	_	_	7	nsubj	None MOT Mother	Violet 24.427606316351465 female Providence question 10 8 Eng-NA=null
-7	wears	it	pro:per	_	_	3	advcl	None MOT Mother	Violet 24.427606316351465 female Providence question 10 8 Eng-NA=null
+1	you	you	pro:per	_	_	2	nsubj	None MOT Mother	Violet 24.427606316351465 female Providence question 10 8 Eng-NA=null
+2	gon	go	part	_	_	0	root	None MOT Mother	Violet 24.427606316351465 female Providence question 10 8 Eng-NA=null
+3	na	go	part	_	_	4	mark	None MOT Mother	Violet 24.427606316351465 female Providence question 10 8 Eng-NA=null
+4	wear	wear	v	_	_	2	xcomp	None MOT Mother	Violet 24.427606316351465 female Providence question 10 8 Eng-NA=null
+5	that	that	adv	_	_	4	obj	None MOT Mother	Violet 24.427606316351465 female Providence question 10 8 Eng-NA=null
+6	like	like	prep	_	_	7	mark	None MOT Mother	Violet 24.427606316351465 female Providence question 10 8 Eng-NA=null
+7	wears	it	pro:per	_	_	2	advcl	None MOT Mother	Violet 24.427606316351465 female Providence question 10 8 Eng-NA=null
 8	it	_	_	_	_	7	obj	None MOT Mother	Violet 24.427606316351465 female Providence question 10 8 Eng-NA=null
 
 # text = well that 's a broomstick
@@ -2666,8 +2666,8 @@
 2	color	color	n	_	_	0	root	None MOT Mother	Violet 26.36193761678885 female Providence self interruption 2 2 Eng-NA=null
 
 # text = what color hair should she have
-1	what	what	pro:int	_	_	2	det	None MOT Mother	Violet 24.88757469352553 female Providence question 6 6 Eng-NA=null
-2	color	color	n	_	_	3	compound	None MOT Mother	Violet 24.88757469352553 female Providence question 6 6 Eng-NA=null
+1	what	what	pro:int	_	_	3	det	None MOT Mother	Violet 24.88757469352553 female Providence question 6 6 Eng-NA=null
+2	color	color	n	_	_	3	amod	None MOT Mother	Violet 24.88757469352553 female Providence question 6 6 Eng-NA=null
 3	hair	hair	n	_	_	6	obj	None MOT Mother	Violet 24.88757469352553 female Providence question 6 6 Eng-NA=null
 4	should	should	mod	_	_	6	aux	None MOT Mother	Violet 24.88757469352553 female Providence question 6 6 Eng-NA=null
 5	she	she	pro:sub	_	_	6	nsubj	None MOT Mother	Violet 24.88757469352553 female Providence question 6 6 Eng-NA=null
@@ -2676,7 +2676,7 @@
 # text = you know how to pull it out
 1	you	you	pro:per	_	_	2	nsubj	None MOT Mother	Violet 25.32906219840243 female Providence question 7 7 Eng-NA=null
 2	know	know	v	_	_	0	root	None MOT Mother	Violet 25.32906219840243 female Providence question 7 7 Eng-NA=null
-3	how	how	pro:int	_	_	5	advmod	None MOT Mother	Violet 25.32906219840243 female Providence question 7 7 Eng-NA=null
+3	how	how	pro:int	_	_	5	mark	None MOT Mother	Violet 25.32906219840243 female Providence question 7 7 Eng-NA=null
 4	to	to	inf	_	_	5	mark	None MOT Mother	Violet 25.32906219840243 female Providence question 7 7 Eng-NA=null
 5	pull	pull	v	_	_	2	ccomp	None MOT Mother	Violet 25.32906219840243 female Providence question 7 7 Eng-NA=null
 6	it	it	pro:per	_	_	5	obj	None MOT Mother	Violet 25.32906219840243 female Providence question 7 7 Eng-NA=null
@@ -2693,11 +2693,11 @@
 2	see	see	v	_	_	1	xcomp	None MOT Mother	Violet 24.88757469352553 female Providence question 6 5 Eng-NA=null
 3	maybe	maybe	adv	_	_	5	advmod	None MOT Mother	Violet 24.88757469352553 female Providence question 6 5 Eng-NA=null
 4	red	red	adj	_	_	5	amod	None MOT Mother	Violet 24.88757469352553 female Providence question 6 5 Eng-NA=null
-5	hair	hair	n	_	_	2	obj	None MOT Mother	Violet 24.88757469352553 female Providence question 6 5 Eng-NA=null
+5	hair	hair	n	_	_	1	parataxis	None MOT Mother	Violet 24.88757469352553 female Providence question 6 5 Eng-NA=null
 
 # text = it 's me mama
 1	it	it	pro	_	_	3	nsubj	None MOT Mother	Violet 25.62475615515719 female Providence declarative 4 3 Eng-NA=null
 2	's	be	cop	_	_	3	cop	None MOT Mother	Violet 25.62475615515719 female Providence declarative 4 3 Eng-NA=null
 3	me	me	pro:obj	_	_	0	root	None MOT Mother	Violet 25.62475615515719 female Providence declarative 4 3 Eng-NA=null
-4	mama	mama	n	_	_	3	parataxis	None MOT Mother	Violet 25.62475615515719 female Providence declarative 4 3 Eng-NA=null
+4	mama	mama	n	_	_	3	vocative	None MOT Mother	Violet 25.62475615515719 female Providence declarative 4 3 Eng-NA=null
 

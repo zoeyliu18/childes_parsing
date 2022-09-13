@@ -77,12 +77,11 @@
 4	boom	boom	co	3	xcomp	3	xcomp	Emma CHI Target_Child	Emma 32.033511981765535 female Weist imperative_emphatic 5 4 Eng-NA=null
 
 # text = no it he just fell
-# Re-evaluate
 1	no	no	co	2	discourse	2	discourse	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 5 Eng-NA=null
-2	it	it	pro:per	0	root	5	reparandum:restart	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 5 Eng-NA=null
+2	it	it	pro:per	5	reparandum:restart	5	reparandum:restart	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 5 Eng-NA=null
 3	he	he	pro:sub	5	nsubj	5	nsubj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 5 Eng-NA=null
 4	just	just	adv	5	advmod	5	advmod	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 5 Eng-NA=null
-5	fell	fall	v	2	parataxis	0	root	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 5 Eng-NA=null
+5	fell	fall	v	0	root	0	root	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 5 5 Eng-NA=null
 
 # text = and he fell into the toilet
 1	and	and	coord	3	cc	3	cc	Emma CHI Target_Child	Emma 32.033511981765535 female Weist imperative_emphatic 7 6 Eng-NA=null
@@ -166,7 +165,6 @@
 3	was	be	cop	0	root	0	root	Emma CHI Target_Child	Emma 33.493500893242164 female Weist declarative 5 3 Eng-NA=null
 
 # text = it seem stuck and him get him out
-# Re-evaluate
 1	it	it	pro:per	2	nsubj	2	nsubj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 9 8 Eng-NA=null
 2	seem	seem	cop	0	root	0	root	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 9 8 Eng-NA=null
 3	stuck	stick	v	2	xcomp	2	xcomp	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 9 8 Eng-NA=null
@@ -947,7 +945,7 @@
 1	this	this	det:dem	_	_	2	det	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 7 5 Eng-NA=null
 2	car	car	n	_	_	5	nsubj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 7 5 Eng-NA=null
 3	is	be	cop	_	_	4	reparandum:repetition	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 7 5 Eng-NA=null
-4	is	be	cop	_	_	5	copy	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 7 5 Eng-NA=null
+4	is	be	cop	_	_	5	cop	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 7 5 Eng-NA=null
 5	funny	funny	adj	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist imperative_emphatic 7 5 Eng-NA=null
 
 # text = yes you can
@@ -1416,7 +1414,7 @@
 # text = you tell mommy
 1	you	you	pro:per	_	_	2	nsubj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 3 3 Eng-NA=null
 2	tell	tell	v	_	_	0	root	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 3 3 Eng-NA=null
-3	mommy	mommy	n	_	_	2	obj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 3 3 Eng-NA=null
+3	mommy	mommy	n	_	_	2	iobj	Emma CHI Target_Child	Emma 32.033511981765535 female Weist declarative 3 3 Eng-NA=null
 
 # text = xxx down the slide
 1	down	_	_	_	_	3	case	Emma CHI Target_Child	Emma 33.00067763198423 female Weist declarative 3 4 Eng-NA=null
@@ -1968,9 +1966,9 @@
 6	ones	one	n	_	_	2	nsubj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
 
 # text = and there two
-1	and	and	coord	_	_	2	cc	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 3 3 Eng-NA=null
-2	there	there	adv	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 3 3 Eng-NA=null
-3	two	two	det:num	_	_	2	nsubj	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 3 3 Eng-NA=null
+1	and	and	coord	_	_	3	cc	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 3 3 Eng-NA=null
+2	there	there	adv	_	_	3	expl	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 3 3 Eng-NA=null
+3	two	two	det:num	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 3 3 Eng-NA=null
 
 # text = is there a one for I
 1	is	be	cop	_	_	0	root	Emma CHI Target_Child	Emma 33.00067763198423 female Weist question 7 6 Eng-NA=null
