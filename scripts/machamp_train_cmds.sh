@@ -44,19 +44,19 @@
 
 !python3 train.py --dataset_config ../configs/esl.json --name machamp.esl.1.bert-base-cased --parameters_config ../configs/params.bert-base-cased.json --seed 1
 !python3 train.py --dataset_config ../configs/esl.json --name machamp.esl.1.roberta-base --parameters_config ../configs/params.roberta-base.json --seed 1
-!python3 train.py --dataset_config ../configs/esl.json --name machamp.esl.1.cardiffnlp-esl-roberta-base --parameters_config ../configs/params.cardiffnlp-esl-roberta-base.json --seed 1
+!python3 train.py --dataset_config ../configs/esl.json --name machamp.esl.1.cardiffnlp-twitter-roberta-base --parameters_config ../configs/params.cardiffnlp-esl-roberta-base.json --seed 1
 #!python3 train.py --dataset_config ../configs/esl.json --name machamp.esl.1.microsoft-deberta-v3-base --parameters_config ../configs/params.microsoft-deberta-v3-base.json --seed 1
 #!python3 train.py --dataset_config ../configs/esl.json --name machamp.esl.1.studio-ousia-luke-base --parameters_config ../configs/params.studio-ousia-luke-base.json --seed 1
 
 !python3 train.py --dataset_config ../configs/esl.json --name machamp.esl.2.bert-base-cased --parameters_config ../configs/params.bert-base-cased.json --seed 2
 !python3 train.py --dataset_config ../configs/esl.json --name machamp.esl.2.roberta-base --parameters_config ../configs/params.roberta-base.json --seed 2
-!python3 train.py --dataset_config ../configs/esl.json --name machamp.esl.2.cardiffnlp-esl-roberta-base --parameters_config ../configs/params.cardiffnlp-esl-roberta-base.json --seed 2
+!python3 train.py --dataset_config ../configs/esl.json --name machamp.esl.2.cardiffnlp-twitter-roberta-base --parameters_config ../configs/params.cardiffnlp-esl-roberta-base.json --seed 2
 #!python3 train.py --dataset_config ../configs/esl.json --name machamp.esl.2.microsoft-deberta-v3-base --parameters_config ../configs/params.microsoft-deberta-v3-base.json --seed 2
 #!python3 train.py --dataset_config ../configs/esl.json --name machamp.esl.2.studio-ousia-luke-base --parameters_config ../configs/params.studio-ousia-luke-base.json --seed 2
 
 !python3 train.py --dataset_config ../configs/esl.json --name machamp.esl.3.bert-base-cased --parameters_config ../configs/params.bert-base-cased.json --seed 3
 !python3 train.py --dataset_config ../configs/esl.json --name machamp.esl.3.roberta-base --parameters_config ../configs/params.roberta-base.json --seed 3
-!python3 train.py --dataset_config ../configs/esl.json --name machamp.esl.3.cardiffnlp-esl-roberta-base --parameters_config ../configs/params.cardiffnlp-esl-roberta-base.json --seed 3
+!python3 train.py --dataset_config ../configs/esl.json --name machamp.esl.3.cardiffnlp-twitter-roberta-base --parameters_config ../configs/params.cardiffnlp-esl-roberta-base.json --seed 3
 #!python3 train.py --dataset_config ../configs/esl.json --name machamp.esl.3.microsoft-deberta-v3-base --parameters_config ../configs/params.microsoft-deberta-v3-base.json --seed 3
 #!python3 train.py --dataset_config ../configs/esl.json --name machamp.esl.3.studio-ousia-luke-base --parameters_config ../configs/params.studio-ousia-luke-base.json --seed 3
 

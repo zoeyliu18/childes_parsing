@@ -2908,3 +2908,5 @@
 4	Mummy	and	coord	_	_	0	root	Thomas CHI Target_Child	Thomas 36.72354668473685 male Thomas declarative 5 6 Eng-UK=null
 5	and	Daddy	n:prop	_	_	6	cc	Thomas CHI Target_Child	Thomas 36.72354668473685 male Thomas declarative 5 6 Eng-UK=null
 6	Daddy	_	_	_	_	4	conj	Thomas CHI Target_Child	Thomas 36.72354668473685 male Thomas declarative 5 6 Eng-UK=null
+
+

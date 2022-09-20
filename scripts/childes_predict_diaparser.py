@@ -99,7 +99,7 @@ child = sys.argv[1]
 if not os.path.exists('../predict/diaparser/' + child):
 	os.system('mkdir ../predict/diaparser/' + child)
 
-for file in os.listdir('../data/' + child + '/'):
+for file in os.listdir('../processed_data/' + child + '/'):
 	file_name = file.split('.')[0]
 
 	for treebank in ['ewt', 'twitter', 'esl']:
@@ -108,7 +108,7 @@ for file in os.listdir('../data/' + child + '/'):
 			roberta_model = Parser.load('logs/diaparser.' + treebank + '.' + str(seed) + '.roberta-base')
 			twitter_model = Parser.load('logs/diaparser.' + treebank + '.' + str(seed) + '.cardiffnlp-twitter-roberta-base')
 
-			predict('../data/' + directory + '/' + file, '../predict/diaparser/' + directory, bert_model, 'bert', seed)
-			predict('../data/' + directory + '/' + file, '../predict/diaparser/' + directory, roberta_model, 'roberta', seed)
-			predict('../data/' + directory + '/' + file, '../predict/diaparser/' + directory, twitter_model, 'twitter', seed)
+			predict('../processed_data/' + directory + '/' + file, '../predict/diaparser/' + directory, bert_model, 'bert', seed)
+			predict('../processed_data/' + directory + '/' + file, '../predict/diaparser/' + directory, roberta_model, 'roberta', seed)
+			predict('../processed_data/' + directory + '/' + file, '../predict/diaparser/' + directory, twitter_model, 'twitter', seed)
 
