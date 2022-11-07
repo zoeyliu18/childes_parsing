@@ -138,58 +138,57 @@ for directory in os.listdir('UD_data/'):
 				file_name = file.split('.')[0]
 
 		treebank = ''
-		if 'ewt' in treebank:
+		if 'EWT' in directory:
 			treebank = 'ewt'
-		if 'twitter' in treebank:
+		if 'Twitter' in directory:
 			treebank = 'twitter'
-		if 'esl' in treebank:
+		if 'ESL' in directory:
 			treebank = 'esl'
 
 		for parser in ['diaparser', 'machamp']:
-			for emb in in ['bert-base-cased', 'roberta-base', 'cardiffnlp-twitter-roberta-base']:
+			for emb in ['bert-base-cased', 'roberta-base', 'cardiffnlp-twitter-roberta-base']:
 				macro_uas = []
 				macro_las = []
 				micro_uas = []
 				micro_las = []
 
 				for seed in [1, 2, 3]:
-					pred_file = parser + '/predict/' + directory + '/' + file_name + '.' + parser + '.' + treebank + '.' + str(seed) + '.' + emb
-					evaluate_reslts = evaluate(gold_file, pred_file)
-					macro_uas.append(evaluate_results[0])
-					macro_las.append(evaluate_results[1])
-					micro_uas.append(evaluate_results[2])
-					micro_las.append(evaluate_results[3])
-
-					f.write('\t'.join(str(w) for w in [directory, parser, emb, statistics.mean(macro_uas), statistics.mean(macro_las), statistics.mean(micro_uas), statistics.mean(micro_las)]) + '\n')
-
-		uniparse_macro_uas = []
-		uniparse_macro_las = []
-		uniparse_micro_uas = []
-		uniparse_micro_las = []
-
+					try:
+						pred_file = parser + '/predict/' + directory + '/' + file_name + '.' + parser + '.' + treebank + '.' + str(seed) + '.' + emb
+						evaluate_results = evaluate(gold_file, pred_file)
+						macro_uas.append(evaluate_results[0])
+						macro_las.append(evaluate_results[1])
+						micro_uas.append(evaluate_results[2])
+						micro_las.append(evaluate_results[3])
+					except:
+						macro_uas.append(0)
+						macro_las.append(0)
+						micro_uas.append(0)
+						micro_las.append(0)
+						print(parser + '/predict/' + directory + '/' + file_name + '.' + parser + '.' + treebank + '.' + str(seed) + '.' + emb)
+				f.write('\t'.join(str(w) for w in [directory, parser, emb, round(statistics.mean(macro_uas), 2), round(statistics.mean(macro_las), 2), round(statistics.mean(micro_uas), 2), round(statistics.mean(micro_las), 2)]) + '\n')
+				print(round(statistics.mean(macro_las), 2))
 		uuparser_macro_uas = []
 		uuparser_macro_las = []
 		uuparser_micro_uas = []
 		uuparser_micro_las = []
 
 		for seed in [1, 2, 3]:
-			uniparse_pred_file = 'uniparse/predict/' + directory + '/' + file_name + '.uniparse.' + str(seed)
-			uniparse_evaluate = evaluate(gold_file, uniparse_pred_file)
-			uniparse_macro_uas.append(uniparse_evaluate[0])
-			uniparse_macro_las.append(uniparse_evaluate[1])
-			uniparse_micro_uas.append(uniparse_evaluate[2])
-			uniparse_micro_las.append(uniparse_evaluate[3])
+			try:
+				uuparser_pred_file = 'uuparser/predict/' + str(seed) + '/' + treebank_map[directory] + '/' + treebank_map[directory] + '.conllu' 
+				uuparser_evaluate = evaluate(gold_file, uuparser_pred_file)
+				uuparser_macro_uas.append(uuparser_evaluate[0])
+				uuparser_macro_las.append(uuparser_evaluate[1])
+				uuparser_micro_uas.append(uuparser_evaluate[2])
+				uuparser_micro_las.append(uuparser_evaluate[3])
+			except:
+				uuparser_macro_uas.append(0)
+				uuparser_macro_las.append(0)
+				uuparser_micro_uas.append(0)
+				uuparser_micro_las.append(0)
+				print('uuparser/predict/' + str(seed) + '/' + treebank_map[directory] + '/' + treebank_map[directory] + '.conllu')
 
-			uuparser_pred_file = 'uuparser/predict/' + str(seed) + '/' + treebank_map[directory] + '/' + treebank_map[directory] + '.conllu' 
-			uuparser_evaluate = evaluate(gold_file, uuparser_pred_file)
-			uuparser_macro_uas.append(uuparser_evaluate[0])
-			uuparser_macro_las.append(uuparser_evaluate[1])
-			uuparser_micro_uas.append(uuparser_evaluate[2])
-			uuparser_micro_las.append(uuparser_evaluate[3])
-
-
-		f.write('\t'.join(str(w) for w in [directory, 'uniparse', 'NONE', statistics.mean(uniparse_macro_uas), statistics.mean(uniparse_macro_las), statistics.mean(uniparse_micro_uas), statistics.mean(uniparse_micro_las)]) + '\n')
-		f.write('\t'.join(str(w) for w in [directory, 'uuparser', 'NONE', statistics.mean(uuparser_macro_uas), statistics.mean(uuparser_macro_las), statistics.mean(uuparser_micro_uas), statistics.mean(uuparser_micro_las)]) + '\n')
+		f.write('\t'.join(str(w) for w in [directory, 'uuparser', 'NONE', round(statistics.mean(uuparser_macro_uas), 2), round(statistics.mean(uuparser_macro_las), 2), round(statistics.mean(uuparser_micro_uas), 2), round(statistics.mean(uuparser_micro_las), 2)]) + '\n')
 
 
 		
